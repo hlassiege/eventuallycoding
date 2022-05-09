@@ -39,6 +39,8 @@
 </template>
 
 <script>
+import siteMetaInfo from "@/data/sitemetainfo";
+
 export default {
   async asyncData({$content, params, route}) {
     const tags = await $content("articles", {deep: true}, params.slug)
@@ -58,7 +60,7 @@ export default {
     });
     allTags.sort()
 
-    const articles = await $content("articles", {deep: true}, params.slug)
+    let looker = $content("articles", {deep: true}, params.slug)
       .only([
         "title",
         "description",
@@ -70,25 +72,29 @@ export default {
         "draft",
         "path",
       ])
-      .sortBy("date", "desc")
-      .fetch();
+      .sortBy("date", "desc");
+    if (route.query.search) {
+      looker = looker.search(route.query.search);
+    }
+
+    const articles = await looker.fetch();
 
     return {
       articles, allTags
     };
   },
   head: {
-    title: "Md Solaiman | Blogs",
+    title: siteMetaInfo.title,
     meta: [
-      {charset: "utf-8"},
-      {name: "viewport", content: "width=device-width, initial-scale=1"},
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Its Solaiman's Pen and Paper to write ",
+        content: siteMetaInfo.description,
       },
     ],
-    link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 };
 </script>

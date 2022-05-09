@@ -49,7 +49,7 @@ export default {
   methods: {
     formatDate(date) {
       return new Date(date).toLocaleDateString("fr", {
-        weekday: 'long', year: 'numeric', month: 'long',
+        weekday: 'short', year: 'numeric', month: 'short',
         day: 'numeric'
       });
     },
