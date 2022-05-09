@@ -1,3 +1,13 @@
+const createSitemapRoutes = async () => {
+  let routes = [];
+  const { $content } = require('@nuxt/content')
+  const articles = await $content('articles', {deep: true}).fetch();
+  for (const post of articles) {
+    routes.push(`${post.path.replace("articles/", "")}`);
+  }
+  return routes;
+}
+
 export default {
 
   // Target: https://go.nuxtjs.dev/config-target
@@ -39,7 +49,12 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxt/content", "@nuxtjs/svg", "@nuxt/image", '@nuxtjs/redirect-module'],
+  modules: ["@nuxt/content", "@nuxtjs/svg", "@nuxt/image", '@nuxtjs/redirect-module', '@nuxtjs/sitemap'],
+  sitemap: {
+    hostname: 'https://eventuallycoding.com',
+    gzip: true,
+    routes: createSitemapRoutes
+  },
   redirect: [
     {
       from: '(?!^\/$|^\/[?].*$)(.*\/[?](.*)$|.*\/$)',

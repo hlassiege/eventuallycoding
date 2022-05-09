@@ -13,20 +13,22 @@
         src="/images/post-anonymous.jpg"
         alt=""
       />
-
+    </a>
       <div class="p-2">
         <div class="text-xs text-slate-400 left-2">
           {{ formatDate(postDate)}}
         </div>
         <h5 class="text-lg font-bold ">
+          <a class="overflow-hidden " :href="postLink">
           {{ postTitle }}
+          </a>
         </h5>
 
         <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1 ">
           <span v-for="tag in tags" :key="tag" class="m-1 leading-loose text-pink-400 border border-current lowercase px-2 rounded font-medium">{{tag}}</span>
         </p>
       </div>
-    </a>
+
 
 
   </div>
