@@ -2,6 +2,18 @@
   <div class="flex flex-col items-start sm:flex-row pt-12 bg-slate-100">
     <aside class="hidden px-6 py-6 space-y-8 sm:block w-[200px]" aria-label="Sidebar">
       <div class="">
+
+        <div v-if="currentTag">
+          <h3 class="text-lg font-medium text-gray-700">
+            Filter:
+          </h3>
+        </div>
+
+        <div v-if="currentTag" class="mt-8 mb-8 flex px-3 py-1 text-left text-slate-600 flex items-stretch text-sm transition duration-150 ease-out border border-gray-700 outline-none group lg:hover:border-gray-400">
+        {{ currentTag }}
+        </div>
+
+
         <div>
           <h3 class="text-lg font-medium text-gray-700">
             Tags :
@@ -44,6 +56,12 @@
 import siteMetaInfo from "@/data/sitemetainfo";
 
 export default {
+  data() {
+    return {
+      currentTag : this.$route.query.tag
+    }
+  },
+
   async asyncData({$content, params, route}) {
     const tags = await $content("articles", {deep: true}, params.slug)
       .only([
