@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Bruno Ace';
+  src: url('assets/fonts/BrunoAce-Regular.woff') format("woff");
+}
+
+.font-bruno {
+  font-family: 'Bruno Ace', sans-serif;
+}

@@ -1,0 +1,6 @@
+@import "assets/css/fonts.css";
+
+
+.nuxt-link-exact-active {
+  @apply text-blue-500;
+}
