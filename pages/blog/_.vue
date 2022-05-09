@@ -31,7 +31,7 @@
       :src="article.image"
     />
 
-    <nuxt-content class="prose min-w-full p-10 mx-auto" :document="article" />
+    <nuxt-content class="prose lg:prose-xl min-w-full p-10 mx-auto" :document="article" />
   </div>
 </template>
 <script>
