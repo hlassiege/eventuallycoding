@@ -19,6 +19,7 @@ const siteMetaInfo = {
   stackoverflow: "#",
   youtube: "#",
   linkedin: "https://www.linkedin.com/in/hugolassiege/",
+  rss: "/feed/rss.xml",
 };
 
 export default siteMetaInfo;

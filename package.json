@@ -11,6 +11,7 @@
   "dependencies": {
     "@agentofuser/remark-oembed": "^1.0.4",
     "@nuxt/content": "^1.15.1",
+    "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/redirect-module": "^0.3.1",
     "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/typography": "^0.5.2",
