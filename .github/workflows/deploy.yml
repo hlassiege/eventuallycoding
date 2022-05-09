@@ -1,0 +1,28 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build Frontend
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.13.2'
+      - run: npm install
+      - run: npm run generate
+
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: cloudflare
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
