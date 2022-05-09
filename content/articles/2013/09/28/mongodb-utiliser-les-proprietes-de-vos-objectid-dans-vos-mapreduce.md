@@ -6,7 +6,7 @@ categories:
 tags: 
   - "mapreduce"
   - "mongodb"
-img: "objectid-300x57.png"
+img: "objectid.png"
 ---
 
 Je vous propose de voir deux fonctionnalités plutôt pratiques de [MongoDB](http://www.mongodb.org/) dans ce billet. D’une part je vais vous parler de certaines propriétés très intéressantes des [ObjectId](http://docs.mongodb.org/manual/reference/object-id/), la classe qu’utilise MongoDB pour générer les identifiants de vos entités, et ensuite je vais vous montrer comment utiliser cette propriété dans un exemple tout simple avec un MapReduce.
@@ -35,8 +35,6 @@ Comme MongoDB privilégie avant tout la scalabilité, ces identifiants ne sont p
 
 Ces identifiants doivent donc être “à priori uniques” sans avoir besoin d’un mécanisme complexe de synchronisation avec le serveur.
 
- 
-
 Pour cela MongoDB utilise les ObjectId qui contiennent un identifiant sur 12 bytes.
 
 - 4 bytes qui représentent le timestamp courant (nombre de secondes depuis epoch)
@@ -44,7 +42,7 @@ Pour cela MongoDB utilise les ObjectId qui contiennent un identifiant sur 12 byt
 - 2 bytes pour représenter l’identifiant du processus
 - 3 bytes qui représentent un compteur qui démarre à un numéro aléatoire
 
-[![objectid](/images/objectid-300x57.png)](http://eventuallycoding.com/wp-content/uploads/2013/09/0befd-objectid.png)
+![](/images/objectid.png)
 
 Cet ObjectId a donc une propriété très intéressante, il contient automatiquement la date de création de votre entité !
 
@@ -58,11 +56,7 @@ ISODate("2013-09-28T16:19:28Z")
 
 Et si nous utilisions cette propriété pour obtenir quelques statistiques ?
 
- 
-
 ## MapReduce
-
- 
 
 Les algorithmes de MapReduce permettent de traiter des données en découpant votre problème initial en plusieurs sous-problèmes.
 
@@ -151,16 +145,16 @@ Tout d’abord nous allons créer une fonction map qui va émettre des clés qui
 
 Il faut voir cette fonction comme l’équivalent du GROUP BY YEAR(created), MONTH(created) fait précédemment :
 
-map = function() {
-var key = {   y : this.\_id.getTimestamp().getFullYear(),
-         m : this.\_id.getTimestamp().getMonth()+1   };
-emit(key,1);
+map = function() { 
+var key = {   y : this.\_id.getTimestamp().getFullYear(),   
+         m : this.\_id.getTimestamp().getMonth()+1   };  
+emit(key,1); 
 }
 
 Ensuite la fonction reduce qui se contentent de faire une somme, l’équivalent de notre SELECT count(ID) :
 
-reduce = function(key, values) {
-return Array.sum(values);
+reduce = function(key, values) { 
+return Array.sum(values); 
 }
 
 Et enfin l’application de la commande :
@@ -181,7 +175,7 @@ On remarque très rapidement que recalculer systématiquement pour les mois pass
 
 Pour cela, il vous suffit d’appliquer deux options supplémentaires à votre commande :
 
-db.accounts.mapReduce( map , reduce , {
+db.accounts.mapReduce( map , reduce , { 
 out : { merge: "account\_stats" },
 query : { \_id: { $gt: objectIdWithTimestamp(2013/09/01') } },
 } )
@@ -219,7 +213,5 @@ function objectIdWithTimestamp(timestamp)
 Et voila, vous avez désormais un mapreduce incrémental. On remarquera quand même que l'utilisation d'une date aurait malgré tout simplifié l'écriture de la query de filtrage mais nous nous en sommes sortis sans champ "created".
 
 Et c’est terminé. Nous aurions pu voir encore de multiples choses, comment lancer un MapReduce en Java ou comment faire la même chose avec le framework d’aggrégation de MongoDB. Peut-être une autre fois.
-
- 
 
 Ou bien vous pouvez aussi me contacter pour [une formation sur MongoDB](http://www.lateral-thoughts.com/formations/formation-mongodb) si jamais ça vous intéresse ;)

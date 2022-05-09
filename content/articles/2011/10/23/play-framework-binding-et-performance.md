@@ -14,11 +14,18 @@ Après avoir bataillé un bon moment avec les performances sur la page d’impor
 Ce type de binding est excessivement utile dans la majorité des cas. Prenons par exemple le bout de template suivant :
 
     #{list items:results, as:'result' }
-
+       
+       
+       
+       
     #{/list}
 
 Ceci va vous créer dans votre page html une suite d’élément html comme suit :
 
+          
+        
+        
+        
                …..........
 
 Pour traiter ensuite ce résultat dans votre contrôleur, il ne vous reste plus qu’à déclarer :
@@ -36,7 +43,7 @@ De mon côté j’ai rencontré un cas où la taille de ma collection était de 
 Prenons la méthode d’un contrôleur comme suit :
 
     public static void process(Listresults)     {
-
+     
           for (ImportBean importBean : results)
           {
               await(doSomething());
@@ -53,7 +60,10 @@ J’ai donc soupçonné le binding effectué par Play. Même si j’avoue ne pas
 J’ai remplacé
 
     #{list items:results, as:'result' }
-
+       
+       
+       
+       
     #{/list}
 
 par

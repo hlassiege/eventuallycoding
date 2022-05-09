@@ -18,7 +18,9 @@ Et c'est un sujet épineux car pour beaucoup de boîtes un évolution de carriè
 
 En 2009 Nicolas Martignole avait sorti [un bon billet](http://www.touilleur-express.fr/2009/07/27/senior/) sur l'évolution de carrière dans le monde tech et la quasi inéluctabilité de basculer vers le management passé 30 ans. Rien que le titre posait la question, peut on être "_Développeur après 31 ans ?_"
 
-\[caption id="attachment\_1405" align="aligncenter" width="720"\][![Evolution-Of-Software-Engineer](/images/45b7f-evolution-of-software-enfineer.jpg)](http://eventuallycoding.com/wp-content/uploads/2019/04/45b7f-evolution-of-software-enfineer.jpg) source : http://www.mirchu.net/photos/evolution-of-software-engineer/\[/caption\]
+[![Evolution-Of-Software-Engineer](/images/45b7f-evolution-of-software-enfineer.jpg)](http://eventuallycoding.com/wp-content/uploads/2019/04/45b7f-evolution-of-software-enfineer.jpg)
+
+source : http://www.mirchu.net/photos/evolution-of-software-engineer/
 
 Mais la situation a un peu changé, le marché a gagné en maturité. On trouve de plus en plus de "seniors" en entreprise.
 

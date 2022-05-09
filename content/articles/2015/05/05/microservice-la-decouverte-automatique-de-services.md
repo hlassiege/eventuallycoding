@@ -134,8 +134,9 @@ Vous noterez donc que 3 services sont enregistrés car le serveur et le client s
 
 Et vous avez un nouvel endpoint http://localhost:8761/eureka/apps/ qui vous donne la liste des services enregistrés ainsi que toutes les instances de fournisseur déclarés. Par exemple pour moi ici :
 
+  
     SERVICE1
-
+    
       hugo\_pro
       SERVICE1
       192.168.50.1
@@ -144,16 +145,18 @@ Et vous avez un nouvel endpoint http://localhost:8761/eureka/apps/ qui vous donn
       8081
       443
       1
-
+      
         MyOwn
-
+      
+      
         10
         90
         1430824522750
         1430824522750
         0
         1430824492689
-
+      
+      
       http://hugo\_pro:8081/
       http://hugo\_pro:8081/info
       http://hugo\_pro:8081/health
@@ -162,5 +165,7 @@ Et vous avez un nouvel endpoint http://localhost:8761/eureka/apps/ qui vous donn
       1430824522750
       1430824522656
       ADDED
+    
+  
 
 Voilà, nous avons fait une petite introduction à Eureka. Pour l'instant nous allons en rester là mais nous allons voir par la suite comment combiner Eureka et Zuul pour faire du loadbalancing. Puis nous verrons comment utiliser Eureka pour faire des appels Rest. C'est loin d'être fini :)

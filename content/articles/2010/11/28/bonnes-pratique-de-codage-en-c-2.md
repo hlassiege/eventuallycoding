@@ -6,7 +6,7 @@ categories:
 tags: 
   - "csharp"
   - "testunitaire"
-img: "bad.png"
+img: "linkext7.gif"
 ---
 
 Dans la lignée d'un [billet précédent](http://localhost/localweb/wordpress/?p=144 "Introduction aux tests unitaires et aux bouchons en C#") qui constituait une introduction aux tests unitaires en C#, voici un autre billet orienté "bonnes pratiques de codage" toujours en C#.
@@ -24,11 +24,7 @@ Les deux principes généraux pour une bonne testabilité :
 
 Symptômes d'un code intestable :
 
-![bad](/images/bad.png)
-
 Symptômes d'un code testable :
-
-![good](/images/good.png)
 
 # Constructeur couteux
 
@@ -187,7 +183,8 @@ Les instanciations (via l'opérateur new) comme dans l'exemple suivant peuvent �
 Dictionnaire dico = new Dictionnaire ();
 ...
 
-Ici on créé un couplage fort avec l'implémentation du dictionnaire. Si celui-ci établit une connexion à la base de données, le code devient intestable.
+Ici on créé un couplage fort avec l'implémentation du dictionnaire.  
+Si celui-ci établit une connexion à la base de données, le code devient intestable.
 
 ## Solution
 
@@ -220,7 +217,8 @@ L'intérêt des Frameworks, entre autre, par rapport à une factory classique, c
 
 ## Problématique
 
-L'utilisation de bloc statique est impossible en C# donc ce paragraphe n'est pas applicable. Cependant en C# on peut avoir des constructeurs statiques.
+L'utilisation de bloc statique est impossible en C# donc ce paragraphe n'est pas applicable.  
+Cependant en C# on peut avoir des constructeurs statiques.
 
 class SimpleClass
 {
@@ -310,8 +308,6 @@ En fait, selon le principe de Liskov :
 
 Ci-dessous un hiérarchie de classe :
 
-![hierarchy](/images/hierarchy.png)
-
 Un compte peut être spécialisé en compte courant ou compte epargne. Un compte hérite des méthodes liées aux objets sécurisées et sauvegardable.
 
 Outre les problèmes inhérents à cette modélisation :
@@ -326,7 +322,8 @@ Outre les problèmes inhérents à cette modélisation :
 Exemple :
 
 - Pour tester un compte, je dois configurer une connexion à la base de données car EntiteSauvegardable s'initialise à partir d'une connexion
-- La sécurisation nécessite l'accès à une ressource Active Directory etc...
+- La sécurisation nécessite l'accès à une ressource Active Directory  
+    etc...
 
 **En instanciant un objet Compte, je suis fortement couplé avec les objets dont il hérite.**
 
@@ -350,7 +347,7 @@ public class Compte
 
 En injectant un bouchon pour ISecureEntity, mon Compte est testable en isolation.
 
-<table><colgroup><col width="24"> <col></colgroup><tbody><tr><td valign="top"><img src="/images/information.gif" border="0" alt="" width="16" height="16" align="absmiddle"></td><td>L'exemple ci-dessus bénéficierait sans doute encore plus d'une véritable séparation des responsabilités. Le compte ne devrait pas être responsable de la façon dont il est sauvé, ou sécurisé.</td></tr></tbody></table>
+<table><colgroup><col width="24"> <col> </colgroup><tbody><tr><td valign="top"><img src="/images/information.gif" alt="" width="16" height="16" align="absmiddle" border="0"></td><td>L'exemple ci-dessus bénéficierait sans doute encore plus d'une véritable séparation des responsabilités. Le compte ne devrait pas être responsable de la façon dont il est sauvé, ou sécurisé.</td></tr></tbody></table>
 
 # Des états globaux
 
@@ -411,7 +408,8 @@ public class Compteur
 
 Vous avez encapsulé le comportement de votre compteur dans un objet compteur, lui-même pourra être injecté dans les classes qui l'utilisent.
 
-Ainsi, dans un contexte de production vous utiliserez un singleton et garantirez donc que votre état reste global à l'application. Si par exemple vous utilisez spring.Net, vous utiliserez des singletons :
+Ainsi, dans un contexte de production vous utiliserez un singleton et garantirez donc que votre état reste global à l'application.  
+Si par exemple vous utilisez spring.Net, vous utiliserez des singletons :
 
 Et dans un contexte de production, vous pourrez injecter une nouvelle instance de compteur pour chaque test.
 
@@ -450,7 +448,8 @@ Solution
 
 De façon générale, l'injection de dépendance permet d'éviter l'utilisation des annuaires.
 
-Cependant si l'utilisation d'un annuaire est nécessaire, l'injection de l'annuaire est préférable à l'instanciation directe. Dans le premier exemple, se faire injecter un IApplicationContext permet d'être indépendant de l'implémentation et donc de fournir à l'annuaire nos propres services.
+Cependant si l'utilisation d'un annuaire est nécessaire, l'injection de l'annuaire est préférable à l'instanciation directe.  
+Dans le premier exemple, se faire injecter un IApplicationContext permet d'être indépendant de l'implémentation et donc de fournir à l'annuaire nos propres services.
 
 # Trop d'intermédiaire
 
@@ -587,11 +586,12 @@ public void TraiterListeCommande()
 
 # Conclusion
 
-Comme vu ci-dessus, la testabilité va souvent de pair avec une bonne conception objet. Une bonne conception permet une bonne modularité et une grande souplesse, tout ce qui est nécessaire à la testabilité.
+Comme vu ci-dessus, la testabilité va souvent de pair avec une bonne conception objet.  
+Une bonne conception permet une bonne modularité et une grande souplesse, tout ce qui est nécessaire à la testabilité.
 
 C'est d'ailleurs parce que la testabilité impose une programmation plus rigoureuse que certaines méthodes de développement impose d'écrire les tests en premiers (Voir [TDD![](/images/linkext7.gif)](http://fr.wikipedia.org/wiki/Test_Driven_Development))
 
-<table width="36"><tbody><tr><td valign="top"></td><td></td></tr></tbody></table>
+<table width="36"><tbody><tr><td valign="top">&nbsp;</td><td>&nbsp;</td></tr></tbody></table>
 
 Sur un code ancien n'ayant pas été conçu pour être testable, l'application des solutions ci-dessus permet de rendre progressivement testable le logiciel.
 

@@ -46,7 +46,7 @@ Lorsque vous avez une association entre deux objets, vous avez plusieurs choix :
 
 Prenons un exemple :
 
-db.articles.findOne()
+db.articles.findOne() 
 {
   '\_id' : 1,
   'title' : 'Mongeez',
@@ -56,7 +56,7 @@ db.articles.findOne()
 
 Cette modélisation ne sera pas traité de la même façon dans votre code applicatif que celle-ci :
 
-db.articles.findOne()
+db.articles.findOne() 
 {
  '\_id' : 1,
  'title' : 'Mongeez',

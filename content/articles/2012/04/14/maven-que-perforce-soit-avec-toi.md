@@ -7,10 +7,14 @@ tags:
   - "maven"
   - "nexus"
   - "perforce"
-img: "170x170-751-150x150.jpg"
+img: "ps-kztpdvdc-170x170-751.jpg"
 ---
 
-[![](/images/ps.kztpdvdc.170x170-751-150x150.jpg "ps.kztpdvdc.170x170-75")](http://eventuallycoding.com/wp-content/uploads/2012/04/ps-kztpdvdc-170x170-751.jpg)J'ai un peu galéré dernièrement pour configurer correctement Perforce avec Maven et notamment le plugin Maven release. Je vous propose donc un petit billet sur le sujet. Bref, ça va parler de release avec maven, de déploiement sur Nexus et  de label perforce. Tout un programme.
+![](/images/ps-kztpdvdc-170x170-751.jpg "ps.kztpdvdc.170x170-75")
+
+J'ai un peu galéré dernièrement pour configurer correctement Perforce avec Maven et notamment le plugin Maven release. Je vous propose donc un petit billet sur le sujet.  
+Bref, ça va parler de release avec maven, de déploiement sur Nexus et  de label perforce.  
+Tout un programme.
 
 Tout d'abord petit rappel, si vous avez la chance de ne pas connaitre Perforce (sic...), il s'agit d'un gestionnaire de source tout comme peut l'être Subversion, Git ou Mercurial. Enfin "tout comme peut l'être", faut le dire vite... Je passerais rapidement sur l’outil en lui-même car je l’utilise contraint et forcé.
 
@@ -63,17 +67,25 @@ Ouf, on a de la chance, le plugin maven-release supporte Perforce
 
 ## Perforce
 
-Prérequis : p4 doit être disponible en ligne de commande vous devez avoir certaines variables disponibles en variable d’environnement
+Prérequis :  
+p4 doit être disponible en ligne de commande  
+vous devez avoir certaines variables disponibles en variable d’environnement
 
 Les variables nécessaires pour Perforce peuvent être sous forme de variable d’environnement, ou bien écrites dans un fichier p4.ini à la racine de votre dépot. Le fichier doit contenir les informations suivantes :
 
-P4PORT=perforce:1992 P4CHARSET=utf16le-bom P4COMMANDCHARSET=winansi P4CLIENT=hlassiege\_1992 P4USER=v-hlassiege P4PASSWORD=\*\*\*\*
+P4PORT=perforce:1992  
+P4CHARSET=utf16le-bom  
+P4COMMANDCHARSET=winansi  
+P4CLIENT=hlassiege\_1992  
+P4USER=v-hlassiege  
+P4PASSWORD=\*\*\*\*
 
 Posez pas de question sur l’encodage, ca fait partie des merveilles de Perforce...
 
 ## Maven
 
-Côté Maven, il vous faut quelque configuration dans votre pom.xml. La balise scm :
+Côté Maven, il vous faut quelque configuration dans votre pom.xml.  
+La balise scm :
 
 scm:perforce:myHost:1992://depot/poms-parent/main
 scm:perforce:myHost:1992://depot/poms-parent/main

@@ -53,8 +53,8 @@ $ fab -H localhost,linuxbox host\_type
 \[localhost\] out: Darwin
 \[linuxbox\] run: uname -s
 \[linuxbox\] out: Linux
-Done.
-Disconnecting from localhost... done.
+Done. 
+Disconnecting from localhost... done. 
 Disconnecting from linuxbox... done.
 
 La même chose avec un script shell :

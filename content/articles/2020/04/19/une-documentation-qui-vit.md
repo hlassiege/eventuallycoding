@@ -12,17 +12,13 @@ img: "image-2.png"
 Et si on parlait documentation ?  
 La documentation c'est un peu le sujet maudit et polémique dans les équipes tech. Entre ceux qui en font trop, ceux qui n'en font pas assez ou pas du tout. Est-ce que même parler de "faire de la doc" sur un blog technique c'est pas un peu... un troll ? :)
 
-![TrollFace meme, c'est quoi? Origine d'un phénomène web > Web & Tech](/images/image-2.png)
+[![Troll face](/images/image-2.png)](https://eventuallycoding.com/wp-content/uploads/2020/04/image-2.png)
 
 J'ai connu des périodes assez variées d'un point de vue personnel concernant les pratiques documentaires que je vous propose de passer en revue.
 
 ## Une indigestion de doc
 
 J'ai commencé dans une ESN/Société de Service/Marchand... C'était il y a maintenant presque 20 ans, la documentation était très carré. Je faisais partie d'une société qui pouvait se vanter d'être certifié avec des labels à n'en plus finir et de bosser elle même pour des clients certifiés également.
-
-![wibas Team CMMI-ITIL IT Maturity S e r v i c e s - PDF Free Download](/images/page_13.jpg)
-
-La simplicité à l'état pur
 
 Je ne vais pas dire que c'était 100% efficace mais ça avait le mérite d'être très méthodique. On passait de l'expression du besoin, aux spécifications fonctionnelles, puis aux specs techniques, aux cahier de recettes etc… Tout était précis, carré, pénible. Pour chaque nouvelle version du logiciel on livrait également un bordereau de livraison listant l'ensemble des documentations ayant changé. Et chaque doc était relivrée en mode relecture. La doc était un livrable, testé, comme le reste. Chaque doc avait un acronyme particulier. Par exemple STBL, EB etc… et possédait un versionning très précis (que j'ai oublié). On pouvait avoir des anomalies documentaires, pour lesquelles on recherchait les causes racines qui parfois se retrouvait dans l'expression de besoin cliente. Ce qui donnait lieu à des discussions pleines de joie et de bonheur.
 
@@ -35,10 +31,6 @@ C'était en 2002. Un an plus tôt des personnes formalisaient ce qu'on appelle l
 
 - un logiciel fonctionnel plutôt qu’une documentation complète
 - s'adapter aux changements plutôt que suivre le plan
-
-![La Cène (Léonard de Vinci) — Wikipédia](/images/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg)
-
-La signature de la charte vu par les coachs agiles
 
 En gros si je caricature, faites moins de plan et de doc, voyez-vous plus souvent avec vos utilisateurs, montrez leur votre avancement et avancez pas à pas avec lui.
 
@@ -79,7 +71,7 @@ Quelques exemples :
 
 Pour cela nous avons utilisé [qdox](https://github.com/paul-hammant/qdox) et quelques outils de parsing maison pour du json, js etc…
 
-![](/images/image.png)
+[![](/images/doc-emails.png)](https://eventuallycoding.com/wp-content/uploads/2022/05/doc-emails.png)
 
 Nous avons cependant une limitation actuellement : nous avons une base de code Kotlin qui est de plus en plus importante et ce code n'est pas couvert par qdox. Il faut que nous trouvions un remplaçant pour Kotlin. Si vous avez, je suis preneur.
 
@@ -101,8 +93,6 @@ J'ai écarté les solutions qui sont surtout des boites à outils pour construir
 
 A la fin j'ai donc sélectionné Antora : [https://antora.org/](https://antora.org/)
 
-![Antora / Antora · GitLab](/images/antora-gitlab.png)
-
 Pour résumer les points qui m'ont convaincu :
 
 - support de [asciidoctor](https://asciidoctor.org/)
@@ -119,7 +109,7 @@ En terme de construction de la doc, nous lancons un build sur la CI :
 
 Et voila ce que ca donne grosso modo :
 
-![](/images/image-1.png)
+[![](/images/doc-result.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/05/doc-result.jpg)
 
 En terme de résultat nous avons donc des pages de documentation qui sont générés depuis le code et des pages rédigées.  
 Les pages rédigées doivent rester méta (principe de fonctionnement, explication de choix, vision prospective etc…) pour avoir le moins de chance possible de ne pas être à jour avec un code qu'elles décriraient.

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "csharp"
   - "testunitaire"
-img: "Profile_of_a_C_Sharp_Program.gif"
+img: ""
 ---
 
 Par définition (Cf. [Wikipédia](http://fr.wikipedia.org/wiki/Test_unitaire) ) un test unitaire est un procédé permettant de s'assurer du fonctionnement correct d'une partie déterminée d'un logiciel ou d'une portion d'un programme (appelée « unité » ou « module »).
@@ -54,8 +54,6 @@ public class  EmailAddressValidator
 
 la classe de test : _EmailAdressValidatorTest_
 
- 
-
 Une classe de test comporte un stéréotype TestFixture, les méthodes de test ont un stéréotype Test.
 
 Exemple :
@@ -102,7 +100,8 @@ Cette classe [Assert](http://gallio.org/api/html/AllMembers_T_MbUnit_Framework_A
 
 - l'égalité : Assert.Equals
 - le non null : Assert.IsNotNull
-- une condition Assert.IsTrue mais aussi, la présence dans une plage de valeur, une égalité approximative, l'égalité des références etc...
+- une condition Assert.IsTrue  
+    mais aussi, la présence dans une plage de valeur, une égalité approximative, l'égalité des références etc...
 
 Un test comporte toujours des assertions.
 
@@ -139,7 +138,7 @@ En .NET on utilise [NCover](http://www.ncover.com/) pour mesurer cette couvertur
 
 Ci-dessous, un exemple des rapports proposés par NCover :
 
-[![Profile_of_a_C_Sharp_Program](/images/Profile_of_a_C_Sharp_Program.gif)](https://directassurance.onconfluence.com/download/attachments/24084586/Profile_of_a_C_Sharp_Program.gif)
+XXXX
 
 Dans les tests précédents, NCover remarque que l'on ne passe pas par **CheckDomainExists** que l'on verra plus bas sur cette page. De plus le test sur la nullité de la chaine entrée n'est jamais évalué à true :
 
@@ -179,7 +178,8 @@ Exemple :
 
 Second défaut, on duplique le code testé. Cela aurait été plus gênant avec un code sur plusieurs lignes.
 
-Solution : Pour éviter de réécrire x fois le même test avec des paramètres différents, on va utiliser des tests paramétrés :
+Solution :  
+Pour éviter de réécrire x fois le même test avec des paramètres différents, on va utiliser des tests paramétrés :
 
 	\[Test\]
 	\[Row("Nom@@entreprise.com")\]
@@ -319,7 +319,8 @@ class FakeDomainValidator : IDomainValidator
 
 ### Limitations
 
-Si vous souhaitez tester le comportement de EmailAddressValidator dans le cas d'un retour true et false, il faut écrire deux bouchons. Si l'objet est complexe et contient plus de 3 méthodes, l'écriture des bouchons est rapidement fastidieuse.
+Si vous souhaitez tester le comportement de EmailAddressValidator dans le cas d'un retour true et false, il faut écrire deux bouchons.  
+Si l'objet est complexe et contient plus de 3 méthodes, l'écriture des bouchons est rapidement fastidieuse.
 
 Pour cela, il faut utiliser des outils qui génèrent les bouchons dynamiquement. Voir partie suivante sur les mocks.
 
@@ -368,7 +369,8 @@ La méthode Setup prend une lambda expression indiquant le comportement attendu 
 
 On remarque l'utilisation de It.IsAny<string>() qui indique que l'appel de Exists avec n'importe quel string renverra true.
 
-Tout le comportement de la méthode bouchonnée peut être précisé comme cela. Par exemple si la méthode doit renvoyer une exception :
+Tout le comportement de la méthode bouchonnée peut être précisé comme cela.  
+Par exemple si la méthode doit renvoyer une exception :
 
 mock.Setup(foo => foo.Exists(It.IsAny())).Returns(false).Throws(new ArgumentException("invalid argument"));
 

@@ -33,7 +33,7 @@ while (rs.next())
 {
    System.out.print("Column 1 returned ");
    System.out.println(rs.getString(1));
-}
+} 
 rs.close();
 st.close();
 

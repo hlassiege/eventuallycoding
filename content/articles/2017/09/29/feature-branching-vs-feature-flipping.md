@@ -82,7 +82,7 @@ Au moment de la rédaction de ce billet nous avons 94 fonctionnalités régie pa
 
 Le code ensuite fera référence à cette fonctionnalité pour activer ou non une fonctionnalité :
 
-if (ff4j.isEnabled("profile-picture-resolution-check"))
+if (ff4j.isEnabled("profile-picture-resolution-check")) 
 
 ... // fais la détection de visage
 

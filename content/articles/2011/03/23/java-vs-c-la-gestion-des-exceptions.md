@@ -102,7 +102,7 @@ private void anotherMethod()
  }
  catch (Exception1 e1)
  {
- }  
+ }   
  // Erreur : on n'attrape pas l'exception Exception2
 }
  
@@ -115,7 +115,7 @@ private void anotherMethod()
  }
  catch (Exception1 e1)
  {
- }  
+ }   
  catch (Exception2 e2)
  {
  }

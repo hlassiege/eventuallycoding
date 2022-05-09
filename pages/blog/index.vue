@@ -13,7 +13,9 @@
               <button tabindex="-1"
                       class="flex items-stretch text-sm transition duration-150 ease-out border border-gray-700 outline-none group lg:hover:border-gray-400">
                 <div class="flex px-3 py-1 text-left text-slate-600">
+                  <a :href="'/blog?tag='+tag">
                   {{ tag }}
+                  </a>
                 </div>
               </button>
             </div>
@@ -75,6 +77,9 @@ export default {
       .sortBy("date", "desc");
     if (route.query.search) {
       looker = looker.search(route.query.search);
+    }
+    if (route.query.tag) {
+      looker = looker.where( {tags: { $contains: route.query.tag }} );
     }
 
     const articles = await looker.fetch();

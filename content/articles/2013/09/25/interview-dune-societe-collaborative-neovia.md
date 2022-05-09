@@ -5,7 +5,7 @@ categories:
   - "waza"
 tags: 
   - "nossii"
-img: "trans.gif"
+img: ""
 ---
 
 _Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d’entres elles se sont fait connaître récemment et on sent un certain engouement autour de cette autre façon de travailler._
@@ -15,10 +15,6 @@ _Je propose donc une série d’interviews de représentants de ces “nouvelles
 _Aujourd’hui, nous découvrons la team de [Neovia](http://neovia.fr/), boîte plus ancienne que la moyenne puisqu'elle a plus de 10 ans. On a de la chance, ils ont refait leur site récemment parce que franchement l'ancien était vraiment pas sexy ;) C'est une boîte complètement décentralisée puisqu’aucun de ces salariés ne travaille dans la même ville. Elle reprend le modèle collaboratif qui me plait bien avec un droit de vote égal pour chacun._
 
 _Pour cet interview c'est Sylvain Chabert et Tony Deboschere qui s'y sont collés._ 
-
- 
-
-![](/images/trans.gif "Lire la suite…")
 
 ### En quelques mots, pourriez-vous nous dire ce que fait votre boite ?
 
@@ -62,4 +58,4 @@ Oui, nous avons notre extranet, qui est une version très améliorée de la feui
 
 ### Pour les quelques lecteurs de ce blog, recrutez-vous ?
 
-Tout à fait, toute personne responable, autonome et avec un bon état d’esprit. Pas besoin d’être un cador ! Les CVs sont les bienvenus sur [recrutement@neovia.fr](mailto:recrutement@neovia.fr)
+Tout à fait, toute personne responsable, autonome et avec un bon état d’esprit. Pas besoin d’être un cador ! Les CVs sont les bienvenus sur [recrutement@neovia.fr](mailto:recrutement@neovia.fr)

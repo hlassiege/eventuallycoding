@@ -6,7 +6,7 @@ categories:
 tags: 
   - "agile"
   - "scrum"
-img: "bdcsante.png"
+img: ""
 ---
 
 Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.
@@ -48,7 +48,7 @@ Pour la vélocité, le calcul est simple, il s'agit de la somme des estimations 
 
 Exemple sur le burndown chart suivant :
 
-![bdcsante](/images/bdcsante.png)
+XXX
 
 L'estimation originale est de 288 heures et le sprint s'est conclu avec un reste à faire de 49 heures.
 

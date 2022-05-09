@@ -35,7 +35,7 @@ public class MyClass implements IInterface1, IInterface2
 {
       public void execute()
 	  {
-	     //  ??
+	     //  ?? 	  
 	  }
 }
 

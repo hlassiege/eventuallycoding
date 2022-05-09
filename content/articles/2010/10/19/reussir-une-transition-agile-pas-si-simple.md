@@ -5,16 +5,18 @@ categories:
   - "waza"
 tags: 
   - "agile"
-img: "contexteSimple_m.jpg"
+img: ""
 ---
 
-Les méthodes agiles gagnent en popularité ces dernières années. Elles ont su séduire les entreprises par leur capacité à s'adapter à un marché mouvant, leur force reposant sur l'acceptation des changements. Elles ont aussi su séduire les équipes de développement qui y voient une valorisation de leurs compétences et une mise en avant des bonnes pratiques d'ingénierie. Cependant adopter ses méthodes est bien souvent un exercice périlleux. Une transition mal abordé peut entrainer un rejet pur et simple des valeurs agiles.
+Les méthodes agiles gagnent en popularité ces dernières années. Elles ont su séduire les entreprises par leur capacité à s'adapter à un marché mouvant, leur force reposant sur l'acceptation des changements. Elles ont aussi su séduire les équipes de développement qui y voient une valorisation de leurs compétences et une mise en avant des bonnes pratiques d'ingénierie.  
+Cependant adopter ses méthodes est bien souvent un exercice périlleux. Une transition mal abordé peut entrainer un rejet pur et simple des valeurs agiles.
 
 Je vous propose un petit tour d'horizon des différentes façons d'aborder les transitions agiles avec l'aide de retours d'expériences glané à droite à gauche et j'aborderais mes propres retours d'expérience au dernier chapitre.
 
 ## Rêgle numéro un, ne pas sous-estimer les impacts de la transition
 
-La première chose dont il faut se rendre compte avant de commencer, c'est que les méthodes agiles entrainent bien souvent une mutation profonde de l'organisation. Le mot "_transition_" ici est important, on passe d'un état à l'autre et il est courant que cette phase soit sous-estimé. Pour Pyxis sous-estimer les impacts de cette transition fait d'ailleurs partie [des 8 façons de rater la mise en place des méthodes agiles](http://www.slideshare.net/pyxistech/8-faons-de-rater-votre-implantation-des-mthodes-agiles) :
+La première chose dont il faut se rendre compte avant de commencer, c'est que les méthodes agiles entrainent bien souvent une mutation profonde de l'organisation. Le mot "_transition_" ici est important, on passe d'un état à l'autre et il est courant que cette phase soit sous-estimé.  
+Pour Pyxis sous-estimer les impacts de cette transition fait d'ailleurs partie [des 8 façons de rater la mise en place des méthodes agiles](http://www.slideshare.net/pyxistech/8-faons-de-rater-votre-implantation-des-mthodes-agiles) :
 
 Pyxis range ces raisons dans deux catégories, les impacts organisationnels :
 
@@ -32,11 +34,10 @@ et les impacts humains :
 - mentalité, façons de penser, valeurs attitudes
 - motivations et engagements
 
- 
-
 ## Evaluer le contexte
 
-Avant de démarrer une transition, il est important d'évaluer le contexte actuel pour pouvoir choisir la bonne façon de faire. Claude Aubry propose [une méthode visuelle très simple](http://www.aubryconseil.com/post/Transition-%C3%A0-l-agilit%C3%A9-et-contexte-des-projets). L'idée étant d'évaluer le contexte selon certains critères :
+Avant de démarrer une transition, il est important d'évaluer le contexte actuel pour pouvoir choisir la bonne façon de faire.  
+Claude Aubry propose [une méthode visuelle très simple](http://www.aubryconseil.com/post/Transition-%C3%A0-l-agilit%C3%A9-et-contexte-des-projets). L'idée étant d'évaluer le contexte selon certains critères :
 
 - la taille du projet
 - la criticité de l'application
@@ -50,15 +51,14 @@ Avant de démarrer une transition, il est important d'évaluer le contexte actue
 
 et de les noter pour créer un kiviat de transition :
 
-![contexteSimple_m](/images/contexteSimple_m.jpg)
-
 Certaines contraintes imposeront d'aborder la transition de façon différentes par la suite. Par exemple une équipe ayant une faible capacité en ingénierie de développement devra peut être d'abord se focaliser sur les pratiques d'ingénierie.
-
- 
 
 # Les différentes approches
 
-Un petit point de vocabulaire tout d'abord. Lorsque la volonté de transition vient de la hiérarchie, on parle d'approche top-down. A l'inverse si l'initiative vient d'une ou plusieurs équipes, on parle d'approche bottom-up. Bien évidemment les approches pour aborder une transition agile dépendent dans un premier temps du contexte (bottom-up ou top-down). Par exemple une approche Big-bang sera plus facile à envisager si la démarche est initiée par la hiérarchie.
+Un petit point de vocabulaire tout d'abord. Lorsque la volonté de transition vient de la hiérarchie, on parle d'approche top-down.  
+A l'inverse si l'initiative vient d'une ou plusieurs équipes, on parle d'approche bottom-up.  
+Bien évidemment les approches pour aborder une transition agile dépendent dans un premier temps du contexte (bottom-up ou top-down).  
+Par exemple une approche Big-bang sera plus facile à envisager si la démarche est initiée par la hiérarchie.
 
 Pour aborder le virage aux méthodes agiles, on entend souvent parler des deux approches différentes :
 
@@ -69,7 +69,10 @@ Pour aborder le virage aux méthodes agiles, on entend souvent parler des deux a
 
 ## L'approche Big Bang
 
-L'approche Big Bang comme son nom l'indique consiste à faire évoluer radicalement l'organisation dans un laps de temps très court. Cette approche repose sur un un engagement fort de la hiérarchie. Elle part du principe qu'en allant plus vite on fait émerger plus rapidement les bénéfices et que l'on évite de prendre de mauvaises habitudes de transition. On évite de plus une cohabitation des processus trop longue. Par contre une approche de ce type peut être risqué car la conduite du changement est concentré sur un petit laps de temps. Cette approche est couteuse (utilisation de coach externe, formations, disfonctionnements du à la transition amplifié par le timing etc...). Le stress induit par le changement sur les individus peut aussi être rédhibitoire et provoquer un rejet.
+L'approche Big Bang comme son nom l'indique consiste à faire évoluer radicalement l'organisation dans un laps de temps très court.  
+Cette approche repose sur un un engagement fort de la hiérarchie. Elle part du principe qu'en allant plus vite on fait émerger plus rapidement les bénéfices et que l'on évite de prendre de mauvaises habitudes de transition.  
+On évite de plus une cohabitation des processus trop longue.  
+Par contre une approche de ce type peut être risqué car la conduite du changement est concentré sur un petit laps de temps. Cette approche est couteuse (utilisation de coach externe, formations, disfonctionnements du à la transition amplifié par le timing etc...). Le stress induit par le changement sur les individus peut aussi être rédhibitoire et provoquer un rejet.
 
 Exemples d'entreprises ayant choisi cette approche :
 
@@ -82,7 +85,9 @@ Le principal argument en faveur de cette approche repose sur le fait qu'une tran
 
 La méthode du projet pilote consiste à choisir un projet pour l'expérimentation et d'appliquer la méthodologie sur ce projet pour l'adapter au contexte avant la diffusion au reste de l'entreprise.
 
-La transition est moins risqué, les erreurs portent uniquement sur le projet en question. Les membres du premier projet seront par la suite des ambassadeurs de la méthode. Cependant, un projet pilote peut ne pas être représentatif (on pourra toujours argumenter qu'il s'agissait d'un projet facile s'il réussit). Une transition de ce type est plus longue et demande plus d'adaptations et de compromis sur le processus au risque de la dénaturer et de diffuser par la suite de mauvaises pratiques.
+La transition est moins risqué, les erreurs portent uniquement sur le projet en question. Les membres du premier projet seront par la suite des ambassadeurs de la méthode.  
+Cependant, un projet pilote peut ne pas être représentatif (on pourra toujours argumenter qu'il s'agissait d'un projet facile s'il réussit).  
+Une transition de ce type est plus longue et demande plus d'adaptations et de compromis sur le processus au risque de la dénaturer et de diffuser par la suite de mauvaises pratiques.
 
 [L'article suivant](http://agilepartnership.com/blogit/2010/09/24/agile-coaching-baby-steps-or-bad-precedence/) met le doigt sur le principal défaut de cette méthode.
 
@@ -98,7 +103,8 @@ Le principal risque étant que ces compromis restent par la suite et seront cata
 
 ## Autres dimensions relatives à une transition agile
 
-Au dela de ces deux approches, Mike Cohn va plus loin dans l'article suivant : "[Patterns of Agile Adoption](http://www.agilejournal.com/articles/columns/column-articles/734-)" : Il parle de trois dimensions qui se recoupent :
+Au dela de ces deux approches, Mike Cohn va plus loin dans l'article suivant : "[Patterns of Agile Adoption](http://www.agilejournal.com/articles/columns/column-articles/734-)" :  
+Il parle de trois dimensions qui se recoupent :
 
 - approche par petit pas ou en big bang
 - adoption des pratiques techniques ou méthodologiques en premier
@@ -110,28 +116,30 @@ Il est intéressant de noter la troisième dimension. Dans une entreprise dont l
 
 ## Accompagné ou pas ?
 
-Dans tout les cas, un accompagnement externe est bien souvent nécessaire (formations externes, accompagnement sur place pour la mise en place des pratiques etc...). L'accompagnement que peut proposer une société externe peut prendre différentes formes :
+Dans tout les cas, un accompagnement externe est bien souvent nécessaire (formations externes, accompagnement sur place pour la mise en place des pratiques etc...).  
+L'accompagnement que peut proposer une société externe peut prendre différentes formes :
 
 - formation des membres des projets et des intervenants extérieurs à la méthodologie choisie
 - aide à la mise en place de pratiques d'ingénierie (mise en place d'intégration continue, d'automatisation de tests etc...)
 - aide à la mise en place des pratiques projets (formalismes des réunions par exemple)
 - etc...
 
-Dans un accompagnement externe cependant, il est important de bien cibler l'objectif attendu et de valider fréquemment la direction choisie (par des rétrospectives régulières par exemple). Un mauvais accompagnement ou un accompagnement mal ciblé peut entrainer un rejet de la méthode par les équipes.
+Dans un accompagnement externe cependant, il est important de bien cibler l'objectif attendu et de valider fréquemment la direction choisie (par des rétrospectives régulières par exemple).  
+Un mauvais accompagnement ou un accompagnement mal ciblé peut entrainer un rejet de la méthode par les équipes.
 
 # Retours d'expérience
 
-Pour ma part, j'ai pu connaitre deux transitions dans des contextes très différents. Pour le rendre visuel, j'ai utilisé les kiviats présenté par Claude Aubry en rajoutant un critère très important, notamment sur la seconde transition : la résistance au changement.
+Pour ma part, j'ai pu connaitre deux transitions dans des contextes très différents.  
+Pour le rendre visuel, j'ai utilisé les kiviats présenté par Claude Aubry en rajoutant un critère très important, notamment sur la seconde transition : la résistance au changement.
 
 Cet élément n'apparait pas dans les critères proposés par Claude. Sans doute parce que ce n'est pas très politiquement correct de présenter ce type d'informations à sa hiérarchie lorsque l'on fait son évaluation. Difficile d'indiquer dans son graphique que certains éléments vous ont fait penser aux irréductibles gaulois dans Astérix et Obélix. Cependant il est inévitable d'en tenir compte, même s'il faut l'enrober différement quand on le présente.
 
 ## Une approche bottom-up
 
-La première transition s'est effectué chez un éditeur de logiciel. Ici j'ai été impliqué en tant que membre de l'équipe et le changement a été initié par un responsable d'équipe (bottom-up). Les projets impliqués dans la transition reposaient sur des nouvelles technologies. Il s'agissait de projet interne avec une forte criticité. Le nombre de personne impliqués était faible (10 personnes) avec un peu d'offshore. La gouvernance était complexe.
+La première transition s'est effectué chez un éditeur de logiciel. Ici j'ai été impliqué en tant que membre de l'équipe et le changement a été initié par un responsable d'équipe (bottom-up).  
+Les projets impliqués dans la transition reposaient sur des nouvelles technologies. Il s'agissait de projet interne avec une forte criticité. Le nombre de personne impliqués était faible (10 personnes) avec un peu d'offshore. La gouvernance était complexe.
 
 On peut le symboliser sur le kiviat suivant :
-
-![mission1](/images/mission1.png)
 
 La bonne capacité de l'équipe, la qualité de l'architecture et la faible taille de l'équipe a permis de rapidement mettre en place des pratiques d'ingénierie forte :
 
@@ -151,9 +159,8 @@ La transition s'est donc cantonné à l'équipe en elle-même ce qui a tout de m
 
 ## Une approche top-down
 
-La seconde transition qui est toujours en cours a été initié par la hiérarchie. Cette fois-ci j'officie en tant que coach agile. Les projets sont assez critique et le nombre de personnes impliqués dans la transition est assez important (> 25 personnes). La méthode de gouvernance utilisé auparavant était très directive, laissant peu de place à l'autonomie. La capacité des équipes sur les pratiques d'ingénierie est relativement basse (pas de tests unitaires, manque de séparation des couches par endroits etc...). Le système est de plus assez complexe avec une partie de nouvelles technologies, du mainframe, de l'éditique, du datawarehouse etc...
-
-![mission2](/images/mission2.png)
+La seconde transition qui est toujours en cours a été initié par la hiérarchie. Cette fois-ci j'officie en tant que coach agile.  
+Les projets sont assez critique et le nombre de personnes impliqués dans la transition est assez important (> 25 personnes). La méthode de gouvernance utilisé auparavant était très directive, laissant peu de place à l'autonomie. La capacité des équipes sur les pratiques d'ingénierie est relativement basse (pas de tests unitaires, manque de séparation des couches par endroits etc...). Le système est de plus assez complexe avec une partie de nouvelles technologies, du mainframe, de l'éditique, du datawarehouse etc...
 
 L'approche retenue a consisté à utiliser des projets pilotes qui ont servi de modèle par la suite pour démarrer sur des projets plus critiques. Les pratiques d'ingénierie n'ont pas été poussés dans un premier temps.
 
