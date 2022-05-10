@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1652215440",layout:"default",error:a,serverRendered:true,routePath:"\u002F2014\u002F10\u002F07\u002Fle-10eme-homme",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"9146b565"}},_img:{"/_ipx/_/author.png":"\u002F_nuxt\u002Fimage\u002Ff10964.png"}}}(null));
