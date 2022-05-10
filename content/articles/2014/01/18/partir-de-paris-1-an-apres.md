@@ -4,6 +4,7 @@ date: "2014-01-18"
 categories: 
   - "waza"
 img: "3bd6f-lyon.jpg"
+cover: "cover5.jpg"
 ---
 
 [![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans.

@@ -6,6 +6,7 @@ categories:
 tags: 
   - "java"
 img: "diversite-200x200.jpg"
+cover: "cover1.jpg"
 ---
 
 ![](/images/diversite-200x200.jpg "diversite-200x200")A l’heure des languages alternatifs sur la JVM : ceylon, scala, fantom et autres joyeusetés, pour l’instant j’assume ma fidélité à Java. Et oui, je le dis, "juste un café pour moi, ça ira merci"

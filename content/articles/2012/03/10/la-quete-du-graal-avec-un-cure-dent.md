@@ -7,6 +7,7 @@ tags:
   - "grails"
   - "groovy"
 img: "grails-logo.png"
+cover: "cover3.jpg"
 ---
 
 ![](/images/grails-logo.png "grails-logo") Grails fait partie des framework haute productivité à la mode ces dernières années. J’étais plutôt motivé pour le tester histoire de sortir un peu de Play Framework pour lequel j’avoue avoir quelques craintes sur son futur (je détaillerais dans un futur billet). Du coup je me suis motivé pour l’utiliser au sein de [Lateral-Thoughts](http://www.lateral-thoughts.com/) sur une appli interne. Et pour être honnête, j’ai été plutôt déçu. 

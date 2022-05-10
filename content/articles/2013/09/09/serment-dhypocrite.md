@@ -8,6 +8,7 @@ tags:
   - "prism"
   - "professionnalisme"
 img: "1dab7-1984-poster.jpg"
+cover: "cover1.jpg"
 ---
 
 [![1984-poster](/images/1dab7-1984-poster.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/1dab7-1984-poster.jpg)La déontologie dans l’informatique, sujet complexe n’est ce pas ?

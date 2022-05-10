@@ -41,7 +41,7 @@
       <BlogCard v-for="article in articles"
                 :key="article.title"
                 :title="article.title"
-                :img="article.img"
+                :img="'/covers/'+article.cover"
                 :description="article.description"
                 :date="article.date"
                 :slug="article.slug"
@@ -91,6 +91,7 @@ export default {
         "date",
         "draft",
         "path",
+        "cover"
       ])
       .sortBy("date", "desc");
     if (route.query.search) {

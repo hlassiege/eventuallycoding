@@ -6,6 +6,7 @@ categories:
 tags: 
   - "pragmatic-programmer"
 img: "equilibre.jpg"
+cover: "cover8.jpg"
 ---
 
 Entendu il y a peu de temps dans une discussion entre deux collègues :

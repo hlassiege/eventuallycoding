@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Moderat&family=Jost&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderat&family=Jost&family=Roboto&family=Montserrat&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,4 +7,9 @@
 
 body {
   font-family: 'Moderat', sans-serif;
+}
+
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }

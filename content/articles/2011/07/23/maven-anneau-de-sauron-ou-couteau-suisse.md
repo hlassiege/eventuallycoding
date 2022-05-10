@@ -9,6 +9,7 @@ tags:
   - "ivy"
   - "maven"
 img: "couteausuisse.png"
+cover: "cover1.jpg"
 ---
 
 [![](/images/couteausuisse.png "couteausuisse")](http://eventuallycoding.com/wp-content/uploads/2011/07/couteausuisse.png) Manque de standardisation, augmentation de la taille de vos équipes, problèmes de qualités, vous avez tous déjà vu ça à un moment ou à un autre. Et parmi les coupables bien souvent on retrouve les pratiques de build. C'est dans un contexte un peu similaire que je vous propose une présentation que j'ai faite pour mon client actuel.

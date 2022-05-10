@@ -4,6 +4,7 @@ date: "2012-10-08"
 categories: 
   - "waza"
 img: "vera_c10.jpg"
+cover: "cover7.jpg"
 ---
 
 [![](/images/vera_c10.jpg "vera_c10")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)

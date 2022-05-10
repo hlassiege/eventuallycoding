@@ -7,6 +7,7 @@ tags:
   - "cours"
   - "formation"
 img: "profs.png"
+cover: "cover2.jpg"
 ---
 
 ![](/images/profs.png "profs")Une semaine après Devoxx, quoi de mieux que de parler de formation. Mais plutôt que de parler de formation professionnelle, cette fois je tiens à parler de formation académique. Et justement je donne des cours dans un IUT depuis septembre dernier (2011) et je me permet un petit retour d'expérience.

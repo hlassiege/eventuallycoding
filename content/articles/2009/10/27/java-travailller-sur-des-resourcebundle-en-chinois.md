@@ -8,6 +8,7 @@ tags:
   - "java"
   - "utf8"
 img: "overview.png"
+cover: "cover4.jpg"
 ---
 
 ## Travailller sur des ResourceBundle en Chinois

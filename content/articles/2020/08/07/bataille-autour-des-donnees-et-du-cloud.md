@@ -4,6 +4,7 @@ date: "2020-08-07"
 categories: 
   - "waza"
 img: "Ligne_maginot-1024x838.jpg"
+cover: "cover1.jpg"
 ---
 
 ![](/images/Ligne_maginot-1024x838.jpg)

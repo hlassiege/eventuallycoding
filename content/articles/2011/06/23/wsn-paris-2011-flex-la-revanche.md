@@ -9,6 +9,7 @@ tags:
   - "granite"
   - "springblaze"
 img: "flexbuilder.png"
+cover: "cover3.jpg"
 ---
 
 [![](/images/flexbuilder.png "flexbuilder")](http://eventuallycoding.com/wp-content/uploads/2011/06/flexbuilder.png) Parmi les technos sympa qui nous avaient été présentés lors de [What's Next Paris 2011](http://www.whatsnextparis.com/), j'avais déjà évoqué la présentation de [Michael Chaize](http://www.riagora.com/) "évangéliste Flash". Je profite d'un billet pour détailler un peu plus.

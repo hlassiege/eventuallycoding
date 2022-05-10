@@ -4,6 +4,7 @@ date: "2012-10-06"
 categories: 
   - "waza"
 img: "logo.png"
+cover: "cover6.jpg"
 ---
 
 [![](/images/logo.png "logo")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon !

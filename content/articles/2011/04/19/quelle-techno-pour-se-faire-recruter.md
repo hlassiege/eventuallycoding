@@ -6,6 +6,7 @@ categories:
 tags: 
   - "emploi"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :

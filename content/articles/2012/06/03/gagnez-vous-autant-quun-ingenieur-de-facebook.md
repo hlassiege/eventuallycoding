@@ -7,6 +7,7 @@ tags:
   - "emploi"
   - "salaire"
 img: "Casino1-150x150.jpg"
+cover: "cover5.jpg"
 ---
 
 ![](/images/Casino1-150x150.jpg "Casino")Vous l'avez peut être lu, Facebook vient de lancer un pavé dans la mare en publiant [ces grilles de salaires](http://www.businessinsider.com/the-highest-paying-jobs-at-facebook-ranked-2012-5) et le moins que l'on puisse dire, c'est que ça fait le buzz :

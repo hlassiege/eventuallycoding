@@ -6,6 +6,7 @@ categories:
 tags: 
   - "freelance"
 img: "cc020-freelancers.jpg"
+cover: "cover1.jpg"
 ---
 
 Disclaimer

@@ -8,6 +8,7 @@ tags:
   - "malt"
   - "training"
 img: "Illustration_sans_titre-36-1024x371.jpg"
+cover: "cover5.jpg"
 ---
 
 English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0

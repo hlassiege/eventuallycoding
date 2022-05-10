@@ -4,6 +4,7 @@ date: "2022-01-11"
 categories: 
   - "waza"
 img: ""
+cover: "cover3.jpg"
 ---
 
 **TLDR;**

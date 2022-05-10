@@ -6,6 +6,7 @@ categories:
 tags: 
   - "lateralthinking"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Aujourd'hui j'ai envie de revenir sur un passage d'un film que j'ai vu récemment. Tout d'abord je vous rassure, je ne vais pas transformer ce site en lieu de critiques cinéphiles. Si c'est ce que vous cherchez et que vous aimez quand ça saigne un peu, je vous conseille le site [d'odieux connard](http://odieuxconnard.wordpress.com/) mais ne lisez les critiques qu'après avoir vu le film...

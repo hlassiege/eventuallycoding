@@ -9,6 +9,7 @@ tags:
   - "substance"
   - "swing"
 img: "button.png"
+cover: "cover5.jpg"
 ---
 
 Mon [dernier billet sur Swing](index.php/the-news/51-swing-or-not-swing "Swing or not swing") pouvait paraître pessimiste puisque je parlais de cette API comme d'une API complexe et qui avait mal évolué avec notamment peu de frameworks autour. "Peu" ne veut pas pour autant dire "aucun" et c'est justement l'occasion d'aborder [Substance](https://substance.dev.java.net/ "Substance"), une librairie bien sympathique créé par _Kirill Grouchnikov_.

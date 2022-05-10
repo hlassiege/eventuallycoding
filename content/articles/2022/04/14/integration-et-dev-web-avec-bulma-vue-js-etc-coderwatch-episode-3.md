@@ -10,6 +10,7 @@ tags:
   - "product"
   - "vuejs"
 img: "pasted-image-0.png"
+cover: "cover8.jpg"
 ---
 
 [english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)

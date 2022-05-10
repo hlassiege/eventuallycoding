@@ -4,6 +4,7 @@ date: "2020-08-03"
 categories: 
   - "waza"
 img: "marteau-enclume-1024x850.jpg"
+cover: "cover4.jpg"
 ---
 
 ![](/images/marteau-enclume-1024x850.jpg)

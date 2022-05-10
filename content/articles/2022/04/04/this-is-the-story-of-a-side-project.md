@@ -6,6 +6,7 @@ categories:
 tags: 
   - "product"
 img: "pasted-image-0.png"
+cover: "cover6.jpg"
 ---
 
 Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.

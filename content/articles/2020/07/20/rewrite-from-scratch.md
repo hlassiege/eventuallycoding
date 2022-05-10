@@ -8,6 +8,7 @@ tags:
   - "recrutement"
   - "rewrite"
 img: "rewrite-goodness-matrix1.png"
+cover: "cover7.jpg"
 ---
 
 ![](/images/rewrite-goodness-matrix1.png)

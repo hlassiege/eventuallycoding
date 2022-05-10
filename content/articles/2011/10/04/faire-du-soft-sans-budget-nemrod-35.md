@@ -11,6 +11,7 @@ tags:
   - "playapps"
   - "wordpress"
 img: "logo-web.png"
+cover: "cover7.jpg"
 ---
 
 [![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) Ok, vous pensez que pour démarrer il vous faut de l’argent, des business angel, gagner au loto ? Et non, c’est là que c’est beau en informatique, on peut bosser de chez soi avec un minimum d’outil.

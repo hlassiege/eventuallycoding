@@ -8,6 +8,7 @@ tags:
   - "fabric"
   - "vagrant"
 img: "c143b-vagrant.png"
+cover: "cover4.jpg"
 ---
 
 [![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retrouvez dans les différentes situations ci-dessous :

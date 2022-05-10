@@ -4,6 +4,7 @@ date: "2018-10-10"
 categories: 
   - "waza"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Très très prochainement va avoir lieu [BlendWebMix 2018](https://www.blendwebmix.com/) à Lyon. Si vous ne connaissez pas c'est une conférence "mixte" entre tech, marketing, design qui se déroule dans un lieu superbe, la cité des congrès entre le parc de la tête d'or et les bords de Saône.

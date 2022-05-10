@@ -7,6 +7,7 @@ tags:
   - "devops"
   - "paas"
 img: "e3efe-paas.png"
+cover: "cover7.jpg"
 ---
 
 [![paas](/images/e3efe-paas.png)](http://eventuallycoding.com/wp-content/uploads/2014/05/e3efe-paas.png)Jusqu’à récemment HopWork tournait sur un PAAS, mais ça va changer. Pour les quelques uns qui ont dormi ces dernières années, un PAAS c’est l’acronyme de Platform as a service. En très gros c’est un cadre de travail pour délivrer rapidement votre code en production avec tout un ensemble de services préinstallés, gérés pour vous et qui s’associent simplement avec votre applicatif.

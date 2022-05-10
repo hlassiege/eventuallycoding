@@ -6,6 +6,7 @@ categories:
 tags: 
   - "lateralthinking"
 img: "9229b-intrigue.gif"
+cover: "cover2.jpg"
 ---
 
 "_Travailler autremen_t", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?

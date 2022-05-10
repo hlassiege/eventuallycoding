@@ -7,6 +7,7 @@ tags:
   - "casual"
   - "recrutement"
 img: "957c4-image02-1.png"
+cover: "cover6.jpg"
 ---
 
 [![image02](/images/957c4-image02-1.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/957c4-image02-1.png)

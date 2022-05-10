@@ -6,6 +6,7 @@ categories:
 tags: 
   - "humour"
 img: "Illustration_sans_titre-29-1024x1024.jpg"
+cover: "cover1.jpg"
 ---
 
 [![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-29.jpg)

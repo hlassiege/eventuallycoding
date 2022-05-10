@@ -7,6 +7,7 @@ tags:
   - "csharp"
   - "testunitaire"
 img: "linkext7.gif"
+cover: "cover3.jpg"
 ---
 
 Dans la lignée d'un [billet précédent](http://localhost/localweb/wordpress/?p=144 "Introduction aux tests unitaires et aux bouchons en C#") qui constituait une introduction aux tests unitaires en C#, voici un autre billet orienté "bonnes pratiques de codage" toujours en C#.

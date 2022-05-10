@@ -6,6 +6,7 @@ categories:
 tags: 
   - "nocode"
 img: "Strip-Les-specs-cest-du-code-650-final.jpg"
+cover: "cover4.jpg"
 ---
 
 Ok le titre est un peu putaclick :)  

@@ -6,6 +6,7 @@ categories:
 tags: 
   - "devoxxfr"
 img: "logo-devoxx-france-seul.png"
+cover: "cover2.jpg"
 ---
 
 [![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.png)Jour J+1, un bataillon de geeks a déjà débarqué mercredi mais le plus gros reste à venir. J'avais parlé de 1200 personnes dans mon premier billet mais c'est justement ce jeudi qu'ils sont venus et non le mercredi qui fut la journée avec la moins d'affluence : "seulement 800 personnes".

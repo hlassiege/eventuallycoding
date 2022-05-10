@@ -8,6 +8,7 @@ tags:
   - "jpa"
   - "spring"
 img: "java.png"
+cover: "cover6.jpg"
 ---
 
 [![](/images/java.png "java")](http://eventuallycoding.com/wp-content/uploads/2012/06/java.png)J'ai pas mal mangé de JPA + Spring cette année entre [les cours que j'ai donnée à l'IUT de Montreuil](http://hakanai.free.fr/index.php/p-r-o-f-s/ "P.R.O.F.S") et une utilisation intensive de JPA sur [localizeyourapps](http://www.localizeyourapps.com "Localizeyourapps.com").

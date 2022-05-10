@@ -9,6 +9,7 @@ tags:
   - "datamarketing"
   - "hull"
 img: "automate.png"
+cover: "cover1.jpg"
 ---
 
 Je vous propose aujourd'hui de découvrir [Hull](https://www.hull.io/). que nous utilisons depuis quelques mois chez Malt.  

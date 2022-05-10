@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover5.jpg"
 ---
 
 Voilà, c'est fait, j'ai participé à l'Agile Tour 2010. Je suis arrivé vers 8h30 vers Denfert Rochereau pour assister à la présentation et au mot des sponsors. La session était dirigé par Patrice Petit fondateur de l'Agile Tour. Bon ok, on apprend dans cette introduction que l'informatique est en cours de changer le monde actuel et que l'agile en y introduisant l'humain est en passe de révolutionner l'informatique. Un peu présomptueux peut-être, l'informatique n'a pas attendu l'agile pour parler de l'humain ^^ Enfin bref, début du marathon à 9h00.

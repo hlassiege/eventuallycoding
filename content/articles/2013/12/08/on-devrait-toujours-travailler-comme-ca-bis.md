@@ -7,6 +7,7 @@ tags:
   - "lateralthoughts"
   - "timeoff"
 img: "redcrabe2.jpg"
+cover: "cover5.jpg"
 ---
 
 [![redcrabe](/images/redcrabe2.jpg)](http://www.eventuallycoding.com/wp-content/uploads/2013/03/redcrabe21.jpg)Ca s’appelle du plagiat. Car c’était [la phrase d’intro et de conclusion](http://ogirardot.wordpress.com/2012/09/13/on-devrait-toujours-travailler-comme-ca-hackatonlt/) de Olivier Girardot suite au dernier timeoff Lateral-Thoughts à Guérande.

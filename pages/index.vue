@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-screen bg-transparent">
-      <canvas id="c" class="-z-10 absolute w-full h-full block"></canvas>
+    <section class="flex items-center justify-center h-128 bg-transparent">
+      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
 
       <div class="p-5 text-white rounded ">
         <div class="text-7xl font-bruno ">Eventually Coding</div>
@@ -17,12 +17,16 @@
           <path fill="currentColor" d="M443.5 248.5l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L241 419.9V44c0-6.6-5.4-12-12-12h-10c-6.6 0-12 5.4-12 12v375.9L28.5 241.4c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.8 4.8-12.3.1-17z" class=""></path>
         </svg>
       </div>
-    </section>
-    <section class=" ">
-      <div class="container mx-auto px-4 -mt-10 z-10 bg-slate-100 " >
+      <div class="clip-ellipse absolute bottom-76 -translate-y-2 rotate-180">
+      </div>
 
-      <div class="text-4xl mb-10 text-slate-800 text-center pt-[60px] pb-[60px] underline decoration-red-400 decoration-8 underline-offset-8">
-        Les 5 derniers articles du blog
+    </section>
+
+    <section class="mt-10 ">
+      <div class="w-3/4 mx-auto px-4 " >
+
+      <div class="font-montserrat font-medium text-4xl mb-10 text-slate-800 text-center pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
+        Derniers billets
       </div>
 
 
@@ -31,7 +35,7 @@
         <BlogCard v-for="article in articles"
                       :key="article.title"
                       :title="article.title"
-                      :img="article.img"
+                      :img="'/covers/'+article.cover"
                       :description="article.description"
                       :date="article.date"
                       :slug="article.slug"
@@ -45,32 +49,31 @@
     </section>
 
 
+    <section class="mt-32 w-3/4 mx-auto px-4">
+      <div class="font-montserrat font-medium text-center text-4xl mb-10 text-slate-800 pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
+        Les plus lus
+      </div>
+
+      <div class=" w-1/2 mx-auto grid grid-cols-1 gap-4">
+
+        <BlogCardHorizontal v-for="article in articles"
+                  :key="article.title"
+                  :title="article.title"
+                  :img="'/covers/'+article.cover"
+                  :description="article.description"
+                  :date="article.date"
+                  :slug="article.slug"
+                  :tags="article.tags"
+                  :path="article.path"
+        />
+
+
+      </div>
+
+    </section>
 
 
 
-<!--    <div class="bg-red-300 mt-6">-->
-
-<!--    <div class="max-w-screen-lg md:flex mx-auto">-->
-
-
-<!--      <div class="md:w-2/3 px-8">-->
-
-<!--        <div class="space-y-16 mx-auto max-w-7xl">-->
-<!--          <blog-item-->
-<!--            v-for="article in articles"-->
-<!--            :key="article.title"-->
-<!--            :title="article.title"-->
-<!--            :description="article.description"-->
-<!--            :date="article.date"-->
-<!--            :slug="article.slug"-->
-<!--            :path="article.path"-->
-<!--          ></blog-item>-->
-<!--        </div>-->
-
-
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
   </div>
 </template>
 
@@ -78,9 +81,13 @@
 import siteMetaInfo from "@/data/sitemetainfo";
 import * as THREE from 'three';
 import BlogCard from "@/components/BlogCard";
+import BlogCardHorizontal from "@/components/BlogCardHorizontal";
 
 export default {
-  components: {BlogCard},
+  components: {
+    BlogCard,
+    BlogCardHorizontal
+  },
   data() {
     return {
       siteMetaInfo: siteMetaInfo,
@@ -214,6 +221,7 @@ export default {
         "author",
         "date",
         "path",
+        "cover"
       ])
       .limit(5)
       .sortBy("date", "desc")
@@ -249,4 +257,11 @@ export default {
   transition: opacity 1500ms ease-out;
 }
 
+.clip-ellipse {
+  clip-path: ellipse(60% 100% at 50% 0%);
+  @apply bg-white;
+  height: 100px;
+  width: 100%;
+
+}
 </style>

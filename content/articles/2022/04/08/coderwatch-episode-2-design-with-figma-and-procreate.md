@@ -7,6 +7,7 @@ tags:
   - "coderwatch"
   - "product"
 img: "pasted-image-0-5.png"
+cover: "cover8.jpg"
 ---
 
 Here is the second post of this serie around the creation of a side project. 

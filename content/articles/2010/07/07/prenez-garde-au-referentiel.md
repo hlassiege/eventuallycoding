@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover7.jpg"
 ---
 
 ### Prenez garde au référentiel !!

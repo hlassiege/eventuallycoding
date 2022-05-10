@@ -7,6 +7,7 @@ tags:
   - "localizeyourapps"
   - "nemrod"
 img: "logo-web.png"
+cover: "cover7.jpg"
 ---
 
 [![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) C’est bien beau d’avoir une idée mais il y a un fossé avant de la réaliser. Combien de fois avez-vous déjà démarré un projet puis laissé tomber devant l’ampleur de la tâche, le manque de temps etc... ?

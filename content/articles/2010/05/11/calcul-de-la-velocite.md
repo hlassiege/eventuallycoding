@@ -7,6 +7,7 @@ tags:
   - "agile"
   - "scrum"
 img: ""
+cover: "cover3.jpg"
 ---
 
 Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.

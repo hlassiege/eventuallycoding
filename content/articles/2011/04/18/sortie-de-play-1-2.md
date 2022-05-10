@@ -6,6 +6,7 @@ categories:
 tags: 
   - "play"
 img: "play.png"
+cover: "cover4.jpg"
 ---
 
 [![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)

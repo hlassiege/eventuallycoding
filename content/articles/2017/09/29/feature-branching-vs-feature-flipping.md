@@ -8,6 +8,7 @@ tags:
   - "feature-flipping"
   - "ff4j"
 img: "qXMqcos.png"
+cover: "cover6.jpg"
 ---
 
 ![](/images/qXMqcos.png)

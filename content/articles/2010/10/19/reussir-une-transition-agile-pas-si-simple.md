@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover3.jpg"
 ---
 
 Les méthodes agiles gagnent en popularité ces dernières années. Elles ont su séduire les entreprises par leur capacité à s'adapter à un marché mouvant, leur force reposant sur l'acceptation des changements. Elles ont aussi su séduire les équipes de développement qui y voient une valorisation de leurs compétences et une mise en avant des bonnes pratiques d'ingénierie.  

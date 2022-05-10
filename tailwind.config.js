@@ -15,7 +15,15 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '76': '17rem',
+        '128': '40rem',
+      },
+      height: {
+        '128': '40rem',
+      }
+    }
   },
   plugins: [require("@tailwindcss/typography")],
 };

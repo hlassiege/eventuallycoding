@@ -4,6 +4,7 @@ date: "2011-09-20"
 categories: 
   - "waza"
 img: ""
+cover: "cover7.jpg"
 ---
 
 Eh oui, ça fait environ 18 mois que Hakatech a vu le jour. J'en profites pour faire une petite rétrospective des points qui ont bien marché, ceux qui ont moins bien marché et comment améliorer tout ça.

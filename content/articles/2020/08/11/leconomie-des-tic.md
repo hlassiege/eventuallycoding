@@ -4,6 +4,7 @@ date: "2020-08-11"
 categories: 
   - "waza"
 img: "Startup_nation-1024x1024.jpg"
+cover: "cover3.jpg"
 ---
 
 ![](/images/Startup_nation-1024x1024.jpg)

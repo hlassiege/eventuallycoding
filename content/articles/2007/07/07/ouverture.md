@@ -4,6 +4,7 @@ date: "2007-07-07"
 categories: 
   - "waza"
 img: ""
+cover: "cover8.jpg"
 ---
 
 Eh bien ça faisait un moment que j'y réfléchissais et c'est désormais chose faite, <Hakanai/> ouvre ses portes !

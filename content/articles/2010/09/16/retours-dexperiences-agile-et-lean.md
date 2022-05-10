@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Les retours d'expérience sont bien souvent le meilleur moyen de discuter de la pratique agile. En fait ils sont mêmes nécessaires car le cadre agile est volontairement très léger. Se contenter de lire les principes Scrum laisse souvent perplexe une personne qui aurait décidé seul de s'y mettre.

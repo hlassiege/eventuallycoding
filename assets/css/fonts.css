@@ -8,6 +8,16 @@
   src: url('assets/fonts/BrunoAce-Regular.woff') format("woff");
 }
 
+@font-face {
+  font-family: 'eurostile';
+  src: url('assets/fonts/eurostile.woff') format("woff");
+}
+
+.font-eurostile {
+  font-family: 'eurostile', sans-serif;
+}
+
+
 .font-bruno {
   font-family: 'Bruno Ace', sans-serif;
 }

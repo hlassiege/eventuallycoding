@@ -8,6 +8,7 @@ tags:
   - "organization"
   - "product"
 img: "Illustration_sans_titre-44-1024x842.jpg"
+cover: "cover7.jpg"
 ---
 
 Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du logiciel), des personnes et de leur évolution dans l’entreprise. 

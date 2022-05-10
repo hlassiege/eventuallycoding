@@ -6,6 +6,7 @@ categories:
 tags: 
   - "devoxxfr"
 img: "31dab-devoxxfr.jpg"
+cover: "cover2.jpg"
 ---
 
 [![devoxxfr](/images/31dab-devoxxfr.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/04/31dab-devoxxfr.jpg)Et voilà, 3ème édition de Devoxx France terminée et ce ne fut pas de tout repos. 3 jours, 1500 personnes, des heures et des heures de concentration (ou pas). Personnellement j'étais déjà bien fatigué après le premier jour et j'ai encore du mal à comprendre comment font ceux qui assistent à Devoxx Belgique sur 5 jours :)

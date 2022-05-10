@@ -6,6 +6,7 @@ categories:
 tags: 
   - "nossii"
 img: ""
+cover: "cover4.jpg"
 ---
 
 _Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d’entre elles se sont fait connaître récemment, on sent un certain engouement autour de cette autre façon de travailler._

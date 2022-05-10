@@ -4,6 +4,7 @@ date: "2013-11-27"
 categories: 
   - "waza"
 img: "21bc9-plongee1.jpg"
+cover: "cover4.jpg"
 ---
 
 **Disclaimer**

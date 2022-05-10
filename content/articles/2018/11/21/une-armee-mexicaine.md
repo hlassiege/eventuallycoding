@@ -6,6 +6,7 @@ categories:
 tags: 
   - "startup"
 img: "e0779-image1.png"
+cover: "cover3.jpg"
 ---
 
 [![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la soirée MiXiT à l’hôtel de ville. Ambiance relax entre petits fours et discussions sur les confs de la journée. 

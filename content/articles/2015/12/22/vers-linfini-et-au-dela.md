@@ -10,6 +10,7 @@ tags:
   - "loader-io"
   - "performance"
 img: "1ace7-tumblr_lw0g09a2hf1qaz5oho1_5001.png"
+cover: "cover6.jpg"
 ---
 
 [![tumblr_lw0g09a2hf1qaz5oho1_500[1]](/images/1ace7-tumblr_lw0g09a2hf1qaz5oho1_5001.png)](https://eventuallycoding.com/wp-content/uploads/2019/10/1ace7-tumblr_lw0g09a2hf1qaz5oho1_5001.png)Une fois n'est pas coutume ce billet sera rédigé d'une manière plus collégiale que d'habitude car il reflète le travail de 3 personnes : [Nicolas Demengel](https://www.hopwork.fr/profile/nicolasgriseydemengel), [Maxime Gaudin](https://www.hopwork.fr/profile/maximegaudin) et moi-même. Récemment nous avons eu un petit passage télé au JT de France 2. Et pour une fois on s'est un peu posé la question de l'impact que cela pouvait avoir en terme de visites sur le site. Nous avions déjà eu des passages sur [itélé](https://blog.hopwork.fr/hopwork-sur-canal-et-i-tele/), [télématin](http://www.france2.fr/emissions/telematin/decouverte/demain-tous-free-lances_300559), BFM et nous n'avions pas vraiment anticipé. Mais cette fois c'était un peu l'occasion de travailler sur les performances du site et de vérifier que nous pouvions tenir un pic de charge. Et nous avons eu quelques surprises.

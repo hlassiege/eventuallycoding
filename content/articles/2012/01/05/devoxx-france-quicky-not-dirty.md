@@ -6,6 +6,7 @@ categories:
 tags: 
   - "devoxx"
 img: "logo-devoxx-france-seul.png"
+cover: "cover5.jpg"
 ---
 
 [![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/01/logo-devoxx-france-seul.png)Allez, sauf si vous avez vécu au fond des bois ces derniers mois j'espère ne rien vous apprendre en vous annonçant que la première de [Devoxx France](http://www.devoxx.com/display/FR12/Communique+de+Presse) aura lieu cette année en avril.  

@@ -10,6 +10,7 @@ tags:
   - "product-discovery"
   - "scrum"
 img: "coach-agile-transformation-1024x1024.jpg"
+cover: "cover8.jpg"
 ---
 
 **tldr;**

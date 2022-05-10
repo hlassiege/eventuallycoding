@@ -8,6 +8,7 @@ tags:
   - "passion"
   - "thoughts"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 

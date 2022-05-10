@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover1.jpg"
 ---
 
 VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.

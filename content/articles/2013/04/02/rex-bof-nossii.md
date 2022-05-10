@@ -7,6 +7,7 @@ tags:
   - "nossii"
   - "sociocratie"
 img: "rework.png"
+cover: "cover8.jpg"
 ---
 
 [![](/images/rework.png "rework")](http://hakanai.free.fr/index.php/rex-bof-nossii/rework/)Bon, avec un titre pareil je dois déjà avoir perdu 80% des lecteurs :)

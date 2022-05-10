@@ -7,6 +7,7 @@ tags:
   - "csharp"
   - "java"
 img: "javac1.png"
+cover: "cover4.jpg"
 ---
 
 [![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png)

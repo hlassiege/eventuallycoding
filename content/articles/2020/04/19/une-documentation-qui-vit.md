@@ -7,6 +7,7 @@ tags:
   - "antora"
   - "doc"
 img: "image-2.png"
+cover: "cover4.jpg"
 ---
 
 Et si on parlait documentation ?  

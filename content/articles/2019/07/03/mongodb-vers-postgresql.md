@@ -8,6 +8,7 @@ tags:
   - "mongodb"
   - "postgresql"
 img: "af912-mongo.jpg"
+cover: "cover6.jpg"
 ---
 
 ![](/images/af912-mongo.jpg)

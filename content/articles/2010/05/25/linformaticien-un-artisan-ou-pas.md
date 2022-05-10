@@ -7,6 +7,7 @@ tags:
   - "agile"
   - "lean"
 img: ""
+cover: "cover3.jpg"
 ---
 
 Je viens de lire à l'instant un [billet sur l'informatique et un parrallèle avec l'artisanat](http://blog.loof.fr/2009/11/travailler-plus-pour-des-prunes.html). C'est un sujet qui revient souvent. Mais peut-on comparer notre métier avec la pratique de l'artisanat ?

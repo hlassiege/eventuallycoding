@@ -7,6 +7,7 @@ tags:
   - "atlassian"
   - "jira"
 img: ""
+cover: "cover6.jpg"
 ---
 
 Plus de détails ici sur l'annonce de l'évènement : [Atlassian User Group](http://confluence.atlassian.com/display/AUG/France+-+Paris+Atlassian+User+Group)

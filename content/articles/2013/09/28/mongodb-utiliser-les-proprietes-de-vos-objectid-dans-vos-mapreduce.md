@@ -7,6 +7,7 @@ tags:
   - "mapreduce"
   - "mongodb"
 img: "objectid.png"
+cover: "cover7.jpg"
 ---
 
 Je vous propose de voir deux fonctionnalités plutôt pratiques de [MongoDB](http://www.mongodb.org/) dans ce billet. D’une part je vais vous parler de certaines propriétés très intéressantes des [ObjectId](http://docs.mongodb.org/manual/reference/object-id/), la classe qu’utilise MongoDB pour générer les identifiants de vos entités, et ensuite je vais vous montrer comment utiliser cette propriété dans un exemple tout simple avec un MapReduce.

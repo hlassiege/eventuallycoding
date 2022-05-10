@@ -10,6 +10,7 @@ tags:
   - "product"
   - "vuejs"
 img: "pasted-image-0.png"
+cover: "cover7.jpg"
 ---
 
 Let's talk about web integration, HTML, CSS and Frontend dev. 

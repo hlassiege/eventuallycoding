@@ -8,6 +8,7 @@ tags:
   - "java"
   - "livre"
 img: "programConcurrente.gif"
+cover: "cover8.jpg"
 ---
 
 <table border="0"><tbody><tr><td><img src="/images/programConcurrente.gif" alt="programConcurrente" width="152" height="188"><div></div><em><strong><span style="font-size:10pt;">de Brian Goetz</span></strong></em></td><td>Je viens de boucler l'un des livres les plus techniques que j'ai lu récemment : "Programmation concurrente en JAVA".<div></div>Livre très intéressant s'il en est, il n'en reste pas moins difficile d'accès. Il est placé dans la collection "Référence" de l'éditeur et ne se contente donc pas d'effleurer le sujet. Ce livre s'adresse donc aux personnes ayant déjà une bonne connaissance de JAVA et des notions de programmation concurrente.</td></tr></tbody></table>

@@ -8,6 +8,7 @@ tags:
   - "fabric"
   - "python"
 img: "b9590-python.jpeg"
+cover: "cover5.jpg"
 ---
 
 [![python](/images/b9590-python.jpeg)](http://eventuallycoding.com/wp-content/uploads/2013/08/b9590-python.jpeg)Je vous propose dans ce billet de prendre en main [Fabric](http://docs.fabfile.org/en/1.7/), un outil que j’ai utilisé récemment et qui vous permettra de scripter des déploiements sur plusieurs machines assez simplement.

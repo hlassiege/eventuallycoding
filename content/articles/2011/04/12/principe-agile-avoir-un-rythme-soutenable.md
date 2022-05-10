@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover1.jpg"
 ---
 
 Un collègue m'a envoyé récemment un lien qui vaut le détour. Un petit [speech intéressant](http://blog.reapfield.com/gerardkho/2010/06/28/life-juggling-5-balls/) sorti par Bryan Dyson ex CEO de Coca-Cola.  

@@ -8,6 +8,7 @@ tags:
   - "hopwork"
   - "lateralthoughts"
 img: ""
+cover: "cover6.jpg"
 ---
 
 Récemment je suis tombé sur [un billet parlant des entreprises libérée](http://www.touilleur-express.fr/2015/11/04/lentreprise-liberee-pour-le-developpeur/) et qui disait en substance qu'un freelance ne pouvait pas devenir participant d'une telle entreprise. Forcément je me devais de réagir sur un tel sujet ^^

@@ -7,6 +7,7 @@ tags:
   - "localizeyourapps"
   - "nemrod"
 img: ""
+cover: "cover5.jpg"
 ---
 
 Là dessus, je vais partager le peu que nous avons expérimenté. Nemrod n’a que deux semaines, le nombre de visites reste très faible pour l’instant. L’objectif rappelons-le, c’est de faire de la communication sans forcément se ruiner. Sur ces deux semaines nous avons donc utilisé des moyens modernes en misant sur la communauté de développeurs en premier lieu car Nemrod vise justement cette communauté :

@@ -9,6 +9,7 @@ tags:
   - "ops"
   - "spring-boot"
 img: "61698-deploy.jpg"
+cover: "cover8.jpg"
 ---
 
 Il y a quelques jours je faisais un retweet [d'un article](http://blog.adaofeliz.com/2014/11/21/first-look-spring-boot-and-docker/ "first-look-spring-boot-and-docker") sur lequel j'étais tombé d'une personne ayant automatisé son déploiement d'une application [spring-boot](http://projects.spring.io/spring-boot/ "Spring Boot") sur un conteneur [Docker](https://www.docker.com/ "Docker").

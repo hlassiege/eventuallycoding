@@ -7,6 +7,7 @@ tags:
   - "play"
   - "selenium"
 img: "test.png"
+cover: "cover6.jpg"
 ---
 
 [![](/images/test.png "test")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)

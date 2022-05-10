@@ -7,6 +7,7 @@ tags:
   - "devops"
   - "monit"
 img: "e76bc-cloudinary.png"
+cover: "cover2.jpg"
 ---
 
 Aujourd’hui je tenais à vous présenter [Monit](http://mmonit.com/monit/), un bel outil permettant de monitorer vos serveurs et vos process. Le site indique : “up and running in 15 minutes” et vous allez voir qu’il tient ces promesses.

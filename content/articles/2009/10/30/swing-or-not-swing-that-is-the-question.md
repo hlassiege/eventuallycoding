@@ -8,6 +8,7 @@ tags:
   - "java"
   - "swing"
 img: ""
+cover: "cover3.jpg"
 ---
 
 ## Peut-on faire un client lourd en Java ?

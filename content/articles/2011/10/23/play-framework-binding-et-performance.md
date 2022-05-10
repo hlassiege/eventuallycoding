@@ -7,6 +7,7 @@ tags:
   - "performance"
   - "play"
 img: ""
+cover: "cover2.jpg"
 ---
 
 Après avoir bataillé un bon moment avec les performances sur la page d’importation de Nemrod je me suis dit que ce serait intéressant de partager ce que j’ai appris sur le binding de Play. Bref, je vous propose ce petit sujet autour du binding dans Play framework et une optimisation qui m’a sauvé la vie. Resituons le contexte tout d’abord. Si vous utilisez [Play framework](http://www.playframework.org/), vous avez peut être déjà utilisé [des bindings avec des collections d’éléments](http://www.playframework.org/documentation/1.2.3/controllers#array) dans un de vos contrôleur.

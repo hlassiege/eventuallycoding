@@ -8,6 +8,7 @@ tags:
   - "poi"
   - "utf8"
 img: "exportbadchinese.png"
+cover: "cover2.jpg"
 ---
 
 ## Créer des fichiers Excel avec des caractères Chinois

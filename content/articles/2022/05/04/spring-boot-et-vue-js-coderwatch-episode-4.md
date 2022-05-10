@@ -9,6 +9,7 @@ tags:
   - "startup"
   - "vuejs"
 img: "pasted-image-0.png"
+cover: "cover6.jpg"
 ---
 
 Voici le 4ème billet de cette série et pour ce billet nous allons parler de développement Backend avec une application Vue.js en Frontend. 

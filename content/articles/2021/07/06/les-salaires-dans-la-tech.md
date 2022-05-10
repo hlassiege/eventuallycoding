@@ -7,6 +7,7 @@ tags:
   - "salaires"
   - "tech"
 img: "Money-1024x791.jpg"
+cover: "cover3.jpg"
 ---
 
 Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.

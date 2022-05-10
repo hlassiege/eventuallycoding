@@ -6,6 +6,7 @@ categories:
 tags: 
   - "principe-peter"
 img: "svg_.png"
+cover: "cover6.jpg"
 ---
 
 [![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)

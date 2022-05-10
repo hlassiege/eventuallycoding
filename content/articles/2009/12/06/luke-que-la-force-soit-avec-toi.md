@@ -7,6 +7,7 @@ tags:
   - "java"
   - "lucene"
 img: "ouverturefichier.png"
+cover: "cover4.jpg"
 ---
 
 Vous connaissez [Lucene](http://lucene.apache.org/java/docs/ "Lucene") ? Non ? Dans ce cas je vous invite fortement à découvrir cette API utilisé dans de nombreux projets passant de Jira à LinkedIn. Cette API de recherche full-text permet de maintenir des index textuels très puissants. Sa [récente intégration](http://docs.jboss.org/hibernate/stable/annotations/reference/fr/html/lucene.html "Hibernate et Lucene") avec Hibernate devrait d'ailleurs la populariser encore plus.

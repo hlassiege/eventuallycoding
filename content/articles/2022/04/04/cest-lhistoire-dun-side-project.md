@@ -8,6 +8,7 @@ tags:
   - "product"
   - "side-project"
 img: "pasted-image-0.png"
+cover: "cover8.jpg"
 ---
 
 English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)

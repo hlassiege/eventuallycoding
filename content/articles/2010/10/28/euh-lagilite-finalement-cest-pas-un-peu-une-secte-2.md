@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: "bible.png"
+cover: "cover5.jpg"
 ---
 
 [![](/images/bible.png "Bible")](http://eventuallycoding.com/wp-content/uploads/2010/10/bible.png) Provocateur comme titre ? Pourtant, après une rapide petite recherche Google je constate que je ne suis pas le seul à le penser.

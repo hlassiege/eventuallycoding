@@ -8,6 +8,7 @@ tags:
   - "nexus"
   - "perforce"
 img: "ps-kztpdvdc-170x170-751.jpg"
+cover: "cover5.jpg"
 ---
 
 ![](/images/ps-kztpdvdc-170x170-751.jpg "ps.kztpdvdc.170x170-75")

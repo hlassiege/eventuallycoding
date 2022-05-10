@@ -7,6 +7,7 @@ tags:
   - "agile"
   - "startup"
 img: ""
+cover: "cover5.jpg"
 ---
 
 J'ai lu récemment un billet sur le modèle Spotify intitulé "[l'échec du modèle Spotify](https://oyomy.fr/2020/04/l-echec-du-modele-spotify/)".  

@@ -4,6 +4,7 @@ date: "2013-07-20"
 categories: 
   - "waza"
 img: ""
+cover: "cover1.jpg"
 ---
 
 Ca y est, je crois que je suis enfin devenu un Eventual Coder. Vous connaissez les eventual coders ? Non ce ne sont pas des gens qui éventuellement pourraient coder, gare aux faux amis. Il s’agit de ceux qui finissent par coder, à un moment ou un autre, ce sont les gens qui vont mettre en oeuvre les idées.

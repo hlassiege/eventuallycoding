@@ -6,6 +6,7 @@ categories:
 tags: 
   - "product"
 img: "Refaire_facebook_en_best_effort.jpg"
+cover: "cover1.jpg"
 ---
 
 ![](/images/Refaire_facebook_en_best_effort.jpg)

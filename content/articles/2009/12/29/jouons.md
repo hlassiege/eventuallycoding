@@ -6,6 +6,7 @@ categories:
 tags: 
   - "play"
 img: "play.png"
+cover: "cover4.jpg"
 ---
 
 [![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur les Frameworks web haute productivité](http://xebia.developpez.com/articles/java/web/ "livre blanc") ou [les critiques de Rod Johnson à propos de J2EE](http://www.infoq.com/presentations/Lessons-Learned-from-Java-EE), la mode revient aux Frameworks lights. Je dis bien "_revient_", car ça fait déjà quelque temps que le développement web rapide existe et fait recette.

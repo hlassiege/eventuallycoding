@@ -6,6 +6,7 @@ categories:
 tags: 
   - "agile"
 img: ""
+cover: "cover6.jpg"
 ---
 
 Titre provocateur n'est-ce pas ? Pourtant je reviens de l'agile tour 2010 et j'ai pu remarquer qu'une grande majorité des intervenants provenait du monde Java. Alors quoi ? Cette technologie est plus propice à l'agilité ?

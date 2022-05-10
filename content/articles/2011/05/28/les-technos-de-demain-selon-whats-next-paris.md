@@ -7,6 +7,7 @@ tags:
   - "conference"
   - "java"
 img: "whatsnext.jpg"
+cover: "cover8.jpg"
 ---
 
 [![](/images/whatsnext.jpg "whatsnext")](http://eventuallycoding.com/wp-content/uploads/2011/05/whatsnext.jpg) Le chanteur des ZZtop, une star de la Tectonique, un ex cowboy reconverti, monsieur sourire voilà ceux que vous avez loupés si vous n'étiez pas à What's Next !  Mais voila, What's next c'est fini.

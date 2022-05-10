@@ -8,6 +8,7 @@ tags:
   - "internationalisation"
   - "localisation"
 img: "c13cf-image12.png"
+cover: "cover6.jpg"
 ---
 
 Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.
