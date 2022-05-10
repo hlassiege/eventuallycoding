@@ -1,6 +1,6 @@
 <template>
 <div>
-  <nav class="bg-slate-50 fixed w-full z-10 top-0">
+  <nav class="transition-colors fixed w-full z-10 top-0" id="header-menu">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -36,7 +36,7 @@
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
-            <span class="text-pink-700 text-base font-medium font-bruno text-2xl">
+            <span class="text-white text-base font-medium font-bruno text-2xl font-to-invert-to-pink">
                 EventuallyCoding.com
             </span>
           </div>
@@ -45,7 +45,7 @@
               <NuxtLink
                 v-for="item in navLinks" :key="item.path"
                 :to="item.path"
-                class="link  "
+                class="link text-white  font-to-invert-to-black "
               >{{ item.name }}
               </NuxtLink>
             </div>
@@ -105,6 +105,22 @@ import menu from "../data/menu";
 
 export default {
   name: "TheHeader",
+  mounted() {
+
+    const className = "inverted";
+    const scrollTrigger = 60;
+
+    window.onscroll = function() {
+      // We add pageYOffset for compatibility with IE.
+      if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+        document.getElementById("header-menu").classList.add(className);
+      } else {
+        document.getElementById("header-menu").classList.remove(className);
+      }
+    };
+
+
+  },
   data() {
     return {
       navLinks: menu,
@@ -116,16 +132,26 @@ export default {
 
 <style lang="scss" scoped>
 
+.inverted {
+  @apply bg-slate-50;
+
+  .font-to-invert-to-pink {
+    @apply text-pink-500 transition-all;
+  }
+
+  .font-to-invert-to-black {
+    @apply text-slate-700 transition-all;
+  }
+}
+
+
 .link {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  //color: #EC407A;
-  @apply block  text-base font-medium px-3;
+  @apply block  text-base font-medium px-3 ;
 
   &.nuxt-link-exact-active {
-    //@apply bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium;
-    @apply text-base text-slate-800;
 
     &::after {
       left: 0;
