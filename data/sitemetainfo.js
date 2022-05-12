@@ -1,7 +1,7 @@
 const siteMetaInfo = {
   title: "EventuallyCoding",
   author: "Hugo Lassiège",
-  author_image: "/author.png",
+  author_image: "/hugo-nb.jpg",
   position: "CTO",
   location: "Lyon, France",
   slogan: "A la fin de l'envoi, je code !",

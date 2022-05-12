@@ -9,52 +9,17 @@
 
       </div>
 
-      <div class="scroll-down text-white absolute left-10 bottom-1 text-center animate-bounce">
-        <span class="text-white writing-vertical ml-auto mr-auto font-bruno text-xs ">More</span>
-        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="arrow-down"
-             role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-             class="ml-auto mr-auto w-10 mt-3 ">
-          <path fill="currentColor" d="M443.5 248.5l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L241 419.9V44c0-6.6-5.4-12-12-12h-10c-6.6 0-12 5.4-12 12v375.9L28.5 241.4c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.8 4.8-12.3.1-17z" class=""></path>
-        </svg>
-      </div>
-      <div class="clip-ellipse absolute bottom-76 -translate-y-2 rotate-180">
+      <div class="clip-ellipse absolute top-124  rotate-180">
       </div>
 
     </section>
 
-    <section class="mt-10 ">
-      <div class="w-3/4 mx-auto px-4 " >
-
-      <div class="font-montserrat font-medium text-4xl mb-10 text-slate-800 text-center pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
+    <section class="mt-28 w-5/6 lg:w-3/4 md:w-4/5 mx-auto px-4">
+      <div class="font-montserrat font-medium text-center text-4xl mb-10 text-slate-800 pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
         Derniers billets
       </div>
 
-
-      <div class=" grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4">
-
-        <BlogCard v-for="article in articles"
-                      :key="article.title"
-                      :title="article.title"
-                      :img="'/covers/'+article.cover"
-                      :description="article.description"
-                      :date="article.date"
-                      :slug="article.slug"
-                      :tags="article.tags"
-                      :path="article.path"
-          />
-
-
-      </div>
-      </div>
-    </section>
-
-
-    <section class="mt-32 w-3/4 mx-auto px-4">
-      <div class="font-montserrat font-medium text-center text-4xl mb-10 text-slate-800 pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
-        Les plus lus
-      </div>
-
-      <div class=" w-1/2 mx-auto grid grid-cols-1 gap-4">
+      <div class=" md:w-3/4 lg:w-1/2 mx-auto grid grid-cols-1 gap-4">
 
         <BlogCardHorizontal v-for="article in articles"
                   :key="article.title"

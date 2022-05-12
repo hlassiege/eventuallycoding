@@ -1,14 +1,72 @@
 <template>
-  <div class="dark:bg-gray-900 mt-6">
-    <div class="max-w-screen-lg md:flex mx-auto dark:bg-gray-900">
-      <div class="md:w-1/3 p-2 md:flex md:justify-center">
-        <AuthorCard />
-      </div>
-      <div class="md:w-2/3 px-8">
-        <AuthorIntro></AuthorIntro>
+  <div>
+    <section class="flex items-center justify-center h-128 bg-transparent">
+      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
 
-        <Expertise></Expertise>
-        <TimeLine></TimeLine>
+      <div class="p-5 text-white rounded ">
+        <div class="md:block flex justify-center items-center">
+          <nuxt-img
+            :src="siteMetaInfo.author_image"
+            loading="lazy"
+            alt="me"
+            class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all"
+          />
+        </div>
+        <div class="text-center">
+          {{ siteMetaInfo.author }}
+        </div>
+
+      </div>
+
+      <div class="clip-ellipse absolute top-124  rotate-180">
+      </div>
+
+    </section>
+
+
+    <div class="dark:bg-gray-900 mt-12">
+      <div class="w-3/4 md:flex mx-auto dark:bg-gray-900">
+        <div class="px-8">
+          <AuthorIntro></AuthorIntro>
+
+          <hr class="mt-20">
+          <!--        <Expertise></Expertise>-->
+          <TimeLine/>
+
+          <hr class="mt-20">
+
+          <div class="mt-20">
+            <div class="text-center mb-16 ">
+              <h2 class="text-2xl underline  decoration-red-400 decoration-4 underline-offset-8 ">Evènements passés</h2>
+            </div>
+
+            <div class="overflow-hidden overflow-x-auto border border-gray-100 rounded">
+              <table class="min-w-full text-sm divide-y divide-gray-200">
+                <thead>
+                <tr class="bg-gray-50">
+                  <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Evènement</th>
+                  <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Titre</th>
+                  <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Lieu</th>
+                  <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Date</th>
+                </tr>
+                </thead>
+
+                <tbody class="divide-y divide-gray-100">
+                <tr v-for="event in events" :key="event" class="hover:bg-slate-300 transition-colors">
+                  <td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">{{ event.event }}</td>
+                  <td class="px-4 py-2 text-gray-700 whitespace-nowrap">
+                    <nuxt-link :to="event.link" class="text-blue-500 hover:text-blue-700">{{ event.title }}</nuxt-link>
+                  </td>
+                  <td class="px-4 py-2 text-gray-700 whitespace-nowrap">{{ event.location }}</td>
+                  <td class="px-4 py-2 text-gray-700 whitespace-nowrap">{{ event.date }}</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -17,13 +75,252 @@
 <script>
 
 import siteMetaInfo from "@/data/sitemetainfo";
+import * as THREE from "three";
+
 export default {
   data() {
     return {
       siteMetaInfo: siteMetaInfo,
+      events: [
+        {
+          event: "Devoxx France",
+          title: "Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?",
+          location: "Paris",
+          date: "26/04/2022",
+          link: "https://www.youtube.com/watch?v=X5MYKj1C2qM",
+        },
+        {
+          event: "Codeurs en Seine, French Tech Normandy, NWS et LeVillageByCA",
+          title: "Que veulent les devs à l’ère post covid",
+          location: "Rouen",
+          date: "24/11/2021",
+          link: "https://youtu.be/igs5RjxnYJ4?t=3104",
+        },
+        {
+          event: "Podcast tout se transforme",
+          title: "Freelances : vers une hybridation du travail ?",
+          location: "Lyon",
+          date: "18/02/2021",
+          link: "https://toutsetransforme.fr/le-podcast",
+        },
+        {
+          event: "Silicon.fr",
+          title: "Administrer et superviser son infrastructure IT dans un monde multicloud",
+          location: "Paris",
+          date: "04/02/2021",
+          link: "https://www.silicon-events.fr/journee-du-cloud/session/a6e8a4b1-a13f-eb11-b9ee-000d3a20ef5e",
+        },
+        {
+          event: "France is AI",
+          title: "Getting smarter on talent acquisition",
+          location: "Online",
+          date: "16/11/2020",
+          link: "https://www.youtube.com/watch?v=3Dyfpv3fnAc&t=20045s",
+        },
+        {
+          event: "Podcast Tech Rocks",
+          title: "Paroles de Tech Leaders",
+          location: "Online",
+          date: "05/10/2020",
+          link: "https://podcast.ausha.co/tech-rocks/hugo-lassiege-malt-1-1-s02ep17",
+        },
+        {
+          event: "Le Podcast Tech - Lilian",
+          title: "CTO de Malt : comment tout a commencé…",
+          location: "Online",
+          date: "11/05/2020",
+          link: "https://shows.acast.com/les-podcasts-de-lilian/episodes/cto-de-malt-comment-tout-a-commence",
+        },
+        {
+          event: "Meetup Tech.Rocks",
+          title: "Comment manager en remote ? Le replay",
+          location: "Online",
+          date: "19/04/2020",
+          link: "https://www.tech.rocks/blog/meetup-tech-rocks-comment-manager-en-remote-le-replay",
+        },
+        {
+          event: "Mixit",
+          title: "Table-ronde – « Entrepreneuriat : comment se lancer dans l’aventure ? ",
+          location: "Lyon",
+          date: "24/05/2019",
+          link: "https://mixitconf.org/2019/table-ronde-entrepreneuriat-comment-se-lancer-dans-l-aventure-",
+        },
+        {
+          event: "Elasticsearch Barcelona Meetup",
+          title: "Elasticsearch at Malt ",
+          location: "Barcelona",
+          date: "25/04/2019",
+          link: "https://twitter.com/louisemarliere/status/1121487046948917248?lang=fr",
+        },
+        {
+          event: "Elasticsearch Paris Meetup",
+          title: "Elasticsearch at Malt ",
+          location: "Paris",
+          date: "22/01/2019",
+          link: "https://www.elastic.co/fr/videos/the-different-use-cases-of-elasticsearch-at-malt",
+        },
+        {
+          event: "Human Talks",
+          title: "FROM 0 TO 1 : ÉVOLUTION D’UNE STACK TECHNIQUE SUR 5 ANS",
+          location: "Lyon",
+          date: "09/05/2017",
+          link: "https://humantalks.com/talks/1068-from-0-to-1-evolution-d-une-stack-technique-sur-5",
+        },
+        {
+          event: "Human Talks",
+          title: "Demain, tous freelances ?",
+          location: "Lyon",
+          date: "10/09/2013",
+          link: "https://humantalks.com/talks/243-tous-freelances",
+        },
+        {
+          event: "Human Talks",
+          title: "Epic fail",
+          location: "Lyon",
+          date: "08/10/2014",
+          link: "https://humantalks.com/talks/256-epic-fail",
+        },
+        {
+          event: "Human Talks",
+          title: "Déployez votre application Spring-boot avec Ansible",
+          location: "Lyon",
+          date: "10/02/2014",
+          link: "https://humantalks.com/talks/576-deployez-votre-application-spring-boot-avec-ansibl",
+        },
+        {
+          event: "Devoxx",
+          title: "BOF – Les NoSSII",
+          location: "Paris",
+          date: "28/03/2013",
+          link: "https://blog.ninja-squad.com/2013/03/22/nossii-devoxx-france/",
+        },
+        {
+          event: "Devoxx",
+          title: "Quickie – localizeyourapps",
+          location: "Paris",
+          date: "13/05/2012",
+          link: "https://fr.slideshare.net/hlassiege/localizeyourapps-devoxx2012",
+        },
+      ],
     };
   },
-  async asyncData({ $content, params, route }) {
+  mounted() {
+    const canvas = document.getElementById("c");
+    document.addEventListener("DOMContentLoaded", () => {
+      canvas.style.opacity = 1;
+    });
+
+    const getRandomParticlePos = (particleCount) => {
+      const arr = new Float32Array(particleCount * 3);
+      for (let i = 0; i < particleCount; i++) {
+        arr[i] = (Math.random() - 0.5) * 10;
+      }
+      return arr;
+    };
+    const resizeRendererToDisplaySize = (renderer) => {
+      const canvas = renderer.domElement;
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      const needResize = canvas.width !== width || canvas.height !== height;
+      // resize only when necessary
+      if (needResize) {
+        //3rd parameter `false` to change the internal canvas size
+        renderer.setSize(width, height, false);
+      }
+      return needResize;
+    };
+
+// mouse
+    let mouseX = 0;
+    let mouseY = 0;
+    document.addEventListener("mousemove", (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+
+    const main = () => {
+      const canvas = document.getElementById("c");
+      const renderer = new THREE.WebGLRenderer({canvas});
+      renderer.setClearColor(new THREE.Color("#202b3d"));
+      const scene = new THREE.Scene();
+
+      // light source
+      const color = 0xffffff;
+      const intensity = 1;
+      const light = new THREE.DirectionalLight(color, intensity);
+      light.position.set(-1, 2, 4);
+      scene.add(light);
+
+      // camera
+      const fov = 75,
+        aspect = 2,
+        near = 1.5,
+        far = 5;
+      const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+      camera.position.z = 2;
+
+      // Geometry
+      const geometrys = [new THREE.BufferGeometry(), new THREE.BufferGeometry()];
+
+      geometrys[0].setAttribute(
+        "position",
+        new THREE.BufferAttribute(getRandomParticlePos(350), 3)
+      );
+      geometrys[1].setAttribute(
+        "position",
+        new THREE.BufferAttribute(getRandomParticlePos(1500), 3)
+      );
+
+      const loader = new THREE.TextureLoader();
+
+      // material
+      const materials = [
+        new THREE.PointsMaterial({
+          size: 0.05,
+          map: loader.load("sp1.png"),
+          transparent: true,
+          color: "#0e6594"
+        }),
+        new THREE.PointsMaterial({
+          size: 0.075,
+          map: loader.load("sp2.png"),
+          transparent: true
+          // color: "#0000ff"
+        })
+      ];
+
+      const starsT1 = new THREE.Points(geometrys[0], materials[0]);
+      const starsT2 = new THREE.Points(geometrys[1], materials[1]);
+      scene.add(starsT1);
+      scene.add(starsT2);
+
+      const render = (time) => {
+        // time *= 0.001; //in seconds
+
+        if (resizeRendererToDisplaySize(renderer)) {
+          const canvas = renderer.domElement;
+          // changing the camera aspect to remove the strechy problem
+          camera.aspect = canvas.clientWidth / canvas.clientHeight;
+          camera.updateProjectionMatrix();
+        }
+
+        starsT1.rotation.y = 0.00005 * time;
+        starsT1.rotation.x = 0.00005 * time;
+        starsT2.rotation.y = 0.00005 * time;
+        starsT2.rotation.x = 0.00005 * time;
+
+        // Re-render the scene
+        renderer.render(scene, camera);
+        // loop
+        requestAnimationFrame(render);
+      };
+      requestAnimationFrame(render);
+    };
+    main();
+
+
+  },
+  async asyncData({$content, params, route}) {
     const articles = await $content("articles", {deep: true}, params.slug)
       .only([
         "title",
@@ -46,17 +343,26 @@ export default {
   head: {
     title: "A propos de l'auteur | " + siteMetaInfo.title,
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {charset: "utf-8"},
+      {name: "viewport", content: "width=device-width, initial-scale=1"},
       {
         hid: "description",
         name: "description",
         content: siteMetaInfo.description,
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
   },
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.clip-ellipse {
+  clip-path: ellipse(60% 100% at 50% 0%);
+  @apply bg-white;
+  height: 100px;
+  width: 100%;
+
+}
+
+</style>

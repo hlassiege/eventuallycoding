@@ -1,4 +1,17 @@
 <template>
+  <div>
+    <section class="flex items-center justify-center h-128 bg-transparent">
+      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
+
+      <div class="p-5 text-white rounded ">
+        <div class="text-7xl font-bruno ">EventuallyCoding</div>
+
+      </div>
+
+      <div class="clip-ellipse absolute top-124  rotate-180">
+      </div>
+
+    </section>
   <div class="flex flex-col items-start sm:flex-row pt-12 bg-slate-100">
     <aside class="hidden px-6 py-6 space-y-8 sm:block w-[200px]" aria-label="Sidebar">
       <div class="">
@@ -36,7 +49,13 @@
         </div>
       </div>
     </aside>
+    <div>
+      <div class="font-montserrat font-medium text-center text-4xl text-slate-800 pt-[60px] underline
+      decoration-red-400 decoration-4 underline-offset-8 -mt-16">
+        Blog
+      </div>
     <div class="pt-16 grid xl:grid-cols-5 lg:grid-cols-3 gap-x-3 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
+
 
       <BlogCard v-for="article in articles"
                 :key="article.title"
@@ -49,11 +68,14 @@
                 :path="article.path"
       />
     </div>
+    </div>
+  </div>
   </div>
 </template>
 
 <script>
 import siteMetaInfo from "@/data/sitemetainfo";
+import * as THREE from "three";
 
 export default {
   data() {
@@ -120,7 +142,132 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+  mounted() {
+    const canvas = document.getElementById("c");
+    document.addEventListener("DOMContentLoaded", () => {
+      canvas.style.opacity = 1;
+    });
+
+    const getRandomParticlePos = (particleCount) => {
+      const arr = new Float32Array(particleCount * 3);
+      for (let i = 0; i < particleCount; i++) {
+        arr[i] = (Math.random() - 0.5) * 10;
+      }
+      return arr;
+    };
+    const resizeRendererToDisplaySize = (renderer) => {
+      const canvas = renderer.domElement;
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      const needResize = canvas.width !== width || canvas.height !== height;
+      // resize only when necessary
+      if (needResize) {
+        //3rd parameter `false` to change the internal canvas size
+        renderer.setSize(width, height, false);
+      }
+      return needResize;
+    };
+
+// mouse
+    let mouseX = 0;
+    let mouseY = 0;
+    document.addEventListener("mousemove", (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+
+    const main = () => {
+      const canvas = document.getElementById("c");
+      const renderer = new THREE.WebGLRenderer({canvas});
+      renderer.setClearColor(new THREE.Color("#202b3d"));
+      const scene = new THREE.Scene();
+
+      // light source
+      const color = 0xffffff;
+      const intensity = 1;
+      const light = new THREE.DirectionalLight(color, intensity);
+      light.position.set(-1, 2, 4);
+      scene.add(light);
+
+      // camera
+      const fov = 75,
+        aspect = 2,
+        near = 1.5,
+        far = 5;
+      const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+      camera.position.z = 2;
+
+      // Geometry
+      const geometrys = [new THREE.BufferGeometry(), new THREE.BufferGeometry()];
+
+      geometrys[0].setAttribute(
+        "position",
+        new THREE.BufferAttribute(getRandomParticlePos(350), 3)
+      );
+      geometrys[1].setAttribute(
+        "position",
+        new THREE.BufferAttribute(getRandomParticlePos(1500), 3)
+      );
+
+      const loader = new THREE.TextureLoader();
+
+      // material
+      const materials = [
+        new THREE.PointsMaterial({
+          size: 0.05,
+          map: loader.load("sp1.png"),
+          transparent: true,
+          color: "#0e6594"
+        }),
+        new THREE.PointsMaterial({
+          size: 0.075,
+          map: loader.load("sp2.png"),
+          transparent: true
+          // color: "#0000ff"
+        })
+      ];
+
+      const starsT1 = new THREE.Points(geometrys[0], materials[0]);
+      const starsT2 = new THREE.Points(geometrys[1], materials[1]);
+      scene.add(starsT1);
+      scene.add(starsT2);
+
+      const render = (time) => {
+        // time *= 0.001; //in seconds
+
+        if (resizeRendererToDisplaySize(renderer)) {
+          const canvas = renderer.domElement;
+          // changing the camera aspect to remove the strechy problem
+          camera.aspect = canvas.clientWidth / canvas.clientHeight;
+          camera.updateProjectionMatrix();
+        }
+
+        starsT1.rotation.y = 0.00005 * time;
+        starsT1.rotation.x = 0.00005 * time;
+        starsT2.rotation.y = 0.00005 * time;
+        starsT2.rotation.x = 0.00005 * time;
+
+        // Re-render the scene
+        renderer.render(scene, camera);
+        // loop
+        requestAnimationFrame(render);
+      };
+      requestAnimationFrame(render);
+    };
+    main();
+
+
+  },
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.clip-ellipse {
+  clip-path: ellipse(60% 100% at 50% 0%);
+  @apply bg-slate-100;
+  height: 100px;
+  width: 100%;
+
+}
+
+</style>

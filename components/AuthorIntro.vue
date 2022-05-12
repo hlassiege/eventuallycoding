@@ -3,18 +3,22 @@
     <h2
       class="mt-6 text-4xl text-gray-700 font-bold capitalize dark:text-blue-200"
     >
-      👋 Hola , Good Day !
+      Salut !
     </h2>
     <p class="mt-8 mb-4 dark:bg-gray-800 dark:text-blue-200 text-justify">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
+      <p>
+      Je m’appelle Hugo. Je suis développeur Web Backend et actuellement CTO et co-fondateur de <nuxt-link to="https://www.malt.fr">Malt</nuxt-link>.
+      </p>
+    <br/>
+    <p>
+      Je travaille depuis le crack de la bulle Internet et le bug de l’an 2000. Pourtant, personne n’a encore fait le lien et je cours toujours alors chuutt…
     </p>
+    <br/>
+    <p>
+      Si vous lisez ce blog, j'espère qu'il vous est utile autant qu'il m'est utile. Notre métier a évolué sur les 20 dernières années et
+      ce blog me permet de partager cette expérience par écrit.
+    </p>
+
+
   </div>
 </template>

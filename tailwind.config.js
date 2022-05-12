@@ -1,12 +1,5 @@
 module.exports = {
   darkMode: "class",
-  purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
-  ],
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -18,9 +11,11 @@ module.exports = {
     extend: {
       spacing: {
         '76': '17rem',
+        '124': '36rem',
         '128': '40rem',
       },
       height: {
+        '124': '36rem',
         '128': '40rem',
       }
     }
