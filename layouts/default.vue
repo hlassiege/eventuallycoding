@@ -5,6 +5,9 @@
       <Nuxt />
       <TheFooter />
     </div>
+
+    <script data-host="https://digianalytics.fr" data-dnt="false" src="https://digianalytics.fr/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
   </section>
 </template>
 
