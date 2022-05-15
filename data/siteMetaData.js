@@ -19,7 +19,7 @@ const siteMetadata = {
   stackoverflow: "#",
   youtube: "#",
   linkedin: "https://www.linkedin.com/in/hugolassiege/",
-  rss: "/feed/rss.xml",
+  rss: "/rss.xml",
 };
 
 export default siteMetadata;
