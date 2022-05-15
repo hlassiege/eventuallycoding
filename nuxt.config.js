@@ -132,6 +132,7 @@ export default {
   content: {
     liveEdit: false,
     markdown: {
+      markdown: ['remark-oembed'],
       prism: {
         theme: "prism-themes/themes/prism-dracula.css",
       },
