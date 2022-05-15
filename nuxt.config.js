@@ -72,7 +72,7 @@ export default {
   feed: [
     // A default feed configuration object
     {
-      path: '/feed.xml', // The route to your feed.
+      path: '/feed/rss.xml', // The route to your feed.
       // eslint-disable-next-line require-await
       async create(feed) {
         const baseUrlArticles = 'https://eventuallycoding.com';
