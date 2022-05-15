@@ -15,7 +15,7 @@
     </section>
   <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
     <p class="text-center font-bold my-5 text-indigo-500">
-      {{ formatDate(article.date) }}
+      {{ formatDate(article.date) }} - <small>{{ article.readTime.text }}</small>
     </p>
     <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
       {{ article.title }}
@@ -104,6 +104,7 @@ export default {
   },
   async asyncData({ $content, params}) {
     const article = await $content("articles", params.pathMatch, { deep: true }).fetch();
+
     return {
       article: article,
     };
