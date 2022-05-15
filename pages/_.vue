@@ -48,7 +48,7 @@
         </div>
 
         <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">
-          <nuxt-content class="prose  min-w-full p-10 mx-auto" :document="article" />
+          <nuxt-content id="nuxtContent" class="prose  min-w-full p-10 mx-auto" :document="article" />
         </div>
       </div>
     </div>
@@ -124,7 +124,32 @@ export default {
     },
   },
   mounted() {
+    document.getElementById("nuxtContent")
+      .querySelectorAll("p")
+      .forEach((block) => {
+        const regExpMatchArray = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(.*)$/);
+        if (regExpMatchArray) {
+          regExpMatchArray.forEach((match) => {
+            const regExpMatchArray = match.match(/v=(.*)$/);
+            const videoId = regExpMatchArray[1];
+            const container = document.createElement("div");
+            container.setAttribute("class", "w-1/2 ml-auto mr-auto");
+            const iframe = document.createElement("iframe");
+            iframe.setAttribute("src", `https://www.youtube-nocookie.com/embed/${videoId}`);
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "allowfullscreen");
+            iframe.setAttribute("width", "560");
+            iframe.setAttribute("height", "315");
+            block.innerHTML = "";
+            container.appendChild(iframe);
+            block.appendChild(container);
+          });
+        }
+    });
+
+
     Prism.highlightAll();
+
     const canvas = document.getElementById("c");
     document.addEventListener("DOMContentLoaded", () => {
       canvas.style.opacity = 1;
