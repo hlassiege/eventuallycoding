@@ -1,12 +1,13 @@
 ---
 title: "Interview d'une société collaborative : Neovia"
+description: "_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d..."
 date: "2013-09-25"
 categories: 
   - "waza"
 tags: 
   - "nossii"
 img: ""
-cover: "cover4.jpg"
+cover: "cover7.jpg"
 ---
 
 _Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d’entres elles se sont fait connaître récemment et on sent un certain engouement autour de cette autre façon de travailler._

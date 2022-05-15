@@ -1,5 +1,6 @@
 ---
 title: "Maven, anneau de Sauron ou couteau suisse ?"
+description: "[![](/images/couteausuisse.png \"couteausuisse\")](http://eventuallycoding.com/wp-content/uploads/2011/07/couteausuisse.png) Manque de standardisation, ..."
 date: "2011-07-23"
 categories: 
   - "waza"

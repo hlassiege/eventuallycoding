@@ -1,5 +1,8 @@
 ---
 title: "Intégration et dev web avec Bulma, Vue.js etc... - Coderwatch episode 3"
+description: "[english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)
+
+Parlons u..."
 date: "2022-04-14"
 categories: 
   - "waza"
@@ -10,7 +13,7 @@ tags:
   - "product"
   - "vuejs"
 img: "pasted-image-0.png"
-cover: "cover8.jpg"
+cover: "cover4.jpg"
 ---
 
 [english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)

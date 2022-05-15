@@ -1,5 +1,8 @@
 ---
 title: "Se tenir à jour dans une équipe produit"
+description: "English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0
+
+Aujourd’hui je vais aborder le sujet de l’animation de..."
 date: "2021-10-20"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "malt"
   - "training"
 img: "Illustration_sans_titre-36-1024x371.jpg"
-cover: "cover5.jpg"
+cover: "cover4.jpg"
 ---
 
 English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0

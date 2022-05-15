@@ -1,5 +1,6 @@
 ---
 title: "L'informaticien, artisan des temps modernes ?"
+description: "Je viens de lire à l'instant un [billet sur l'informatique et un parrallèle avec l'artisanat](http://blog.loof.fr/2009/11/travailler-plus-pour-des-pru..."
 date: "2010-05-25"
 categories: 
   - "waza"

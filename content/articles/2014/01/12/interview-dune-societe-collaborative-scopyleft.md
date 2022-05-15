@@ -1,5 +1,6 @@
 ---
 title: "Interview d'une société collaborative : Scopyleft"
+description: "_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d..."
 date: "2014-01-12"
 categories: 
   - "waza"

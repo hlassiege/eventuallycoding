@@ -1,12 +1,13 @@
 ---
 title: "Petit rappel sur un principe agile : Avoir un rythme soutenable"
+description: "Un collègue m'a envoyé récemment un lien qui vaut le détour. Un petit [speech intéressant](http://blog.reapfield.com/gerardkho/2010/06/28/life-jugglin..."
 date: "2011-04-12"
 categories: 
   - "waza"
 tags: 
   - "agile"
 img: ""
-cover: "cover1.jpg"
+cover: "cover8.jpg"
 ---
 
 Un collègue m'a envoyé récemment un lien qui vaut le détour. Un petit [speech intéressant](http://blog.reapfield.com/gerardkho/2010/06/28/life-juggling-5-balls/) sorti par Bryan Dyson ex CEO de Coca-Cola.  

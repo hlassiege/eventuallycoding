@@ -1,10 +1,11 @@
 ---
 title: "Etes-vous pompier pyromane ?"
+description: "[![](/images/backdraft-150x150.jpg \"backdraft\")](http://hakanai.free.fr/wp-content/uploads/2012/05/backdraft.jpg)Vous connaissez la [pyromanie](http:/..."
 date: "2012-05-21"
 categories: 
   - "waza"
 img: "backdraft-150x150.jpg"
-cover: "cover1.jpg"
+cover: "cover6.jpg"
 ---
 
 [![](/images/backdraft-150x150.jpg "backdraft")](http://hakanai.free.fr/wp-content/uploads/2012/05/backdraft.jpg)Vous connaissez la [pyromanie](http://fr.wikipedia.org/wiki/Pyromanie) ? Il s’agit d’une fascination pour le feu qui peut amener certains invidivus à déclencher eux-mêmes les incendies. Et vous avez peut-être entendu dire que parfois paradoxalement ce sont des pompiers qui allume ces feux, ce qui leur permet par la suite de se conduire en héros en allant les combattre.

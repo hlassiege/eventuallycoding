@@ -1,12 +1,15 @@
 ---
 title: "Quelle techno pour se faire recruter ?"
+description: "Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :
+
+- [Freelance-info]..."
 date: "2011-04-19"
 categories: 
   - "waza"
 tags: 
   - "emploi"
 img: ""
-cover: "cover2.jpg"
+cover: "cover4.jpg"
 ---
 
 Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :

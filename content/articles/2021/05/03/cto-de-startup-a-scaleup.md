@@ -1,5 +1,6 @@
 ---
 title: "CTO de startup à scaleup"
+description: "Il y a un moment que je pensais faire un billet sur le rôle d'un CTO dans une startup. Cependant je me disais toujours que ce n’était pas intéressant,..."
 date: "2021-05-03"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "scale"
   - "startup"
 img: "Illustration_sans_titre-10-1.jpg"
-cover: "cover4.jpg"
+cover: "cover7.jpg"
 ---
 
 Il y a un moment que je pensais faire un billet sur le rôle d'un CTO dans une startup. Cependant je me disais toujours que ce n’était pas intéressant, qu’il faudrait en parler quand la boîte serait bien plus grande, quand nous serions une licorne etc...

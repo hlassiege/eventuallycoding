@@ -1,5 +1,8 @@
 ---
 title: "Integration and web development with Bulma, Vue.js etc… – Coderwatch episode 3"
+description: "Let's talk about web integration, HTML, CSS and Frontend dev. 
+
+In this post I will detail the Coderwatch implementation choices and I will focus only..."
 date: "2022-04-14"
 categories: 
   - "waza"
@@ -10,7 +13,7 @@ tags:
   - "product"
   - "vuejs"
 img: "pasted-image-0.png"
-cover: "cover7.jpg"
+cover: "cover5.jpg"
 ---
 
 Let's talk about web integration, HTML, CSS and Frontend dev. 

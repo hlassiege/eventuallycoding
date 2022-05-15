@@ -1,5 +1,8 @@
 ---
 title: "We are not done yet"
+description: "[![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)
+
+..."
 date: "2018-05-26"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "malt"
   - "startup"
 img: "475f8-keep-calm-it-s-not-done-yet1.png"
-cover: "cover1.jpg"
+cover: "cover7.jpg"
 ---
 
 [![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)

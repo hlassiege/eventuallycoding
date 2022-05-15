@@ -1,5 +1,6 @@
 ---
 title: "Java Vs C# : Les paramètres nommés et optionnels en C#"
+description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique..."
 date: "2011-02-03"
 categories: 
   - "waza"
@@ -7,7 +8,7 @@ tags:
   - "csharp"
   - "java"
 img: "javac1.png"
-cover: "cover6.jpg"
+cover: "cover2.jpg"
 ---
 
 [![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique à troll !!

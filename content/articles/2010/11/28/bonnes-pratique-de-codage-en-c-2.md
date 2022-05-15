@@ -1,5 +1,6 @@
 ---
 title: "Bonnes pratique de codage en C#"
+description: "Dans la lignée d'un [billet précédent](http://localhost/localweb/wordpress/?p=144 \"Introduction aux tests unitaires et aux bouchons en C#\") qui consti..."
 date: "2010-11-28"
 categories: 
   - "waza"

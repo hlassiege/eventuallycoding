@@ -1,5 +1,6 @@
 ---
 title: "Vagrant et Fabric : prise en main"
+description: "[![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retro..."
 date: "2013-08-21"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "fabric"
   - "vagrant"
 img: "c143b-vagrant.png"
-cover: "cover4.jpg"
+cover: "cover2.jpg"
 ---
 
 [![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retrouvez dans les différentes situations ci-dessous :

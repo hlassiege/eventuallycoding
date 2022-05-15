@@ -1,5 +1,6 @@
 ---
 title: "Mongodb covered query"
+description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Aujourd’hui je souhaite revenir un petit pe..."
 date: "2014-03-27"
 categories: 
   - "waza"

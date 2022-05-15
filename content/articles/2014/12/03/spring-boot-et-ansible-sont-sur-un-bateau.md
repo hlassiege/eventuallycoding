@@ -1,5 +1,6 @@
 ---
 title: "Spring-boot et Ansible sont sur un bateau"
+description: "Il y a quelques jours je faisais un retweet [d'un article](http://blog.adaofeliz.com/2014/11/21/first-look-spring-boot-and-docker/ \"first-look-spring-..."
 date: "2014-12-03"
 categories: 
   - "waza"

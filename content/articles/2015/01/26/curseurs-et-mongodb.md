@@ -1,5 +1,6 @@
 ---
 title: "Curseurs et Mongodb"
+description: "A chaque fois que je donne la formation Mongo je reste étonné lors de ce slide (qui fait le parallèle entre les termes utilisé en relationnel et avec ..."
 date: "2015-01-26"
 categories: 
   - "waza"
@@ -7,7 +8,7 @@ tags:
   - "jongo"
   - "mongo"
 img: "43c58-slideterminology.jpg"
-cover: "cover7.jpg"
+cover: "cover4.jpg"
 ---
 
 A chaque fois que je donne la formation Mongo je reste étonné lors de ce slide (qui fait le parallèle entre les termes utilisé en relationnel et avec Mongo) ;

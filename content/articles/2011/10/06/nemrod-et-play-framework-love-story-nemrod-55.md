@@ -1,5 +1,6 @@
 ---
 title: "Nemrod et Play Framework : love story (Nemrod 5/5)"
+description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) J’ai découvert Play Framework en version 1..."
 date: "2011-10-06"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "nemrod"
   - "play"
 img: "logo-web.png"
-cover: "cover4.jpg"
+cover: "cover5.jpg"
 ---
 
 [![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) J’ai découvert Play Framework en version 1.0 (octobre 2009 si j’en crois la release notes) et j’avais tout de suite adhéré au concept. Sa productivité m’a tout de suite rappelé mes lointaines années où je faisais du PHP avec les avantages du Java en plus. Mais ça n’était encore qu’une version 1.0, pas très reconnu et avec de belles inconnues concernant son utilisation sur une application conséquente.

@@ -1,12 +1,13 @@
 ---
 title: "Recherche textuelle avec MongoDB"
+description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Il y a maintenant 2 ans nous avions choisi ..."
 date: "2014-03-06"
 categories: 
   - "waza"
 tags: 
   - "mongodb"
 img: "af912-mongo.jpg"
-cover: "cover8.jpg"
+cover: "cover1.jpg"
 ---
 
 [![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Il y a maintenant 2 ans nous avions choisi d'utiliser MongoDB sur [HopWork](http://www.hopwork.com) à l'issu [d'une petite série d'expérimentation](http://www.eventuallycoding.com/index.php/nosql-4-bases-a-la-loupe-14/ "Nosql, 4 bases à la loupe 1/4"). Cette base m'avait séduit pour ces puissantes fonctionnalités de requêtage et sa facilité de mise en oeuvre. Dans ce billet j'aimerais revenir sur les fonctionnalités de recherche textuelles de MongoDB car, si elles sont puissantes, elles comportement aussi quelques pièges.

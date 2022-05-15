@@ -1,5 +1,6 @@
 ---
 title: "Intégration GWT-maven-spring-hibernate-spring security-smartGWT"
+description: "Ca y est, l'article que j'avais démarré sur GWT et son intégration avec Spring, maven, SmartGwt et Hibernate est enfin sorti dans sa version finale. I..."
 date: "2009-12-02"
 categories: 
   - "waza"
@@ -10,7 +11,7 @@ tags:
   - "maven"
   - "spring"
 img: ""
-cover: "cover4.jpg"
+cover: "cover7.jpg"
 ---
 
 Ca y est, l'article que j'avais démarré sur GWT et son intégration avec Spring, maven, SmartGwt et Hibernate est enfin sorti dans sa version finale. Il s'en est fallu du temps mais désormais vous pouvez le lire dans son intégralité sur [developpez.com](http://www.developpez.com/ "developpez.com"), [sur cette page plus exactement.](http://hugo.developpez.com/tutoriels/java/gwt/utilisation-gwt-avec-spring-et-hibernate/ "Utilisation de GWT avec spring et hibernate")

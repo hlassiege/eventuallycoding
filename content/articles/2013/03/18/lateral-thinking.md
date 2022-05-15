@@ -1,5 +1,6 @@
 ---
 title: "Lateral Thinking"
+description: "Cette expression vous évoque quelque chose ? Un petit indice, elle est souvent associée à une autre expression : “Penser en dehors de la boîte” (Think..."
 date: "2013-03-18"
 categories: 
   - "waza"

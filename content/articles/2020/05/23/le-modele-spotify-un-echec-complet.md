@@ -1,5 +1,7 @@
 ---
 title: "Le modèle Spotify, un échec complet ?"
+description: "J'ai lu récemment un billet sur le modèle Spotify intitulé \"[l'échec du modèle Spotify](https://oyomy.fr/2020/04/l-echec-du-modele-spotify/)\".  
+Une d..."
 date: "2020-05-23"
 categories: 
   - "waza"
@@ -7,7 +9,7 @@ tags:
   - "agile"
   - "startup"
 img: ""
-cover: "cover5.jpg"
+cover: "cover7.jpg"
 ---
 
 J'ai lu récemment un billet sur le modèle Spotify intitulé "[l'échec du modèle Spotify](https://oyomy.fr/2020/04/l-echec-du-modele-spotify/)".  

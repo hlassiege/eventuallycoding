@@ -1,5 +1,10 @@
 ---
 title: "Pourquoi le sujet n’est plus d’adopter l’agilité mais de changer de culture produit"
+description: "**tldr;**
+
+J'ai récemment eu à remplir un questionnaire sur nos méthodes de gestion de projet chez Malt. 
+
+Je me suis retrouvé à être agacé bêtement p..."
 date: "2021-06-14"
 categories: 
   - "waza"
@@ -10,7 +15,7 @@ tags:
   - "product-discovery"
   - "scrum"
 img: "coach-agile-transformation-1024x1024.jpg"
-cover: "cover8.jpg"
+cover: "cover6.jpg"
 ---
 
 **tldr;**

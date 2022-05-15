@@ -1,5 +1,8 @@
 ---
 title: "Créer des fichiers Excel avec des caractères Chinois en Java"
+description: "## Créer des fichiers Excel avec des caractères Chinois
+
+Dans la lignée du post précédent, pourquoi ne pas continuer à parler de la Chine et aborder l..."
 date: "2009-10-28"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "poi"
   - "utf8"
 img: "exportbadchinese.png"
-cover: "cover2.jpg"
+cover: "cover8.jpg"
 ---
 
 ## Créer des fichiers Excel avec des caractères Chinois

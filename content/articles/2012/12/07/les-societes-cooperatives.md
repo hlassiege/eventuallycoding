@@ -1,5 +1,6 @@
 ---
 title: "Les sociétés coopératives"
+description: "[](http://hakanai.free.fr/index.php/les-societes-cooperatives/fierdetredev_thumb1/)Allez je me lance. A 34 ans, je suis aujourd’hui fier d’être dévelo..."
 date: "2012-12-07"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "cooperatif"
   - "freelance"
 img: ""
-cover: "cover1.jpg"
+cover: "cover3.jpg"
 ---
 
 [](http://hakanai.free.fr/index.php/les-societes-cooperatives/fierdetredev_thumb1/)Allez je me lance. A 34 ans, je suis aujourd’hui fier d’être développeur. Et pourtant c’était loin d’être gagné. J’ai bossé en SSII en début de carrière. Vous savez la SSII leader dans son domaine avec 10 000 grouillots de base. Bon endroit pour apprendre mais on te fait vite comprendre que l’évolution de carrière c’est de sortir de la technique pour faire de zolis graphes sur excel. D’ailleurs la moyenne d’âge des équipes de dev c’est 31 ans et attention on compte la faire descendre.

@@ -1,5 +1,8 @@
 ---
 title: "Senior avec 6 ans d'expérience, et après ?"
+description: "Le sujet récurrent dans l'IT : si on est senior après 6 ans d'expérience, quel est l'avenir du développeur(euse) passé 10 ans ? 
+
+Les vieux et vieille..."
 date: "2021-06-24"
 categories: 
   - "waza"

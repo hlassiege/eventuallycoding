@@ -1,5 +1,8 @@
 ---
 title: "Coderwatch: Episode 2 – Design with Figma and Procreate"
+description: "Here is the second post of this serie around the creation of a side project. 
+
+If you haven't read the first one, my goal is to make a mini series ret..."
 date: "2022-04-08"
 categories: 
   - "waza"

@@ -1,5 +1,8 @@
 ---
 title: "Les salaires dans la tech"
+description: "Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.
+
+Le sujet est passionnant car le marché a énormément changé en une dizaine d'années..."
 date: "2021-07-06"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "salaires"
   - "tech"
 img: "Money-1024x791.jpg"
-cover: "cover3.jpg"
+cover: "cover8.jpg"
 ---
 
 Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.

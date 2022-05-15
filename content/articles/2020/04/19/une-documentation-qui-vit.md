@@ -1,5 +1,7 @@
 ---
 title: "Une documentation qui vit"
+description: "Et si on parlait documentation ?  
+La documentation c'est un peu le sujet maudit et polémique dans les équipes tech. Entre ceux qui en font trop, ceux..."
 date: "2020-04-19"
 categories: 
   - "waza"
@@ -7,7 +9,7 @@ tags:
   - "antora"
   - "doc"
 img: "image-2.png"
-cover: "cover4.jpg"
+cover: "cover5.jpg"
 ---
 
 Et si on parlait documentation ?  

@@ -1,12 +1,15 @@
 ---
 title: "Sortie de Play 1.2 !"
+description: "[![](/images/play.png \"play\")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)
+
+Je vous avais déjà parlé de Play dans [un précédent b..."
 date: "2011-04-18"
 categories: 
   - "waza"
 tags: 
   - "play"
 img: "play.png"
-cover: "cover4.jpg"
+cover: "cover3.jpg"
 ---
 
 [![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)

@@ -1,12 +1,15 @@
 ---
 title: "Travailler autrement"
+description: "\"_Travailler autremen_t\", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?
+
+Amusant, beaucoup affirment \"travailler autrement\". E..."
 date: "2013-08-12"
 categories: 
   - "waza"
 tags: 
   - "lateralthinking"
 img: "9229b-intrigue.gif"
-cover: "cover2.jpg"
+cover: "cover7.jpg"
 ---
 
 "_Travailler autremen_t", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?

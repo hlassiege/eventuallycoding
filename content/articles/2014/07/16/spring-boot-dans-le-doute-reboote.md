@@ -1,5 +1,6 @@
 ---
 title: "Spring Boot : dans le doute reboote"
+description: "[![spring-boot-logo](/images/28307-spring-boot-logo.png)](http://eventuallycoding.com/wp-content/uploads/2014/07/28307-spring-boot-logo.png)Le dernier..."
 date: "2014-07-16"
 categories: 
   - "waza"
@@ -9,7 +10,7 @@ tags:
   - "spring"
   - "spring-boot"
 img: "28307-spring-boot-logo.png"
-cover: "cover2.jpg"
+cover: "cover4.jpg"
 ---
 
 [![spring-boot-logo](/images/28307-spring-boot-logo.png)](http://eventuallycoding.com/wp-content/uploads/2014/07/28307-spring-boot-logo.png)Le dernier billet date de plus d’un mois, ça commence à faire. Et pour cause, beaucoup de travail à été réalisé sur Hopwork ne laissant que peu de place pour écrire.

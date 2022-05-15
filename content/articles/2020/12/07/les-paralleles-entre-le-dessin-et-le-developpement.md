@@ -1,5 +1,7 @@
 ---
 title: "Les parallèles entre le dessin et le développement"
+description: "J'ai pas mal tourné autour du pot pour faire ce billet qui s'éloigne, un peu, de ce que je fais habituellement.  
+Il se trouve que j'ai un hobby en pl..."
 date: "2020-12-07"
 categories: 
   - "waza"
@@ -8,7 +10,7 @@ tags:
   - "design"
   - "dessin"
 img: "Dobby0001-4-1024x391.jpg"
-cover: "cover5.jpg"
+cover: "cover1.jpg"
 ---
 
 J'ai pas mal tourné autour du pot pour faire ce billet qui s'éloigne, un peu, de ce que je fais habituellement.  

@@ -1,12 +1,15 @@
 ---
 title: "Produit versus Side Project"
+description: "![](/images/Refaire_facebook_en_best_effort.jpg)
+
+Après maintenant quelques années sur Malt, j'aimerais revenir sur un sujet qui revient souvent sur l..."
 date: "2020-07-27"
 categories: 
   - "waza"
 tags: 
   - "product"
 img: "Refaire_facebook_en_best_effort.jpg"
-cover: "cover1.jpg"
+cover: "cover2.jpg"
 ---
 
 ![](/images/Refaire_facebook_en_best_effort.jpg)

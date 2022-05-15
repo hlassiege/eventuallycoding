@@ -343,15 +343,24 @@ export default {
   head: {
     title: "A propos de l'auteur | " + siteMetaInfo.title,
     meta: [
-      {charset: "utf-8"},
-      {name: "viewport", content: "width=device-width, initial-scale=1"},
       {
         hid: "description",
         name: "description",
-        content: siteMetaInfo.description,
+        content: "Je m’appelle Hugo. Je suis développeur Web Backend et actuellement CTO et co-fondateur de Malt",
       },
+      { hid: "og:description", name: "og:description", content: "Je m’appelle Hugo. Je suis développeur Web Backend et actuellement CTO et co-fondateur de Malt" },
+      { hid: "og:type", name: "og:type", content: "article" },
+      { hid: "og:title", name: "og:title", content: "A propos de l'auteur" },
+      { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/about" },
+      { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + siteMetaInfo.author_image },
+      { name: "twitter:text:title", content: "A propos de l'auteur" },
+      { name: "twitter:image", content: 'https://eventuallycoding.com' +  siteMetaInfo.author_image  },
+      { name: "twitter:card", content: 'summary'  },
+
     ],
-    link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
+    link: [
+      { rel: "canonical", href: "https://eventuallycoding.com/about" },
+    ],
   },
 };
 </script>

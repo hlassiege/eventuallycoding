@@ -1,12 +1,15 @@
 ---
 title: "This is the story of a side project"
+description: "Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
+
+..."
 date: "2022-04-04"
 categories: 
   - "waza"
 tags: 
   - "product"
 img: "pasted-image-0.png"
-cover: "cover6.jpg"
+cover: "cover4.jpg"
 ---
 
 Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.

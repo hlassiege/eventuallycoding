@@ -1,5 +1,8 @@
 ---
 title: "Swing or not Swing, that is the question"
+description: "## Peut-on faire un client lourd en Java ?
+
+Ayant bossé en Java je me suis heurté à Swing comme on peut se heurter à un mur. Ouch, quand on vient du W..."
 date: "2009-10-30"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "java"
   - "swing"
 img: ""
-cover: "cover3.jpg"
+cover: "cover2.jpg"
 ---
 
 ## Peut-on faire un client lourd en Java ?

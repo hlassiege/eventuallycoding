@@ -1,5 +1,8 @@
 ---
 title: "Les tests d'IHM avec Play!"
+description: "[![](/images/test.png \"test\")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)
+
+Vous avez une appli Play ? Vous avez déjà bien utilis..."
 date: "2011-11-05"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "play"
   - "selenium"
 img: "test.png"
-cover: "cover6.jpg"
+cover: "cover5.jpg"
 ---
 
 [![](/images/test.png "test")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)

@@ -1,5 +1,8 @@
 ---
 title: "Coderwatch : épisode 2 - Design avec Figma et Procreate"
+description: "[English version here](https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate/)
+
+Voici le second billet de cette..."
 date: "2022-04-08"
 categories: 
   - "waza"

@@ -1,5 +1,8 @@
 ---
 title: "Feature branching vs Feature Flipping"
+description: "![](/images/qXMqcos.png)
+
+Je ne sais pas vous mais de mon côté, dans chaque job que j'ai pu faire j'ai toujours retrouvé certains éternels débats. Vou..."
 date: "2017-09-29"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "feature-flipping"
   - "ff4j"
 img: "qXMqcos.png"
-cover: "cover6.jpg"
+cover: "cover4.jpg"
 ---
 
 ![](/images/qXMqcos.png)

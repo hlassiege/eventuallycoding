@@ -1,12 +1,13 @@
 ---
 title: "Juste un café, ça ira merci !"
+description: "![](/images/diversite-200x200.jpg \"diversite-200x200\")A l’heure des languages alternatifs sur la JVM : ceylon, scala, fantom et autres joyeusetés, pou..."
 date: "2011-11-30"
 categories: 
   - "waza"
 tags: 
   - "java"
 img: "diversite-200x200.jpg"
-cover: "cover1.jpg"
+cover: "cover2.jpg"
 ---
 
 ![](/images/diversite-200x200.jpg "diversite-200x200")A l’heure des languages alternatifs sur la JVM : ceylon, scala, fantom et autres joyeusetés, pour l’instant j’assume ma fidélité à Java. Et oui, je le dis, "juste un café pour moi, ça ira merci"

@@ -1,10 +1,15 @@
 ---
 title: "L’Europe entre le marteau Chinois et l’enclume US"
+description: "![](/images/marteau-enclume-1024x850.jpg)
+
+L'europe en action
+
+En démarrant ce billet, enfin ces billets, je savais à l'avance que l'écriture allait ê..."
 date: "2020-08-03"
 categories: 
   - "waza"
 img: "marteau-enclume-1024x850.jpg"
-cover: "cover4.jpg"
+cover: "cover5.jpg"
 ---
 
 ![](/images/marteau-enclume-1024x850.jpg)

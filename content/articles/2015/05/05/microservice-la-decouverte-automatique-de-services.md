@@ -1,5 +1,8 @@
 ---
 title: "Microservice : la découverte automatique de services"
+description: "Le dernier billet de ce blog entamait une mini-série sur les microservices qui espère traiter des sujets suivants :
+
+- comment gérer une fédération d’..."
 date: "2015-05-05"
 categories: 
   - "waza"
@@ -10,7 +13,7 @@ tags:
   - "spring-cloud"
   - "zuul"
 img: "0f9d8-microservice.jpg"
-cover: "cover3.jpg"
+cover: "cover1.jpg"
 ---
 
 Le dernier billet de ce blog entamait une mini-série sur les microservices qui espère traiter des sujets suivants :

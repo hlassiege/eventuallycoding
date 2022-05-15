@@ -1,5 +1,6 @@
 ---
 title: "MongoDB : Utiliser les propriétés de vos ObjectId dans vos MapReduce"
+description: "Je vous propose de voir deux fonctionnalités plutôt pratiques de [MongoDB](http://www.mongodb.org/) dans ce billet. D’une part je vais vous parler de ..."
 date: "2013-09-28"
 categories: 
   - "waza"

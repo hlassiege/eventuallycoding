@@ -1,5 +1,8 @@
 ---
 title: "Faut-il être passionné pour réussir dans le dev ?"
+description: "Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 
+
+Est ce qu'on peut stopper le boulot à 18h, faire du sport..."
 date: "2022-04-30"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "passion"
   - "thoughts"
 img: ""
-cover: "cover2.jpg"
+cover: "cover4.jpg"
 ---
 
 Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 

@@ -1,5 +1,6 @@
 ---
 title: "Slack est la nouvelle \"pause clope\""
+description: "Intrigué par ce titre ? Pour situer le contexte, j'ai été absent quelques jours récemment. J'étais à [Mix-It](https://www.mix-it.fr/), très bonne conf..."
 date: "2016-04-24"
 categories: 
   - "waza"

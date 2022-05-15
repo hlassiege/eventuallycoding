@@ -1,5 +1,8 @@
 ---
 title: "C'est l'histoire d'un side project"
+description: "English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)
+
+Très récemment, pris d’une envie de retour aux s..."
 date: "2022-04-04"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "product"
   - "side-project"
 img: "pasted-image-0.png"
-cover: "cover8.jpg"
+cover: "cover7.jpg"
 ---
 
 English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)

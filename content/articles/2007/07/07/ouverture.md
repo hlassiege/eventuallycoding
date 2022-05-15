@@ -1,10 +1,13 @@
 ---
 title: "Ouverture"
+description: "Eh bien ça faisait un moment que j'y réfléchissais et c'est désormais chose faite, <Hakanai/> ouvre ses portes !
+
+Rédacteur sur http://www.developpez...."
 date: "2007-07-07"
 categories: 
   - "waza"
 img: ""
-cover: "cover8.jpg"
+cover: "cover5.jpg"
 ---
 
 Eh bien ça faisait un moment que j'y réfléchissais et c'est désormais chose faite, <Hakanai/> ouvre ses portes !

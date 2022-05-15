@@ -1,5 +1,7 @@
 ---
 title: "Intégration avec Hull et considérations pratiques sur l'usage d'APIs"
+description: "Je vous propose aujourd'hui de découvrir [Hull](https://www.hull.io/). que nous utilisons depuis quelques mois chez Malt.  
+Hull fait partie des outil..."
 date: "2020-03-02"
 categories: 
   - "waza"
@@ -9,7 +11,7 @@ tags:
   - "datamarketing"
   - "hull"
 img: "automate.png"
-cover: "cover1.jpg"
+cover: "cover8.jpg"
 ---
 
 Je vous propose aujourd'hui de découvrir [Hull](https://www.hull.io/). que nous utilisons depuis quelques mois chez Malt.  

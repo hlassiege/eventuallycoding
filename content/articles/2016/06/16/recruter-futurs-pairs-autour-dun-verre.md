@@ -1,5 +1,6 @@
 ---
 title: "Recruter ces futurs pairs autour d'un verre"
+description: "[![redcrabe](/images/redcrabe2.jpg)](https://eventuallycoding.com/wp-content/uploads/2013/03/redcrabe2.jpg)J’ai cofondé [Lateral-Thoughts](http://www...."
 date: "2016-06-16"
 categories: 
   - "waza"
@@ -7,7 +8,7 @@ tags:
   - "lateralthoughts"
   - "recrutement"
 img: "redcrabe2.jpg"
-cover: "cover3.jpg"
+cover: "cover5.jpg"
 ---
 
 [![redcrabe](/images/redcrabe2.jpg)](https://eventuallycoding.com/wp-content/uploads/2013/03/redcrabe2.jpg)J’ai cofondé [Lateral-Thoughts](http://www.lateral-thoughts.com/) en 2011. Techniquement j’y suis encore même si dans les faits je travaille à 100% sur Hopwork. Lateral-Thoughts est une boite formidable dont je ferais toujours la promotion. Son modèle collaboratif, la transparence tout cela est une réussite. Et comme je suis lancé sur le thème du recrutement, voyons comment ça se passe dans une boite comme ça. 

@@ -1,5 +1,8 @@
 ---
 title: "Créer un soft, on fait comment ? (Nemrod 1/5)"
+description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)
+
+Voila, [Localizeyourapps](http://www.loca..."
 date: "2011-10-02"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "nemrod"
   - "play"
 img: "logo-web.png"
-cover: "cover3.jpg"
+cover: "cover4.jpg"
 ---
 
 [![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)

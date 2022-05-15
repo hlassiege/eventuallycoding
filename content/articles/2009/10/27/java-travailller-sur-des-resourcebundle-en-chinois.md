@@ -1,5 +1,10 @@
 ---
 title: "Java : Travailller sur des ResourceBundle en Chinois"
+description: "## Travailller sur des ResourceBundle en Chinois
+
+Au hasard de mes visites sur developpez.com je suis tombé sur le lien suivant :
+
+[http://blog.develo..."
 date: "2009-10-27"
 categories: 
   - "waza"
@@ -8,7 +13,7 @@ tags:
   - "java"
   - "utf8"
 img: "overview.png"
-cover: "cover4.jpg"
+cover: "cover2.jpg"
 ---
 
 ## Travailller sur des ResourceBundle en Chinois

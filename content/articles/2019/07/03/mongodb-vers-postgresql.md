@@ -1,5 +1,8 @@
 ---
 title: "Retour d'utilisation de Mongodb et pourquoi nous migrons vers Postgresql"
+description: "![](/images/af912-mongo.jpg)
+
+Dans de précédents billets j'évoquais que nous utilisions Mongodb chez Malt mais j'ai évoqué dans certains meetups que n..."
 date: "2019-07-03"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "mongodb"
   - "postgresql"
 img: "af912-mongo.jpg"
-cover: "cover6.jpg"
+cover: "cover2.jpg"
 ---
 
 ![](/images/af912-mongo.jpg)

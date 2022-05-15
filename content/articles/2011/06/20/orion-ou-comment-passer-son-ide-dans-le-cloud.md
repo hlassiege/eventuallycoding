@@ -1,5 +1,6 @@
 ---
 title: "Orion, où comment passer son IDE dans le cloud"
+description: "[![](/images/eclipse.png \"eclipse\")](http://eventuallycoding.com/wp-content/uploads/2011/06/eclipse.png)Une nouvelle petite constellation dans la gala..."
 date: "2011-06-20"
 categories: 
   - "waza"
@@ -9,7 +10,7 @@ tags:
   - "ide"
   - "orion"
 img: "eclipse.png"
-cover: "cover3.jpg"
+cover: "cover5.jpg"
 ---
 
 [![](/images/eclipse.png "eclipse")](http://eventuallycoding.com/wp-content/uploads/2011/06/eclipse.png)Une nouvelle petite constellation dans la galaxie, voilà comment on pourrait introduire le sujet. Et oui, Eclipse continue de surfer sur la vague des galaxie après Virgo, Gemini, Helios et j’en passe, voici [Orion](http://wiki.eclipse.org/Orion). Boris Bokowski membre de la fondation Eclipse, est venu nous présenter ce nouveau projet lors de la conférence What's Next dont j'ai déjà parlé dans un précédent billet. Ce projet cherche à remplacer notre bon vieil IDE par notre navigateur.

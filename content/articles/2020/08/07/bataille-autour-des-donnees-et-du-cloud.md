@@ -1,10 +1,13 @@
 ---
 title: "Bataille autour des données et du Cloud"
+description: "![](/images/Ligne_maginot-1024x838.jpg)
+
+Ce billet fait partie d’une série dont vous pourrez lire [l’introduction ici](https://eventuallycoding.com/20..."
 date: "2020-08-07"
 categories: 
   - "waza"
 img: "Ligne_maginot-1024x838.jpg"
-cover: "cover1.jpg"
+cover: "cover2.jpg"
 ---
 
 ![](/images/Ligne_maginot-1024x838.jpg)

@@ -1,5 +1,8 @@
 ---
 title: "Maven : que Perforce soit avec toi"
+description: "![](/images/ps-kztpdvdc-170x170-751.jpg \"ps.kztpdvdc.170x170-75\")
+
+J'ai un peu galéré dernièrement pour configurer correctement Perforce avec Maven et..."
 date: "2012-04-14"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "nexus"
   - "perforce"
 img: "ps-kztpdvdc-170x170-751.jpg"
-cover: "cover5.jpg"
+cover: "cover3.jpg"
 ---
 
 ![](/images/ps-kztpdvdc-170x170-751.jpg "ps.kztpdvdc.170x170-75")

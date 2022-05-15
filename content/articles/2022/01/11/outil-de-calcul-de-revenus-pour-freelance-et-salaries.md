@@ -1,10 +1,13 @@
 ---
 title: "Outil de calcul de revenus pour freelance et salariés"
+description: "**TLDR;**
+
+Je vous mets à disposition une calculette permettant de déterminer vos revenus nets après IR en fonction de si vous êtes en SASU ou EURL. J..."
 date: "2022-01-11"
 categories: 
   - "waza"
 img: ""
-cover: "cover3.jpg"
+cover: "cover5.jpg"
 ---
 
 **TLDR;**

@@ -1,12 +1,15 @@
 ---
 title: "Transitions agiles, où en sommes nous ?"
+description: "VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.
+
+[http://www.versionone.com/state\_of\_agil..."
 date: "2011-01-11"
 categories: 
   - "waza"
 tags: 
   - "agile"
 img: ""
-cover: "cover1.jpg"
+cover: "cover6.jpg"
 ---
 
 VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.

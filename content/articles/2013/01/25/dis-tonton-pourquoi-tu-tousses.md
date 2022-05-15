@@ -1,12 +1,15 @@
 ---
 title: "Dis tonton, pourquoi tu tousses ?"
+description: "Entendu il y a peu de temps dans une discussion entre deux collègues :
+
+> “Comment ca se fait que ca plante comme ça du jour au lendemain sans raison ..."
 date: "2013-01-25"
 categories: 
   - "waza"
 tags: 
   - "pragmatic-programmer"
 img: "equilibre.jpg"
-cover: "cover8.jpg"
+cover: "cover2.jpg"
 ---
 
 Entendu il y a peu de temps dans une discussion entre deux collègues :

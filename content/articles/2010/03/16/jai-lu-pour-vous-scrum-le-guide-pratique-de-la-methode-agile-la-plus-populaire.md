@@ -1,5 +1,6 @@
 ---
 title: "J'ai lu pour vous : Scrum, le guide pratique de la méthode agile la plus populaire"
+description: "Voilà, je viens de terminer ce bouquin. Je désirais avoir un bon livre sur Scrum afin de prendre du recul et revoir les concepts de cette méthodologie..."
 date: "2010-03-16"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "livre"
   - "scrum"
 img: ""
-cover: "cover4.jpg"
+cover: "cover3.jpg"
 ---
 
 Voilà, je viens de terminer ce bouquin. Je désirais avoir un bon livre sur Scrum afin de prendre du recul et revoir les concepts de cette méthodologie que j'avais déjà pratiqué partiellement. Il ne faut jamais négliger la théorie, car si bien souvent on a tendance à la mettre de côté pour favoriser l'apprentissage sur le tas, la revue des fondamentaux apporte toujours un recadrage. Et c'était bien mon objectif, recadrer mes pratiques avec les valeurs auxquelles elles devaient correspondre, comprendre toutes les facettes d'un projet et pas seulement celles propre à l'équipe de développement.

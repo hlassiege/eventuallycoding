@@ -1,5 +1,8 @@
 ---
 title: "Qu'est-ce qu'un écosystème tech ?"
+description: "![](/images/project_mangrove_day_shutterstock1.jpg)
+
+Si vous n'avez pas dormi les 5 dernières années vous avez peut être entendu parler de la French T..."
 date: "2019-12-19"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "ecosysteme"
   - "tech"
 img: "project_mangrove_day_shutterstock1.jpg"
-cover: "cover2.jpg"
+cover: "cover1.jpg"
 ---
 
 ![](/images/project_mangrove_day_shutterstock1.jpg)

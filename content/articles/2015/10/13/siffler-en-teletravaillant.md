@@ -1,5 +1,6 @@
 ---
 title: "Siffler en télétravaillant"
+description: "[![6f95cc57e9fd19cc8139863326c29067[1]](/images/b6856-6f95cc57e9fd19cc8139863326c290671.jpg)](http://eventuallycoding.com/wp-content/uploads/2015/10/b..."
 date: "2015-10-13"
 categories: 
   - "waza"
@@ -8,7 +9,7 @@ tags:
   - "product"
   - "remote"
 img: "b6856-6f95cc57e9fd19cc8139863326c290671.jpg"
-cover: "cover4.jpg"
+cover: "cover8.jpg"
 ---
 
 [![6f95cc57e9fd19cc8139863326c29067[1]](/images/b6856-6f95cc57e9fd19cc8139863326c290671.jpg)](http://eventuallycoding.com/wp-content/uploads/2015/10/b6856-6f95cc57e9fd19cc8139863326c290671.jpg)

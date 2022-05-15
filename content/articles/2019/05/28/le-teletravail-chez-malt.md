@@ -1,5 +1,8 @@
 ---
 title: "Le télétravail chez Malt"
+description: "Parlons télétravail pour ce billet !
+
+Si le télétravail (ou remote) s'est bien développé récemment, il est loin d'être encore très fréquent en France,..."
 date: "2019-05-28"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "remote"
   - "teletravail"
 img: "holo2.jpg"
-cover: "cover2.jpg"
+cover: "cover1.jpg"
 ---
 
 Parlons télétravail pour ce billet !

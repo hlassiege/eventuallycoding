@@ -17,15 +17,27 @@ export default {
   head: {
     title: "nuxt-blog",
     htmlAttrs: {
-      lang: "en",
+      lang: "fr",
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { hid: "description", name: "description", content: "Speaking about the stuff I do, product, efficiency, tech stack and more." },
       { name: "format-detection", content: "telephone=no" },
+      { hid: "og:type", name: "og:type", content: "website" },
+      { hid: "og:title", name: "og:title", content: "Eventually coding" },
+      { hid: "og:description", name: "og:description", content: "Speaking about the stuff I do, product, efficiency, tech stack and more." },
+      { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/" },
+      { name: "og:site_name", content: "Eventually coding" },
+      { name: "og:locale", content: "fr_FR" },
+      { name: "twitter:creator", content: "@hugolassiege" },
+      { name: "twitter:site", content: "@hugolassiege" },
+   ],
+    link: [
+      { rel: "alternate", type: "application/rss+xml", href: "https://eventuallycoding.com/feed/" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -1,5 +1,10 @@
 ---
 title: "Faut-il mesurer la performance d’une équipe engineering ?"
+description: "Et si on parlait de mesure de la performance d’une équipe engineering ? 
+
+Le sujet peut sembler épineux car il tire deux sujets majeurs :
+
+- les instr..."
 date: "2021-10-07"
 categories: 
   - "waza"
@@ -9,7 +14,7 @@ tags:
   - "okr"
   - "performance"
 img: "Illustration_sans_titre-1024x716.jpg"
-cover: "cover7.jpg"
+cover: "cover8.jpg"
 ---
 
 Et si on parlait de mesure de la performance d’une équipe engineering ? 

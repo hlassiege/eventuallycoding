@@ -1,5 +1,6 @@
 ---
 title: "Let's Swing !"
+description: "Vous connaissez Swing ? Oui, enfin non, pas la [musique](http://fr.wikipedia.org/wiki/Swing_%28musique%29 \"Musique swing\")... En plus d'avoir fait dan..."
 date: "2010-01-28"
 categories: 
   - "waza"
@@ -9,7 +10,7 @@ tags:
   - "substance"
   - "swing"
 img: ""
-cover: "cover2.jpg"
+cover: "cover7.jpg"
 ---
 
 Vous connaissez Swing ? Oui, enfin non, pas la [musique](http://fr.wikipedia.org/wiki/Swing_%28musique%29 "Musique swing")... En plus d'avoir fait danser des générations, il s'agit aussi de la librairie Java pour les interfaces lourdes en Java (ok c'est moins glamour).

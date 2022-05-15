@@ -1,5 +1,6 @@
 ---
 title: "Utiliser Mockito et PowerMock"
+description: "[![](/images/mockito.jpg \"mockito\")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http:..."
 date: "2011-07-07"
 categories: 
   - "waza"
@@ -9,7 +10,7 @@ tags:
   - "powermock"
   - "testunitaire"
 img: "mockito.jpg"
-cover: "cover8.jpg"
+cover: "cover2.jpg"
 ---
 
 [![](/images/mockito.jpg "mockito")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http://mockito.org/) ? En fait vous connaissez même surement pour ceux qui ont eu la chance d'être présent à la [première soirée Marmite des JDuchess](http://jduchess.org/duchess-france/blog/marmite-soiree-crumble-pour-la-premiere-edition/).

@@ -1,10 +1,17 @@
 ---
 title: "Principe de Peter et corollaire d'Archimède"
+description: "**Disclaimer**
+
+> **Second degré exigé** pour lire ce billet. Rassurez-vous, aucun manager n’a été blessé lors de sa rédaction.
+
+ 
+
+Vous connaissiez p..."
 date: "2013-11-27"
 categories: 
   - "waza"
 img: "21bc9-plongee1.jpg"
-cover: "cover4.jpg"
+cover: "cover2.jpg"
 ---
 
 **Disclaimer**

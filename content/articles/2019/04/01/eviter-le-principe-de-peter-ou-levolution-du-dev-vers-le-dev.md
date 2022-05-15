@@ -1,12 +1,15 @@
 ---
 title: "Eviter le principe de Peter, ou, l’évolution du dev vers le dev"
+description: "[![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)
+
+Dans ce billet..."
 date: "2019-04-01"
 categories: 
   - "waza"
 tags: 
   - "principe-peter"
 img: "svg_.png"
-cover: "cover6.jpg"
+cover: "cover1.jpg"
 ---
 
 [![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)

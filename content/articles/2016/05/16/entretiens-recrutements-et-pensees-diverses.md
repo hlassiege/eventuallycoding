@@ -1,5 +1,6 @@
 ---
 title: "Entretiens, recrutements et pensées diverses"
+description: "[![image06](/images/05b46-image06.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/05b46-image06.png)Au cours de mes différents jobs, j'ai..."
 date: "2016-05-16"
 categories: 
   - "waza"
@@ -7,7 +8,7 @@ tags:
   - "casual"
   - "recrutement"
 img: "05b46-image06.png"
-cover: "cover8.jpg"
+cover: "cover6.jpg"
 ---
 
 [![image06](/images/05b46-image06.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/05b46-image06.png)Au cours de mes différents jobs, j'ai été amené à faire pas mal de recrutements. Je ne parle pas de un ou deux recrutements mais bien de plusieurs dizaines. Et évidemment j'ai moi-même passé des entretiens. Certains ont été plutôt "subis", d'autres vraiment appréciés. Dans tous les cas, intégrer une nouvelle personne pour travailler avec soi est véritablement un art difficile, sur lequel je me suis parfois planté. Parlons-en.

@@ -46,7 +46,21 @@
     />
 
     <nuxt-content class="prose  min-w-full p-10 mx-auto" :document="article" />
+
+
+    <div id="hyvor-talk-view"></div>
+    <script type="text/javascript">
+      var HYVOR_TALK_WEBSITE = 7045;
+      var HYVOR_TALK_CONFIG = {
+        url: false,
+        id: window.location.pathname + '/'
+      };
+    </script>
+    <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
   </div>
+
+
+
   </div>
 </template>
 <script>
@@ -60,7 +74,7 @@ export default {
       siteMetadata: siteMetaInfo,
     };
   },
-  async asyncData({ $content, params, route }) {
+  async asyncData({ $content, params}) {
     const article = await $content("articles", params.pathMatch, { deep: true }).fetch();
     return {
       article: article,
@@ -190,13 +204,29 @@ export default {
   },
   head() {
     return {
-      title: this.article.title,
+      title: this.article.title + " | " + siteMetaInfo.title,
       meta: [
         {
           hid: "description",
           name: "description",
           content: this.article.description,
         },
+        { hid: "og:description", name: "og:description", content: this.article.description },
+        { hid: "og:type", name: "og:type", content: "article" },
+        { hid: "og:title", name: "og:title", content: this.article.title },
+        { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + this.article.path.replace('/article', '') },
+        { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ this.article.cover },
+        { name: "og:image:alt", content: this.article.title },
+        { name: "twitter:text:title", content: this.article.title },
+        { name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ this.article.cover },
+        { name: "twitter:card", content: 'summary'  },
+        { name: "article:published_time", content: this.article.createdAt  },
+        { name: "article:article:modified_time", content: this.article.updatedAt  },
+        { name: "article:article:tag", content: this.article.tags ? this.article.tags.toString() : "" },
+
+      ],
+      link: [
+        { rel: "canonical", href: "https://eventuallycoding.com" + this.article.path.replace('/article', '') },
       ],
     };
   },

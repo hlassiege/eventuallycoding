@@ -1,5 +1,8 @@
 ---
 title: "Spring Boot et Vue.js - Coderwatch episode 4"
+description: "Voici le 4ème billet de cette série et pour ce billet nous allons parler de développement Backend avec une application Vue.js en Frontend. 
+
+Je vais r..."
 date: "2022-05-04"
 categories: 
   - "waza"
@@ -9,7 +12,7 @@ tags:
   - "startup"
   - "vuejs"
 img: "pasted-image-0.png"
-cover: "cover6.jpg"
+cover: "cover8.jpg"
 ---
 
 Voici le 4ème billet de cette série et pour ce billet nous allons parler de développement Backend avec une application Vue.js en Frontend. 

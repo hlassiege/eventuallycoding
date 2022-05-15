@@ -1,5 +1,6 @@
 ---
 title: "Serment d'Hypocrite"
+description: "[![1984-poster](/images/1dab7-1984-poster.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/1dab7-1984-poster.jpg)La déontologie dans l’inf..."
 date: "2013-09-09"
 categories: 
   - "waza"

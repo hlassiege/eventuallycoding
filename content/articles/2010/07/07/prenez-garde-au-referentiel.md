@@ -1,12 +1,15 @@
 ---
 title: "Prenez garde au référentiel !"
+description: "### Prenez garde au référentiel !!
+
+Vous vous souvenez de vos cours de physique lorsque vous étiez au Lycée ? On y parlait de référentiel. L'idée étan..."
 date: "2010-07-07"
 categories: 
   - "waza"
 tags: 
   - "agile"
 img: ""
-cover: "cover7.jpg"
+cover: "cover8.jpg"
 ---
 
 ### Prenez garde au référentiel !!

@@ -1,10 +1,11 @@
 ---
 title: "Lateral-Thoughts s'installe à Lyon !"
+description: "[![](/images/logo.png \"logo\")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'i..."
 date: "2012-10-06"
 categories: 
   - "waza"
 img: "logo.png"
-cover: "cover6.jpg"
+cover: "cover8.jpg"
 ---
 
 [![](/images/logo.png "logo")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon !

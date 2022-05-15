@@ -1,5 +1,6 @@
 ---
 title: "Comparaison de moteurs de base de données pour du stockage de logs"
+description: "Il y a un an je m’étais aventuré à tester plusieurs bases Nosql, l’objectif étant pour moi d’apprivoiser les moteurs, de comprendre leurs usages et de..."
 date: "2013-11-05"
 categories: 
   - "waza"
@@ -11,7 +12,7 @@ tags:
   - "mongodb"
   - "mysql"
 img: "22faa-mongodb.png"
-cover: "cover6.jpg"
+cover: "cover2.jpg"
 ---
 
 Il y a un an je m’étais aventuré à tester plusieurs bases Nosql, l’objectif étant pour moi d’apprivoiser les moteurs, de comprendre leurs usages et de voir si nous pouvions en faire bon usage sur [HopWork](http://www.hopwork.com/).

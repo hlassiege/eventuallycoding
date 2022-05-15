@@ -1,5 +1,8 @@
 ---
 title: "Calcul de la vélocité"
+description: "Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.
+
+Alors tout d'abord, quelques d..."
 date: "2010-05-11"
 categories: 
   - "waza"
@@ -7,7 +10,7 @@ tags:
   - "agile"
   - "scrum"
 img: ""
-cover: "cover3.jpg"
+cover: "cover5.jpg"
 ---
 
 Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.

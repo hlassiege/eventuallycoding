@@ -1,5 +1,8 @@
 ---
 title: "Les bases de l'internationalisation"
+description: "Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.
+
+Ce..."
 date: "2018-05-03"
 categories: 
   - "waza"
@@ -8,7 +11,7 @@ tags:
   - "internationalisation"
   - "localisation"
 img: "c13cf-image12.png"
-cover: "cover6.jpg"
+cover: "cover3.jpg"
 ---
 
 Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.

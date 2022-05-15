@@ -1,5 +1,8 @@
 ---
 title: "Java Vs C# : Les types valeurs en C#"
+description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png)
+
+**Warning, warning,** ceci n'est pas une rubriqu..."
 date: "2011-05-01"
 categories: 
   - "waza"

@@ -1,5 +1,6 @@
 ---
 title: "Vers l'infini et au-delà"
+description: "[![tumblr_lw0g09a2hf1qaz5oho1_500[1]](/images/1ace7-tumblr_lw0g09a2hf1qaz5oho1_5001.png)](https://eventuallycoding.com/wp-content/uploads/2019/10/1ace..."
 date: "2015-12-22"
 categories: 
   - "waza"

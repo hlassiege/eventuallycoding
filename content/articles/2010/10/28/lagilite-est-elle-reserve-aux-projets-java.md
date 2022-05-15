@@ -1,12 +1,13 @@
 ---
 title: "L'agilité est elle réservé aux projets JAVA ?"
+description: "Titre provocateur n'est-ce pas ? Pourtant je reviens de l'agile tour 2010 et j'ai pu remarquer qu'une grande majorité des intervenants provenait du mo..."
 date: "2010-10-28"
 categories: 
   - "waza"
 tags: 
   - "agile"
 img: ""
-cover: "cover6.jpg"
+cover: "cover5.jpg"
 ---
 
 Titre provocateur n'est-ce pas ? Pourtant je reviens de l'agile tour 2010 et j'ai pu remarquer qu'une grande majorité des intervenants provenait du monde Java. Alors quoi ? Cette technologie est plus propice à l'agilité ?
