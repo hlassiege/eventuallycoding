@@ -9,7 +9,6 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@agentofuser/remark-oembed": "^1.0.4",
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/redirect-module": "^0.3.1",

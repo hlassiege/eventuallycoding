@@ -13,7 +13,7 @@
       />
 
     </section>
-  <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
+  <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10">
     <p class="text-center font-bold my-5 text-indigo-500">
       {{ formatDate(article.date) }} - <small>{{ article.readTime.text }}</small>
     </p>
@@ -40,12 +40,20 @@
         </a>
       </div>
     </div>
-    <img
-      class="mx-auto w-4/5 my-10 rounded-md drop-shadow-sm"
-      :src="article.image"
-    />
 
-    <nuxt-content class="prose  min-w-full p-10 mx-auto" :document="article" />
+    <div class="text-left mx-auto">
+      <div class="flex flex-wrap lg:flex-row-reverse py-12">
+        <div class="w-full lg:w-1/4 px-5" v-if="article.toc.length > 0">
+          <PageSidebar :toc="article.toc" />
+        </div>
+
+        <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">
+          <nuxt-content class="prose  min-w-full p-10 mx-auto" :document="article" />
+        </div>
+      </div>
+    </div>
+
+
 
     <hr class="mb-12">
 
