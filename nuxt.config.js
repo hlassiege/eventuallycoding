@@ -62,51 +62,51 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxt/content", "@nuxtjs/svg", "@nuxt/image", '@nuxtjs/redirect-module',
-    // '@nuxtjs/feed',
+    '@nuxtjs/feed',
     '@nuxtjs/sitemap'],
   sitemap: {
     hostname: 'https://eventuallycoding.com',
     gzip: true,
     routes: createSitemapRoutes
   },
-  // feed () {
-  //   const baseUrlArticles = 'https://eventuallycoding.com/';
-  //   const baseLinkFeedArticles = '/feed/'
-  //   const feedFormats = {
-  //     rss: { type: 'rss2', file: 'rss.xml' },
-  //     json: { type: 'json1', file: 'feed.json' },
-  //   }
-  //   const { $content } = require('@nuxt/content')
-  //
-  //   const createFeedArticles = async function (feed) {
-  //     feed.options = {
-  //       title: 'EventuallyCoding',
-  //       description: "Speaking about the stuff I do, product, efficiency, tech stack and more.",
-  //       link: baseUrlArticles,
-  //     }
-  //     const articles = await $content('articles', {deep: true}).sortBy("date", 'desc').fetch()
-  //
-  //     articles.forEach((article) => {
-  //       const url = `${baseUrlArticles}/${article.path.replace("articles/", "")}`
-  //
-  //       feed.addItem({
-  //         title: article.title,
-  //         id: url,
-  //         link: url,
-  //         date: new Date(article.date),
-  //         description: article.content,
-  //         content: article.content,
-  //         author: 'Hugo Lassiège',
-  //       })
-  //     })
-  //   }
-  //
-  //   return Object.values(feedFormats).map(({ file, type }) => ({
-  //     path: `${baseUrlArticles}${baseLinkFeedArticles}/${file}`,
-  //     type: type,
-  //     create: createFeedArticles,
-  //   }))
-  // },
+  feed: [
+    // A default feed configuration object
+    {
+      path: '/feed.xml', // The route to your feed.
+      // eslint-disable-next-line require-await
+      async create(feed) {
+        const baseUrlArticles = 'https://eventuallycoding.com';
+        const baseLinkFeedArticles = '/feed/'
+
+        feed.options = {
+          title: 'Eventually coding',
+          description: "Speaking about the stuff I do, product, efficiency, tech stack and more.",
+          link: baseUrlArticles,
+        }
+
+        const { $content } = require('@nuxt/content');
+
+        const articles = await $content('articles', {deep: true}).sortBy("date", 'desc').fetch()
+
+        articles.forEach((article) => {
+          const url = `${baseUrlArticles}${article.path.replace("articles/", "")}`
+
+          feed.addItem({
+            title: article.title,
+            id: url,
+            link: url,
+            date: new Date(article.date),
+            description: article.description,
+            author: 'Hugo Lassiège'
+          })
+        })
+
+      }, // The create function (see below)
+      cacheTime: 1000 * 60 * 15, // How long should the feed be cached
+      type: 'rss2', // Can be: rss2, atom1, json1
+      data: []
+    },
+  ],
   redirect: [
     {
       from: '(?!^\/$|^\/[?].*$)(.*\/[?](.*)$|.*\/$)',
