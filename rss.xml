@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Eventually coding</title>
+        <link>https://eventuallycoding.com</link>
+        <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
+        <lastBuildDate>Sun, 15 May 2022 14:52:26 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Spring Boot et Vue.js - Coderwatch episode 4]]></title>
+            <link>https://eventuallycoding.com/2022/05/04/spring-boot-et-vue-js-coderwatch-episode-4</link>
+            <guid>https://eventuallycoding.com/2022/05/04/spring-boot-et-vue-js-coderwatch-episode-4</guid>
+            <pubDate>Wed, 04 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voici le 4ème billet de cette série et pour ce billet nous allons parler de développement Backend avec une application Vue.js en Frontend. 
+Je vais r...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Faut-il être passionné pour réussir dans le dev ?]]></title>
+            <link>https://eventuallycoding.com/2022/04/30/faut-il-etre-passionne-pour-reussir-dans-le-dev</link>
+            <guid>https://eventuallycoding.com/2022/04/30/faut-il-etre-passionne-pour-reussir-dans-le-dev</guid>
+            <pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 
+Est ce qu'on peut stopper le boulot à 18h, faire du sport...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Intégration et dev web avec Bulma, Vue.js etc... - Coderwatch episode 3]]></title>
+            <link>https://eventuallycoding.com/2022/04/14/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3</link>
+            <guid>https://eventuallycoding.com/2022/04/14/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[[english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)
+Parlons u...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Integration and web development with Bulma, Vue.js etc… – Coderwatch episode 3]]></title>
+            <link>https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3</link>
+            <guid>https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Let's talk about web integration, HTML, CSS and Frontend dev. 
+In this post I will detail the Coderwatch implementation choices and I will focus only...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Coderwatch: Episode 2 – Design with Figma and Procreate]]></title>
+            <link>https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate</link>
+            <guid>https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate</guid>
+            <pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here is the second post of this serie around the creation of a side project. 
+If you haven't read the first one, my goal is to make a mini series ret...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Coderwatch : épisode 2 - Design avec Figma et Procreate]]></title>
+            <link>https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate</link>
+            <guid>https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate</guid>
+            <pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[[English version here](https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate/)
+Voici le second billet de cette...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[This is the story of a side project]]></title>
+            <link>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</link>
+            <guid>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</guid>
+            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
+...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[C'est l'histoire d'un side project]]></title>
+            <link>https://eventuallycoding.com/2022/04/04/cest-lhistoire-dun-side-project</link>
+            <guid>https://eventuallycoding.com/2022/04/04/cest-lhistoire-dun-side-project</guid>
+            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)
+Très récemment, pris d’une envie de retour aux s...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Que fait un Engineering Manager ?]]></title>
+            <link>https://eventuallycoding.com/2022/01/31/que-fait-un-engineering-manager</link>
+            <guid>https://eventuallycoding.com/2022/01/31/que-fait-un-engineering-manager</guid>
+            <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Outil de calcul de revenus pour freelance et salariés]]></title>
+            <link>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</link>
+            <guid>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</guid>
+            <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[**TLDR;**
+Je vous mets à disposition une calculette permettant de déterminer vos revenus nets après IR en fonction de si vous êtes en SASU ou EURL. J...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Recrutements et salaires : session de Q&A]]></title>
+            <link>https://eventuallycoding.com/2021/11/25/recrutements-et-salaires-session-de-qa</link>
+            <guid>https://eventuallycoding.com/2021/11/25/recrutements-et-salaires-session-de-qa</guid>
+            <pubDate>Thu, 25 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[J'étais présent en tant qu'intervenant il y a quelques jours à [un meetup](https://www.linkedin.com/events/conf-rence-cequeveulentlesdev-l686238941497...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Se tenir à jour dans une équipe produit]]></title>
+            <link>https://eventuallycoding.com/2021/10/20/se-tenir-a-jour-dans-une-equipe-produit</link>
+            <guid>https://eventuallycoding.com/2021/10/20/se-tenir-a-jour-dans-une-equipe-produit</guid>
+            <pubDate>Wed, 20 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0
+Aujourd’hui je vais aborder le sujet de l’animation de...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Faut-il mesurer la performance d’une équipe engineering ?]]></title>
+            <link>https://eventuallycoding.com/2021/10/07/faut-il-mesurer-la-performance-dune-equipe-engineering</link>
+            <guid>https://eventuallycoding.com/2021/10/07/faut-il-mesurer-la-performance-dune-equipe-engineering</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si on parlait de mesure de la performance d’une équipe engineering ? 
+Le sujet peut sembler épineux car il tire deux sujets majeurs :
+- les instr...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Différences entre VP Engineering et CTO]]></title>
+            <link>https://eventuallycoding.com/2021/09/01/differences-entre-vp-engineering-et-cto</link>
+            <guid>https://eventuallycoding.com/2021/09/01/differences-entre-vp-engineering-et-cto</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Si le rôle de VP Engineering est relativement courant dans les entreprises anglo-saxonnes, cette dénomination est assez jeune en France et peut-être q...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les salaires dans la tech]]></title>
+            <link>https://eventuallycoding.com/2021/07/06/les-salaires-dans-la-tech</link>
+            <guid>https://eventuallycoding.com/2021/07/06/les-salaires-dans-la-tech</guid>
+            <pubDate>Tue, 06 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.
+Le sujet est passionnant car le marché a énormément changé en une dizaine d'années...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Senior avec 6 ans d'expérience, et après ?]]></title>
+            <link>https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres</link>
+            <guid>https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres</guid>
+            <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le sujet récurrent dans l'IT : si on est senior après 6 ans d'expérience, quel est l'avenir du développeur(euse) passé 10 ans ? 
+Les vieux et vieille...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pourquoi le sujet n’est plus d’adopter l’agilité mais de changer de culture produit]]></title>
+            <link>https://eventuallycoding.com/2021/06/14/pourquoi-le-sujet-nest-plus-dadopter-lagilite-mais-de-changer-de-culture-produit</link>
+            <guid>https://eventuallycoding.com/2021/06/14/pourquoi-le-sujet-nest-plus-dadopter-lagilite-mais-de-changer-de-culture-produit</guid>
+            <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[**tldr;**
+J'ai récemment eu à remplir un questionnaire sur nos méthodes de gestion de projet chez Malt. 
+Je me suis retrouvé à être agacé bêtement p...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CTO de startup à scaleup]]></title>
+            <link>https://eventuallycoding.com/2021/05/03/cto-de-startup-a-scaleup</link>
+            <guid>https://eventuallycoding.com/2021/05/03/cto-de-startup-a-scaleup</guid>
+            <pubDate>Mon, 03 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il y a un moment que je pensais faire un billet sur le rôle d'un CTO dans une startup. Cependant je me disais toujours que ce n’était pas intéressant,...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les parallèles entre le dessin et le développement]]></title>
+            <link>https://eventuallycoding.com/2020/12/07/les-paralleles-entre-le-dessin-et-le-developpement</link>
+            <guid>https://eventuallycoding.com/2020/12/07/les-paralleles-entre-le-dessin-et-le-developpement</guid>
+            <pubDate>Mon, 07 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[J'ai pas mal tourné autour du pot pour faire ce billet qui s'éloigne, un peu, de ce que je fais habituellement.   Il se trouve que j'ai un hobby en pl...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[les métiers de l'ingénierie informatique vont-ils disparaitre ?]]></title>
+            <link>https://eventuallycoding.com/2020/09/21/les-metiers-de-lingenierie-informatique-vont-ils-disparaitre</link>
+            <guid>https://eventuallycoding.com/2020/09/21/les-metiers-de-lingenierie-informatique-vont-ils-disparaitre</guid>
+            <pubDate>Mon, 21 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ok le titre est un peu putaclick :)   Mais je ne lance pas ce sujet par hasard.   J'ai lu récemment plusieurs très bons articles sur ce thème   [Je fa...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[L'économie des TIC]]></title>
+            <link>https://eventuallycoding.com/2020/08/11/leconomie-des-tic</link>
+            <guid>https://eventuallycoding.com/2020/08/11/leconomie-des-tic</guid>
+            <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/Startup_nation-1024x1024.jpg)
+Ce billet fait partie d’une série dont vous pourrez lire [l’introduction ici](https://eventuallycoding.com/...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Bataille autour des données et du Cloud]]></title>
+            <link>https://eventuallycoding.com/2020/08/07/bataille-autour-des-donnees-et-du-cloud</link>
+            <guid>https://eventuallycoding.com/2020/08/07/bataille-autour-des-donnees-et-du-cloud</guid>
+            <pubDate>Fri, 07 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/Ligne_maginot-1024x838.jpg)
+Ce billet fait partie d’une série dont vous pourrez lire [l’introduction ici](https://eventuallycoding.com/20...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[L’Europe entre le marteau Chinois et l’enclume US]]></title>
+            <link>https://eventuallycoding.com/2020/08/03/leurope-entre-le-marteau-chinois-et-lenclume-us</link>
+            <guid>https://eventuallycoding.com/2020/08/03/leurope-entre-le-marteau-chinois-et-lenclume-us</guid>
+            <pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/marteau-enclume-1024x850.jpg)
+L'europe en action
+En démarrant ce billet, enfin ces billets, je savais à l'avance que l'écriture allait ê...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Produit versus Side Project]]></title>
+            <link>https://eventuallycoding.com/2020/07/27/produit-versus-side-project</link>
+            <guid>https://eventuallycoding.com/2020/07/27/produit-versus-side-project</guid>
+            <pubDate>Mon, 27 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/Refaire_facebook_en_best_effort.jpg)
+Après maintenant quelques années sur Malt, j'aimerais revenir sur un sujet qui revient souvent sur l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Rewrite from scratch ?]]></title>
+            <link>https://eventuallycoding.com/2020/07/20/rewrite-from-scratch</link>
+            <guid>https://eventuallycoding.com/2020/07/20/rewrite-from-scratch</guid>
+            <pubDate>Mon, 20 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/rewrite-goodness-matrix1.png)
+Je souhaite partager aujourd'hui un retour d'expérience issu de multiples entretiens d'embauche que j'ai pu...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Le modèle Spotify, un échec complet ?]]></title>
+            <link>https://eventuallycoding.com/2020/05/23/le-modele-spotify-un-echec-complet</link>
+            <guid>https://eventuallycoding.com/2020/05/23/le-modele-spotify-un-echec-complet</guid>
+            <pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[J'ai lu récemment un billet sur le modèle Spotify intitulé "[l'échec du modèle Spotify](https://oyomy.fr/2020/04/l-echec-du-modele-spotify/)".   Une d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Une documentation qui vit]]></title>
+            <link>https://eventuallycoding.com/2020/04/19/une-documentation-qui-vit</link>
+            <guid>https://eventuallycoding.com/2020/04/19/une-documentation-qui-vit</guid>
+            <pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si on parlait documentation ?   La documentation c'est un peu le sujet maudit et polémique dans les équipes tech. Entre ceux qui en font trop, ceux...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Intégration avec Hull et considérations pratiques sur l'usage d'APIs]]></title>
+            <link>https://eventuallycoding.com/2020/03/02/integration-avec-hull-et-considerations-pratiques-sur-lusage-dapis</link>
+            <guid>https://eventuallycoding.com/2020/03/02/integration-avec-hull-et-considerations-pratiques-sur-lusage-dapis</guid>
+            <pubDate>Mon, 02 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Je vous propose aujourd'hui de découvrir [Hull](https://www.hull.io/). que nous utilisons depuis quelques mois chez Malt.   Hull fait partie des outil...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Qu'est-ce qu'un écosystème tech ?]]></title>
+            <link>https://eventuallycoding.com/2019/12/19/quest-ce-quun-ecosysteme-tech</link>
+            <guid>https://eventuallycoding.com/2019/12/19/quest-ce-quun-ecosysteme-tech</guid>
+            <pubDate>Thu, 19 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/project_mangrove_day_shutterstock1.jpg)
+Si vous n'avez pas dormi les 5 dernières années vous avez peut être entendu parler de la French T...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Retour d'utilisation de Mongodb et pourquoi nous migrons vers Postgresql]]></title>
+            <link>https://eventuallycoding.com/2019/07/03/mongodb-vers-postgresql</link>
+            <guid>https://eventuallycoding.com/2019/07/03/mongodb-vers-postgresql</guid>
+            <pubDate>Wed, 03 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/af912-mongo.jpg)
+Dans de précédents billets j'évoquais que nous utilisions Mongodb chez Malt mais j'ai évoqué dans certains meetups que n...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Le télétravail chez Malt]]></title>
+            <link>https://eventuallycoding.com/2019/05/28/le-teletravail-chez-malt</link>
+            <guid>https://eventuallycoding.com/2019/05/28/le-teletravail-chez-malt</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Parlons télétravail pour ce billet !
+Si le télétravail (ou remote) s'est bien développé récemment, il est loin d'être encore très fréquent en France,...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Eviter le principe de Peter, ou, l’évolution du dev vers le dev]]></title>
+            <link>https://eventuallycoding.com/2019/04/01/eviter-le-principe-de-peter-ou-levolution-du-dev-vers-le-dev</link>
+            <guid>https://eventuallycoding.com/2019/04/01/eviter-le-principe-de-peter-ou-levolution-du-dev-vers-le-dev</guid>
+            <pubDate>Mon, 01 Apr 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)
+Dans ce billet...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Une armée mexicaine ?]]></title>
+            <link>https://eventuallycoding.com/2018/11/21/une-armee-mexicaine</link>
+            <guid>https://eventuallycoding.com/2018/11/21/une-armee-mexicaine</guid>
+            <pubDate>Wed, 21 Nov 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la s...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BlendWebMix 2018]]></title>
+            <link>https://eventuallycoding.com/2018/10/10/blendwebmix-2018</link>
+            <guid>https://eventuallycoding.com/2018/10/10/blendwebmix-2018</guid>
+            <pubDate>Wed, 10 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Très très prochainement va avoir lieu [BlendWebMix 2018](https://www.blendwebmix.com/) à Lyon. Si vous ne connaissez pas c'est une conférence "mixte" ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[J'en ai un peu ma claque du startup bashing]]></title>
+            <link>https://eventuallycoding.com/2018/08/04/jen-ai-un-peu-ma-claque-du-startup-bashing</link>
+            <guid>https://eventuallycoding.com/2018/08/04/jen-ai-un-peu-ma-claque-du-startup-bashing</guid>
+            <pubDate>Sat, 04 Aug 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/969f4-n8u6k1.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/969f4-n8u6k1.jpg)Mais vous allez me dire, "non mais c'est quoi ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[We are not done yet]]></title>
+            <link>https://eventuallycoding.com/2018/05/26/we-are-not-done-yet</link>
+            <guid>https://eventuallycoding.com/2018/05/26/we-are-not-done-yet</guid>
+            <pubDate>Sat, 26 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)
+...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les bases de l'internationalisation]]></title>
+            <link>https://eventuallycoding.com/2018/05/03/les-bases-de-linternationalisation</link>
+            <guid>https://eventuallycoding.com/2018/05/03/les-bases-de-linternationalisation</guid>
+            <pubDate>Thu, 03 May 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.
+Ce...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Feature branching vs Feature Flipping]]></title>
+            <link>https://eventuallycoding.com/2017/09/29/feature-branching-vs-feature-flipping</link>
+            <guid>https://eventuallycoding.com/2017/09/29/feature-branching-vs-feature-flipping</guid>
+            <pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/qXMqcos.png)
+Je ne sais pas vous mais de mon côté, dans chaque job que j'ai pu faire j'ai toujours retrouvé certains éternels débats. Vou...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hopwork is coming]]></title>
+            <link>https://eventuallycoding.com/2016/12/16/hopwork-is-coming</link>
+            <guid>https://eventuallycoding.com/2016/12/16/hopwork-is-coming</guid>
+            <pubDate>Fri, 16 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Peut être que vous l'avez déjà lu sur Twitter, Hopwork vient de passer un nouveau cap. En effet je suis plutôt heureux d'annoncer que nous venons de f...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Embaucher en startup]]></title>
+            <link>https://eventuallycoding.com/2016/07/08/embaucher-en-startup</link>
+            <guid>https://eventuallycoding.com/2016/07/08/embaucher-en-startup</guid>
+            <pubDate>Fri, 08 Jul 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![startup](/images/6e815-startup.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/07/6e815-startup.jpg)Pour conclure [la série](http://www.e...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Recruter ces futurs pairs autour d'un verre]]></title>
+            <link>https://eventuallycoding.com/2016/06/16/recruter-futurs-pairs-autour-dun-verre</link>
+            <guid>https://eventuallycoding.com/2016/06/16/recruter-futurs-pairs-autour-dun-verre</guid>
+            <pubDate>Thu, 16 Jun 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![redcrabe](/images/redcrabe2.jpg)](https://eventuallycoding.com/wp-content/uploads/2013/03/redcrabe2.jpg)J’ai cofondé [Lateral-Thoughts](http://www....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Recrutements et pensées diverses (2)]]></title>
+            <link>https://eventuallycoding.com/2016/05/19/recrutements-et-pensees-diverses-2</link>
+            <guid>https://eventuallycoding.com/2016/05/19/recrutements-et-pensees-diverses-2</guid>
+            <pubDate>Thu, 19 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![image02](/images/957c4-image02-1.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/957c4-image02-1.png)
+Dans un [précédent billet](http...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Entretiens, recrutements et pensées diverses]]></title>
+            <link>https://eventuallycoding.com/2016/05/16/entretiens-recrutements-et-pensees-diverses</link>
+            <guid>https://eventuallycoding.com/2016/05/16/entretiens-recrutements-et-pensees-diverses</guid>
+            <pubDate>Mon, 16 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![image06](/images/05b46-image06.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/05b46-image06.png)Au cours de mes différents jobs, j'ai...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Slack est la nouvelle "pause clope"]]></title>
+            <link>https://eventuallycoding.com/2016/04/24/slack-est-la-nouvelle-pause-clope</link>
+            <guid>https://eventuallycoding.com/2016/04/24/slack-est-la-nouvelle-pause-clope</guid>
+            <pubDate>Sun, 24 Apr 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Intrigué par ce titre ? Pour situer le contexte, j'ai été absent quelques jours récemment. J'étais à [Mix-It](https://www.mix-it.fr/), très bonne conf...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les levées de fond en startup]]></title>
+            <link>https://eventuallycoding.com/2016/03/14/les-levees-de-fond-en-startup</link>
+            <guid>https://eventuallycoding.com/2016/03/14/les-levees-de-fond-en-startup</guid>
+            <pubDate>Mon, 14 Mar 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Depuis quelque temps, je me rends compte que je réponds de plus en plus souvent, Lateral-Thoughts et Hopwork obligent, à des questions sur la création...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Connecteur Mongo Postgresql]]></title>
+            <link>https://eventuallycoding.com/2016/03/07/connecteur-mongo-postgresql</link>
+            <guid>https://eventuallycoding.com/2016/03/07/connecteur-mongo-postgresql</guid>
+            <pubDate>Mon, 07 Mar 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![47f0a20a1f9df18484d7972fa41472b8[1]](/images/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/03/a...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Vers l'infini et au-delà]]></title>
+            <link>https://eventuallycoding.com/2015/12/22/vers-linfini-et-au-dela</link>
+            <guid>https://eventuallycoding.com/2015/12/22/vers-linfini-et-au-dela</guid>
+            <pubDate>Tue, 22 Dec 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![tumblr_lw0g09a2hf1qaz5oho1_500[1]](/images/1ace7-tumblr_lw0g09a2hf1qaz5oho1_5001.png)](https://eventuallycoding.com/wp-content/uploads/2019/10/1ace...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[L'entreprise libérée, pas faite pour les freelances ?]]></title>
+            <link>https://eventuallycoding.com/2015/11/04/lentreprise-liberee-pas-faite-pour-les-freelances</link>
+            <guid>https://eventuallycoding.com/2015/11/04/lentreprise-liberee-pas-faite-pour-les-freelances</guid>
+            <pubDate>Wed, 04 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Récemment je suis tombé sur [un billet parlant des entreprises libérée](http://www.touilleur-express.fr/2015/11/04/lentreprise-liberee-pour-le-develop...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Siffler en télétravaillant]]></title>
+            <link>https://eventuallycoding.com/2015/10/13/siffler-en-teletravaillant</link>
+            <guid>https://eventuallycoding.com/2015/10/13/siffler-en-teletravaillant</guid>
+            <pubDate>Tue, 13 Oct 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![6f95cc57e9fd19cc8139863326c29067[1]](/images/b6856-6f95cc57e9fd19cc8139863326c290671.jpg)](http://eventuallycoding.com/wp-content/uploads/2015/10/b...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Microservice : la découverte automatique de services]]></title>
+            <link>https://eventuallycoding.com/2015/05/05/microservice-la-decouverte-automatique-de-services</link>
+            <guid>https://eventuallycoding.com/2015/05/05/microservice-la-decouverte-automatique-de-services</guid>
+            <pubDate>Tue, 05 May 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le dernier billet de ce blog entamait une mini-série sur les microservices qui espère traiter des sujets suivants :
+- comment gérer une fédération d’...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Micro-services : la composition de page avec Zuul et Sitemesh]]></title>
+            <link>https://eventuallycoding.com/2015/04/13/micro-services-la-composition-de-page-avec-zuul-et-sitemesh</link>
+            <guid>https://eventuallycoding.com/2015/04/13/micro-services-la-composition-de-page-avec-zuul-et-sitemesh</guid>
+            <pubDate>Mon, 13 Apr 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![03BC](/images/07933-03bc.gif)](http://eventuallycoding.com/wp-content/uploads/2015/04/07933-03bc.gif) Le dernier billet de ce blog entamait une min...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Micro-services : routing avec Zuul]]></title>
+            <link>https://eventuallycoding.com/2015/04/09/zuul</link>
+            <guid>https://eventuallycoding.com/2015/04/09/zuul</guid>
+            <pubDate>Thu, 09 Apr 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![spring-cloud](/images/3b14a-spring-cloud.png)](http://eventuallycoding.com/wp-content/uploads/2015/04/3b14a-spring-cloud.png)Long time no see, le d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Curseurs et Mongodb]]></title>
+            <link>https://eventuallycoding.com/2015/01/26/curseurs-et-mongodb</link>
+            <guid>https://eventuallycoding.com/2015/01/26/curseurs-et-mongodb</guid>
+            <pubDate>Mon, 26 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chaque fois que je donne la formation Mongo je reste étonné lors de ce slide (qui fait le parallèle entre les termes utilisé en relationnel et avec ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tarif des développeurs freelances]]></title>
+            <link>https://eventuallycoding.com/2015/01/19/tarif-des-developpeurs-freelances</link>
+            <guid>https://eventuallycoding.com/2015/01/19/tarif-des-developpeurs-freelances</guid>
+            <pubDate>Mon, 19 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il y a peu nous avons sorti un [baromètre sur l'emploi freelance](https://www.hopwork.com/stats/barometer/2014 "Barometre 2014") constaté sur [Hopwork...]]></description>
+        </item>
+        <item>
+            <title><![CDATA["On vend une compétence, pas un lieu" ?]]></title>
+            <link>https://eventuallycoding.com/2015/01/16/on-vend-une-competence-pas-un-lieu</link>
+            <guid>https://eventuallycoding.com/2015/01/16/on-vend-une-competence-pas-un-lieu</guid>
+            <pubDate>Fri, 16 Jan 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[Récemment j'ai eu un échange sur Twitter qui m'a interloqué (interloquer ça fait classe). La discussion portait sur les tarifs affichés sur Hopwork et...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spring-boot et Ansible sont sur un bateau]]></title>
+            <link>https://eventuallycoding.com/2014/12/03/spring-boot-et-ansible-sont-sur-un-bateau</link>
+            <guid>https://eventuallycoding.com/2014/12/03/spring-boot-et-ansible-sont-sur-un-bateau</guid>
+            <pubDate>Wed, 03 Dec 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il y a quelques jours je faisais un retweet [d'un article](http://blog.adaofeliz.com/2014/11/21/first-look-spring-boot-and-docker/ "first-look-spring-...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Le 10ème homme]]></title>
+            <link>https://eventuallycoding.com/2014/10/07/le-10eme-homme</link>
+            <guid>https://eventuallycoding.com/2014/10/07/le-10eme-homme</guid>
+            <pubDate>Tue, 07 Oct 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aujourd'hui j'ai envie de revenir sur un passage d'un film que j'ai vu récemment. Tout d'abord je vous rassure, je ne vais pas transformer ce site en ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Freelance / Salarié : les chiffres]]></title>
+            <link>https://eventuallycoding.com/2014/09/30/freelance-salarie-les-chiffres</link>
+            <guid>https://eventuallycoding.com/2014/09/30/freelance-salarie-les-chiffres</guid>
+            <pubDate>Tue, 30 Sep 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il y a quelques temps j'avais proposé [un billet permettant de comparer les statuts EURL/salarié et SASU](http://www.eventuallycoding.com/index.php/ca...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Monit - pour monitorer vos serveurs]]></title>
+            <link>https://eventuallycoding.com/2014/07/23/monit-pour-monitorer-vos-serveurs</link>
+            <guid>https://eventuallycoding.com/2014/07/23/monit-pour-monitorer-vos-serveurs</guid>
+            <pubDate>Wed, 23 Jul 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aujourd’hui je tenais à vous présenter [Monit](http://mmonit.com/monit/), un bel outil permettant de monitorer vos serveurs et vos process. Le site in...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spring Boot : dans le doute reboote]]></title>
+            <link>https://eventuallycoding.com/2014/07/16/spring-boot-dans-le-doute-reboote</link>
+            <guid>https://eventuallycoding.com/2014/07/16/spring-boot-dans-le-doute-reboote</guid>
+            <pubDate>Wed, 16 Jul 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![spring-boot-logo](/images/28307-spring-boot-logo.png)](http://eventuallycoding.com/wp-content/uploads/2014/07/28307-spring-boot-logo.png)Le dernier...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tu fais quoi dans la vie ?]]></title>
+            <link>https://eventuallycoding.com/2014/06/03/tu-fais-quoi-dans-la-vie</link>
+            <guid>https://eventuallycoding.com/2014/06/03/tu-fais-quoi-dans-la-vie</guid>
+            <pubDate>Tue, 03 Jun 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[J’imagine qu’il y a bien une question qui revient régulièrement dans les discussions “qu’est ce que tu fais dans la vie ?”
+Et vous je ne sais pas, ma...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PAAS or not PAAS, that is the question]]></title>
+            <link>https://eventuallycoding.com/2014/05/09/paas-or-not-paas-that-is-the-question</link>
+            <guid>https://eventuallycoding.com/2014/05/09/paas-or-not-paas-that-is-the-question</guid>
+            <pubDate>Fri, 09 May 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![paas](/images/e3efe-paas.png)](http://eventuallycoding.com/wp-content/uploads/2014/05/e3efe-paas.png)Jusqu’à récemment HopWork tournait sur un PAAS...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Devoxx France 2014]]></title>
+            <link>https://eventuallycoding.com/2014/04/21/devoxx-france-2014</link>
+            <guid>https://eventuallycoding.com/2014/04/21/devoxx-france-2014</guid>
+            <pubDate>Mon, 21 Apr 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![devoxxfr](/images/31dab-devoxxfr.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/04/31dab-devoxxfr.jpg)Et voilà, 3ème édition de Devoxx F...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mongodb covered query]]></title>
+            <link>https://eventuallycoding.com/2014/03/27/mongodb-covered-query</link>
+            <guid>https://eventuallycoding.com/2014/03/27/mongodb-covered-query</guid>
+            <pubDate>Thu, 27 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Aujourd’hui je souhaite revenir un petit pe...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mandrill et Lutung (timeoff Xeme journée)]]></title>
+            <link>https://eventuallycoding.com/2014/03/20/mandrill-et-lutung-timeoff-xeme-journee</link>
+            <guid>https://eventuallycoding.com/2014/03/20/mandrill-et-lutung-timeoff-xeme-journee</guid>
+            <pubDate>Thu, 20 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Nous sommes le 4ème jour du timeoff. Ou le 6ème, j’ai arrêté de compter. Désormais je grave des bâtons sur mon clavier pour garder le compte. Jours e...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Exploiter les données d'HopWork avec Neo4j (timeoff 2nd journée)]]></title>
+            <link>https://eventuallycoding.com/2014/03/19/exploiter-les-donnees-dhopwork-avec-neo4j-timeoff-2nd-journee</link>
+            <guid>https://eventuallycoding.com/2014/03/19/exploiter-les-donnees-dhopwork-avec-neo4j-timeoff-2nd-journee</guid>
+            <pubDate>Wed, 19 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![neo4j](/images/426f8-neo4j.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/03/426f8-neo4j.jpg)[Second jour](http://www.eventuallycoding.c...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ansible (timeoff LT 1ère journée)]]></title>
+            <link>https://eventuallycoding.com/2014/03/17/ansible-timeoff-lt-1ere-journee</link>
+            <guid>https://eventuallycoding.com/2014/03/17/ansible-timeoff-lt-1ere-journee</guid>
+            <pubDate>Mon, 17 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![ansible](/images/5570d-ansible.png)](http://eventuallycoding.com/wp-content/uploads/2014/03/5570d-ansible.png)Nous y voici ! Le timeoff Lateral-Tho...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Recherche textuelle avec MongoDB]]></title>
+            <link>https://eventuallycoding.com/2014/03/06/recherche-textuelle-avec-mongodb</link>
+            <guid>https://eventuallycoding.com/2014/03/06/recherche-textuelle-avec-mongodb</guid>
+            <pubDate>Thu, 06 Mar 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Il y a maintenant 2 ans nous avions choisi ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Maintenir vos données avec Mongeez]]></title>
+            <link>https://eventuallycoding.com/2014/01/24/maintenir-vos-donnees-avec-mongeez</link>
+            <guid>https://eventuallycoding.com/2014/01/24/maintenir-vos-donnees-avec-mongeez</guid>
+            <pubDate>Fri, 24 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Vous connaissez peut-être [Liquibase](http:...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Calculer ses revenus entre EURL SASU et salariat]]></title>
+            <link>https://eventuallycoding.com/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat</link>
+            <guid>https://eventuallycoding.com/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat</guid>
+            <pubDate>Fri, 24 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Disclaimer
+Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-free...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Partir de Paris, 1 an après]]></title>
+            <link>https://eventuallycoding.com/2014/01/18/partir-de-paris-1-an-apres</link>
+            <guid>https://eventuallycoding.com/2014/01/18/partir-de-paris-1-an-apres</guid>
+            <pubDate>Sat, 18 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolu...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Interview d'une société collaborative : Scopyleft]]></title>
+            <link>https://eventuallycoding.com/2014/01/12/interview-dune-societe-collaborative-scopyleft</link>
+            <guid>https://eventuallycoding.com/2014/01/12/interview-dune-societe-collaborative-scopyleft</guid>
+            <pubDate>Sun, 12 Jan 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On devrait toujours travailler comme ça (bis)]]></title>
+            <link>https://eventuallycoding.com/2013/12/08/on-devrait-toujours-travailler-comme-ca-bis</link>
+            <guid>https://eventuallycoding.com/2013/12/08/on-devrait-toujours-travailler-comme-ca-bis</guid>
+            <pubDate>Sun, 08 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![redcrabe](/images/redcrabe2.jpg)](http://www.eventuallycoding.com/wp-content/uploads/2013/03/redcrabe21.jpg)Ca s’appelle du plagiat. Car c’était [l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Principe de Peter et corollaire d'Archimède]]></title>
+            <link>https://eventuallycoding.com/2013/11/27/principe-de-peter-et-corollaire-darchimede</link>
+            <guid>https://eventuallycoding.com/2013/11/27/principe-de-peter-et-corollaire-darchimede</guid>
+            <pubDate>Wed, 27 Nov 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[**Disclaimer**
+> **Second degré exigé** pour lire ce billet. Rassurez-vous, aucun manager n’a été blessé lors de sa rédaction.
+ 
+Vous connaissiez p...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Comparaison de moteurs de base de données pour du stockage de logs]]></title>
+            <link>https://eventuallycoding.com/2013/11/05/comparaison-de-moteurs-de-base-de-donnees-pour-du-stockage-de-logs</link>
+            <guid>https://eventuallycoding.com/2013/11/05/comparaison-de-moteurs-de-base-de-donnees-pour-du-stockage-de-logs</guid>
+            <pubDate>Tue, 05 Nov 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il y a un an je m’étais aventuré à tester plusieurs bases Nosql, l’objectif étant pour moi d’apprivoiser les moteurs, de comprendre leurs usages et de...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MongoDB : Utiliser les propriétés de vos ObjectId dans vos MapReduce]]></title>
+            <link>https://eventuallycoding.com/2013/09/28/mongodb-utiliser-les-proprietes-de-vos-objectid-dans-vos-mapreduce</link>
+            <guid>https://eventuallycoding.com/2013/09/28/mongodb-utiliser-les-proprietes-de-vos-objectid-dans-vos-mapreduce</guid>
+            <pubDate>Sat, 28 Sep 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Je vous propose de voir deux fonctionnalités plutôt pratiques de [MongoDB](http://www.mongodb.org/) dans ce billet. D’une part je vais vous parler de ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Interview d'une société collaborative : Neovia]]></title>
+            <link>https://eventuallycoding.com/2013/09/25/interview-dune-societe-collaborative-neovia</link>
+            <guid>https://eventuallycoding.com/2013/09/25/interview-dune-societe-collaborative-neovia</guid>
+            <pubDate>Wed, 25 Sep 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Interview d'une société collaborative : NinjaSquad]]></title>
+            <link>https://eventuallycoding.com/2013/09/11/interview-dune-societe-collaborative-ninjasquad</link>
+            <guid>https://eventuallycoding.com/2013/09/11/interview-dune-societe-collaborative-ninjasquad</guid>
+            <pubDate>Wed, 11 Sep 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Serment d'Hypocrite]]></title>
+            <link>https://eventuallycoding.com/2013/09/09/serment-dhypocrite</link>
+            <guid>https://eventuallycoding.com/2013/09/09/serment-dhypocrite</guid>
+            <pubDate>Mon, 09 Sep 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![1984-poster](/images/1dab7-1984-poster.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/1dab7-1984-poster.jpg)La déontologie dans l’inf...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Vagrant et Fabric : prise en main]]></title>
+            <link>https://eventuallycoding.com/2013/08/21/fabric-vagrant</link>
+            <guid>https://eventuallycoding.com/2013/08/21/fabric-vagrant</guid>
+            <pubDate>Wed, 21 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retro...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fabric moi un cluster]]></title>
+            <link>https://eventuallycoding.com/2013/08/16/fabric-moi-un-cluster</link>
+            <guid>https://eventuallycoding.com/2013/08/16/fabric-moi-un-cluster</guid>
+            <pubDate>Fri, 16 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![python](/images/b9590-python.jpeg)](http://eventuallycoding.com/wp-content/uploads/2013/08/b9590-python.jpeg)Je vous propose dans ce billet de pren...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Travailler autrement]]></title>
+            <link>https://eventuallycoding.com/2013/08/12/travailler-autrement</link>
+            <guid>https://eventuallycoding.com/2013/08/12/travailler-autrement</guid>
+            <pubDate>Mon, 12 Aug 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA["_Travailler autremen_t", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?
+Amusant, beaucoup affirment "travailler autrement". E...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Panorama Nosql]]></title>
+            <link>https://eventuallycoding.com/2013/07/21/panorama-nosql</link>
+            <guid>https://eventuallycoding.com/2013/07/21/panorama-nosql</guid>
+            <pubDate>Sun, 21 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voici quelques slides d'introduction sur Nosql. Ces slides sont issu d'une formation que j'anime sur MongoDB et ont pour objectif de faire prendre du ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Eventual Coder]]></title>
+            <link>https://eventuallycoding.com/2013/07/20/eventual-coder</link>
+            <guid>https://eventuallycoding.com/2013/07/20/eventual-coder</guid>
+            <pubDate>Sat, 20 Jul 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ca y est, je crois que je suis enfin devenu un Eventual Coder. Vous connaissez les eventual coders ? Non ce ne sont pas des gens qui éventuellement po...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[REX BOF NoSSII]]></title>
+            <link>https://eventuallycoding.com/2013/04/02/rex-bof-nossii</link>
+            <guid>https://eventuallycoding.com/2013/04/02/rex-bof-nossii</guid>
+            <pubDate>Tue, 02 Apr 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/rework.png "rework")](http://hakanai.free.fr/index.php/rex-bof-nossii/rework/)Bon, avec un titre pareil je dois déjà avoir perdu 80% des ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Lateral Thinking]]></title>
+            <link>https://eventuallycoding.com/2013/03/18/lateral-thinking</link>
+            <guid>https://eventuallycoding.com/2013/03/18/lateral-thinking</guid>
+            <pubDate>Mon, 18 Mar 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cette expression vous évoque quelque chose ? Un petit indice, elle est souvent associée à une autre expression : “Penser en dehors de la boîte” (Think...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dis tonton, pourquoi tu tousses ?]]></title>
+            <link>https://eventuallycoding.com/2013/01/25/dis-tonton-pourquoi-tu-tousses</link>
+            <guid>https://eventuallycoding.com/2013/01/25/dis-tonton-pourquoi-tu-tousses</guid>
+            <pubDate>Fri, 25 Jan 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[Entendu il y a peu de temps dans une discussion entre deux collègues :
+> “Comment ca se fait que ca plante comme ça du jour au lendemain sans raison ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les sociétés coopératives]]></title>
+            <link>https://eventuallycoding.com/2012/12/07/les-societes-cooperatives</link>
+            <guid>https://eventuallycoding.com/2012/12/07/les-societes-cooperatives</guid>
+            <pubDate>Fri, 07 Dec 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[](http://hakanai.free.fr/index.php/les-societes-cooperatives/fierdetredev_thumb1/)Allez je me lance. A 34 ans, je suis aujourd’hui fier d’être dévelo...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nosql, 4 bases à la loupe 4/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-44</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-44</guid>
+            <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nosql, 4 bases à la loupe 3/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</guid>
+            <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nosql, 4 bases à la loupe 2/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</guid>
+            <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nosql, 4 bases à la loupe 1/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-14</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-14</guid>
+            <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pragmatic programmer]]></title>
+            <link>https://eventuallycoding.com/2012/10/08/pragmatic-programmer</link>
+            <guid>https://eventuallycoding.com/2012/10/08/pragmatic-programmer</guid>
+            <pubDate>Mon, 08 Oct 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/vera_c10.jpg "vera_c10")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)
+"[Et pendant ce temps à Véra Cruz](http://www...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Lateral-Thoughts s'installe à Lyon !]]></title>
+            <link>https://eventuallycoding.com/2012/10/06/lateral-thoughts-sinstalle-a-lyon</link>
+            <guid>https://eventuallycoding.com/2012/10/06/lateral-thoughts-sinstalle-a-lyon</guid>
+            <pubDate>Sat, 06 Oct 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo.png "logo")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'i...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[wecodelikestars.com]]></title>
+            <link>https://eventuallycoding.com/2012/07/01/wecodelikestars-com</link>
+            <guid>https://eventuallycoding.com/2012/07/01/wecodelikestars-com</guid>
+            <pubDate>Sun, 01 Jul 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-29.jpg)
+_Le t...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hibernate vers JPA]]></title>
+            <link>https://eventuallycoding.com/2012/06/23/hibernate-vers-jpa</link>
+            <guid>https://eventuallycoding.com/2012/06/23/hibernate-vers-jpa</guid>
+            <pubDate>Sat, 23 Jun 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/java.png "java")](http://eventuallycoding.com/wp-content/uploads/2012/06/java.png)J'ai pas mal mangé de JPA + Spring cette année entre [l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gagnez-vous autant qu'un ingénieur de Facebook ?]]></title>
+            <link>https://eventuallycoding.com/2012/06/03/gagnez-vous-autant-quun-ingenieur-de-facebook</link>
+            <guid>https://eventuallycoding.com/2012/06/03/gagnez-vous-autant-quun-ingenieur-de-facebook</guid>
+            <pubDate>Sun, 03 Jun 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/Casino1-150x150.jpg "Casino")Vous l'avez peut être lu, Facebook vient de lancer un pavé dans la mare en publiant [ces grilles de salaires]...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Etes-vous pompier pyromane ?]]></title>
+            <link>https://eventuallycoding.com/2012/05/21/etes-vous-pompier-pyromane</link>
+            <guid>https://eventuallycoding.com/2012/05/21/etes-vous-pompier-pyromane</guid>
+            <pubDate>Mon, 21 May 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/backdraft-150x150.jpg "backdraft")](http://hakanai.free.fr/wp-content/uploads/2012/05/backdraft.jpg)Vous connaissez la [pyromanie](http:/...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[P.R.O.F.S]]></title>
+            <link>https://eventuallycoding.com/2012/05/01/p-r-o-f-s</link>
+            <guid>https://eventuallycoding.com/2012/05/01/p-r-o-f-s</guid>
+            <pubDate>Tue, 01 May 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/profs.png "profs")Une semaine après Devoxx, quoi de mieux que de parler de formation. Mais plutôt que de parler de formation professionnel...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Devoxx France 2012 jour 3/3]]></title>
+            <link>https://eventuallycoding.com/2012/04/23/devoxx-france-2012-jour-33</link>
+            <guid>https://eventuallycoding.com/2012/04/23/devoxx-france-2012-jour-33</guid>
+            <pubDate>Mon, 23 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Devoxx France 2012 jour 2/3]]></title>
+            <link>https://eventuallycoding.com/2012/04/22/devoxx-france-2012-jour-23</link>
+            <guid>https://eventuallycoding.com/2012/04/22/devoxx-france-2012-jour-23</guid>
+            <pubDate>Sun, 22 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Devoxx France 2012 jour 1/3]]></title>
+            <link>https://eventuallycoding.com/2012/04/22/devoxx-france-2012-jour-13</link>
+            <guid>https://eventuallycoding.com/2012/04/22/devoxx-france-2012-jour-13</guid>
+            <pubDate>Sun, 22 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Maven : que Perforce soit avec toi]]></title>
+            <link>https://eventuallycoding.com/2012/04/14/maven-que-perforce-soit-avec-toi</link>
+            <guid>https://eventuallycoding.com/2012/04/14/maven-que-perforce-soit-avec-toi</guid>
+            <pubDate>Sat, 14 Apr 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/ps-kztpdvdc-170x170-751.jpg "ps.kztpdvdc.170x170-75")
+J'ai un peu galéré dernièrement pour configurer correctement Perforce avec Maven et...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[La quête du Graal avec un cure-dent]]></title>
+            <link>https://eventuallycoding.com/2012/03/10/la-quete-du-graal-avec-un-cure-dent</link>
+            <guid>https://eventuallycoding.com/2012/03/10/la-quete-du-graal-avec-un-cure-dent</guid>
+            <pubDate>Sat, 10 Mar 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/grails-logo.png "grails-logo") Grails fait partie des framework haute productivité à la mode ces dernières années. J’étais plutôt motivé p...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Devoxx France : Quicky, not dirty]]></title>
+            <link>https://eventuallycoding.com/2012/01/05/devoxx-france-quicky-not-dirty</link>
+            <guid>https://eventuallycoding.com/2012/01/05/devoxx-france-quicky-not-dirty</guid>
+            <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/01/logo-devoxx-france-seul.pn...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Juste un café, ça ira merci !]]></title>
+            <link>https://eventuallycoding.com/2011/11/30/juste-un-cafe-ca-ira-merci</link>
+            <guid>https://eventuallycoding.com/2011/11/30/juste-un-cafe-ca-ira-merci</guid>
+            <pubDate>Wed, 30 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[![](/images/diversite-200x200.jpg "diversite-200x200")A l’heure des languages alternatifs sur la JVM : ceylon, scala, fantom et autres joyeusetés, pou...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les tests d'IHM avec Play!]]></title>
+            <link>https://eventuallycoding.com/2011/11/05/les-tests-dihm-avec-play</link>
+            <guid>https://eventuallycoding.com/2011/11/05/les-tests-dihm-avec-play</guid>
+            <pubDate>Sat, 05 Nov 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/test.png "test")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)
+Vous avez une appli Play ? Vous avez déjà bien utilis...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Play framework, binding et performance]]></title>
+            <link>https://eventuallycoding.com/2011/10/23/play-framework-binding-et-performance</link>
+            <guid>https://eventuallycoding.com/2011/10/23/play-framework-binding-et-performance</guid>
+            <pubDate>Sun, 23 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Après avoir bataillé un bon moment avec les performances sur la page d’importation de Nemrod je me suis dit que ce serait intéressant de partager ce q...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nemrod et Play Framework : love story (Nemrod 5/5)]]></title>
+            <link>https://eventuallycoding.com/2011/10/06/nemrod-et-play-framework-love-story-nemrod-55</link>
+            <guid>https://eventuallycoding.com/2011/10/06/nemrod-et-play-framework-love-story-nemrod-55</guid>
+            <pubDate>Thu, 06 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) J’ai découvert Play Framework en version 1...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Comment faire connaitre son soft ? (Nemrod 4/5)]]></title>
+            <link>https://eventuallycoding.com/2011/10/05/comment-faire-connaitre-son-soft-nemrod-45</link>
+            <guid>https://eventuallycoding.com/2011/10/05/comment-faire-connaitre-son-soft-nemrod-45</guid>
+            <pubDate>Wed, 05 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Là dessus, je vais partager le peu que nous avons expérimenté. Nemrod n’a que deux semaines, le nombre de visites reste très faible pour l’instant. L’...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Faire du soft sans budget ? (Nemrod 3/5)]]></title>
+            <link>https://eventuallycoding.com/2011/10/04/faire-du-soft-sans-budget-nemrod-35</link>
+            <guid>https://eventuallycoding.com/2011/10/04/faire-du-soft-sans-budget-nemrod-35</guid>
+            <pubDate>Tue, 04 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) Ok, vous pensez que pour démarrer il vous ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Comment valoriser une idée ? (Nemrod 2/5)]]></title>
+            <link>https://eventuallycoding.com/2011/10/03/comment-valoriser-une-idee-nemrod-25</link>
+            <guid>https://eventuallycoding.com/2011/10/03/comment-valoriser-une-idee-nemrod-25</guid>
+            <pubDate>Mon, 03 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) C’est bien beau d’avoir une idée mais il y...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Créer un soft, on fait comment ? (Nemrod 1/5)]]></title>
+            <link>https://eventuallycoding.com/2011/10/02/creer-un-soft-on-fait-comment-nemrod-15</link>
+            <guid>https://eventuallycoding.com/2011/10/02/creer-un-soft-on-fait-comment-nemrod-15</guid>
+            <pubDate>Sun, 02 Oct 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)
+Voila, [Localizeyourapps](http://www.loca...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[18 mois de freelance. Alors, quel bilan ?]]></title>
+            <link>https://eventuallycoding.com/2011/09/20/18-mois-de-freelance-alors-quel-bilan</link>
+            <guid>https://eventuallycoding.com/2011/09/20/18-mois-de-freelance-alors-quel-bilan</guid>
+            <pubDate>Tue, 20 Sep 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eh oui, ça fait environ 18 mois que Hakatech a vu le jour. J'en profites pour faire une petite rétrospective des points qui ont bien marché, ceux qui ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Maven, anneau de Sauron ou couteau suisse ?]]></title>
+            <link>https://eventuallycoding.com/2011/07/23/maven-anneau-de-sauron-ou-couteau-suisse</link>
+            <guid>https://eventuallycoding.com/2011/07/23/maven-anneau-de-sauron-ou-couteau-suisse</guid>
+            <pubDate>Sat, 23 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/couteausuisse.png "couteausuisse")](http://eventuallycoding.com/wp-content/uploads/2011/07/couteausuisse.png) Manque de standardisation, ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Utiliser Mockito et PowerMock]]></title>
+            <link>https://eventuallycoding.com/2011/07/07/utiliser-mockito-et-powermock</link>
+            <guid>https://eventuallycoding.com/2011/07/07/utiliser-mockito-et-powermock</guid>
+            <pubDate>Thu, 07 Jul 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/mockito.jpg "mockito")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http:...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[WSN Paris 2011 : Flex, la revanche]]></title>
+            <link>https://eventuallycoding.com/2011/06/23/wsn-paris-2011-flex-la-revanche</link>
+            <guid>https://eventuallycoding.com/2011/06/23/wsn-paris-2011-flex-la-revanche</guid>
+            <pubDate>Thu, 23 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/flexbuilder.png "flexbuilder")](http://eventuallycoding.com/wp-content/uploads/2011/06/flexbuilder.png) Parmi les technos sympa qui nous ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Orion, où comment passer son IDE dans le cloud]]></title>
+            <link>https://eventuallycoding.com/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud</link>
+            <guid>https://eventuallycoding.com/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud</guid>
+            <pubDate>Mon, 20 Jun 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/eclipse.png "eclipse")](http://eventuallycoding.com/wp-content/uploads/2011/06/eclipse.png)Une nouvelle petite constellation dans la gala...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les technos de demain selon What's next Paris !]]></title>
+            <link>https://eventuallycoding.com/2011/05/28/les-technos-de-demain-selon-whats-next-paris</link>
+            <guid>https://eventuallycoding.com/2011/05/28/les-technos-de-demain-selon-whats-next-paris</guid>
+            <pubDate>Sat, 28 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/whatsnext.jpg "whatsnext")](http://eventuallycoding.com/wp-content/uploads/2011/05/whatsnext.jpg) Le chanteur des ZZtop, une star de la T...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[La programmation fonctionnelle, petite présentation chez Arolla]]></title>
+            <link>https://eventuallycoding.com/2011/05/03/328</link>
+            <guid>https://eventuallycoding.com/2011/05/03/328</guid>
+            <pubDate>Tue, 03 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/lambdas.jpg "lambdas")](http://eventuallycoding.com/wp-content/uploads/2011/05/lambdas.jpg) _"C'est quoi cette chose ?"_ C'est finalement...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : Les types valeurs en C#]]></title>
+            <link>https://eventuallycoding.com/2011/05/01/java-vs-c-les-types-valeurs-en-c</link>
+            <guid>https://eventuallycoding.com/2011/05/01/java-vs-c-les-types-valeurs-en-c</guid>
+            <pubDate>Sun, 01 May 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png)
+**Warning, warning,** ceci n'est pas une rubriqu...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Quelle techno pour se faire recruter ?]]></title>
+            <link>https://eventuallycoding.com/2011/04/19/quelle-techno-pour-se-faire-recruter</link>
+            <guid>https://eventuallycoding.com/2011/04/19/quelle-techno-pour-se-faire-recruter</guid>
+            <pubDate>Tue, 19 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :
+- [Freelance-info]...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sortie de Play 1.2 !]]></title>
+            <link>https://eventuallycoding.com/2011/04/18/sortie-de-play-1-2</link>
+            <guid>https://eventuallycoding.com/2011/04/18/sortie-de-play-1-2</guid>
+            <pubDate>Mon, 18 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)
+Je vous avais déjà parlé de Play dans [un précédent b...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Petit rappel sur un principe agile : Avoir un rythme soutenable]]></title>
+            <link>https://eventuallycoding.com/2011/04/12/principe-agile-avoir-un-rythme-soutenable</link>
+            <guid>https://eventuallycoding.com/2011/04/12/principe-agile-avoir-un-rythme-soutenable</guid>
+            <pubDate>Tue, 12 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un collègue m'a envoyé récemment un lien qui vaut le détour. Un petit [speech intéressant](http://blog.reapfield.com/gerardkho/2010/06/28/life-jugglin...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[REX : Joomla et Wordpress]]></title>
+            <link>https://eventuallycoding.com/2011/04/05/rex-joomla-et-wordpress</link>
+            <guid>https://eventuallycoding.com/2011/04/05/rex-joomla-et-wordpress</guid>
+            <pubDate>Tue, 05 Apr 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voila, j'ai récemment migré de Joomla vers Wordpress et j'avais annoncé à ce moment que je ferais un petit retour d'expérience sur le sujet d'ici peu....]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : Eviter les conflits de nom dans les interfaces]]></title>
+            <link>https://eventuallycoding.com/2011/03/29/eviter-les-conflits-de-nom-dans-les-interfaces-en-c</link>
+            <guid>https://eventuallycoding.com/2011/03/29/eviter-les-conflits-de-nom-dans-les-interfaces-en-c</guid>
+            <pubDate>Tue, 29 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : La gestion des exceptions]]></title>
+            <link>https://eventuallycoding.com/2011/03/23/java-vs-c-la-gestion-des-exceptions</link>
+            <guid>https://eventuallycoding.com/2011/03/23/java-vs-c-la-gestion-des-exceptions</guid>
+            <pubDate>Wed, 23 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : Les Property en C#]]></title>
+            <link>https://eventuallycoding.com/2011/03/18/java-vs-c-les-property-en-c</link>
+            <guid>https://eventuallycoding.com/2011/03/18/java-vs-c-les-property-en-c</guid>
+            <pubDate>Fri, 18 Mar 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : Les paramètres nommés et optionnels en C#]]></title>
+            <link>https://eventuallycoding.com/2011/02/03/java-vs-c-les-parametres-nommes-et-optionnels-en-c-2</link>
+            <guid>https://eventuallycoding.com/2011/02/03/java-vs-c-les-parametres-nommes-et-optionnels-en-c-2</guid>
+            <pubDate>Thu, 03 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java Vs C# : le mot clé using en C#]]></title>
+            <link>https://eventuallycoding.com/2011/02/02/java-vs-c-le-mot-cle-using-en-c-2</link>
+            <guid>https://eventuallycoding.com/2011/02/02/java-vs-c-le-mot-cle-using-en-c-2</guid>
+            <pubDate>Wed, 02 Feb 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Transitions agiles, où en sommes nous ?]]></title>
+            <link>https://eventuallycoding.com/2011/01/11/transitions-agiles-ou-en-sommes-nous-2</link>
+            <guid>https://eventuallycoding.com/2011/01/11/transitions-agiles-ou-en-sommes-nous-2</guid>
+            <pubDate>Tue, 11 Jan 2011 00:00:00 GMT</pubDate>
+            <description><![CDATA[VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.
+[http://www.versionone.com/state of agil...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introduction aux tests unitaires et aux bouchons en C#]]></title>
+            <link>https://eventuallycoding.com/2010/11/28/introduction-aux-tests-unitaires-et-aux-bouchons-en-c-2</link>
+            <guid>https://eventuallycoding.com/2010/11/28/introduction-aux-tests-unitaires-et-aux-bouchons-en-c-2</guid>
+            <pubDate>Sun, 28 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Par définition (Cf. [Wikipédia](http://fr.wikipedia.org/wiki/Test_unitaire) ) un test unitaire est un procédé permettant de s'assurer du fonctionnemen...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Bonnes pratique de codage en C#]]></title>
+            <link>https://eventuallycoding.com/2010/11/28/bonnes-pratique-de-codage-en-c-2</link>
+            <guid>https://eventuallycoding.com/2010/11/28/bonnes-pratique-de-codage-en-c-2</guid>
+            <pubDate>Sun, 28 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dans la lignée d'un [billet précédent](http://localhost/localweb/wordpress/?p=144 "Introduction aux tests unitaires et aux bouchons en C#") qui consti...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Atlassian User Group Paris 2010]]></title>
+            <link>https://eventuallycoding.com/2010/11/10/atlassian-user-group-paris-2010-2</link>
+            <guid>https://eventuallycoding.com/2010/11/10/atlassian-user-group-paris-2010-2</guid>
+            <pubDate>Wed, 10 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Plus de détails ici sur l'annonce de l'évènement : [Atlassian User Group](http://confluence.atlassian.com/display/AUG/France+-+Paris+Atlassian+User+Gr...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Agile Tour 2010]]></title>
+            <link>https://eventuallycoding.com/2010/11/04/agile-tour-2010-2</link>
+            <guid>https://eventuallycoding.com/2010/11/04/agile-tour-2010-2</guid>
+            <pubDate>Thu, 04 Nov 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voilà, c'est fait, j'ai participé à l'Agile Tour 2010. Je suis arrivé vers 8h30 vers Denfert Rochereau pour assister à la présentation et au mot des s...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[L'agilité est elle réservé aux projets JAVA ?]]></title>
+            <link>https://eventuallycoding.com/2010/10/28/lagilite-est-elle-reserve-aux-projets-java</link>
+            <guid>https://eventuallycoding.com/2010/10/28/lagilite-est-elle-reserve-aux-projets-java</guid>
+            <pubDate>Thu, 28 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Titre provocateur n'est-ce pas ? Pourtant je reviens de l'agile tour 2010 et j'ai pu remarquer qu'une grande majorité des intervenants provenait du mo...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Euh, l'agilité finalement c'est pas un peu une secte ?]]></title>
+            <link>https://eventuallycoding.com/2010/10/28/euh-lagilite-finalement-cest-pas-un-peu-une-secte-2</link>
+            <guid>https://eventuallycoding.com/2010/10/28/euh-lagilite-finalement-cest-pas-un-peu-une-secte-2</guid>
+            <pubDate>Thu, 28 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/bible.png "Bible")](http://eventuallycoding.com/wp-content/uploads/2010/10/bible.png) Provocateur comme titre ? Pourtant, après une rapid...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Réussir une transition agile, pas si simple]]></title>
+            <link>https://eventuallycoding.com/2010/10/19/reussir-une-transition-agile-pas-si-simple</link>
+            <guid>https://eventuallycoding.com/2010/10/19/reussir-une-transition-agile-pas-si-simple</guid>
+            <pubDate>Tue, 19 Oct 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Les méthodes agiles gagnent en popularité ces dernières années. Elles ont su séduire les entreprises par leur capacité à s'adapter à un marché mouvant...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Retours d'expériences agile et lean]]></title>
+            <link>https://eventuallycoding.com/2010/09/16/retours-dexperiences-agile-et-lean</link>
+            <guid>https://eventuallycoding.com/2010/09/16/retours-dexperiences-agile-et-lean</guid>
+            <pubDate>Thu, 16 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Les retours d'expérience sont bien souvent le meilleur moyen de discuter de la pratique agile. En fait ils sont mêmes nécessaires car le cadre agile e...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Attention aux habitudes]]></title>
+            <link>https://eventuallycoding.com/2010/09/16/attention-aux-habitudes</link>
+            <guid>https://eventuallycoding.com/2010/09/16/attention-aux-habitudes</guid>
+            <pubDate>Thu, 16 Sep 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vous connaissez le théorème du singe ? Wikipédia nous en donne un résumé [sur cette page](http://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_du_singe).
+...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[J'ai lu pour vous : Programmation concurrente en JAVA]]></title>
+            <link>https://eventuallycoding.com/2010/08/16/jai-lu-pour-vous-programmation-concurrente-en-java</link>
+            <guid>https://eventuallycoding.com/2010/08/16/jai-lu-pour-vous-programmation-concurrente-en-java</guid>
+            <pubDate>Mon, 16 Aug 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[<table border="0"><tbody><tr><td><img src="/images/programConcurrente.gif" alt="programConcurrente" width="152" height="188"><div></div><em><strong><s...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Prenez garde au référentiel !]]></title>
+            <link>https://eventuallycoding.com/2010/07/07/prenez-garde-au-referentiel</link>
+            <guid>https://eventuallycoding.com/2010/07/07/prenez-garde-au-referentiel</guid>
+            <pubDate>Wed, 07 Jul 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[### Prenez garde au référentiel !!
+Vous vous souvenez de vos cours de physique lorsque vous étiez au Lycée ? On y parlait de référentiel. L'idée étan...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[L'informaticien, artisan des temps modernes ?]]></title>
+            <link>https://eventuallycoding.com/2010/05/25/linformaticien-un-artisan-ou-pas</link>
+            <guid>https://eventuallycoding.com/2010/05/25/linformaticien-un-artisan-ou-pas</guid>
+            <pubDate>Tue, 25 May 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Je viens de lire à l'instant un [billet sur l'informatique et un parrallèle avec l'artisanat](http://blog.loof.fr/2009/11/travailler-plus-pour-des-pru...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Calcul de la vélocité]]></title>
+            <link>https://eventuallycoding.com/2010/05/11/calcul-de-la-velocite</link>
+            <guid>https://eventuallycoding.com/2010/05/11/calcul-de-la-velocite</guid>
+            <pubDate>Tue, 11 May 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.
+Alors tout d'abord, quelques d...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[J'ai lu pour vous : Scrum, le guide pratique de la méthode agile la plus populaire]]></title>
+            <link>https://eventuallycoding.com/2010/03/16/jai-lu-pour-vous-scrum-le-guide-pratique-de-la-methode-agile-la-plus-populaire</link>
+            <guid>https://eventuallycoding.com/2010/03/16/jai-lu-pour-vous-scrum-le-guide-pratique-de-la-methode-agile-la-plus-populaire</guid>
+            <pubDate>Tue, 16 Mar 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voilà, je viens de terminer ce bouquin. Je désirais avoir un bon livre sur Scrum afin de prendre du recul et revoir les concepts de cette méthodologie...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Let's Swing !]]></title>
+            <link>https://eventuallycoding.com/2010/01/28/lets-swing</link>
+            <guid>https://eventuallycoding.com/2010/01/28/lets-swing</guid>
+            <pubDate>Thu, 28 Jan 2010 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vous connaissez Swing ? Oui, enfin non, pas la [musique](http://fr.wikipedia.org/wiki/Swing_%28musique%29 "Musique swing")... En plus d'avoir fait dan...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Jouons !]]></title>
+            <link>https://eventuallycoding.com/2009/12/29/jouons</link>
+            <guid>https://eventuallycoding.com/2009/12/29/jouons</guid>
+            <pubDate>Tue, 29 Dec 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Luke, que la force soit avec toi !]]></title>
+            <link>https://eventuallycoding.com/2009/12/06/luke-que-la-force-soit-avec-toi</link>
+            <guid>https://eventuallycoding.com/2009/12/06/luke-que-la-force-soit-avec-toi</guid>
+            <pubDate>Sun, 06 Dec 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vous connaissez [Lucene](http://lucene.apache.org/java/docs/ "Lucene") ? Non ? Dans ce cas je vous invite fortement à découvrir cette API utilisé dans...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Intégration GWT-maven-spring-hibernate-spring security-smartGWT]]></title>
+            <link>https://eventuallycoding.com/2009/12/02/integration-gwt-maven-spring-hibernate-spring-security-smartgwt</link>
+            <guid>https://eventuallycoding.com/2009/12/02/integration-gwt-maven-spring-hibernate-spring-security-smartgwt</guid>
+            <pubDate>Wed, 02 Dec 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ca y est, l'article que j'avais démarré sur GWT et son intégration avec Spring, maven, SmartGwt et Hibernate est enfin sorti dans sa version finale. I...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Substance, une librairie "hype" pour Swing]]></title>
+            <link>https://eventuallycoding.com/2009/11/05/substance-une-librairie-hype-pour-swing</link>
+            <guid>https://eventuallycoding.com/2009/11/05/substance-une-librairie-hype-pour-swing</guid>
+            <pubDate>Thu, 05 Nov 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mon [dernier billet sur Swing](index.php/the-news/51-swing-or-not-swing "Swing or not swing") pouvait paraître pessimiste puisque je parlais de cette ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Swing or not Swing, that is the question]]></title>
+            <link>https://eventuallycoding.com/2009/10/30/swing-or-not-swing-that-is-the-question</link>
+            <guid>https://eventuallycoding.com/2009/10/30/swing-or-not-swing-that-is-the-question</guid>
+            <pubDate>Fri, 30 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Peut-on faire un client lourd en Java ?
+Ayant bossé en Java je me suis heurté à Swing comme on peut se heurter à un mur. Ouch, quand on vient du W...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Créer des fichiers Excel avec des caractères Chinois en Java]]></title>
+            <link>https://eventuallycoding.com/2009/10/28/creer-des-fichiers-excel-avec-des-caracteres-chinois-en-java</link>
+            <guid>https://eventuallycoding.com/2009/10/28/creer-des-fichiers-excel-avec-des-caracteres-chinois-en-java</guid>
+            <pubDate>Wed, 28 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Créer des fichiers Excel avec des caractères Chinois
+Dans la lignée du post précédent, pourquoi ne pas continuer à parler de la Chine et aborder l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java : Travailller sur des ResourceBundle en Chinois]]></title>
+            <link>https://eventuallycoding.com/2009/10/27/java-travailller-sur-des-resourcebundle-en-chinois</link>
+            <guid>https://eventuallycoding.com/2009/10/27/java-travailller-sur-des-resourcebundle-en-chinois</guid>
+            <pubDate>Tue, 27 Oct 2009 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Travailller sur des ResourceBundle en Chinois
+Au hasard de mes visites sur developpez.com je suis tombé sur le lien suivant :
+[http://blog.develo...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ouverture]]></title>
+            <link>https://eventuallycoding.com/2007/07/07/ouverture</link>
+            <guid>https://eventuallycoding.com/2007/07/07/ouverture</guid>
+            <pubDate>Sat, 07 Jul 2007 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eh bien ça faisait un moment que j'y réfléchissais et c'est désormais chose faite, <Hakanai/> ouvre ses portes !
+Rédacteur sur http://www.developpez....]]></description>
+        </item>
+    </channel>
+</rss>
