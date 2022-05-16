@@ -38,6 +38,10 @@
         <div>•</div>
         {{ siteMetadata.title }} - {{ siteMetadata.slogan }}
       </div>
+      <div class="text-sm text-gray-500">Credits to www.freepik.com -
+        <a href='https://www.freepik.com/vectors/citizen'>Citizen vector created by freepik - </a>
+        <a href='https://www.freepik.com/vectors/css'>Css vector created by vectorjuice</a>
+      </div>
     </div>
   </footer>
 </template>

@@ -128,7 +128,7 @@
   </div>
 
 
-
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </template>
 <script>
@@ -160,9 +160,9 @@ export default {
     document.getElementById("nuxtContent")
       .querySelectorAll("p")
       .forEach((block) => {
-        const regExpMatchArray = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z]*)$/);
-        if (regExpMatchArray) {
-          regExpMatchArray.forEach((match) => {
+        const isYoutubeVideo = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z]*)$/);
+        if (isYoutubeVideo) {
+          isYoutubeVideo.forEach((match) => {
             const regExpMatchArray = match.match(/v=(.*)$/);
             const videoId = regExpMatchArray[1];
             const container = document.createElement("div");
@@ -175,6 +175,23 @@ export default {
             iframe.setAttribute("height", "315");
             block.innerHTML = "";
             container.appendChild(iframe);
+            block.appendChild(container);
+          });
+        }
+        const isTweet = block.textContent.match(/^https:\/\/twitter\.com\/[0-9a-zA-Z]*\/status\/([0-9a-zA-Z]*)$/);
+        if (isTweet) {
+          isTweet.forEach((match) => {
+            const tweetId = match;
+            const container = document.createElement("div");
+            container.setAttribute("class", "w-1/2 ml-auto mr-auto");
+            const blockQuote = document.createElement("blockquote");
+            blockQuote.setAttribute("class", "twitter-tweet");
+            const link = document.createElement("a");
+            link.setAttribute("href", `https://twitter.com/x/status/${tweetId}`);
+
+            block.innerHTML = "";
+            blockQuote.appendChild(link);
+            container.appendChild(blockQuote);
             block.appendChild(container);
           });
         }
