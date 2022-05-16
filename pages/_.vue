@@ -14,32 +14,58 @@
 
     </section>
   <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10">
-    <p class="text-center font-bold my-5 text-indigo-500">
-      {{ formatDate(article.date) }} - <small>{{ article.readTime.text }}</small>
-    </p>
     <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
       {{ article.title }}
     </h1>
-    <div class="flex items-center font-medium mt-6 sm:mx-3 justify-center">
-      <nuxt-img
-        :src="siteMetadata.author_image"
-        loading="lazy"
-        alt=""
-        class="mr-3 w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800"
-      />
+
+    <div class="grid grid-cols-3 text-center w-1/2 mx-auto">
       <div>
-        <div class="text-slate-900 dark:text-slate-200">
-          {{ siteMetadata.author }}
-        </div>
-        <a
-          target="_blank"
-          :href="siteMetadata.twitter + siteMetadata.twitter_user"
-          class="text-sky-500 hover:text-sky-600 dark:text-sky-400"
-        >
-          @{{ siteMetadata.twitter_user }}
-        </a>
+        <p class="text-center font-bold my-5 text-slate-400 text-xs">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          {{ formatDate(article.date) }}
+        </p>
       </div>
+      <div>
+        <p class="text-center font-bold my-5 text-slate-400 text-xs">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {{ article.readTime.text }}
+        </p>
+      </div>
+      <div class="flex items-center font-medium sm:mx-3 justify-center">
+        <nuxt-img
+          :src="siteMetadata.author_image"
+          loading="lazy"
+          alt=""
+          class="mr-3 w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800"
+        />
+        <div>
+          <div class="font-bold text-slate-400 text-xs">
+            {{ siteMetadata.author }}
+          </div>
+          <a
+            target="_blank"
+            :href="siteMetadata.twitter + siteMetadata.twitter_user"
+            class="font-bold text-sky-400 text-xs hover:text-sky-600"
+          >
+            @{{ siteMetadata.twitter_user }}
+          </a>
+        </div>
+      </div>
+
     </div>
+    <div class="w-1/2 mx-auto">
+      <p class="mt-2 text-xs my-3 flex flex-wrap -m-1 justify-center">
+        <a v-for="tag in article.tags" :key="tag" :href="'/blog?tag='+tag"
+           class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{
+            tag
+          }}</a>
+      </p>
+    </div>
+
 
     <div class="text-left mx-auto">
       <div class="flex flex-wrap lg:flex-row-reverse py-12">
@@ -86,14 +112,14 @@
 
     <div id="hyvor-talk-view"></div>
     <script type="text/javascript">
-      var HYVOR_TALK_WEBSITE = 7045;
+      const HYVOR_TALK_WEBSITE = 7045;
 
       let path = window.location.pathname;
       if (!path.endsWith('/')) {
         path = path + '/';
       }
 
-      var HYVOR_TALK_CONFIG = {
+      const HYVOR_TALK_CONFIG = {
         url: false,
         id: path
       };
