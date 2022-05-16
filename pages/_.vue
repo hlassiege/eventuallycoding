@@ -87,9 +87,15 @@
     <div id="hyvor-talk-view"></div>
     <script type="text/javascript">
       var HYVOR_TALK_WEBSITE = 7045;
+
+      let path = window.location.pathname;
+      if (!path.endsWith('/')) {
+        path = path + '/';
+      }
+
       var HYVOR_TALK_CONFIG = {
         url: false,
-        id: window.location.pathname + '/'
+        id: path
       };
     </script>
     <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
@@ -127,7 +133,7 @@ export default {
     document.getElementById("nuxtContent")
       .querySelectorAll("p")
       .forEach((block) => {
-        const regExpMatchArray = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(.*)$/);
+        const regExpMatchArray = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z]*)$/);
         if (regExpMatchArray) {
           regExpMatchArray.forEach((match) => {
             const regExpMatchArray = match.match(/v=(.*)$/);

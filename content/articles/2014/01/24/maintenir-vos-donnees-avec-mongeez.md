@@ -48,13 +48,15 @@ Lorsque vous avez une association entre deux objets, vous avez plusieurs choix :
 
 Prenons un exemple :
 
-db.articles.findOne() 
-{
-  '\_id' : 1,
-  'title' : 'Mongeez',
-  'content' : '....',
-  'comments' : \[1,2,3\]  => 1 2 et 3 étant respectivements des Ids dans la collection 'comments'
-}
+```javascript
+  db.articles.findOne() 
+  {
+    '\_id' : 1,
+    'title' : 'Mongeez',
+    'content' : '....',
+    'comments' : \[1,2,3\]  => 1 2 et 3 étant respectivements des Ids dans la collection 'comments'
+  }
+```
 
 Cette modélisation ne sera pas traité de la même façon dans votre code applicatif que celle-ci :
 
