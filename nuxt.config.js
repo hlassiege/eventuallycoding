@@ -40,6 +40,10 @@ export default {
     ],
   },
 
+  router: {
+    trailingSlash: false,
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/main.css", "@/assets/scss/main.scss"],
 
