@@ -55,7 +55,7 @@
 
           <form class="hidden mb-0 lg:flex" action="/blog" method="get">
             <div class="relative">
-              <input name="search" class="focus:scale-x-110 transition-all h-10 pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg " placeholder="Search..." type="text">
+              <input name="search" class="focus:scale-x-110 transition-all h-10 pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg search " placeholder="Search..." type="text">
 
               <button class="absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg" type="submit">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -141,6 +141,10 @@ export default {
 
   .font-to-invert-to-black {
     @apply text-slate-700 transition-all;
+  }
+
+  .search {
+    @apply placeholder-gray-500;
   }
 }
 
