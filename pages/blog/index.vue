@@ -1,17 +1,16 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-128 bg-transparent">
-      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
+    <keep-alive>
+    <HeroSection>
+      <template v-slot:content>
+        <div class="p-5 text-white rounded ">
+          <div class="text-7xl font-bruno ">Eventually Coding</div>
+          <div class="text-center mt-3">A la fin de l'envoi, je code !</div>
 
-      <div class="p-5 text-white rounded ">
-        <div class="text-7xl font-bruno ">EventuallyCoding</div>
-
-      </div>
-
-      <div class="clip-ellipse absolute top-124  rotate-180">
-      </div>
-
-    </section>
+        </div>
+      </template>
+    </HeroSection>
+    </keep-alive>
   <div class="flex flex-col items-start sm:flex-row pt-12 bg-slate-100">
     <aside class="hidden px-6 py-6 space-y-8 sm:block w-[200px]" aria-label="Sidebar">
       <div class="">
@@ -97,10 +96,11 @@
 
 <script>
 import siteMetaInfo from "@/data/sitemetainfo";
-import * as THREE from "three";
 import heroThree from "@/plugins/hero-three"
+import HeroSection from "@/pages/HeroSection";
 
 export default {
+  components: {HeroSection},
   data() {
     return {
       currentTag : this.$route.query.tag,
@@ -168,10 +168,6 @@ export default {
       },
       { name: "robots", content: "noindex" },
     ],
-  },
-  mounted() {
-    heroThree();
-
   },
 };
 </script>

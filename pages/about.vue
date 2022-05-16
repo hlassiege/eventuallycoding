@@ -1,28 +1,25 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-128 bg-transparent">
-      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
+    <keep-alive>
+    <HeroSection>
+      <template v-slot:content>
+        <div class="p-5 text-white rounded ">
+          <div class="md:block flex justify-center items-center">
+            <nuxt-img
+              :src="siteMetaInfo.author_image"
+              loading="lazy"
+              alt="me"
+              class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all"
+            />
+          </div>
+          <div class="text-center">
+            {{ siteMetaInfo.author }}
+          </div>
 
-      <div class="p-5 text-white rounded ">
-        <div class="md:block flex justify-center items-center">
-          <nuxt-img
-            :src="siteMetaInfo.author_image"
-            loading="lazy"
-            alt="me"
-            class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all"
-          />
         </div>
-        <div class="text-center">
-          {{ siteMetaInfo.author }}
-        </div>
-
-      </div>
-
-      <div class="clip-ellipse absolute top-124  rotate-180">
-      </div>
-
-    </section>
-
+      </template>
+    </HeroSection>
+    </keep-alive>
 
     <div class="dark:bg-gray-900 mt-12">
       <div class="w-3/4 md:flex mx-auto dark:bg-gray-900">
@@ -75,9 +72,10 @@
 <script>
 
 import siteMetaInfo from "@/data/sitemetainfo";
-import heroThree from "@/plugins/hero-three"
+import HeroSection from "@/pages/HeroSection";
 
 export default {
+  components: {HeroSection},
   data() {
     return {
       siteMetaInfo: siteMetaInfo,
@@ -203,9 +201,6 @@ export default {
         },
       ],
     };
-  },
-  mounted() {
-    heroThree();
   },
   async asyncData({$content, params, route}) {
     const articles = await $content("articles", {deep: true}, params.slug)

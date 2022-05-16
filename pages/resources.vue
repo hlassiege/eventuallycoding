@@ -1,18 +1,16 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-128 bg-transparent">
-      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
-
-      <div class="clip-ellipse absolute top-124  rotate-180">
-      </div>
-
-      <img
-        :src="'/images/covers/'+article.cover"
-        :alt="article.title"
-        class="absolute top-96 w-96 -translate-y-32"
-      />
-
-    </section>
+    <keep-alive>
+    <HeroSection>
+      <template v-slot:content>
+        <img
+          :src="'/images/covers/'+article.cover"
+          :alt="article.title"
+          class="absolute top-96 w-96 -translate-y-32"
+        />
+      </template>
+    </HeroSection>
+    </keep-alive>
 
     <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
       <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
@@ -53,9 +51,10 @@
 <script>
 
 import siteMetaInfo from "@/data/sitemetainfo";
-import heroThree from "@/plugins/hero-three"
+import HeroSection from "@/pages/HeroSection";
 
 export default {
+  components: {HeroSection},
   data() {
     return {
       siteMetaInfo: siteMetaInfo,
@@ -63,10 +62,7 @@ export default {
 
     };
   },
-  mounted() {
-    heroThree();
 
-  },
   async asyncData({$content, params}) {
     const article = await $content("resources")
       .where({ title: 'Ressources' })

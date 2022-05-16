@@ -1,19 +1,16 @@
 <template>
   <div>
-    <section class="flex items-center justify-center h-128 bg-transparent">
-      <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
+    <keep-alive>
+    <HeroSection>
+      <template v-slot:content>
+        <div class="p-5 text-white rounded ">
+          <div class="text-7xl font-bruno ">Eventually Coding</div>
+          <div class="text-center mt-3">A la fin de l'envoi, je code !</div>
 
-      <div class="p-5 text-white rounded ">
-        <div class="text-7xl font-bruno ">Eventually Coding</div>
-        <div class="text-center mt-3">A la fin de l'envoi, je code !</div>
-
-      </div>
-
-      <div class="clip-ellipse absolute top-124  rotate-180">
-      </div>
-
-    </section>
-
+        </div>
+      </template>
+    </HeroSection>
+    </keep-alive>
     <section class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto px-4">
       <div class="font-montserrat font-medium text-center text-4xl mb-10 text-slate-800 pt-[60px] pb-[60px] underline  decoration-red-400 decoration-4 underline-offset-8">
         Derniers billets
@@ -56,10 +53,11 @@
 import siteMetaInfo from "@/data/sitemetainfo";
 import BlogCard from "@/components/BlogCard";
 import BlogCardHorizontal from "@/components/BlogCardHorizontal";
-import heroThree from "@/plugins/hero-three"
+import HeroSection from "@/pages/HeroSection";
 
 export default {
   components: {
+    HeroSection,
     BlogCard,
     BlogCardHorizontal
   },
@@ -69,9 +67,6 @@ export default {
     };
   },
 
-  mounted() {
-    heroThree();
-  },
   async asyncData({ $content, params, route }) {
     const articles = await $content("articles", {deep: true}, params.slug)
       .only([
