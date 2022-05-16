@@ -53,9 +53,9 @@
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
-          <form class="hidden mb-0 lg:flex" action="/blog" method="get">
+          <form class="hidden mb-0 lg:flex" action="/blog" method="get" @submit.prevent="goToSearchResult">
             <div class="relative">
-              <input name="search" class="focus:scale-x-110 transition-all h-10 pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg search " placeholder="Search..." type="text">
+              <input name="search" v-model="search" class="focus:scale-x-110 transition-all h-10 pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg search " placeholder="Search..." type="text">
 
               <button class="absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg" type="submit">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -73,9 +73,9 @@
     <div :class="mobileMenuOpen ? '' : 'hidden'" >
       <div class="px-2 pt-2 pb-3 space-y-1">
 
-        <form class="mb-0 lg:flex">
+        <form action="/blog" method="get" class="mb-0 lg:flex" @submit.prevent="goToSearchResult">
           <div class="relative">
-            <input class="h-10 w-full pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg focus:z-10" placeholder="Search..." type="text">
+            <input v-model="search" class="h-10 w-full pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg focus:z-10" placeholder="Search..." type="text">
 
             <button class="absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg" type="submit">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -121,8 +121,14 @@ export default {
 
 
   },
+  methods: {
+    goToSearchResult() {
+      window.location.href = "/blog?search=" + this.search;
+    }
+  },
   data() {
     return {
+      search : this.$route.query.search || "",
       navLinks: menu,
       mobileMenuOpen: false,
     };
