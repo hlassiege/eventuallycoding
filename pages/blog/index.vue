@@ -61,7 +61,7 @@
               <button tabindex="-1"
                       class="flex items-stretch text-sm transition duration-150 ease-out border border-gray-700 outline-none group lg:hover:border-gray-400">
                 <div class="flex px-3 py-1 text-left text-slate-600">
-                  {{ tag }}
+                  #{{ tag }}
                 </div>
               </button>
             </div>

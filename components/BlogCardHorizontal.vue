@@ -15,10 +15,10 @@
       </h5>
 
       <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1 ">
-        <span v-for="tag in tags" :key="tag"
+        <a v-for="tag in tags" :key="tag" :href="'/blog?tag='+tag"
               class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{
             tag
-          }}</span>
+          }}</a>
       </p>
     </div>
 
