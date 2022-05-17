@@ -211,7 +211,7 @@ export default {
         { hid: "og:description", name: "og:description", content: this.article.description },
         { hid: "og:type", name: "og:type", content: "article" },
         { hid: "og:title", name: "og:title", content: this.article.title },
-        { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + this.article.path.replace('/article', '') },
+        { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + this.article.path.replace('/articles', '') },
         { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ this.article.cover },
         { name: "og:image:alt", content: this.article.title },
         { name: "twitter:text:title", content: this.article.title },
