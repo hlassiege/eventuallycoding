@@ -1,5 +1,5 @@
 <template>
-  <div :data-tags="tags"  class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
+  <div v-if="isFiltered" class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
   hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1">
     <nuxt-link class="overflow-hidden " :to="postLink">
       <img
@@ -37,7 +37,7 @@
 <script>
 export default {
   name: 'BlogCard',
-  props: ["title", "description", "date", "slug", "path", "img", "tags"],
+  props: ["title", "description", "date", "slug", "path", "img", "tags", "currentTag"],
   data() {
     return {
       postTitle: this.title,
@@ -46,6 +46,11 @@ export default {
       postDate: this.date,
       postLink: this.path.replace("articles/", ""),
     };
+  },
+  computed: {
+    isFiltered() {
+      return !this.currentTag || (this.tags && this.tags.includes(this.currentTag));
+    },
   },
   methods: {
     formatDate(date) {
