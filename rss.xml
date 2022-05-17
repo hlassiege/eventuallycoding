@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Tue, 17 May 2022 14:43:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 May 2022 16:47:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -85,14 +85,6 @@ Très récemment, pris d’une envie de retour aux s...]]></description>
             <guid>https://eventuallycoding.com/2022/01/31/que-fait-un-engineering-manager</guid>
             <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du l...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Outil de calcul de revenus pour freelance et salariés]]></title>
-            <link>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</link>
-            <guid>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</guid>
-            <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[**TLDR;**
-Je vous mets à disposition une calculette permettant de déterminer vos revenus nets après IR en fonction de si vous êtes en SASU ou EURL. J...]]></description>
         </item>
         <item>
             <title><![CDATA[Recrutements et salaires : session de Q&A]]></title>
@@ -677,16 +669,16 @@ Amusant, beaucoup affirment "travailler autrement". E...]]></description>
             <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
         </item>
         <item>
-            <title><![CDATA[Nosql, 4 bases à la loupe 2/4]]></title>
-            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</link>
-            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</guid>
+            <title><![CDATA[Nosql, 4 bases à la loupe 3/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</guid>
             <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
         </item>
         <item>
-            <title><![CDATA[Nosql, 4 bases à la loupe 3/4]]></title>
-            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</link>
-            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-34</guid>
+            <title><![CDATA[Nosql, 4 bases à la loupe 2/4]]></title>
+            <link>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</link>
+            <guid>https://eventuallycoding.com/2012/11/11/nosql-4-bases-a-la-loupe-24</guid>
             <pubDate>Sun, 11 Nov 2012 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d...]]></description>
         </item>

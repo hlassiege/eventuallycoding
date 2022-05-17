@@ -1,1 +1,0 @@
-__NUXT_JSONP__("manifest.js", {routes:["\u002F","\u002Fabout","\u002FHeroSection","\u002Fresources","\u002F2022\u002F05\u002F14\u002Fimpact-de-la-crise-tech-sur-les-salaires","\u002F2022\u002F04\u002F30\u002Ffaut-il-etre-passionne-pour-reussir-dans-le-dev","\u002F2022\u002F05\u002F04\u002Fspring-boot-et-vue-js-coderwatch-episode-4"]})
