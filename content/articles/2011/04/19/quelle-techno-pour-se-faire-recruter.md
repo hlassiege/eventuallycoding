@@ -7,7 +7,8 @@ date: "2011-04-19"
 categories: 
   - "waza"
 tags: 
-  - "emploi"
+  - "recrutement"
+  - "salaires"
 img: ""
 cover: "cover4.jpg"
 ---

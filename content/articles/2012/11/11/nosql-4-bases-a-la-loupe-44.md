@@ -6,7 +6,7 @@ categories:
   - "waza"
 tags: 
   - "elasticsearch"
-  - "mongo"
+  - "mongodb"
   - "redis"
   - "solr"
 img: "nosql-logo.gif"

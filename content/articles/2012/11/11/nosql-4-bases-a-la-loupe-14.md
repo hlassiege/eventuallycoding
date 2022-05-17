@@ -9,7 +9,7 @@ tags:
   - "elasticsearch"
   - "jdbc"
   - "lucene"
-  - "mongo"
+  - "mongodb"
   - "redis"
   - "solr"
 img: "nosql-logo.gif"

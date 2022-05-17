@@ -6,7 +6,7 @@ categories:
   - "waza"
 tags: 
   - "lucene"
-  - "mongo"
+  - "mongodb"
   - "redis"
 img: "nosql-logo.gif"
 cover: "cover2.jpg"

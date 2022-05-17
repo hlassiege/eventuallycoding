@@ -6,7 +6,7 @@ categories:
   - "waza"
 tags: 
   - "jongo"
-  - "mongo"
+  - "mongodb"
 img: "43c58-slideterminology.jpg"
 cover: "cover4.jpg"
 ---

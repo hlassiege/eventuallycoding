@@ -5,7 +5,6 @@ date: "2009-11-05"
 categories: 
   - "waza"
 tags: 
-  - "j2se"
   - "java"
   - "substance"
   - "swing"
@@ -19,10 +18,11 @@ A mon sens c'est l'une des librairies qui a le plus profité de la période 2006
 
 Par exemple pour utiliser le fading lors de la surbrillange des éléments d'une liste :
 
-JList list = ...; // create the list
-FadeConfigurationManager.getInstance().allowFades(FadeKind.ROLLOVER, list);
-FadeConfigurationManager.getInstance().allowFades(FadeKind.SELECTION, list);
-
+```java
+  JList list = ...; // create the list
+  FadeConfigurationManager.getInstance().allowFades(FadeKind.ROLLOVER, list);
+  FadeConfigurationManager.getInstance().allowFades(FadeKind.SELECTION, list);
+```
 Nettement plus simple que de le coder soi-même...
 
 Pour voir un apercu de ce que cela peut donner une [application est disponible via Java Webstart](https://substance.dev.java.net/see.html "Substance"). Attention, à utiliser avec Java 6, c'est le prix de la modernité ;)
@@ -39,8 +39,3 @@ Et observez le résultat sur les boutons à icône, tout simplement bluffant...
 
 A cela ajoutez la prévisualisation des fenêtres minimisées, la notion de [skin custom](https://substance.dev.java.net/docs/skins/overview.html)... et vous avez un framework que je ne saurais que trop vous conseiller.
 
-Aperçu :
-
-_(attention, il est difficile de capturer l'essence d'une animation sur une image fixe, je vous invite à l'essayer par vous-mêmes)_
-
-<table border="0"><tbody><tr><td>Apercu de l'animation sur un bouton</td><td>Prévisualisation d'une fenêtre minimisée</td></tr><tr><td><img src="/images/button.png" alt="button" width="164" height="98"></td><td><img src="/images/preview.png" alt="preview" width="142" height="100"></td></tr></tbody></table>

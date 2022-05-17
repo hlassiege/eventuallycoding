@@ -7,7 +7,6 @@ date: "2009-10-30"
 categories: 
   - "waza"
 tags: 
-  - "j2se"
   - "java"
   - "swing"
 img: ""

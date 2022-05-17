@@ -6,7 +6,6 @@ categories:
   - "waza"
 tags: 
   - "edt"
-  - "j2se"
   - "substance"
   - "swing"
 img: ""
