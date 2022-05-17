@@ -112,9 +112,9 @@
     <script type="text/javascript">
       var HYVOR_TALK_WEBSITE = 7045;
 
-      let postId = document.getElementById('post').innerHTML;
+      let postId = parseInt(document.getElementById('post').innerHTML);
 
-      const HYVOR_TALK_CONFIG = {
+      var HYVOR_TALK_CONFIG = {
         url: false,
         id: postId
       };
