@@ -6,7 +6,7 @@ Je vous mets à disposition une calculette permettant de déterminer vos revenus
 date: "2022-01-11"
 categories: 
   - "waza"
-tags:   -
+tags:
   - "freelance"
   - "salaires"
 img: ""
