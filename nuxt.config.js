@@ -54,25 +54,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxt/postcss8", "@nuxt/image", "nuxt-content-algolia"],
-  nuxtContentAlgolia: {
-    appId: process.env.ALGOLIA_APP_ID,
-    // !IMPORTANT secret key should always be an environment variable
-    // this is not your search only key but the key that grants access to modify the index
-    apiKey: process.env.ALGOLIA_API_KEY,
-
-    // relative to content directory
-    // each path get's its own index
-    paths: [
-      {
-        name: 'articles',
-        deep: true,
-        // optional (will use name if index not specified)
-        index: process.env.ALGOLIA_INDEX || 'eventuallycoding',
-        fields: ['title', 'description', 'bodyPlainText', 'tags'],
-      },
-    ],
-  },
+  buildModules: ["@nuxt/postcss8", "@nuxt/image"],
   vite: {
     /* options for vite */
     // ssr: true // enable unstable server-side rendering for development (false by default)
