@@ -223,7 +223,7 @@ export default {
 
       ],
       link: [
-        { rel: "canonical", href: "https://eventuallycoding.com" + this.article.path.replace('/article', '') },
+        { rel: "canonical", href: "https://eventuallycoding.com" + this.article.path.replace('/articles', '') },
       ],
     };
   },
