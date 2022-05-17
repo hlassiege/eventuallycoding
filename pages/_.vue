@@ -3,11 +3,13 @@
     <keep-alive>
     <HeroSection>
       <template v-slot:content>
+        <div class="absolute top-96 w-96 -translate-y-20">
         <img
           :src="'/images/covers/'+article.cover"
           :alt="article.title"
-          class="absolute top-96 w-96 -translate-y-32"
+          class="object-cover"
         />
+        </div>
       </template>
     </HeroSection>
     </keep-alive>

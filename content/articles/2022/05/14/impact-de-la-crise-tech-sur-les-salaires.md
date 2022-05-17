@@ -13,7 +13,7 @@ tags:
   - "salaires"
   - "startup"
 img: "coffee-keyboard-1024x681.jpeg"
-cover: "cover8.jpg"
+cover: "stock-market.jpg"
 ---
 
 Je ne sais pas si vous avez suivi l'actualité mais le marché de la tech dévisse pas mal depuis le début d'année. 
