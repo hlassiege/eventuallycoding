@@ -66,7 +66,8 @@
         </div>
         <div class="pt-16 grid xl:grid-cols-5 lg:grid-cols-3 gap-x-3 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
 
-          <BlogCard v-for="article in articles"
+          <BlogCard @changeCurrentTag="(tag) => currentTag = tag"
+                    v-for="article in articles"
                     :currentTag="currentTag"
                     :key="article.title"
                     :title="article.title"
