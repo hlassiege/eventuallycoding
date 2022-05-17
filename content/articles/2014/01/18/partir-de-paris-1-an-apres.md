@@ -1,4 +1,5 @@
 ---
+id: "1019"
 title: "Partir de Paris, 1 an après"
 description: "[![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolu..."
 date: "2014-01-18"

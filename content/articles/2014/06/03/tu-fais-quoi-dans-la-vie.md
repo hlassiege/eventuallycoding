@@ -1,4 +1,5 @@
 ---
+id: "1085"
 title: "Tu fais quoi dans la vie ?"
 description: "J’imagine qu’il y a bien une question qui revient régulièrement dans les discussions “qu’est ce que tu fais dans la vie ?”
 
@@ -7,7 +8,7 @@ date: "2014-06-03"
 categories: 
   - "waza"
 img: ""
-cover: "cover4.jpg"
+cover: "cover5.jpg"
 ---
 
 J’imagine qu’il y a bien une question qui revient régulièrement dans les discussions “qu’est ce que tu fais dans la vie ?”

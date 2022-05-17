@@ -1,4 +1,5 @@
 ---
+id: "553"
 title: "Etes-vous pompier pyromane ?"
 description: "[![](/images/backdraft-150x150.jpg \"backdraft\")](http://hakanai.free.fr/wp-content/uploads/2012/05/backdraft.jpg)Vous connaissez la [pyromanie](http:/..."
 date: "2012-05-21"

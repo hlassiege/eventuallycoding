@@ -1,4 +1,5 @@
 ---
+id: "866"
 title: "Eventual Coder"
 description: "Ca y est, je crois que je suis enfin devenu un Eventual Coder. Vous connaissez les eventual coders ? Non ce ne sont pas des gens qui éventuellement po..."
 date: "2013-07-20"

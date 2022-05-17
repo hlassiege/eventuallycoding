@@ -1,4 +1,5 @@
 ---
+id: "1044"
 title: "Recherche textuelle avec MongoDB"
 description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Il y a maintenant 2 ans nous avions choisi ..."
 date: "2014-03-06"

@@ -1,4 +1,5 @@
 ---
+id: "1844"
 title: "Se tenir à jour dans une équipe produit"
 description: "English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0
 
@@ -11,7 +12,7 @@ tags:
   - "malt"
   - "training"
 img: "Illustration_sans_titre-36-1024x371.jpg"
-cover: "cover4.jpg"
+cover: "cover8.jpg"
 ---
 
 English version : https://medium.com/nerds-malt/stay-up-to-date-in-a-product-team-c1ffa8eca1a0

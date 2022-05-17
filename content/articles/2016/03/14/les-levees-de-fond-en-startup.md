@@ -1,4 +1,5 @@
 ---
+id: "1241"
 title: "Les levées de fond en startup"
 description: "Depuis quelque temps, je me rends compte que je réponds de plus en plus souvent, Lateral-Thoughts et Hopwork obligent, à des questions sur la création..."
 date: "2016-03-14"
@@ -9,7 +10,7 @@ tags:
   - "levee-de-fonds"
   - "startup"
 img: "489d9-croissance.jpg"
-cover: "cover2.jpg"
+cover: "cover3.jpg"
 ---
 
 Depuis quelque temps, je me rends compte que je réponds de plus en plus souvent, Lateral-Thoughts et Hopwork obligent, à des questions sur la création d'entreprise et la recherche de financement. Je n'en suis pourtant pas un spécialiste mais j'ai tout de même quelques éléments de réponse alors pourquoi pas en faire un billet de blog. Je vais tenter de vous faire partager ce que j'en connais jusqu'ici

@@ -1,4 +1,5 @@
 ---
+id: "2040"
 title: "Integration and web development with Bulma, Vue.js etc… – Coderwatch episode 3"
 description: "Let's talk about web integration, HTML, CSS and Frontend dev. 
 
@@ -13,7 +14,7 @@ tags:
   - "product"
   - "vuejs"
 img: "pasted-image-0.png"
-cover: "cover5.jpg"
+cover: "cover6.jpg"
 ---
 
 Let's talk about web integration, HTML, CSS and Frontend dev. 

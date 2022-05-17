@@ -1,4 +1,5 @@
 ---
+id: "1169"
 title: "Micro-services : la composition de page avec Zuul et Sitemesh"
 description: "[![03BC](/images/07933-03bc.gif)](http://eventuallycoding.com/wp-content/uploads/2015/04/07933-03bc.gif) Le dernier billet de ce blog entamait une min..."
 date: "2015-04-13"
@@ -11,7 +12,7 @@ tags:
   - "spring-boot"
   - "zuul"
 img: "07933-03bc.gif"
-cover: "cover6.jpg"
+cover: "cover2.jpg"
 ---
 
 [![03BC](/images/07933-03bc.gif)](http://eventuallycoding.com/wp-content/uploads/2015/04/07933-03bc.gif) Le dernier billet de ce blog entamait une mini-série sur les microservices et j'espère bien susciter des commentaires afin d'améliorer le travail réalisé jusqu'ici. Voici une liste non exhaustive des différents sujets que j'aimerais traiter :

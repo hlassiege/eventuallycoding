@@ -1,4 +1,5 @@
 ---
+id: "534"
 title: "P.R.O.F.S"
 description: "![](/images/profs.png \"profs\")Une semaine après Devoxx, quoi de mieux que de parler de formation. Mais plutôt que de parler de formation professionnel..."
 date: "2012-05-01"

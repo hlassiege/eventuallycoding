@@ -1,4 +1,5 @@
 ---
+id: "2141"
 title: "Impact de la crise tech sur les salaires"
 description: "Je ne sais pas si vous avez suivi l'actualité mais le marché de la tech dévisse pas mal depuis le début d'année. 
 
@@ -12,7 +13,7 @@ tags:
   - "salaires"
   - "startup"
 img: "coffee-keyboard-1024x681.jpeg"
-cover: "cover3.jpg"
+cover: "cover8.jpg"
 ---
 
 Je ne sais pas si vous avez suivi l'actualité mais le marché de la tech dévisse pas mal depuis le début d'année. 

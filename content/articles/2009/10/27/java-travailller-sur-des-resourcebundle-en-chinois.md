@@ -1,4 +1,5 @@
 ---
+id: "133"
 title: "Java : Travailller sur des ResourceBundle en Chinois"
 description: "## Travailller sur des ResourceBundle en Chinois
 

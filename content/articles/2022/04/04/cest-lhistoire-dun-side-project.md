@@ -1,4 +1,5 @@
 ---
+id: "1993"
 title: "C'est l'histoire d'un side project"
 description: "English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)
 

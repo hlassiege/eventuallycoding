@@ -1,4 +1,5 @@
 ---
+id: "134"
 title: "Créer des fichiers Excel avec des caractères Chinois en Java"
 description: "## Créer des fichiers Excel avec des caractères Chinois
 

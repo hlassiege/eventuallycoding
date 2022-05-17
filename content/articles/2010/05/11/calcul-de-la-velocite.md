@@ -1,4 +1,5 @@
 ---
+id: "163"
 title: "Calcul de la vélocité"
 description: "Pour initier cette section, je souhaitais aborder la vélocité dont on entend souvent parler dans le vocabulaire Scrum.
 

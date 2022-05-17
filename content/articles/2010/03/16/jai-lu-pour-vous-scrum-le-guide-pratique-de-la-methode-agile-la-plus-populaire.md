@@ -1,4 +1,5 @@
 ---
+id: "151"
 title: "J'ai lu pour vous : Scrum, le guide pratique de la méthode agile la plus populaire"
 description: "Voilà, je viens de terminer ce bouquin. Je désirais avoir un bon livre sur Scrum afin de prendre du recul et revoir les concepts de cette méthodologie..."
 date: "2010-03-16"

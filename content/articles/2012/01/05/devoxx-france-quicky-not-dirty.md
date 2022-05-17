@@ -1,4 +1,5 @@
 ---
+id: "484"
 title: "Devoxx France : Quicky, not dirty"
 description: "[![](/images/logo-devoxx-france-seul.png \"Logo-Devoxx-France-seul\")](http://eventuallycoding.com/wp-content/uploads/2012/01/logo-devoxx-france-seul.pn..."
 date: "2012-01-05"

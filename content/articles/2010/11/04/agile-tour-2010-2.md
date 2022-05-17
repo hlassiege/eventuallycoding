@@ -1,4 +1,5 @@
 ---
+id: "171"
 title: "Agile Tour 2010"
 description: "Voilà, c'est fait, j'ai participé à l'Agile Tour 2010. Je suis arrivé vers 8h30 vers Denfert Rochereau pour assister à la présentation et au mot des s..."
 date: "2010-11-04"

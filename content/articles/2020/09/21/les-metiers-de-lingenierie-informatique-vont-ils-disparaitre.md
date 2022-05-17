@@ -1,4 +1,5 @@
 ---
+id: "1606"
 title: "les métiers de l'ingénierie informatique vont-ils disparaitre ?"
 description: "Ok le titre est un peu putaclick :)  
 Mais je ne lance pas ce sujet par hasard.  
@@ -10,7 +11,7 @@ categories:
 tags: 
   - "nocode"
 img: "Strip-Les-specs-cest-du-code-650-final.jpg"
-cover: "cover1.jpg"
+cover: "cover3.jpg"
 ---
 
 Ok le titre est un peu putaclick :)  

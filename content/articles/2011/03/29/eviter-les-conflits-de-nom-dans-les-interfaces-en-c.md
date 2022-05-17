@@ -1,4 +1,5 @@
 ---
+id: "286"
 title: "Java Vs C# : Eviter les conflits de nom dans les interfaces"
 description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique..."
 date: "2011-03-29"
@@ -8,7 +9,7 @@ tags:
   - "csharp"
   - "java"
 img: "javac1.png"
-cover: "cover3.jpg"
+cover: "cover7.jpg"
 ---
 
 [![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique à troll !!

@@ -1,4 +1,5 @@
 ---
+id: "300"
 title: "REX : Joomla et Wordpress"
 description: "Voila, j'ai récemment migré de Joomla vers Wordpress et j'avais annoncé à ce moment que je ferais un petit retour d'expérience sur le sujet d'ici peu...."
 date: "2011-04-05"

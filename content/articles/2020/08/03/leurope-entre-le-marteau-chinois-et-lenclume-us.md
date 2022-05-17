@@ -1,4 +1,5 @@
 ---
+id: "1559"
 title: "L’Europe entre le marteau Chinois et l’enclume US"
 description: "![](/images/marteau-enclume-1024x850.jpg)
 
@@ -9,7 +10,7 @@ date: "2020-08-03"
 categories: 
   - "waza"
 img: "marteau-enclume-1024x850.jpg"
-cover: "cover5.jpg"
+cover: "cover1.jpg"
 ---
 
 ![](/images/marteau-enclume-1024x850.jpg)

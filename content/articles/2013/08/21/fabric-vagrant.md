@@ -1,4 +1,5 @@
 ---
+id: "924"
 title: "Vagrant et Fabric : prise en main"
 description: "[![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retro..."
 date: "2013-08-21"

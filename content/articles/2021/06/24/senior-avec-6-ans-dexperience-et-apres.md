@@ -1,4 +1,5 @@
 ---
+id: "1764"
 title: "Senior avec 6 ans d'expérience, et après ?"
 description: "Le sujet récurrent dans l'IT : si on est senior après 6 ans d'expérience, quel est l'avenir du développeur(euse) passé 10 ans ? 
 
@@ -13,7 +14,7 @@ tags:
   - "engineering"
   - "senior"
 img: "Dual_ladder-1024x1024.jpg"
-cover: "cover7.jpg"
+cover: "cover8.jpg"
 ---
 
 Le sujet récurrent dans l'IT : si on est senior après 6 ans d'expérience, quel est l'avenir du développeur(euse) passé 10 ans ? 

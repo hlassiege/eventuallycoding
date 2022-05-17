@@ -1,4 +1,5 @@
 ---
+id: "1552"
 title: "Produit versus Side Project"
 description: "![](/images/Refaire_facebook_en_best_effort.jpg)
 
@@ -9,7 +10,7 @@ categories:
 tags: 
   - "product"
 img: "Refaire_facebook_en_best_effort.jpg"
-cover: "cover2.jpg"
+cover: "cover7.jpg"
 ---
 
 ![](/images/Refaire_facebook_en_best_effort.jpg)

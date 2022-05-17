@@ -1,4 +1,5 @@
 ---
+id: "144"
 title: "Introduction aux tests unitaires et aux bouchons en C#"
 description: "Par définition (Cf. [Wikipédia](http://fr.wikipedia.org/wiki/Test_unitaire) ) un test unitaire est un procédé permettant de s'assurer du fonctionnemen..."
 date: "2010-11-28"

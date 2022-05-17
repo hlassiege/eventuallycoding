@@ -1,4 +1,5 @@
 ---
+id: "588"
 title: "wecodelikestars.com"
 description: "[![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-29.jpg)
 

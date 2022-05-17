@@ -1,4 +1,5 @@
 ---
+id: "172"
 title: "Transitions agiles, où en sommes nous ?"
 description: "VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.
 

@@ -1,4 +1,5 @@
 ---
+id: "317"
 title: "Quelle techno pour se faire recruter ?"
 description: "Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :
 

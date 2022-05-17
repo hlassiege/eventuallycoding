@@ -1,4 +1,5 @@
 ---
+id: "148"
 title: "Java Vs C# : Les Property en C#"
 description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique..."
 date: "2011-03-18"

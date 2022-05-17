@@ -1,4 +1,5 @@
 ---
+id: "1266"
 title: "Recrutements et pensées diverses (2)"
 description: "[![image02](/images/957c4-image02-1.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/957c4-image02-1.png)
 
@@ -7,10 +8,9 @@ date: "2016-05-19"
 categories: 
   - "waza"
 tags: 
-  - "casual"
   - "recrutement"
 img: "957c4-image02-1.png"
-cover: "cover5.jpg"
+cover: "cover7.jpg"
 ---
 
 [![image02](/images/957c4-image02-1.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/957c4-image02-1.png)

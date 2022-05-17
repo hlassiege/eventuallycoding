@@ -1,4 +1,5 @@
 ---
+id: "650"
 title: "Nosql, 4 bases à la loupe 1/4"
 description: "[![](/images/nosql-logo.gif \"nosql-logo\")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d..."
 date: "2012-11-11"

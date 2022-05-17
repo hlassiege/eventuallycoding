@@ -1,4 +1,5 @@
 ---
+id: "2007"
 title: "This is the story of a side project"
 description: "Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
 
@@ -9,7 +10,7 @@ categories:
 tags: 
   - "product"
 img: "pasted-image-0.png"
-cover: "cover4.jpg"
+cover: "cover5.jpg"
 ---
 
 Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.

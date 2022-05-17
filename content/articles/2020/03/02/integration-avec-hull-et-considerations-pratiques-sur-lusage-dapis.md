@@ -1,4 +1,5 @@
 ---
+id: "1471"
 title: "Intégration avec Hull et considérations pratiques sur l'usage d'APIs"
 description: "Je vous propose aujourd'hui de découvrir [Hull](https://www.hull.io/). que nous utilisons depuis quelques mois chez Malt.  
 Hull fait partie des outil..."

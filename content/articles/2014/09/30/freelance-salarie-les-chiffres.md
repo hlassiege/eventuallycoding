@@ -1,4 +1,5 @@
 ---
+id: "1109"
 title: "Freelance / Salarié : les chiffres"
 description: "Il y a quelques temps j'avais proposé [un billet permettant de comparer les statuts EURL/salarié et SASU](http://www.eventuallycoding.com/index.php/ca..."
 date: "2014-09-30"
@@ -7,7 +8,7 @@ categories:
 tags: 
   - "freelance"
 img: ""
-cover: "cover8.jpg"
+cover: "cover7.jpg"
 ---
 
 Il y a quelques temps j'avais proposé [un billet permettant de comparer les statuts EURL/salarié et SASU](http://www.eventuallycoding.com/index.php/calculer-ses-revenus-entre-eurl-sasu-et-salariat/). Ce fichier a eu et a encore un grand succès, il est consulté tous les jours par pas mal de monde, sans doute des freelances je suppose pour calculer leur optimisation entre dividendes et salaires.

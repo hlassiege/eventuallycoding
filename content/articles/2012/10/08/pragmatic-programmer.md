@@ -1,4 +1,5 @@
 ---
+id: "602"
 title: "Pragmatic programmer"
 description: "[![](/images/vera_c10.jpg \"vera_c10\")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)
 

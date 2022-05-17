@@ -1,4 +1,5 @@
 ---
+id: "167"
 title: "Attention aux habitudes"
 description: "Vous connaissez le théorème du singe ? Wikipédia nous en donne un résumé [sur cette page](http://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_du_singe).
 

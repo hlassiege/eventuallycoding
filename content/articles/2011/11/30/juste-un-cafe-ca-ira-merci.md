@@ -1,4 +1,5 @@
 ---
+id: "477"
 title: "Juste un café, ça ira merci !"
 description: "![](/images/diversite-200x200.jpg \"diversite-200x200\")A l’heure des languages alternatifs sur la JVM : ceylon, scala, fantom et autres joyeusetés, pou..."
 date: "2011-11-30"

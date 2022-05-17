@@ -1,4 +1,5 @@
 ---
+id: "380"
 title: "Utiliser Mockito et PowerMock"
 description: "[![](/images/mockito.jpg \"mockito\")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http:..."
 date: "2011-07-07"

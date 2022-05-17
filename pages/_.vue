@@ -107,17 +107,16 @@
       </div>
     </div>
 
+    <div class="hidden" id="post">{{article.id}}</div>
     <div id="hyvor-talk-view"></div>
     <script type="text/javascript">
       var HYVOR_TALK_WEBSITE = 7045;
-      let path = window.location.pathname;
-      if (!path.endsWith('/')) {
-        path = path + '/';
-      }
+
+      let postId = document.getElementById('post').innerHTML;
 
       const HYVOR_TALK_CONFIG = {
         url: false,
-        id: path
+        id: postId
       };
     </script>
     <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>

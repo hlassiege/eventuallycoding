@@ -1,4 +1,5 @@
 ---
+id: "993"
 title: "Principe de Peter et corollaire d'Archimède"
 description: "**Disclaimer**
 

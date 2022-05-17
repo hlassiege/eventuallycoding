@@ -1,11 +1,11 @@
 ---
+id: "1257"
 title: "Entretiens, recrutements et pensées diverses"
 description: "[![image06](/images/05b46-image06.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/05b46-image06.png)Au cours de mes différents jobs, j'ai..."
 date: "2016-05-16"
 categories: 
   - "waza"
 tags: 
-  - "casual"
   - "recrutement"
 img: "05b46-image06.png"
 cover: "cover6.jpg"

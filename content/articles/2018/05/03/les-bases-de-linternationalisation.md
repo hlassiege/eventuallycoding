@@ -1,4 +1,5 @@
 ---
+id: "1329"
 title: "Les bases de l'internationalisation"
 description: "Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.
 
@@ -11,7 +12,7 @@ tags:
   - "internationalisation"
   - "localisation"
 img: "c13cf-image12.png"
-cover: "cover3.jpg"
+cover: "cover8.jpg"
 ---
 
 Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.

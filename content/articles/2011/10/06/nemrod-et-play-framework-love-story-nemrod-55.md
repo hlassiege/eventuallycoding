@@ -1,4 +1,5 @@
 ---
+id: "417"
 title: "Nemrod et Play Framework : love story (Nemrod 5/5)"
 description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) J’ai découvert Play Framework en version 1..."
 date: "2011-10-06"

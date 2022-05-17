@@ -1,4 +1,5 @@
 ---
+id: "592"
 title: "Lateral-Thoughts s'installe à Lyon !"
 description: "[![](/images/logo.png \"logo\")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'i..."
 date: "2012-10-06"

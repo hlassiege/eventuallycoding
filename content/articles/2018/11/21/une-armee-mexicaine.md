@@ -1,4 +1,5 @@
 ---
+id: "1391"
 title: "Une armée mexicaine ?"
 description: "[![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la s..."
 date: "2018-11-21"
@@ -7,7 +8,7 @@ categories:
 tags: 
   - "startup"
 img: "e0779-image1.png"
-cover: "cover7.jpg"
+cover: "cover6.jpg"
 ---
 
 [![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la soirée MiXiT à l’hôtel de ville. Ambiance relax entre petits fours et discussions sur les confs de la journée. 

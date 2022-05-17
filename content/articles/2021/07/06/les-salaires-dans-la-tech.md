@@ -1,4 +1,5 @@
 ---
+id: "1780"
 title: "Les salaires dans la tech"
 description: "Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.
 
@@ -10,7 +11,7 @@ tags:
   - "salaires"
   - "tech"
 img: "Money-1024x791.jpg"
-cover: "cover8.jpg"
+cover: "cover6.jpg"
 ---
 
 Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.

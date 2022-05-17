@@ -1,4 +1,5 @@
 ---
+id: "461"
 title: "Play framework, binding et performance"
 description: "Après avoir bataillé un bon moment avec les performances sur la page d’importation de Nemrod je me suis dit que ce serait intéressant de partager ce q..."
 date: "2011-10-23"

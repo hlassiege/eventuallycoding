@@ -1,4 +1,5 @@
 ---
+id: "770"
 title: "REX BOF NoSSII"
 description: "[![](/images/rework.png \"rework\")](http://hakanai.free.fr/index.php/rex-bof-nossii/rework/)Bon, avec un titre pareil je dois déjà avoir perdu 80% des ..."
 date: "2013-04-02"

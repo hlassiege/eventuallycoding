@@ -1,4 +1,5 @@
 ---
+id: "370"
 title: "Orion, où comment passer son IDE dans le cloud"
 description: "[![](/images/eclipse.png \"eclipse\")](http://eventuallycoding.com/wp-content/uploads/2011/06/eclipse.png)Une nouvelle petite constellation dans la gala..."
 date: "2011-06-20"

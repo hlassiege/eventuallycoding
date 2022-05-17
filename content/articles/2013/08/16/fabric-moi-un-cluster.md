@@ -1,4 +1,5 @@
 ---
+id: "904"
 title: "Fabric moi un cluster"
 description: "[![python](/images/b9590-python.jpeg)](http://eventuallycoding.com/wp-content/uploads/2013/08/b9590-python.jpeg)Je vous propose dans ce billet de pren..."
 date: "2013-08-16"

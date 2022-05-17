@@ -1,4 +1,5 @@
 ---
+id: "168"
 title: "Réussir une transition agile, pas si simple"
 description: "Les méthodes agiles gagnent en popularité ces dernières années. Elles ont su séduire les entreprises par leur capacité à s'adapter à un marché mouvant..."
 date: "2010-10-19"

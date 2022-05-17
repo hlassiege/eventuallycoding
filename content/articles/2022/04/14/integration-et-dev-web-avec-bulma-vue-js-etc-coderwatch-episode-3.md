@@ -1,4 +1,5 @@
 ---
+id: "2035"
 title: "Intégration et dev web avec Bulma, Vue.js etc... - Coderwatch episode 3"
 description: "[english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)
 

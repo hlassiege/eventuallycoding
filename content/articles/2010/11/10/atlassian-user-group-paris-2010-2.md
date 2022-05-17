@@ -1,4 +1,5 @@
 ---
+id: "156"
 title: "Atlassian User Group Paris 2010"
 description: "Plus de détails ici sur l'annonce de l'évènement : [Atlassian User Group](http://confluence.atlassian.com/display/AUG/France+-+Paris+Atlassian+User+Gr..."
 date: "2010-11-10"

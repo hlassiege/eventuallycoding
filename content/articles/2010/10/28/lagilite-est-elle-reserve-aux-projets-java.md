@@ -1,4 +1,5 @@
 ---
+id: "169"
 title: "L'agilité est elle réservé aux projets JAVA ?"
 description: "Titre provocateur n'est-ce pas ? Pourtant je reviens de l'agile tour 2010 et j'ai pu remarquer qu'une grande majorité des intervenants provenait du mo..."
 date: "2010-10-28"

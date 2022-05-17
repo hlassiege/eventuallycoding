@@ -1,4 +1,5 @@
 ---
+id: "1379"
 title: "J'en ai un peu ma claque du startup bashing"
 description: "[![](/images/969f4-n8u6k1.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/969f4-n8u6k1.jpg)Mais vous allez me dire, \"non mais c'est quoi ..."
 date: "2018-08-04"
@@ -8,7 +9,7 @@ tags:
   - "bashing"
   - "startup"
 img: "969f4-n8u6k1.jpg"
-cover: "cover3.jpg"
+cover: "cover6.jpg"
 ---
 
 [![](/images/969f4-n8u6k1.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/969f4-n8u6k1.jpg)Mais vous allez me dire, "non mais c'est quoi ce titre de billet ! Pourquoi t'écris ca ? C'est pas ton genre !" Bon, alors déjà je fais ce que je veux et oui cette fois j'ai envie de parler un peu de Paul et Mickey (\*)

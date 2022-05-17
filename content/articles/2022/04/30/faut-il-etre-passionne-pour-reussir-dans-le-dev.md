@@ -1,4 +1,5 @@
 ---
+id: "2067"
 title: "Faut-il être passionné pour réussir dans le dev ?"
 description: "Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 
 
@@ -11,7 +12,7 @@ tags:
   - "passion"
   - "thoughts"
 img: ""
-cover: "cover4.jpg"
+cover: "cover3.jpg"
 ---
 
 Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 

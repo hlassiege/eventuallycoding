@@ -1,4 +1,5 @@
 ---
+id: "1247"
 title: "Slack est la nouvelle \"pause clope\""
 description: "Intrigué par ce titre ? Pour situer le contexte, j'ai été absent quelques jours récemment. J'étais à [Mix-It](https://www.mix-it.fr/), très bonne conf..."
 date: "2016-04-24"
@@ -10,7 +11,7 @@ tags:
   - "slack"
   - "startup"
 img: "7286b-ooyjwor1.gif"
-cover: "cover2.jpg"
+cover: "cover3.jpg"
 ---
 
 Intrigué par ce titre ? Pour situer le contexte, j'ai été absent quelques jours récemment. J'étais à [Mix-It](https://www.mix-it.fr/), très bonne conférence Lyonnaise que je recommande chaudement. Et puis j'ai voulu jeter un œil vendredi soir pour prendre un peu la température au boulot. J'ai regardé mes emails, pas grand chose, notre gestionnaire de ticket, relativement calme et puis j'ai ouvert Slack.

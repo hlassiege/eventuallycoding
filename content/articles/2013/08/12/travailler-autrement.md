@@ -1,4 +1,5 @@
 ---
+id: "882"
 title: "Travailler autrement"
 description: "\"_Travailler autremen_t\", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?
 

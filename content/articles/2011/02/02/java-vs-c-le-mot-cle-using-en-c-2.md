@@ -1,4 +1,5 @@
 ---
+id: "146"
 title: "Java Vs C# : le mot clé using en C#"
 description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique..."
 date: "2011-02-02"

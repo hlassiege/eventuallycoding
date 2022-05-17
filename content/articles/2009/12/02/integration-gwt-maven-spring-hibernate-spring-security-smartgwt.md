@@ -1,4 +1,5 @@
 ---
+id: "138"
 title: "Intégration GWT-maven-spring-hibernate-spring security-smartGWT"
 description: "Ca y est, l'article que j'avais démarré sur GWT et son intégration avec Spring, maven, SmartGwt et Hibernate est enfin sorti dans sa version finale. I..."
 date: "2009-12-02"

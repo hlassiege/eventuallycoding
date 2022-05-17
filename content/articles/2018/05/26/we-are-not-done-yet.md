@@ -1,4 +1,5 @@
 ---
+id: "1357"
 title: "We are not done yet"
 description: "[![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)
 
@@ -10,7 +11,7 @@ tags:
   - "malt"
   - "startup"
 img: "475f8-keep-calm-it-s-not-done-yet1.png"
-cover: "cover7.jpg"
+cover: "cover2.jpg"
 ---
 
 [![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)

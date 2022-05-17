@@ -1,4 +1,5 @@
 ---
+id: "506"
 title: "Maven : que Perforce soit avec toi"
 description: "![](/images/ps-kztpdvdc-170x170-751.jpg \"ps.kztpdvdc.170x170-75\")
 

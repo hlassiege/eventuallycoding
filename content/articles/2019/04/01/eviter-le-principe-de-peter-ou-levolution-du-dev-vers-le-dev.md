@@ -1,4 +1,5 @@
 ---
+id: "1403"
 title: "Eviter le principe de Peter, ou, l’évolution du dev vers le dev"
 description: "[![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)
 
@@ -9,7 +10,7 @@ categories:
 tags: 
   - "principe-peter"
 img: "svg_.png"
-cover: "cover1.jpg"
+cover: "cover5.jpg"
 ---
 
 [![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)

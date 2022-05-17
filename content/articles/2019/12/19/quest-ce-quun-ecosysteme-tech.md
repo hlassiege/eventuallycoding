@@ -1,4 +1,5 @@
 ---
+id: "1445"
 title: "Qu'est-ce qu'un écosystème tech ?"
 description: "![](/images/project_mangrove_day_shutterstock1.jpg)
 
@@ -10,7 +11,7 @@ tags:
   - "ecosysteme"
   - "tech"
 img: "project_mangrove_day_shutterstock1.jpg"
-cover: "cover1.jpg"
+cover: "cover5.jpg"
 ---
 
 ![](/images/project_mangrove_day_shutterstock1.jpg)

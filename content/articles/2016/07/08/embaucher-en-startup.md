@@ -1,4 +1,5 @@
 ---
+id: "1290"
 title: "Embaucher en startup"
 description: "[![startup](/images/6e815-startup.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/07/6e815-startup.jpg)Pour conclure [la série](http://www.e..."
 date: "2016-07-08"
@@ -8,7 +9,7 @@ tags:
   - "recrutement"
   - "startup"
 img: "6e815-startup.jpg"
-cover: "cover1.jpg"
+cover: "cover3.jpg"
 ---
 
 [![startup](/images/6e815-startup.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/07/6e815-startup.jpg)Pour conclure [la série](http://www.eventuallycoding.com/index.php/entretiens-recrutements-et-pensees-diverses/) sur mes réflexions autour du recrutement, je vais finir par le cas du recrutement chez [Hopwork](https://www.hopwork.fr). Vous vous rappelez ? Je vous disais que recruter c’est une question de contexte. 

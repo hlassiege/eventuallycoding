@@ -1,4 +1,5 @@
 ---
+id: "1301"
 title: "Hopwork is coming"
 description: "Peut être que vous l'avez déjà lu sur Twitter, Hopwork vient de passer un nouveau cap. En effet je suis plutôt heureux d'annoncer que nous venons de f..."
 date: "2016-12-16"
@@ -9,7 +10,7 @@ tags:
   - "levee-de-fonds"
   - "startup"
 img: "27417-1_e2xgczrsmihdhiq-sq82qg1.jpeg"
-cover: "cover8.jpg"
+cover: "cover4.jpg"
 ---
 
 Peut être que vous l'avez déjà lu sur Twitter, Hopwork vient de passer un nouveau cap. En effet je suis plutôt heureux d'annoncer que nous venons de finir [une levée de fonds de 5M d'€](https://www.maddyness.com/finance/2016/12/15/rh-hopwork-leve-5-millions-euros/) pour financer nos futurs investissements. (\*)

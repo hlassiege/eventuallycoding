@@ -1,4 +1,5 @@
 ---
+id: "1425"
 title: "Retour d'utilisation de Mongodb et pourquoi nous migrons vers Postgresql"
 description: "![](/images/af912-mongo.jpg)
 

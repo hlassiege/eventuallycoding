@@ -1,4 +1,5 @@
 ---
+id: "139"
 title: "Luke, que la force soit avec toi !"
 description: "Vous connaissez [Lucene](http://lucene.apache.org/java/docs/ \"Lucene\") ? Non ? Dans ce cas je vous invite fortement à découvrir cette API utilisé dans..."
 date: "2009-12-06"

@@ -1,4 +1,5 @@
 ---
+id: "1160"
 title: "Micro-services : routing avec Zuul"
 description: "[![spring-cloud](/images/3b14a-spring-cloud.png)](http://eventuallycoding.com/wp-content/uploads/2015/04/3b14a-spring-cloud.png)Long time no see, le d..."
 date: "2015-04-09"
@@ -11,7 +12,7 @@ tags:
   - "spring-cloud"
   - "zuul"
 img: "3b14a-spring-cloud.png"
-cover: "cover6.jpg"
+cover: "cover8.jpg"
 ---
 
 [![spring-cloud](/images/3b14a-spring-cloud.png)](http://eventuallycoding.com/wp-content/uploads/2015/04/3b14a-spring-cloud.png)Long time no see, le dernier billet de blog date de janvier, une éternité en temps de développement. Ce délai car nous avons beaucoup travaillé sur Hopwork à repenser notre architecture et du coup, et bien je n'avais pas le temps pour blogger ^^ Mais qu'avons nous fait justement ? Eh bien nous avions déjà entamé un premier virage vers les micro services l'année dernière mais il restait encore beaucoup de points à adresser. Le temps pour passer de "grosse appli monolithique" à "plein de trucs qui communiquent entre eux" est non négligeable et on découvre des tas de petits détails qu'on n'imagine pas au début :

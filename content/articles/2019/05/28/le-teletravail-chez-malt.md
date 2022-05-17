@@ -1,4 +1,5 @@
 ---
+id: "1411"
 title: "Le télétravail chez Malt"
 description: "Parlons télétravail pour ce billet !
 
@@ -10,7 +11,7 @@ tags:
   - "remote"
   - "teletravail"
 img: "holo2.jpg"
-cover: "cover1.jpg"
+cover: "cover6.jpg"
 ---
 
 Parlons télétravail pour ce billet !

@@ -1,4 +1,5 @@
 ---
+id: "166"
 title: "Retours d'expériences agile et lean"
 description: "Les retours d'expérience sont bien souvent le meilleur moyen de discuter de la pratique agile. En fait ils sont mêmes nécessaires car le cadre agile e..."
 date: "2010-09-16"

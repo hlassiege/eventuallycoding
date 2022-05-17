@@ -1,4 +1,5 @@
 ---
+id: "362"
 title: "Les technos de demain selon What's next Paris !"
 description: "[![](/images/whatsnext.jpg \"whatsnext\")](http://eventuallycoding.com/wp-content/uploads/2011/05/whatsnext.jpg) Le chanteur des ZZtop, une star de la T..."
 date: "2011-05-28"

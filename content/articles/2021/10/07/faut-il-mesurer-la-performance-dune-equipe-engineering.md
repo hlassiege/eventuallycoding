@@ -1,4 +1,5 @@
 ---
+id: "1821"
 title: "Faut-il mesurer la performance d’une équipe engineering ?"
 description: "Et si on parlait de mesure de la performance d’une équipe engineering ? 
 
@@ -14,7 +15,7 @@ tags:
   - "okr"
   - "performance"
 img: "Illustration_sans_titre-1024x716.jpg"
-cover: "cover8.jpg"
+cover: "cover6.jpg"
 ---
 
 Et si on parlait de mesure de la performance d’une équipe engineering ? 

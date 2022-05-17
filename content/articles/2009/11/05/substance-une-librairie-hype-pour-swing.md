@@ -1,4 +1,5 @@
 ---
+id: "136"
 title: "Substance, une librairie \"hype\" pour Swing"
 description: "Mon [dernier billet sur Swing](index.php/the-news/51-swing-or-not-swing \"Swing or not swing\") pouvait paraître pessimiste puisque je parlais de cette ..."
 date: "2009-11-05"

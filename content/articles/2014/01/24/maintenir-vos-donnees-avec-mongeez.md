@@ -1,4 +1,5 @@
 ---
+id: "1024"
 title: "Maintenir vos données avec Mongeez"
 description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Vous connaissez peut-être [Liquibase](http:..."
 date: "2014-01-24"

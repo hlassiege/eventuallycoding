@@ -1,4 +1,5 @@
 ---
+id: "398"
 title: "18 mois de freelance. Alors, quel bilan ?"
 description: "Eh oui, ça fait environ 18 mois que Hakatech a vu le jour. J'en profites pour faire une petite rétrospective des points qui ont bien marché, ceux qui ..."
 date: "2011-09-20"

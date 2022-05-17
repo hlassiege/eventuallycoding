@@ -1,4 +1,5 @@
 ---
+id: "1751"
 title: "Pourquoi le sujet n’est plus d’adopter l’agilité mais de changer de culture produit"
 description: "**tldr;**
 
@@ -15,7 +16,7 @@ tags:
   - "product-discovery"
   - "scrum"
 img: "coach-agile-transformation-1024x1024.jpg"
-cover: "cover6.jpg"
+cover: "cover5.jpg"
 ---
 
 **tldr;**

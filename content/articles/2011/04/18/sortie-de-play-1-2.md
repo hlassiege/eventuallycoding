@@ -1,4 +1,5 @@
 ---
+id: "313"
 title: "Sortie de Play 1.2 !"
 description: "[![](/images/play.png \"play\")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)
 

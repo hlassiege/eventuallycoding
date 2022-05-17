@@ -1,4 +1,5 @@
 ---
+id: "1807"
 title: "Différences entre VP Engineering et CTO"
 description: "Si le rôle de VP Engineering est relativement courant dans les entreprises anglo-saxonnes, cette dénomination est assez jeune en France et peut-être q..."
 date: "2021-09-01"
@@ -9,7 +10,7 @@ tags:
   - "startup"
   - "vp"
 img: "Illustration_sans_titre-20-1024x393.jpg"
-cover: "cover1.jpg"
+cover: "cover4.jpg"
 ---
 
 Si le rôle de VP Engineering est relativement courant dans les entreprises anglo-saxonnes, cette dénomination est assez jeune en France et peut-être que vous n'en avez pas encore côtoyé. 

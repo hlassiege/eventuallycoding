@@ -1,4 +1,5 @@
 ---
+id: "965"
 title: "Interview d'une société collaborative : Neovia"
 description: "_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d..."
 date: "2013-09-25"

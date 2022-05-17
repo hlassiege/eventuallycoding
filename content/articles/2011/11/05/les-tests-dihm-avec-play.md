@@ -1,4 +1,5 @@
 ---
+id: "466"
 title: "Les tests d'IHM avec Play!"
 description: "[![](/images/test.png \"test\")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)
 

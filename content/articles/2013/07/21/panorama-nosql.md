@@ -1,4 +1,5 @@
 ---
+id: "869"
 title: "Panorama Nosql"
 description: "Voici quelques slides d'introduction sur Nosql. Ces slides sont issu d'une formation que j'anime sur MongoDB et ont pour objectif de faire prendre du ..."
 date: "2013-07-21"

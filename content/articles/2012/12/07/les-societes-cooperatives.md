@@ -1,4 +1,5 @@
 ---
+id: "699"
 title: "Les sociétés coopératives"
 description: "[](http://hakanai.free.fr/index.php/les-societes-cooperatives/fierdetredev_thumb1/)Allez je me lance. A 34 ans, je suis aujourd’hui fier d’être dévelo..."
 date: "2012-12-07"

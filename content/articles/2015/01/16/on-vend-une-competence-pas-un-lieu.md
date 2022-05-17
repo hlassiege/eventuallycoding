@@ -1,4 +1,5 @@
 ---
+id: "1125"
 title: "\"On vend une compétence, pas un lieu\" ?"
 description: "Récemment j'ai eu un échange sur Twitter qui m'a interloqué (interloquer ça fait classe). La discussion portait sur les tarifs affichés sur Hopwork et..."
 date: "2015-01-16"
@@ -8,7 +9,7 @@ tags:
   - "freelance"
   - "product"
 img: ""
-cover: "cover3.jpg"
+cover: "cover1.jpg"
 ---
 
 Récemment j'ai eu un échange sur Twitter qui m'a interloqué (interloquer ça fait classe). La discussion portait sur les tarifs affichés sur Hopwork et jugés assez bas par mon interlocuteur (un autre sujet pour plus tard). Je précisais qu'en région les tarifs étaient moins élevés et je donnais l'exemple de mon cas personnel en évoquant le fait que j'ai eu une perte de 25% en descendant à Lyon. En réponse, j'ai eu la phrase suivante : "Comme déjà dit, on vend une compétence, pas un lieu". (Paf, dans les dents)

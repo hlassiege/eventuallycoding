@@ -1,4 +1,5 @@
 ---
+id: "531"
 title: "Devoxx France 2012 jour 3/3"
 description: "[![](/images/logo-devoxx-france-seul.png \"Logo-Devoxx-France-seul\")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn..."
 date: "2012-04-23"

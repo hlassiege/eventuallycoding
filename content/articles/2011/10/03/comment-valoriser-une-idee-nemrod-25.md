@@ -1,4 +1,5 @@
 ---
+id: "411"
 title: "Comment valoriser une idée ? (Nemrod 2/5)"
 description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) C’est bien beau d’avoir une idée mais il y..."
 date: "2011-10-03"

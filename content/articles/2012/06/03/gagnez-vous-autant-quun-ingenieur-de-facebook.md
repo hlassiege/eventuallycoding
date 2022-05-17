@@ -1,4 +1,5 @@
 ---
+id: "562"
 title: "Gagnez-vous autant qu'un ingénieur de Facebook ?"
 description: "![](/images/Casino1-150x150.jpg \"Casino\")Vous l'avez peut être lu, Facebook vient de lancer un pavé dans la mare en publiant [ces grilles de salaires]..."
 date: "2012-06-03"

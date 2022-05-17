@@ -1,4 +1,5 @@
 ---
+id: "1875"
 title: "Recrutements et salaires : session de Q&A"
 description: "J'étais présent en tant qu'intervenant il y a quelques jours à [un meetup](https://www.linkedin.com/events/conf-rence-cequeveulentlesdev-l686238941497..."
 date: "2021-11-25"
@@ -8,7 +9,7 @@ tags:
   - "salaires"
   - "startup"
 img: ""
-cover: "cover3.jpg"
+cover: "cover7.jpg"
 ---
 
 J'étais présent en tant qu'intervenant il y a quelques jours à [un meetup](https://www.linkedin.com/events/conf-rence-cequeveulentlesdev-l6862389414971211776/) sur le thème **"ce que veulent les devs à l'ère post covid"** et j'aimerais revenir sur quelques questions qui ont été posées en session de Q&A.  

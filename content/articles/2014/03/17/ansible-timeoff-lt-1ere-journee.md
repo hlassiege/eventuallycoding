@@ -1,4 +1,5 @@
 ---
+id: "1051"
 title: "Ansible (timeoff LT 1ère journée)"
 description: "[![ansible](/images/5570d-ansible.png)](http://eventuallycoding.com/wp-content/uploads/2014/03/5570d-ansible.png)Nous y voici ! Le timeoff Lateral-Tho..."
 date: "2014-03-17"

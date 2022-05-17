@@ -1,4 +1,5 @@
 ---
+id: "497"
 title: "La quête du Graal avec un cure-dent"
 description: "![](/images/grails-logo.png \"grails-logo\") Grails fait partie des framework haute productivité à la mode ces dernières années. J’étais plutôt motivé p..."
 date: "2012-03-10"

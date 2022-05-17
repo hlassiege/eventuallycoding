@@ -1,4 +1,5 @@
 ---
+id: "1546"
 title: "Rewrite from scratch ?"
 description: "![](/images/rewrite-goodness-matrix1.png)
 

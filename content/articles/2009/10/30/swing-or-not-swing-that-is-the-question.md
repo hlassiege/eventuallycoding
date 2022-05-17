@@ -1,4 +1,5 @@
 ---
+id: "135"
 title: "Swing or not Swing, that is the question"
 description: "## Peut-on faire un client lourd en Java ?
 

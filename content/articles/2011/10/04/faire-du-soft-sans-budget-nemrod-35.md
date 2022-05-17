@@ -1,4 +1,5 @@
 ---
+id: "413"
 title: "Faire du soft sans budget ? (Nemrod 3/5)"
 description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) Ok, vous pensez que pour démarrer il vous ..."
 date: "2011-10-04"

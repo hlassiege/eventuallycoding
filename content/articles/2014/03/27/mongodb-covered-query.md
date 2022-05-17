@@ -1,4 +1,5 @@
 ---
+id: "1070"
 title: "Mongodb covered query"
 description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Aujourd’hui je souhaite revenir un petit pe..."
 date: "2014-03-27"
@@ -7,7 +8,7 @@ categories:
 tags: 
   - "mongodb"
 img: "af912-mongo.jpg"
-cover: "cover3.jpg"
+cover: "cover4.jpg"
 ---
 
 [![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Aujourd’hui je souhaite revenir un petit peu sur les mécanismes d’indexation de MongoDB. Récemment j’avais insisté sur le fait que la stratégie d’indexation était importante [et fixait en partie votre schéma](http://www.eventuallycoding.com/index.php/maintenir-vos-donnees-avec-mongeez/). J’avais également parlé des [index full text](http://www.eventuallycoding.com/index.php/recherche-textuelle-avec-mongodb/). Je compte continuer encore un peu sur ce thème et pour ce billet, nous allons aborder les covered query.

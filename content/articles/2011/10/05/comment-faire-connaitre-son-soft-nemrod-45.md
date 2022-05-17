@@ -1,4 +1,5 @@
 ---
+id: "415"
 title: "Comment faire connaitre son soft ? (Nemrod 4/5)"
 description: "Là dessus, je vais partager le peu que nous avons expérimenté. Nemrod n’a que deux semaines, le nombre de visites reste très faible pour l’instant. L’..."
 date: "2011-10-05"

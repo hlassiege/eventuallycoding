@@ -1,4 +1,5 @@
 ---
+id: "1571"
 title: "Bataille autour des données et du Cloud"
 description: "![](/images/Ligne_maginot-1024x838.jpg)
 

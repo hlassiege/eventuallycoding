@@ -1,4 +1,5 @@
 ---
+id: "374"
 title: "WSN Paris 2011 : Flex, la revanche"
 description: "[![](/images/flexbuilder.png \"flexbuilder\")](http://eventuallycoding.com/wp-content/uploads/2011/06/flexbuilder.png) Parmi les technos sympa qui nous ..."
 date: "2011-06-23"

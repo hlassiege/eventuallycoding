@@ -1,4 +1,5 @@
 ---
+id: "1931"
 title: "Que fait un Engineering Manager ?"
 description: "Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du l..."
 date: "2022-01-31"
@@ -9,7 +10,7 @@ tags:
   - "organization"
   - "product"
 img: "Illustration_sans_titre-44-1024x842.jpg"
-cover: "cover2.jpg"
+cover: "cover6.jpg"
 ---
 
 Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du logiciel), des personnes et de leur évolution dans l’entreprise. 

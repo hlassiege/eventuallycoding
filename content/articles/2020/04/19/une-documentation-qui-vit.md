@@ -1,4 +1,5 @@
 ---
+id: "1511"
 title: "Une documentation qui vit"
 description: "Et si on parlait documentation ?  
 La documentation c'est un peu le sujet maudit et polémique dans les équipes tech. Entre ceux qui en font trop, ceux..."
@@ -9,7 +10,7 @@ tags:
   - "antora"
   - "doc"
 img: "image-2.png"
-cover: "cover5.jpg"
+cover: "cover2.jpg"
 ---
 
 Et si on parlait documentation ?  

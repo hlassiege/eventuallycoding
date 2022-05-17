@@ -1,4 +1,5 @@
 ---
+id: "573"
 title: "Hibernate vers JPA"
 description: "[![](/images/java.png \"java\")](http://eventuallycoding.com/wp-content/uploads/2012/06/java.png)J'ai pas mal mangé de JPA + Spring cette année entre [l..."
 date: "2012-06-23"

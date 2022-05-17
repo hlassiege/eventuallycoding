@@ -1,4 +1,5 @@
 ---
+id: "306"
 title: "Petit rappel sur un principe agile : Avoir un rythme soutenable"
 description: "Un collègue m'a envoyé récemment un lien qui vaut le détour. Un petit [speech intéressant](http://blog.reapfield.com/gerardkho/2010/06/28/life-jugglin..."
 date: "2011-04-12"

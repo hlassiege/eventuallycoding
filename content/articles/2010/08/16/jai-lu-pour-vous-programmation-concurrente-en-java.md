@@ -1,6 +1,9 @@
 ---
+id: "152"
 title: "J'ai lu pour vous : Programmation concurrente en JAVA"
-description: "<table border=\"0\"><tbody><tr><td><img src=\"/images/programConcurrente.gif\" alt=\"programConcurrente\" width=\"152\" height=\"188\"><div></div><em><strong><s..."
+description: "Je viens de boucler l'un des livres les plus techniques que j'ai lu récemment : \"Programmation concurrente en JAVA\".
+
+Livre très intéressant s'il en e..."
 date: "2010-08-16"
 categories: 
   - "waza"

@@ -1,4 +1,5 @@
 ---
+id: "1897"
 title: "Outil de calcul de revenus pour freelance et salariés"
 description: "**TLDR;**
 
@@ -10,7 +11,7 @@ tags:
   - "freelance"
   - "salaires"
 img: ""
-cover: "cover5.jpg"
+cover: "cover6.jpg"
 ---
 
 **TLDR;**

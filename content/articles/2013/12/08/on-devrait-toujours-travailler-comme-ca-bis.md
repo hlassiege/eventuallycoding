@@ -1,4 +1,5 @@
 ---
+id: "1002"
 title: "On devrait toujours travailler comme ça (bis)"
 description: "[![redcrabe](/images/redcrabe2.jpg)](http://www.eventuallycoding.com/wp-content/uploads/2013/03/redcrabe21.jpg)Ca s’appelle du plagiat. Car c’était [l..."
 date: "2013-12-08"
