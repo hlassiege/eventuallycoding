@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
+  <div :data-tags="tags"  class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
   hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1">
     <nuxt-link class="overflow-hidden " :to="postLink">
       <img
@@ -26,7 +26,7 @@
         </h5>
 
         <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1 ">
-          <nuxt-link :to="'/blog?tag='+tag" v-for="tag in tags" :key="tag" class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{tag}}</nuxt-link>
+          <a :href="'/blog?tag='+tag" v-for="tag in tags" :key="tag" class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{tag}}</a>
         </p>
       </div>
 

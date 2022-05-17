@@ -55,7 +55,7 @@
         <div class="w-full">
           <div class="flex flex-wrap -mx-2">
 
-            <nuxt-link :to="'/blog?tag='+tag" v-for="tag in allTags" :key="tag" >
+            <a :href="'/blog?tag='+tag" v-for="tag in allTags" :key="tag" >
             <div class="px-1 mt-2" >
               <button tabindex="-1"
                       class="flex items-stretch text-sm transition duration-150 ease-out border border-gray-700 outline-none group lg:hover:border-gray-400">
@@ -64,7 +64,7 @@
                 </div>
               </button>
             </div>
-            </nuxt-link>
+            </a>
 
           </div>
         </div>
@@ -76,7 +76,6 @@
         Blog
       </div>
     <div class="pt-16 grid xl:grid-cols-5 lg:grid-cols-3 gap-x-3 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
-
 
       <BlogCard v-for="article in articles"
                 :key="article.title"
@@ -96,7 +95,6 @@
 
 <script>
 import siteMetaInfo from "@/data/sitemetainfo";
-import heroThree from "@/plugins/hero-three"
 import HeroSection from "@/pages/HeroSection";
 
 export default {
