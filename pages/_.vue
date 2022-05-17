@@ -107,11 +107,9 @@
       </div>
     </div>
 
-
     <div id="hyvor-talk-view"></div>
     <script type="text/javascript">
-      const HYVOR_TALK_WEBSITE = 7045;
-
+      var HYVOR_TALK_WEBSITE = 7045;
       let path = window.location.pathname;
       if (!path.endsWith('/')) {
         path = path + '/';
@@ -123,6 +121,7 @@
       };
     </script>
     <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
+
   </div>
 
 

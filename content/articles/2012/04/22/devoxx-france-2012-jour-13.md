@@ -5,7 +5,7 @@ date: "2012-04-22"
 categories: 
   - "waza"
 tags: 
-  - "devoxxfr"
+  - "devoxx"
 img: "logo-devoxx-france-seul.png"
 cover: "cover2.jpg"
 ---

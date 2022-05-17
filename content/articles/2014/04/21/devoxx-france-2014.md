@@ -5,7 +5,7 @@ date: "2014-04-21"
 categories: 
   - "waza"
 tags: 
-  - "devoxxfr"
+  - "devoxx"
 img: "31dab-devoxxfr.jpg"
 cover: "cover4.jpg"
 ---
