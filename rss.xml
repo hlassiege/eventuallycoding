@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Tue, 17 May 2022 17:08:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 May 2022 17:33:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -85,6 +85,14 @@ Très récemment, pris d’une envie de retour aux s...]]></description>
             <guid>https://eventuallycoding.com/2022/01/31/que-fait-un-engineering-manager</guid>
             <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du l...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Outil de calcul de revenus pour freelance et salariés]]></title>
+            <link>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</link>
+            <guid>https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries</guid>
+            <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[**TLDR;**
+Je vous mets à disposition une calculette permettant de déterminer vos revenus nets après IR en fonction de si vous êtes en SASU ou EURL. J...]]></description>
         </item>
         <item>
             <title><![CDATA[Recrutements et salaires : session de Q&A]]></title>
