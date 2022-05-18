@@ -52,7 +52,7 @@
                 <tr v-for="event in events" :key="event" class="hover:bg-slate-300 transition-colors">
                   <td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">{{ event.event }}</td>
                   <td class="px-4 py-2 text-gray-700 whitespace-nowrap">
-                    <nuxt-link :to="event.link" class="text-blue-500 hover:text-blue-700">{{ event.title }}</nuxt-link>
+                    <a :href="event.link" class="text-blue-500 hover:text-blue-700">{{ event.title }}</a>
                   </td>
                   <td class="px-4 py-2 text-gray-700 whitespace-nowrap">{{ event.location }}</td>
                   <td class="px-4 py-2 text-gray-700 whitespace-nowrap">{{ event.date }}</td>
