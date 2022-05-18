@@ -14,12 +14,12 @@ const siteMetaInfo = {
   image: "~/assets/author.png",
   github: "https://github.com/hlassiege",
   githubUser: "hlassiege",
-  twitter: "http://twitter.com/",
+  twitter: "https://twitter.com/",
   twitter_user: "hugolassiege",
   stackoverflow: "#",
   youtube: "#",
   linkedin: "https://www.linkedin.com/in/hugolassiege/",
-  rss: "/feed/rss.xml",
+  rss: "/rss.xml",
 };
 
 export default siteMetaInfo;

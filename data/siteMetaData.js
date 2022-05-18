@@ -14,7 +14,7 @@ const siteMetadata = {
   image: "~/assets/author.png",
   github: "https://github.com/hlassiege",
   githubUser: "hlassiege",
-  twitter: "http://twitter.com/",
+  twitter: "https://twitter.com/",
   twitter_user: "hugolassiege",
   stackoverflow: "#",
   youtube: "#",
