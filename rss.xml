@@ -4,9 +4,16 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 18 May 2022 17:53:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 May 2022 06:50:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Malt engineering sous le capot avec Gridsome]]></title>
+            <link>https://eventuallycoding.com/2022/05/19/malt-engineering-under-the-hood-gridsome</link>
+            <guid>https://eventuallycoding.com/2022/05/19/malt-engineering-under-the-hood-gridsome</guid>
+            <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Je ne sais pas si vous avez suivi l'actualité mais le marché de la tech dévisse pas mal depuis le début d'année.]]></description>
+        </item>
         <item>
             <title><![CDATA[Impact de la crise tech sur les salaires]]></title>
             <link>https://eventuallycoding.com/2022/05/14/impact-de-la-crise-tech-sur-les-salaires</link>
