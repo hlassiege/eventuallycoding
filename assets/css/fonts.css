@@ -1,5 +1,10 @@
 
 @font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Proxima-Nova-Font.otf") format("opentype");
+}
+
+@font-face {
   font-family: 'Bruno Ace';
   src: url('assets/fonts/BrunoAce-Regular.woff') format("woff");
 }
@@ -8,3 +13,6 @@
   font-family: 'Bruno Ace', sans-serif;
 }
 
+.font-proxima {
+  font-family: 'Proxima Nova', sans-serif;
+}

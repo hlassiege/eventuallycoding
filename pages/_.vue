@@ -74,7 +74,7 @@
         </div>
 
         <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">
-          <nuxt-content id="nuxtContent" class="prose  min-w-full p-10 mx-auto" :document="article" />
+          <nuxt-content id="nuxtContent" class="prose font-proxima text-xl font-medium min-w-full p-10 mx-auto" :document="article" />
         </div>
       </div>
     </div>
