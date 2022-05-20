@@ -49,7 +49,7 @@
                 </thead>
 
                 <tbody class="divide-y divide-gray-100">
-                <tr v-for="event in events" :key="event" class="hover:bg-slate-300 transition-colors">
+                <tr v-for="event in events" :key="event.date + event.title" class="hover:bg-slate-300 transition-colors">
                   <td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap">{{ event.event }}</td>
                   <td class="px-4 py-2 text-gray-700 whitespace-nowrap">
                     <a :href="event.link" class="text-blue-500 hover:text-blue-700">{{ event.title }}</a>

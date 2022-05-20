@@ -109,6 +109,24 @@
       </div>
     </div>
 
+    <div class="pt-16" v-if="relatedArticles.length > 0">
+      <div class="text-xl font-semibold">Articles recommandés :</div>
+      <div class="pt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 text-center w-3/4 mx-auto">
+
+        <BlogCard v-for="article in relatedArticles"
+                  :key="article.id"
+                  :title="article.title"
+                  :img="'/covers/'+article.cover"
+                  :description="article.description"
+                  :date="article.date"
+                  :slug="article.slug"
+                  :tags="article.tags"
+                  :path="article.path"
+        />
+      </div>
+    </div>
+
+
     <div class="hidden" id="post">{{article.id}}</div>
     <div id="hyvor-talk-view"></div>
     <script type="text/javascript">
@@ -144,9 +162,51 @@ export default {
   },
   async asyncData({ $content, params}) {
     const article = await $content("articles", params.pathMatch, { deep: true }).fetch();
+    let allRelatedArticles = [];
+
+    if (article.tags) {
+      for (let i = 0; i < article.tags.length; i++) {
+        const tag = article.tags[i];
+
+        let looker = $content("articles", {deep: true}, params.slug)
+          .only([
+            "id",
+            "title",
+            "description",
+            "img",
+            "slug",
+            "tags",
+            "author",
+            "date",
+            "draft",
+            "path",
+            "cover"
+          ])
+          .sortBy("date", "desc")
+          .where( {tags: { $contains: tag }, title: { $ne: article.title } } )
+        const relatedArticles = await looker.fetch();
+
+        relatedArticles.forEach(article => {
+          var isAlreadyIn = allRelatedArticles.find(function(element) {
+            return element.id === article.id;
+          });
+          if (!isAlreadyIn) {
+            allRelatedArticles.push(article);
+          }
+        });
+
+      }
+    }
+
+    let shuffledRelatedArticles = allRelatedArticles
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
+      .slice(0, 3);
 
     return {
       article: article,
+      relatedArticles: shuffledRelatedArticles,
     };
   },
   methods: {
