@@ -119,12 +119,7 @@ export default {
         const search = req._parsedUrl.search;
         return base + (search != null ? search : '');
       }
-    },
-    {
-      from: '\/about',
-      to: (from, req) => { return '/' }
     }
-
   ],
   svg: {
     vueSvgLoader: {
