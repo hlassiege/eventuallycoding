@@ -118,8 +118,6 @@ export default {
         document.getElementById("header-menu").classList.remove(className);
       }
     };
-
-
   },
   methods: {
     goToSearchResult() {

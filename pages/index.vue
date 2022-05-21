@@ -4,7 +4,8 @@
     <HeroSection>
       <template v-slot:content>
         <div class="p-5 text-white rounded ">
-          <div class="text-7xl font-bruno ">Eventually Coding</div>
+          <div class="text-7xl font-bruno ">
+            <span class="dynamic-letters">Eventually Coding</span></div>
           <div class="text-center mt-3">A la fin de l'envoi, je code !</div>
 
         </div>
@@ -54,6 +55,7 @@ import siteMetaInfo from "@/data/sitemetainfo";
 import BlogCard from "@/components/BlogCard";
 import BlogCardHorizontal from "@/components/BlogCardHorizontal";
 import HeroSection from "@/pages/HeroSection";
+import dynamicLetters from "~/plugins/dynamic-letters";
 
 export default {
   components: {
@@ -65,6 +67,10 @@ export default {
     return {
       siteMetaInfo: siteMetaInfo,
     };
+  },
+
+  mounted() {
+    dynamicLetters();
   },
 
   async asyncData({ $content, params, route }) {
