@@ -1,7 +1,7 @@
 <template>
-  <div class="opacity-100 mt-16">
-    <div class="text-center mb-16 ">
-      <h2 class="text-2xl underline  decoration-red-400 decoration-4 underline-offset-8 ">Parcours</h2>
+  <div class="opacity-100 mt-20 w-3/4 mx-auto px-4">
+    <div class="mb-16 ">
+      <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Parcours</h2>
     </div>
 
 
