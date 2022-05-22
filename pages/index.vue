@@ -133,7 +133,7 @@
 import siteMetaInfo from "@/data/sitemetainfo";
 import BlogCard from "@/components/BlogCard";
 import BlogCardHorizontal from "@/components/BlogCardHorizontal";
-import HeroSection from "@/pages/HeroSection";
+import HeroSection from "@/components/HeroSection";
 import dynamicLetters from "~/plugins/dynamic-letters";
 import events from "@/data/events";
 

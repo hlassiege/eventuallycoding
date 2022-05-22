@@ -51,7 +51,7 @@
 <script>
 
 import siteMetaInfo from "@/data/sitemetainfo";
-import HeroSection from "@/pages/HeroSection";
+import HeroSection from "@/components/HeroSection";
 
 export default {
   components: {HeroSection},
