@@ -63,7 +63,7 @@ export default {
     };
   },
 
-  async asyncData({$content, params}) {
+  async asyncData({$content}) {
     const article = await $content("resources")
       .where({ title: 'Ressources' })
       .fetch();

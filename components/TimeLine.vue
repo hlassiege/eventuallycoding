@@ -1,143 +1,255 @@
 <template>
-  <div class="opacity-100 mt-20 w-3/4 mx-auto px-4">
-    <div class="mb-16 ">
+
+  <div class="mt-24">
+
+    <div class="mb-16 mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto px-4">
       <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Parcours</h2>
     </div>
 
 
-    <ol class="mt-20 relative border-l border-gray-200 dark:border-gray-700 space-y-24">
-      <li class="ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <img class="w-3 h-3 text-blue-600 dark:text-blue-400" src="~assets/icon/academy.svg" />
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          201(2|4)- En cours - Co-fondateur et CTO chez Malt
-          <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3" >En cours</span>
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Europe/Remote</span>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Malt c'est tout simplement LA place de marché pour les freelances qui cherchent à trouver des clients et se simplifier la vie.<br>
-          Au moment où j’écris ces lignes (édité en 2022), Malt c’est 500 personnes qui travaillent depuis Paris, Lyon, Munich, Madrid, Berlin, Bruxelles, Amsterdam et en remote, 800 000 inscrits, 300 000 freelances.<br>
-          Et tout ça, ça a commencé en 2012 avec 3 personnes ! <br>
-          Sur ce blog, vous retrouverez une bonne partie de ce que j'ai appris dans cette super aventure.
-        </p>
-        <div class="flex flex-col">
-          <img class="w-10 h-10 mx-3" src="/logos/malt.png" alt="Malt Logo"/>
-        </div>
-      </li>
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <img class="w-3 h-3 text-blue-600 dark:text-blue-400" src="~assets/icon/academy.svg"/>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          2010-201(4|6) - Freelance
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Paris-Lyon</span>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Enfin Free ! <br>
-          Ce sera mes premiers pas dans l'entreprenariat et me donnera l'occasion de créer 3 entreprises sur la période : Lateral-thoughts, Localizeyourapp et Malt.<br>
-          Cela constitue un autre gros thème de ce blog : l'entreprenariat, le freelancing et le développement web.
-        </p>
-        <div class="my-3 flex flex-wrap -m-1">
-          <img class="w-20 h-20 mx-5" src="/logos/lateral-thoughts.svg" alt="Logo Lateral-thoughts"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/malt.png" alt="Malt Logo"/>
-          <img class="w-15 h-20 mx-3" src="/logos/localizeyourapp.jpg" alt="Logo Localizeyourapp"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/enedis.jpg" alt="Logo Enedis"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/egencia.jpg" alt="Logo Egencia"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/seb.jpg" alt="Logo Seb"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/directassurance.jpg" alt="Logo Direct Assurance"/>
+    <section class="timeline w-5/6 md:w-full lg:w-3/4  mx-auto ">
+      <div class="">
+        <div class="timeline-item mb-20" v-for="(event, index) in timeline" :key="event.event" :data-animate="index % 2 === 0 ? 'animate-fade-in-left' : 'animate-fade-in-right'">
+          <div class="timeline-img"></div>
+          <div class="timeline-content w-5/12 ">
+            <div class="title flex-row flex ">
+              <div>
+                <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">
+                  {{ event.event }}
+                </h3>
+                <span class="block mb-2 text-sm font-normal leading-none text-gray-400 ">{{ event.location }} - {{ event.date }}</span>
+              </div>
+            </div>
+            <p class="mb-4 text-base font-normal text-gray-500 ">
+              <span v-html="event.description"></span>
+            </p>
+            <div class="flex flex-row flex-wrap">
+              <img class="mr-[8px]"  v-for="image in event.images" :key="image.src" :class="image.class" :src="image.src" :alt="image.alt"/>
+            </div>
+          </div>
         </div>
 
-      </li>
 
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <img
-            class="w-3 h-3 text-blue-600 dark:text-blue-400"
-            src="~assets/icon/academy.svg"
-          />
+
+      </div>
+    </section>
+
+    <div class="text-center mt-10 lg:block sm:hidden">
+      <a class="relative inline-block group focus:outline-none focus:ring" :href="siteMetaData.linkedin" target="_blank">
+        <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+        <span class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
+                    CV sérieux sur linkedin
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          2006-2010 - Edition de logiciel - Finance
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Paris</span>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          J'ai eu le nez creux en choisissant le domaine de la finance juste au moment de la crise des subprimes ! \o/
-          <br>
-          Mais c'est ici que je découvre que j'adore faire du produit et penser long terme. <br>
-          Et cela m'influencera sur tout le reste de mon parcours, par les personnes que je vais rencontrer, par les méthodes de travail, l'international,
-          un peu aussi malheureusement par ce que je ne souhaitais pas reproduire moi-même en terme de management.<br>
-          Cela correspond aux tout premiers billets de ce blog (une partie n'est plus en ligne) !
-        </p>
-        <div class="my-3 flex flex-wrap -m-1">
-          <img class="w-20 mx-5 my-auto" src="/logos/sungard-vector-logo.png" alt="Logo sungard"/>
-        </div>
-      </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <img
-            class="w-3 h-3 text-blue-600 dark:text-blue-400"
-            src="~assets/icon/academy.svg"
-          />
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          2002-2006 - Conseil et monde du service
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Paris</span>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Voici venu le temps des costumes, des clients corporate et du monde de la prestation, un univers à part entière.<br>
-          Ce sera cependant très formateur avec une grande diversité d'expériences et plein de belles premières rencontres et de supers apprentissages.<br>
-          Mais aussi une certitude, si je refaisais du service dans le futur, ce ne serait pas dans ces conditions (coucou le freelancing!).
-        </p>
-        <div class="my-3 flex flex-wrap -m-1">
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/sg.jpg" alt="Logo Société Générale"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/bouygyes.jpg" alt="Logo Bouygues Telecom"/>
-          <img class="w-10 h-10 mx-5 my-auto" src="/logos/orange.jpg" alt="Logo Orange"/>
-        </div>
-      </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <img
-            class="w-3 h-3 text-blue-600 dark:text-blue-400"
-            src="~assets/icon/academy.svg"
-          />
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          2001 - Premier job dans une startup
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500" >Paris</span>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Ici on peut constater l'instinct, juste avant l'explosion de la bulle internet.<br>
-          2001 pour l'anecdote c'est : l'explosion de la bulle internet, la fin du passage à l'Euro, le World Trade center... <br>
-          Le marché du travail était loin d'être rose après ça.
-        </p>
-      </li>
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <img
-            class="w-3 h-3 text-blue-600 dark:text-blue-400"
-            src="~assets/icon/home.svg"
-          />
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          20eme siècle, naissance
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500" >France, planète terre</span>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          J'ai plus la date exacte, c'est pas important ;)<br>
-          Et vous savez quoi, je suis toujours nostalgique des films des années 80/90.
-        </p>
-      </li>
-    </ol>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import timeline from "~/data/timeline";
+import siteMetaData from "~/data/siteMetaData";
+
+export default {
+  data() {
+    return {
+      siteMetaData : siteMetaData,
+      timeline : timeline
+    };
+  },
+
+  mounted() {
+    const targets = document.querySelectorAll(".timeline-item");
+
+    // Loop through each of the target
+    targets.forEach(function(target) {
+      // Hide the element
+      // target.classList.add("opacity-0");
+
+
+      // Callback for IntersectionObserver
+      const callback = function(entries) {
+        entries.forEach(entry => {
+
+          const animationType = entry.target.dataset.animate;
+
+          // Is the element in the viewport?
+          if (entry.isIntersecting) {
+            // Add the fadeIn class:
+            entry.target.classList.add(animationType);
+          } else {
+            // Otherwise remove the fadein class
+            entry.target.classList.remove(animationType);
+          }
+        });
+      };
+
+      // Set up a new observer
+      const observer = new IntersectionObserver(callback);
+
+      // Add the element to the watcher
+      observer.observe(target);
+
+
+    });
+
+  }
+
+};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+$primary: #3F51B5;
+$dark-primary: #303F9F;
+$light-primary: #C5CAE9;
+$text: #FFFFFF;
+$primary-text: #212121;
+$secondary-text: #757575;
+$accent: #FF4081;
+
+
+.timeline {
+  position: relative;
+
+  .timeline-item {
+    width: 100%;
+
+
+    .timeline-content {
+      position: relative;
+      //width: 45%;
+      padding: 10px 30px;
+      border-radius: 4px;
+      background: #fbfbfb;
+      box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
+
+      &::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        top: 30px;
+        right: -15px;
+        border-width: 10px 0 10px 15px;
+        border-color: transparent transparent transparent #f5f5f5;
+      }
+    }
+
+    &:nth-child(even) {
+
+      .timeline-content {
+        float: right;
+
+        &::after {
+          content: '';
+          position: absolute;
+          border-style: solid;
+          width: 0;
+          height: 0;
+          top: 30px;
+          left: -15px;
+          border-width: 10px 15px 10px 0;
+          border-color: transparent #f5f5f5 transparent transparent;
+        }
+      }
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  .timeline-img {
+    width: 30px;
+    height: 30px;
+    background: $primary;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
+  }
+
+
+  .timeline-card {
+    padding: 0!important;
+
+    p {
+      padding: 0 20px;
+    }
+
+    a {
+      margin-left: 20px;
+    }
+  }
+
+  // blue line between timeline items
+  &::before {
+    content: '';
+    background: $light-primary;
+    width: 5px;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .timeline {
+
+    &::before {
+      left: -25px;
+      transform: translateX(-70%);
+    }
+
+    .timeline-img {
+      left: -26px;
+    }
+
+    .timeline-content {
+      max-width: 100%;
+      width: 100%;
+      margin-left: 10px;
+    }
+
+    .timeline-item {
+
+      &:nth-child(even) {
+
+        .timeline-content {
+          float: none;
+
+        }
+      }
+
+      &:nth-child(odd) {
+
+        .timeline-content {
+
+          &::after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            top: 30px;
+            left: -15px;
+            border-width: 10px 15px 10px 0;
+            border-color: transparent #f5f5f5 transparent transparent;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+
+</style>
