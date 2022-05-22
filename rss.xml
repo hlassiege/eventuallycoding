@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 22 May 2022 06:38:32 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 May 2022 06:41:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -71,20 +71,20 @@ If you haven't read the first one, my goal is to make a mini series ret...]]></d
 Voici le second billet de cette...]]></description>
         </item>
         <item>
-            <title><![CDATA[This is the story of a side project]]></title>
-            <link>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</link>
-            <guid>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</guid>
-            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
-...]]></description>
-        </item>
-        <item>
             <title><![CDATA[C'est l'histoire d'un side project]]></title>
             <link>https://eventuallycoding.com/2022/04/04/cest-lhistoire-dun-side-project</link>
             <guid>https://eventuallycoding.com/2022/04/04/cest-lhistoire-dun-side-project</guid>
             <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[English version [here](https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project/)
 Très récemment, pris d’une envie de retour aux s...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[This is the story of a side project]]></title>
+            <link>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</link>
+            <guid>https://eventuallycoding.com/2022/04/04/this-is-the-story-of-a-side-project</guid>
+            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
+...]]></description>
         </item>
         <item>
             <title><![CDATA[Que fait un Engineering Manager ?]]></title>
