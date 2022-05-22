@@ -71,7 +71,8 @@ export default {
   sitemap: {
     hostname: 'https://eventuallycoding.com',
     gzip: true,
-    routes: createSitemapRoutes
+    routes: createSitemapRoutes,
+    exclude: ["/blog"]
   },
   feed: [
     // A default feed configuration object
