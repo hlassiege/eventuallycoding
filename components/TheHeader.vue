@@ -51,21 +51,7 @@
             </div>
           </div>
         </div>
-<!--        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">-->
 
-<!--          <form class="hidden mb-0 lg:flex" action="/blog" method="get" @submit.prevent="goToSearchResult">-->
-<!--            <div class="relative">-->
-<!--              <input name="search" v-model="search" class="focus:scale-x-110 transition-all h-10 pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg search " placeholder="Search..." type="text">-->
-
-<!--              <button class="absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg" type="submit">-->
-<!--                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">-->
-<!--                  <path clip-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill-rule="evenodd"></path>-->
-<!--                </svg>-->
-<!--              </button>-->
-<!--            </div>-->
-<!--          </form>-->
-
-<!--        </div>-->
       </div>
     </div>
 
@@ -73,24 +59,10 @@
     <div :class="mobileMenuOpen ? '' : 'hidden'" >
       <div class="px-2 pt-2 pb-3 space-y-1">
 
-<!--        <form action="/blog" method="get" class="mb-0 lg:flex" @submit.prevent="goToSearchResult">-->
-<!--          <div class="relative">-->
-<!--            <input v-model="search" class="h-10 w-full pl-3 pr-10 text-sm placeholder-gray-300 border-gray-200 rounded-lg focus:z-10" placeholder="Search..." type="text">-->
-
-<!--            <button class="absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg" type="submit">-->
-<!--              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">-->
-<!--                <path clip-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill-rule="evenodd"></path>-->
-<!--              </svg>-->
-<!--            </button>-->
-<!--          </div>-->
-<!--        </form>-->
-
-
-        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <NuxtLink
           v-for="item in navLinks" :key="item.path"
           :to="item.path"
-          class="text-slate-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          class="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium font-to-invert-to-black "
         >{{ item.name }}
         </NuxtLink>
       </div>
@@ -145,11 +117,12 @@ export default {
 
   .font-to-invert-to-black {
     @apply text-slate-700 transition-all;
+
+    &:hover {
+      @apply text-white;
+    }
   }
 
-  .search {
-    @apply placeholder-gray-500;
-  }
 }
 
 

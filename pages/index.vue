@@ -56,7 +56,7 @@
                         :path="article.path"
               />
 
-              <div class="text-center mt-16 lg:hidden sm:block">
+              <div class="text-center mt-16 lg:hidden block">
                 <nuxt-link class="relative inline-block group focus:outline-none focus:ring" to="/blog">
                   <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
@@ -67,7 +67,7 @@
               </div>
             </div>
 
-            <div class="text-center mt-10 lg:block sm:hidden">
+            <div class="text-center mt-10 lg:block hidden">
               <nuxt-link class="relative inline-block group focus:outline-none focus:ring" to="/blog">
                 <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
