@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-6 text-center w-3/4 mx-auto">
+  <div class="mb-6 text-center md:w-3/4 w-full mx-auto">
     <h2 class="mt-6 text-4xl text-gray-700 font-bold capitalize">
       Salut !
     </h2>

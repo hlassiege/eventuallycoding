@@ -7,7 +7,7 @@
           <div class="flex flex-col items-center justify-center">
 
             <div class="p-5 text-white rounded ">
-              <div class="lg:text-7xl md:text-5xl text-3xl font-bruno ">
+              <div class="lg:text-7xl md:text-5xl text-2xl font-bruno ">
                 <span class="dynamic-letters">Eventually Coding</span></div>
             </div>
 
@@ -37,7 +37,7 @@
 
           <hr class="mt-20">
 
-          <section class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto px-4">
+          <section class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto lg:px-4 px-0">
             <div class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">
               <h2>Derniers billets</h2>
             </div>
@@ -84,9 +84,9 @@
           <!--        <Expertise></Expertise>-->
           <TimeLine/>
 
-          <hr class="mt-20 w-3/4 mx-auto">
+          <hr class="mt-20 lg:w-3/4 w-full mx-auto">
 
-          <div class="mt-20 w-3/4 mx-auto px-4">
+          <div class="mt-20 lg:w-3/4 w-full mx-auto lg:px-4 px-0 mb-10">
             <div class="mb-16 ">
               <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Evènements passés</h2>
             </div>
