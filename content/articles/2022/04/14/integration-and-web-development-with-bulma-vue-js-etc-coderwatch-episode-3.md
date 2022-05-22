@@ -51,7 +51,7 @@ For the record, I follow [Benjamin Code's Youtube channel](https://www.youtube.
 
 You can find his full pitch here (sorry, it's in french): 
 
-https://www.youtube.com/embed/77hwpuVHGps?version=3&rel=1&showsearch=0&showinfo=1&iv\_load\_policy=1&fs=1&hl=fr-FR&autohide=2&wmode=transparent
+https://www.youtube.com/watch?v=77hwpuVHGps
 
 So I tried to apply his advice by using [tailwindCSS](https://tailwindcss.com/) first. It is a framework that stands out from the others because it only offers utility classes, no components. 
 
