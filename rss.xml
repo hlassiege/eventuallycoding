@@ -4,9 +4,16 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 22 May 2022 20:27:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 May 2022 09:39:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Github Copilot]]></title>
+            <link>https://eventuallycoding.com/2022/05/26/github-copilot</link>
+            <guid>https://eventuallycoding.com/2022/05/26/github-copilot</guid>
+            <pubDate>Thu, 26 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[En démarrant le side project Coderwatch j'ai pu installer et tester Github Copilot. Et après plusieurs semaines d'utilisation je comprends qu'on est très loin du simple gadget.]]></description>
+        </item>
         <item>
             <title><![CDATA[Malt engineering sous le capot avec Gridsome]]></title>
             <link>https://eventuallycoding.com/2022/05/19/malt-engineering-under-the-hood-gridsome</link>
