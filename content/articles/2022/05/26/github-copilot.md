@@ -1,6 +1,6 @@
 ---
 id: "2"
-title: "Github Copilot"
+title: "Github Copilot, réflexions après quelques semaines d'utilisation"
 description: "En démarrant le side project Coderwatch j'ai pu installer et tester Github Copilot. Et après plusieurs semaines d'utilisation je comprends qu'on est très loin du simple gadget."
 date: "2022-05-26"
 categories:
