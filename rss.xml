@@ -4,11 +4,11 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Thu, 26 May 2022 09:39:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 May 2022 09:45:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
-            <title><![CDATA[Github Copilot]]></title>
+            <title><![CDATA[Github Copilot, réflexions après quelques semaines d'utilisation]]></title>
             <link>https://eventuallycoding.com/2022/05/26/github-copilot</link>
             <guid>https://eventuallycoding.com/2022/05/26/github-copilot</guid>
             <pubDate>Thu, 26 May 2022 00:00:00 GMT</pubDate>
