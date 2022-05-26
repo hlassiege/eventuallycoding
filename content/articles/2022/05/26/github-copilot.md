@@ -8,6 +8,7 @@ categories:
 tags:
   - "ML"
   - "IA"
+  - "productivité"
 img: "GitHub-1.jpg"
 cover: "GitHub-1.jpg"
 ---
