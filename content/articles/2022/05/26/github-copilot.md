@@ -8,7 +8,7 @@ categories:
 tags:
   - "ML"
   - "IA"
-  - "productivité"
+  - "Dev Experience"
 img: "GitHub-1.jpg"
 cover: "GitHub-1.jpg"
 ---
