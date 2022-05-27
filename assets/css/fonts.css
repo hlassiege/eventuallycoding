@@ -2,11 +2,13 @@
 @font-face {
   font-family: "Proxima Nova";
   src: url("assets/fonts/Proxima-Nova-Font.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Bruno Ace';
   src: url('assets/fonts/BrunoAce-Regular.woff') format("woff");
+  font-display: swap;
 }
 
 .font-bruno {
