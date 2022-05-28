@@ -14,7 +14,7 @@
 
             <div class="p-3 text-white rounded ">
               <div class="md:block flex justify-center items-center">
-                <img
+                <nuxt-img
                   :src="siteMetaInfo.author_image"
                   loading="lazy"
                   alt="me"
