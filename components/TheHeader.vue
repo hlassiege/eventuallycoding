@@ -132,7 +132,7 @@ export default {
   text-decoration: none;
   @apply block  text-base font-medium px-3 ;
 
-  &.nuxt-link-exact-active {
+  &.NuxtLink-exact-active {
 
     &::after {
       left: 0;

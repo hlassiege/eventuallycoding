@@ -11,7 +11,7 @@
   </section>
 </template>
 <script>
-import heroThree from "@/plugins/hero-three";
+import heroThree from "@/sources/hero-three";
 
 export default {
   name: 'HeroSection',

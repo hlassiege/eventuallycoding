@@ -1,17 +1,17 @@
 <template>
   <div class="card-lateral mb-4 bg-white border border-gray-200 border-b-2 border-b-slate-400
   hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1 flex flex-row">
-    <nuxt-link class="w-1/4" :to="postLink">
+    <NuxtLink class="w-1/4" :to="postLink">
       <img class="object-cover w-56 h-56" :src="'/images/' + img" :alt="postTitle"/>
-    </nuxt-link>
+    </NuxtLink>
     <div class="p-3 w-3/4 my-auto">
       <div class="text-xs text-slate-400 left-2">
         {{ formatDate(postDate) }}
       </div>
       <h5 class="text-lg font-bold ">
-        <nuxt-link class="overflow-hidden " :to="postLink">
+        <NuxtLink class="overflow-hidden " :to="postLink">
           {{ postTitle }}
-        </nuxt-link>
+        </NuxtLink>
       </h5>
 
       <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1 ">

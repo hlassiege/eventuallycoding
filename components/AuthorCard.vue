@@ -1,7 +1,7 @@
 <template>
   <div class="md:fixed">
     <div class="md:block flex justify-center items-center">
-      <nuxt-img
+      <img
         :src="siteMetadata.author_image"
         loading="lazy"
         alt="me"
