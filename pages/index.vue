@@ -14,7 +14,7 @@
 
             <div class="p-3 text-white rounded ">
               <div class="md:block flex justify-center items-center">
-                <nuxt-img
+                <img
                   :src="siteMetaInfo.author_image"
                   loading="lazy"
                   alt="me"
@@ -44,44 +44,43 @@
 
             <div class="pt-4 grid lg:grid-cols-3 gap-x-8 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
 
-              <BlogCard
-                        v-for="article in articles"
-                        :key="article.title"
-                        :title="article.title"
-                        :img="'/covers/'+article.cover"
-                        :description="article.description"
-                        :date="article.date"
-                        :slug="article.slug"
-                        :tags="article.tags"
-                        :path="article.path"
-              />
+<!--              <BlogCard-->
+<!--                        v-for="article in articles"-->
+<!--                        :key="article.title"-->
+<!--                        :title="article.title"-->
+<!--                        :img="'/covers/'+article.cover"-->
+<!--                        :description="article.description"-->
+<!--                        :date="article.date"-->
+<!--                        :slug="article.slug"-->
+<!--                        :tags="article.tags"-->
+<!--                        :path="article.path"-->
+<!--              />-->
 
               <div class="text-center mt-16 lg:hidden block">
-                <nuxt-link class="relative inline-block group focus:outline-none focus:ring" to="/blog">
+                <NuxtLink class="relative inline-block group focus:outline-none focus:ring" to="/blog">
                   <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
                   <span class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
                     En lire plus
                   </span>
-                </nuxt-link>
+                </NuxtLink>
               </div>
             </div>
 
             <div class="text-center mt-10 lg:block hidden">
-              <nuxt-link class="relative inline-block group focus:outline-none focus:ring" to="/blog">
+              <NuxtLink class="relative inline-block group focus:outline-none focus:ring" to="/blog">
                 <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
                 <span class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
                     En lire plus
                 </span>
-              </nuxt-link>
+              </NuxtLink>
             </div>
 
 
           </section>
 
 
-          <!--        <Expertise></Expertise>-->
           <TimeLine/>
 
           <hr class="mt-20 lg:w-3/4 w-full mx-auto">
@@ -134,7 +133,7 @@ import siteMetaInfo from "@/data/sitemetainfo";
 import BlogCard from "@/components/BlogCard";
 import BlogCardHorizontal from "@/components/BlogCardHorizontal";
 import HeroSection from "@/components/HeroSection";
-import dynamicLetters from "~/plugins/dynamic-letters";
+import dynamicLetters from "~/sources/dynamic-letters";
 import events from "@/data/events";
 
 export default {
@@ -153,28 +152,28 @@ export default {
   mounted() {
     dynamicLetters();
   },
-
-  async asyncData({ $content, params, route }) {
-    const articles = await $content("articles", {deep: true}, params.slug)
-      .only([
-        "title",
-        "description",
-        "img",
-        "slug",
-        "tags",
-        "author",
-        "date",
-        "path",
-        "cover"
-      ])
-      .limit(3)
-      .sortBy("date", "desc")
-      .fetch();
-
-    return {
-      articles,
-    };
-  },
+  //
+  // async asyncData({ $content, params, route }) {
+  //   const articles = await $content("articles", {deep: true}, params.slug)
+  //     .only([
+  //       "title",
+  //       "description",
+  //       "img",
+  //       "slug",
+  //       "tags",
+  //       "author",
+  //       "date",
+  //       "path",
+  //       "cover"
+  //     ])
+  //     .limit(3)
+  //     .sortBy("date", "desc")
+  //     .fetch();
+  //
+  //   return {
+  //     articles,
+  //   };
+  // },
   head: {
     title: siteMetaInfo.title,
     meta: [

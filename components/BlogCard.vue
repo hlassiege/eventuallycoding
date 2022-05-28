@@ -1,7 +1,7 @@
 <template>
   <div v-if="isFiltered" class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
   hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1">
-    <nuxt-link class="overflow-hidden " :to="postLink">
+    <NuxtLink class="overflow-hidden " :to="postLink">
       <img
         v-if="img"
         class="object-cover w-full h-52"
@@ -14,15 +14,15 @@
         src="/images/post-anonymous.jpg"
         alt=""
       />
-    </nuxt-link>
+    </NuxtLink>
       <div class="p-3">
         <div class="text-xs text-slate-400 left-2">
           {{ formatDate(postDate)}}
         </div>
         <h5 class="text-lg font-bold ">
-          <nuxt-link class="overflow-hidden " :to="postLink">
+          <NuxtLink class="overflow-hidden " :to="postLink">
           {{ postTitle }}
-          </nuxt-link>
+          </NuxtLink>
         </h5>
 
         <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1 ">
