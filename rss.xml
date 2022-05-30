@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 27 May 2022 16:12:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 May 2022 11:04:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -716,8 +716,7 @@ Amusant, beaucoup affirment "travailler autrement". E...]]></description>
             <link>https://eventuallycoding.com/2012/10/08/pragmatic-programmer</link>
             <guid>https://eventuallycoding.com/2012/10/08/pragmatic-programmer</guid>
             <pubDate>Mon, 08 Oct 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[[![](/images/vera_c10.jpg "vera_c10")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)
-"[Et pendant ce temps à Véra Cruz](http://www...]]></description>
+            <description><![CDATA[Et si on parlait du développement pragmatique ? ]]></description>
         </item>
         <item>
             <title><![CDATA[Lateral-Thoughts s'installe à Lyon !]]></title>
