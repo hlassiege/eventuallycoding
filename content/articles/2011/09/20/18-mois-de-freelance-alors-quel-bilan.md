@@ -5,6 +5,8 @@ description: "Eh oui, ça fait environ 18 mois que Hakatech a vu le jour. J'en p
 date: "2011-09-20"
 categories: 
   - "waza"
+tags:
+  - "freelance"
 img: ""
 cover: "cover8.jpg"
 ---

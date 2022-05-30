@@ -7,6 +7,10 @@ Ce billet fait partie d’une série dont vous pourrez lire [l’introduction ic
 date: "2020-08-11"
 categories: 
   - "waza"
+tags:
+  - "startup"
+  - "tech"
+  - "ecosysteme"
 img: "Startup_nation-1024x1024.jpg"
 cover: "cover2.jpg"
 ---

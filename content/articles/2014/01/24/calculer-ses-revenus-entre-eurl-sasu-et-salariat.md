@@ -9,6 +9,7 @@ categories:
   - "waza"
 tags: 
   - "freelance"
+  - "salaires"
 img: "cc020-freelancers.jpg"
 cover: "cover8.jpg"
 ---

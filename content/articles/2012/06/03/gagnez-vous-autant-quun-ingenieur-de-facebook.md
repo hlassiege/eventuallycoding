@@ -6,7 +6,7 @@ date: "2012-06-03"
 categories: 
   - "waza"
 tags: 
-  - "salaire"
+  - "salaires"
 img: "Casino1-150x150.jpg"
 cover: "cover3.jpg"
 ---

@@ -6,11 +6,9 @@ date: "2011-10-04"
 categories: 
   - "waza"
 tags: 
-  - "bitbucket"
   - "localizeyourapps"
   - "nemrod"
   - "ovh"
-  - "playapps"
   - "wordpress"
 img: "logo-web.png"
 cover: "cover3.jpg"

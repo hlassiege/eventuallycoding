@@ -7,6 +7,11 @@ Ce billet fait partie d’une série dont vous pourrez lire [l’introduction ic
 date: "2020-08-07"
 categories: 
   - "waza"
+tags:
+  - "startup"
+  - "tech"
+  - "ecosysteme"
+  - "RGPD"
 img: "Ligne_maginot-1024x838.jpg"
 cover: "cover2.jpg"
 ---

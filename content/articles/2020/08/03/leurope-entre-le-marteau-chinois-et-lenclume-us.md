@@ -9,6 +9,10 @@ En démarrant ce billet, enfin ces billets, je savais à l'avance que l'écritur
 date: "2020-08-03"
 categories: 
   - "waza"
+tags:
+  - "startup"
+  - "tech"
+  - "ecosysteme"
 img: "marteau-enclume-1024x850.jpg"
 cover: "cover1.jpg"
 ---

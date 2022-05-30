@@ -5,6 +5,8 @@ description: "Très très prochainement va avoir lieu [BlendWebMix 2018](https:/
 date: "2018-10-10"
 categories: 
   - "waza"
+tags:
+  - "conferences"
 img: ""
 cover: "cover3.jpg"
 ---

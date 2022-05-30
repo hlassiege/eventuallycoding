@@ -1,9 +1,7 @@
 ---
 id: "602"
 title: "Pragmatic programmer"
-description: "[![](/images/vera_c10.jpg \"vera_c10\")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)
-
-\"[Et pendant ce temps à Véra Cruz](http://www..."
+description: "Et si on parlait du développement pragmatique ? "
 date: "2012-10-08"
 categories: 
   - "waza"
@@ -11,40 +9,41 @@ img: "vera_c10.jpg"
 cover: "cover4.jpg"
 ---
 
-[![](/images/vera_c10.jpg "vera_c10")](http://hakanai.free.fr/index.php/pragmatic-programmer/vera_c10/)
+![](/images/vera_c10.jpg "vera_c10")
 
 "[Et pendant ce temps à Véra Cruz](http://www.youtube.com/watch?v=27tbHlDKiko)" vous vous rappelez de cette scène dans la cité de la peur ?
 
-C'est un peu ce que m'inspire les trolls en général du genre la mienne est plus grande que la tienne : il y a toujours un endroit paisible ailleurs où la vie suit son petit bonhomme de chemin.
+C'est un peu l'état d'esprit dans lequel je me trouve face aux débats stériles sur internet : il y a toujours un endroit paisible ailleurs où la vie suit son petit bonhomme de chemin.
 
- 
+Tiens prenons un exemple, récemment je voyais des tweets sur Java Vs Scala, voire même sur OOP Vs FP. J'y ai vu passer de belles absurdités, que je mets sur le compte de la taille max d'un tweet qui ne peut refléter la pensée complète de l'auteur, enfin j'espère... Et pendant ce temps là, je me mets tranquillement à Python et je découvre un petit langage bien sympathique où les lambda expressions, le multi catch, le try with ressource, les varargs, les paramètres nommés  existent depuis belle lurette. Je découvre aussi que l'écosystème est mature (Gunicorn, Celery) et que faire du Web avec Django c'est aussi plaisant qu'avec Play Framework sauf qu'il existe 1400 modules, largement plus que les plugins Play et Grails réunis.
 
-Tiens prenons un exemple, récemment je voyais des tweets plutôt stériles sur Java Vs Scala, voire même sur OOP Vs FP. J'y ai vu passer de belles absurdités, que je mets sur le compte de la taille max d'un tweet qui ne peut refléter la pensée complète de l'auteur, enfin j'espère... Et pendant ce temps là, je me mets tranquillement à Python et je découvre un petit langage bien sympathique où les lambda expressions, le multi catch, le try with ressource, les varargs, les paramètres nommés  existent depuis belle lurette. Je découvre aussi que l'écosystème est mature (Gunicorn, Celery) et que faire du Web avec Django c'est aussi plaisant qu'avec Play Framework sauf qu'il existe 1400 modules, largement plus que les plugins Play et Grails réunis.
+![](/images/iPOS6.gif "ah oui quand même !")
 
-\[caption id="" align="aligncenter" width="300" caption="Ah oui quand même"\]![](/images/iPOS6.gif)\[/caption\]
+Mais revenons aux trolls, en 98 lorsque je faisais du Java à l'école j'ai moi-même participé à des débats de trolls C++ et Java. 
+Plus tard vers 2003 j'ai encore trollé cette fois lorsque je faisais du PHP. Et PHP à l'époque pour faire du Web c'était vraiment bien.
 
-Mais revenons aux trolls, en 98 lorsque je faisais du Java à l'école j'ai moi-même participé aux trolls C++ et Java. Plus tard vers 2003 j'ai encore trollé cette fois lorsque je faisais du PHP. Déconnez pas, PHP à l'époque pour faire du Web c'était vraiment bien.
+Petite parenthèse, un troll quand il s'agit de second degré c'est parfait, tout comme en sport "chambrer" fait partie du jeu, par exemple, 
+c'est un peu comme si je disais que la lisibilité du [Malbolge](http://fr.wikipedia.org/wiki/Liste_de_programme_Hello_world#Malbolge) était comparable à celle de Scala
 
-Petite parenthèse, un troll quand il s'agit de second degré c'est parfait, tout comme en sport "chambrer" fait partie du jeu, par exemple c'est un peu comme si je disais que la lisibilité du [Malbolge](http://fr.wikipedia.org/wiki/Liste_de_programme_Hello_world#Malbolge) était comparable à celle de Scala
+```Scala
+  trait GenericFunctor[->>[_, _], ->>>[_, _], F[_]] {
+    def fmap[A, B](f: A ->> B): F[A] ->>> F[B]
+  }
+  (1.right[String] &lt;**&gt; 2.right[String]) { _ + _ + 10 }
+```
 
-<table><tbody><tr><td style="width:50%;"><pre><code>
-trait GenericFunctor[-&gt;&gt;[_, _], -&gt;&gt;&gt;[_, _], F[_]] {
-  def fmap[A, B](f: A -&gt;&gt; B): F[A] -&gt;&gt;&gt; F[B]
-}
-(1.right[String] &lt;**&gt; 2.right[String]) { _ + _ + 10 }
-</code></pre></td><td><pre><code>
-(=&lt;`:9876Z4321UT.-Q+*)M'&amp;%$H"!~}|Bzy?=|{z]KwZY44Eq0/{mlk**&nbsp;hKs_dG5[m_BA{?-Y;;Vb'rR5431M}/.zHGwEDCBA@986543W10/.R,+O&lt;
-</code></pre></td></tr></tbody></table>
+```
+(=<`:9876Z4321UT.-Q+*)M'&amp;%$H"!~}|Bzy?=|{z]KwZY44Eq0/{mlk**&nbsp;hKs_dG5[m_BA{?-Y;;Vb'rR5431M}/.zHGwEDCBA@986543W10/.R,+O&lt;
+```
 
 Sans rancune les Scalaistes, c'était pour la démo ;)
 
-Commençons la minute psychanalyse, pourquoi troller ? Apprendre un langage/framework/techno c'est beaucoup d'énergie. Vous avez peut être passé vos études dessus, une certification, vous avez écrit des articles. Qu'un empaffé vienne vous dire que votre langage est pourri, conçus par des idiots et mal utilisé, forcément ça peut provoquer quelques aigreurs d'estomac.
+Commençons la minute psychanalyse, pourquoi troller ?  
+Apprendre un langage/framework/techno c'est beaucoup d'énergie. Vous avez peut être passé vos études dessus, une certification, vous avez écrit des articles. Qu'un empaffé vienne vous dire que votre langage est pourri, conçus par des idiots et mal utilisé, forcément ça peut provoquer quelques aigreurs d'estomac.
 
-En fait maîtriser un langage, et encore plus un paradigme de programmation c'est long et on ne devient très productif qu'après un certain temps, après avoir eu un certain déclic. Alors qu'est-ce qu'ils viennent vous chercher ces petits newbies qu'ont juste lu un tutorial en ligne !
+En fait maîtriser un langage, et encore plus un paradigme de programmation c'est long et on ne devient très productif qu'après un certain temps, après avoir eu un certain déclic. Alors qu'est-ce qu'ils viennent vous chercher ces petits newbies qu'ont juste lu un tutorial en ligne !
 
-<table><tbody><tr><td style="width:50%;"><div></div>[caption id="" align="aligncenter" width="272" caption="Quand j'entends mon collègue dire que les programmeurs Java savent pas programmer parce qu'ils comprennent rien à la gestion de la mémoire"]<img src="/images/UyxD0.gif" alt="" width="272" height="152">[/caption]</td><td></td><td><div></div>[caption id="" align="aligncenter" width="256" caption="Exemple du newbie qui ne&nbsp;maîtrise&nbsp;pas encore mon outil de travail mais va se permettre de le critiquer"]<img src="/images/tFHighsLRUSq5Kfg8WH5IQ2.gif" alt="" width="256" height="192">[/caption]</td></tr></tbody></table>
-
- 
+![](/images/UyxD0.gif "Quand j'entends mon collègue dire que les programmeurs Java savent pas programmer parce qu'ils comprennent rien à la gestion de la mémoire")
 
 Aujourd'hui après plus de 10 ans de dev, j'ai fait (liste non exhaustive) du C, C++, Visual Basic (argh), Java, C#, Python, PHP et actuellement je m'amuse à passer les cours en ligne Scala sur le site de [Coursera](https://www.coursera.org/). Suis-je devenu plus modéré ?
 
@@ -72,7 +71,7 @@ Au regard de ces éléments, le choix était mauvais. Belle illustration de l'ar
 
 ## Pragmatique ne veut pas dire consensuel
 
-Le type ultra consensuel, vous le connaissez ? C'est celui qui accepte tous les compromis pour obtenir un consensus bancal avec tout le monde. Il y a un monde entre "composer avec son contexte" et "se plier à son contexte". S'il est vrai que le contexte doit être pris en compte, il faut aussi avoir une vision long terme qui a pour objectif de maintenir la dette technique globale à un niveau acceptable. Etre pragmatique ne veut pas dire accepter tous les compromis.
+Le type ultra consensuel, vous le connaissez ? C'est celui qui accepte tous les compromis pour obtenir un consensus bancal avec tout le monde. Il y a un monde entre "composer avec son contexte" et "se plier à son contexte". S'il est vrai que le contexte doit être pris en compte, il faut aussi avoir une vision long terme qui a pour objectif de maintenir la dette technique globale à un niveau acceptable. Etre pragmatique ne veut pas dire accepter tous les compromis.
 
 Revenons en 2006, la célèbre année du coup de boule. Neal Ford insistait alors sur le [polyglot programming](http://memeagora.blogspot.fr/2006/12/polyglot-programming.html). L'idée principale tient en une ligne :
 
