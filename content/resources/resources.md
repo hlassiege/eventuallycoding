@@ -50,9 +50,20 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 
 | Titre                                                                                             | Thème(s)                                      |
 |---------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)  | Product                                       |
 | [Aphyr/jepsen](https://aphyr.com/)                                                                | Connu pour ces benchmarks de bases de données |
 | [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10) | Engineering manager                           |
 | [Engineering Ladders](http://www.engineeringladders.com/)                                         | Tech leaders & Career Path                    |
 | [Martin Fowler.com](https://martinfowler.com/)                                                    | Architecture                                  |
 | [Staff Eng](https://staffeng.com/)                                                                | Tech leaders                                  |
 | [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)    | Osciller entre management et tech             |
+
+
+## Extensions navigateurs favorites
+
+| Nom                                                                                                                  | Description                                                                  |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg)   | Trouver la stack technique d'un site visité                                  |
+| [Elasticvue](https://chrome.google.com/webstore/detail/elasticvue/hkedbapjpblbodpgbajblpnlpenaebaa)                  | Interface pour Elasticsearch                                                 |
+| [JSonvue](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc)                        | Json prettify                                                                |
+| [Tab Grp ext](https://chrome.google.com/webstore/detail/tab-groups-extension/nplimhmoanghlebhdiboeellhgmgommi) | Permet de grouper les onglets, les sauvegarder et garder un navigateur léger |
