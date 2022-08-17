@@ -50,7 +50,7 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 
 | Titre                                                                                             | Thème(s)                                      |
 |---------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)  | Product                                       |
+| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)              | Product                                       |
 | [Aphyr/jepsen](https://aphyr.com/)                                                                | Connu pour ces benchmarks de bases de données |
 | [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10) | Engineering manager                           |
 | [Engineering Ladders](http://www.engineeringladders.com/)                                         | Tech leaders & Career Path                    |

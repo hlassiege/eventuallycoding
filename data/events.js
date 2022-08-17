@@ -1,5 +1,26 @@
 const events = [
     {
+      event: "Podcast - If this then dev",
+      title: "Progression de carrière",
+      location: "Online",
+      date: "17/08/2022",
+      link: "https://ifttd.io/progression-de-carriere/",
+    },
+    {
+      event: "JUG Lyon",
+      title: "Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?",
+      location: "Lyon",
+      date: "28/06/2022",
+      link: "https://www.youtube.com/watch?v=7WIvR77TG4g",
+    },
+    {
+      event: "We are Developers",
+      title: "Senior after 6 years, what's next?",
+      location: "Berlin",
+      date: "14/06/2022",
+      link: "https://www.wearedevelopers.com/world-congress/speakers",
+    },
+    {
       event: "Devoxx France",
       title: "Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?",
       location: "Paris",
