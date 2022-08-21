@@ -16,7 +16,7 @@ cover: "cover6.jpg"
 
 Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.
 
-Le sujet est passionnant car le marché a énormément changé en une dizaine d'années. 
+Le sujet est passionnant car le marché a énormément changé en une dizaine d'années.
 
 S’il pouvait exister une sorte de plafond de verre autour de 50/55k il y a encore 10 ans, désormais on voit des salaires au-dessus des 100k en France.
 
@@ -26,7 +26,7 @@ Je vous propose donc de faire le tour de la question. On va aussi pouvoir discut
 
 Vous trouverez plus bas un fichier excel avec quelques informations utiles sur les salaires par type d’entreprises.
 
-[![](/images/Money-1024x791.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/07/Money.jpg)
+![](/images/Money-1024x791.jpg)
 
 ## Rien n’a changé
 

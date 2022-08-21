@@ -46,7 +46,7 @@ Pour ma part je vais m’arrêter là sur la partie économie, je vous invite à
 
 Vers une récession et un Krach Boursier ?
 
-https://www.youtube.com/watch?v=873i\_0OJMh0
+https://www.youtube.com/watch?v=873i_0OJMh0
 
 Vidéo très intéressante qui anticipait une **rotation sectorielle** (la première depuis 15 ans ?) il y a un an :
 
