@@ -100,6 +100,10 @@ Cela mène souvent à des situations aberrantes. Entre les projets abandonnés c
 
 Et quand je parle de situations contre productives : par le passé, en tant que contributeur individuel, j’ai eu le choix de poursuivre sur un projet (relativement petit et qui s’avérait moins utile que prévu) pour avoir ma prime au détriment du collectif ou de l’abandonner pour me concentrer sur des sujets plus pertinents mais au détriment de ma prime.
 
+Bref, **on créé une opposition entre (très) court terme et long terme**. 
+
+(Vous n'avez jamais vu cette situation où après discussion on estime que tel projet est en fin de compte problématique pour l'entreprise mais quelques personnes dont le variable en dépend continuent à le défendre ?)
+
 Second cas de figure, ceux qui essaient de s’appuyer sur des métriques quantitatives non reliées à des projets en particulier.
 
 Eh oui, quoi de plus naturel que de chercher des outils de mesure individuels.
