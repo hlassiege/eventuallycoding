@@ -15,7 +15,7 @@
         <!-- Responsive Sidebar -->
         <div v-if="toc.length > 0" class="text-right mb-12">
             <FilterDropdown v-if="toc.length > 0">
-                <template v-slot:title>On this site</template>
+                <template v-slot:title>On this page</template>
                 <template v-slot:options>
                     <ul class="p-4">
                         <li v-for="subtitle in toc" :key="subtitle.text" class="py-1" :class="{ 'ml-4': subtitle.depth == 3 }">
