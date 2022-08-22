@@ -4,9 +4,16 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 17 Aug 2022 08:32:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Aug 2022 07:40:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Le variable sur les métiers tech, bonne ou mauvaise idée ?]]></title>
+            <link>https://eventuallycoding.com/2022/08/variable-salaries</link>
+            <guid>https://eventuallycoding.com/2022/08/variable-salaries</guid>
+            <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si on profitait de cet été pour parler du salaire variable pour les métiers tech ?]]></description>
+        </item>
         <item>
             <title><![CDATA[Github Copilot, réflexions après quelques semaines d'utilisation]]></title>
             <link>https://eventuallycoding.com/2022/05/26/github-copilot</link>
