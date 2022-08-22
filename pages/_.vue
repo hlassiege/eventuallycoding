@@ -57,7 +57,7 @@
       </div>
 
     </div>
-    <div class="w-1/2 mx-auto">
+    <div class=" sm:w-full md:w-1/2 mx-auto">
       <p class="mt-2 text-xs my-3 flex flex-wrap -m-1 justify-center">
         <a v-for="tag in article.tags" :key="tag" :href="'/blog?tag='+tag"
            class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium">#{{
