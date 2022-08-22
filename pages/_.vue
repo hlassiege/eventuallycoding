@@ -18,7 +18,7 @@
       {{ article.title }}
     </h1>
 
-    <div class="grid grid-cols-3 text-center w-1/2 mx-auto">
+    <div class="grid grid-cols-3 text-center sm:w-full md:w-1/2 mx-auto">
       <div>
         <p class="text-center font-bold my-5 text-slate-400 text-xs">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -74,7 +74,7 @@
         </div>
 
         <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">
-          <nuxt-content id="nuxtContent" class="prose font-proxima text-xl font-medium min-w-full p-10 mx-auto" :document="article" />
+          <nuxt-content id="nuxtContent" class="prose font-proxima text-sm md:text-xl font-medium min-w-full md:p-10 mx-auto" :document="article" />
         </div>
       </div>
     </div>
