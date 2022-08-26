@@ -56,7 +56,10 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 | [Engineering Ladders](http://www.engineeringladders.com/)                                         | Tech leaders & Career Path                    |
 | [Martin Fowler.com](https://martinfowler.com/)                                                    | Architecture                                  |
 | [Staff Eng](https://staffeng.com/)                                                                | Tech leaders                                  |
+| [System Design](https://www.karanpratapsingh.com/courses/system-design)                           | System design                                 |
 | [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)    | Osciller entre management et tech             |
+| [Webhooks.fyi](https://webhooks.fyi/)                                                             | Doc de standardisation des webhooks           |
+
 
 
 ## Extensions navigateurs favorites
