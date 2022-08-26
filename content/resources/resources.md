@@ -39,10 +39,11 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 
 | Titre                                                                            | Thème(s)                 |
 |----------------------------------------------------------------------------------|--------------------------|
-| [Tech Rocks](https://www.tech.rocks/)                                            | Tech leaders             |
+| [French Produit](https://www.frenchproduit.com/)                        | Product (FR)             |
+| [Lyon Tech Hub](https://www.lyontechhub.org/#!/a-propos)                         | Communautés Tech de Lyon |
+| [Mind The product](https://www.mindtheproduct.com/)                              | Product  (US)            |
 | [Rands Leadership](https://randsinrepose.com/welcome-to-rands-leadership-slack/) | Tech leaders             |
-| [Mind The product](https://www.mindtheproduct.com/)                              | Product                  |
-| [Lyon Tech Hub](https://www.lyontechhub.org/#!/a-propos)                                   | Communautés Tech de Lyon |
+| [Tech Rocks](https://www.tech.rocks/)                                            | Tech leaders             |
 
 
 ## Articles, blogs & Vidéos 
