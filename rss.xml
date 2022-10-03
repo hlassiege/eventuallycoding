@@ -4,13 +4,13 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Mon, 03 Oct 2022 11:43:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Oct 2022 11:49:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
             <title><![CDATA[Travailler avec des contraintes]]></title>
-            <link>https://eventuallycoding.com/2022/09/work-with-constraints</link>
-            <guid>https://eventuallycoding.com/2022/09/work-with-constraints</guid>
+            <link>https://eventuallycoding.com/2022/09/travailler-avec-contraintes</link>
+            <guid>https://eventuallycoding.com/2022/09/travailler-avec-contraintes</guid>
             <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Pour ce billet, j'ai envie d'aborder une leçon, parmi beaucoup d'autres, que j'ai tiré de LT lorsque j'y étais : l'importance des contraintes]]></description>
         </item>
