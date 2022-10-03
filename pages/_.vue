@@ -272,7 +272,7 @@ export default {
   },
   computed : {
     postLink() {
-      return this.siteMetadata.siteUrl  + this.article.path.replace('/articles', '');
+      return this.siteMetadata.siteUrl  + this.article.path.replace('/articles/', '');
     },
 
   },
