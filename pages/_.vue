@@ -236,7 +236,7 @@ export default {
             block.appendChild(container);
           });
         }
-        const isTweet = block.textContent.match(/^https:\/\/twitter\.com\/[0-9a-zA-Z]*\/status\/([0-9a-zA-Z]*)$/);
+        const isTweet = block.textContent.match(/^https:\/\/twitter\.com\/[0-9a-zA-Z_]*\/status\/([0-9a-zA-Z]*)$/);
         if (isTweet) {
           isTweet.forEach((match) => {
             const tweetId = match;

@@ -79,9 +79,9 @@ Ces fonds ont toujours du capital à placer mais elles vont le concentrer dans l
 
 Quand je parle de bons fondamentaux économiques, il est vrai que le marché, surtout l’année dernière a eu tendance à surestimer des croissances et à survaloriser certaines sociétés.
 
-Un investisseur parie sur le potentiel de croissance d’une entreprise et parfois il y a une part de “foi” puisqu’on peut parier sur une bascule du nombre de users vers un modèle payant, une monétisation d’un service pas encore développé etc… 
+Un investisseur parie sur le potentiel de croissance d’une entreprise et parfois il y a une part de “foi” puisqu’on peut parier sur une bascule du nombre de users vers un modèle payant, une monétisation d’un service pas encore développé etc…
 
-Désormais il va falloir être plus solide sur ces chiffres pour aller chercher de l’investissement. 
+Désormais il va falloir être plus solide sur ces chiffres pour aller chercher de l’investissement.
 
 (Et c’est pas plus mal si vous voulez mon avis)
 
