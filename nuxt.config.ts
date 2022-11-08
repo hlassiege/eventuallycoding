@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt/config'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -15,21 +15,9 @@ export default defineNuxtConfig({
   },
 
   css: ["@/assets/css/main.css", "@/assets/scss/main.scss"],
-
-  modules: ['@nuxt/content'],
-
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   content: {
     // https://content.nuxtjs.org/api/configuration
-  },
+  }
 
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
 })

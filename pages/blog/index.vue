@@ -76,76 +76,64 @@
                     :date="article.date"
                     :slug="article.slug"
                     :tags="article.tags"
-                    :path="article.path"
+                    :path="article._path"
           />
         </div>
       </div>
     </div>
   </div>
 </template>
+<script setup lang="ts">
+import HeroSection from "../../components/HeroSection";
+import siteMetaInfo from "../../data/sitemetainfo";
+const route = useRoute();
+const currentTag = ref<string>(route.query.tag || '');
 
-<script>
-import siteMetaInfo from "@/data/sitemetainfo";
-import HeroSection from "@/components/HeroSection";
+const tags = await queryContent('articles')
+    .only(["tags"])
+    .find()
 
-export default {
-  components: {HeroSection},
-  data() {
-    return {
-      currentTag: this.$route.query.tag || '',
+let allTags: string[] = [];
+tags.forEach(tag => {
+if ("tags" in tag) {
+  tag.tags.forEach(tag => {
+    if (!allTags.includes(tag)) {
+      allTags.push(tag);
     }
-  },
-  async asyncData({$content, params, route}) {
-    const tags = await $content("articles", {deep: true}, params.slug)
-      .only([
-        "tags",
-      ])
-      .fetch();
-    let allTags = [];
-    tags.forEach(tag => {
-      if ("tags" in tag) {
-        tag.tags.forEach(tag => {
-          if (!allTags.includes(tag)) {
-            allTags.push(tag);
-          }
-        });
-      }
-    });
-    allTags.sort()
+  });
+}
+});
+allTags.sort()
 
-    let looker = $content("articles", {deep: true}, params.slug)
-      .only([
-        "title",
-        "description",
-        "img",
-        "slug",
-        "tags",
-        "author",
-        "date",
-        "draft",
-        "path",
-        "cover"
-      ])
-      .sortBy("date", "desc");
+const articles = await queryContent("articles")
+    .only([
+      "title",
+      "description",
+      "img",
+      "slug",
+      "tags",
+      "author",
+      "date",
+      "draft",
+      "_path",
+      "cover"
+    ])
+    .sort({"date" : -1})
+    .find();
 
-    const articles = await looker.fetch();
-
-    return {
-      articles, allTags
-    };
-  },
-  head: {
-    title: siteMetaInfo.title,
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: siteMetaInfo.description,
-      },
-      {name: "robots", content: "noindex"},
-    ],
-  },
-};
+useHead(
+    {
+      title: siteMetaInfo.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: siteMetaInfo.description,
+        },
+        {name: "robots", content: "noindex"},
+      ],
+    }
+)
 </script>
 
 <style lang="scss" scoped>

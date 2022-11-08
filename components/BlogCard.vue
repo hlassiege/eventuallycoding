@@ -34,32 +34,58 @@
 
   </div>
 </template>
-<script>
-export default {
-  name: 'BlogCard',
-  props: ["title", "description", "date", "slug", "path", "img", "tags", "currentTag"],
-  emits: ['changeCurrentTag'],
-  data() {
-    return {
-      postTitle: this.title,
-      postDescription: this.description,
-      postSlug: this.slug,
-      postDate: this.date,
-      postLink: this.path.replace("articles/", ""),
-    };
-  },
-  computed: {
-    isFiltered() {
-      return !this.currentTag || (this.tags && this.tags.includes(this.currentTag));
+<script setup lang="ts">
+const props = defineProps({
+    title: {
+        type: String,
+        required: true,
     },
-  },
-  methods: {
-    formatDate(date) {
-      return new Date(date).toLocaleDateString("fr", {
+    description: {
+        type: String,
+        required: true,
+    },
+    date: {
+        type: String,
+        required: false,
+    },
+    slug: {
+        type: String,
+        required: true,
+    },
+    path: {
+        type: String,
+        required: true,
+    },
+    img: {
+        type: String,
+        required: false,
+    },
+    tags: {
+        type: Array,
+        required: false,
+    },
+    currentTag: {
+        type: String,
+        required: false,
+    },
+    });
+
+const emit = defineEmits(['changeCurrentTag']);
+
+function formatDate(date) {
+    return new Date(date).toLocaleDateString("fr", {
         weekday: 'short', year: 'numeric', month: 'short',
         day: 'numeric'
-      });
-    },
-  },
+    })
 }
+
+const isFiltered = computed(() => {
+    return !props.currentTag.value || (props.tags && props.tags.includes(props.currentTag));
+});
+
+const postTitle = ref(props.title);
+const postDate = ref(props.date);
+const postLink = ref(props.path.replace("articles/", ""));
+
 </script>
+

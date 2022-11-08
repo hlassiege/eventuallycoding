@@ -48,77 +48,47 @@
     </div>
 </template>
 
-<script setup>
-// Available in content :
-//{
-//    "title": "Resources",
-//    "_path": "/resources",
-//    "children": [
-//    {
-//        "title": "Ressources",
-//        "_path": "/resources/resources"
-//    }
-//]
-//}
+<script setup lang="ts">
+import HeroSection from "../components/HeroSection";
+import siteMetaInfo from "../data/sitemetainfo";
 
-const { article } = await useAsyncData('Resources', () => queryContent('resources')
-    // .where({ title: 'Ressources' })
-    .findOne());
+const { data: article } = await useAsyncData('resources', () => queryContent('resources').where({title: 'Ressources'}).findOne())
+const siteMetadata = ref<string>(siteMetaInfo);
 
-console.log(article);
-</script>
+useHead({
+    title: "Ressources | " + siteMetadata.value.title,
+    meta: [
+        {
+            hid: "description",
+            name: "description",
+            content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé.",
+        },
+        {
+            hid: "og:description",
+            name: "og:description",
+            content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé."
+        },
+        {hid: "og:type", name: "og:type", content: "article"},
+        {hid: "og:title", name: "og:title", content: article.title},
+        {hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/resources"},
+        {
+            hid: "og:image",
+            name: "og:image",
+            content: 'https://eventuallycoding.com' + '/images/covers/' + article.cover
+        },
+        {name: "og:image:alt", content: article.title},
+        {name: "twitter:text:title", content: article.title},
+        {
+            name: "twitter:image",
+            content: 'https://eventuallycoding.com' + '/images/covers/' + article.cover
+        },
+        {name: "twitter:card", content: 'summary'},
 
-<script>
-
-import siteMetaInfo from "@/data/sitemetainfo";
-import HeroSection from "@/components/HeroSection";
-
-export default {
-    components: {HeroSection},
-    data() {
-        return {
-            siteMetaInfo: siteMetaInfo,
-            siteMetadata: siteMetaInfo,
-        };
-    },
-
-    // head() {
-    //     return {
-    //         title: "Ressources | " + siteMetaInfo.title,
-    //         meta: [
-    //             {
-    //                 hid: "description",
-    //                 name: "description",
-    //                 content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé.",
-    //             },
-    //             {
-    //                 hid: "og:description",
-    //                 name: "og:description",
-    //                 content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé."
-    //             },
-    //             {hid: "og:type", name: "og:type", content: "article"},
-    //             {hid: "og:title", name: "og:title", content: this.article.title},
-    //             {hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/resources"},
-    //             {
-    //                 hid: "og:image",
-    //                 name: "og:image",
-    //                 content: 'https://eventuallycoding.com' + '/images/covers/' + this.article.cover
-    //             },
-    //             {name: "og:image:alt", content: this.article.title},
-    //             {name: "twitter:text:title", content: this.article.title},
-    //             {
-    //                 name: "twitter:image",
-    //                 content: 'https://eventuallycoding.com' + '/images/covers/' + this.article.cover
-    //             },
-    //             {name: "twitter:card", content: 'summary'},
-    //
-    //         ],
-    //         link: [
-    //             {rel: "canonical", href: "https://eventuallycoding.com/resources"},
-    //         ],
-    //     };
-    // },
-};
+    ],
+    link: [
+        {rel: "canonical", href: "https://eventuallycoding.com/resources"},
+    ],
+});
 </script>
 
 <style lang="scss" scoped>
