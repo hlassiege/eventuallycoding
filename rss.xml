@@ -4,9 +4,16 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Mon, 03 Oct 2022 11:56:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Nov 2022 07:49:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Scrum is dead]]></title>
+            <link>https://eventuallycoding.com/2022/11/scrum-is-dead</link>
+            <guid>https://eventuallycoding.com/2022/11/scrum-is-dead</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Autant le discours de ces dernières années sur l'agilité m'a fatigué, autant ce serait dommage de jeter le bébé avec l'eau du bain.]]></description>
+        </item>
         <item>
             <title><![CDATA[Travailler avec des contraintes]]></title>
             <link>https://eventuallycoding.com/2022/09/travailler-avec-contraintes</link>
