@@ -235,7 +235,7 @@ onMounted(() => {
     document.getElementById("nuxtContent")
         .querySelectorAll("p")
         .forEach((block) => {
-            const isYoutubeVideo = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z]*)$/);
+            const isYoutubeVideo = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z_]*)$/);
             if (isYoutubeVideo) {
                 isYoutubeVideo.forEach((match) => {
                     const regExpMatchArray = match.match(/v=(.*)$/);
