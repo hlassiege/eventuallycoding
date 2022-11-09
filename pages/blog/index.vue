@@ -74,7 +74,6 @@
                     :img="'/covers/'+article.cover"
                     :description="article.description"
                     :date="article.date"
-                    :slug="article.slug"
                     :tags="article.tags"
                     :path="article._path"
           />
@@ -89,37 +88,44 @@ import siteMetaInfo from "../../data/sitemetainfo";
 const route = useRoute();
 const currentTag = ref<string>(route.query.tag || '');
 
-const tags = await queryContent('articles')
-    .only(["tags"])
-    .find()
+const { data: allTags } = await useAsyncData('blogindex', async () => {
+    const tags = await queryContent('articles')
+        .only(["tags"])
+        .find()
 
-let allTags: string[] = [];
-tags.forEach(tag => {
-if ("tags" in tag) {
-  tag.tags.forEach(tag => {
-    if (!allTags.includes(tag)) {
-      allTags.push(tag);
-    }
-  });
-}
+    let allTags: string[] = [];
+    tags.forEach(tag => {
+        if ("tags" in tag) {
+            tag.tags.forEach(tag => {
+                if (!allTags.includes(tag)) {
+                    allTags.push(tag);
+                }
+            });
+        }
+    });
+    allTags.sort()
+
+    return allTags;
 });
-allTags.sort()
 
-const articles = await queryContent("articles")
-    .only([
-      "title",
-      "description",
-      "img",
-      "slug",
-      "tags",
-      "author",
-      "date",
-      "draft",
-      "_path",
-      "cover"
-    ])
-    .sort({"date" : -1})
-    .find();
+const { data: articles } = await useAsyncData('articleList', () => {
+    const articles = queryContent("articles")
+        .only([
+            "title",
+            "description",
+            "img",
+            "slug",
+            "tags",
+            "author",
+            "date",
+            "draft",
+            "_path",
+            "cover"
+        ])
+        .sort({"date": -1})
+        .find();
+    return articles;
+});
 
 useHead(
     {

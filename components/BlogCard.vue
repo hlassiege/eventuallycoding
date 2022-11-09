@@ -48,10 +48,6 @@ const props = defineProps({
         type: String,
         required: false,
     },
-    slug: {
-        type: String,
-        required: true,
-    },
     path: {
         type: String,
         required: true,
@@ -80,7 +76,7 @@ function formatDate(date) {
 }
 
 const isFiltered = computed(() => {
-    return !props.currentTag.value || (props.tags && props.tags.includes(props.currentTag));
+    return !props.currentTag || (props.tags && props.tags.includes(props.currentTag));
 });
 
 const postTitle = ref(props.title);

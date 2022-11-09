@@ -44,17 +44,16 @@
 
             <div class="pt-4 grid lg:grid-cols-3 gap-x-8 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
 
-<!--              <BlogCard-->
-<!--                        v-for="article in articles"-->
-<!--                        :key="article.title"-->
-<!--                        :title="article.title"-->
-<!--                        :img="'/covers/'+article.cover"-->
-<!--                        :description="article.description"-->
-<!--                        :date="article.date"-->
-<!--                        :slug="article.slug"-->
-<!--                        :tags="article.tags"-->
-<!--                        :path="article.path"-->
-<!--              />-->
+              <BlogCard
+                        v-for="article in articles"
+                        :key="article.title"
+                        :title="article.title"
+                        :img="'/covers/'+article.cover"
+                        :description="article.description"
+                        :date="article.date"
+                        :tags="article.tags"
+                        :path="article._path"
+              />
 
               <div class="text-center mt-16 lg:hidden block">
                 <NuxtLink class="relative inline-block group focus:outline-none focus:ring" to="/blog">
@@ -127,75 +126,57 @@
 
   </div>
 </template>
+<script setup lang="ts">
+import BlogCard from "../components/BlogCard.vue";
+import BlogCardHorizontal from "../components/BlogCardHorizontal";
+import HeroSection from "../components/HeroSection";
+import dynamicLetters from "../sources/dynamic-letters";
+import siteMetaInfo from "../data/sitemetainfo";
+import events from "../data/events";
+import {onMounted} from "../.nuxt/imports";
 
-<script>
-import siteMetaInfo from "@/data/sitemetainfo";
-import BlogCard from "@/components/BlogCard";
-import BlogCardHorizontal from "@/components/BlogCardHorizontal";
-import HeroSection from "@/components/HeroSection";
-import dynamicLetters from "~/sources/dynamic-letters";
-import events from "@/data/events";
+const { data: articles } = await useAsyncData('indexarticles', () => queryContent('articles')
+    .only([
+      "title",
+      "description",
+      "img",
+      "slug",
+      "tags",
+      "author",
+      "date",
+      "_path",
+      "cover"
+    ])
+    .limit(3)
+    .sort({date : -1})
+    .find()
+)
 
-export default {
-  components: {
-    HeroSection,
-    BlogCard,
-    BlogCardHorizontal
-  },
-  data() {
-    return {
-      siteMetaInfo: siteMetaInfo,
-      events: events,
-    };
-  },
+onMounted(() => {
+  dynamicLetters();
+});
 
-  mounted() {
-    dynamicLetters();
-  },
-  //
-  // async asyncData({ $content, params, route }) {
-  //   const articles = await $content("articles", {deep: true}, params.slug)
-  //     .only([
-  //       "title",
-  //       "description",
-  //       "img",
-  //       "slug",
-  //       "tags",
-  //       "author",
-  //       "date",
-  //       "path",
-  //       "cover"
-  //     ])
-  //     .limit(3)
-  //     .sortBy("date", "desc")
-  //     .fetch();
-  //
-  //   return {
-  //     articles,
-  //   };
-  // },
-  head: {
-    title: siteMetaInfo.title,
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: siteMetaInfo.description,
-      },
-      { hid: "og:description", name: "og:description", content: siteMetaInfo.description },
-      { hid: "og:type", name: "og:type", content: "article" },
-      { hid: "og:title", name: "og:title", content: "A propos de l'auteur" },
-      { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" },
-      { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + siteMetaInfo.author_image },
-      { name: "twitter:text:title", content: "A propos de l'auteur" },
-      { name: "twitter:image", content: 'https://eventuallycoding.com' +  siteMetaInfo.author_image  },
-      { name: "twitter:card", content: 'summary'  },
+useHead({
+  title: siteMetaInfo.title,
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content: siteMetaInfo.description,
+    },
+    { hid: "og:description", name: "og:description", content: siteMetaInfo.description },
+    { hid: "og:type", name: "og:type", content: "article" },
+    { hid: "og:title", name: "og:title", content: "A propos de l'auteur" },
+    { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" },
+    // { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + siteMetaInfo.author_image },
+    { name: "twitter:text:title", content: "A propos de l'auteur" },
+    // { name: "twitter:image", content: 'https://eventuallycoding.com' +  siteMetaInfo.author_image  },
+    { name: "twitter:card", content: 'summary'  },
 
-    ],
-  },
-};
+  ],
+})
+
 </script>
-
 <style lang="scss" scoped>
 
 .writing-vertical {
