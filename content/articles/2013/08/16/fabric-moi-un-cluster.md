@@ -1,7 +1,7 @@
 ---
 id: "904"
 title: "Fabric moi un cluster"
-description: "[![python](/images/b9590-python.jpeg)](http://eventuallycoding.com/wp-content/uploads/2013/08/b9590-python.jpeg)Je vous propose dans ce billet de pren..."
+description: "Je vous propose dans ce billet de prendre en main Fabric..."
 date: "2013-08-16"
 categories: 
   - "waza"
@@ -13,7 +13,7 @@ img: "b9590-python.jpeg"
 cover: "cover2.jpg"
 ---
 
-[![python](/images/b9590-python.jpeg)](http://eventuallycoding.com/wp-content/uploads/2013/08/b9590-python.jpeg)Je vous propose dans ce billet de prendre en main [Fabric](http://docs.fabfile.org/en/1.7/), un outil que j’ai utilisé récemment et qui vous permettra de scripter des déploiements sur plusieurs machines assez simplement.
+![python](/images/b9590-python.jpeg)Je vous propose dans ce billet de prendre en main [Fabric](http://docs.fabfile.org/en/1.7/), un outil que j’ai utilisé récemment et qui vous permettra de scripter des déploiements sur plusieurs machines assez simplement.
 
 Pour résumer, Fabric est une lib Python qui vous permet d’automatiser des executions de commandes via ssh sur des serveurs distants.
 
@@ -35,7 +35,6 @@ pip install fabric
 
 Oui, super complexe...
 
- 
 
 ## Mon premier script
 
@@ -43,14 +42,17 @@ Oui, super complexe...
 
 Dans un fichier nommé fabfile.py, écrire les lignes suivantes :
 
+```python
 from fabric.api import \*
 
 @task
 def host\_type():
     run('uname -s')
+```
 
 Rien d’extraordinaire pour l’instant, nous allons juste executer cette commande sur des machines distantes.
 
+```
 $ fab -H localhost,linuxbox host\_type
 \[localhost\] run: uname -s
 \[localhost\] out: Darwin
@@ -59,10 +61,13 @@ $ fab -H localhost,linuxbox host\_type
 Done. 
 Disconnecting from localhost... done. 
 Disconnecting from linuxbox... done.
+```
 
 La même chose avec un script shell :
 
+```
 for machine in localhost linuxbox ; do ssh user@$machine "uname -s"; done
+```
 
 Premier réflexe une fois qu’on connaît l’équivalent en shell, pourquoi pas du shell uniquement ? Voici mes raisons :
 
@@ -76,14 +81,16 @@ Voyons cela en détail.
 ## Le parralélisme
 
 Changeons désormais notre méthode pour la remplacer par
-
+```python
 @task
 @parallel
 def host\_type():
     run(‘uname -s’)
+```
 
 Et lors de l’execution :
 
+```
 $ fab -H localhost,linuxbox host\_type
 \[localhost\] Executing task ‘host\_type’
 \[linuxbox\] Executing task ‘host\_type’
@@ -93,6 +100,7 @@ $ fab -H localhost,linuxbox host\_type
 \[linuxbox\] out:
 \[localhost\] out: Darwin
 \[localhost\] out:
+```
 
 Comme son nom l’indique, notre décorateur nous a permis de lancer notre commande en parallèle sur les hôtes passés en paramètre.
 
@@ -102,19 +110,23 @@ Comme je le disais en intro Fabric permet de gérer des topologies applicatives.
 
 Par exemple, nous allons définir 3 type de rôles :
 
+```
 env.roledefs = {
 ‘test’: \['localhost'\],
 ‘database’: \['root@xx.xx.xx.10', 'root@xx.xx.xx.11', 'root@xx.xx.xx.12'\],
 ‘web’: \['root@xx.xx.xx.1', 'root@xx.xx.xx.2', 'root@xx.xx.xx.3'\]
 }
+```
 
 Et nous allons définir une tâche pour installer java uniquement sur les machines Web :
 
+```python
 @task
 @parallel
 @roles(‘web’)
 def java():
     run(‘apt-get install openjdk-7-jdk –assume-yes’)
+```
 
 En tapant cette commande : fab java
 
@@ -124,14 +136,17 @@ Fabric va lancer l’install de Java uniquement sur les machines de type “web�
 
 En réalité lorsque vous lancez une commande, il ne s’agit pas uniquement de lancer votre commande et basta. Vous espérez aussi que cela s’est bien passé. Fabric va vérifier cela pour vous en regardant le code retour de chaque opération. Exemple ici :
 
+```python
 @task
 @roles(‘web’)
 @parallel
 def something\_wrong():
     run(‘rm /tmp/unknown\_file’)
+```
 
 Et l’execution
 
+```
 $ fab something\_wrong
 \[root@linuxbox\] Executing task ‘something\_wrong’
 \[root@linuxbox\] run: rm /tmp/unknown\_file
@@ -144,9 +159,11 @@ Aborting.
 
 Fatal error: One or more hosts failed while executing task ‘something\_wrong’
 Aborting.
+```
 
 Evidemment parfois on s’attend à une erreur, par exemple sur la tâche suivante :
 
+```python
 @task
 @roles(‘database’)
 @parallel
@@ -154,11 +171,13 @@ def remove():
     run(‘service mongodb stop’)
     run(‘aptitude purge mongodb-10gen –assume-yes’)
     run(‘rm -rf /var/lib/mongodb/\*’)
+```
 
 Et si MongoDB n’est pas démarré ? C’est un cas normal et la désinstall doit tout de même se poursuivre.
 
 Dans ce cas, on pourra ignorer l’erreur :
 
+```python
 @task
 @roles(‘database’)
 @parallel
@@ -167,6 +186,7 @@ def remove():
         run(‘service mongodb stop’)
     run(‘aptitude purge mongodb-10gen –assume-yes’)
     run(‘rm -rf /var/lib/mongodb/\*’)
+```
 
 Le décorateur @with\_settings vous permettra d’ignorer les erreurs pour une tâche entière.
 
@@ -182,8 +202,9 @@ Parfois cependant on a une logique plus alambiqué : si jamais la ligne n’exis
 
 Fabric vous propose ceci :
 
-append('/etc/apt/sources.list.d/mongodb.list',
-           'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen')
+```
+append('/etc/apt/sources.list.d/mongodb.list','deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen')
+```
 
 La ligne ne sera pas ajouté si elle existe déjà. Et surtout le fichier sera créé s’il n’existait pas.
 
@@ -193,6 +214,7 @@ Il arrive régulièrement d’avoir une “super tâche” Fabric qui ordonnance
 
 Donc Fabric vous propose d’appeler des tâches à l’intérieur d’une tâche :
 
+```python
 @task
 @roles('database')
 def migrate():
@@ -209,6 +231,7 @@ def update():
 def deploy():
     execute(migrate)
     execute(update)
+```
 
 La tâche deploy va lancer successivement les tâches migrate et update sur les bons noeuds de votre application.
 
@@ -226,6 +249,7 @@ afin d’avoir accès à l’ensemble des tâches présentes pour chaque module.
 
 Et ensuite pour l’utilisateur, pour connaître la liste des tâches disponibles :
 
+```
 $ fab -l
 Available commands:
 
@@ -243,6 +267,7 @@ mongodb.install
 mongodb.uninstall
 mongodb.start
 mongodb.stop
+```
 
 Et voilà. Comme tout outil de qualité qui se respecte, sa simplicité nous a permis d’en faire le tour rapidement.
 

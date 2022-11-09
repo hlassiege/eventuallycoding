@@ -22,17 +22,29 @@ Chaque document Json doit contenir une propriété \_id qui identifie de manièr
 
 Par exemple :
 
+```json
+{
+    "_id": "51f1b5b5e4b0d8b9b5b5b5b5",
+    "name": "MongoDB",
+    "type": "database",
+    "count": 1,
+    "info": { x: 203, y: 102 }
+}
+```
+```
 {
 "\_id" : 1
 … autre propriétés
 }
-
+```
 Par défaut, MongoDB vous propose de générer lui-même des identifiants grâce aux ObjectId :
 
+```json
 {
 
  "\_id" : ObjectId("5197c6b453cce2ec3a743811")
 }
+```
 
 Comme MongoDB privilégie avant tout la scalabilité, ces identifiants ne sont pas générés par un processus centralisé. Évidemment quand vous les laissez générer côté serveur, l’intérêt reste limité puisque vous n’avez qu’un seul maître actif. Mais ces ObjectId peuvent être générés côté client (et certains drivers marchent de cette façon).
 
@@ -51,11 +63,13 @@ Cet ObjectId a donc une propriété très intéressante, il contient automatique
 
 Ce qui nous permet d’écrire le code suivant par exemple sur le MongoShell :
 
+```javascript
 var id = ObjectId()
 print(id)
 ObjectId("5247019073ed0c203c79b995")
 print(id.getTimestamp())
 ISODate("2013-09-28T16:19:28Z")
+```
 
 Et si nous utilisions cette propriété pour obtenir quelques statistiques ?
 
@@ -65,7 +79,7 @@ Les algorithmes de MapReduce permettent de traiter des données en découpant vo
 
 L’idée étant d’appliquer la même fonction a des sous ensembles de votre jeu de donnée initial (via une fonction map), puis d’appliquer une “réduction” de ces résultats pour les agréger et trouver le résultat final.
 
-[![mapreduce](/images/fcd2c-mapreduce.png)](http://eventuallycoding.com/wp-content/uploads/2013/09/fcd2c-mapreduce.png)
+![mapreduce](/images/fcd2c-mapreduce.png)
 
 Ce type d’algorithme est géré nativement par MongoDB.
 
@@ -77,6 +91,7 @@ Ici, par exemple si on veut compter le nombre d’éléments dans votre collecti
 
 _(l’exemple est volontairement simpliste et n’a aucun intérêt puisque vous pouvez utiliser db.mycollection.count() pour le même résultat)_
 
+```javascript
 map = function() {
 	emit(1,1);
 }
@@ -97,11 +112,14 @@ db.mycollection.mapReduce( map , reduce , { out : “results” } )
         },
         "ok" : 1,
 }
+```
 
 Le résultat de ce MapReduce est désormais consultable dans la collection results et sans surprise nous n’avons qu’une seule ligne qui contient notre somme :
 
+```javascript
 db.results\_tst.find()
 { "\_id" : 1, "value" : 113 }
+```
 
 Bon, maintenant faisons quelque chose de plus intéressant et utilisons les ObjectId que nous avons vu au dessus.
 
@@ -109,11 +127,13 @@ Imaginons que vous avez un site qui contient une liste d’inscrits et que l’o
 
 Votre inscrit très basiquement :
 
+```javascript
 {
  "\_id" : ObjectId("5197c6b453cce2ec3a743811"),
 “firstname” : “Hugo”,
 “lastname” : “Lassiege”
 }
+```
 
 ### Comment nous l’aurions résolu en SQL :
 
@@ -126,15 +146,19 @@ created = une date (exemple: 26 septembre 2013)
 
 Ensuite vous auriez appliqué une requête ressemblant à ceci :
 
+```sql
 SELECT COUNT(ID)
 FROM accounts
 GROUP BY YEAR(created), MONTH(created)
+```
 
 Afin d’éviter de faire cette requête sans arrêt nous l’aurions placé dans une vue afin de profiter d’un minimum de cache (et simplifier le requètage) :
 
+```sql
 CREATE VIEW results as SELECT COUNT(ID)
 FROM accounts
 GROUP BY YEAR(created), MONTH(created)
+```
 
 Certaines bases proposent d’utiliser des vues matérialisées qui ne se rafraîchissent qu’à intervalle régulier vous évitant de relancer constamment le même calcul pour rien.
 
@@ -148,20 +172,25 @@ Tout d’abord nous allons créer une fonction map qui va émettre des clés qui
 
 Il faut voir cette fonction comme l’équivalent du GROUP BY YEAR(created), MONTH(created) fait précédemment :
 
+```javascript
 map = function() { 
 var key = {   y : this.\_id.getTimestamp().getFullYear(),   
          m : this.\_id.getTimestamp().getMonth()+1   };  
 emit(key,1); 
 }
+```
 
 Ensuite la fonction reduce qui se contentent de faire une somme, l’équivalent de notre SELECT count(ID) :
 
+```javascript
 reduce = function(key, values) { 
 return Array.sum(values); 
 }
+```
 
 Et enfin l’application de la commande :
 
+```javascript
 db.accounts.mapReduce( map , reduce , { out : “account\_stats” } )
 db.account\_stats.find()
 { "\_id" : { "year" : 2013, "month" : 5 }, "value" : 200 }
@@ -169,6 +198,7 @@ db.account\_stats.find()
 { "\_id" : { "year" : 2013, "month" : 7 }, "value" : 32 }
 { "\_id" : { "year" : 2013, "month" : 8 }, "value" : 45 }
 { "\_id" : { "year" : 2013, "month" : 9 }, "value" : 320 }
+```
 
 Vous remarquerez que nous n’avons pas besoin de relancer le calcul à chaque nouvelle demande puisque la collection de sortie est désormais consultable très facilement.
 
@@ -178,10 +208,12 @@ On remarque très rapidement que recalculer systématiquement pour les mois pass
 
 Pour cela, il vous suffit d’appliquer deux options supplémentaires à votre commande :
 
+```javascript
 db.accounts.mapReduce( map , reduce , { 
 out : { merge: "account\_stats" },
 query : { \_id: { $gt: objectIdWithTimestamp(2013/09/01') } },
 } )
+```
 
 Ici nous avons utilisé deux astuces.
 
@@ -195,6 +227,7 @@ Et nous allons utiliser le paramètre **query** pour limiter le jeu de données 
 
 Ici nous utilisons une méthode que vous devez définir au préalable permettant de créer un ObjectId à partir d’une date :
 
+```javascript
 function objectIdWithTimestamp(timestamp)
 {
     // Convert string date to Date object (otherwise assume timestamp is a date)
@@ -210,6 +243,7 @@ function objectIdWithTimestamp(timestamp)
 
     return constructedObjectId
 } 
+```
 
 (source : [http://stackoverflow.com/questions/8749971/can-i-query-mongodb-objectid-by-date](http://stackoverflow.com/questions/8749971/can-i-query-mongodb-objectid-by-date))
 

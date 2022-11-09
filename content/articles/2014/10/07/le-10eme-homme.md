@@ -31,7 +31,7 @@ Jouer ce rôle de 10ème homme c'est par exemple :
 
 - [penser que le travail ne se fait pas au travail](https://www.hopwork.com/blog/pourquoi-le-travail-ne-se-fait-pas-au-travail/)
 - [chasser les gens du bureau pour créer une super boite](https://www.hopwork.com/blog/pourquoi-nous-avons-chasse-notre-equipe-du-bureau-ou-presque/)
-- ou juste [remettre en cause](http://www.eventuallycoding.com/index.php/travailler-autrement/) de [le monde du travail](http://www.eventuallycoding.com/index.php/tu-fais-quoi-dans-la-vie/ ) qui te donne le choix de bosser de 9h à 18h salarié chez EDF ou dans une SSII
+- ou juste [remettre en cause](https://eventuallycoding.com/2013/08/12/travailler-autrement) de [le monde du travail](http://www.eventuallycoding.com/index.php/tu-fais-quoi-dans-la-vie/ ) qui te donne le choix de bosser de 9h à 18h salarié chez EDF ou dans une SSII
 - créer une société participative avec zéro hiérarchie et une totale autonomie individuelle : www.lateral-thoughts.com
 
 Et ça marche ! Je suis très fier pour Lateral-Thoughts :

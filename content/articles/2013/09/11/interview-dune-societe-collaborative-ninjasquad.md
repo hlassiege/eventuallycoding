@@ -1,7 +1,7 @@
 ---
 id: "960"
 title: "Interview d'une société collaborative : NinjaSquad"
-description: "_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d..."
+description: "_Si les sociétés collaboratives/coopératives ne sont pas nouvelles, plusieurs d..."
 date: "2013-09-11"
 categories: 
   - "waza"
@@ -11,7 +11,7 @@ img: "5df4b-ninjasquad.jpg"
 cover: "cover8.jpg"
 ---
 
-_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d’entres elles se sont fait connaître récemment et on sent un certain engouement autour de cette autre façon de travailler._
+_Si les [sociétés collaboratives/coopératives](https://eventuallycoding.com/2012/12/07/les-societes-cooperatives) ne sont pas nouvelles, plusieurs d’entres elles se sont fait connaître récemment et on sent un certain engouement autour de cette autre façon de travailler._
 
 _Je propose donc une série d’interviews de représentants de ces “nouvelles” sociétés qui jouent sur la transparence, la force de l’intelligence collective, les prises de décisions partagées et surtout, de vrais relations sociales._
 
@@ -35,7 +35,6 @@ Jusqu’à présent, nous n’avons pas eu à gérer de désaccords stratégique
 
 Ce qui nous différencie également, ce sont nos ressources humaines : 100% de développeurs passionnés, sans commercial ni manager. Seul l’intérêt d’une mission nous décide : avec des charges minimes, nous ne sommes pas contraints d’accepter des missions alimentaires peu passionnantes.
 
- 
 
 ### Plus spécifiquement, comment faites-vous émerger les nouvelles idées ? Avez-vous une organisation particulière pour cela ?
 
@@ -43,7 +42,6 @@ Ce qui nous différencie également, ce sont nos ressources humaines : 100% de d
 
 Être son propre patron permet ainsi de gérer les cordons de la bourse comme on le souhaite. On est libre de choisir nos clients et refuser les missions qui ne nous plaisent pas. Et accessoirement, on s’accorde conférences, hardwares, et vacances à volonté! :)
 
- 
 
 ### Des anecdotes à partager ?
 
@@ -59,7 +57,6 @@ Enfin, une réaction plus amusante fut celle de l’expert-comptable lors de not
 
 Le plus surprenant fût Internet : des projets intéressants nous sont tombés du ciel, contactés par de parfaits inconnus grâce à notre site. Comme quoi, l’image publique qu’on véhicule est importante (et le SEO aussi ;). Par exemple, la réputation de Jean-Baptiste Nizet sur StackOverflow nous a apporté pas mal de visibilité.
 
- 
 
 ### Utilisez vous des outils particuliers pour gérer votre entreprise d’un nouveau genre ?
 
@@ -71,11 +68,9 @@ Notre code dans des repositories Github, publics ou privés.
 
 Notre site est hébergé sur une Dedibox. Et on en loue d’autres à la volée suivants les besoins.
 
- 
 
 ### Pour les quelques lecteurs de ce blog, recrutez-vous ?
 
- 
 
 [![ninjasquad](/images/5df4b-ninjasquad.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/5df4b-ninjasquad.jpg)
 

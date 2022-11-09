@@ -44,7 +44,7 @@ Ok, vous allez me dire c’est une activité d’appoint (qui peut quand même d
 
  
 
-Pour rappel, en france, dans l’informatique, il y a désormais entre 30 et 35 000 freelances ([31 000 en 2007](http://www.munci.org/ressources/chiffres/activites-informatiques.pdf) et je n’ai pas trouvé de chiffres récents). Ca représente environ 1 personne sur 10 par rapport aux personnes qui bossent dans le secteur du numérique et 1 sur 20 qui bossent dans les métiers de l’informatique (Cf [un ancien article](http://www.eventuallycoding.com/index.php/travailler-autrement/)). Il y a 700 000 freelances tout métiers confondus (+85% entre 2004 et 2013) [selon l’EFIP](http://www.efip.org/).
+Pour rappel, en france, dans l’informatique, il y a désormais entre 30 et 35 000 freelances ([31 000 en 2007](http://www.munci.org/ressources/chiffres/activites-informatiques.pdf) et je n’ai pas trouvé de chiffres récents). Ca représente environ 1 personne sur 10 par rapport aux personnes qui bossent dans le secteur du numérique et 1 sur 20 qui bossent dans les métiers de l’informatique (Cf [un ancien article](https://eventuallycoding.com/2013/08/12/travailler-autrement)). Il y a 700 000 freelances tout métiers confondus (+85% entre 2004 et 2013) [selon l’EFIP](http://www.efip.org/).
 
  
 

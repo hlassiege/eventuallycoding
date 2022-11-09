@@ -1,7 +1,7 @@
 ---
 id: "924"
 title: "Vagrant et Fabric : prise en main"
-description: "[![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retro..."
+description: "Vagrant et Fabric : prise en main"
 date: "2013-08-21"
 categories: 
   - "waza"
@@ -13,24 +13,23 @@ img: "c143b-vagrant.png"
 cover: "cover2.jpg"
 ---
 
-[![vagrant](/images/c143b-vagrant.png)](http://eventuallycoding.com/wp-content/uploads/2013/08/c143b-vagrant.png)Petit jeu, est-ce que vous vous retrouvez dans les différentes situations ci-dessous :
+![vagrant](/images/c143b-vagrant.png)Petit jeu, est-ce que vous vous retrouvez dans les différentes situations ci-dessous :
 
 1) Vous avez un environnement assez complexe à reproduire pour chaque poste de dev, un serveur de bases de données, une lib particulière, une configuration système etc…
 
 Vous avez tout tenté :
 
-- un manuel d’accueil de 3 pages avec toutes les procédures d’install, mais dont l’une des étapes c’est d’aller chercher Gégé bureau 451 car “il y a que lui qui sait ce qu’il faut faire à cette étape” (Vous vous rappelez de notre fameux [pompier pyromane](http://www.eventuallycoding.com/index.php/etes-vous-pompier-pyromane/ "Etes-vous pompier pyromane ?") ?).
+- un manuel d’accueil de 3 pages avec toutes les procédures d’install, mais dont l’une des étapes c’est d’aller chercher Gégé bureau 451 car “il y a que lui qui sait ce qu’il faut faire à cette étape” (Vous vous rappelez de notre fameux [pompier pyromane](https://eventuallycoding.com/2012/05/21/etes-vous-pompier-pyromane) ?).
     
 - des échanges de fichier via USB ou NFS. Mais au fil du temps il y a des tas de versions dans différents répertoire et plus personne sait ce que c’est. A part Gégé qui a la bonne version sur son PC.
     
 
 2) Vos équipes ont toutes des postes Windows car les outils bureautiques imposé par votre société tourne dessus : Outlook, Office etc… Sauf que pour le développement vous avez besoin d’utiliser une plateforme Unix. Au début vous avez même testé tous les plugins FTP pour Eclipse, SublimeText, Intellij...
 
- 
 
 Tiens, voici Gégé d'ailleurs...
 
-[![gege](/images/f3985-gege.gif)](http://eventuallycoding.com/wp-content/uploads/2013/08/f3985-gege.gif)
+![gege](/images/f3985-gege.gif)
 
 Et puis un jour, vous avez découvert l’utilité des machines virtuelles. Vous avez passé du temps à configurer une VM, vous avez installé tout ce qu’il fallait et vous l’avez diffusé.
 
@@ -40,7 +39,7 @@ Et si on reprenait nos habitudes de dev, qu’on versionnait notre environnement
 
 Dans ce cas, ce billet vous intéressera puisque nous allons parler de création de VM et de provisionning, le tout de façon automatisé et reproductible avec Vagrant.
 
-Si vous avez lu le [dernier billet sur Fabric](http://www.eventuallycoding.com/index.php/fabric-moi-un-cluster/ "Fabric moi un cluster"), celui-ci poursuit dans la lignée. Cette fois-ci je vous propose d’utiliser [Vagrant](http://www.vagrantup.com/) pour créer une VM, et Fabric pour la configurer et installer les softs qu’il vous faut.
+Si vous avez lu le [dernier billet sur Fabric](https://eventuallycoding.com/2013/08/16/fabric-moi-un-cluster/), celui-ci poursuit dans la lignée. Cette fois-ci je vous propose d’utiliser [Vagrant](http://www.vagrantup.com/) pour créer une VM, et Fabric pour la configurer et installer les softs qu’il vous faut.
 
 ## Principe
 
@@ -72,9 +71,11 @@ vagrant plugin install vagrant-fabric
 
 Ensuite il vous suffirait d’aller dans un répertoire vierge et de taper :
 
+```
 $ vagrant init precise32 http://files.vagrantup.com/precise32.box
 $ vagrant up
 $ vagrant ssh
+```
 
 Ces commandes vous permettraient d’initialiser une VM Ubuntu Precise 32bits, de la démarrer et de vous y connecter en SSH.
 
@@ -103,12 +104,16 @@ Par défaut votre machine virtuelle est accessible en ssh via le port 2222. Vagr
 
 Cette technique peut s’avérer suffisante dans bien des cas. Si vous avez juste besoin d’un routage de ce type pour voir un apache et un elasticsearch installé sur la VM, il vous suffit d’écrire ceci :
 
+```
 config.vm.network :forwarded\_port, guest: 80, host: 8080
 config.vm.network :forwarded\_port, guest: 9200, host: 9200
+```
 
 Dans d’autres cas, si par exemple vous voulez utiliser plusieurs VMs et qu’elles soient toutes disponibles sur un réseau privé au sein de votre machine, alors vous allez plutôt configurer des IPs pour chaque machines :
 
+```
 config.vm.network :private\_network, ip: "192.168.50.4"
+```
 
 ## Le partage de répertoire
 
@@ -121,10 +126,10 @@ Partagez un répertoire entre votre VM et la machine hôte peut avoir plusieurs 
 
 Pour cela, vous allez déclarer des sync folder :
 
+```
 config.vm.synced\_folder 'C:Usershugovagrantaptcache', "/var/cache/apt/archives"
 config.vm.synced\_folder 'D:Devsrcsample', "/vagrant/src"
-
- 
+```
 
 ## Le provisionning
 
@@ -137,13 +142,11 @@ Le provisionning va consister lors de la création de la VM à effectuer la conf
 
 Ici nous allons utiliser Fabric comme suit :
 
- 
-
+```
 config.vm.provision :fabric do |fab|
   fab.tasks = \["java es\_install"\]
 end
-
- 
+```
 
 Nous avons juste déclaré deux tâches à appeler, et ces tâches sont déclarées dans un fichier fabfile.py présent au même niveau que votre fichier Vagrantfile.
 
@@ -157,18 +160,21 @@ Rien ne vous empêche aussi de tester la création de vos VM en appelant des scr
 
 Ensuite dans votre équipe, chacun peut réappliquer les modifs de provisionning :
 
+```
 vagrant provision
+```
 
 ou bien réinitialiser complètement la VM :
 
+```
 vagrant reload
+```
 
 ou encore la refaire de zéro :
 
+```
 vagrant destroy
-
 vagrant up
-
- 
+```
 
 Et si vous voulez jouer avec les versions complètes de ces fichiers, vous retrouverez l’ensemble du code sous Github : [https://github.com/hlassiege/fabric-vagrant](https://github.com/hlassiege/fabric-vagrant)
