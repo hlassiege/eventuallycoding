@@ -155,6 +155,10 @@ function formatDate(date) {
     return new Date(date).toLocaleDateString("en", options);
 }
 
+function formatDatetoIso(date : string) {
+    return new Date(date).toISOString();
+}
+
 const pathMatch = '/articles/' + route.params.year + '/' + route.params.month + '/' + (route.params.day ? route.params.day  + '/' : '' ) + route.params.id;
 const { data: article } = await useAsyncData(pathMatch, async () => {
     const article = await queryContent("articles")
@@ -162,7 +166,6 @@ const { data: article } = await useAsyncData(pathMatch, async () => {
         .findOne()
     return article;
 });
-
 
 const { data: relatedArticles } = await useAsyncData(pathMatch + '/relatedArticles' , async () => {
     let allRelatedArticles = [];
@@ -255,38 +258,37 @@ onMounted(() => {
                 });
             }
         });
-// Prism.highlightAll();
 });
 
 const postLink = computed(() => {
     return siteMetadata.value.siteUrl  + article.value._path.replace('/articles/', '');
 });
-//
-// useHead({
-//     title: article.title + " | " + siteMetaInfo.title,
-//     meta: [
-//         {
-//             hid: "description",
-//             name: "description",
-//             content: article.description,
-//         },
-//         { hid: "og:description", name: "og:description", content: article.description },
-//         { hid: "og:type", name: "og:type", content: "article" },
-//         { hid: "og:title", name: "og:title", content: article.title },
-//         { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + article._path.replace('/articles', '') },
-//         { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ article.cover },
-//         { name: "og:image:alt", content: article.title },
-//         { name: "twitter:text:title", content: article.title },
-//         { name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ article.cover },
-//         { name: "twitter:card", content: 'summary'  },
-//         { name: "article:published_time", content: article.createdAt  },
-//         { name: "article:article:modified_time", content: article.updatedAt  },
-//         { name: "article:article:tag", content: article.tags ? article.tags.toString() : "" },
-//     ],
-//     link: [
-//         { rel: "canonical", href: "https://eventuallycoding.com" + article._path.replace('/articles', '') },
-//     ],
-// })
+
+useHead({
+    title: article.value.title + " | " + siteMetaInfo.title,
+    meta: [
+        {
+            hid: "description",
+            name: "description",
+            content: article.value.description,
+        },
+        { hid: "og:description", name: "og:description", content: article.value.description },
+        { hid: "og:type", name: "og:type", content: "article" },
+        { hid: "og:title", name: "og:title", content: article.value.title },
+        { hid: "og:url", name: "og:url", content: "https://eventuallycoding.com" + article.value._path.replace('/articles', '') },
+        { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ article.value.cover },
+        { name: "og:image:alt", content: article.value.title },
+        { name: "twitter:text:title", content: article.value.title },
+        { name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/'+ article.value.cover },
+        { name: "twitter:card", content: 'summary'  },
+        { name: "article:published_time", content: formatDatetoIso(article.value.date)  },
+        { name: "article:article:modified_time", content: formatDatetoIso(article.value.date)  },
+        { name: "article:article:tag", content: article.value.tags ? article.value.tags.toString() : "" },
+    ],
+    link: [
+        { rel: "canonical", href: "https://eventuallycoding.com" + article.value._path.replace('/articles', '') },
+    ],
+})
 
 </script>
 <style>
