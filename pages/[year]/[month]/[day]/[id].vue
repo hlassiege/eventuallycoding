@@ -32,7 +32,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-<!--                        {{ article.readTime.text }}-->
+                        {{ article.readingTime.text }}
                     </p>
                 </div>
                 <div class="flex items-center font-medium sm:mx-3 justify-center">
@@ -67,17 +67,17 @@
             </div>
 
 
-<!--            <div class="text-left mx-auto">-->
-<!--                <div class="flex flex-wrap lg:flex-row-reverse py-12">-->
-<!--                    <div class="w-full lg:w-1/4 px-5" v-if="article.toc.length > 0">-->
-<!--                        <PageSidebar :toc="article.toc" />-->
-<!--                    </div>-->
+            <div class="text-left mx-auto">
+                <div class="flex flex-wrap lg:flex-row-reverse py-12">
+                    <div class="w-full lg:w-1/4 px-5" v-if="article.body.toc.links.length > 0">
+                        <PageSidebar :toc="article.body.toc.links" />
+                    </div>
 
-<!--                    <div class="w-full px-5 max-w-none centered-image" :class="article.toc.length > 0  ? 'lg:w-3/4 ' : ''">-->
-<!--                        <nuxt-content id="nuxtContent" class="prose font-proxima text-sm md:text-xl font-medium min-w-full md:p-10 mx-auto" :document="article" />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+                    <div class="w-full px-5 max-w-none centered-image" :class="article.body.toc.links.length > 0  ? 'lg:w-3/4 ' : ''">
+                        <ContentRenderer id="nuxtContent" class="prose font-proxima text-sm md:text-xl font-medium min-w-full md:p-10 mx-auto" :value="article"/>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -162,42 +162,40 @@ const { data: article } = await useAsyncData(pathMatch, async () => {
         .findOne()
     return article;
 });
-
+//
 const { data: relatedArticles } = await useAsyncData(pathMatch + '/relatedArticles' , async () => {
     let allRelatedArticles = [];
-    if (article.tags) {
-        for (let i = 0; i < article.tags.length; i++) {
-            const tag = article.tags[i];
-            const relatedArticles = await queryContent("articles")
-                .only([
-                    "id",
-                    "title",
-                    "description",
-                    "img",
-                    "slug",
-                    "tags",
-                    "author",
-                    "date",
-                    "draft",
-                    "_path",
-                    "cover"
-                ])
-                .sort({date: -1})
-                .where( {tags: { $contains: tag }, title: { $ne: article.title } } )
-                .find()
-
-            console.log("----");
-            console.log(relatedArticles);
-            relatedArticles.forEach(article => {
-                const isAlreadyIn = allRelatedArticles.find(function(element) {
-                    return element.id === article.id;
-                });
-                if (!isAlreadyIn) {
-                    allRelatedArticles.push(article);
-                }
-            });
-        }
-    }
+//     if (article.value.tags) {
+//         for (let i = 0; i < article.value.tags.length; i++) {
+//             const tag = article.value.tags[i];
+//             const relatedArticles = await queryContent("articles")
+//                 .only([
+//                     "id",
+//                     "title",
+//                     "description",
+//                     "img",
+//                     "slug",
+//                     "tags",
+//                     "author",
+//                     "date",
+//                     "draft",
+//                     "_path",
+//                     "cover"
+//                 ])
+//                 .sort({date: -1})
+//                 .where( {tags: { $contains: tag }, title: { $ne: article.value.title } } )
+//                 .find()
+//
+//             relatedArticles.forEach(article => {
+//                 const isAlreadyIn = allRelatedArticles.find(function(element) {
+//                     return element.id === article.id;
+//                 });
+//                 if (!isAlreadyIn) {
+//                     allRelatedArticles.push(article);
+//                 }
+//             });
+//         }
+//     }
     let shuffledRelatedArticles = allRelatedArticles
         .map(value => ({ value, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
@@ -261,7 +259,7 @@ onMounted(() => {
 
 const postLink = computed(() => {
     // return siteMetadata.value.siteUrl  + article._path.replace('/articles/', '');
-    return siteMetadata.value.siteUrl  + article._path;
+    return siteMetadata.value.siteUrl  + article.value._path;
 });
 //
 // useHead({

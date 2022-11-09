@@ -15,9 +15,11 @@ export default defineNuxtConfig({
   },
 
   css: ["@/assets/css/main.css", "@/assets/scss/main.scss"],
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image-edge'],
   content: {
-    // https://content.nuxtjs.org/api/configuration
+      markdown: {
+          remarkPlugins: ['remark-reading-time'],
+      },
   }
 
 })
