@@ -155,14 +155,15 @@ function formatDate(date) {
     return new Date(date).toLocaleDateString("en", options);
 }
 
-const pathMatch = '/articles/' + route.params.year + '/' + route.params.month + '/' + route.params.day + '/' + route.params.id;
+const pathMatch = '/articles/' + route.params.year + '/' + route.params.month + '/' + (route.params.day ? route.params.day  + '/' : '' ) + route.params.id;
 const { data: article } = await useAsyncData(pathMatch, async () => {
     const article = await queryContent("articles")
         .where({_path: pathMatch})
         .findOne()
     return article;
 });
-//
+
+
 const { data: relatedArticles } = await useAsyncData(pathMatch + '/relatedArticles' , async () => {
     let allRelatedArticles = [];
 //     if (article.value.tags) {
@@ -258,8 +259,7 @@ onMounted(() => {
 });
 
 const postLink = computed(() => {
-    // return siteMetadata.value.siteUrl  + article._path.replace('/articles/', '');
-    return siteMetadata.value.siteUrl  + article.value._path;
+    return siteMetadata.value.siteUrl  + article.value._path.replace('/articles/', '');
 });
 //
 // useHead({
