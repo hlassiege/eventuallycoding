@@ -167,10 +167,6 @@ const { data: article } = await useAsyncData(pathMatch, async () => {
     return article;
 });
 
-if (!article.value) {
-    console.log(pathMatch)
-}
-
 const { data: relatedArticles } = await useAsyncData(pathMatch + '/relatedArticles' , async () => {
     let allRelatedArticles = [];
 //     if (article.value.tags) {
@@ -214,6 +210,27 @@ const { data: relatedArticles } = await useAsyncData(pathMatch + '/relatedArticl
 
 
 onMounted(() => {
+    const hyvorScript = document.createElement('script');
+    hyvorScript.src = '//talk.hyvor.com/web-api/embed.js';
+    hyvorScript.async = true;
+    hyvorScript.type = 'text/javascript';
+
+    const hyvorConfig = document.createElement('script');
+    hyvorConfig.type = 'text/javascript';
+    hyvorConfig.innerHTML = `
+        var HYVOR_TALK_WEBSITE = 7045;
+        let postId = parseInt(document.getElementById('post').innerHTML);
+        var HYVOR_TALK_CONFIG = {
+            url: false,
+            id: postId
+        };
+    `;
+
+    document.head.appendChild(hyvorScript)
+    document.head.appendChild(hyvorConfig)
+
+
+
     let containTwitterScript = false;
     document.getElementById("nuxtContent")
         .querySelectorAll("p")

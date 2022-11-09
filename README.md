@@ -7,8 +7,6 @@
 
 - check syntax highlighting
 
-- repair Hyvor
-
 - repair related articles 
 
-- sitemap is not generated statically
+- remark youtube etc..
