@@ -79,8 +79,6 @@
                 </div>
             </div>
 
-
-
             <hr class="mb-12">
 
             <div>
@@ -102,10 +100,6 @@
                         </button>
                     </a>
 
-
-
-
-
                 </div>
             </div>
 
@@ -126,18 +120,7 @@
                 </div>
             </div>
 
-
-            <div class="hidden" id="post">{{article.id}}</div>
             <div id="hyvor-talk-view"></div>
-<!--            <script type="text/javascript">-->
-<!--                var HYVOR_TALK_WEBSITE = 7045;-->
-<!--                let postId = parseInt(document.getElementById('post').innerHTML);-->
-<!--                var HYVOR_TALK_CONFIG = {-->
-<!--                    url: false,-->
-<!--                    id: postId-->
-<!--                };-->
-<!--            </script>-->
-<!--            <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>-->
 
         </div>
     </div>
@@ -150,7 +133,7 @@ const route = useRoute();
 const title = ref(0);
 const siteMetadata = ref(siteMetaInfo);
 
-function formatDate(date) {
+function formatDate(date: string) {
     const options = { year: "numeric", month: "long", day: "numeric" };
     return new Date(date).toLocaleDateString("en", options);
 }
@@ -219,66 +202,66 @@ onMounted(() => {
     hyvorConfig.type = 'text/javascript';
     hyvorConfig.innerHTML = `
         var HYVOR_TALK_WEBSITE = 7045;
-        let postId = parseInt(document.getElementById('post').innerHTML);
         var HYVOR_TALK_CONFIG = {
             url: false,
-            id: postId
+            id: ${article.value.id}
         };
     `;
 
     document.head.appendChild(hyvorScript)
     document.head.appendChild(hyvorConfig)
 
-
-
     let containTwitterScript = false;
-    document.getElementById("nuxtContent")
-        .querySelectorAll("p")
-        .forEach((block) => {
-            const isYoutubeVideo = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z_]*)$/);
-            if (isYoutubeVideo) {
-                isYoutubeVideo.forEach((match) => {
-                    const regExpMatchArray = match.match(/v=(.*)$/);
-                    const videoId = regExpMatchArray[1];
-                    const container = document.createElement("div");
-                    container.setAttribute("class", "w-1/2 ml-auto mr-auto");
-                    const iframe = document.createElement("iframe");
-                    iframe.setAttribute("src", `https://www.youtube-nocookie.com/embed/${videoId}`);
-                    iframe.setAttribute("frameborder", "0");
-                    iframe.setAttribute("allowfullscreen", "allowfullscreen");
-                    iframe.setAttribute("width", "560");
-                    iframe.setAttribute("height", "315");
-                    block.innerHTML = "";
-                    container.appendChild(iframe);
-                    block.appendChild(container);
-                });
-            }
-            const isTweet = block.textContent.match(/^https:\/\/twitter\.com\/[0-9a-zA-Z_]*\/status\/([0-9a-zA-Z]*)$/);
-            if (isTweet) {
-                isTweet.forEach((match) => {
-                    const tweetId = match;
-                    const container = document.createElement("div");
-                    container.setAttribute("class", "w-1/2 ml-auto mr-auto");
-                    const blockQuote = document.createElement("blockquote");
-                    blockQuote.setAttribute("class", "twitter-tweet");
-                    const link = document.createElement("a");
-                    link.setAttribute("href", `https://twitter.com/x/status/${tweetId}`);
-                    block.innerHTML = "";
-                    blockQuote.appendChild(link);
-                    container.appendChild(blockQuote);
-                    block.appendChild(container);
-                    if (!containTwitterScript) {
-                        let script = document.createElement("script");
-                        script.setAttribute("src", "https://platform.twitter.com/widgets.js");
-                        script.setAttribute("charset", "utf-8");
-                        script.setAttribute("async", "async");
-                        script.setAttribute("defer", "defer");
-                        document.body.appendChild(script);
-                        containTwitterScript = true;
-                    }
-                });
-            }
-        });
+    let nuxtContentElement = document.getElementById("nuxtContent");
+    if (nuxtContentElement) {
+        nuxtContentElement
+            .querySelectorAll("p")
+            .forEach((block) => {
+                const isYoutubeVideo = block.textContent.match(/^https:\/\/www\.youtube\.com\/watch\?(v=[0-9a-zA-Z_]*)$/);
+                if (isYoutubeVideo) {
+                    isYoutubeVideo.forEach((match) => {
+                        const regExpMatchArray = match.match(/v=(.*)$/);
+                        const videoId = regExpMatchArray[1];
+                        const container = document.createElement("div");
+                        container.setAttribute("class", "w-1/2 ml-auto mr-auto");
+                        const iframe = document.createElement("iframe");
+                        iframe.setAttribute("src", `https://www.youtube-nocookie.com/embed/${videoId}`);
+                        iframe.setAttribute("frameborder", "0");
+                        iframe.setAttribute("allowfullscreen", "allowfullscreen");
+                        iframe.setAttribute("width", "560");
+                        iframe.setAttribute("height", "315");
+                        block.innerHTML = "";
+                        container.appendChild(iframe);
+                        block.appendChild(container);
+                    });
+                }
+                const isTweet = block.textContent.match(/^https:\/\/twitter\.com\/[0-9a-zA-Z_]*\/status\/([0-9a-zA-Z]*)$/);
+                if (isTweet) {
+                    isTweet.forEach((match) => {
+                        const tweetId = match;
+                        const container = document.createElement("div");
+                        container.setAttribute("class", "w-1/2 ml-auto mr-auto");
+                        const blockQuote = document.createElement("blockquote");
+                        blockQuote.setAttribute("class", "twitter-tweet");
+                        const link = document.createElement("a");
+                        link.setAttribute("href", `https://twitter.com/x/status/${tweetId}`);
+                        block.innerHTML = "";
+                        blockQuote.appendChild(link);
+                        container.appendChild(blockQuote);
+                        block.appendChild(container);
+                        if (!containTwitterScript) {
+                            let script = document.createElement("script");
+                            script.setAttribute("src", "https://platform.twitter.com/widgets.js");
+                            script.setAttribute("charset", "utf-8");
+                            script.setAttribute("async", "async");
+                            script.setAttribute("defer", "defer");
+                            document.body.appendChild(script);
+                            containTwitterScript = true;
+                        }
+                    });
+                }
+            });
+    }
 });
 
 const postLink = computed(() => {
