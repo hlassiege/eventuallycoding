@@ -1,7 +1,7 @@
 ---
 id: "939"
 title: "Serment d'Hypocrite"
-description: "[![1984-poster](/images/1dab7-1984-poster.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/1dab7-1984-poster.jpg)La déontologie dans l’inf..."
+description: "La déontologie dans l’informatique, sujet complexe n’est ce pas ..."
 date: "2013-09-09"
 categories: 
   - "waza"
@@ -13,7 +13,7 @@ img: "1dab7-1984-poster.jpg"
 cover: "cover1.jpg"
 ---
 
-[![1984-poster](/images/1dab7-1984-poster.jpg)](http://eventuallycoding.com/wp-content/uploads/2013/09/1dab7-1984-poster.jpg)La déontologie dans l’informatique, sujet complexe n’est ce pas ?
+![1984-poster](/images/1dab7-1984-poster.jpg)La déontologie dans l’informatique, sujet complexe n’est ce pas ?
 
 C’est un sujet qui me trottait dans la tête depuis quelques années suite à quelques projets dont je garde des souvenirs assez négatifs. Mais les événements récents m’ont poussé à y réfléchir d’autant plus.
 
@@ -31,7 +31,7 @@ C’est déjà un début.
 
 Mais quid du respect de la vie privée ? Du professionnalisme ?
 
-Comment un scandale comme PRISM peut-il à ce point passer inaperçu **(1)** aux yeux du  grand public alors qu’il devrait y avoir au minimum [533 000](../index.php/travailler-autrement/) informaticiens capable d’expliquer ces conséquences à leurs proches ? Est-ce que notre déontologie ne devrait pas nous forcer, nous qui comprenons les implications, à nous renseigner d’avantage et dénoncer les faits ?
+Comment un scandale comme PRISM peut-il à ce point passer inaperçu **(1)** aux yeux du  grand public alors qu’il devrait y avoir au minimum [533 000](https://eventuallycoding.com/2013/08/12/travailler-autrement) informaticiens capable d’expliquer ces conséquences à leurs proches ? Est-ce que notre déontologie ne devrait pas nous forcer, nous qui comprenons les implications, à nous renseigner d’avantage et dénoncer les faits ?
 
 Malgré tout, [en zieutant Wikipedia](http://fr.wikipedia.org/wiki/Code_de_d%C3%A9ontologie#En_informatique) on apprend que l’informatique en France a bien un semblant de code de déontologie, une charte rédigé par le club informatique des grandes entreprises françaises et le SYNTEC. Ca m’a arraché un oeil en lisant la liste des auteurs mais c’est véridique. Et on y aborde quand même :
 

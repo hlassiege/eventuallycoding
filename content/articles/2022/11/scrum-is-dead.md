@@ -27,11 +27,15 @@ Mais dans le même temps j'écrivais :
 
 > Mais, autant le discours de ces dernières années sur l'agilité m'a fatigué, autant ce serait dommage de jeter le bébé avec l'eau du bain.
 
+::disclaimer
 Attention, dans la suite de ce billet on pourrait croire que je fais l'amalgame entre Scrum et Agile. Ce n'est pas le cas mais Scrum est devenu la méthode agile standard de facto dans de nombreuses entreprises, pour le meilleur, et surtout pour le pire.
+::
 
 Remarquez, c'est déjà mieux que celles qui font du SAFe...
 
+::image
 ![SAFE is the new waterfall](/images/safe-waterfall.jpg)
+::
 
 ## Pourquoi la "Scrum fatigue" ?
 
@@ -47,7 +51,9 @@ Ensuite il y a d'autres fondamentaux dans les principes agiles qui sont plus ou 
 
 La réunionite, les sessions d'estimations toutes cassées, les product Owner, les story point, les daily meetings qui deviennent des moments désagréables et j'en passe, tout un tas de truc qui vous amène vite à la rupture.
 
+::image
 ![But I'm certified!](/images/product-by-scrum-1024x1024.jpg)
+::
 
 Bref, l'implémentation de l'agilité, souvent bancale, est à différentier de son objectif de base. On est presque tous d'accord pour livrer par incréments et amener progressivement de la valeur aux utilisateurs, récolter du feedback, itérer. En pratique on ne sait pas toujours comment faire, on se fait bien souvent mener en bateau par les innombrables consultants/coachs en agilité, transfo digitale etc... qui n'ont pas eux même d'expérience de création de produit. 
 

@@ -30,7 +30,7 @@ module.exports = {
             transform: 'translateX(0)'
           },
         },
-        rubberBand: {
+        'rubber-band': {
           "0%": {
             transform: "scale3d(1, 1, 1)",
           },
@@ -57,7 +57,7 @@ module.exports = {
       animation: {
         'fade-in-right': 'fade-in-right 0.5s ease-out 1',
         'fade-in-left': 'fade-in-left 0.5s ease-out 1',
-        'rubberBand': 'rubberBand 1s ease-in-out 1',
+        'rubber-band': 'rubber-band 1s ease-in-out 1',
       },
       spacing: {
         '76': '17rem',

@@ -9,7 +9,7 @@ const siteMetaInfo = {
     "Speaking about the stuff I do, product, efficiency, tech stack and more.",
   language: "fr-FR",
   theme: "system", // system, dark or light
-  siteUrl: "https://eventuallycoding.com/",
+  siteUrl: "https://eventuallycoding.com",
   siteRepo: "#",
   image: "~/assets/author.png",
   github: "https://github.com/hlassiege",

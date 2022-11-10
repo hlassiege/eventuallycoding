@@ -1,6 +1,5 @@
 
 export default function () {
-
   let blockOfLetters = document.querySelectorAll('.dynamic-letters');
 
   for (const blockOfLetter of blockOfLetters) {
@@ -20,9 +19,9 @@ export default function () {
       span.innerHTML = letter;
 
       span.addEventListener('mouseover', function() {
-        span.classList.add('animate-rubberBand');
+        span.classList.add('animate-rubber-band');
         setTimeout(function() {
-          span.classList.remove('animate-rubberBand');
+          span.classList.remove('animate-rubber-band');
         }, 1050);
       }, false);
       blockOfLetter.appendChild(span);

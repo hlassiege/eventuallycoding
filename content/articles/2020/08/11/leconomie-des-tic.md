@@ -140,7 +140,7 @@ Comme je le disais plus haut, les TIC sont un secteur à ne pas négliger car il
 
 Du coup, parlons de la structuration de l’écosystème tech Français, il y a des choses à dire.
 
-En 2013 je publiais un article : [Travailler autrement](https://eventuallycoding.com/2013/08/12/travailler-autrement/comment-page-1/).
+En 2013 je publiais un article : [Travailler autrement](https://eventuallycoding.com/2013/08/12/travailler-autrement).
 
 Dans ce billet, je faisais un constat peut être un peu violent (se relire 7 ans plus tard ça fait bizarre) mais j’écrivais ceci : 
 
