@@ -9,6 +9,14 @@
         >
           <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/rss.svg"/>
         </a>
+          <a
+              class="text-sm text-gray-500 transition hover:text-gray-600"
+              target="_blank"
+              rel="me"
+              :href="siteMetadata.mastodon"
+          ><span class="sr-only">Mastodon</span>
+              <img class="transition-transform hover:scale-110 w-8 h-8" src="~assets/icon/mastodon.svg" /> </a
+          >
         <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
           target="_blank"
