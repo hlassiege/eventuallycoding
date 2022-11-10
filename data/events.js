@@ -1,5 +1,19 @@
 const events = [
     {
+      event: "Podcast - L'artisan développeur",
+      title: "Rester un contributeur expert avec Hugo et Dimitri",
+      location: "Online",
+      date: "07/11/2022",
+      link: "https://compagnon.artisandeveloppeur.fr/veille/podcast-rester-un-contributeur-expert-avec-hugo-et-dimitri",
+    },
+    {
+      event: "Podcast - On part en prod",
+      title: "Avoir de l'impact et progresser dans le métier de développeur(se)",
+      location: "Online",
+      date: "30/09/2022",
+      link: "https://www.onpartenprod.fr/episode/1-hugo-lassiege-malt-impact-progresser-developpeur",
+    },
+    {
       event: "Podcast - If this then dev",
       title: "Progression de carrière",
       location: "Online",
