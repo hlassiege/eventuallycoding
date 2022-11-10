@@ -36,7 +36,7 @@
                     </p>
                 </div>
                 <div class="flex items-center font-medium sm:mx-3 justify-center">
-                    <nuxt-img
+                    <img
                         :src="siteMetadata.author_image"
                         loading="lazy"
                         alt=""

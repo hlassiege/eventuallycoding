@@ -14,7 +14,7 @@
 
                         <div class="p-3 text-white rounded ">
                             <div class="md:block flex justify-center items-center">
-                                <nuxt-img
+                                <img
                                     :src="siteMetaInfo.author_image"
                                     loading="lazy"
                                     alt="me"
@@ -181,9 +181,7 @@ useHead({
         {hid: "og:type", name: "og:type", content: "article"},
         {hid: "og:title", name: "og:title", content: "A propos de l'auteur"},
         {hid: "og:url", name: "og:url", content: "https://eventuallycoding.com"},
-        // { hid: "og:image", name: "og:image", content: 'https://eventuallycoding.com' + siteMetaInfo.author_image },
         {name: "twitter:text:title", content: "A propos de l'auteur"},
-        // { name: "twitter:image", content: 'https://eventuallycoding.com' +  siteMetaInfo.author_image  },
         {name: "twitter:card", content: 'summary'},
 
     ],
