@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Thu, 10 Nov 2022 22:20:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Nov 2022 12:38:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
@@ -812,13 +812,6 @@ _Le t...]]></description>
 J'ai un peu galéré dernièrement pour configurer correctement Perforce avec Maven et...]]></description>
         </item>
         <item>
-            <title><![CDATA[La quête du Graal avec un cure-dent]]></title>
-            <link>https://eventuallycoding.com/2012/03/10/la-quete-du-graal-avec-un-cure-dent</link>
-            <guid>https://eventuallycoding.com/2012/03/10/la-quete-du-graal-avec-un-cure-dent</guid>
-            <pubDate>Sat, 10 Mar 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[![](/images/grails-logo.png "grails-logo") Grails fait partie des framework haute productivité à la mode ces dernières années. J’étais plutôt motivé p...]]></description>
-        </item>
-        <item>
             <title><![CDATA[Devoxx France : Quicky, not dirty]]></title>
             <link>https://eventuallycoding.com/2012/01/05/devoxx-france-quicky-not-dirty</link>
             <guid>https://eventuallycoding.com/2012/01/05/devoxx-france-quicky-not-dirty</guid>
@@ -903,20 +896,6 @@ Voila, [Localizeyourapps](http://www.loca...]]></description>
             <guid>https://eventuallycoding.com/2011/07/07/utiliser-mockito-et-powermock</guid>
             <pubDate>Thu, 07 Jul 2011 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/mockito.jpg "mockito")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http:...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[WSN Paris 2011 : Flex, la revanche]]></title>
-            <link>https://eventuallycoding.com/2011/06/23/wsn-paris-2011-flex-la-revanche</link>
-            <guid>https://eventuallycoding.com/2011/06/23/wsn-paris-2011-flex-la-revanche</guid>
-            <pubDate>Thu, 23 Jun 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[[![](/images/flexbuilder.png "flexbuilder")](http://eventuallycoding.com/wp-content/uploads/2011/06/flexbuilder.png) Parmi les technos sympa qui nous ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Orion, où comment passer son IDE dans le cloud]]></title>
-            <link>https://eventuallycoding.com/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud</link>
-            <guid>https://eventuallycoding.com/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud</guid>
-            <pubDate>Mon, 20 Jun 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[[![](/images/eclipse.png "eclipse")](http://eventuallycoding.com/wp-content/uploads/2011/06/eclipse.png)Une nouvelle petite constellation dans la gala...]]></description>
         </item>
         <item>
             <title><![CDATA[Les technos de demain selon What's next Paris !]]></title>
@@ -1028,13 +1007,6 @@ Je vous avais déjà parlé de Play dans [un précédent b...]]></description>
             <description><![CDATA[Par définition (Cf. [Wikipédia](http://fr.wikipedia.org/wiki/Test_unitaire) ) un test unitaire est un procédé permettant de s'assurer du fonctionnemen...]]></description>
         </item>
         <item>
-            <title><![CDATA[Atlassian User Group Paris 2010]]></title>
-            <link>https://eventuallycoding.com/2010/11/10/atlassian-user-group-paris-2010-2</link>
-            <guid>https://eventuallycoding.com/2010/11/10/atlassian-user-group-paris-2010-2</guid>
-            <pubDate>Wed, 10 Nov 2010 00:00:00 GMT</pubDate>
-            <description><![CDATA[Plus de détails ici sur l'annonce de l'évènement : [Atlassian User Group](http://confluence.atlassian.com/display/AUG/France+-+Paris+Atlassian+User+Gr...]]></description>
-        </item>
-        <item>
             <title><![CDATA[Agile Tour 2010]]></title>
             <link>https://eventuallycoding.com/2010/11/04/agile-tour-2010-2</link>
             <guid>https://eventuallycoding.com/2010/11/04/agile-tour-2010-2</guid>
@@ -1128,13 +1100,6 @@ Alors tout d'abord, quelques d...]]></description>
             <guid>https://eventuallycoding.com/2009/12/29/jouons</guid>
             <pubDate>Tue, 29 Dec 2009 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Luke, que la force soit avec toi !]]></title>
-            <link>https://eventuallycoding.com/2009/12/06/luke-que-la-force-soit-avec-toi</link>
-            <guid>https://eventuallycoding.com/2009/12/06/luke-que-la-force-soit-avec-toi</guid>
-            <pubDate>Sun, 06 Dec 2009 00:00:00 GMT</pubDate>
-            <description><![CDATA[Vous connaissez [Lucene](http://lucene.apache.org/java/docs/ "Lucene") ? Non ? Dans ce cas je vous invite fortement à découvrir cette API utilisé dans...]]></description>
         </item>
         <item>
             <title><![CDATA[Intégration GWT-maven-spring-hibernate-spring security-smartGWT]]></title>
