@@ -12,7 +12,7 @@ const siteMetadata = {
   siteUrl: "https://eventuallycoding.com/",
   siteRepo: "#",
   image: "~/assets/author.png",
-  mastodon: "https://piaille.fr/web/@hugolassiege",
+  mastodon: "https://piaille.fr/@hugolassiege",
   github: "https://github.com/hlassiege",
   githubUser: "hlassiege",
   twitter: "https://twitter.com/",
