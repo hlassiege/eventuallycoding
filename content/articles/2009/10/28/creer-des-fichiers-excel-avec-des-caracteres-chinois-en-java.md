@@ -5,8 +5,6 @@ description: "## Créer des fichiers Excel avec des caractères Chinois
 
 Dans la lignée du post précédent, pourquoi ne pas continuer à parler de la Chine et aborder l..."
 date: "2009-10-28"
-categories: 
-  - "waza"
 tags: 
   - "java"
   - "poi"
@@ -21,24 +19,22 @@ Dans la lignée du post précédent, pourquoi ne pas continuer à parler de la C
 
 Je vais aborder ici l'utilisation de [POI](http://poi.apache.org/spreadsheet/index.html "POI") et les problèmes que vous pourriez rencontrer avec des jeux de caractères exotiques.
 
- 
-
 Sur l'application sur laquelle je travaillais nous avions un module de transformation de fichiers CSV vers Excel.
 
 L'implémentation de transformation repose sur [POI](http://poi.apache.org/spreadsheet/index.html "POI"), c'est une librairie assez simple et bien foutu pour créer des fichiers Excel.
 
 L'algo est simple, je parcours la liste des valeurs et je crée des cellules au fur et à mesure en se basant sur un code de ce type (ici il s'agit d'une cellule au format texte) :
 
+```java
 // row est une ligne excel créé précédemment, indexCol l'indice de colonne sur la ligne
 HSSFCell cell = row.createCell(indexCol);
 HSSFCellStyle textCellStyle = workbook.createCellStyle();
 textCellStyle.setDataFormat(format.getFormat("General"));
 cell.setCellStyle(textCellStyle);
-cell.setCellValue(\_value);
+cell.setCellValue(value);
+```
 
-Seulement voila, avec cet algo on obtient un résultat un peu étrange lorsque nos données sont en Chinois :
-
-![exportbadchinese](/images/exportbadchinese.png)
+Seulement voila, avec cet algo on obtient un résultat un peu étrange lorsque nos données sont en Chinois
 
 Et je vous garantis, ce n'est pas du Chinois (même si l'un dans l'autre, je ne comprends aucun des deux...).
 
@@ -46,13 +42,12 @@ Et je vous garantis, ce n'est pas du Chinois (même si l'un dans l'autre, je ne 
 
 En fait il est nécessaire de rajouter cette petite indication à POI pour que ça se passe bien :
 
-cell.setEncoding(HSSFCell.ENCODING\_UTF\_16);
+```java
+cell.setEncoding(HSSFCell.ENCODING_UTF_16);
+```
 
-Cette fois on obtient bien du Chinois dans notre fichier :
+Cette fois on obtient bien du Chinois dans notre fichier.
 
-![excelok](/images/excelok.png)
-
- 
 
 ## Astuce
 
@@ -62,6 +57,7 @@ En fait il faut penser à rajouter un [BOM](http://fr.wikipedia.org/wiki/Byte_Or
 
 Pour cela, il suffit d'insérer le BOM en début de flux :
 
-OutputStreamWriter osw = new OutputStreamWriter( new FileOutputStream(csv), FILE\_ENCODING);
+```java
+OutputStreamWriter osw = new OutputStreamWriter( new FileOutputStream(csv), FILE_ENCODING);
 osw.write(0xFEFF);
-....
+```

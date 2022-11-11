@@ -18,7 +18,7 @@ cover: "cover2.jpg"
 
 Ayant bossé en Java je me suis heurté à Swing comme on peut se heurter à un mur. Ouch, quand on vient du Web on déguste fort avec Java et son API pour client lourd.  Pour autant, la techno est elle valable ou non, et que vaut-elle par rapport à J2EE ?
 
-### Swing avant 2007
+## Swing avant 2007
 
 Avant 2007 Sun a clairement focalisé son attention sur J2EE ce qui leur a permis de gagner en popularité. Le nombre de frameworks existant et la richesse des librairies proposées lui ont permis de s'assoir durablement comme "langage pour faire du Web".
 
@@ -32,13 +32,13 @@ De l'avis du créateur de Java : "_Aujourd'hui, Java sur le poste client n'est p
 
 La difficulté de Swing, notamment la maitrise de la gestion événementielle et de l'EDT n'en font pas une partie de plaisir et au final ce n'est pas étonnant de trouver essentiellement des librairies payantes ([Jide](http://www.jidesoft.com/ "Jide") par exemple qui est très bon) alors qu'on peut en trouver gratuitement à foison en J2EE.
 
-### Swing depuis 2007
+## Swing depuis 2007
 
 Mais voila, depuis 2007 Sun semble vouloir revenir sur J2SE : - James Gosling, créateur de Java [met en avant JavaFx](http://pro.01net.com/editorial/363213/james-gosling-%28sun%29-java-sur-le-poste-client-nest-pas-a-la-hauteur-aujourdhui/ "interview de james gosling") \- [Swingx](http://swinglabs.org/ "swinglabs") tente d'apporter du neuf avec objectif d'être intégré en Java 1.5 - [Aerith](https://aerith.dev.java.net/ "Aerith") déjà présenté en 2006 devient open source , et oui, effectivement c'est une IHM qui déchire pas mal - Romain Guy qui s'était fait connaitre sur Aerith publie avec Chett Haase un très bon bouquin : [Filthy rich clients](http://filthyrichclients.org/ "Filthy rich clients")
 
 Soyons honnête toutefois, le bouquin filthyrichclients s'il démontre qu'on peut faire du très bon travail avec Swing met aussi en évidence que ça ne s'adresse pas à tout le monde. Certaines notions comme le double buffering, les problématiques d'accélération matérielle, les notions de Composite ou de transformation d'images sont très techniques et mettent en oeuvre des notions mathématiques qui ne s'adressent pas à monsieur tout le monde. Qui n'a pas galéré des heures sur des problèmes de glitch graphique, de pixels gris etc...  ?
 
-### Et aujourd'hui ?
+## Et aujourd'hui ?
 
 Et aujourd'hui 2009, cela me parait toujours moins rose.
 

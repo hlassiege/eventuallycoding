@@ -38,7 +38,7 @@ Comme quoi, même les plus grands peuvent se tromper ;)
 
 ## Grails
 
-Bon, vous devinez sur quoi j'ai enchaîné par la suite ? Hum, pour le peu de lecteurs qui fréquentent ce site vous vous souviendrez peut être de [ma quête du graal avec un cure dent](http://hakanai.free.fr/index.php/la-quete-du-graal-avec-un-cure-dent/ "La quête du Graal avec un cure-dent"). Eh oui, j'avais testé Grails pour un projet perso et je m'en étais un peu mordu les doigts. Et devinez quoi, Sébastien Blanc et Stéphane Maldini m'avait invité dans les commentaires à venir voir de mes propres yeux leur présentation à Devoxx France ! Forcément c'est ce que j'ai fait ^^
+Bon, vous devinez sur quoi j'ai enchaîné par la suite ? Hum, pour le peu de lecteurs qui fréquentent ce site vous vous souviendrez peut être de ma quête du graal avec un cure dent. Eh oui, j'avais testé Grails pour un projet perso et je m'en étais un peu mordu les doigts. Et devinez quoi, Sébastien Blanc et Stéphane Maldini m'avait invité dans les commentaires à venir voir de mes propres yeux leur présentation à Devoxx France ! Forcément c'est ce que j'ai fait ^^
 
 On a assisté à une présentation rapide de Groovy puis de Grails et ensuite ce fut du live coding pendant 30 minutes. Enfin presque live puisqu'une partie du code provenait d'une application de secours. C'était censé illustrer la rapidité de développement avec Grails et c'était bien amené. Bon après c'est comme toutes les présentations de live coding, c'est dangereux et on a eu droit à l'effet démo. Tant pis, ça arrive. Et je ne trollerais pas en disant que les stracktraces à l'écran étaient incompréhensibles, non je ne trollerais pas ;)
 

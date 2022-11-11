@@ -265,40 +265,40 @@ onMounted(() => {
 });
 
 const postLink = computed(() => {
-    return siteMetadata.value.siteUrl  + article.value._path.replace('/articles/', '');
+    return siteMetadata.value.siteUrl  + article.value?._path.replace('/articles/', '');
 });
 
 useHead({
-    title: article.value.title + " | " + siteMetaInfo.title,
+    title: article.value?.title + " | " + siteMetaInfo.title,
     meta: [
         {
             hid: "description",
             name: "description",
-            content: article.value.description,
+            content: article.value?.description,
         },
-        {hid: "og:description", name: "og:description", content: article.value.description},
+        {hid: "og:description", name: "og:description", content: article.value?.description},
         {hid: "og:type", name: "og:type", content: "article"},
-        {hid: "og:title", name: "og:title", content: article.value.title},
+        {hid: "og:title", name: "og:title", content: article.value?.title},
         {
             hid: "og:url",
             name: "og:url",
-            content: "https://eventuallycoding.com" + article.value._path.replace('/articles', '')
+            content: "https://eventuallycoding.com" + article.value?._path.replace('/articles', '')
         },
         {
             hid: "og:image",
             name: "og:image",
-            content: 'https://eventuallycoding.com' + '/images/covers/' + article.value.cover
+            content: 'https://eventuallycoding.com' + '/images/covers/' + article.value?.cover
         },
-        {name: "og:image:alt", content: article.value.title},
-        {name: "twitter:text:title", content: article.value.title},
-        {name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/' + article.value.cover},
+        {name: "og:image:alt", content: article.value?.title},
+        {name: "twitter:text:title", content: article.value?.title},
+        {name: "twitter:image", content: 'https://eventuallycoding.com' + '/images/covers/' + article.value?.cover},
         {name: "twitter:card", content: 'summary'},
-        {name: "article:published_time", content: formatDatetoIso(article.value.date)},
-        {name: "article:article:modified_time", content: formatDatetoIso(article.value.date)},
-        {name: "article:article:tag", content: article.value.tags ? article.value.tags.toString() : ""},
+        {name: "article:published_time", content: formatDatetoIso(article.value?.date)},
+        {name: "article:article:modified_time", content: formatDatetoIso(article.value?.date)},
+        {name: "article:article:tag", content: article.value?.tags ? article.value.tags?.toString() : ""},
     ],
     link: [
-        {rel: "canonical", href: "https://eventuallycoding.com" + article.value._path.replace('/articles', '')},
+        {rel: "canonical", href: "https://eventuallycoding.com" + article.value?._path.replace('/articles', '')},
     ],
 })
 
