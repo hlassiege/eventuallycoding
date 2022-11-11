@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 11 Nov 2022 21:03:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Nov 2022 22:01:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
@@ -579,14 +579,7 @@ Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventual
             <link>https://eventuallycoding.com/2014/01/18/partir-de-paris-1-an-apres</link>
             <guid>https://eventuallycoding.com/2014/01/18/partir-de-paris-1-an-apres</guid>
             <pubDate>Sat, 18 Jan 2014 00:00:00 GMT</pubDate>
-            <description><![CDATA[[![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolu...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Interview d'une société collaborative : Scopyleft]]></title>
-            <link>https://eventuallycoding.com/2014/01/12/interview-dune-societe-collaborative-scopyleft</link>
-            <guid>https://eventuallycoding.com/2014/01/12/interview-dune-societe-collaborative-scopyleft</guid>
-            <pubDate>Sun, 12 Jan 2014 00:00:00 GMT</pubDate>
-            <description><![CDATA[_Si les [sociétés collaboratives/coopérative](http://www.eventuallycoding.com/index.php/les-societes-cooperatives)s ne sont pas nouvelles, plusieurs d...]]></description>
+            <description><![CDATA[Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans...]]></description>
         </item>
         <item>
             <title><![CDATA[On devrait toujours travailler comme ça (bis)]]></title>
@@ -600,10 +593,7 @@ Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventual
             <link>https://eventuallycoding.com/2013/11/27/principe-de-peter-et-corollaire-darchimede</link>
             <guid>https://eventuallycoding.com/2013/11/27/principe-de-peter-et-corollaire-darchimede</guid>
             <pubDate>Wed, 27 Nov 2013 00:00:00 GMT</pubDate>
-            <description><![CDATA[**Disclaimer**
-> **Second degré exigé** pour lire ce billet. Rassurez-vous, aucun manager n’a été blessé lors de sa rédaction.
- 
-Vous connaissiez p...]]></description>
+            <description><![CDATA[Vous connaissiez peut-être déjà le principe de Peter ? Je vous propose de découvrir le corollaire d'Archimède]]></description>
         </item>
         <item>
             <title><![CDATA[Comparaison de moteurs de base de données pour du stockage de logs]]></title>
@@ -618,20 +608,6 @@ Vous connaissiez p...]]></description>
             <guid>https://eventuallycoding.com/2013/09/28/mongodb-utiliser-les-proprietes-de-vos-objectid-dans-vos-mapreduce</guid>
             <pubDate>Sat, 28 Sep 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[Je vous propose de voir deux fonctionnalités plutôt pratiques de [MongoDB](http://www.mongodb.org/) dans ce billet. D’une part je vais vous parler de ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Interview d'une société collaborative : Neovia]]></title>
-            <link>https://eventuallycoding.com/2013/09/25/interview-dune-societe-collaborative-neovia</link>
-            <guid>https://eventuallycoding.com/2013/09/25/interview-dune-societe-collaborative-neovia</guid>
-            <pubDate>Wed, 25 Sep 2013 00:00:00 GMT</pubDate>
-            <description><![CDATA[_Si les sociétés collaboratives/coopératives ne sont pas nouvelles, plusieurs d...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Interview d'une société collaborative : NinjaSquad]]></title>
-            <link>https://eventuallycoding.com/2013/09/11/interview-dune-societe-collaborative-ninjasquad</link>
-            <guid>https://eventuallycoding.com/2013/09/11/interview-dune-societe-collaborative-ninjasquad</guid>
-            <pubDate>Wed, 11 Sep 2013 00:00:00 GMT</pubDate>
-            <description><![CDATA[_Si les sociétés collaboratives/coopératives ne sont pas nouvelles, plusieurs d...]]></description>
         </item>
         <item>
             <title><![CDATA[Serment d'Hypocrite]]></title>
@@ -660,13 +636,6 @@ Vous connaissiez p...]]></description>
             <guid>https://eventuallycoding.com/2013/08/12/travailler-autrement</guid>
             <pubDate>Mon, 12 Aug 2013 00:00:00 GMT</pubDate>
             <description><![CDATA["Travailler autrement", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Panorama Nosql]]></title>
-            <link>https://eventuallycoding.com/2013/07/21/panorama-nosql</link>
-            <guid>https://eventuallycoding.com/2013/07/21/panorama-nosql</guid>
-            <pubDate>Sun, 21 Jul 2013 00:00:00 GMT</pubDate>
-            <description><![CDATA[Voici quelques slides d'introduction sur Nosql. Ces slides sont issu d'une formation que j'anime sur MongoDB et ont pour objectif de faire prendre du ...]]></description>
         </item>
         <item>
             <title><![CDATA[Eventual Coder]]></title>
@@ -702,7 +671,7 @@ Vous connaissiez p...]]></description>
             <link>https://eventuallycoding.com/2012/12/07/les-societes-cooperatives</link>
             <guid>https://eventuallycoding.com/2012/12/07/les-societes-cooperatives</guid>
             <pubDate>Fri, 07 Dec 2012 00:00:00 GMT</pubDate>
-            <description><![CDATA[[](http://hakanai.free.fr/index.php/les-societes-cooperatives/fierdetredev_thumb1/)Allez je me lance. A 34 ans, je suis aujourd’hui fier d’être dévelo...]]></description>
+            <description><![CDATA[A 34 ans, je suis aujourd’hui fier d’être développeur. Et pourtant, c'était loin d’être gagné.]]></description>
         </item>
         <item>
             <title><![CDATA[Nosql, 4 bases à la loupe 1/4]]></title>
@@ -920,22 +889,6 @@ Voila, [Localizeyourapps](http://www.loca...]]></description>
 **Warning, warning,** ceci n'est pas une rubriqu...]]></description>
         </item>
         <item>
-            <title><![CDATA[Quelle techno pour se faire recruter ?]]></title>
-            <link>https://eventuallycoding.com/2011/04/19/quelle-techno-pour-se-faire-recruter</link>
-            <guid>https://eventuallycoding.com/2011/04/19/quelle-techno-pour-se-faire-recruter</guid>
-            <pubDate>Tue, 19 Apr 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[Depuis peu je recherche une nouvelle mission. Et du coup, par curiosité j'ai parcouru les offres d'emploi sur différentes boards :
-- [Freelance-info]...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Sortie de Play 1.2 !]]></title>
-            <link>https://eventuallycoding.com/2011/04/18/sortie-de-play-1-2</link>
-            <guid>https://eventuallycoding.com/2011/04/18/sortie-de-play-1-2</guid>
-            <pubDate>Mon, 18 Apr 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png)
-Je vous avais déjà parlé de Play dans [un précédent b...]]></description>
-        </item>
-        <item>
             <title><![CDATA[Petit rappel sur un principe agile : Avoir un rythme soutenable]]></title>
             <link>https://eventuallycoding.com/2011/04/12/principe-agile-avoir-un-rythme-soutenable</link>
             <guid>https://eventuallycoding.com/2011/04/12/principe-agile-avoir-un-rythme-soutenable</guid>
@@ -983,14 +936,6 @@ Je vous avais déjà parlé de Play dans [un précédent b...]]></description>
             <guid>https://eventuallycoding.com/2011/02/02/java-vs-c-le-mot-cle-using-en-c-2</guid>
             <pubDate>Wed, 02 Feb 2011 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Transitions agiles, où en sommes nous ?]]></title>
-            <link>https://eventuallycoding.com/2011/01/11/transitions-agiles-ou-en-sommes-nous-2</link>
-            <guid>https://eventuallycoding.com/2011/01/11/transitions-agiles-ou-en-sommes-nous-2</guid>
-            <pubDate>Tue, 11 Jan 2011 00:00:00 GMT</pubDate>
-            <description><![CDATA[VersionOne vient de sortir son étude annuelle sur l'implantation des méthodes agiles dans les entreprises.
-[http://www.versionone.com/state of agil...]]></description>
         </item>
         <item>
             <title><![CDATA[Bonnes pratique de codage en C#]]></title>
@@ -1100,13 +1045,6 @@ Alors tout d'abord, quelques d...]]></description>
             <guid>https://eventuallycoding.com/2009/12/29/jouons</guid>
             <pubDate>Tue, 29 Dec 2009 00:00:00 GMT</pubDate>
             <description><![CDATA[[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Intégration GWT-maven-spring-hibernate-spring security-smartGWT]]></title>
-            <link>https://eventuallycoding.com/2009/12/02/integration-gwt-maven-spring-hibernate-spring-security-smartgwt</link>
-            <guid>https://eventuallycoding.com/2009/12/02/integration-gwt-maven-spring-hibernate-spring-security-smartgwt</guid>
-            <pubDate>Wed, 02 Dec 2009 00:00:00 GMT</pubDate>
-            <description><![CDATA[Ca y est, l'article que j'avais démarré sur GWT et son intégration avec Spring, maven, SmartGwt et Hibernate est enfin sorti dans sa version finale. I...]]></description>
         </item>
         <item>
             <title><![CDATA[Substance, une librairie "hype" pour Swing]]></title>
