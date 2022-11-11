@@ -1,7 +1,7 @@
 ---
 id: "1019"
 title: "Partir de Paris, 1 an après"
-description: "[![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolu..."
+description: "Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans..."
 date: "2014-01-18"
 categories: 
   - "waza"
@@ -9,13 +9,13 @@ img: "3bd6f-lyon.jpg"
 cover: "cover2.jpg"
 ---
 
-[![lyon](/images/3bd6f-lyon.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans.
+![lyon](/images/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans.
 
-En septembre 2011 je publiais un article [“18 mois de freelance, alors quel bilan ?”](http://www.eventuallycoding.com/index.php/18-mois-de-freelance-alors-quel-bilan/). En janvier 2014 j’ai fait pas mal de chemin entre l’arrêt de [www.localizeyourapps.com](http://www.localizeyourapps.com), la création de [www.lateral-thoughts.com](http://www.lateral-thoughts.com) et la création de [www.hopwork.com](http://www.hopwork.com).
+En septembre 2011 je publiais un article [“18 mois de freelance, alors quel bilan ?”](https://eventuallycoding.com/2011/09/20/18-mois-de-freelance-alors-quel-bilan). En janvier 2014 j’ai fait pas mal de chemin entre l’arrêt de [www.localizeyourapps.com](http://www.localizeyourapps.com), la création de [www.lateral-thoughts.com](http://www.lateral-thoughts.com) et la création de [www.hopwork.com](https://www.malt.com).
 
 Mais le bilan que j’aimerais faire pour l’instant porte sur un changement plus personnel : mon émigration de Paris vers Lyon.
 
-Je profite de ce post pour faire une rétrospective de ce départ de Paris en espérant que cela répondra peut-être à certaines questions que quelques uns peuvent se poser.
+Je profite de ce post pour faire une rétrospective de ce départ de Paris en espérant que cela répondra peut-être à certaines questions que quelques-uns peuvent se poser.
 
 ## Tout d’abord, voici les faits.
 
@@ -78,9 +78,9 @@ J’ai reçu 1 appel en 1 mois et demi pour une mission de “Développeur Pytho
 
 Après plus d’un an je comprends mieux. Le marché Lyonnais est structuré différemment. Mes réseaux habituels ne m’ont servi à rien et il y a une grosse présence des intégrateurs traditionnels.
 
-Sur Lyon le secteur banque/finance est beaucoup plus réduit. A la place il y a de gros acteurs industriels, Renault, Volvo, Seb qui font beaucoup appel à des gros intégrateurs.
+Sur Lyon le secteur banque/finance est beaucoup plus réduit. A la place, il y a de gros acteurs industriels, Renault, Volvo, Seb qui font beaucoup appel à des gros intégrateurs.
 
-Il y a un beau terreau de TPE et PME mais qui ont du mal à trouver des gens et que moi-même je galère à trouver.
+Il y a un beau terreau de TPE et PME, mais qui ont du mal à trouver des gens et que moi-même je galère à trouver.
 
  
 
@@ -122,17 +122,17 @@ Et je viens d’acheter une maison, certes en petite couronne Lyonnaise, à 2500
 
 Pour les dépenses usuelles les différences sont mineures. Les impôts locaux sont relativement semblables. Rien de particulier.
 
-Côté restaurants et sorties, Lyon doit être un chouia moins cher. Désolé, je n’ai pas trouvé de source donc je ne me fie qu’à mes observations. On peut trouver des restaurants ou bar avec les mêmes prix qu’à Paris, mais dans l’ensemble, on mange pour moins cher. Je le constate car je remplis mes notes de frais en tant qu’indépendant et que ce poste a bien diminué.
+Côté restaurants et sorties, Lyon doit être un chouia moins cher. Désolé, je n’ai pas trouvé de source donc je ne me fie qu’à mes observations. On peut trouver des restaurants ou bar avec les mêmes prix qu’à Paris, mais dans l’ensemble, on mange pour moins cher. Je le constate, car je remplis mes notes de frais en tant qu’indépendant et que ce poste a bien diminué.
 
-Et en termes de transports, c’est compliqué de comparer puisqu’aujourd’hui j’y vais à pied. Forcément c’est moins cher mais je ne suis pas représentatif.
+Et en termes de transports, c’est compliqué de comparer puisqu’aujourd’hui j’y vais à pied. Forcément, c'est moins cher mais je ne suis pas représentatif.
 
 ## Le confort de vie
 
-Pour conclure, juste après le chapitre qui parlait sous-sous, on va parler confort de vie. Parce que finalement, quelque soit le salaire, “vivre bien” dépend de beaucoup d’autres facteurs et en plus c’est subjectif. Vous pouvez aimer une ville qu’un autre n’aime pas.
+Pour conclure, juste après le chapitre qui parlait sous-sous, on va parler confort de vie. Parce que finalement, Quel que soit le salaire, “vivre bien” dépend de beaucoup d’autres facteurs et en plus c’est subjectif. Vous pouvez aimer une ville qu’un autre n’aime pas.
 
 Pour ma part, j’adore.
 
-La ville de Lyon est très belle, plus de 40% plus petite que Paris et une grande partie se fait à pied sans souci. La ville est bien pourvue en transport : des métros, des trams, des bus et ils  ne sont pas bondés (enfin pas autant que Paris). En moyenne le temps de transport est plus faible. Pour ma part au plus long j’ai été à 25 min de trajet, au plus court 10 min à pied. Ça ne m’était pas arrivé depuis le collège…
+La ville de Lyon est très belle, plus de 40% plus petite que Paris et une grande partie se fait à pied sans souci. La ville est bien pourvue en transport : des métros, des trams, des bus et ils ne sont pas bondés (enfin pas autant que Paris). En moyenne le temps de transport est plus faible. Pour ma part au plus long j’ai été à 25 min de trajet, au plus court 10 min à pied. Ça ne m’était pas arrivé depuis le collège…
 
 Mais attention, c’est une moyenne. Si la circulation est moins dense qu’à Paris ne vous faites pas d’illusions, il y a des bouchons et je suis bien content d’avoir évité le tunnel de Fourvière jusqu’à maintenant.
 

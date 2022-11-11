@@ -10,15 +10,11 @@ const siteMetadata = {
   language: "fr-FR",
   theme: "system", // system, dark or light
   siteUrl: "https://eventuallycoding.com/",
-  siteRepo: "#",
-  image: "~/assets/author.png",
   mastodon: "https://piaille.fr/@hugolassiege",
   github: "https://github.com/hlassiege",
   githubUser: "hlassiege",
   twitter: "https://twitter.com/",
   twitter_user: "hugolassiege",
-  stackoverflow: "#",
-  youtube: "#",
   linkedin: "https://www.linkedin.com/in/hugolassiege/",
   rss: "/rss.xml",
 };

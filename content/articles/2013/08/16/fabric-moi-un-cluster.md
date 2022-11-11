@@ -31,7 +31,9 @@ Et pour illustrer ce billet par un exemple de la vraie vie, vous trouverez à la
 
 ## Installation
 
+```
 pip install fabric
+```
 
 Oui, super complexe...
 
@@ -43,21 +45,21 @@ Oui, super complexe...
 Dans un fichier nommé fabfile.py, écrire les lignes suivantes :
 
 ```python
-from fabric.api import \*
+from fabric.api import *
 
 @task
-def host\_type():
+def host_type():
     run('uname -s')
 ```
 
 Rien d’extraordinaire pour l’instant, nous allons juste executer cette commande sur des machines distantes.
 
 ```
-$ fab -H localhost,linuxbox host\_type
-\[localhost\] run: uname -s
-\[localhost\] out: Darwin
-\[linuxbox\] run: uname -s
-\[linuxbox\] out: Linux
+$ fab -H localhost,linuxbox host_type
+[localhost] run: uname -s
+[localhost] out: Darwin
+[linuxbox] run: uname -s
+[linuxbox] out: Linux
 Done. 
 Disconnecting from localhost... done. 
 Disconnecting from linuxbox... done.
@@ -84,22 +86,22 @@ Changeons désormais notre méthode pour la remplacer par
 ```python
 @task
 @parallel
-def host\_type():
+def host_type():
     run(‘uname -s’)
 ```
 
 Et lors de l’execution :
 
 ```
-$ fab -H localhost,linuxbox host\_type
-\[localhost\] Executing task ‘host\_type’
-\[linuxbox\] Executing task ‘host\_type’
-\[linuxbox\] run: uname -s
-\[localhost run: uname -s
-\[linuxbox\] out: Linux
-\[linuxbox\] out:
-\[localhost\] out: Darwin
-\[localhost\] out:
+$ fab -H localhost,linuxbox host_type
+[localhost] Executing task ‘host_type’
+[linuxbox] Executing task ‘host_type’
+[linuxbox] run: uname -s
+[localhost run: uname -s
+[linuxbox] out: Linux
+[linuxbox] out:
+[localhost] out: Darwin
+[localhost] out:
 ```
 
 Comme son nom l’indique, notre décorateur nous a permis de lancer notre commande en parallèle sur les hôtes passés en paramètre.
@@ -112,9 +114,9 @@ Par exemple, nous allons définir 3 type de rôles :
 
 ```
 env.roledefs = {
-‘test’: \['localhost'\],
-‘database’: \['root@xx.xx.xx.10', 'root@xx.xx.xx.11', 'root@xx.xx.xx.12'\],
-‘web’: \['root@xx.xx.xx.1', 'root@xx.xx.xx.2', 'root@xx.xx.xx.3'\]
+‘test’:  ['localhost' ],
+‘database’:  ['root@xx.xx.xx.10', 'root@xx.xx.xx.11', 'root@xx.xx.xx.12' ],
+‘web’:  ['root@xx.xx.xx.1', 'root@xx.xx.xx.2', 'root@xx.xx.xx.3' ]
 }
 ```
 
@@ -140,24 +142,24 @@ En réalité lorsque vous lancez une commande, il ne s’agit pas uniquement de 
 @task
 @roles(‘web’)
 @parallel
-def something\_wrong():
-    run(‘rm /tmp/unknown\_file’)
+def something _wrong():
+    run(‘rm /tmp/unknown _file’)
 ```
 
 Et l’execution
 
 ```
-$ fab something\_wrong
-\[root@linuxbox\] Executing task ‘something\_wrong’
-\[root@linuxbox\] run: rm /tmp/unknown\_file
-\[root@linuxbox\] out: rm: impossible de supprimer « /tmp/unknown\_file »: Aucun fichier ou dossier de ce type
-\[root@linuxbox\] out:
+$ fab something _wrong
+ [root@linuxbox ] Executing task ‘something _wrong’
+ [root@linuxbox ] run: rm /tmp/unknown _file
+ [root@linuxbox ] out: rm: impossible de supprimer « /tmp/unknown _file »: Aucun fichier ou dossier de ce type
+ [root@linuxbox ] out:
 Fatal error: run() received nonzero return code 1 while executing!
-Requested: rm /tmp/unknown\_file
-Executed: /bin/bash -l -c « rm /tmp/unknown\_file »
+Requested: rm /tmp/unknown _file
+Executed: /bin/bash -l -c « rm /tmp/unknown _file »
 Aborting.
 
-Fatal error: One or more hosts failed while executing task ‘something\_wrong’
+Fatal error: One or more hosts failed while executing task ‘something _wrong’
 Aborting.
 ```
 
@@ -170,7 +172,7 @@ Evidemment parfois on s’attend à une erreur, par exemple sur la tâche suivan
 def remove():
     run(‘service mongodb stop’)
     run(‘aptitude purge mongodb-10gen –assume-yes’)
-    run(‘rm -rf /var/lib/mongodb/\*’)
+    run(‘rm -rf /var/lib/mongodb/ *’)
 ```
 
 Et si MongoDB n’est pas démarré ? C’est un cas normal et la désinstall doit tout de même se poursuivre.
@@ -182,13 +184,13 @@ Dans ce cas, on pourra ignorer l’erreur :
 @roles(‘database’)
 @parallel
 def remove():
-    with settings(warn\_only=True):
+    with settings(warn _only=True):
         run(‘service mongodb stop’)
     run(‘aptitude purge mongodb-10gen –assume-yes’)
-    run(‘rm -rf /var/lib/mongodb/\*’)
+    run(‘rm -rf /var/lib/mongodb/ *’)
 ```
 
-Le décorateur @with\_settings vous permettra d’ignorer les erreurs pour une tâche entière.
+Le décorateur @with_settings vous permettra d’ignorer les erreurs pour une tâche entière.
 
 ## La manipulation de fichier
 
@@ -196,7 +198,7 @@ Plutôt fréquent dans une installation, vous devez modifier la configuration pa
 
 La première, la plus simple dont on va se servir pour configurer le nom du cluster elasticsearch :
 
-sed('/etc/elasticsearch/elasticsearch.yml', '.\*cluster.name:.\*', 'cluster.name: eventuallycoding')
+sed('/etc/elasticsearch/elasticsearch.yml', '.*cluster.name:.*', 'cluster.name: eventuallycoding')
 
 Parfois cependant on a une logique plus alambiqué : si jamais la ligne n’existe pas tu la rajoutes, sinon tu la modifies (par exemple pour rajouter un dépot apt).
 

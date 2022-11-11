@@ -5,15 +5,13 @@ description: "[![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://ev
 
 _Le t..."
 date: "2012-07-01"
-categories: 
-  - "waza"
 tags: 
   - "humour"
 img: "Illustration_sans_titre-29-1024x1024.jpg"
 cover: "cover5.jpg"
 ---
 
-[![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-29.jpg)
+![](/images/Illustration_sans_titre-29-1024x1024.jpg)
 
 _Le texte suivant est une adaptation d'un texte humoristique qui visait à l'origine les énarques. En voici une légère modification dans le monde de l'IT. Toute ressemblance avec des personnes existantes serait purement fortuite... ou pas._
 
