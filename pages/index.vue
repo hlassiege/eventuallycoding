@@ -141,10 +141,9 @@
 </template>
 <script setup lang="ts">
 import BlogCard from "../components/BlogCard.vue";
-import BlogCardHorizontal from "../components/BlogCardHorizontal";
 import HeroSection from "../components/HeroSection";
 import dynamicLetters from "../sources/dynamic-letters";
-import siteMetaInfo from "../data/sitemetainfo";
+import siteMetaInfo from "../data/siteMetaData";
 import events from "../data/events";
 import {onMounted} from "../.nuxt/imports";
 

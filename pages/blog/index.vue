@@ -84,7 +84,7 @@
 </template>
 <script setup lang="ts">
 import HeroSection from "../../components/HeroSection";
-import siteMetaInfo from "../../data/sitemetainfo";
+import siteMetaInfo from "../../data/siteMetaData";
 const route = useRoute();
 const currentTag = ref<string>(route.query.tag || '');
 

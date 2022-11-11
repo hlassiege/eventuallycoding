@@ -50,7 +50,7 @@
 
 <script setup lang="ts">
 import HeroSection from "../components/HeroSection";
-import siteMetaInfo from "../data/sitemetainfo";
+import siteMetaInfo from "../data/siteMetaData";
 
 const { data: article } = await useAsyncData('resources', () => queryContent('resources').where({title: 'Ressources'}).findOne())
 const siteMetadata = ref<string>(siteMetaInfo);
