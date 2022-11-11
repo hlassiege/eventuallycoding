@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 11 Nov 2022 12:38:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Nov 2022 14:19:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
@@ -638,7 +638,7 @@ Vous connaissiez p...]]></description>
             <link>https://eventuallycoding.com/2013/09/09/serment-dhypocrite</link>
             <guid>https://eventuallycoding.com/2013/09/09/serment-dhypocrite</guid>
             <pubDate>Mon, 09 Sep 2013 00:00:00 GMT</pubDate>
-            <description><![CDATA[La déontologie dans l’informatique, sujet complexe n’est ce pas ...]]></description>
+            <description><![CDATA[Et si on parlait de la déontologie dans l’informatique]]></description>
         </item>
         <item>
             <title><![CDATA[Vagrant et Fabric : prise en main]]></title>
