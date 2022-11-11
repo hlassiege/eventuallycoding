@@ -27,7 +27,9 @@ image tiré de leur site qui illustre l'enrichissement par plusieurs sources
 Je ne vais pas trop m'étendre sur le fonctionnel, ici je vous propose plutôt de parler des problématiques d'intégration.  
 C'est un billet un peu "niche" qui intéressera moins de monde mais je trouve les problématiques assez intéressantes en terme d'API et je me trouve moi même assez souvent en manque de sources quand je cherche à utiliser ce type d'outils. Même si vous ne connaissez pas ou ne comptez pas utiliser Hull, les réflexions sur l'ingestion et l'export de données vous intéresseront peut-être.
 
-**Disclaimer** : Vous allez me dire que certains produits n'ont pas besoin qu'on leur dédie des billets de blog parce que leur doc est très bonne. Et c'est pas faux. Hull a une [documentation en ligne](https://www.hull.io/docs/) mais c'est un produit jeune et la documentation n'est pas toujours exacte ou exhaustive. Cependant elle s'améliore.
+::disclaimer
+Vous allez me dire que certains produits n'ont pas besoin qu'on leur dédie des billets de blog parce que leur doc est très bonne. Et c'est pas faux. Hull a une [documentation en ligne](https://www.hull.io/docs/) mais c'est un produit jeune et la documentation n'est pas toujours exacte ou exhaustive. Cependant elle s'améliore.
+::
 
 Maintenant que les présentations sont faites, parlons de la première étape : l'injection de données.
 

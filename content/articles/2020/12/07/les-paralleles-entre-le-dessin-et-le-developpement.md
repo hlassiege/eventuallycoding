@@ -23,7 +23,9 @@ Je vous propose ici de faire quelques parallèles entre le dessin et le dévelop
 Pour illustrer ce billet je vais me concentrer sur le dessin de personnage. Le dessin c'est un sujet très vaste, comme le développement informatique d'ailleurs, et on peut retrouver des spécialistes des décors, de la colorisation, de l'animation, des animaux, du character design etc…  
 Il existe plein de métiers différents, illustrateur, concept artist, keyframe animator, artiste 3D et des myriades de déclinaison en fonction des cibles. On peut être par exemple illustrateur jeunesse, illustrateur dans des revues scientifiques, illustrateur de couverture. Et enfin il y a une multitude d'outil, le numérique, l'aquarelle, l'acrylique etc…
 
-Disclaimer : pour ma part je suis le début d'un embryon d'amateur en dessin, je raconterais sans doute pas mal de bêtises. Si vous cherchez un billet de spécialiste sur l'illustration, passez votre chemin.
+::disclaimer 
+pour ma part je suis le début d'un embryon d'amateur en dessin, je raconterais sans doute pas mal de bêtises. Si vous cherchez un billet de spécialiste sur l'illustration, passez votre chemin.
+::
 
 Bref, partons dans un premier temps de ces dessins :
 

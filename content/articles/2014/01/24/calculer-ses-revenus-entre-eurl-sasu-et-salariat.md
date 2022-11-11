@@ -1,9 +1,7 @@
 ---
 id: "1026"
 title: "Calculer ses revenus entre EURL SASU et salariat"
-description: "Disclaimer
-
-Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-free..."
+description: "Ce billet date de 2014. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-free..."
 date: "2014-01-24"
 categories: 
   - "waza"
@@ -14,9 +12,9 @@ img: "cc020-freelancers.jpg"
 cover: "cover8.jpg"
 ---
 
-Disclaimer
-
-Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries/  
+::disclaimer
+Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries/
+::
 
 [![freelancers](/images/cc020-freelancers.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/cc020-freelancers.jpg)
 

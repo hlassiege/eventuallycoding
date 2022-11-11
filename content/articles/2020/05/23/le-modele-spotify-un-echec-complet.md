@@ -112,4 +112,6 @@ Bref, pour conclure je reviendrais juste sur la phrase qui commence l'article in
 Non effectivement. Déjà ça n'a peut être été qu'un idéal. Et en soit ce n'est pas négatif de se fixer des objectifs ambitieux.  
 Et par la suite Spotify a sans doute fait évoluer son modèle d'origine. En plusieurs années ils ont changé, adapté et vous devriez le faire aussi.
 
-Disclaimer : a l'inverse de l'auteur je n'ai pas bossé chez Spotify. Il s'agit d'un billet d'opinion. A prendre ou à laisser ;)
+::disclaimer 
+a l'inverse de l'auteur, je n'ai pas bossé chez Spotify. Il s'agit d'un billet d'opinion. A prendre ou à laisser ;)
+::

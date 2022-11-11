@@ -15,9 +15,9 @@ cover: "cover6.jpg"
 
 A travers deux billets, j’avais envie de revenir sur cette étape cruciale pour chacun dans sa carrière, en tant que recruté (pour ce premier billet) ou recruteur (pour le suivant).
 
-_Disclaimer :_
-
+::disclaimer
 _En me lançant sur ce billet, je pensais juste parler en tant que recruteur. Et puis finalement j’ai eu envie de parler de plein de choses, d’inclure des pensées diverses et variées. C’est un peu différent de mes billets habituels. J’espère ne pas m’être trop perdu et que cela apporte quelque chose._
+::
 
 14 ans que je travaille, c'est peu et c'est beaucoup à la fois. J'ai changé de carrière quelques fois : startup (en 2001), SSII, gros éditeur de logiciel, freelance et enfin créateur de deux entreprises. J’ai vu de nombreux secteurs, les télécoms, la finance, l’assurance, la banque de détail, l’énergie, le voyage, la cuisine.
 

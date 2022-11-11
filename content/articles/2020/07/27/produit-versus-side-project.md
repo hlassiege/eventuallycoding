@@ -83,8 +83,12 @@ Cette notion de contrainte est cruciale, y compris pour une entreprise déjà im
 J'ai participé à certains projets pharaoniques, largement financé, sans date, avec un scope très large. Et ce qui devait arriver arriva, rien n'est sorti malgré des armées de gens talentueux dessus.  
 Même une "petite" équipe projet de 5 personnes pendant 6 mois, ça représente entre 250 et 500k. Entre 1/4 et 1/2 millions d'euros. Ne pas avoir de date, de scope, d'objectifs chiffrés, c'est un risque de perte d'argent plutôt important.
 
-A l'opposé, dans des contextes d'intraprenariat, vous avez des sociétés qui fonctionnent avec des systèmes de bourse et de contraintes.  
-Disclaimer : Je vais citer ici des entreprise, et je suis conscient qu'il y a le mythe (ce qu'elles ont raconté dans la presse) et la réalité. Ne me tenez pas rigueur si jamais ce n'est plus comme ça ou si ça ne l'a jamais été, c'est le concept qui nous intéresse ici.  
+A l'opposé, dans des contextes d'intraprenariat, vous avez des sociétés qui fonctionnent avec des systèmes de bourse et de contraintes.
+
+::disclaimer 
+Je vais citer ici des entreprise, et je suis conscient qu'il y a le mythe (ce qu'elles ont raconté dans la presse) et la réalité. Ne me tenez pas rigueur si jamais ce n'est plus comme ça ou si ça ne l'a jamais été, c'est le concept qui nous intéresse ici.
+::
+
 Chez Gore (exemple issu du livre "future of management" de Gary Hamel), il est possible pour chaque employé de proposer une idée d'innovation et si on est convaincant, d'obtenir un budget pour tester un projet sur X mois. Au bout de ce délai, si le projet réussit, l'entreprise continue d'investir, sinon on jette. C'est ainsi que l'entreprise Gore s'est lancé dans la fabrication de cordes de guitares.  
 Chez Valve, idem, un employé doit convaincre ses collègues de travailler sur une idée et s'il réussit, ils vont avoir un temps/budget limité pour démontrer un résultat.  
 Sur beta.gouv.fr, l'idée est d'avoir une enveloppe de 6 mois, à 5, pour présenter un MVP qui aura des utilisateurs, sinon, le projet est abandonné.
