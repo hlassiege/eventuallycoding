@@ -1,7 +1,7 @@
 ---
 id: "939"
 title: "Serment d'Hypocrite"
-description: "La déontologie dans l’informatique, sujet complexe n’est ce pas ..."
+description: "Et si on parlait de la déontologie dans l’informatique"
 date: "2013-09-09"
 categories: 
   - "waza"
@@ -13,27 +13,33 @@ img: "1dab7-1984-poster.jpg"
 cover: "cover1.jpg"
 ---
 
-![1984-poster](/images/1dab7-1984-poster.jpg)La déontologie dans l’informatique, sujet complexe n’est ce pas ?
+La déontologie dans l’informatique, sujet complexe n’est ce pas ?
+
+## Le serment d'Hippocrate
 
 C’est un sujet qui me trottait dans la tête depuis quelques années suite à quelques projets dont je garde des souvenirs assez négatifs. Mais les événements récents m’ont poussé à y réfléchir d’autant plus.
 
 J’imagine qu’une grande majorité connaît déjà le [serment d’Hippocrate](http://fr.wikipedia.org/wiki/Serment_d%27Hippocrate) prononcé par les médecins avant de commencer à exercer. C’est un texte écrit, selon Wikipédia, aux alentours du IV siècle avant JC et qui forme la base du code de déontologie médicale.
 
-Pour ceux dont le terme déontologie fait mal aux yeux, il s’agit d’un ensemble de règles et devoirs qui régissent une profession. Si l’origine grecque du mot ne parle pas d’éthique ou de morale (du grec deon, -ontos, ce qu'il faut faire, et logos, discours), c’est pourtant bien ce qu’on associe aujourd’hui à ce mot.
+Pour ceux dont le terme déontologie fait mal aux yeux, il s’agit d’un ensemble de règles et devoirs qui régissent une profession. Si l’origine grecque du mot ne parle pas d’éthique ou de morale (du grec deon, -ontos, ce qu'il faut faire, et logos, discours), c’est pourtant bien ce qu’on associe aujourd'hui à ce mot.
 
 C’est notamment ce code de déontologie médical qui fixe les grands principes du secret professionnel et du respect de la vie.
 
 A l’heure de PRISM ou d’AMESYS, qu’est-ce qui définit chez nous, informaticiens, les règles et devoirs que nous devrions respecter ?
 
-En fait la seule chose que j’ai jamais signé à l’école ou en entreprise ce sont des chartes informatiques. En gros ca disait qu’il fallait pas créer de bots XDCC sur les serveurs de l’école, qu’il fallait pas pirater les comptes des autres élèves pour leur changer leur fond d’écran, qu’il fallait pas utiliser son mail pour envoyer des kilos de powerpoint même s’ils étaient rigolos et qu’il fallait éviter d’installer des softs hackés.
+## La déontologie dans l'informatique ?
 
-C’est déjà un début.
+En fait la seule chose que j’ai jamais signé à l’école ou en entreprise ce sont des chartes informatiques. En gros ça disait qu’il ne fallait pas créer de bots XDCC sur les serveurs de l’école, qu’il ne fallait pas pirater les comptes des autres élèves pour leur changer leur fond d’écran, qu’il ne fallait pas utiliser son mail pour envoyer des kilos de powerpoint même s’ils étaient rigolos et qu’il fallait éviter d’installer des softs hackés.
 
-Mais quid du respect de la vie privée ? Du professionnalisme ?
+C’est déjà un début. Mais c'est assez pauvre.
 
-Comment un scandale comme PRISM peut-il à ce point passer inaperçu **(1)** aux yeux du  grand public alors qu’il devrait y avoir au minimum [533 000](https://eventuallycoding.com/2013/08/12/travailler-autrement) informaticiens capable d’expliquer ces conséquences à leurs proches ? Est-ce que notre déontologie ne devrait pas nous forcer, nous qui comprenons les implications, à nous renseigner d’avantage et dénoncer les faits ?
+Quid du respect de la vie privée ? Du professionnalisme ?
 
-Malgré tout, [en zieutant Wikipedia](http://fr.wikipedia.org/wiki/Code_de_d%C3%A9ontologie#En_informatique) on apprend que l’informatique en France a bien un semblant de code de déontologie, une charte rédigé par le club informatique des grandes entreprises françaises et le SYNTEC. Ca m’a arraché un oeil en lisant la liste des auteurs mais c’est véridique. Et on y aborde quand même :
+Comment un scandale comme PRISM peut-il à ce point passer inaperçu [^1] aux yeux du grand public alors qu’il devrait y avoir au minimum [533 000](https://eventuallycoding.com/2013/08/12/travailler-autrement) informaticiens capable d’expliquer ces conséquences à leurs proches ? Est-ce que notre déontologie ne devrait pas nous forcer, nous qui comprenons les implications, à nous renseigner davantage et dénoncer les faits ?
+
+## La déontologie expliqué par le SYNTEC et le CIGREF
+
+Malgré tout, [en zieutant Wikipedia](http://fr.wikipedia.org/wiki/Code_de_d%C3%A9ontologie#En_informatique) on apprend que l’informatique en France a bien un semblant de code de déontologie, une charte rédigé par le club informatique des grandes entreprises françaises et le SYNTEC. Ca m’a arraché un œil en lisant la liste des auteurs, mais c’est véridique. Et on y aborde quand même :
 
 - La connaissance des métiers,
 - La transparence,
@@ -45,47 +51,53 @@ Malgré tout, [en zieutant Wikipedia](http://fr.wikipedia.org/wiki/Code_de_d%C3%
 - La productivité,
 - Le suivi.
 
-Quand on lit ça, le parrainage du SYNTEC fait un peu sourire vu l’hypocrisie de la filière sur ces questions.
-
 Et concernant “le suivi”, je me suis demandé si remplir les CRAs faisait partie de mon code déontologique :)
 
-Mais c’est déjà bien ! Au moins on y parle de professionnalisme et ce serait déjà fantastique si on parvenait à respecter ces points, mais c’est un autre sujet...
+C'est déjà bien ! Au moins on y parle de professionnalisme et ce serait déjà fantastique si on parvenait à respecter ces points, mais c’est un autre sujet...
 
-Malheureusement je ne vois rien concernant la protection de la vie privée et la responsabilité collective vis à vis de la société.
+Malheureusement **je ne vois rien concernant la protection de la vie privée et la responsabilité collective vis-à-vis de la société**.
 
-Toujours est-il que j’ai cherché sur Google cette fameuse charte et je n’ai pas réussi à mettre la main dessus. Par contre je suis tombé sur cet article qui m’a donné un éclairage intéressant sur l’origine de cette charte :
+Toujours est-il que j’ai cherché sur Google cette fameuse charte et je n’ai pas réussi à mettre la main dessus. Par contre, je suis tombé sur cet article qui m’a donné un éclairage intéressant sur l’origine de cette charte :
 
-[http://www.argusdelassurance.com/social/le-cigref-et-le-syntec-font-la-paix-autour-d-une-charte.14513](http://www.argusdelassurance.com/social/le-cigref-et-le-syntec-font-la-paix-autour-d-une-charte.14513)
+[Le Cigref et le syntec font la paix autour d'une charte](http://www.argusdelassurance.com/social/le-cigref-et-le-syntec-font-la-paix-autour-d-une-charte.14513)
 
 > Le Club informatique des grandes entreprises françaises (Cigref) et la chambre syndicale des SSII et des éditeurs de logiciels (Syntec) établissent une charte de déontologie commune. Les relations entre les deux organismes se sont tendues depuis l'implosion de la bulle Internet. Le Cigref reproche aux prestataires de ne pas avoir su maîtriser les innovations qu'ils ont contribué à intégrer dans l'informatique des grandes entreprises. De même, le Syntec vit mal la pression sur les prix instaurée par les grandes entreprises.
 
-Ok je vois mieux, le CIGREF reprochait un manque de maitrise des technologies et un manque de professionnalisme des SSII dans la période qui a suivi l’explosion de la bulle internet. Et cette fameuse charte a servi à enterrer la hache de guerre entre SSII et clients de SSII. Relisez les thèmes abordés par cette charte en sachant cela, on comprend mieux...
+Ok, je vois mieux, le CIGREF reprochait un manque de maitrise des technologies et un manque de professionnalisme des SSII dans la période qui a suivi l’explosion de la bulle internet. Et cette fameuse charte a servi à enterrer la hache de guerre entre SSII et clients de SSII. Relisez les thèmes abordés par cette charte en sachant cela, on comprend mieux...
 
 Malgré tout, c’est vrai qu’un code déontologique est loin d’être simple à écrire.
 
-Il y a quelques années j’ai participé à un projet dont le but affiché était d’automatiser un grand nombre d’opérations pour supprimer les coûts salariaux relatifs à ceux qui faisaient ces opérations à la mimine auparavant.
+## Responsabilité sociétale et déontologie 
+
+Il y a quelques années, j’ai participé à un projet dont le but affiché était d’automatiser un grand nombre d’opérations pour supprimer les coûts salariaux relatifs à ceux qui faisaient ces opérations à la mimine auparavant.
 
 Ce projet se déroulait dans le plus grand cynisme, il s’agissait bien de dégager des centaines de personnes pour dégager plus de profit. L’entreprise comme acteur social, on repassera.
 
-D’un autre côté, en prenant du recul, Keynes dans les années 20 prédisait que nous travaillerions de moins en moins car nous aurions automatisé tout le travail pénible dans le futur. L’automatisation, la robolution serait donc une évolution inévitable qui pourrait conduire à cette fameuse [semaine de 15 heures de travail](http://ecointerview.wordpress.com/2012/08/22/keynes-et-la-semaine-de-15-heures/) imaginé par Keynes. (C’était aussi le principe qui régissait la société décrite dans la “nuit des temps” de Barjavel où le travail ne subsistait que pour donner un rôle social mais n’avait aucune utilité réelle).
+D’un autre côté, en prenant du recul, Keynes dans les années 20 prédisait que nous travaillerions de moins en moins, car nous aurions automatisé tout le travail pénible dans le futur. L’automatisation, la robolution serait donc une évolution inévitable qui pourrait conduire à cette fameuse [semaine de 15 heures de travail](http://ecointerview.wordpress.com/2012/08/22/keynes-et-la-semaine-de-15-heures/) imaginé par Keynes. (C’était aussi le principe qui régissait la société décrite dans la “nuit des temps” de Barjavel où le travail ne subsistait que pour donner un rôle social, mais n’avait aucune utilité réelle).
 
-Bon enfin ça c’est bien beau, mais entre temps la transition est plutôt douloureuse.
+C'est bien beau, mais entre temps la transition est plutôt douloureuse.
 
-Mais du coup je suis incapable de me positionner sur ce sujet. Que pourrait faire un code déontologique pour moi dans ce cas là si celui-ci me dit qu’il faut “agit pour le bien commun” ?
+Il est donc très difficile de me positionner sur ce sujet. Que pourrait faire un code déontologique pour moi dans ce cas-là si celui-ci me dit qu’il faut “agit pour le bien commun” ?
 
-En aidant à supprimer des postes, j'oeuvre pour le bien commun ?
+En aidant à supprimer des postes, j'œuvre pour le bien commun ?
 
-Mais en aidant à conserver des jobs inutiles, est-ce que je fais mieux ?
+Mais en aidant à conserver ces jobs, est-ce que je fais mieux ? Dans quelle mesure je participe au contraire à libérer des individus d'une tâche répétitive et inutile ? Si mon idéal est bien la semaine de 15h décrite plus haut, je dois travailler à automatiser les tâches répétitives pour que les humains puissent se consacrer à des tâches plus intéressantes.
 
-En médecine aussi il existe des débats sur la culture de cellule souche, l’euthanasie qui sont très compliqués à trancher.
+Encore faut-il qu'il y ait redistribution des richesses produites... 
+
+En médecine aussi il existe des débats qui sont très compliqués à trancher : sur la culture de cellule souche, l’euthanasie etc... Et c'est pourquoi il existe un ordre des médecins qui en discute.
+
+Je ne crois pas qu'il existe l'équivalent pour nous. 
+
+## Un code de déontologie très complet au Québec 
 
 Difficile ne veut pas dire qu’il ne faut pas s’y essayer. En cherchant un peu plus j’ai découvert que au Québec ils avaient bien réussi à rédiger [un code déontologique des informaticiens et informaticiennes](http://www.iro.umontreal.ca/%7Edift3830/code.txt).
 
-Ce code contient des chapitres sur le professionnalisme. Pour l'anecdote on notera d’ailleurs le support officiel des groupes d’échanges dans la charte :
+Ce code contient des chapitres sur le professionnalisme. Pour l'anecdote, on notera d’ailleurs le support officiel des groupes d’échanges dans la charte :
 
 > Les obligations des informaticiens envers leur profession
 > 
-> L'informaticien aide, dans la mesure de ses possibilités, au développement de sa profession par l'échange de ses connaissances et de son expérience avec ses collègues et par sa collaboration à des activités de formation continue ou à des stages de  perfectionnement.
+> L'informaticien aide, dans la mesure de ses possibilités, au développement de sa profession par l'échange de ses connaissances et de son expérience avec ses collègues et par sa collaboration à des activités de formation continue ou à des stages de perfectionnement.
 
 Mais il a aussi le mérite de parler de sujets plus profonds. Je vous laisse juge. J’ai supprimé quelques articles pour ne garder que ceux que je trouvais les plus intéressants.
 
@@ -117,11 +129,19 @@ Mais il a aussi le mérite de parler de sujets plus profonds. Je vous laisse jug
 > 
 > 2.19 L'informaticien favorise les mesures d'éducation et d'information dans le domaine de l'informatique, que ce soit dans l'entreprise où il exerce ou dans son milieu social.
 
-En tant qu’être humain normalement constitué, trouvez-vous normal de ne poser aucune question et exécuter les consignes aveuglement lorsqu’il s’agit d’organiser la surveillance généralisée, l’espionnage des individus. Si vous étiez chez Amesys, [était-il nécessaire d’attendre que votre société soit sous l’objet d’une information judiciaire pour complicité d’acte de torture en Lybie](http://www.humanite.fr/monde/amesys-information-judiciaire-ouverte-pour-complicite-de-torture-en-libye-497057) pour  vous rendre compte de sa nuisance ?
+J'avoue que certains items me rappellent les [lois de la robotique d'Asimov](https://fr.wikipedia.org/wiki/Trois_lois_de_la_robotique). 
 
-Et nous informaticiens, à l’heure ou le numérique a une place prépondérante dans nos vies, à l’heure où les prédictions les plus noires de Orwell se sont réalisées, avons-nous prononcé **un serment d’hypocrite** au point de ne pas reconnaître ces actions néfastes quand elles se présentent ? Est-ce que "je ne suis que prestataire" ou "c'est pas moi qui décide" est vraiment une ligne de défense acceptable ?
+## Déontologie et respect de la vie privée
 
-Oh vous vous dites peut-être, “moi je suis pas concerné, je travaille pas pour l’armée/la défense etc…”. A l'heure du BigData où chacun tente de conserver et exploiter un maximum de données ce serait pourtant surprenant. Dans le grand public on ne peut pas dire que Cisco, Google, Facebook, Microsoft et bien d'autres moins connus ait fait beaucoup mieux.
+::image
+![1984-poster](/images/1dab7-1984-poster.jpg)
+::
+
+En tant qu’être humain, trouvez-vous normal de ne poser aucune question et exécuter les consignes aveuglement lorsqu’il s’agit d’organiser la surveillance généralisée, l’espionnage des individus. Si vous étiez chez Amesys, [était-il nécessaire d’attendre que votre société soit sous l’objet d’une information judiciaire pour complicité d’acte de torture en Lybie](http://www.humanite.fr/monde/amesys-information-judiciaire-ouverte-pour-complicite-de-torture-en-libye-497057) pour vous rendre compte de sa nuisance ?
+
+Et nous informaticiens, à l’heure ou le numérique a une place prépondérante dans nos vies, à l’heure où les prédictions les plus noires d'Orwell se sont réalisées, avons-nous prononcé **un serment d’hypocrite** au point de ne pas reconnaître ces actions néfastes quand elles se présentent ? Est-ce que "je ne suis que prestataire" ou "ce n'est pas moi qui décide" est vraiment une ligne de défense acceptable ?
+
+Oh vous vous dites peut-être, “moi je ne suis pas concerné, je ne travaille pas pour l’armée/la défense etc…”. A l'heure du BigData où chacun tente de conserver et exploiter un maximum de données ce serait pourtant surprenant. Dans le grand public on ne peut pas dire que Cisco, Google, Facebook, Microsoft et bien d'autres moins connus ait fait beaucoup mieux.
 
 Récemment [un employé de Blizzard se repentait d'avoir du poser des backdoors sur la version chinoise de WOW](https://news.ycombinator.com/item?id=6154475) afin de permettre sa vente en Chine. Tous les secteurs sont concernés.
 
@@ -131,15 +151,16 @@ Réfléchissez-y.
 
 Et pour conclure je finirais par une citation [d'un article lu récemment](http://www.zdnet.fr/actualites/tribune-un-nouvel-internet-securise-et-libre-vous-revez-39793826.htm) :
 
-> Cela serait bien que les ingénieurs ne restent pas silencieux sur la pression du gouvernement pour subvertir la sécurité de leurs produits. Lancer des alertes sur ce genre de choses me semble honorable. Plus largement, nous devons réfléchir sur ce qu'il convient de faire, parce que la situation actuelle n'est pas acceptable. \[...\] Si les ingénieurs, ou même les simples mortels, pensent que quelque chose doit être fait, les urnes électorales sont l'endroit tout désigné pour le faire.
-
-(1)  Quelques articles dans la presse c’est bénin. Un tel scandale devrait avoir **au minimum** poussé tous les dirigeants actuels à être démis de leur fonction. Le watergate qui a poussé Nixon à la démission n’était qu’un pouillième de ce que PRISM, Amesys ou la NSA représente.
+> Cela serait bien que les ingénieurs ne restent pas silencieux sur la pression du gouvernement pour subvertir la sécurité de leurs produits. Lancer des alertes sur ce genre de choses me semble honorable. Plus largement, nous devons réfléchir sur ce qu'il convient de faire, parce que la situation actuelle n'est pas acceptable. [...]Si les ingénieurs, ou même les simples mortels, pensent que quelque chose doit être fait, les urnes électorales sont l'endroit tout désigné pour le faire.
 
 Quelques liens à lire :
 
 - Lettre ouverte aux mathématiciens ayant travaillé pour le NSA : [http://lite2.framapad.org/p/nsa-maths](http://lite2.framapad.org/p/nsa-maths)
-- Inventaire à la Prévert des questions sans réponse sur #PRISM  [http://reflets.info/inventaire-a-la-prevert-des-questions-sans-reponse-sur-prism/](http://reflets.info/inventaire-a-la-prevert-des-questions-sans-reponse-sur-prism/)
+- Inventaire à la Prévert des questions sans réponse sur #PRISM [http://reflets.info/inventaire-a-la-prevert-des-questions-sans-reponse-sur-prism/](http://reflets.info/inventaire-a-la-prevert-des-questions-sans-reponse-sur-prism/)
 - Prism n’est qu’une partie d’un système bien plus vaste : [http://reflets.info/spoiler-what-is-prism/](http://reflets.info/spoiler-what-is-prism/)
 - La théorie du gros Zizi : [http://reflets.info/prism-la-theorie-du-gros-zizi/](http://reflets.info/prism-la-theorie-du-gros-zizi/)
 - L’hypocrisie française : [http://bluetouff.com/2013/07/01/prism-comment-passer-dun-spagrave-au-chuichoquee-en-moins-de-48h-avec-du-fleurpellerin-dedans/](http://bluetouff.com/2013/07/01/prism-comment-passer-dun-spagrave-au-chuichoquee-en-moins-de-48h-avec-du-fleurpellerin-dedans/)
 - Au moins 7 pays européens auraient des accords avec la NSA : [http://reflets.info/prism-and-guests-au-moins-7-pays-europeens-auraient-des-accords-avec-la-nsa/](http://reflets.info/prism-and-guests-au-moins-7-pays-europeens-auraient-des-accords-avec-la-nsa/)
+
+
+[^1]: Quelques articles dans la presse c’est bénin. Un tel scandale devrait avoir **au minimum** poussé tous les dirigeants actuels à être démis de leur fonction. Le watergate qui a poussé Nixon à la démission n’était qu’un pouillième de ce que PRISM, Amesys ou la NSA représente.
