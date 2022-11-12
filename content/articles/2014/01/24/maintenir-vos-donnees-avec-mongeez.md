@@ -3,11 +3,8 @@ id: "1024"
 title: "Maintenir vos données avec Mongeez"
 description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Vous connaissez peut-être [Liquibase](http:..."
 date: "2014-01-24"
-categories: 
-  - "waza"
 tags: 
   - "mongodb"
-  - "schemaless"
 img: "af912-mongo.jpg"
 cover: "cover7.jpg"
 ---
@@ -24,7 +21,7 @@ Je vous propose de découvrir Mongeez qui a pour but de fournir le même type de
 
 ### Schema less ?
 
-Revenons un instant sur cette notion de "schema less" que beaucoup nous vendent comme une panacée extraordinaire.  On dit d'une base qu'elle est "schema less" si la définition des éléments dans un ensemble de données n'est pas fixé par la base de données. Et apparemment ce serait miraculeux, on pourrait désormais mettre des choux et des carottes dans n'importe quel ensemble ou rajouter des propriétés sans aucun impact.
+Revenons un instant sur cette notion de "schema less" que beaucoup nous vendent comme une panacée extraordinaire.  On dit d'une base qu'elle est "schema less" si la définition des éléments dans un ensemble de données n'est pas fixé par la base de données. Et apparemment ce serait miraculeux, on pourrait désormais mettre des choux et des carottes dans n'importe quel ensemble ou rajouter des propriétés sans aucun impact.
 
 Démystifions un peu en prenant MongoDB qui justement est vendu comme "schema less".
 
@@ -52,22 +49,24 @@ Prenons un exemple :
 ```javascript
   db.articles.findOne() 
   {
-    '\_id' : 1,
+    '_id' : 1,
     'title' : 'Mongeez',
     'content' : '....',
-    'comments' : \[1,2,3\]  => 1 2 et 3 étant respectivements des Ids dans la collection 'comments'
+    'comments' : [1,2,3]  => 1 2 et 3 étant respectivements des Ids dans la collection 'comments'
   }
 ```
 
 Cette modélisation ne sera pas traité de la même façon dans votre code applicatif que celle-ci :
 
+```javascript
 db.articles.findOne() 
 {
- '\_id' : 1,
+ '_id' : 1,
  'title' : 'Mongeez',
  'content' : '....',
- 'comments' : \[{'author' : 'hugo', 'content': '...'},{'author' : 'jb', 'content': '...'},...\]
+ 'comments' : [{'author' : 'hugo', 'content': '...'},{'author' : 'jb', 'content': '...'},...]
 }
+```
 
 En réalité, être "schema less" a une contrepartie. Si votre base de données gère moins d'informations sur la structure de vos données, rien n'est magique, c'est votre code applicatif qui va le faire pour elle :
 
@@ -100,33 +99,34 @@ Mongeez vous propose un fonctionnement très proche de ce que l'on retrouve chez
 
 Tout d'abord, créez votre lanceur Mongeez. Celui-ci va être en charge d'exécuter les scripts de mises à jour au démarrage de l'application. Ici par exemple avec une configuration Spring par annotation :
 
+```java
 @Configuration
 public class MongoConfig () {
 
-    @Bean
-    public MongeezRunner mongeezRunner() {
-        MongeezRunner runner = new MongeezRunner();
-        runner.setExecuteEnabled(true);
-        runner.setMongo(mongo());
-        runner.setDbName("maBase");
-        runner.setFile(new ClassPathResource("mongeez.xml"));
-        return runner;
-    }
+    @Bean
+    public MongeezRunner mongeezRunner() {
+        MongeezRunner runner = new MongeezRunner();
+        runner.setExecuteEnabled(true);
+        runner.setMongo(mongo());
+        runner.setDbName("maBase");
+        runner.setFile(new ClassPathResource("mongeez.xml"));
+        return runner;
+    }
 
-    ... définition des autres beans nécessaires à Mongo
+    //... définition des autres beans nécessaires à Mongo
 }
+```
 
 #### Seconde étape, listez les changements à passer :
 
 Les changements (changesets) sont listés dans un fichier que nous avons appelé mongeez.xml dans le code précédent. Ce fichier contient la liste des changements à apporter dans l'ordre :
 
+```xml
 <changeFiles>
-
-    <file path="changeset-01.xml"/>
-
-    <file path="changeset-02.js"/>
-
+<file path="changeset-01.xml"/>
+<file path="changeset-02.js"/>
 </changeFiles>
+```
 
 On remarquera que l'on peut avoir des changements décrits en XML ou Javascript.
 
@@ -134,13 +134,15 @@ On remarquera que l'on peut avoir des changements décrits en XML ou Javascript.
 
 Vous pouvez regrouper plusieurs changements dans un fichier de changements. Je prends ici l'exemple issu des tests de Mongeez en Javascript :
 
+```javascript
 //changeset mlysaght:ChangeSet-1
 db.organization.insert({
-    "Name" : "10Gen", "Location" : "NYC", DateFounded : {"Year" : 2008, "Month" : 01, "day" :01}
+"Name" : "10Gen", "Location" : "NYC", DateFounded : {"Year" : 2008, "Month" : 01, "day" :01}
 });
 db.organization.insert({
-    "Name" : "SecondMarket", "Location" : "NYC", DateFounded : {"Year" : 2004, "Month" : 05, "day" :04}
+ "Name" : "SecondMarket", "Location" : "NYC", DateFounded : {"Year" : 2004, "Month" : 05, "day" :04}
 });
+```
 
 La première ligne de commentaire a son importance. Elle précise l'auteur et le numéro du changement à appliquer. Ici c'est un changeset très simple qui se contente d'insérer des données.
 
@@ -148,56 +150,60 @@ La première ligne de commentaire a son importance. Elle précise l'auteur et le
 
 Une fois que le Runner se sera déclenché, voici le résultat d'un show collections sur votre base de données :
 
+```
 \> show collections
 mongeez
 organization
 system.indexes
 user
+```
 
 Vous noterez l'existence d'une collection mongeez qui stocke le résultat des changements déjà passés :
 
+```javascript
 \> db.mongeez.find().pretty()
 {
-        "\_id" : ObjectId("52ef8e8e53916204e2287071"),
-        "type" : "configuration",
-        "supportResourcePath" : true
+        "\_id" : ObjectId("52ef8e8e53916204e2287071"),
+        "type" : "configuration",
+        "supportResourcePath" : true
 }
 {
-        "\_id" : ObjectId("52ef8e8e53916204e2287072"),
-        "type" : "changeSetExecution",
-        "file" : "changeset1.js",
-        "changeId" : "ChangeSet-1",
-        "author" : "mlysaght",
-        "resourcePath" : "changeset1.js",
-        "date" : "2014-02-03T13:41:50+01:00"
+        "\_id" : ObjectId("52ef8e8e53916204e2287072"),
+        "type" : "changeSetExecution",
+        "file" : "changeset1.js",
+        "changeId" : "ChangeSet-1",
+        "author" : "mlysaght",
+        "resourcePath" : "changeset1.js",
+        "date" : "2014-02-03T13:41:50+01:00"
 }
 {
-        "\_id" : ObjectId("52ef8e8e53916204e2287073"),
-        "type" : "changeSetExecution",
-        "file" : "changeset1.js",
-        "changeId" : "ChangeSet-2",
-        "author" : "mlysaght",
-        "resourcePath" : "changeset1.js",
-        "date" : "2014-02-03T13:41:50+01:00"
+        "\_id" : ObjectId("52ef8e8e53916204e2287073"),
+        "type" : "changeSetExecution",
+        "file" : "changeset1.js",
+        "changeId" : "ChangeSet-2",
+        "author" : "mlysaght",
+        "resourcePath" : "changeset1.js",
+        "date" : "2014-02-03T13:41:50+01:00"
 }
 {
-        "\_id" : ObjectId("52ef8e8e53916204e2287074"),
-        "type" : "changeSetExecution",
-        "file" : "changeset2.xml",
-        "changeId" : "ChangeSet-1",
-        "author" : "mlysaght",
-        "resourcePath" : "changeset2.xml",
-        "date" : "2014-02-03T13:41:50+01:00"
+        "\_id" : ObjectId("52ef8e8e53916204e2287074"),
+        "type" : "changeSetExecution",
+        "file" : "changeset2.xml",
+        "changeId" : "ChangeSet-1",
+        "author" : "mlysaght",
+        "resourcePath" : "changeset2.xml",
+        "date" : "2014-02-03T13:41:50+01:00"
 }
 {
-        "\_id" : ObjectId("52ef8e8e53916204e2287075"),
-        "type" : "changeSetExecution",
-        "file" : "changeset2.xml",
-        "changeId" : "ChangeSet-2",
-        "author" : "mlysaght",
-        "resourcePath" : "changeset2.xml",
-        "date" : "2014-02-03T13:41:50+01:00"
+        "\_id" : ObjectId("52ef8e8e53916204e2287075"),
+        "type" : "changeSetExecution",
+        "file" : "changeset2.xml",
+        "changeId" : "ChangeSet-2",
+        "author" : "mlysaght",
+        "resourcePath" : "changeset2.xml",
+        "date" : "2014-02-03T13:41:50+01:00"
 }
+```
 
 Cette collection permet à Mongeez de connaitre quels sont les changements passés, les auteurs et les dates d'application de chaque patch.
 
