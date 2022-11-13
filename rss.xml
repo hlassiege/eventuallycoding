@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 11 Nov 2022 22:01:40 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Nov 2022 10:22:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Twitter - Reflexions]]></title>
+            <link>https://eventuallycoding.com/2022/11/twitter-thoughts</link>
+            <guid>https://eventuallycoding.com/2022/11/twitter-thoughts</guid>
+            <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[La période est mouvementée sur Twitter. Si je crois que le réseau a encore de beaux jours devant lui, pour autant la recherche d'alternative me semble importante.]]></description>
+        </item>
         <item>
             <title><![CDATA[Scrum is dead]]></title>
             <link>https://eventuallycoding.com/2022/11/scrum-is-dead</link>
@@ -564,8 +571,7 @@ Et vous je ne sais pas, ma...]]></description>
             <link>https://eventuallycoding.com/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat</link>
             <guid>https://eventuallycoding.com/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat</guid>
             <pubDate>Fri, 24 Jan 2014 00:00:00 GMT</pubDate>
-            <description><![CDATA[Disclaimer
-Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-free...]]></description>
+            <description><![CDATA[Ce billet date de 2014. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-free...]]></description>
         </item>
         <item>
             <title><![CDATA[Maintenir vos données avec Mongeez]]></title>
