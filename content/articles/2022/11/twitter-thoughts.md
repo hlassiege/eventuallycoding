@@ -36,7 +36,7 @@ Bref, ça n'excuse pas la méthode et la toxicité permanente dans la communicat
 
 ## Un pronostic plutôt noir pour les prochains mois 
 
-Je suis très mitigé sur les prochains mois chez Twitter. 50% de l'effectif a été licencié, tellement rapidement que je doute qu'il y ait eu trop de réflexions. D'ailleurs la semaine d'après plusieurs personnes étaient recontactés car finalement la situation était devenu ingérable.  
+Je suis très mitigé sur les prochains mois chez Twitter. 50% de l'effectif a été licencié, tellement rapidement que je doute qu'il y ait eu trop de réflexions. D'ailleurs [la semaine d'après plusieurs personnes étaient recontactés](https://techcrunch.com/2022/11/07/after-laying-off-half-of-its-staff-twitter-might-be-asking-some-employees-to-come-back) car finalement la situation était devenu ingérable.  
 
 Dans le même temps, Elon Musk a annoncé la fin du télétravail ou que [les managers allaient devoir gérer 20 personnes ET coder 20% de leur temps](https://twitter.com/Pragmatic_Eng/status/1590785257984622592).
 Il est évident qu'une vague de départ volontaire va suivre prochainement. Sachant [qu'Elon Musk avait prévu 75%](https://www.bloomberg.com/news/articles/2022-10-27/musk-tells-twitter-employees-he-doesn-t-plan-to-cut-75-of-jobs#xj4y7vzkg) de coupe initialement, je serais prêt à parier qu'il s'est ravisé sur 50 en sachant pertinemment que les 25% restants suivraient de façon volontaire.  
@@ -59,7 +59,7 @@ C'est déjà très fort d'être en mesure d'arriver avec une stratégie, incluan
 **Pour être franc, c'est le genre de qualité, malgré une toxicité sans doute similaire, qui était salué chez Steve Jobs.** 
 
 Maintenant, Steve Jobs est jugé aussi à posteriori par le succès qu'il a eu. Est-ce que Elon Musk aura le même succès, c'est une autre histoire. 
-Pour l'instant des hauts cadres se barrent, mais bon, c'était prévisible, [par contre les annonceurs fuient aussi](https://siecledigital.fr/2022/11/02/twitter-le-reseau-social-est-fui-par-ses-employes-et-par-les-annonceurs/), et ça, c'est plus inquiétant. 
+Pour l'instant des hauts cadres se barrent, c'était prévisible, [par contre les annonceurs fuient aussi](https://siecledigital.fr/2022/11/02/twitter-le-reseau-social-est-fui-par-ses-employes-et-par-les-annonceurs/), et ça, c'est plus inquiétant. 
 
 D'autant que des marques ont déjà été clairement atteint par les dernières nouveautés sur la certification d'identité :
 
@@ -88,7 +88,9 @@ Maintenant quand je lis que Elon réfléchirait à mettre un paywall sur Twitter
 Pour ma part, la direction que prend Elon Musk me dérange fortement. Je reconnais la légitimité de ses actions pour le bien de l'entreprise, je reconnais le fait que ce soit normal et plutôt positif qu'il sache faire bouger une entreprise de cette taille en si peu de temps.
 J'ai du mal avec la méthode, je n'adhère pas avec la toxicité managériale qu'il met en place. Mais bon, je considère qu'il a le droit de vouloir créer sa propre culture d'entreprise. Les gens qui sont partis retrouveront sans soucis ailleurs et pour ma part je ne postulerais pas chez lui.   
 
-Par contre, sa proximité avec Trump, le fait qu'il souhaite utiliser Twitter comme outil de propagande, c'est un peu plus difficile à faire passer.
+Par contre, sa proximité avec Trump, le fait qu'il va utiliser Twitter comme outil de propagande selon moi, c'est un peu plus difficile à faire passer. Il partage d'ailleurs avec Trump la même mégalomanie et la conviction que seul lui détient la vérité. Et être la source de vérité sera l'une des missions de Twitter.
+
+https://twitter.com/elonmusk/status/1589413653190938624
 
 Même si je ne suis pas encore totalement convaincu qu'il sera en mesure de réellement mettre en œuvre ses idées. Il se heurtera aussi en Europe à certaines législations sur la modération des contenus par exemple. Dans tous les cas, je trouve que la place de Twitter occupe aujourd'hui pose question. Les manipulations d'opinions sur le réseau étaient déjà légion avant lui. Les bots sont omniprésents, l'information y est très déformée et l'histoire nous a montré qu'on pouvait utiliser tout cela pour manipuler les masses.
 

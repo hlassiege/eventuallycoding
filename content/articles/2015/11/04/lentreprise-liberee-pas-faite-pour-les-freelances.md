@@ -7,7 +7,7 @@ categories:
   - "waza"
 tags: 
   - "freelance"
-  - "hopwork"
+  - "malt"
   - "lateralthoughts"
 img: ""
 cover: "cover5.jpg"

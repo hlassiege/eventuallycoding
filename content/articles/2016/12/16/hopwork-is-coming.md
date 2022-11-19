@@ -6,7 +6,7 @@ date: "2016-12-16"
 categories: 
   - "waza"
 tags: 
-  - "hopwork"
+  - "malt"
   - "levee-de-fonds"
   - "startup"
 img: "27417-1_e2xgczrsmihdhiq-sq82qg1.jpeg"

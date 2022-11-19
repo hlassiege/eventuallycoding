@@ -7,7 +7,7 @@ categories:
   - "waza"
 tags: 
   - "freelance"
-  - "hopwork"
+  - "malt"
   - "product"
   - "tarifs"
 img: "2b4a8-barometre.png"
