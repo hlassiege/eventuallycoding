@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 13 Nov 2022 10:22:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Nov 2022 12:53:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Migration du Blog sur Nuxt]]></title>
+            <link>https://eventuallycoding.com/2022/11/blog-migration-on-nuxt</link>
+            <guid>https://eventuallycoding.com/2022/11/blog-migration-on-nuxt</guid>
+            <pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[On va parler de ce qui se passe sous le capot aujourd'hui et quelle sont les technos qui font tourner eventuallycoding.com. ]]></description>
+        </item>
         <item>
             <title><![CDATA[Twitter - Reflexions]]></title>
             <link>https://eventuallycoding.com/2022/11/twitter-thoughts</link>
