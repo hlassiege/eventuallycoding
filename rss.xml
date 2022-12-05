@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 20 Nov 2022 12:53:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Dec 2022 07:54:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2022, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Les IA vont nous faire perdre nos jobs !!]]></title>
+            <link>https://eventuallycoding.com/2022/12/on-va-tous-perdre-nos-jobs</link>
+            <guid>https://eventuallycoding.com/2022/12/on-va-tous-perdre-nos-jobs</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si on parlait quelques instants de GPT, Dall-E, Mid-journey et de tous leurs futurs dérivés]]></description>
+        </item>
         <item>
             <title><![CDATA[Migration du Blog sur Nuxt]]></title>
             <link>https://eventuallycoding.com/2022/11/blog-migration-on-nuxt</link>
