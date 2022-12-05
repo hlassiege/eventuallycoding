@@ -45,8 +45,6 @@ Utile, mais limité.
 
 Cependant, les IA ont une approche différente. Ce n'est pas uniquement une suite de conditions (if/else) qui s'applique sur une grammaire simplifiée. Elles sont à même de comprendre le langage naturel et elles apprennent en permanence de leurs erreurs. 
 
-Aujourd'hui elles adoptent surtout un rôle de copilote. Elles limitent leur scope d'action tout en étant terriblement efficaces. Mais le champ des possibles est gigantesque.
-
 D'ailleurs si voulez un exemple concret qui illustre la différence entre une approche programmatique où un humain explique le comportement à avoir en face de telle ou telle situation, versus une approche à base d'apprentissage d'IA, je vous conseille cette vidéo sur les IA dans les jeux. 
 Et c'est plutot bluffant car il s'agit de créer des IA sachant jouer à l'un des jeux compétitifs les plus complexes actuellement : Rocket League.
 
