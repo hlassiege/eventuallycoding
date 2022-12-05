@@ -53,14 +53,15 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 |---------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)              | Product                                       |
 | [Aphyr/jepsen](https://aphyr.com/)                                                                | Connu pour ces benchmarks de bases de données |
+| [Awesome CTO](https://github.com/kuchin/awesome-cto) | Liste de ressources de Dima Kuchin            |
 | [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10) | Engineering manager                           |
 | [Engineering Ladders](http://www.engineeringladders.com/)                                         | Tech leaders & Career Path                    |
 | [Martin Fowler.com](https://martinfowler.com/)                                                    | Architecture                                  |
 | [Staff Eng](https://staffeng.com/)                                                                | Tech leaders                                  |
 | [System Design](https://www.karanpratapsingh.com/courses/system-design)                           | System design                                 |
+| [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/) | Product and constraints                       |
 | [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)    | Osciller entre management et tech             |
 | [Webhooks.fyi](https://webhooks.fyi/)                                                             | Doc de standardisation des webhooks           |
-| [Awesome CTO](https://github.com/kuchin/awesome-cto) | Liste de ressources de Dima Kuchin            |
 
 
 
