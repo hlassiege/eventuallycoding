@@ -40,7 +40,7 @@ Ces générateurs de code s'appuyaient sur des déclarations relativement standa
 Utile, mais limité.
 
 ::image
-![Les specs c'est du code](/images/Strip-Les-specs-cest-du-code-650-final)
+![Les specs c'est du code](/images/Strip-Les-specs-cest-du-code-650-final.jpg)
 ::
 
 Cependant, les IA ont une approche différente. Ce n'est pas uniquement une suite de conditions (if/else) qui s'applique sur une grammaire simplifiée. Elles sont à même de comprendre le langage naturel et elles apprennent en permanence de leurs erreurs. 
