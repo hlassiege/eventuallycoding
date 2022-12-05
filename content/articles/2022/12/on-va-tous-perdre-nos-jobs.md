@@ -39,6 +39,10 @@ Jusqu'ici, on a surtout parlé de générateurs de code.
 Ces générateurs de code s'appuyaient sur des déclarations relativement standardisées : UML, annotations, etc... et c'était quand même assez limité.   
 Utile, mais limité.
 
+::image
+![Les specs c'est du code](/images/Strip-Les-specs-cest-du-code-650-final)
+::
+
 Cependant, les IA ont une approche différente. Ce n'est pas uniquement une suite de conditions (if/else) qui s'applique sur une grammaire simplifiée. Elles sont à même de comprendre le langage naturel et elles apprennent en permanence de leurs erreurs. 
 
 Aujourd'hui elles adoptent surtout un rôle de copilote. Elles limitent leur scope d'action tout en étant terriblement efficaces. Mais le champ des possibles est gigantesque.
