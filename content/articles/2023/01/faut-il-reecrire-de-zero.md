@@ -54,7 +54,7 @@ Entre 2014 et 2018, l'équipe Produit s'est étoffée jusqu'à 30 personnes. L'a
 Nous sommes notamment passés en partie sur OVH Cloud. Ça a été l'occasion d'introduire Terraform. Consul a été introduit pour la découvrabilité des services.
 Vault a été ajouté pour la gestion des clés privée. Postgresql a été introduit en 2019 suite à de nombreuses déconvenues avec Mongo. 
 
-Côté frontend on a introduit Vue.js et supprimé AngularJs. Nos modules en Vanilla JS se sont structurés pour donner lieu à un petit framework maison assez léger. Handlebars nous a permis de partager des templates de pages entre client et serveurs et donc résoudre quelques soucis de SEO.
+Côté frontend on a introduit Vue.js et supprimé AngularJs (EDIT : en fait, apparemment pas partout). Nos modules en Vanilla JS se sont structurés pour donner lieu à un petit framework maison assez léger. Handlebars nous a permis de partager des templates de pages entre client et serveurs et donc résoudre quelques soucis de SEO.
 
 TODO DESSIN
 
