@@ -189,4 +189,6 @@ Autres sources :
 
 [https://jellyfish.co/blog/cto-vs-vp-engineering/](https://jellyfish.co/blog/cto-vs-vp-engineering/) cet article mentionne malgré tout la possibilité pour un CTO de garder une petite team de tech lead avec lui pour travailler sur de la R&D
 
-[https://www.ivyexec.com/career-advice/2015/cto-versus-vp-engineering-whats-the-difference/](https://www.ivyexec.com/career-advice/2015/cto-versus-vp-engineering-whats-the-difference/) idem, le CTO est même vu au même rang hiérarchique avec report au CEO, comme le VP[https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups) Moins lié directement mais relate l’importance de savoir changer de rôle avec la croissance d’une société
+[https://www.ivyexec.com/career-advice/2015/cto-versus-vp-engineering-whats-the-difference/](https://www.ivyexec.com/career-advice/2015/cto-versus-vp-engineering-whats-the-difference/) idem, le CTO est même vu au même rang hiérarchique avec report au CEO, comme le VP
+
+[https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups) Moins lié directement mais relate l’importance de savoir changer de rôle avec la croissance d’une société
