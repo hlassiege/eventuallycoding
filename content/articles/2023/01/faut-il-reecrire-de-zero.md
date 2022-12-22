@@ -25,7 +25,11 @@ La première version de Malt date de 2012. C'était à ce moment-là une applica
 Le frontend était majoritairement en vanilla JS avec quelques touches de AngularJS.
 On utilisait des JSP comme moteur de templating, choix plutôt bon à ce moment précis. 
 
-TODO dessin
+
+::image
+![Stack 2012](/images/stack-2012.jpg)
+::
+
 
 
 En 2014 l'application s'est étoffé. J'ai pu passer à temps plein suite à une levée de fonds. Nous sommes 2 cofondateurs sur 3 à avoir une casquette technique et travailler sur le site.
@@ -44,9 +48,9 @@ Si cette partie vous intéresse, [un billet de blog sur la migration vers OVH av
 
 Pour l'anecdote, l'ensemble de l'application et des bases de données tournait sur une seule machine !
 
-
-TODO DESSIN
-
+::image
+![Stack 2014](/images/stack-2014.jpg)
+::
 
 Entre 2014 et 2018, l'équipe Produit s'est étoffée jusqu'à 30 personnes. L'architecture s'est complexifiée pour répondre à des besoins plus forts en termes de résilience, sécurité, scalabilité.
 Nous sommes notamment passés en partie sur OVH Cloud. Ça a été l'occasion d'introduire Terraform. Consul a été introduit pour la découvrabilité des services.
@@ -54,13 +58,18 @@ Vault a été ajouté pour la gestion des clés privée. Postgresql a été intr
 
 Côté frontend on a introduit Vue.js et supprimé AngularJs (EDIT : en fait, apparemment pas partout). Nos modules en Vanilla JS se sont structurés pour donner lieu à un petit framework maison assez léger. Handlebars nous a permis de partager des templates de pages entre client et serveurs et donc résoudre quelques soucis de SEO.
 
-TODO DESSIN
+::image
+![Stack 2019](/images/stack-2018.jpg)
+::
+
 
 Suite à 2018, nous avons rencontré de nombreuses limitations sur le cloud OVH. A l'époque leur implémentation de l'api OpenStack n'était pas stable et nous rencontrions de nombreuses erreurs 500. Le manque de services inclus nous imposait de reconstruire des solutions, sans que ce soit notre cœur de métier (la gestion des clés privée, la gestion des logs, la réplication mongo vers PG ou la création d'un datawarehouse par exemple).
 Nous avons donc décidé d'aller sur GCP en 2019 pour bénéficier de services plus packagés. Plus exactement nous tournons désormais sur GKE (Kubernetes managé). Traefik a définitivement remplacé Nginx en tant que reverse proxy grâce à son intégration native avec Docker/Kube.
 
 
-TODO Dessin
+::image
+![Stack 2019](/images/stack-2019.jpg)
+::
 
 
 ## Qu'est ce que la dette technique ?
@@ -100,14 +109,15 @@ Attention, je ne suis pas en train de dire qu'il faut anticiper les contraintes 
 Sur Malt nous avons toujours eu un principe fort d'autonomie.
 Chaque personne est encouragée à avoir un regard critique, proposer et améliorer la stack technologique. Ces choix sont discutés, adoptés ou rejetés collégialement.
 
-Cela a des avantages importants, on a fait des choix forts au fur et a mesure du temps qui ont amélioré la base de code.
+Cette approche très collégiale nous a été très utile. Les choix ont toujours été très efficaces, innovants tout en restant pragmatiques.  
+
 Par exemple nous avons :
 - [introduit PGSQL pour remplacer progressivement Mongo](https://eventuallycoding.com/2019/07/03/mongodb-vers-postgresql)
 - basculé progressivement de Java à Kotlin
 - basculé progressivement de Javascript à Typescript
 
 Mais, dans les inconvénients de cette approche, nous avons aussi souvent décidé de faire ces ajouts de façon progressive sur le nouveau code, sans effectuer de migration complète de l'ancien code.
-C'était un choix pragmatique, mais qui a creusé notre dette technique.
+C'était un choix logique à ce moment-là, mais qui a creusé notre dette technique.
 
 Ce choix a une conséquence forte : l'explosion des dépendances.  
 Et ces dépendances ont des impacts importants
@@ -127,7 +137,10 @@ Et tout cela entraîne une augmentation importante des temps de cycle de dévelo
 
 Malgré tout, jusqu'ici tout va encore bien.
 
-TODO Dessin this is fine
+::image
+![This is fine](/images/thisisfine.jpg)
+::
+
 
 Mais nous savons par expérience que nous sommes arrivés au moment où, si nous ne prenons pas d'actions fortes, dans un an nous devrons faire un défaut partiel de notre dette, qui se traduirait par un freeze code de plusieurs mois pour rembourser.
 
