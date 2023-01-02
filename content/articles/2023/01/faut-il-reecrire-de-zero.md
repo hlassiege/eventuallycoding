@@ -12,7 +12,7 @@ cover: "itsatrap.jpg"
 
 Ce titre sonne comme un message d'avertissement n'est-ce pas ? Je suis plutôt très frileux quand il s'agit de tout réécrire en partant de zéro et je rejoins l'avis de Joel Spolsky qui en parlait comme [l'une des plus grosses erreurs à faire](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
 
-Une réécriture, c'est souvent l'aboutissement d'une dette technique trop lourde à rembourser, un aveu d'échec par rapport à une application qu'on ne parvient plus à faire évoluer, le cout et les risques étant trop importants. Mais si les évènements qui amènent à tout réécrire sont déjà en soit un problème, la réécriture elle-même est un piège qui peut tuer un produit.  
+Une réécriture, c'est souvent l'aboutissement d'une dette technique trop lourde à rembourser, un aveu d'échec par rapport à une application qu'on ne parvient plus à faire évoluer, le coût et les risques étant trop importants. Mais si les évènements qui amènent à tout réécrire sont déjà en soit un problème, la réécriture elle-même est un piège qui peut tuer un produit.  
 Les exemples sont légions. De nombreuse entreprise ont perdu des années à réécrire un produit puis mis la clé sous la porte quand le marché ne les a pas attendus.
 
 Mais pourquoi je vous parle de tout ça ? Est-ce que Malt est dans une situation aussi catastrophique qu'il est nécessaire de tout refaire ?
@@ -107,16 +107,16 @@ Attention, je ne suis pas en train de dire qu'il faut anticiper les contraintes 
 ## Constat sur Malt
 
 Sur Malt nous avons toujours eu un principe fort d'autonomie.
-Chaque personne est encouragée à avoir un regard critique, proposer et améliorer la stack technologique. Ces choix sont discutés, adoptés ou rejetés collégialement.
+Chaque personne est encouragée à avoir un regard critique, pour proposer et améliorer la stack technologique. Ces choix sont discutés, adoptés ou rejetés collégialement.
 
-Cette approche très collégiale nous a été très utile. Les choix ont toujours été très efficaces, innovants tout en restant pragmatiques.  
+Cette approche participative nous a été très utile. Les choix ont toujours été très efficaces, innovants tout en restant pragmatiques.  
 
 Par exemple nous avons :
 - [introduit PGSQL pour remplacer progressivement Mongo](https://eventuallycoding.com/2019/07/03/mongodb-vers-postgresql)
 - basculé progressivement de Java à Kotlin
 - basculé progressivement de Javascript à Typescript
 
-Mais, dans les inconvénients de cette approche, nous avons aussi souvent décidé de faire ces ajouts de façon progressive sur le nouveau code, sans effectuer de migration complète de l'ancien code.
+Mais, dans notre approche, nous avons aussi souvent décidé de faire ces ajouts de façon progressive sur le nouveau code, sans effectuer de migration complète de l'ancien code.
 C'était un choix logique à ce moment-là, mais qui a creusé notre dette technique.
 
 Ce choix a une conséquence forte : l'explosion des dépendances.  
