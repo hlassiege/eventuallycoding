@@ -93,7 +93,7 @@ Concernant le dernier point, la dette peut évoluer pour des raisons externes or
 Les choix effectués sur Malt ont tous été fait en fonction d'un contexte donné.
 
 Mais :
-- les contraintes ayant mené à certains choix ont évolué. Par exemple des technologies inexistantes en 2012 sont désormais standard (la gestion du SSR par exemple)
+- les contraintes ayant mené à certains choix ont évolué. Par exemple des technologies inexistantes en 2012 sont désormais standard (la gestion du SSR pour les applis frontends par exemple)
 - la taille de l'équipe entraine des contraintes supplémentaires sur les standards de développement
 - la taille de l'entreprise et de la base utilisateur entraine des contraintes supplémentaires sur les technologies à mettre en œuvre (Exemple, un batch qui prend 10minutes sur une faible volumétrie et qui prend 2h aujourd'hui)
 
