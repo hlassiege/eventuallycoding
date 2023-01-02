@@ -2,7 +2,7 @@
 id: "9"
 title: "Et s'il était temps de tout réécrire ?"
 description: "Une réécriture, c'est souvent l'aboutissement d'une dette technique trop lourde à rembourser, un aveu d'échec par rapport à une application qu'on ne parvient plus à faire évoluer, le cout et les risques étant trop importants. Mais si les évènements qui amènent à tout réécrire sont déjà en soit un problème, la réécriture elle-même est un piège qui peut tuer un produit."
-date: "2022-12-20"
+date: "2023-01-02"
 tags:
   - "rewrite"
   - "refactoring"
