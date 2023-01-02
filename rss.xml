@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 21 Dec 2022 09:38:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jan 2023 08:43:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>All rights reserved 2022, Eventually coding</copyright>
+        <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Et s'il était temps de tout réécrire ?]]></title>
+            <link>https://eventuallycoding.com/2023/01/faut-il-reecrire-de-zero</link>
+            <guid>https://eventuallycoding.com/2023/01/faut-il-reecrire-de-zero</guid>
+            <pubDate>Mon, 02 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Une réécriture, c'est souvent l'aboutissement d'une dette technique trop lourde à rembourser, un aveu d'échec par rapport à une application qu'on ne parvient plus à faire évoluer, le cout et les risques étant trop importants. Mais si les évènements qui amènent à tout réécrire sont déjà en soit un problème, la réécriture elle-même est un piège qui peut tuer un produit.]]></description>
+        </item>
         <item>
             <title><![CDATA[Les IA vont nous faire perdre nos jobs !!]]></title>
             <link>https://eventuallycoding.com/2022/12/on-va-tous-perdre-nos-jobs</link>
