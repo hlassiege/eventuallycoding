@@ -97,8 +97,6 @@ Dans le cadre de ce projet nous avons développé une nouvelle solution avec une
 
 Il y a clairement du mieux, depuis cette quarantaine on peut filtrer les messages par queue d'origine, voir les messages en questions, rejouer les events selon un filtre etc…
 
-![](/images/image.png)
-
 Malgré tout, nous avions un autre point.  
 En effet je parlais d'event tout à l'heure. Un event est de la forme : ProfileUpdated, AccountUpdated, EmailUpdated, ConversationStarted etc… Il existe de très nombreux events et on veut mettre à jour Hull sur beaucoup d'event car cela peut changer des informations ou des statistiques importantes (taux de contact par exemple).  
 Une action peut entrainer plusieurs events de nature différente.  
@@ -123,7 +121,9 @@ Un appel Firehose doit contenir plusieurs blocs d'informations. Chaque bloc d'in
 Au moment de l'intégration, la doc qui décrivait ce token était relativement petite. On peut la retrouver [ici](https://www.hull.io/docs/reference/identity_resolution/), elle s'est améliorée.  
 Ce qu'elle ne décrit pas bien, c'est la structure d'un token d'exemple. Je vous propose donc de regarder à quoi cela ressemble :
 
+```
 Hull-Access-Token : { "io.hull.active" : true, "io.hull.create" : true, "io.hull.asUser" : {"external\_id" : "maltUserID"}, "io.hull.subjectType" : "user", "io.hull.asAccount" : {"external\_id" : "maltCompanyID"}}
+```
 
 io.hull.asUser permet de définir l'identité à utiliser pour résoudre l'utilisateur chez Hull. Il permet notamment d'utiliser un external\_id qui peut être par exemple l'id dans notre système.
 
@@ -133,14 +133,17 @@ L'objet déclaré plus haut est facile à construire à partir d'une Map.
 
 Par exemple
 
+```java
 Map mapOfClaims = new HashMap<>(Map.of(
     "io.hull.active", true,
     "io.hull.create", true,
 ...
 ));
+```
 
 Ensuite il faut signer cet objet avec JWT. En Java cela donne :
 
+```java
 public static String sign(String secret, String issuer, Map mapOfClaims) throws JoseException {
    JsonWebSignature jwtSigner = new JsonWebSignature();
    jwtSigner.setKey(new AesKey(secret.getBytes()));
@@ -153,7 +156,7 @@ jwtSigner.setAlgorithmHeaderValue(AlgorithmIdentifiers.HMAC\_SHA256);
    jwtSigner.setPayload(claims.toJson());
    return jwtSigner.getCompactSerialization();
 }
-
+```
 Petit point d'attention sur le claims.toJson() qui utilise donc une serialisation JSON de votre Map.  
 Et donc pour les sous objets io.hull.asUser et io.hull.asAccount il faut bien penser à utiliser un JSONObject, sinon la sérialisation va donner  
 "io.hull.asUser" : "{\\"external\_id\\" : \\"maltUserID\\"}" et non pas "io.hull.asUser" : {"external\_id" : "maltUserID"}
