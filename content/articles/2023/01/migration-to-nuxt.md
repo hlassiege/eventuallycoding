@@ -50,12 +50,12 @@ Voici pour la mise en contexte, maintenant abordons les origines du projet "**Si
 Avec le temps, la charge cognitive de chaque développeur est devenue importante au vu de la taille de la base de code. Les choix technologiques de ces 10 dernières années sont pour certains encore très pertinents, mais pour d'autres, c'est moins évident, pour rester poli :)   
 Et c'est justement le cas pour les technologies front-end que nous utilisons.
 
-Début d'année 2022 nous faisons le constat suivant.
+Sur le début d'année 2022 nous faisons le constat suivant.
 
 6 technologies différentes sont utilisés côté front-end :
   - JSP, le moteur de templating Java par défaut 
   - AngularJS pour une page du site (je l'ai redécouvert au moment de l'écriture de ce billet)
-  - Vue.js (en version 2 et 3), essentiellement pour des parties où l'utilisateur est connecté ou bien pour des applications internes
+  - Vue.js (2 avec une migration en cours vers la 3), essentiellement pour des parties où l'utilisateur est connecté ou bien pour des applications internes
   - des modules Javascript maison, appelé hopmodule, utilisé principalement dans les JSP
   - Des templates Handlebars sont partagés entre backend et frontend pour certaines pages qui nécessitent d'être rendu côté serveur puis ensuite rendu dynamique côté client
   - Nuxt 2 pour une application (parmi une vingtaine)
@@ -86,7 +86,7 @@ A ce moment-là, j'aime bien me poser une question simple :
 
 "Quels seraient mes choix si nous devions créer Malt en partant d'une feuille blanche en 2022 ? Est-ce que nous pourrions faire beaucoup mieux ?"
 
-En parralèle de cette question, j'ai eu plusieurs expériences positives avec des stack [jamstack](https://jamstack.org/).
+En parallèle de cette question, j'ai eu plusieurs expériences positives avec des stack [jamstack](https://jamstack.org/).
 
 ::tip
 Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.
@@ -128,7 +128,7 @@ Et dans l'écosystème vue.js, c'est Nuxt nous a semblé le plus mature.
 
 ## Etude préalable
 
-Après avoir initié la réflexion, je me suis lancé sur l'étude préalable en juillet/aout 2022. 
+Après avoir initié la réflexion, je me suis lancé sur l'étude préalable en juillet/août 2022. 
 
 L'objectif de l'étude était de vérifier que nous pouvions reproduire l'ensemble de nos applications front actuelles. Il fallait par exemple valider toutes nos spécificités sur l'internationalisation (la gestion des formes plurielles avec ICU), la sécurité (les taglibs spring security), le feature flipping (avec ff4j) etc...
 
@@ -158,19 +158,19 @@ Parmi les points que nous avons abordés lors de l'étude :
 Je ne rentrerais pas en détail ici sur chaque sujet sinon ce billet serait gigantesque. Mais s'il y a un intérêt particulier pour l'un de ces items, il pourrait être abordé dans un futur billet.
 ::
 
-Fin aout, l'étude a permis de valider la faisabilité technique. En sus, les objectifs listés étaient les suivants :
+Fin août, l'étude a permis de valider la faisabilité technique. En sus, les objectifs listés étaient les suivants :
 
-- diminution temps de cycle
-- diminution temps de build
+- diminution du temps de cycle
+- diminution du temps de build
 - découplage front et back
 - diminution du temps de démarrage des applications
 
 Ces métriques vont cependant évoluer par la suite.  
-Les temps de cycle sont à ce jour mal mesurés chez nous. C'est surprenant, car c'est sans doute la métrique plus importante de toute mais effectivement on n'est pas encore assez bon pour la suivre correctement.  
-La diminution du temps de build devait beaucoup être lié au fait de supprimer les dépendances entre build front et back. Ce sujet a été adressé en parralèle dans un autre chantier lié à la CI (migration de maven vers gradle).  
+Les temps de cycle sont à ce jour mal mesurés chez nous. C'est surprenant, car c'est sans doute la métrique plus importante de toutes mais effectivement nous ne sommes pas encore assez bons pour la suivre correctement.  
+La diminution du temps de build devait beaucoup être lié au fait de supprimer les dépendances entre build front et back. Ce sujet a été adressé en parallèle dans un autre chantier lié à la CI (migration de maven vers gradle).  
 Le temps de démarrage est intéressant, mais nous ne collectons pas la mesure sur les postes de travail.  
 Pour ma part j'ai certaines applis qui pouvaient mettre entre 100 et 200 secondes à démarrer. Mais je n'ai aucun moyen de démontrer que ce phénomène est le même chez tout le monde, et il n'est pas vrai sur toutes les applis.  
-Le temps en intégration et production est de plus totalement différent du poste de dev (largement supérieur et pour l'instant, nous n'avons pas creusé le pourquoi du comment).
+Le temps en intégration et production est, de plus, totalement différent du poste de dev (en grande partie lié à l'instrumentation datadog et le dimensionnement des pods).
 
 Sur le découplage, à l'origine, on se demande comment le mesurer. Et puis nous noterons plusieurs axes possibles :
 - le passage de 6 technologies front à une seule est déjà une métrique en soi.
@@ -210,7 +210,7 @@ Mi-octobre, une démo a pu être faite avec l'application porté sur Nuxt.
 Voici quelques résultats :
 * 7,7k lignes de code. C'est une diminution de **53%** de l'application d'origine
 
-Nuxt et Vue3 permet effectivement d'être beaucoup plus concis que l'équivalent en JSP. Les applications vue ont été simplifiées également. 
+Nuxt et Vue3 permettent effectivement d'être beaucoup plus concis que l'équivalent en JSP. Les applications vue ont été simplifiées également. 
 Mais une autre explication, et c'est l'un des intérêts des réécritures comme celle-ci. Ca a été aussi l'occasion de détecter des fonctionnalités plus utilisées et de les supprimer.
 
 * les performances sont globalement meilleures. Tests effectués avec [K6](https://k6.io/) : Un P95 a 489ms avant pour 271ms après, soit **44%** d'amélioration
@@ -218,7 +218,7 @@ Mais une autre explication, et c'est l'un des intérêts des réécritures comme
 
 Concernant les progrès sur l'accessibilité, tout n'est pas lié au fait d'utiliser nuxt mais aussi à une utilisation massive du design system Malt alors que l'ancienne app l'utilisait peu. 
 
-Une seconde application a été migré entre mi-octobre et décembre, cette fois très centrale puisqu'il s'agit de la page d'accueil et de quelques pages de contenu.
+Une seconde application a été migrée entre mi-octobre et décembre, cette fois très centrale puisqu'il s'agit de la page d'accueil et de quelques pages de contenu.
 Cette fois, le SSR était obligatoire.  
 Sans rentrer dans le détail, on utilise Prismic et nuxt prismic pour créer ce contenu. 
 
