@@ -24,7 +24,7 @@ Pour bien comprendre d'abord de quoi on parle, voici quelques chiffres important
 
 - l'équipe d'ingénierie est proche de 100 développeurs
 - la taille de la base de code des applications front avoisine 1M de ligne(j'exclus toutes les libs communes, apis, services et applis qui ne font que du back)
-- la taille totale de la base de code approche les 2M de lignes de code
+- la taille totale de la base de code approche les 2.4M de lignes de code ([et voici une infographie pour vous donner une base de comparaison](https://www.informationisbeautiful.net/visualizations/million-lines-of-code/))
 
 Le risque à cette taille, c'est la complexification et l'intrication. 
 
