@@ -124,7 +124,7 @@ Et pourquoi Nuxt ?
 La question aurait pu se poser avec Next.js qui a le même objectif dans l'écosystème React. Next est plus ancien, semble plus mature et bénéficie d'une communauté très large.
 
 Mais nous sommes très à l'aise avec Vue.js, framework que nous utilisons depuis maintenant plusieurs années. 
-Et dans l'écosystème vue.js, c'est Nuxt nous a semblé le plus mature. 
+Et dans l'écosystème vue.js, c'est Nuxt qui nous a semblé le plus mature. 
 
 ## Etude préalable
 
