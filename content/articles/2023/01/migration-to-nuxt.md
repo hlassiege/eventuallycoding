@@ -132,7 +132,7 @@ Après avoir initié la réflexion, je me suis lancé sur l'étude préalable en
 
 L'objectif de l'étude était de vérifier que nous pouvions reproduire l'ensemble de nos applications front actuelles. Il fallait par exemple valider toutes nos spécificités sur l'internationalisation (la gestion des formes plurielles avec ICU), la sécurité (les taglibs spring security), le feature flipping (avec ff4j) etc...
 
-Le second objectif de l'étude, c'était de définir les critères de succès et donc l'objectif. 
+Le second objectif de l'étude, c'était de définir les critères de succès. 
 
 Enfin, cette phase était aussi la première étape d'une opération de conduite de changement. L'aspect humain était crucial dans cette phase d'étude dans le sens où elle devait impliquer et embarquer les futurs sponsors du projet. 
 
