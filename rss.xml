@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 04 Jan 2023 21:13:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Jan 2023 07:52:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Le projet Singapore : Migration vers Nuxt]]></title>
+            <link>https://eventuallycoding.com/2023/01/migration-to-nuxt</link>
+            <guid>https://eventuallycoding.com/2023/01/migration-to-nuxt</guid>
+            <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dans ce billet, je souhaite vous présenter le projet Singapore, qui vise à simplifier et moderniser toute notre stack frontend en utilisant Nuxt.  ]]></description>
+        </item>
         <item>
             <title><![CDATA[Et s'il était temps de tout réécrire ?]]></title>
             <link>https://eventuallycoding.com/2023/01/faut-il-reecrire-de-zero</link>
