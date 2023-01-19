@@ -11,7 +11,7 @@ tags:
   - "salaires"
   - "tech"
 img: "Money-1024x791.jpg"
-cover: "cover6.jpg"
+cover: "money-drawing.jpg"
 ---
 
 Parlons d'un sujet qui fait couler beaucoup d’encre, les salaires.
@@ -26,7 +26,7 @@ Je vous propose donc de faire le tour de la question. On va aussi pouvoir discut
 
 Vous trouverez plus bas un fichier excel avec quelques informations utiles sur les salaires par type d’entreprises.
 
-![](/images/Money-1024x791.jpg)
+![](/images/money-drawing.jpg)
 
 ## Rien n’a changé
 
