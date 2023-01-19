@@ -1,7 +1,7 @@
 ---
 id: "11"
 title: "Les questions à poser avant de rentrer dans une startup"
-description: "Dans ce billet, je souhaite vous présenter le projet Singapore, qui vise à simplifier et moderniser toute notre stack frontend en utilisant Nuxt.  "
+description: "Ça y est, vous avez une offre d’une startup sur la table, mais vous ne savez pas vraiment quoi en penser. Parlons-en"
 date: "2023-01-19"
 tags:
   - "startup"
@@ -47,11 +47,11 @@ Mais je comprends ceux qui le voient comme ça :
 
 https://twitter.com/prof_anonyme/status/1612495368083869696
 
-Une startup c’est l’illustration permanente de l’expression “sortir de sa zone de confort”. Et la phrase dit bien ce qu’elle veut dire. Est-ce que vous êtes prêt à sortir du **confort **?
+Une startup c’est l’illustration permanente de l’expression “sortir de sa zone de confort”. Et la phrase dit bien ce qu’elle veut dire. Est-ce que vous êtes prêt à sortir du **confort**?
 
 Personnellement pour avoir testé l’ennui dans certaines grandes entreprises, ma réponse est oui. Mais cette réponse est personnelle et personne n’a rien à redire à votre choix.
 
-D’autant que cette réponse** elle va sans doute varier dans le temps**. On ne répondra peut-être pas la même chose en fonction de l’âge, de ses contraintes financières ou familiales etc…
+D’autant que cette réponse **elle va sans doute varier dans le temps**. On ne répondra peut-être pas la même chose en fonction de l’âge, de ses contraintes financières ou familiales etc…
 
 Un second point, qui est corollaire du premier, c’est **l’adaptabilité**. Travailler en startup, c'est accepter que l’entreprise expérimente. Et qui dit expérimentation dit changements de priorité régulier.
 
@@ -86,7 +86,7 @@ Ensuite, faites confiance à votre intuition.
 
 Ce n’est peut-être pas le chapitre le plus attrayant, mais en réalité c’est l’un des plus importants.
 
-Je le disais plus haut, en startup vous allez apprendre beaucoup. Et l’un de ces apprentissages, c'est la culture financière, car **autant quand vous allez prendre un poste chez Société Générale, Axa ou Carrefour, vous ne vous dites pas que l’entreprise peut fermer le lendemain, autant dans une startup, c'est possible. **
+Je le disais plus haut, en startup vous allez apprendre beaucoup. Et l’un de ces apprentissages, c'est la culture financière, car **autant quand vous allez prendre un poste chez Société Générale, Axa ou Carrefour, vous ne vous dites pas que l’entreprise peut fermer le lendemain, autant dans une startup, c'est possible.**
 
 Et d’ailleurs, même si la vision produit est incroyable, l’entreprise peut se casser la gueule à tout moment. Ça fait partie des incertitudes à accepter. Je vous invite à poser quelques questions pour les raisons suivantes :
 
@@ -252,7 +252,7 @@ J’essaierais de comprendre s’il y a du turnover. Un gros turnover dans une p
 
 Pour certains, ce ne sera pas une surprise si je dis qu’une startup n’est pas synonyme de gros salaires. D’autres au contraire ont lu des tas d'articles sur l’inflation des salaires dans les startups et s’attendent à des chiffres astronomiques.
 
-Soyons clairs,** l’inflation dont on parle plus haut concerne les scale-ups**, assez peu les startups sauf à quelques rares exceptions.
+Soyons clairs, **l’inflation dont on parle plus haut concerne les scale-ups**, assez peu les startups sauf à quelques rares exceptions.
 
 Si je reprends [un ancien billet](https://eventuallycoding.com/2021/07/06/les-salaires-dans-la-tech), les startups sont dans ce que j’appelle le groupe I.
 
