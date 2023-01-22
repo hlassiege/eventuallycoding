@@ -3,7 +3,7 @@
   <div class="mt-24">
 
     <div class="mb-16 mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto px-4">
-      <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Parcours</h2>
+      <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Resume</h2>
     </div>
 
 
@@ -39,7 +39,7 @@
         <span class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
         <span class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
-                    CV sérieux sur linkedin
+                    Serious resume on LinkedIn
         </span>
       </a>
     </div>

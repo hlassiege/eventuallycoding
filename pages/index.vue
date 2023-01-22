@@ -66,16 +66,13 @@
 
                                 <span
                                     class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
-                    Read more
-                </span>
+                                    Read more
+                                </span>
                             </NuxtLink>
                         </div>
 
 
                     </section>
-
-
-                    <TimeLine/>
 
                     <hr class="mt-20 lg:w-3/4 w-full mx-auto">
 
