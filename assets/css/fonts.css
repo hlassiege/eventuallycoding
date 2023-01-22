@@ -11,6 +11,16 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'Mark Pro';
+    src: url('assets/fonts/Mark-Pro.ttf') format("truetype");
+    font-display: swap;
+}
+
+.font-mark {
+    font-family: 'Mark Pro', sans-serif;
+}
+
 .font-bruno {
   font-family: 'Bruno Ace', sans-serif;
 }

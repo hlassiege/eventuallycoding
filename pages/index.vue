@@ -5,26 +5,21 @@
                 <template v-slot:content>
 
                     <div class="flex flex-col items-center justify-center">
-
-                        <div class="p-5 text-white rounded ">
-                            <div class="lg:text-7xl md:text-5xl text-2xl font-bruno ">
-                                <span class="dynamic-letters">Eventually Coding</span></div>
-                        </div>
-
-
                         <div class="p-3 text-white rounded ">
-                            <div class="md:block flex justify-center items-center">
+                            <div class="flex items-center">
                                 <img
                                     :src="siteMetaInfo.author_image"
                                     loading="lazy"
                                     alt="me"
-                                    class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all"
+                                    class="shadow-xl md:h-50 md:w-50 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all mr-10"
                                 />
+                                <div class="text-left">
+                                    <p class="name rounded-xl font-bold p-2 tracking-wider">
+                                        <span class="text-2xl">Hi, I'm</span> <span class="font-extrabold text-2xl">{{ siteMetaInfo.author }}</span>
+                                    </p>
+                                    <AuthorIntro></AuthorIntro>
+                                </div>
                             </div>
-                            <div class="text-center">
-                                {{ siteMetaInfo.author }}
-                            </div>
-
                         </div>
                     </div>
                 </template>
@@ -33,13 +28,9 @@
         <div class="mt-10">
             <div class="">
                 <div class="px-8">
-                    <AuthorIntro></AuthorIntro>
-
-                    <hr class="mt-20">
-
                     <section class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto lg:px-4 px-0">
                         <div class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">
-                            <h2>Derniers billets</h2>
+                            <h2>Last blog posts</h2>
                         </div>
 
                         <div class="pt-4 grid lg:grid-cols-3 gap-x-8 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
@@ -62,8 +53,8 @@
 
                                     <span
                                         class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
-                    En lire plus
-                  </span>
+                                    Read more
+                                  </span>
                                 </NuxtLink>
                             </div>
                         </div>
@@ -75,7 +66,7 @@
 
                                 <span
                                     class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75">
-                    En lire plus
+                    Read more
                 </span>
                             </NuxtLink>
                         </div>
@@ -90,8 +81,7 @@
 
                     <div class="mt-20 lg:w-3/4 w-full mx-auto lg:px-4 px-0 mb-10">
                         <div class="mb-16 ">
-                            <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Evènements
-                                passés</h2>
+                            <h2 class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20">Past events</h2>
                         </div>
 
 
@@ -100,11 +90,11 @@
                                 <thead>
                                 <tr class="bg-gray-50">
                                     <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">
-                                        Evènement
+                                        Event
                                     </th>
-                                    <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Titre
+                                    <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Title
                                     </th>
-                                    <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Lieu
+                                    <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Location
                                     </th>
                                     <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Date
                                     </th>
@@ -141,11 +131,9 @@
 </template>
 <script setup lang="ts">
 import BlogCard from "../components/BlogCard.vue";
-import HeroSection from "../components/HeroSection";
-import dynamicLetters from "../sources/dynamic-letters";
+import HeroSection from "../components/HeroSection.vue";
 import siteMetaInfo from "../data/siteMetaData";
 import events from "../data/events";
-import {onMounted} from "../.nuxt/imports";
 
 const {data: articles} = await useAsyncData('indexarticles', () => queryContent('articles')
     .only([
@@ -163,10 +151,6 @@ const {data: articles} = await useAsyncData('indexarticles', () => queryContent(
     .sort({date: -1})
     .find()
 )
-
-onMounted(() => {
-    dynamicLetters();
-});
 
 useHead({
     title: siteMetaInfo.title,
@@ -203,5 +187,9 @@ useHead({
     height: 100px;
     width: 100%;
 
+}
+.name {
+    background: rgb(125 227 196 / 16%);
+    color: #53cfd4;
 }
 </style>

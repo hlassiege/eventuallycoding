@@ -40,7 +40,7 @@
                 EventuallyCoding.com
             </span>
           </div>
-          <div class="hidden sm:block sm:ml-6 absolute right-0">
+          <div class="hidden sm:block sm:ml-6 absolute right-0 font-mark">
             <div class="flex space-x-4">
               <NuxtLink
                 v-for="item in navLinks" :key="item.path"
