@@ -80,7 +80,7 @@ Je suis convaincu que chaque personne ayant participé à la création de ces vo
 
 Mais, par exemple sur cette voiture, quelle est l'utilité de ces deux portes ? Je pense que je ne peux même pas ouvrir ce coffre dans mon garage.
 
-Faire bien les choses, c'est évidemment déjà très bien, **encore faut-il que ce soit vraiment ce qu'attendait vos utilisateurs.**
+Faire bien les choses, c'est évidemment déjà très bien, **encore faut-il que ce soit vraiment ce qu'attendaient vos utilisateurs.**
 
 En fait, je vais vous donner un grand secret :
 
