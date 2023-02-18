@@ -58,11 +58,12 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 | [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                                                    | Engineering manager                |
 | [Writing Documentation](https://documentation.divio.com/)                                                                                                            | Documentation                      |
 | [Engineering Ladders](http://www.engineeringladders.com/)                                                                                                            | Tech leaders & Career Path         |
-| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac)                                                                                                            | Prioritization                    |
+| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac)                                                                                                            | Prioritization                     |
 | [‘Give Away Your Legos’ and Other Commandments for Scaling Startups](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups) | Scaling organization               |
 | [Staff Eng](https://staffeng.com/)                                                                                                                                   | Tech leaders                       |
 | [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                                                  | Product and constraints            |
 | [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                                                       | Osciller entre management et tech  |
+|[The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                                                                       | Scaling                            |
 
 ### Tech
 
@@ -72,6 +73,7 @@ Voici une liste de resources assez variées que j'utilise fréquement ou qui m'o
 | [Martin Fowler.com](https://martinfowler.com/)                                                    | Architecture                                  |
 | [System Design](https://www.karanpratapsingh.com/courses/system-design)                           | System design                                 |
 | [Webhooks.fyi](https://webhooks.fyi/)                                                             | Doc de standardisation des webhooks           |
+| [Writing an engineering Strategy](https://lethain.com/eng-strategies/) | Eng strategy                                  | 
 
 
 
