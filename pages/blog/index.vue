@@ -2,13 +2,38 @@
   <div>
     <keep-alive>
       <HeroSection>
-        <template v-slot:content>
-          <div class="p-5 text-white rounded ">
-            <div class="text-7xl font-bruno ">Eventually Coding</div>
-            <div class="text-center mt-3">A la fin de l'envoi, je code !</div>
+          <template v-slot:content>
 
-          </div>
-        </template>
+              <div class="flex flex-col items-center justify-center">
+                  <div class="p-3 text-white rounded ">
+                      <div class="flex items-center">
+                          <img
+                              :src="siteMetaInfo.author_image"
+                              loading="lazy"
+                              alt="me"
+                              class="shadow-xl md:h-50 md:w-50 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all mr-10"
+                          />
+                          <div class="text-left">
+                              <p class="name rounded-xl font-bold p-2 tracking-wider">
+                                  <span class="font-extrabold text-2xl font-bruno">Writing</span>
+                              </p>
+                              <div class="mb-6 text-gray-300  w-full mx-auto ">
+                                  <p class="mt-8 mb-4 md:text-xl text-base font-mark">
+                                      Here you can browse my thoughts on different topics, <br/>
+                                      mostly on Software Development, <br/>
+                                      Entrepreneurship and Startups.<br/>
+
+                                  </p>
+<!--                                  <p class="mt-8 mb-4 md:text-xl text-base font-mark">-->
+<!--                                      I'm also the author of "Impactful Software Development" <br/>-->
+<!--                                      that you can read for free here.-->
+<!--                                  </p>-->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </template>
       </HeroSection>
     </keep-alive>
     <div class="flex flex-col items-start sm:flex-row pt-12 bg-slate-100">
@@ -149,6 +174,10 @@ useHead(
   height: 100px;
   width: 100%;
 
+}
+.name {
+    background: rgb(125 227 196 / 16%);
+    color: #53cfd4;
 }
 
 </style>

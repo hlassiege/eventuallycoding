@@ -37,7 +37,7 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
             <span class="text-white text-base font-medium font-bruno text-2xl font-to-invert-to-pink">
-                EventuallyCoding.com
+                <nuxt-link to="/">EventuallyCoding.com</nuxt-link>
             </span>
           </div>
           <div class="hidden sm:block sm:ml-6 absolute right-0 font-mark">
