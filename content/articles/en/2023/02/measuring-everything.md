@@ -141,7 +141,7 @@ And if I'm talking to you about all this, it's because it's your role as a tech 
 
 It's your responsibility to have a clear vision of the cost of your product and its ROI. It is your ability to understand the financial stakes that will also allow you to make recommendations and investment choices on a Buy or Build basis.
 
-### Data maturity model
+## Data maturity model
 
 Once we said that we had to systematize access to and use of data, that's fine, but I'd like to present your a maturity assessment model to better understand where you are and where you could go.
 

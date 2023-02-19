@@ -133,7 +133,7 @@ Par exemple :
 Et si je vous parle de tout ça, c'est parce que c'est votre rôle de tech lead de faire grandir la maturité de votre entreprise sur le sujet.  
 C'est votre responsabilité d'avoir une vision fine du coût de votre produit et de son ROI. C'est votre capacité à comprendre les enjeux financiers qui va vous permettre aussi de faire des recommandations et de faire des choix d'investissements sur du Buy or Build.
 
-### Data maturity model
+## Data maturity model
 
 Une fois qu'on a dit qu'il fallait systématiser l'accès à la donnée et son usage, c'est bien, mais je vous propose de découvrir un modèle d'évaluation de maturité pour mieux comprendre où vous en êtes, et où vous pourriez aller.
 
