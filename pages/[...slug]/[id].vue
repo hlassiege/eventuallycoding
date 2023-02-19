@@ -13,10 +13,14 @@
                 </template>
             </HeroSection>
         </keep-alive>
-        <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10">
-            <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
+        <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10 ">
+            <h1 class="text-4xl text-gray-700 font-extrabold text-center mb-10">
                 {{ article.title }}
             </h1>
+<!--            <p class="text-slate-400 text-center mb-10 ">-->
+<!--                <small >Also available in <nuxt-link to="/">FR</nuxt-link></small>-->
+<!--            </p>-->
+
 
             <div class="grid grid-cols-3 text-center sm:w-full md:w-1/2 mx-auto">
                 <div>
@@ -126,8 +130,23 @@
     </div>
 </template>
 <script setup lang="ts">
-import HeroSection from "../../../../components/HeroSection";
-import siteMetaInfo from "../../../../data/siteMetaData";
+import HeroSection from "../../components/HeroSection";
+import siteMetaInfo from "../../data/siteMetaData";
+
+class SlugParams {
+    language?: String;
+    year: String;
+    month: String;
+    day?: String;
+
+    constructor(language?: String, year?: String , month?: String, day?: String ) {
+        this.language = language;
+        this.year = year ?? "";
+        this.month = month ?? "";
+        this.day = day;
+    }
+}
+
 const route = useRoute();
 
 const title = ref(0);
@@ -142,7 +161,43 @@ function formatDatetoIso(date : string) {
     return new Date(date).toISOString();
 }
 
-const pathMatch = '/articles/' + route.params.year + '/' + route.params.month + '/' + (route.params.day ? route.params.day  + '/' : '' ) + route.params.id;
+function extractSlugParams(slug:string | string[]): SlugParams {
+    let language, year, month, day;
+    if (slug.length == 4) {
+        language = slug[0];
+        year = slug[1];
+        month = slug[2];
+        day = slug[3];
+
+    } else if (slug.length == 3) {
+        if (slug[0] == "en") {
+            language = slug[0];
+            year = slug[1];
+            month = slug[2];
+        } else {
+            year = slug[0];
+            month = slug[1];
+            day = slug[2];
+        }
+    } else if (slug.length == 2) {
+        year = slug[0];
+        month = slug[1];
+    }
+
+    return new SlugParams(language, year, month, day);
+
+}
+
+const slugParams = extractSlugParams(route.params.slug);
+
+let pathMatch: string;
+
+if (slugParams.language) {
+    pathMatch = '/articles/' + slugParams.language + '/' + slugParams.year + '/' + slugParams.month + '/' + (slugParams.day ? slugParams.day  + '/' : '' ) + route.params.id;
+} else {
+    pathMatch = '/articles/' + slugParams.year + '/' + slugParams.month + '/' + (slugParams.day ? slugParams.day  + '/' : '' ) + route.params.id;
+}
+
 const { data: article } = await useAsyncData(pathMatch, async () => {
     const article = await queryContent("articles")
         .where({_path: pathMatch})
@@ -204,7 +259,7 @@ onMounted(() => {
         var HYVOR_TALK_WEBSITE = 7045;
         var HYVOR_TALK_CONFIG = {
             url: false,
-            id: ${article.value.id}
+            id: ${article.value?.id}
         };
     `;
 
@@ -268,6 +323,22 @@ const postLink = computed(() => {
     return siteMetadata.value.siteUrl  + article.value?._path.replace('/articles/', '');
 });
 
+let alternates = article.value?.alternates?.map((alternate: any) => {
+    let key = Object.keys(alternate)[0];
+    let value = alternate[key];
+    return {
+        rel: "alternate",
+        href: value,
+        hreflang: key,
+    }
+}) || [];
+
+alternates.push({
+    rel: "alternate",
+    href: postLink.value,
+    hreflang: article.value?.language || "fr",
+});
+
 useHead({
     title: article.value?.title + " | " + siteMetaInfo.title,
     meta: [
@@ -299,6 +370,7 @@ useHead({
     ],
     link: [
         {rel: "canonical", href: "https://eventuallycoding.com" + article.value?._path.replace('/articles', '')},
+        ...alternates
     ],
 })
 
