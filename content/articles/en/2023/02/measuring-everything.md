@@ -149,12 +149,11 @@ There are several models, IBM, Gartner or Snowplow for example. Here I propose y
 
 ### Level 0 : Unaware.
 
-C'est la pire situation. Aucune donnée n'est utilisée. Côté engineering il n'existe pas de mécanisme de collectes (monitoring, APM), et forcément pas de mécanisme d'agrégation et consolidation (observabilité). Aucun outillage spécifique n'est utilisé pour les tests de performances. Aucune métrique de mesure de la performance de l'engineering n'est suivie, DORA/accelerate etc…
+This is the worst situation. No data is used. On the engineering side, there is no collection mechanism (monitoring, APM), and obviously no aggregation and consolidation mechanism (observability). No specific tools are used for performance testing. No metrics to measure the performance of the engineering are followed, DORA/accelerate etc...
 
+On the product side, the product is not instrumented (tracking analytics). The objectives are all qualitative, we aim at releasing functionalities but without having any measurement elements on their use. No key KPI is tracked (conversion funnel, churn, activation etc...)
 
-Côté produit idem, le produit n'est pas instrumenté (tracking analytics). Les objectifs sont tous qualitatifs, on vise à sortir des fonctionnalités mais sans avoir d'éléments de mesures sur leur usage. Aucune KPI clé n'est suivie (funnel de conversion, churn, activation etc…)
-
-Les actions ici sont assez évidentes, il faut former toute l'équipe à l'importance de la donnée et mettre en place les outils de collectes de mesures.
+The actions here are quite obvious, we need to train the whole team on the importance of data and put in place the tools to collect measurements.
 
 ### Level 1: Aware.
 
