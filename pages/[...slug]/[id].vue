@@ -223,8 +223,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { NuxtLink } from "#components";
-import HeroSection from "../../components/HeroSection";
+import { NuxtLink, HeroSection } from "#components";
 import siteMetaInfo from "../../data/siteMetaData";
 
 class SlugParams {

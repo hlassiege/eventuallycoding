@@ -92,84 +92,6 @@
                     </section>
 
                     <hr class="mt-20 lg:w-3/4 w-full mx-auto" />
-
-                    <div
-                        class="mt-20 lg:w-3/4 w-full mx-auto lg:px-4 px-0 mb-10"
-                    >
-                        <div class="mb-16">
-                            <h2
-                                class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20"
-                            >
-                                Past events
-                            </h2>
-                        </div>
-
-                        <div
-                            class="overflow-hidden overflow-x-auto border border-gray-100 rounded"
-                        >
-                            <table
-                                class="min-w-full text-sm divide-y divide-gray-200"
-                            >
-                                <thead>
-                                    <tr class="bg-gray-50">
-                                        <th
-                                            class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap"
-                                        >
-                                            Event
-                                        </th>
-                                        <th
-                                            class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap"
-                                        >
-                                            Title
-                                        </th>
-                                        <th
-                                            class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap"
-                                        >
-                                            Location
-                                        </th>
-                                        <th
-                                            class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap"
-                                        >
-                                            Date
-                                        </th>
-                                    </tr>
-                                </thead>
-
-                                <tbody class="divide-y divide-gray-100">
-                                    <tr
-                                        v-for="event in events"
-                                        :key="event.date + event.title"
-                                        class="hover:bg-slate-300 transition-colors"
-                                    >
-                                        <td
-                                            class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap"
-                                        >
-                                            {{ event.event }}
-                                        </td>
-                                        <td
-                                            class="px-4 py-2 text-gray-700 whitespace-nowrap"
-                                        >
-                                            <a
-                                                :href="event.link"
-                                                class="text-blue-500 hover:text-blue-700"
-                                                >{{ event.title }}</a
-                                            >
-                                        </td>
-                                        <td
-                                            class="px-4 py-2 text-gray-700 whitespace-nowrap"
-                                        >
-                                            {{ event.location }}
-                                        </td>
-                                        <td
-                                            class="px-4 py-2 text-gray-700 whitespace-nowrap"
-                                        >
-                                            {{ event.date }}
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -179,7 +101,6 @@
 import BlogCard from "../components/BlogCard.vue";
 import HeroSection from "../components/HeroSection.vue";
 import siteMetaInfo from "../data/siteMetaData";
-import events from "../data/events";
 
 const { data: articles } = await useAsyncData("indexarticles", () =>
     queryContent("articles")
@@ -189,12 +110,13 @@ const { data: articles } = await useAsyncData("indexarticles", () =>
             "img",
             "slug",
             "tags",
+            "language",
             "author",
             "date",
             "_path",
             "cover",
         ])
-        .limit(3)
+        .limit(6)
         .sort({ date: -1 })
         .find()
 );

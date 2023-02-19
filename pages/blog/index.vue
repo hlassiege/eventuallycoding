@@ -33,13 +33,13 @@
                                             <br />
                                             Entrepreneurship and Startups.<br />
                                         </p>
-                                        <p
-                                            class="mt-8 mb-4 md:text-xl text-base font-mark"
-                                        >
-                                            I'm also the author of "Impactful
-                                            Software Development" <br />
-                                            that you can read for free here.
-                                        </p>
+                                        <!--                                        <p-->
+                                        <!--                                            class="mt-8 mb-4 md:text-xl text-base font-mark"-->
+                                        <!--                                        >-->
+                                        <!--                                            I'm also the author of "Impactful-->
+                                        <!--                                            Software Development" <br />-->
+                                        <!--                                            that you can read for free here.-->
+                                        <!--                                        </p>-->
                                     </div>
                                 </div>
                             </div>

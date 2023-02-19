@@ -78,6 +78,7 @@ const props = defineProps({
     currentLang: {
         type: String,
         required: false,
+        default: "fr",
     },
 });
 
