@@ -14,7 +14,7 @@ import "prismjs/plugins/line-highlight/prism-line-highlight.css";
 // Include some other plugins: (optional)
 // import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard";
 // import "prismjs/plugins/show-language/prism-show-language";
-//import "prismjs/plugins/highlight-keywords/prism-highlight-keywords";
+// import "prismjs/plugins/highlight-keywords/prism-highlight-keywords";
 
 // Include additional languages
 import "prismjs/components/prism-bash.js";

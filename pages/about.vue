@@ -2,7 +2,7 @@
     <div>
         <keep-alive>
             <HeroSection>
-                <template v-slot:content>
+                <template #content>
                     <img
                         :src="siteMetaInfo.author_image"
                         loading="lazy"
@@ -14,10 +14,8 @@
         </keep-alive>
 
         <div class="px-4 mx-auto sm:px-6 xl:px-0 mt-10">
-            <TimeLine/>
+            <TimeLine />
         </div>
-
-
     </div>
 </template>
 
@@ -36,28 +34,29 @@ useHead({
         {
             hid: "og:description",
             name: "og:description",
-            content: "About me"
+            content: "About me",
         },
-        {hid: "og:type", name: "og:type", content: "article"},
-        {hid: "og:title", name: "og:title", content: "About me"},
-        {hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/about"},
+        { hid: "og:type", name: "og:type", content: "article" },
+        { hid: "og:title", name: "og:title", content: "About me" },
+        {
+            hid: "og:url",
+            name: "og:url",
+            content: "https://eventuallycoding.com/about",
+        },
         {
             hid: "og:image",
             name: "og:image",
-            content: siteMetaInfo.author_image
+            content: siteMetaInfo.author_image,
         },
-        {name: "og:image:alt", content: siteMetaInfo.author_image},
-        {name: "twitter:text:title", content: 'About me'},
+        { name: "og:image:alt", content: siteMetaInfo.author_image },
+        { name: "twitter:text:title", content: "About me" },
         {
             name: "twitter:image",
-            content: siteMetaInfo.author_image
+            content: siteMetaInfo.author_image,
         },
-        {name: "twitter:card", content: 'summary'},
-
+        { name: "twitter:card", content: "summary" },
     ],
-    link: [
-        {rel: "canonical", href: "https://eventuallycoding.com/about"},
-    ],
+    link: [{ rel: "canonical", href: "https://eventuallycoding.com/about" }],
 });
 </script>
 
@@ -67,7 +66,5 @@ useHead({
     @apply bg-white;
     height: 100px;
     width: 100%;
-
 }
-
 </style>
