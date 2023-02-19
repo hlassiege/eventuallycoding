@@ -105,6 +105,7 @@ import siteMetaInfo from "../data/siteMetaData";
 const { data: articles } = await useAsyncData("indexarticles", () =>
     queryContent("articles")
         .only([
+            "listed",
             "title",
             "description",
             "img",
@@ -116,6 +117,7 @@ const { data: articles } = await useAsyncData("indexarticles", () =>
             "_path",
             "cover",
         ])
+        .where({ listed: { $ne: false } })
         .limit(6)
         .sort({ date: -1 })
         .find()

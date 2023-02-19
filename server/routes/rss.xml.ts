@@ -2,7 +2,10 @@ import { serverQueryContent } from "#content/server";
 import { Feed } from "feed";
 
 export default defineEventHandler(async (event) => {
-    const docs = await serverQueryContent(event).sort({ date: -1 }).find();
+    const docs = await serverQueryContent(event)
+        .where({ listed: { $ne: false } })
+        .sort({ date: -1 })
+        .find();
 
     const now = new Date();
 

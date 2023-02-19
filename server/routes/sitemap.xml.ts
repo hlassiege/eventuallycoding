@@ -1,7 +1,9 @@
 import { serverQueryContent } from "#content/server";
 import { SitemapStream, streamToPromise } from "sitemap";
 export default defineEventHandler(async (event) => {
-    const docs = await serverQueryContent(event).find();
+    const docs = await serverQueryContent(event)
+        .where({ listed: { $ne: false } })
+        .find();
     const sitemap = new SitemapStream({
         hostname: "https://eventuallycoding.com",
     });

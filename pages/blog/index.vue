@@ -193,6 +193,7 @@ const { data: articles } = await useAsyncData("articleList", () => {
     const articles = queryContent("articles")
         .only([
             "title",
+            "listed",
             "description",
             "language",
             "img",
@@ -204,6 +205,7 @@ const { data: articles } = await useAsyncData("articleList", () => {
             "_path",
             "cover",
         ])
+        .where({ listed: { $ne: false } })
         .sort({ date: -1 })
         .find();
     return articles;
