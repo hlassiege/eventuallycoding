@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Thu, 16 Feb 2023 15:20:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Feb 2023 11:28:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Tout mesurer]]></title>
+            <link>https://eventuallycoding.com/2023/02/measuring-everything</link>
+            <guid>https://eventuallycoding.com/2023/02/measuring-everything</guid>
+            <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sans mesure, tout se fait à l'intuition. Et pourtant, la maturité de votre équipe Engineering repose sur sa capacité à prendre des décisions étayées par les données.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Measuring everything]]></title>
+            <link>https://eventuallycoding.com/en/2023/02/measuring-everything</link>
+            <guid>https://eventuallycoding.com/en/2023/02/measuring-everything</guid>
+            <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Without measurement, everything is done by intuition. And yet, the maturity of your engineering team lies in its ability to make data-driven decisions.]]></description>
+        </item>
         <item>
             <title><![CDATA[Ce n'est pas juste une question de technique]]></title>
             <link>https://eventuallycoding.com/2023/02/not-only-about-technique</link>
