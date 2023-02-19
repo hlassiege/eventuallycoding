@@ -63,7 +63,7 @@
 
           <div>
             <h3 class="text-lg font-medium text-gray-700">
-              Tags :
+              Top Tags :
             </h3>
           </div>
           <div class="w-full">
@@ -97,10 +97,6 @@
 
           </div>
 
-<!--        <div class="font-montserrat font-medium text-center text-4xl text-slate-800 pt-[60px] underline-->
-<!--      decoration-red-400 decoration-4 underline-offset-8 -mt-16">-->
-<!--          Blog-->
-<!--        </div>-->
         <div class="pt-16 grid xl:grid-cols-5 lg:grid-cols-3 gap-x-3 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3">
 
           <BlogCard @changeCurrentTag="(tag) => currentTag = tag"
@@ -128,25 +124,7 @@ const route = useRoute();
 const currentTag = ref<string>(route.query.tag || '');
 const currentLang = ref<string>(route.query.lang || 'fr');
 
-const { data: allTags } = await useAsyncData('blogindex', async () => {
-    const tags = await queryContent('articles')
-        .only(["tags"])
-        .find()
-
-    let allTags: string[] = [];
-    tags.forEach(tag => {
-        if ("tags" in tag) {
-            tag.tags.forEach(tag => {
-                if (!allTags.includes(tag)) {
-                    allTags.push(tag);
-                }
-            });
-        }
-    });
-    allTags.sort()
-
-    return allTags;
-});
+const allTags = ["agile", "architecture", "backend", "engineering", "future-of-work", "freelance", "lateralthoughts", "product", "startup"];
 
 const { data: articles } = await useAsyncData('articleList', () => {
     const articles = queryContent("articles")
