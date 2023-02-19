@@ -10,11 +10,9 @@ categories:
 tags: 
   - "malt"
   - "startup"
-img: "475f8-keep-calm-it-s-not-done-yet1.png"
-cover: "cover2.jpg"
+cover: "475f8-keep-calm-it-s-not-done-yet1.png"
 ---
 
-[![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)
 
 Chez Malt nous sommes constamment en recrutement et je fais passer des entretiens très très régulièrement. Il y a une chose que je répète à chaque candidat car cela reflète une qualité essentielle que nous recherchons et j'aimerais le partager ici et l'étoffer.
 
@@ -38,7 +36,7 @@ La grenouille ici c'est nous. Si on n'y prend pas garde on s'endort dans une eau
 
 Il y a peu j'ai eu la chance d'aller visiter San Francisco et rencontrer de nombreuses boîtes sur place. Notamment nous avons vu les locaux de Facebook. Le campus se trouve sur l'emplacement de l'ancien campus de Sun. Lorsqu'on rentre il y a un panneau à l'entrée. Et derrière ce panneau on trouve l'ancien panneau de Sun.
 
-[![](/images/4a14d-sanfrancisco2013_187.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/05/4a14d-sanfrancisco2013_187.jpg) [![](/images/f0d11-facebook-_sign.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/05/f0d11-facebook-_sign.jpg)
+![](/images/f0d11-facebook-_sign.jpg)
 
 Il y a une raison d'avoir gardé ce panneau.
 

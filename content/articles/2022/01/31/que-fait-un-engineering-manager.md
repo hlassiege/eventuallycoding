@@ -9,8 +9,7 @@ tags:
   - "engineering-manager"
   - "organization"
   - "product"
-img: "Illustration_sans_titre-44-1024x842.jpg"
-cover: "cover6.jpg"
+cover: "emmy-engineering-manager.jpg"
 ---
 
 Dans ce billet je souhaite revenir sur le rôle d’Engineering Manager, la personne responsable de l’efficacité du “delivery” (la capacité à livrer du logiciel), des personnes et de leur évolution dans l’entreprise. 
@@ -57,7 +56,7 @@ Sur les autres axes, je vous invite à lire la définition sur [engineeringladde
 
 Voici ce que ça donne :
 
-[![](/images/Illustration_sans_titre-44-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-44.jpg)
+![](/images/Illustration_sans_titre-44-1024x842.jpg)]
 
 Voyons ce que cela donne chez nous.
 
@@ -69,7 +68,7 @@ Dans [un ancien billet](https://eventuallycoding.com/2021/06/24/senior-avec-6-an
 
 Reprenons ce schéma que j’avais utilisé : 
 
-[![](/images/Dual_ladder-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/Dual_ladder.jpg)
+![](/images/Dual_ladder-1024x1024.jpg)
 
 On y distingue 3 branches distinctes :
 

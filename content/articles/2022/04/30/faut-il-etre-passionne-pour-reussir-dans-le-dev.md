@@ -11,13 +11,12 @@ tags:
   - "dev"
   - "passion"
   - "thoughts"
-img: ""
-cover: "cover3.jpg"
+cover: "passion-work-hard.jpg"
 ---
 
 Faut-il être passionné et vivre de code d'eau fraîche pour réussir dans le milieu du dev ? 
 
-Est ce qu'on peut stopper le boulot à 18h, faire du sport, regarder des séries, vivre une vie sociale et faire une carrière dans l'informatique ?
+Est-ce qu'on peut stopper le boulot à 18h, faire du sport, regarder des séries, vivre une vie sociale et faire une carrière dans l'informatique ?
 
 J'ai vu cette question passer sur Twitter et je me suis dit qu'il serait difficile de répondre et de mettre toutes les nuances nécessaires en 280 caractères. 
 
@@ -29,11 +28,11 @@ https://twitter.com/MarcyChama/status/1520373816337313792
 
 Evidemment qu’on peut.
 
-Voilà c’est tout, vous pouvez retourner à une activité normale :)
+Voilà, c’est tout, vous pouvez retourner à une activité normale :)
 
 Mais si vous voulez plus de nuances, c’est maintenant.
 
-La question est difficile car je sais qu'elle cache plusieurs sous-sujets :
+La question est difficile, car je sais qu'elle cache plusieurs sous-sujets :
 
 _\- la culture geek_ 
 
