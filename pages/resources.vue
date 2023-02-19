@@ -52,35 +52,35 @@
 import HeroSection from "../components/HeroSection";
 import siteMetaInfo from "../data/siteMetaData";
 
-const { data: article } = await useAsyncData('resources', () => queryContent('resources').where({title: 'Ressources'}).findOne())
-const siteMetadata = ref<string>(siteMetaInfo);
+const { data: article } = await useAsyncData('resources', () => queryContent('resources').where({title: 'Resources'}).findOne())
+const siteMetadata = ref(siteMetaInfo);
 
 useHead({
-    title: "Ressources | " + siteMetadata.value.title,
+    title: "Resources | " + siteMetaInfo.title,
     meta: [
         {
             hid: "description",
             name: "description",
-            content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé.",
+            content: "Here is a list of various resources that I use frequently or that have influenced me",
         },
         {
             hid: "og:description",
             name: "og:description",
-            content: "Voici une liste de ressources assez variés que j'utilise fréquement ou qui m'ont influencé."
+            content: "Here is a list of various resources that I use frequently or that have influenced me"
         },
         {hid: "og:type", name: "og:type", content: "article"},
-        {hid: "og:title", name: "og:title", content: article.title},
+        {hid: "og:title", name: "og:title", content: article.value?.title},
         {hid: "og:url", name: "og:url", content: "https://eventuallycoding.com/resources"},
         {
             hid: "og:image",
             name: "og:image",
-            content: 'https://eventuallycoding.com' + '/images/covers/' + article.cover
+            content: 'https://eventuallycoding.com' + '/images/covers/' + article.value?.cover
         },
-        {name: "og:image:alt", content: article.title},
-        {name: "twitter:text:title", content: article.title},
+        {name: "og:image:alt", content: article.value?.title},
+        {name: "twitter:text:title", content: article.value?.title},
         {
             name: "twitter:image",
-            content: 'https://eventuallycoding.com' + '/images/covers/' + article.cover
+            content: 'https://eventuallycoding.com' + '/images/covers/' + article.value?.cover
         },
         {name: "twitter:card", content: 'summary'},
 
