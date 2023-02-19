@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isFiltered" class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
+  <div v-if="isDisplayed" class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400
   hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1">
     <NuxtLink class="overflow-hidden " :to="postLink">
       <img
@@ -56,11 +56,20 @@ const props = defineProps({
         type: String,
         required: false,
     },
+    lang: {
+        type: String,
+        required: false,
+        default: 'fr',
+    },
     tags: {
         type: Array,
         required: false,
     },
     currentTag: {
+        type: String,
+        required: false,
+    },
+    currentLang: {
         type: String,
         required: false,
     },
@@ -75,8 +84,10 @@ function formatDate(date) {
     })
 }
 
-const isFiltered = computed(() => {
-    return !props.currentTag || (props.tags && props.tags.includes(props.currentTag));
+const isDisplayed = computed(() => {
+    let tagsIncludeCurrentTag = !props.currentTag || (props.tags?.includes(props.currentTag));
+    let langEqualsToCurrentLang = props.currentLang === props.lang;
+    return tagsIncludeCurrentTag && langEqualsToCurrentLang;
 });
 
 const postTitle = ref(props.title);

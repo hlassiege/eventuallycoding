@@ -12,9 +12,10 @@ tags:
   - "product"
 img: "pasted-image-0-5.png"
 cover: "cover6.jpg"
----
 
-[English version here](https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate/)
+alternates:
+    - en: "https://eventuallycoding.com/en/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate"
+---
 
 Voici le second billet de cette série autour de la création d’un side project. 
 

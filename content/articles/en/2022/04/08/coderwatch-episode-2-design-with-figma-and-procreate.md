@@ -1,8 +1,7 @@
 ---
 id: "2021"
 title: "Coderwatch: Episode 2 – Design with Figma and Procreate"
-description: "Here is the second post of this serie around the creation of a side project. 
-
+description: "Here is the second post of this serie around the creation of a side project.
 If you haven't read the first one, my goal is to make a mini series ret..."
 date: "2022-04-08"
 categories: 
@@ -12,6 +11,10 @@ tags:
   - "product"
 img: "pasted-image-0-5.png"
 cover: "cover8.jpg"
+
+language: "en"
+alternates:
+    - fr: "https://eventuallycoding.com/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate"
 ---
 
 Here is the second post of this serie around the creation of a side project. 

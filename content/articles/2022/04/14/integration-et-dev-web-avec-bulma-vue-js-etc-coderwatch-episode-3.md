@@ -15,9 +15,10 @@ tags:
   - "vuejs"
 img: "pasted-image-0.png"
 cover: "cover4.jpg"
----
 
-[english version here](https://eventuallycoding.com/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3/)
+alternates:
+    - en: "https://eventuallycoding.com/en/2022/04/08/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3"
+---
 
 Parlons un peu intégration Web, HTML, CSS et dev Frontend. 
 
