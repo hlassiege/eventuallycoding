@@ -7,7 +7,6 @@ tags:
   - "impact"
   - "senior"
 cover: "sun-circus.jpg"
-
 language: "en"
 alternates:
     - fr: "https://eventuallycoding.com/2023/02/not-only-about-technique"

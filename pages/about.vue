@@ -13,6 +13,38 @@
             </HeroSection>
         </keep-alive>
 
+        <div class="mt-10 w-full p-4 text-center bg-white sm:p-8">
+            <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
+                Hi, I'm the guy behind eventuallycoding.com
+            </h5>
+            <p
+                class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400"
+            >
+                I like to share about product development, entrepreneurship and
+                startups. I'm blogging since 2007. <br />
+                If you want to help me pay for the costs associated with this
+                blog (domain name, commenting system etc...) <br />or simply
+                motivate me to continue, you can click on the button below :)
+            </p>
+            <div
+                class="items-center justify-center space-y-4 flex space-y-0 space-x-4"
+            >
+                <a
+                    href="https://www.buymeacoffee.com/hlassiege"
+                    target="_blank"
+                    class="hover:-backdrop-hue-rotate-30 hover:-translate-y-1 transition-all"
+                    ><img
+                        src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                        alt="Buy Me A Coffee"
+                        style="
+                            height: 60px !important;
+                            width: 217px !important;
+                        "
+                /></a>
+            </div>
+        </div>
+        <hr />
+
         <div class="px-4 mx-auto sm:px-6 xl:px-0 mt-10">
             <TimeLine />
         </div>

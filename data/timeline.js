@@ -1,13 +1,12 @@
 const timeline = [
     {
-        event: "Co-fondateur et CTO chez Malt",
-        date: "201(2|4)- En cours",
+        event: "Co-founder and CTO at Malt",
+        date: "201(2|4)- In progress",
         location: "Europe",
-        description:
-            "Malt c'est tout simplement LA place de marché pour les freelances qui cherchent à trouver des clients et se simplifier la vie.<br>\n" +
-            "                Au moment où j’écris ces lignes (édité en 2022), Malt c’est 500 personnes qui travaillent depuis Paris, Lyon, Munich, Madrid, Berlin, Bruxelles, Amsterdam et en remote, 800 000 inscrits, 300 000 freelances.<br>\n" +
-            "                Et tout ça, ça a commencé en 2012 avec 3 personnes ! <br>\n" +
-            "                Sur ce blog, vous retrouverez une bonne partie de ce que j'ai appris dans cette super aventure.",
+        description: `Malt is simply THE marketplace for freelancers looking to find clients and simplify their lives.<br>\n
+                            As I write these lines (published in 2022), Malt is 500 people working from Paris, Lyon, Munich, Madrid, Berlin, Brussels, Amsterdam and remotely, 800,000 registered, 300,000 freelancers.<br>\n
+                            And it all started in 2012 with 3 people! <br>\n
+                            On this blog, you will find a good part of what I learned in this great adventure.`,
         images: [
             {
                 src: "/logos/malt.png",
@@ -17,11 +16,11 @@ const timeline = [
         ],
     },
     {
-        event: "Freelance",
+        event: "Freelancer",
         date: "2010-201(4|6)",
         location: "Paris-Lyon",
         description:
-            "Enfin Free ! <br> Ce sera mes premiers pas dans l'entreprenariat et me donnera l'occasion de créer 3 entreprises sur la période : Lateral-thoughts, Localizeyourapp et Malt.<br>Cela constitue un autre gros thème de ce blog : l'entreprenariat, le freelancing et le développement web.",
+            "Finally Free ! <br> This will be my first steps in entrepreneurship and will give me the opportunity to create 3 companies over the period: Lateral-thoughts, Localizeyourapp and Malt.<br>This is another big theme of this blog: entrepreneurship, freelancing and web development.",
         images: [
             {
                 src: "/logos/lateral-thoughts.svg",
@@ -61,16 +60,15 @@ const timeline = [
         ],
     },
     {
-        event: "Edition de logiciel - Finance",
+        event: "Software edition - Finance",
         date: "2006-2010",
         location: "Paris",
-        description:
-            "J'ai eu le nez creux en choisissant le domaine de la finance juste au moment de la crise des subprimes ! \\o/\n" +
-            "                <br>\n" +
-            "                Mais c'est ici que je découvre que j'adore faire du produit et penser long terme. <br>\n" +
-            "                Et cela m'influencera sur tout le reste de mon parcours, par les personnes que je vais rencontrer, par les méthodes de travail, l'international,\n" +
-            "                un peu aussi malheureusement par ce que je ne souhaitais pas reproduire moi-même en terme de management.<br>\n" +
-            "                Cela correspond aux tout premiers billets de ce blog (une partie n'est plus en ligne) !",
+        description: `I had the right intuition when I chose the field of finance just at the time of the subprime crisis! \\o/\n
+                            <br>\n
+                            But this is where I discover that I love making product and thinking long term. <br>\n
+                            And this will influence me for the rest of my career, by the people I will meet, by the working methods, the international,\n
+                            and a little bit also unfortunately, things I didn't want to reproduce myself in terms of management..<br>\n
+                            This corresponds to the very first posts of this blog (some of them are not online anymore) !`,
         images: [
             {
                 src: "/logos/sungard-vector-logo.png",
@@ -80,13 +78,12 @@ const timeline = [
         ],
     },
     {
-        event: "Conseil et monde du service",
+        event: "Consulting and IT firms",
         date: "2002-2006",
         location: "Paris",
-        description:
-            "Voici venu le temps des costumes, des clients corporate et du monde de la prestation, un univers à part entière.<br>\n" +
-            "                Ce sera cependant très formateur avec une grande diversité d'expériences et plein de belles premières rencontres et de supers apprentissages.<br>\n" +
-            "                Mais aussi une certitude, si je refaisais du service dans le futur, ce ne serait pas dans ces conditions (coucou le freelancing!).",
+        description: `The time has come for suit, corporate clients and the world of IT firms, a world of its own.<br>\n
+                            It will however be very formative with a great diversity of experiences and lots of great first encounters and learning.<br>\n
+                            But also a certainty, if I did service again in the future, it would not be in these conditions (hello freelancing!)`,
         images: [
             {
                 src: "/logos/sg.jpg",
@@ -106,22 +103,22 @@ const timeline = [
         ],
     },
     {
-        event: "Premier job dans une startup",
+        event: "First job in a startup",
         date: "2001",
         location: "Paris",
         description:
-            "Ici on peut constater l'instinct, juste avant l'explosion de la bulle internet.<br>\n" +
-            "                2001 pour l'anecdote c'est : l'explosion de la bulle internet, la fin du passage à l'Euro, le World Trade center... <br>\n" +
-            "                Le marché du travail était loin d'être rose après ça.",
+            "Here we can see the instinct, just before the explosion of the internet bubble.<br>\n" +
+            "                2001 for the anecdote, it is: the explosion of the Internet bubble, the end of the transition to Euro, the World Trade center... <br>\n" +
+            "                The job market was far from being good after that.",
         images: [],
     },
     {
-        event: "naissance",
-        date: "20eme siècle",
-        location: "France, planète terre",
+        event: "birth",
+        date: "20th century",
+        location: "France, earth planet",
         description:
-            "J'ai plus la date exacte, c'est pas important ;)<br>\n" +
-            "                Et vous savez quoi, je suis toujours nostalgique des films des années 80/90.",
+            "I don't have the exact date anymore, it's not important ;)<br>\n" +
+            "                And you know what, I'm still nostalgic for 80s/90s movies.",
         images: [],
     },
 ];

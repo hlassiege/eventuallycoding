@@ -6,7 +6,6 @@ date: "2023-01-19"
 tags:
   - "startup"
 cover: "startup.jpg"
-
 language: "en"
 alternates:
     - fr: "https://eventuallycoding.com/2023/01/questions-startup"
