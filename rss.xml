@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 19 Feb 2023 21:35:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Feb 2023 18:38:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -28,6 +28,13 @@
             <guid>https://eventuallycoding.com/2023/02/not-only-about-technique</guid>
             <pubDate>Fri, 03 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[La technique seule ne suffit pas pour créer de l'impact. Votre rôle, c'est de faire en sorte que votre entreprise travaille sur les bons sujets.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[It's not just a matter of technique]]></title>
+            <link>https://eventuallycoding.com/en/2023/02/not-only-about-technique</link>
+            <guid>https://eventuallycoding.com/en/2023/02/not-only-about-technique</guid>
+            <pubDate>Fri, 03 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technique alone is not enough to create impact. Your role is to make sure your company is working on the right things.]]></description>
         </item>
         <item>
             <title><![CDATA[Les questions à poser avant de rentrer dans une startup]]></title>
