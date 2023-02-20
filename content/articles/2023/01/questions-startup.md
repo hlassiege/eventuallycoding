@@ -6,6 +6,9 @@ date: "2023-01-19"
 tags:
   - "startup"
 cover: "startup.jpg"
+
+alternates:
+    - en: "https://eventuallycoding.com/en/2023/01/questions-startup"
 ---
 
 Ça y est, vous avez une offre d’une startup sur la table, mais vous ne savez pas vraiment quoi en penser.
