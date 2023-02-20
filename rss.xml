@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Mon, 20 Feb 2023 18:38:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Feb 2023 18:48:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -42,6 +42,13 @@
             <guid>https://eventuallycoding.com/2023/01/questions-startup</guid>
             <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Ça y est, vous avez une offre d’une startup sur la table, mais vous ne savez pas vraiment quoi en penser. Parlons-en]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Questions to ask before joining a startup]]></title>
+            <link>https://eventuallycoding.com/en/2023/01/questions-startup</link>
+            <guid>https://eventuallycoding.com/en/2023/01/questions-startup</guid>
+            <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[That’s it, you have an offer from a startup on the table, but you don’t really know what to think about it. Let’s talk about it.]]></description>
         </item>
         <item>
             <title><![CDATA[Le projet Singapore : Migration vers Nuxt]]></title>
