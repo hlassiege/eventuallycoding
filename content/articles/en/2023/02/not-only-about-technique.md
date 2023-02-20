@@ -7,6 +7,10 @@ tags:
   - "impact"
   - "senior"
 cover: "sun-circus.jpg"
+
+language: "en"
+alternates:
+    - fr: "https://eventuallycoding.com/2023/02/not-only-about-technique"
 ---
 
 At the beginning of my career, I invested a lot in my technical skills. Very quickly, I knew that I wanted to move towards expertise. I was drawn to application puzzles, problem solving, architecture, or just technologies itself. I had the chance to work on various projects, in telecoms, banking, insurance. I practiced various technologies, C, C++, Tcl/Tk, PHP, Java and so on… I learned from very good mentors during 4 years when I worked in a service company. IT firms are very formative to start because you go from one project to another and you can develop your individual skills without being deeply interested in the business areas in which you work. Our impact is limited but we can learn faster.

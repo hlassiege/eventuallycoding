@@ -7,6 +7,8 @@ tags:
   - "impact"
   - "senior"
 cover: "sun-circus.jpg"
+alternates:
+  - en: "https://eventuallycoding.com/en/2023/02/not-only-about-technique"
 ---
 
 Au début de ma carrière, j'ai beaucoup investi sur mes compétences techniques. Très rapidement, j'ai su que je souhaitais me diriger vers l'expertise. J'étais attiré par les casses-têtes applicatifs, la résolution de problèmes, l'architecture ou juste, les technologies en elle-même. J'ai eu la chance de travailler sur des projets variés, dans les télécoms, la banque, l'assurance. J'ai pratiqué des technologies diverses, C, C++, Tcl/Tk, PHP, Java et j'en passe... J'ai appris de très bons mentors pendant 4 ans où je travaillais en société de services. Le service, c'est très formateur pour démarrer car on passe d'un projet à l'autre et on peut développer ses compétences individuelles sans s'intéresser profondément aux domaines métiers sur lesquels on travaille. On limite son impact, mais individuellement on peut progresser vite.
