@@ -8,12 +8,14 @@
                 v-if="img"
                 class="object-cover w-full h-52"
                 :src="'/images/' + img"
+                loading="lazy"
                 alt=""
             />
             <img
                 v-else
                 class="object-contain w-full h-52"
                 src="/images/post-anonymous.jpg"
+                loading="lazy"
                 alt=""
             />
         </NuxtLink>
