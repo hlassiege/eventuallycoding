@@ -176,9 +176,10 @@
                         "
                         target="_blank"
                         rel="noopener"
-                        aria-label=""
+                        aria-label="Share on Facebook"
                     >
                         <button
+                            aria-label="Share on Facebook"
                             type="button"
                             class="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
                         >
@@ -212,8 +213,10 @@
                         target="_blank"
                         title="Share on Twitter"
                         rel="noopener noreferrer"
+                        aria-label="Share on Twitter"
                     >
                         <button
+                            aria-label="Share on Twitter"
                             type="button"
                             class="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
                         >
