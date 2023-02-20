@@ -446,6 +446,9 @@ alternates.push({
 
 useHead({
     title: article.value?.title + " | " + siteMetaInfo.title,
+    htmlAttrs: {
+        lang: article.value?.language || "fr",
+    },
     meta: [
         {
             hid: "description",

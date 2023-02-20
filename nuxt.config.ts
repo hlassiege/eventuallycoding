@@ -4,6 +4,9 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
     app: {
         head: {
+            htmlAttrs: {
+                lang: "en",
+            },
             script: [
                 {
                     src: "https://digianalytics.fr/js/script.js",
