@@ -40,6 +40,8 @@
                 </div>
             </div>
 
+            <EditOnGithub :path="article._path" />
+
             <hr class="mb-8" />
 
             <SharingButtons
@@ -49,8 +51,6 @@
             />
 
             <div id="hyvor-talk-view"></div>
-
-            <EditOnGithub :path="article._path" />
         </div>
     </div>
 </template>
