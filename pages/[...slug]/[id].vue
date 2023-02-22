@@ -40,8 +40,6 @@
                 </div>
             </div>
 
-            <BuyMeACoffee />
-
             <hr class="mb-8" />
 
             <SharingButtons
@@ -64,7 +62,6 @@ import { useHyvor } from "~/composables/useHyvor";
 import { useYoutubeTwitterEnhancer } from "~/composables/useYoutubeTwitterEnhancer";
 import { useExtractSlugFromParams } from "~/composables/useExtractSlugFromParams";
 import SharingButtons from "~/components/SharingButtons.vue";
-import BuyMeACoffee from "~/components/BuyMeACoffee.vue";
 import EditOnGithub from "~/components/EditOnGithub.vue";
 
 const route = useRoute();
