@@ -1,5 +1,5 @@
 <template>
-    <footer class="lg:mt-52 border-t border-t-2">
+    <footer class="lg:mt-40 border-t border-t-2">
         <div class="flex flex-col items-center mt-16">
             <div class="flex mb-3 space-x-4">
                 <a

@@ -51,18 +51,21 @@
             />
 
             <div id="hyvor-talk-view"></div>
+
+            <EditOnGithub :path="article._path" />
         </div>
     </div>
 </template>
 <script setup lang="ts">
-import { NuxtLink, HeroSection } from "#components";
+import { HeroSection } from "#components";
 import siteMetaInfo from "../../data/siteMetaData";
-import { useFormatDateToIso, useFormatDate } from "~/composables/useFormatDate";
+import { useFormatDateToIso } from "~/composables/useFormatDate";
 import { useHyvor } from "~/composables/useHyvor";
 import { useYoutubeTwitterEnhancer } from "~/composables/useYoutubeTwitterEnhancer";
 import { useExtractSlugFromParams } from "~/composables/useExtractSlugFromParams";
 import SharingButtons from "~/components/SharingButtons.vue";
 import BuyMeACoffee from "~/components/BuyMeACoffee.vue";
+import EditOnGithub from "~/components/EditOnGithub.vue";
 
 const route = useRoute();
 const siteMetadata = ref(siteMetaInfo);
