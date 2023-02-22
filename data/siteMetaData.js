@@ -13,6 +13,8 @@ const siteMetadata = {
     mastodon: "https://piaille.fr/@hugolassiege",
     github: "https://github.com/hlassiege",
     githubUser: "hlassiege",
+    githubContentUrlInRepo:
+        "https://github.com/hlassiege/eventuallycoding/blob/master/content",
     twitter: "https://twitter.com/",
     twitter_user: "hugolassiege",
     linkedin: "https://www.linkedin.com/in/hugolassiege/",
