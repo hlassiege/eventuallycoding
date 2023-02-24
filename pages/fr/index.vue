@@ -48,8 +48,8 @@
                         </small>
                         <NuxtLink
                             class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
-                            to="/fr"
-                            >FR</NuxtLink
+                            to="/"
+                            >EN</NuxtLink
                         >
 
                         <div
@@ -112,8 +112,8 @@
 </template>
 <script setup lang="ts">
 import { BlogCard, HeroSection } from "#components";
-import siteMetaInfo from "../data/siteMetaData";
-const currentLang = ref<string>("en");
+import siteMetaInfo from "../../data/siteMetaData";
+const currentLang = ref<string>("fr");
 const { data: articles } = await useAsyncData("indexarticles", () =>
     queryContent("articles")
         .only([
@@ -129,7 +129,7 @@ const { data: articles } = await useAsyncData("indexarticles", () =>
             "_path",
             "cover",
         ])
-        .where({ language: "en", listed: { $ne: false } })
+        .where({ language: { $ne: "en" }, listed: { $ne: false } })
         .limit(6)
         .sort({ date: -1 })
         .find()

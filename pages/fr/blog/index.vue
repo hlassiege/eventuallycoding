@@ -145,8 +145,8 @@
                     </small>
                     <NuxtLink
                         class="underline decoration-red-400 decoration-4 underline-offset-8 text-lg text-gray-500"
-                        to="/fr/blog"
-                        >FR</NuxtLink
+                        to="/blog"
+                        >EN</NuxtLink
                     >
                 </div>
 
@@ -174,10 +174,10 @@
 </template>
 <script setup lang="ts">
 import { HeroSection } from "#components";
-import siteMetaInfo from "../../data/siteMetaData";
+import siteMetaInfo from "../../../data/siteMetaData";
 const route = useRoute();
 const currentTag = ref<string>(route.query.tag || "");
-const currentLang = ref<string>("en");
+const currentLang = ref<string>("fr");
 
 const allTags = [
     "agile",
@@ -207,7 +207,7 @@ const { data: articles } = await useAsyncData("articleList", () => {
             "_path",
             "cover",
         ])
-        .where({ language: "en", listed: { $ne: false } })
+        .where({ language: { $ne: "en" }, listed: { $ne: false } })
         .sort({ date: -1 })
         .find();
     return articles;
