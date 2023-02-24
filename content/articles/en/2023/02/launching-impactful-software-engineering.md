@@ -1,7 +1,7 @@
 ---
 id: "15"
 title: "Launching Impactful Software Engineering"
-description: "What is the impact for an engineering team in a product company?"
+description: "How to create impact for an engineering team in a product company?"
 date: "2023-02-23"
 tags:
 - "impact"
