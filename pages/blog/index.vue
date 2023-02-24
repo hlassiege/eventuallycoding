@@ -33,13 +33,24 @@
                                             <br />
                                             Entrepreneurship and Startups.<br />
                                         </p>
-                                        <!--                                        <p-->
-                                        <!--                                            class="mt-8 mb-4 md:text-xl text-base font-mark"-->
-                                        <!--                                        >-->
-                                        <!--                                            I'm also the author of "Impactful-->
-                                        <!--                                            Software Development" <br />-->
-                                        <!--                                            that you can read for free here.-->
-                                        <!--                                        </p>-->
+                                        <p
+                                            class="mt-8 mb-4 md:text-xl text-base font-mark"
+                                        >
+                                            I'm also the author of
+                                            <NuxtLink
+                                                class="underline"
+                                                :to="
+                                                    (currentLang === 'en'
+                                                        ? '/en'
+                                                        : '') +
+                                                    '/2023/02/impactful-software-engineering'
+                                                "
+                                                >"Impactful Software
+                                                Engineering"</NuxtLink
+                                            >
+                                            <br />
+                                            that you can read for free here.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
