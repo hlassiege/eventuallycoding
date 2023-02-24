@@ -44,7 +44,7 @@ I will write it chapter by chapter, each chapter will be available here as a blo
 For most readers of this blog, it won't make a difference, each chapter will be readable independently of the others.
 
 But I will maintain a general outline and reading order on a separate page of this blog.
-The best possible comparison would be the [staffeng.com](staffeng.com) site which can be read as a blog.
+The best possible comparison would be the [staffeng.com](https://staffeng.com/) site which can be read as a blog.
 
 Several chapters already exist, but you didn't know it yet (and neither did I). Maybe they will be reworked, and then integrated to the rest.
 

@@ -45,7 +45,7 @@ Je vais l’écrire chapitre par chapitre, chaque chapitre sera disponible ici s
 Pour la plupart des lecteurs de ce blog, ça ne changera rien, chaque chapitre sera lisible indépendamment les uns des autres.
 
 Mais je vais maintenir un plan général et un ordre de lecture sur une page à part de ce blog.
-La meilleure comparaison possible, ce serait le site [staffeng.com](staffeng.com) qui peut se lire comme un blog.
+La meilleure comparaison possible, ce serait le site [staffeng.com](https://staffeng.com/) qui peut se lire comme un blog.
 
 Plusieurs chapitres existent d’ailleurs déjà, mais vous ne le saviez pas encore (et moi non plus d’ailleurs). Ils seront peut-être retravaillés, puis intégrés au reste.
 
