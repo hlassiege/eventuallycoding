@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 22 Feb 2023 22:57:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Feb 2023 13:40:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Lancement de Impactful Software Engineering]]></title>
+            <link>https://eventuallycoding.com/2023/02/launching-impactful-software-engineering</link>
+            <guid>https://eventuallycoding.com/2023/02/launching-impactful-software-engineering</guid>
+            <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[C'est quoi l’impact pour une équipe engineering dans une boite produit ?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Launching Impactful Software Engineering]]></title>
+            <link>https://eventuallycoding.com/en/2023/02/launching-impactful-software-engineering</link>
+            <guid>https://eventuallycoding.com/en/2023/02/launching-impactful-software-engineering</guid>
+            <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is the impact for an engineering team in a product company?]]></description>
+        </item>
         <item>
             <title><![CDATA[Tout mesurer]]></title>
             <link>https://eventuallycoding.com/2023/02/measuring-everything</link>
