@@ -1,7 +1,7 @@
 ---
 id: "15"
 title: "Lancement de Impactful Software Engineering"
-description: "C'est quoi l’impact pour une équipe engineering dans une boite produit ?"
+description: "C'est quoi l'impact pour une équipe engineering dans une boite produit ?"
 date: "2023-02-23"
 tags:
 - "impact"
