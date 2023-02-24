@@ -42,7 +42,25 @@
     </div>
 </template>
 <script setup lang="ts">
-import toc from "~/data/impactful-software-engineering";
+import books from "~/data/books";
+
+const props = defineProps({
+    language: {
+        type: String,
+        default: "en",
+    },
+    book: {
+        type: String,
+        default: "impactfulSoftwareEngineering",
+    },
+});
+
+const toc = computed(() => {
+    if (Object.hasOwn(books, props.book)) {
+        return books[props.book][props.language] || [];
+    }
+    return [];
+});
 </script>
 <style scoped lang="scss">
 ul {

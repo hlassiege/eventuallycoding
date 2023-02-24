@@ -1,13 +1,13 @@
 ---
 id: "14"
 title: "Impactful Software Engineering"
-description: ""
+description: "Table des matières de l'e-book Impactful Software Engineering"
 date: "2023-02-23"
 tags:
-- "impact"
 - "book"
 - "engineering"
-cover: "opticien.jpg"
+cover: "book.jpg"
+listed: false
 
 language: "fr"
 alternates:
@@ -16,8 +16,8 @@ alternates:
 
 
 ::tip
-This is the table of content of the e-book **Impactful Software Engineering**.  
-This book is build iteratively, and the table of content will be updated as the book is written.
+Ceci est la table des matières du e-book **Impactful Software Engineering**.  
+Ce livre sera construit itérativement et la table des matières sera mise à jour au fur et à mesure de l'écriture.
 ::
 
-::table-of-content
+::table-of-content{language="fr" book="impactfulSoftwareEngineering"}

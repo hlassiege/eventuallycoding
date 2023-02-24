@@ -175,7 +175,7 @@ import HeroSection from "../../components/HeroSection";
 import siteMetaInfo from "../../data/siteMetaData";
 const route = useRoute();
 const currentTag = ref<string>(route.query.tag || "");
-const currentLang = ref<string>(route.query.lang || "fr");
+const currentLang = ref<string>(route.query.lang || "en");
 
 const allTags = [
     "agile",

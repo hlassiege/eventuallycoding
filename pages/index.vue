@@ -124,7 +124,7 @@ import BlogCard from "../components/BlogCard.vue";
 import HeroSection from "../components/HeroSection.vue";
 import siteMetaInfo from "../data/siteMetaData";
 const route = useRoute();
-const currentLang = ref<string>(route.query.lang || "fr");
+const currentLang = ref<string>(route.query.lang || "en");
 const { data: articles } = await useAsyncData("indexarticles", () =>
     queryContent("articles")
         .only([

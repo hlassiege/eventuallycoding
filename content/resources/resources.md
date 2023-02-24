@@ -7,22 +7,23 @@ Here is a list of various resources that I use frequently or that have influence
 
 ## Books
 
-| Title                                                                                                                    | Author                             |
-|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| [Continuous Delivery](https://www.amazon.fr/Continuous-Delivery-Reliable-Deployment-Automation/dp/0321601912)            | Jez Humble, David Farley              |
-| [Inspired](https://www.amazon.fr/Inspired-Create-Tech-Products-Customers/dp/1119387507)                                  | Marty Cagan                           |
-| [Lean Management](https://www.eyrolles.com/Entreprise/Livre/lean-management-9782212546385/)                              | Pierre Pezziardi                      |
-| [L'obsession du service client](https://www.amazon.fr/Lobsession-service-client-start-up-lexp%C3%A9rience/dp/2100784927) | Jonathan Lefèvre                      |
-| [Empowered](https://www.amazon.fr/Empowered-Ordinary-People-Extraordinary-Products/dp/111969129X)                        | Marty Cagan                           |
-| [Measure what matters](https://www.amazon.fr/Measure-What-Matters-Google-Foundation/dp/0525536221)                       | John Doerr                            |
-| [No Rules Rules](https://www.amazon.fr/No-Rules-Netflix-Culture-Reinvention/dp/0753553635)                               | 	Red Hastings, Erin Meyer             |
-| [Pragmatic Programmer](https://www.amazon.fr/Pragmatic-Programmer-Journeyman-Master-ebook/dp/B003GCTQAE)                 | Hunt Andrew, Thomas David             | 
-| [Reinventing Organizations](https://livre.fnac.com/a8843377/Frederic-Laloux-Reinventing-organizations)                   | Frédérix Laloux                       |
-| [Rework](https://www.amazon.fr/Rework-Jason-Fried/dp/0307463745)                                                         | Jason Fried, David Heinemeier Hansson |
-| [The future of Management](https://www.amazon.fr/The-Future-of-Management-Business-Leadership/dp/0307463745)             | Gary Hamel                            |
-| [The 5 dysfunctions of a team](https://www.amazon.fr/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)              | Patrick M Lencioni                    |
-| [The manager's Path](https://www.amazon.fr/The-Managers-Path-Business-Leadership/dp/0307463745)                          | Camille Fournier                      |
-| [Turn the ship around](https://www.amazon.fr/Turn-Ship-Around-Building-Breaking/dp/0241250943)                           | David Marquet                         |
+| Title                                                                                                                     | Author                                |
+|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [Continuous Delivery](https://www.amazon.fr/Continuous-Delivery-Reliable-Deployment-Automation/dp/0321601912)             | Jez Humble, David Farley              |
+| [Inspired](https://www.amazon.fr/Inspired-Create-Tech-Products-Customers/dp/1119387507)                                   | Marty Cagan                           |
+| [Lean Management](https://www.eyrolles.com/Entreprise/Livre/lean-management-9782212546385/)                               | Pierre Pezziardi                      |
+| [L'obsession du service client](https://www.amazon.fr/Lobsession-service-client-start-up-lexp%C3%A9rience/dp/2100784927)  | Jonathan Lefèvre                      |
+| [Empowered](https://www.amazon.fr/Empowered-Ordinary-People-Extraordinary-Products/dp/111969129X)                         | Marty Cagan                           |
+| [Measure what matters](https://www.amazon.fr/Measure-What-Matters-Google-Foundation/dp/0525536221)                        | John Doerr                            |
+| [No Rules Rules](https://www.amazon.fr/No-Rules-Netflix-Culture-Reinvention/dp/0753553635)                                | 	Red Hastings, Erin Meyer             |
+| [On m'avait dit que c'était impossible](https://www.amazon.fr/Jean-Baptiste-Rudelle/e/B00DVZSYDG) | Jean-Baptiste Rudelle                 | 
+| [Pragmatic Programmer](https://www.amazon.fr/Pragmatic-Programmer-Journeyman-Master-ebook/dp/B003GCTQAE)                  | Hunt Andrew, Thomas David             | 
+| [Reinventing Organizations](https://livre.fnac.com/a8843377/Frederic-Laloux-Reinventing-organizations)                    | Frédérix Laloux                       |
+| [Rework](https://www.amazon.fr/Rework-Jason-Fried/dp/0307463745)                                                          | Jason Fried, David Heinemeier Hansson |
+| [The future of Management](https://www.amazon.fr/The-Future-of-Management-Business-Leadership/dp/0307463745)              | Gary Hamel                            |
+| [The 5 dysfunctions of a team](https://www.amazon.fr/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)               | Patrick M Lencioni                    |
+| [The manager's Path](https://www.amazon.fr/The-Managers-Path-Business-Leadership/dp/0307463745)                           | Camille Fournier                      |
+| [Turn the ship around](https://www.amazon.fr/Turn-Ship-Around-Building-Breaking/dp/0241250943)                            | David Marquet                         |
 
 ## Mailing Lists
 
