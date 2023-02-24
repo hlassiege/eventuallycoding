@@ -11,7 +11,7 @@ cover: "book.jpg"
 
 language: "en"
 alternates:
-- en: "https://eventuallycoding.com/2023/02/launching-impactful-software-engineering"
+   - fr: "https://eventuallycoding.com/2023/02/launching-impactful-software-engineering"
 ---
 
 I've been writing blog posts for 20 years (!?) and I still like to do it, even if blogging is considered a bit less fashionable these days (and no, I don't feel like starting a youtube channel)
