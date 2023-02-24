@@ -50,14 +50,12 @@
                             v-if="currentLang === 'fr'"
                             class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
                             href="/?lang=en"
-                            @click.prevent="currentLang = 'en'"
                             >EN</a
                         >
                         <a
                             v-if="currentLang === 'en'"
                             class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
                             href="/?lang=fr"
-                            @click.prevent="currentLang = 'fr'"
                             >FR</a
                         >
 
