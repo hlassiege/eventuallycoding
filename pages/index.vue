@@ -38,8 +38,28 @@
                         <div
                             class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20"
                         >
-                            <h2>Last blog posts</h2>
+                            <h2>
+                                Last blog posts
+                                <small>({{ currentLang }})</small>
+                            </h2>
                         </div>
+                        <small class="ml-3 text-gray-500"
+                            >Switch to blog posts in
+                        </small>
+                        <a
+                            v-if="currentLang === 'fr'"
+                            class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
+                            href="/?lang=en"
+                            @click.prevent="currentLang = 'en'"
+                            >EN</a
+                        >
+                        <a
+                            v-if="currentLang === 'en'"
+                            class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
+                            href="/?lang=fr"
+                            @click.prevent="currentLang = 'fr'"
+                            >FR</a
+                        >
 
                         <div
                             class="pt-4 grid lg:grid-cols-3 gap-x-8 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3"
@@ -50,6 +70,8 @@
                                 :title="article.title"
                                 :img="'/covers/' + article.cover"
                                 :description="article.description"
+                                :current-lang="currentLang"
+                                :lang="article.language"
                                 :date="article.date"
                                 :tags="article.tags"
                                 :path="article._path"
@@ -101,7 +123,8 @@
 import BlogCard from "../components/BlogCard.vue";
 import HeroSection from "../components/HeroSection.vue";
 import siteMetaInfo from "../data/siteMetaData";
-
+const route = useRoute();
+const currentLang = ref<string>(route.query.lang || "fr");
 const { data: articles } = await useAsyncData("indexarticles", () =>
     queryContent("articles")
         .only([
