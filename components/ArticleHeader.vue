@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h1 class="text-4xl text-gray-700 font-extrabold text-center mb-5">
+        <h1 class="text-4xl text-gray-700 font-extrabold text-center mb-3">
             {{ article.title }}
         </h1>
-        <p class="text-slate-400 text-center mb-5">
+        <p class="text-slate-400 text-center mb-1">
             <span v-if="article.alternates">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
 
         <div class="grid grid-cols-3 text-center sm:w-full md:w-1/2 mx-auto">
             <div>
-                <p class="text-center font-bold my-5 text-slate-400 text-xs">
+                <p class="text-center font-bold my-4 text-slate-400 text-xs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6 inline-block"
@@ -46,7 +46,7 @@
                 </p>
             </div>
             <div>
-                <p class="text-center font-bold my-5 text-slate-400 text-xs">
+                <p class="text-center font-bold my-4 text-slate-400 text-xs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6 inline-block"
@@ -85,24 +85,12 @@
                 </div>
             </div>
         </div>
-        <div class="sm:w-full md:w-1/2 mx-auto">
-            <p class="mt-2 text-xs my-3 flex flex-wrap -m-1 justify-center">
-                <a
-                    v-for="tag in article.tags"
-                    :key="tag"
-                    :href="'/blog?tag=' + tag"
-                    class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium"
-                    >#{{ tag }}</a
-                >
-            </p>
-        </div>
     </div>
 </template>
 <script setup lang="ts">
 import SiteMetaData from "~/data/siteMetaData";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const props = defineProps<{
+defineProps<{
     article: any;
     siteMetadata: typeof SiteMetaData;
 }>();

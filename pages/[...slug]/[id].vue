@@ -1,18 +1,12 @@
 <template>
     <div>
-        <keep-alive>
-            <HeroSection>
-                <template #content>
-                    <div class="absolute top-96 w-96 -translate-y-20">
-                        <img
-                            :src="'/images/covers/' + article.cover"
-                            :alt="article.title"
-                            class="object-cover"
-                        />
-                    </div>
-                </template>
-            </HeroSection>
-        </keep-alive>
+        <div class="flex justify-center">
+            <img
+                :src="'/images/covers/' + article.cover"
+                :alt="article.title"
+                class="object-cover w-96"
+            />
+        </div>
         <div class="px-4 mx-auto sm:px-6 xl:max-w-7xl xl:px-0 mt-10">
             <ArticleHeader :article="article" :site-metadata="siteMetadata" />
 

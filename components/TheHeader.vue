@@ -1,6 +1,9 @@
 <template>
     <div>
-        <nav id="header-menu" class="transition-colors fixed w-full z-10 top-0">
+        <nav
+            id="header-menu"
+            class="transition-colors fixed w-full z-10 top-0 inverted"
+        >
             <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div class="relative flex items-center justify-between h-16">
                     <div
@@ -108,42 +111,11 @@
     </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import menu from "../data/menu";
 
-export default {
-    name: "TheHeader",
-    data() {
-        return {
-            search: this.$route.query.search || "",
-            navLinks: menu,
-            mobileMenuOpen: false,
-        };
-    },
-    mounted() {
-        const className = "inverted";
-        const scrollTrigger = 60;
-
-        window.onscroll = function () {
-            // We add pageYOffset for compatibility with IE.
-            if (
-                window.scrollY >= scrollTrigger ||
-                window.pageYOffset >= scrollTrigger
-            ) {
-                document.getElementById("header-menu").classList.add(className);
-            } else {
-                document
-                    .getElementById("header-menu")
-                    .classList.remove(className);
-            }
-        };
-    },
-    methods: {
-        goToSearchResult() {
-            window.location.href = "/blog?search=" + this.search;
-        },
-    },
-};
+const navLinks = ref(menu);
+const mobileMenuOpen = ref(false);
 </script>
 
 <style lang="scss" scoped>

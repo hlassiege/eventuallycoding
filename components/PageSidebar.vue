@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:sticky top-0 pt-5 -mt-5">
+    <div class="lg:sticky top-0 pt-5 -mt-5 font-proxima">
         <!-- Desktop Sidebar -->
         <div v-if="toc.length > 0" class="toc hidden lg:block">
             <p class="border-b-4 pb-3 mb-3 border-gray-200 text-xl">
