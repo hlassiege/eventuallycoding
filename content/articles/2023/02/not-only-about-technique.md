@@ -7,6 +7,9 @@ tags:
   - "impact"
   - "senior"
 cover: "sun-circus.jpg"
+
+book: "impactfulSoftwareEngineering"
+
 alternates:
   - en: "https://eventuallycoding.com/en/2023/02/not-only-about-technique"
 ---

@@ -9,6 +9,7 @@ tags:
 cover: "book.jpg"
 listed: false
 
+book: "impactfulSoftwareEngineering"
 language: "en"
 alternates:
   - fr: "https://eventuallycoding.com/2023/02/impactful-software-engineering"

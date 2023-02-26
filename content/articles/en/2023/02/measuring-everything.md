@@ -8,6 +8,7 @@ tags:
   - "senior"
   - "measures"
 cover: "opticien.jpg"
+book: "impactfulSoftwareEngineering"
 language: "en"
 alternates:
   - fr: "https://eventuallycoding.com/2023/02/measuring-everything"
