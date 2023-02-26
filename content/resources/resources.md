@@ -11,7 +11,8 @@ And of course in the books section, you can also read the one on this blog: [Imp
 
 | Title                                                                                                                    | Author                                |
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| [Build Right Side](https://buildrightside.com/)                  | Jean-Michel Lemieux                   |
+| [AI Superpowers](https://www.aisuperpowers.com/)                                                                         | Kai-Fu Lee                            |
+| [Build Right Side](https://buildrightside.com/)                                                                          | Jean-Michel Lemieux                   |
 | [Continuous Delivery](https://www.amazon.fr/Continuous-Delivery-Reliable-Deployment-Automation/dp/0321601912)            | Jez Humble, David Farley              |
 | [Inspired](https://www.amazon.fr/Inspired-Create-Tech-Products-Customers/dp/1119387507)                                  | Marty Cagan                           |
 | [Lean Management](https://www.eyrolles.com/Entreprise/Livre/lean-management-9782212546385/)                              | Pierre Pezziardi                      |
@@ -34,7 +35,7 @@ And of course in the books section, you can also read the one on this blog: [Imp
 |----------------------------------------------------------------------|------------------------|
 | [Codrops](https://tympanus.net/codrops/newsletter/)                  | Web Design & Front-End |
 | [Devops Weekly](https://www.devopsweekly.com/)                       | Devops                 |
-| [Guriosity](https://guriosity.com/)                                  | Blog d'équipes tech    |
+| [Guriosity](https://guriosity.com/)                                  | Engineering teams | 
 | [Javascript Weekly](https://javascriptweekly.com/)                   | Javascript             |
 | [Pragmatic engineer](https://newsletter.pragmaticengineer.com/about) | Software leaders       |
 | [LeadDev Originals](https://leaddev.com/)                            | Software leaders       |
@@ -43,13 +44,13 @@ And of course in the books section, you can also read the one on this blog: [Imp
 
 ## Slacks
 
-| Title                                                                            | Theme(s)                 |
-|----------------------------------------------------------------------------------|--------------------------|
-| [French Produit](https://www.frenchproduit.com/)                                 | Product (FR)             |
-| [Lyon Tech Hub](https://www.lyontechhub.org/#!/a-propos)                         | Communautés Tech de Lyon |
-| [Mind The product](https://www.mindtheproduct.com/)                              | Product  (US)            |
-| [Rands Leadership](https://randsinrepose.com/welcome-to-rands-leadership-slack/) | Tech leaders             |
-| [Tech Rocks](https://www.tech.rocks/)                                            | Tech leaders             |
+| Title                                                                            | Theme(s)              |
+|----------------------------------------------------------------------------------|-----------------------|
+| [French Produit](https://www.frenchproduit.com/)                                 | Product (FR)          |
+| [Lyon Tech Hub](https://www.lyontechhub.org/#!/a-propos)                         | Lyon's Tech community |
+| [Mind The product](https://www.mindtheproduct.com/)                              | Product  (US)         |
+| [Rands Leadership](https://randsinrepose.com/welcome-to-rands-leadership-slack/) | Tech leaders          |
+| [Tech Rocks](https://www.tech.rocks/)                                            | Tech leaders          |
 
 
 ## Articles, blogs & Vidéos 
@@ -57,29 +58,29 @@ And of course in the books section, you can also read the one on this blog: [Imp
 
 ### Scaling Organization
 
-| Title                                                                                                                                                                | Theme(s)                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)                                                                                 | Product                            |
-| [Awesome CTO](https://github.com/kuchin/awesome-cto)                                                                                                                 | Liste de ressources de Dima Kuchin |
-| [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                                                    | Engineering manager                |
-| [Writing Documentation](https://documentation.divio.com/)                                                                                                            | Documentation                      |
-| [Engineering Ladders](http://www.engineeringladders.com/)                                                                                                            | Tech leaders & Career Path         |
-| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac)                               | Prioritization                     |
-| [‘Give Away Your Legos’ and Other Commandments for Scaling Startups](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups) | Scaling organization               |
-| [Staff Eng](https://staffeng.com/)                                                                                                                                   | Tech leaders                       |
-| [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                                                  | Product and constraints            |
-| [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                                                       | Osciller entre management et tech  |
-| [The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                                                         | Scaling                            |
+| Title                                                                                                                                                                | Theme(s)                          |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)                                                                                 | Product                           |
+| [Awesome CTO](https://github.com/kuchin/awesome-cto)                                                                                                                 | Resources from Dima Kuchin     |
+| [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                                                    | Engineering manager               |
+| [Writing Documentation](https://documentation.divio.com/)                                                                                                            | Documentation                     |
+| [Engineering Ladders](http://www.engineeringladders.com/)                                                                                                            | Tech leaders & Career Path        |
+| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac)                               | Prioritization                    |
+| [‘Give Away Your Legos’ and Other Commandments for Scaling Startups](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups) | Scaling organization              |
+| [Staff Eng](https://staffeng.com/)                                                                                                                                   | Tech leaders                      |
+| [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                                                  | Product and constraints           |
+| [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                                                       | Osciller entre management et tech |
+| [The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                                                         | Scaling                           |
 
 ### Tech
 
-| Title                                                                  | Theme(s)                                      |
-|-------------------------------------------------------------------------|-----------------------------------------------|
-| [Aphyr/jepsen](https://aphyr.com/)                                      | Connu pour ces benchmarks de bases de données |
-| [Martin Fowler.com](https://martinfowler.com/)                          | Architecture                                  |
-| [System Design](https://www.karanpratapsingh.com/courses/system-design) | System design                                 |
-| [Webhooks.fyi](https://webhooks.fyi/)                                   | Doc de standardisation des webhooks           |
-| [Writing an engineering Strategy](https://lethain.com/eng-strategies/)  | Eng strategy                                  | 
+| Title                                                                  | Theme(s)                       |
+|-------------------------------------------------------------------------|--------------------------------|
+| [Aphyr/jepsen](https://aphyr.com/)                                      | Known for databases benchmarks |
+| [Martin Fowler.com](https://martinfowler.com/)                          | Architecture                   |
+| [System Design](https://www.karanpratapsingh.com/courses/system-design) | System design                  |
+| [Webhooks.fyi](https://webhooks.fyi/)                                   | Webhook standardization        |
+| [Writing an engineering Strategy](https://lethain.com/eng-strategies/)  | Eng strategy                   | 
 
 
 

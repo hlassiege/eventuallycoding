@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-24">
             <img
                 :src="'/images/covers/' + article.cover"
                 :alt="article.title"
@@ -49,7 +49,6 @@
     </div>
 </template>
 <script setup lang="ts">
-import { HeroSection } from "#components";
 import siteMetaInfo from "../../data/siteMetaData";
 import { useFormatDateToIso } from "~/composables/useFormatDate";
 import { useHyvor } from "~/composables/useHyvor";
