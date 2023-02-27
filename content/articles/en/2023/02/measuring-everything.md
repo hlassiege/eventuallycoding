@@ -43,7 +43,7 @@ Far be it from me to say that you shouldn't constantly improve code. You don't w
 
 For all the small refactorings around testability or readability, Peer review validation is a sufficient validation mechanism in many cases.
 
-I will also exclude the case of startups in seed. I went through this stage. Intuition plays a huge role. The code base is small, the product is still simple enough to understand it as a whole. At this stage, it either works or it doesn't, and in any case, speed of execution is essential and, as we will see later, to have sufficient maturity on the data, there is a significative investment to be made.
+I will also exclude the case of startups in seed. We went through this stage. Intuition plays a huge role. The code base is small, the product is still simple enough to understand it as a whole. At this stage, it either works or it doesn't, and in any case, speed of execution is essential and, as we will see later, to have sufficient maturity on the data, there is a significative investment to be made.
 
 But, as soon as :
 - the impacts on the code base start to be significant, often when the product team exceeds a certain size (>20?)
@@ -79,7 +79,7 @@ Without goals, you can't set success criteria.
 Without goals, you can't create alignment.  
 Without alignment there is no impact.
 
-A product team that doesn't make constant impact is listened to less, and ends up being in danger of underinvestment. And in truth, everyone ends up losing in the process.
+A product team that doesn't make constant impact is listened to less, and ends up being in danger of underinvestment. And, to be honest, everyone ends up losing in the process.
 
 ## Our job is a scientific job
 
@@ -102,13 +102,13 @@ Example :
 
 * Listen: Users complain that a payment page is slow to load
 * Measure: Measurement tools show that indeed.
-    * a significant part of users exceed 10 seconds of display, while others display the page in less than a second
+    * a significant part of pages exceed 10 seconds of display, while others display in less than a second
     * these users end up abandoning their purchase, which translates into a loss of xk€ potential
 * Hypothesis: a resource is undersized. The performance would be ok under a certain load but would collapse from a certain threshold
 * Objective: Aim for a P95 (95% of users) below one second of display and regain yk€ of turnover
 * Action:
-    * Measure the entire chain via flame graphs with bots to simulate increasing traffic to identify various blockages
-    * Carry out the corrective actions necessary to correct the biggest blockages that cause 95% of the slowdowns
+    * Measure the entire chain via flame graphs with bots to simulate increasing traffic to identify various bottlenecks
+    * Carry out the corrective actions necessary to correct the biggest bottlenecks that cause 95% of the slowdowns
 * test, validate in real situation
 
 Every time we approach a subject, especially when it is an unknown case, a section of the application we do not know, a technology we do not know etc.. If you apply a methodical approach, you will eventually get there.
@@ -137,15 +137,15 @@ For example:
 * we store all business events in BigQuery to rebuild analytical views and judge the success of our product
 
 
-And if I'm talking to you about all this, it's because it's your role as a tech lead to increase your company's maturity on the subject.
+And I'm telling you all this because it's your role, as a tech lead, to increase your company's maturity on the subject.
 
 It's your responsibility to have a clear vision of the cost of your product and its ROI. It is your ability to understand the financial stakes that will also allow you to make recommendations and investment choices on a Buy or Build basis.
 
 ## Data maturity model
 
-Once we said that we had to systematize access to and use of data, that's fine, but I'd like to present your a maturity assessment model to better understand where you are and where you could go.
+That said, we had to systematize access to and use of data, that's fine, but I'd like to share a maturity assessment model to better understand where you are and where you could go.
 
-There are several models, IBM, Gartner or Snowplow for example. Here I propose you to see the one of [Gartner](https://www.ovaledge.com/blog/data-governance-maturity-model), but we will adapt here for engineering and product.
+There are several models, IBM, Gartner or Snowplow for example. We'll use the one from [Gartner](https://www.ovaledge.com/blog/data-governance-maturity-model), which we'll adapt for engineering and product.
 
 ### Level 0 : Unaware.
 
@@ -157,7 +157,7 @@ The actions here are quite obvious, we need to train the whole team on the impor
 
 ### Level 1: Aware.
 
-At this stage, some collection tools exist but without people whose responsibility is to monitor them. The quality of the data is therefore questionable.
+At this stage, some collection tools exist but without people responsible for monitoring them. The quality of the data is therefore questionable.
 For example, you have a distributed systems and your logs are not aggregated, or you don't have a clear policy of log levels and therefore have a lot of non-exploitable data.
 There can be several sources of data, sometimes contradictory.
 
@@ -200,7 +200,7 @@ We use metrics recognized as best practices in the market: DORA, cycle time, etc
 
 At the product level, in the same way, the data is communicated to the whole company. The objectives of the product team are materialized by quantified objectives (increase in conversion, decrease in churn, etc.).
 
-### Niveau 5 : Effective
+### Level 5 : Effective
 
 Data is used globally, within the company, quality is controlled, governance is formalized.
 Data is used externally. It can give a competitive advantage in certain cases.
@@ -227,7 +227,7 @@ Moreover, we pay for CI by the resources consumed. In short, the subject is crit
 To give a little context, at Malt there are several teams (squads) that are theoretically responsible for one or several applications. Team A is in charge of application A, team B of application B etc...
 
 Nicolas observes several things:
-* if the IC is long, it's not a question of slow build, it's a question of the number of builds in parallel
+* if the CI takes long, it's not a question of slow build, it's a question of the number of builds in parallel
 * When a team A delivers its application, it also very often delivers other applications, B, C, D etc...
 * If team A delivers other applications, it is because the applications often share common libraries that must be modified and that are used in other applications. These modifications lead to the rebuild of the other applications, and sometimes they must also be modified according to the changes in the common library.
 * The teams are not at ease, because they are re-releasing applications for which they are not responsible and are afraid of regressions
@@ -239,11 +239,11 @@ Except that, it is not enough to start the subject. There are 2.3M lines of code
 
 **Measures**:
 
-To determine the best way to start, and to prove the hypothesis, Nicolas set up a set of measures. To summarize, he observed :
+To figure out the best way to start and prove the hypothesis, Nicolas collects a set of metrics. In a nutshell, he observed :
 * the number of applications deployed by a change on a given library
 * the frequency of modification of a given library
 
-From there, he was able to determine the "hotspots": the libraries that cause the most rebuilds, and with the highest modification frequencies without a strong ownership (% of commits made by other team > x%).
+From there, he was able to figure out the "hotspots": libraries that cause the most rebuilds, with the highest modification frequencies yet without a strong ownership (% of commits made by other team > x%).
 
 These hotspots are the places to start.
 
@@ -252,14 +252,14 @@ The exact details of the work done, the graphs etc. [are available on the Malt E
 
 **Conclusion
 
-Having done these measurements has allowed :
-* prioritize the work to be done
+Those metrics allowed :
+* to prioritize the work to be done
 * to set goals
 * to align several teams on the approach
 
 This approach is based on a simple methodology: observation, measurements, hypotheses, re-measurements, objectives, follow-up.
 
-The setting of objectives in this case is crucial. Without quantified objectives, at what point do we stop in a "decoupling" project? Here Nicolas was able to set thresholds (maximum number of builds, ownership rate per application, etc.) at which action was needed, but below which there was no longer any urgency.
+Setting objectives, in this case, is crucial. Without quantified objectives, at what point do we stop in a "decoupling" project? Here Nicolas was able to set thresholds (maximum number of builds, ownership rate per application, etc.) at which action was needed, but below which there was no longer any urgency.
 
 And this is a mature engineering team approach.
 
