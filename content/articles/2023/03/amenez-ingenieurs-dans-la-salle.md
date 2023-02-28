@@ -2,7 +2,7 @@
 id: "16"
 title: "Amenez des ingénieurs dans la salle"
 description: "Les produits de demain ne peuvent se concevoir sans les ingénieurs qui les réalisent, et ce, dès les premières étapes. On ne peut pas vivre dans un monde technologique et ne pas le comprendre."
-date: "2023-02-26"
+date: "2023-03-01"
 tags:
 - "innovation"
 - "product"
@@ -27,21 +27,22 @@ C'était trop cher, irréaliste techniquement, totalement opposé à ce qui se p
 
 ## Software is eating the world
 
-Vous connaissez sans doute cette expression “Software is eating the world”. Le logiciel s'insère partout aujourd'hui dans notre quotidien. Il vous suit sur votre mobile, au travail, dans les transports. Certaines entreprises parlent encore à tort de centre de coût lorsqu'elles parlent des équipes produit, mais combien d'entre elles seraient totalement inopérantes sans ces équipes ?  
-Continuellement, on entend parler d'un nouveau secteur qui se voit transformer radicalement par un nouveau Pure player. Nos vies changent continuellement sous cette forte pression technologique depuis quelques décennies. Et je pense que nous ne sommes pas encore prêts aux futures évolutions liées à l'IA.  
+Vous connaissez sans doute cette expression “Software is eating the world”. Le logiciel s'insère partout aujourd'hui dans notre quotidien. Il vous suit sur votre mobile, au travail, dans les transports.  
+Si certaines entreprises parlent encore à tort de centre de coût lorsqu'elles parlent des équipes produit, combien d'entre elles seraient totalement inopérantes sans ces équipes ?  
+Régulièrement, on entend parler d'un nouveau secteur qui se voit transformer radicalement par un nouveau Pure player. Nos vies changent continuellement sous cette forte pression technologique depuis quelques décennies. Et je pense que nous ne sommes pas encore prêts aux futures évolutions liées à l'IA.  
 Sur ce thème, je vous invite à lire le livre de Kai-Fu Lee, [AI superpowers](https://www.aisuperpowers.com/), disponible aussi en français.
 
-Mais comment ça se fait, que malgré cela, on continue de voir des équipes Produits qui travaillent sans impliquer les ingénieurs qui vont réaliser ces solutions ?
+Mais comment ça se fait, que malgré cela, on continue de voir des équipes Produits qui travaillent sans impliquer les ingénieurs qui vont réaliser ces solutions ? 
 
 Dans certains environnements la tech exécute et c'est tout. C'est bien dommage, car bien au-delà de savoir écrire du code ou de monter des usines logicielles, la première compétence d'un(e) "Ingénieur logiciel" (je ne parle pas de diplôme, mais de rôle), c'est de résoudre des problèmes, et de concevoir des solutions.
 
-Les produits de demain ne peuvent se concevoir sans les ingénieurs qui les réalisent, et ce, dès les premières étapes. On ne peut pas vivre dans un monde technologique et ne pas le comprendre. Les équipes qui ne le saisissent pas condamnent leur capacité à créer un produit innovant et efficace. Je ne parle pas de respecter un état de l'art ou de qualité logicielle, je parle de se procurer un avantage concurrentiel sur un marché qui évolue rapidement et qui est rempli d'incertitudes. Ces dernières années nous ont montré à quel point le monde peut changer radicalement en très peu de temps.
+Les produits de demain ne peuvent se concevoir sans les ingénieurs qui les réalisent, et ce, dès les premières étapes. On ne peut pas vivre dans un monde technologique et ne pas le comprendre. Les équipes qui ne le saisissent pas partent avec un sérieux désavantage. Je ne parle pas de respecter un état de l'art ou de qualité logicielle, je parle de se procurer un avantage concurrentiel sur un marché qui évolue rapidement et qui est rempli d'incertitudes. Ces dernières années nous ont montré à quel point le monde peut changer radicalement en très peu de temps.
 
 Mais pour ça, il faut que les équipes Engineering soient présentes dans cette fameuse salle où on prend des décisions. Et j'ai connu plusieurs situations où ce n'était pas le cas, pour de multiples raisons.
 
 ## Des Seniors pas conscient de leur rôle
 
-Si on considère uniquement les compétences techniques, j'ai connu de très bons ingénieurs, mais qui ne comprenaient pas leur rôle. Ces personnes ne voyaient pas l'entreprise dans son ensemble et n'arrivaient pas à voir comment créer de l'impact. La gestion de leur temps était problématique, que ce soit sur la façon de l'organiser, de le prioriser. Elles finissaient parfois par se cramer, tout en ne travaillant jamais sur les sujets importants.  
+Si on considère uniquement les compétences techniques, j'ai connu de très bons ingénieurs, mais qui ne comprenaient pas leur rôle. Ces personnes ne voyaient pas l'entreprise dans son ensemble et n'arrivaient pas à voir comment créer de l'impact. La gestion de leur temps était problématique, que ce soit sur la façon de l'organiser, de le prioriser. Elles finissaient quelques fois par se cramer, tout en ne travaillant jamais sur les sujets importants.  
 Parfois, ces personnes avaient les bonnes intuitions, voyaient ce qu'il fallait faire, mais ne savaient pas communiquer, voire considéraient que ce n'était pas leur job de faire aboutir ces idées.
 
 ## Des équipes engineering patchwork
@@ -50,7 +51,7 @@ Parfois l'action des équipes Engineering est trop floue. Elle semble ne pas avo
 
 ## Des organisations produit malade
 
-Dans certains cas, c'est l'organisation toute entière de l'entreprise qui est malade. Malade d'avoir essayé d'implémenter des méthodes à la lettre sans les comprendre. Ce sont des organisations qui peuvent se réclamer de l'agilité, mais continuer à faire du waterfall déguisé où l'Engineering est délocalisé, dans un autre immeuble, une autre ville, un autre pays, et jamais consulté. Ce sont aussi des entreprises qui ont parfois trop cédé à la complexité pour faire face à leur croissance, poussé en cela par des armées de consultants certifiés, expert en Scrum, ou pire, SaFe, CMMI et autres horreurs.
+Dans certains cas, c'est l'organisation toute entière de l'entreprise qui pose souci. Elles parlent d'agilité, mais continuent à faire du waterfall déguisé où l'Engineering est délocalisé, dans un autre immeuble, une autre ville, un autre pays, et jamais consulté. Ce sont aussi des entreprises qui ont parfois trop cédé à la complexité pour faire face à leur croissance, poussé en cela par des armées de consultants certifiés, expert en Scrum, ou pire, SaFe, CMMI et autres horreurs.
 
 ## Construire des équipes Engineering qui créent de l'impact
 
@@ -62,7 +63,7 @@ Mais la seconde raison, c'était de construire une entreprise, dans laquelle j'a
 
 C'est cela que j'ai envie de partager sur les futurs chapitres de [Impactful Software Engineering](https://eventuallycoding.com/2023/02/impactful-software-engineering) dont ce billet de blog est l'introduction. Je souhaite partager ce que j'ai appris durant toutes ces années et permettre à d'autres leaders techniques d'en profiter.
 
-Je souhaite m'adresser en particulier aux “Tech Leads”, quel qu'ils soient (CTO, Staff Engineer, Senior Engineer). Par ricochet cela peut être utile aux Engineering Managers (VP, Eng Manager, Directors of eng…) dont l'aide est nécessaire.   
+Je souhaite m'adresser en particulier aux “Tech Leads”, quel qu'ils soient (CTO, Staff Engineer, Senior Engineer). Par ricochet cela peut être utile aux Engineering Managers (VP, Eng Manager, Directors of eng…) dont l'aide est nécessaire.  
 Mais cela peut servir bien sûr à d'autres personnes intéressées par la construction d'entreprise produit/tech efficace.
 
 Dans les chapitres suivants je vais parler des qualités attendues des Software Engineer pour apporter de l'impact individuellement.
@@ -98,6 +99,6 @@ Mes biais sont donc les suivants :
 Enfin, second avertissement, il y a une différence entre les opinions que je peux exprimer ici, la direction que je souhaite prendre et la réalité de mon quotidien qui peut être plus contrastée. Malt a des dysfonctionnements, comme partout ailleurs. Mes opinions s'adressent parfois à moi-même et me fixent une direction où aller. 
 
 ::tip
-Ce billet de blog fait partie du livre [Impactful Software Engineering](https://eventuallycoding.com/2023/02/impactful-software-engineering).  
+Ce billet de blog fait partie du livre [Impactful Software Engineering](/2023/02/impactful-software-engineering).  
 N'hésitez pas à lire les autres chapitres.
 ::

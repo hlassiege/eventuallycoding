@@ -8,26 +8,15 @@ const tocEn = [
     {
         title: "Table of contents",
         link: "https://eventuallycoding.com/en/2023/02/impactful-software-engineering",
-    },
-    {
-        title: "Introduction",
         subsections: [
             {
-                title: "Who am I",
-            },
-            {
-                title: "What is this book about",
-            },
-            {
-                title: "Who is this book for",
-            },
-            {
-                title: "What isn't this book",
+                title: "Introduction - Being in the room",
+                link: "https://eventuallycoding.com/en/2023/03/being-in-the-room",
             },
         ],
     },
     {
-        title: "Being in the room",
+        title: "Senior after 6 years, what's next?",
         subsections: [
             {
                 title: "Senior after 6 years, what's next?",
@@ -149,26 +138,15 @@ const tocFr = [
     {
         title: "Table des matières",
         link: "https://eventuallycoding.com/2023/02/impactful-software-engineering",
-    },
-    {
-        title: "Introduction",
         subsections: [
             {
-                title: "Qui suis-je",
-            },
-            {
-                title: "Quel est le sujet de ce livre",
-            },
-            {
-                title: "A qui s'adresse ce livre",
-            },
-            {
-                title: "Qu'est-ce que ce livre n'est pas",
+                title: "Introduction - Amenez des ingénieurs dans la salle",
+                link: "http://localhost:3000/2023/03/amenez-ingenieurs-dans-la-salle",
             },
         ],
     },
     {
-        title: "Etre dans la pièce",
+        title: "Senior avec 6 ans d'expérience, et après ?",
         subsections: [
             {
                 title: "Senior avec 6 ans d'expérience, et après ?",
