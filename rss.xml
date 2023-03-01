@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 26 Feb 2023 15:58:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Mar 2023 07:45:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Amenez des ingénieurs dans la salle]]></title>
+            <link>https://eventuallycoding.com/2023/03/amenez-ingenieurs-dans-la-salle</link>
+            <guid>https://eventuallycoding.com/2023/03/amenez-ingenieurs-dans-la-salle</guid>
+            <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Les produits de demain ne peuvent se concevoir sans les ingénieurs qui les réalisent, et ce, dès les premières étapes. On ne peut pas vivre dans un monde technologique et ne pas le comprendre.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Being in the room]]></title>
+            <link>https://eventuallycoding.com/en/2023/03/being-in-the-room</link>
+            <guid>https://eventuallycoding.com/en/2023/03/being-in-the-room</guid>
+            <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tomorrow's products cannot be designed without the engineers who make them, right from the start. You can't live in a technological world and not understand it.]]></description>
+        </item>
         <item>
             <title><![CDATA[Lancement de Impactful Software Engineering]]></title>
             <link>https://eventuallycoding.com/2023/02/launching-impactful-software-engineering</link>
