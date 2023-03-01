@@ -13,7 +13,7 @@ book: "impactfulSoftwareEngineering"
 
 language: "fr"
 alternates:
-  - en: "https://eventuallycoding.com/en/2023/02/being-in-the-room"
+  - en: "https://eventuallycoding.com/en/2023/03/being-in-the-room"
 ---
 
 J'ai commencé ma carrière par un premier stage dans une startup Web en 2001. Je crois m'être ensuite créé une solide expérience en tant que Développeur. Mais tout au long de ma carrière j'ai eu plusieurs expériences qui m'ont fait comprendre qu'il y avait un problème dans la façon dont beaucoup d'entreprises abordent le développement produit.
