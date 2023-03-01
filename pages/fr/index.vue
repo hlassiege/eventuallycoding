@@ -49,6 +49,7 @@
                         <NuxtLink
                             class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
                             to="/"
+                            :external="true"
                             >EN</NuxtLink
                         >
 
