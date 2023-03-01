@@ -13,7 +13,7 @@ book: "impactfulSoftwareEngineering"
 
 language: "en"
 alternates:
-  - fr: "http://localhost:3000/2023/03/amenez-ingenieurs-dans-la-salle"
+  - fr: "https://eventuallycoding.com/2023/03/amenez-ingenieurs-dans-la-salle"
 ---
 
 I started my career with a first internship in a web startup in 2001. I believe I built a solid experience as a developer. But throughout my career I had several experiences that made me realize that there was a problem in the way many companies approach product development.
