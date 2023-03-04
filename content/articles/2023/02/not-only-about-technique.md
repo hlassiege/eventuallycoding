@@ -192,3 +192,7 @@ Est-ce que vous découvrez les sujets à développer en bout de chaîne lors d'u
 
 En espérant que ces questions vous aident au quotidien à mieux identifier les sujets sur lesquels mettre votre énergie.
 
+::tip
+Ce billet de blog fait partie du livre [Impactful Software Engineering](/2023/02/impactful-software-engineering).  
+N'hésitez pas à lire les autres chapitres.
+::

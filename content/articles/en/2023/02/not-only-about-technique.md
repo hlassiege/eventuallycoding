@@ -182,3 +182,7 @@ Do you discover the topics to be developed during a kick-off session or sprint e
 
 I hope that these questions will help you on a daily basis to better identify the subjects on which to put your energy.
 
+::tip
+This blog post is part of the book [Impactful Software Engineering](/2023/02/impactful-software-engineering).
+Feel free to read the other chapters.
+::

@@ -286,3 +286,9 @@ https://blog.malt.engineering/your-version-control-system-contains-invaluable-in
 https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-ii-258a72b6eb65
 
 https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-i-c90b237fe7b4 
+
+
+::tip
+Ce billet de blog fait partie du livre [Impactful Software Engineering](/2023/02/impactful-software-engineering).  
+N'hésitez pas à lire les autres chapitres.
+::

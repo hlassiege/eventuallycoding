@@ -24,6 +24,7 @@ And of course in the books section, you can also read the one on this blog: [Imp
 | [Pragmatic Programmer](https://www.amazon.fr/Pragmatic-Programmer-Journeyman-Master-ebook/dp/B003GCTQAE)                 | Hunt Andrew, Thomas David             | 
 | [Reinventing Organizations](https://livre.fnac.com/a8843377/Frederic-Laloux-Reinventing-organizations)                   | Frédérix Laloux                       |
 | [Rework](https://www.amazon.fr/Rework-Jason-Fried/dp/0307463745)                                                         | Jason Fried, David Heinemeier Hansson |
+| [Staff Eng](https://staffeng.com/)                                                                                       | Will Larson                           |
 | [The future of Management](https://www.amazon.fr/The-Future-of-Management-Business-Leadership/dp/0307463745)             | Gary Hamel                            |
 | [The 5 dysfunctions of a team](https://www.amazon.fr/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)              | Patrick M Lencioni                    |
 | [The manager's Path](https://www.amazon.fr/The-Managers-Path-Business-Leadership/dp/0307463745)                          | Camille Fournier                      |
@@ -62,15 +63,15 @@ And of course in the books section, you can also read the one on this blog: [Imp
 |---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)                                                  | Product                           |
 | [Awesome CTO](https://github.com/kuchin/awesome-cto)                                                                                  | Resources from Dima Kuchin        |
-| [Devoxx - C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                     | Engineering manager               |
+| [C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                     | Engineering manager               |
 | [Writing Documentation](https://documentation.divio.com/)                                                                             | Documentation                     |
 | [Engineering Ladders](http://www.engineeringladders.com/)                                                                             | Tech leaders & Career Path        |
-| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac) | Prioritization    |
+| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac) | Prioritization                  |
 | [Give Away Your Legos](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups)                | Scaling organization              |
-| [Staff Eng](https://staffeng.com/)                                                                                                    | Tech leaders                      |
+| [Managing complex organizational change](https://leaddev.com/process/managing-complex-organizational-change)                          | Change Management                 |
 | [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                   | Product and constraints           |
 | [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                        | Osciller entre management et tech |
-| [Scaling Yourself](https://www.youtube.com/watch?v=FS1mnISoG7U)                                                  | Scaling individually              |
+| [Scaling Yourself](https://www.youtube.com/watch?v=FS1mnISoG7U)                                                                       | Scaling individually              |
 | [The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                          | Scaling                           |
 
 ### Tech

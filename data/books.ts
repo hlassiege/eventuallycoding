@@ -16,15 +16,8 @@ const tocEn = [
         ],
     },
     {
-        title: "Senior after 6 years, what's next?",
+        title: "Individual Impact in an Engineering team",
         subsections: [
-            {
-                title: "Senior after 6 years, what's next?",
-                link: "https://medium.com/nerds-malt/senior-with-6-years-of-experience-whats-next-eb1721d37f82",
-            },
-            {
-                title: "Senior archetypes",
-            },
             {
                 title: "It's not just a matter of technique",
                 link: "https://eventuallycoding.com/en/2023/02/not-only-about-technique",
@@ -146,15 +139,8 @@ const tocFr = [
         ],
     },
     {
-        title: "Senior avec 6 ans d'expérience, et après ?",
+        title: "Impact individuel dans une équipe Engineering",
         subsections: [
-            {
-                title: "Senior avec 6 ans d'expérience, et après ?",
-                link: "https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres",
-            },
-            {
-                title: "Senior archetypes",
-            },
             {
                 title: "Ce n'est pas juste une question de technique",
                 link: "https://eventuallycoding.com/2023/02/not-only-about-technique",
