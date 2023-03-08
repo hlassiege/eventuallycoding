@@ -67,14 +67,14 @@ Enfin nous avons totalement utilisé Vue.js pour des applications complètes (SP
 Tout ceci implique qu'il y a beaucoup à savoir quand on développe côté front, notamment parce qu'il a fallu répondre plusieurs fois aux mêmes enjeux, pour chaque technologie.
 
 Si je prends un exemple, sur notre portail de documentation développeur :
-- pour l'échappement de caractères, nous détaillons plus d'une demi-douzaine de façons de faire (avec JSP, avec la taglig spring-message, avec les attributs data-js utilisé par nos micro modules, etc...)
+- pour l'échappement de caractères, nous détaillons plus d'une demi-douzaine de façons de faire (avec JSP, avec la taglib spring-message, avec les attributs data-js utilisé par nos micro modules, etc...)
 - pour l'internationalisation, rebelote, nous détaillons là encore plus d'une demi-douzaine de façons d'internationaliser les pages
 
 Autre chose à savoir, la plupart du code source des applications front est inclus dans le code source des applications backs dans des répertoires src/main/front et c'est le rôle de l'usine logicielle de séparer les artefacts au moment du build. 
 Mais les développeurs eux doivent tout charger dans leur IDE (intellij pour beaucoup d'entre nous). 
 Or avec le volume de code et l'ensemble des plugins nécessaires pour comprendre toutes les technologies, intellij souffre beaucoup. Et quand je dis beaucoup....
 
-Au quotidien, lorsqu'on travaille sur le front-end des applications, il y a également de l'outillage qui tourne en permanence, par exemple pour faire des copies de fichiers ayant été modifié (des JSP présentes dans une librairie commune) vers le répertoire où tourne l'application en cours de travail.
+Au quotidien, lorsque l'on travaille sur le front-end des applications, il y a également de l'outillage qui tourne en permanence, par exemple pour faire des copies de fichiers ayant été modifiés (des JSP présentes dans une librairie commune) vers le répertoire où tourne l'application en cours de travail.
 
 Je passe sur de nombreux autres détails, mais ce qu'il faut retenir :
 - les outils pour travailler sont nombreux, ce qui rend parfois compliqué les fois où cela ne se passe pas bien. Il faut souvent plusieurs personnes pour débloquer une personne rencontrant un problème
@@ -167,7 +167,7 @@ Fin août, l'étude a permis de valider la faisabilité technique. En sus, les o
 
 Ces métriques vont cependant évoluer par la suite.  
 Les temps de cycle sont à ce jour mal mesurés chez nous. C'est surprenant, car c'est sans doute la métrique plus importante de toutes mais effectivement nous ne sommes pas encore assez bons pour la suivre correctement.  
-La diminution du temps de build devait beaucoup être lié au fait de supprimer les dépendances entre build front et back. Ce sujet a été adressé en parallèle dans un autre chantier lié à la CI (migration de maven vers gradle).  
+La diminution du temps de build devait beaucoup être liée au fait de supprimer les dépendances entre build front et back. Ce sujet a été adressé en parallèle dans un autre chantier lié à la CI (migration de maven vers gradle).  
 Le temps de démarrage est intéressant, mais nous ne collectons pas la mesure sur les postes de travail.  
 Pour ma part j'ai certaines applis qui pouvaient mettre entre 100 et 200 secondes à démarrer. Mais je n'ai aucun moyen de démontrer que ce phénomène est le même chez tout le monde, et il n'est pas vrai sur toutes les applis.  
 Le temps en intégration et production est, de plus, totalement différent du poste de dev (en grande partie lié à l'instrumentation datadog et le dimensionnement des pods).
@@ -184,7 +184,7 @@ Un premier prototype grandeur nature va nous permettre d'y voir plus clair.
 Sur septembre, une première application a été migrée. Les critères de choix de ce premier projet étaient :
 - de taille modeste, car une seule personne allait travailler dessus à temps plein, tout du moins au début
 - pas visible pour l'utilisateur final, pour limiter les risques
-- pas central pour éviter de marcher sur les plates bandes de plusieurs équipes
+- faiblement couplée avec les autres composants (pas central) pour éviter de marcher sur les plates bandes de plusieurs équipes
 
 Ce premier projet a été une SPA (sans utilisation de SSR). Il s'agit d'un back office interne, une appli relativement simple (12k lignes de code).
 Cependant, cette application est intéressante, car elle utilise des JSP, des petites applications en vue2, et du javascript custom.
@@ -193,7 +193,7 @@ Elle permettait donc de démontrer la faisabilité sur de nombreux points en sus
 La migration s'est faite en "double run" : Les deux applis ont coexisté avec un mécanisme de routage effectué par Traefik (notre reverse proxy).
 La démarche de migration devait aussi valider la facon dont on pouvait basculer et revenir en arrière en cas de soucis. 
 
-Entre temps, l'équipe s'est étoffée en cours de route et ce qui permettra ensuite d'avancer plus rapidement pour la fin d'année. 
+En cours de route, l'équipe s'est étoffée; ce qui permettra ensuite d'avancer plus rapidement pour la fin d'année. 
 
 ## Un effet de bord, une documentation totalement remaniée
 
@@ -211,7 +211,7 @@ Voici quelques résultats :
 * 7,7k lignes de code. C'est une diminution de **53%** de l'application d'origine
 
 Nuxt et Vue3 permettent effectivement d'être beaucoup plus concis que l'équivalent en JSP. Les applications vue ont été simplifiées également. 
-Mais une autre explication, et c'est l'un des intérêts des réécritures comme celle-ci. Ca a été aussi l'occasion de détecter des fonctionnalités plus utilisées et de les supprimer.
+Mais un autre bénéfice, et c'est l'un des intérêts des réécritures comme celle-ci, a été l'occasion de détecter les fonctionnalités obsolètes et de les supprimer.
 
 * les performances sont globalement meilleures. Tests effectués avec [K6](https://k6.io/) : Un P95 a 489ms avant pour 271ms après, soit **44%** d'amélioration
 * un score lighthouse en hausse également, 86 vers 94 en performance, 72 vers 84 en accessibilité et 67 vers 83 en best practices..
@@ -231,13 +231,13 @@ Les résultats sur cette application sont les suivants :
 On constate donc que pour l'instant, en moyenne, on allège la base de code des applications front de plus de 40% ce qui est au-dessus de nos attentes initiales.  
 Le temps de démarrage s'améliore lui de 22% sur staging et prod. 
 
-La surprise vient de l'amélioration des performances, ce n'était pas un objectif initialement. Les gains sont très forts sur la première app.
-Ils existent aussi sur la seconde application mais malgré tout le "server response time" reste très grand et nous devons travailler pour l'améliorer. 
+La surprise vient de l'amélioration des performances qui n'était pas un objectif initial. Les gains sont très forts sur la première app.
+Ils existent aussi sur la seconde application mais malgré tout, le "server response time" reste très grand et nous devons travailler pour l'améliorer. 
 Cependant, pour un premier jet, c'est très satisfaisant.
 
 Pour rajouter quelques éléments, 5 personnes étaient impliquées en décembre à temps plein sur le projet.  
-En janvier, 10,53% des applications a été migré.   
-Le projet, reconnu comme étant stratégique, est désormais une priorité de l'ensemble de l'équipe produit et sera mis en œuvre progressivement durant toute l'année. 
+En janvier, 10,53% des applications a été migrées.   
+Le projet, reconnu comme étant stratégique, est désormais une priorité de l'ensemble de l'équipe Produit et sera mis en œuvre progressivement durant toute l'année. 
 
 Et voilà qui conclura cette première étape. Ce billet pourrait faire l'objet de suite plus tard, soit pour donner un état d'avancement, soit pour aller plus en profondeur sur certains sujets techniques bien spécifiques.
 
