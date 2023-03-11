@@ -28,7 +28,7 @@ const tocEn = [
             },
             {
                 title: "Choose your battles",
-                link: "https://eventuallycoding.com/en/2023/02/choose-your-battles",
+                link: "https://eventuallycoding.com/en/2023/03/choose-your-battles",
             },
             {
                 title: "Create free time",
@@ -152,7 +152,7 @@ const tocFr = [
             },
             {
                 title: "Choisissez vos batailles",
-                link: "https://eventuallycoding.com/2023/02/choisissez-vos-batailles",
+                link: "https://eventuallycoding.com/2023/03/choisissez-vos-batailles",
             },
             {
                 title: "Se créer du temps libre",
