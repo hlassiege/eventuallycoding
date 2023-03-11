@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 08 Mar 2023 22:53:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Mar 2023 11:35:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Choisissez vos batailles]]></title>
+            <link>https://eventuallycoding.com/2023/03/choisissez-vos-batailles</link>
+            <guid>https://eventuallycoding.com/2023/03/choisissez-vos-batailles</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[L'un de vos principaux rôles en tant que senior lead est de faire des choix en trouvant les bons problèmes à résoudre et d'apporter de la clarté.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Choose your battles]]></title>
+            <link>https://eventuallycoding.com/en/2023/03/choose-your-battles</link>
+            <guid>https://eventuallycoding.com/en/2023/03/choose-your-battles</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of your main roles as a senior lead is to make choices by finding the right problems to solve and then to provide clarity.]]></description>
+        </item>
         <item>
             <title><![CDATA[Amenez des ingénieurs dans la salle]]></title>
             <link>https://eventuallycoding.com/2023/03/amenez-ingenieurs-dans-la-salle</link>
