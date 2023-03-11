@@ -16,7 +16,7 @@ const tocEn = [
         ],
     },
     {
-        title: "Individual Impact in an Engineering team",
+        title: "Individual Impact",
         subsections: [
             {
                 title: "It's not just a matter of technique",
@@ -27,7 +27,8 @@ const tocEn = [
                 link: "https://eventuallycoding.com/en/2023/02/measuring-everything",
             },
             {
-                title: "Prioritization",
+                title: "Choose your battles",
+                link: "https://eventuallycoding.com/en/2023/02/choose-your-battles",
             },
             {
                 title: "Create free time",
@@ -139,7 +140,7 @@ const tocFr = [
         ],
     },
     {
-        title: "Impact individuel dans une équipe Engineering",
+        title: "L'impact individuel",
         subsections: [
             {
                 title: "Ce n'est pas juste une question de technique",
@@ -150,7 +151,8 @@ const tocFr = [
                 link: "https://eventuallycoding.com/2023/02/measuring-everything",
             },
             {
-                title: "Priorisation",
+                title: "Choisissez vos batailles",
+                link: "https://eventuallycoding.com/2023/02/choisissez-vos-batailles",
             },
             {
                 title: "Se créer du temps libre",
