@@ -7,7 +7,7 @@ tags:
 - "prioritization"
 - "product"
 - "engineering"
-cover: "team-table.jpg"
+cover: "priority.jpg"
 
 book: "impactfulSoftwareEngineering"
 
