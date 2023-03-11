@@ -62,7 +62,6 @@ Ce fichier pendant très longtemps était une simple liste, ordonnée du plus ur
 
 Je démarre chaque jour en relisant ce fichier, pour vérifier que ma journée sera satisfaisante si je traite les items du haut.
 
-
 Ce fichier avec le temps contenait aussi des idées jamais réalisées, toujours décalé vers le bas et il avait le défaut de mal concilier le court et le long terme.
 
 Désormais, je l’utilise un peu différemment.

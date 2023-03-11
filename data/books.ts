@@ -135,7 +135,7 @@ const tocFr = [
         subsections: [
             {
                 title: "Introduction - Amenez des ingénieurs dans la salle",
-                link: "http://localhost:3000/2023/03/amenez-ingenieurs-dans-la-salle",
+                link: "https://eventuallycoding.com/2023/03/amenez-ingenieurs-dans-la-salle",
             },
         ],
     },
