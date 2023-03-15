@@ -7,7 +7,7 @@ tags:
 - "impact"
 - "product"
 - "engineering"
-cover: "priority.jpg"
+cover: "impact-crater.jpg"
 
 book: "impactfulSoftwareEngineering"
 

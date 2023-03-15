@@ -1,0 +1,1010 @@
+[
+  {
+    "url": "/2021/07/06/les-salaires-dans-la-tech",
+    "views": 16391
+  },
+  {
+    "url": "/2021/09/01/differences-entre-vp-engineering-et-cto",
+    "views": 6571
+  },
+  {
+    "url": "/",
+    "views": 5891
+  },
+  {
+    "url": "/2019/07/03/mongodb-vers-postgresql",
+    "views": 5282
+  },
+  {
+    "url": "/2014/10/07/le-10eme-homme",
+    "views": 4275
+  },
+  {
+    "url": "/2021/06/24/senior-avec-6-ans-dexperience-et-apres",
+    "views": 3436
+  },
+  {
+    "url": "",
+    "views": 3356
+  },
+  {
+    "url": "/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat",
+    "views": 2898
+  },
+  {
+    "url": "/2022/05/14/impact-de-la-crise-tech-sur-les-salaires",
+    "views": 2854
+  },
+  {
+    "url": "/2013/09/28/mongodb-utiliser-les-proprietes-de-vos-objectid-dans-vos-mapreduce",
+    "views": 2809
+  },
+  {
+    "url": "/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries",
+    "views": 2755
+  },
+  {
+    "url": "/2019/12/19/quest-ce-quun-ecosysteme-tech",
+    "views": 2536
+  },
+  {
+    "url": "/2021/06/14/pourquoi-le-sujet-nest-plus-dadopter-lagilite-mais-de-changer-de-culture-produit",
+    "views": 2423
+  },
+  {
+    "url": "/2010/05/11/calcul-de-la-velocite",
+    "views": 2321
+  },
+  {
+    "url": "/2022/01/31/que-fait-un-engineering-manager",
+    "views": 2154
+  },
+  {
+    "url": "/2021/05/03/cto-de-startup-a-scaleup",
+    "views": 2008
+  },
+  {
+    "url": "/2015/04/09/zuul",
+    "views": 2006
+  },
+  {
+    "url": "/blog",
+    "views": 1897
+  },
+  {
+    "url": "/2020/05/23/le-modele-spotify-un-echec-complet",
+    "views": 1656
+  },
+  {
+    "url": "/2023/02/measuring-everything",
+    "views": 1461
+  },
+  {
+    "url": "/2011/07/07/utiliser-mockito-et-powermock",
+    "views": 1413
+  },
+  {
+    "url": "/2022/05/26/github-copilot",
+    "views": 1407
+  },
+  {
+    "url": "/2021/10/07/faut-il-mesurer-la-performance-dune-equipe-engineering",
+    "views": 1126
+  },
+  {
+    "url": "/2014/03/06/recherche-textuelle-avec-mongodb",
+    "views": 1105
+  },
+  {
+    "url": "/2022/04/30/faut-il-etre-passionne-pour-reussir-dans-le-dev",
+    "views": 1069
+  },
+  {
+    "url": "/2023/01/questions-startup",
+    "views": 1067
+  },
+  {
+    "url": "/2010/11/28/introduction-aux-tests-unitaires-et-aux-bouchons-en-c-2",
+    "views": 1056
+  },
+  {
+    "url": "/2023/01/faut-il-reecrire-de-zero",
+    "views": 965
+  },
+  {
+    "url": "/2010/11/28/bonnes-pratique-de-codage-en-c-2",
+    "views": 933
+  },
+  {
+    "url": "/2022/12/on-va-tous-perdre-nos-jobs",
+    "views": 923
+  },
+  {
+    "url": "/2018/05/03/les-bases-de-linternationalisation",
+    "views": 763
+  },
+  {
+    "url": "/about",
+    "views": 759
+  },
+  {
+    "url": "/2020/04/19/une-documentation-qui-vit",
+    "views": 747
+  },
+  {
+    "url": "/2019/04/01/eviter-le-principe-de-peter-ou-levolution-du-dev-vers-le-dev",
+    "views": 724
+  },
+  {
+    "url": "/2023/02/not-only-about-technique",
+    "views": 707
+  },
+  {
+    "url": "/2022/11/twitter-thoughts",
+    "views": 670
+  },
+  {
+    "url": "/2022/11/scrum-is-dead",
+    "views": 670
+  },
+  {
+    "url": "/2015/05/05/microservice-la-decouverte-automatique-de-services",
+    "views": 639
+  },
+  {
+    "url": "/2017/09/29/feature-branching-vs-feature-flipping",
+    "views": 623
+  },
+  {
+    "url": "/2014/12/03/spring-boot-et-ansible-sont-sur-un-bateau",
+    "views": 617
+  },
+  {
+    "url": "/2021/10/20/se-tenir-a-jour-dans-une-equipe-produit",
+    "views": 586
+  },
+  {
+    "url": "/2020/07/20/rewrite-from-scratch",
+    "views": 562
+  },
+  {
+    "url": "/2012/12/07/les-societes-cooperatives",
+    "views": 552
+  },
+  {
+    "url": "/2013/11/05/comparaison-de-moteurs-de-base-de-donnees-pour-du-stockage-de-logs",
+    "views": 534
+  },
+  {
+    "url": "/2022/04/04/cest-lhistoire-dun-side-project",
+    "views": 518
+  },
+  {
+    "url": "/resources",
+    "views": 481
+  },
+  {
+    "url": "/2022/05/04/spring-boot-et-vue-js-coderwatch-episode-4",
+    "views": 470
+  },
+  {
+    "url": "/2011/09/20/18-mois-de-freelance-alors-quel-bilan",
+    "views": 450
+  },
+  {
+    "url": "/2020/07/27/produit-versus-side-project",
+    "views": 430
+  },
+  {
+    "url": "/2022/08/variable-salaries",
+    "views": 404
+  },
+  {
+    "url": "/2020/09/21/les-metiers-de-lingenierie-informatique-vont-ils-disparaitre",
+    "views": 394
+  },
+  {
+    "url": "/2019/05/28/le-teletravail-chez-malt",
+    "views": 367
+  },
+  {
+    "url": "/2012/05/21/etes-vous-pompier-pyromane",
+    "views": 365
+  },
+  {
+    "url": "/en/2023/02/measuring-everything",
+    "views": 317
+  },
+  {
+    "url": "/2011/04/12/principe-agile-avoir-un-rythme-soutenable",
+    "views": 314
+  },
+  {
+    "url": "/2022/09/travailler-avec-contraintes",
+    "views": 308
+  },
+  {
+    "url": "/2022/04/14/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3",
+    "views": 303
+  },
+  {
+    "url": "/2020/12/07/les-paralleles-entre-le-dessin-et-le-developpement",
+    "views": 299
+  },
+  {
+    "url": "/2023/01/migration-to-nuxt",
+    "views": 225
+  },
+  {
+    "url": "/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3",
+    "views": 218
+  },
+  {
+    "url": "/2010/10/28/euh-lagilite-finalement-cest-pas-un-peu-une-secte-2",
+    "views": 214
+  },
+  {
+    "url": "/2020/08/11/leconomie-des-tic",
+    "views": 213
+  },
+  {
+    "url": "/2021/11/25/recrutements-et-salaires-session-de-qa",
+    "views": 202
+  },
+  {
+    "url": "/2014/07/16/spring-boot-dans-le-doute-reboote",
+    "views": 201
+  },
+  {
+    "url": "/2020/08/03/leurope-entre-le-marteau-chinois-et-lenclume-us",
+    "views": 191
+  },
+  {
+    "url": "/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate",
+    "views": 185
+  },
+  {
+    "url": "/2023/03/amenez-ingenieurs-dans-la-salle",
+    "views": 184
+  },
+  {
+    "url": "/2016/03/07/connecteur-mongo-postgresql",
+    "views": 184
+  },
+  {
+    "url": "/2016/04/24/slack-est-la-nouvelle-pause-clope",
+    "views": 180
+  },
+  {
+    "url": "/2022/05/19/malt-engineering-under-the-hood-gridsome",
+    "views": 177
+  },
+  {
+    "url": "/en/2023/02/launching-impactful-software-engineering",
+    "views": 173
+  },
+  {
+    "url": "/2015/01/26/curseurs-et-mongodb",
+    "views": 171
+  },
+  {
+    "url": "/2011/10/03/comment-valoriser-une-idee-nemrod-25",
+    "views": 168
+  },
+  {
+    "url": "/2013/03/18/lateral-thinking",
+    "views": 159
+  },
+  {
+    "url": "/2020/08/07/bataille-autour-des-donnees-et-du-cloud",
+    "views": 159
+  },
+  {
+    "url": "/2018/11/21/une-armee-mexicaine",
+    "views": 153
+  },
+  {
+    "url": "/2015/04/13/micro-services-la-composition-de-page-avec-zuul-et-sitemesh",
+    "views": 148
+  },
+  {
+    "url": "/2013/11/27/principe-de-peter-et-corollaire-darchimede",
+    "views": 147
+  },
+  {
+    "url": "/2013/08/12/travailler-autrement",
+    "views": 142
+  },
+  {
+    "url": "/2020/03/02/integration-avec-hull-et-considerations-pratiques-sur-lusage-dapis",
+    "views": 136
+  },
+  {
+    "url": "/2022/11/blog-migration-on-nuxt",
+    "views": 129
+  },
+  {
+    "url": "/2015/01/19/tarif-des-developpeurs-freelances",
+    "views": 116
+  },
+  {
+    "url": "/2023/02/impactful-software-engineering",
+    "views": 113
+  },
+  {
+    "url": "/2023/02/launching-impactful-software-engineering",
+    "views": 112
+  },
+  {
+    "url": "/2018/08/04/jen-ai-un-peu-ma-claque-du-startup-bashing",
+    "views": 108
+  },
+  {
+    "url": "/2013/09/09/serment-dhypocrite",
+    "views": 105
+  },
+  {
+    "url": "/2014/05/09/paas-or-not-paas-that-is-the-question",
+    "views": 102
+  },
+  {
+    "url": "/2015/12/22/vers-linfini-et-au-dela",
+    "views": 102
+  },
+  {
+    "url": "/2010/01/28/lets-swing",
+    "views": 97
+  },
+  {
+    "url": "/2014/07/23/monit-pour-monitorer-vos-serveurs",
+    "views": 97
+  },
+  {
+    "url": "/en/2023/03/being-in-the-room",
+    "views": 96
+  },
+  {
+    "url": "/2014/01/24/maintenir-vos-donnees-avec-mongeez",
+    "views": 96
+  },
+  {
+    "url": "/2016/06/16/recruter-futurs-pairs-autour-dun-verre",
+    "views": 89
+  },
+  {
+    "url": "/2023/03/choisissez-vos-batailles",
+    "views": 88
+  },
+  {
+    "url": "/en/2023/03/choose-your-battles",
+    "views": 83
+  },
+  {
+    "url": "/2009/10/28/creer-des-fichiers-excel-avec-des-caracteres-chinois-en-java",
+    "views": 82
+  },
+  {
+    "url": "/en/2023/02/impactful-software-engineering",
+    "views": 76
+  },
+  {
+    "url": "/2014/09/30/freelance-salarie-les-chiffres",
+    "views": 71
+  },
+  {
+    "url": "/2018/05/26/we-are-not-done-yet",
+    "views": 67
+  },
+  {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-14",
+    "views": 66
+  },
+  {
+    "url": "/2022/04/04/this-is-the-story-of-a-side-project",
+    "views": 65
+  },
+  {
+    "url": "/2013/08/21/fabric-vagrant",
+    "views": 63
+  },
+  {
+    "url": "/speaking",
+    "views": 59
+  },
+  {
+    "url": "/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate",
+    "views": 57
+  },
+  {
+    "url": "/2010/10/19/reussir-une-transition-agile-pas-si-simple",
+    "views": 57
+  },
+  {
+    "url": "/2013/07/20/eventual-coder",
+    "views": 52
+  },
+  {
+    "url": "/2013/08/16/fabric-moi-un-cluster",
+    "views": 47
+  },
+  {
+    "url": "/2012/07/01/wecodelikestars-com",
+    "views": 44
+  },
+  {
+    "url": "/2016/05/16/entretiens-recrutements-et-pensees-diverses",
+    "views": 43
+  },
+  {
+    "url": "/08/variable-salaries",
+    "views": 40
+  },
+  {
+    "url": "/2016/03/14/les-levees-de-fond-en-startup",
+    "views": 40
+  },
+  {
+    "url": "/2016/05/19/recrutements-et-pensees-diverses-2",
+    "views": 37
+  },
+  {
+    "url": "/2011/03/23/java-vs-c-la-gestion-des-exceptions",
+    "views": 34
+  },
+  {
+    "url": "/2015/01/16/on-vend-une-competence-pas-un-lieu",
+    "views": 33
+  },
+  {
+    "url": "//2022/08/variable-salaries",
+    "views": 27
+  },
+  {
+    "url": "/2016/07/08/embaucher-en-startup",
+    "views": 26
+  },
+  {
+    "url": "/2011/11/05/les-tests-dihm-avec-play",
+    "views": 26
+  },
+  {
+    "url": "/2012/06/03/gagnez-vous-autant-quun-ingenieur-de-facebook",
+    "views": 25
+  },
+  {
+    "url": "/en/2023/01/questions-startup",
+    "views": 24
+  },
+  {
+    "url": "/2014/03/17/ansible-timeoff-lt-1ere-journee",
+    "views": 24
+  },
+  {
+    "url": "/2016/12/16/hopwork-is-coming",
+    "views": 23
+  },
+  {
+    "url": "/index.php/calculer-ses-revenus-entre-eurl-sasu-et-salariat",
+    "views": 22
+  },
+  {
+    "url": "/2010/05/25/linformaticien-un-artisan-ou-pas",
+    "views": 22
+  },
+  {
+    "url": "/index.php/mongodb-vers-postgresql",
+    "views": 21
+  },
+  {
+    "url": "/2010/03/16/jai-lu-pour-vous-scrum-le-guide-pratique-de-la-methode-agile-la-plus-populaire",
+    "views": 20
+  },
+  {
+    "url": "/2011/10/02/creer-un-soft-on-fait-comment-nemrod-15",
+    "views": 19
+  },
+  {
+    "url": "/2014/06/03/tu-fais-quoi-dans-la-vie",
+    "views": 17
+  },
+  {
+    "url": "/fr",
+    "views": 16
+  },
+  {
+    "url": "/2012/10/08/pragmatic-programmer",
+    "views": 16
+  },
+  {
+    "url": "/2013/12/08/on-devrait-toujours-travailler-comme-ca-bis",
+    "views": 16
+  },
+  {
+    "url": "/2015/11/04/lentreprise-liberee-pas-faite-pour-les-freelances",
+    "views": 16
+  },
+  {
+    "url": "/2014/03/19/exploiter-les-donnees-dhopwork-avec-neo4j-timeoff-2nd-journee",
+    "views": 16
+  },
+  {
+    "url": "/index.php/connecteur-mongo-postgresql",
+    "views": 15
+  },
+  {
+    "url": "/2009/12/02/integration-gwt-maven-spring-hibernate-spring-security-smartgwt",
+    "views": 15
+  },
+  {
+    "url": "/2014/01/18/partir-de-paris-1-an-apres",
+    "views": 14
+  },
+  {
+    "url": "/2015/10/13/siffler-en-teletravaillant",
+    "views": 14
+  },
+  {
+    "url": "/en/2023/02/not-only-about-technique",
+    "views": 12
+  },
+  {
+    "url": "/2011/02/02/java-vs-c-le-mot-cle-using-en-c-2",
+    "views": 12
+  },
+  {
+    "url": "/2013/09/11/interview-dune-societe-collaborative-ninjasquad",
+    "views": 12
+  },
+  {
+    "url": "/fr/blog",
+    "views": 11
+  },
+  {
+    "url": "/2013/01/26/dis-tonton-pourquoi-tu-tousses",
+    "views": 11
+  },
+  {
+    "url": "/en/2023/02/staffeng.com",
+    "views": 10
+  },
+  {
+    "url": "/index.php/feed",
+    "views": 10
+  },
+  {
+    "url": "/2011/05/01/java-vs-c-les-types-valeurs-en-c",
+    "views": 10
+  },
+  {
+    "url": "/2013/04/02/rex-bof-nossii",
+    "views": 10
+  },
+  {
+    "url": "/2009/11/05/substance-une-librairie-hype-pour-swing",
+    "views": 9
+  },
+  {
+    "url": "/2014/01/12/interview-dune-societe-collaborative-scopyleft",
+    "views": 9
+  },
+  {
+    "url": "/2018/10/10/blendwebmix-2018",
+    "views": 9
+  },
+  {
+    "url": "/2012/05/01/p-r-o-f-s",
+    "views": 9
+  },
+  {
+    "url": "/2010/11/04/agile-tour-2010-2",
+    "views": 9
+  },
+  {
+    "url": "/2011/10/23/play-framework-binding-et-performance",
+    "views": 8
+  },
+  {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-24",
+    "views": 8
+  },
+  {
+    "url": "/2010/08/16/jai-lu-pour-vous-programmation-concurrente-en-java",
+    "views": 8
+  },
+  {
+    "url": "/2014/03/27/mongodb-covered-query",
+    "views": 7
+  },
+  {
+    "url": "/en/2022/04/04/this-is-the-story-of-a-side-project",
+    "views": 6
+  },
+  {
+    "url": "/index.php/lateral-thinking",
+    "views": 6
+  },
+  {
+    "url": "/index.php/le-10eme-homme",
+    "views": 6
+  },
+  {
+    "url": "/2013/07/21/panorama-nosql",
+    "views": 6
+  },
+  {
+    "url": "/2013/09/25/interview-dune-societe-collaborative-neovia",
+    "views": 6
+  },
+  {
+    "url": "/2011/05/03/328",
+    "views": 6
+  },
+  {
+    "url": "/en/2023/02/being-in-the-room",
+    "views": 5
+  },
+  {
+    "url": "/20ez/12/on-va-tous-perdre-nos-jobs",
+    "views": 5
+  },
+  {
+    "url": "/2011/04/19/quelle-techno-pour-se-faire-recruter",
+    "views": 5
+  },
+  {
+    "url": "/2010/09/16/attention-aux-habitudes",
+    "views": 5
+  },
+  {
+    "url": "/2009/10/27/java-travailller-sur-des-resourcebundle-en-chinois",
+    "views": 5
+  },
+  {
+    "url": "/2012/10/06/lateral-thoughts-sinstalle-a-lyon",
+    "views": 5
+  },
+  {
+    "url": "/2009/10/30/swing-or-not-swing-that-is-the-question",
+    "views": 5
+  },
+  {
+    "url": "/2012/04/14/maven-que-perforce-soit-avec-toi",
+    "views": 5
+  },
+  {
+    "url": "/index.php/spring-boot-dans-le-doute-reboote",
+    "views": 4
+  },
+  {
+    "url": "/index.php/nosql-4-bases-a-la-loupe-14",
+    "views": 4
+  },
+  {
+    "url": "/2012/12/07/null",
+    "views": 4
+  },
+  {
+    "url": "/en/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3",
+    "views": 4
+  },
+  {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-44",
+    "views": 4
+  },
+  {
+    "url": "/2012/06/23/hibernate-vers-jpa",
+    "views": 4
+  },
+  {
+    "url": "/2011/02/03/java-vs-c-les-parametres-nommes-et-optionnels-en-c-2",
+    "views": 4
+  },
+  {
+    "url": "/2011/04/05/rex-joomla-et-wordpress",
+    "views": 4
+  },
+  {
+    "url": "/2014/04/21/devoxx-france-2014",
+    "views": 4
+  },
+  {
+    "url": "/2011/07/23/maven-anneau-de-sauron-ou-couteau-suisse",
+    "views": 4
+  },
+  {
+    "url": "/2011/03/29/eviter-les-conflits-de-nom-dans-les-interfaces-en-c",
+    "views": 4
+  },
+  {
+    "url": "/2023/02/staffeng.com",
+    "views": 3
+  },
+  {
+    "url": "/index.php/le-teletravail-chez-malt",
+    "views": 3
+  },
+  {
+    "url": "/2007/07/07/ouverture",
+    "views": 3
+  },
+  {
+    "url": "/2011/03/18/java-vs-c-les-property-en-c",
+    "views": 3
+  },
+  {
+    "url": "/2012/01/05/devoxx-france-quicky-not-dirty",
+    "views": 3
+  },
+  {
+    "url": "/2012/04/22/devoxx-france-2012-jour-23",
+    "views": 3
+  },
+  {
+    "url": "/2010/11/10/atlassian-user-group-paris-2010-2",
+    "views": 3
+  },
+  {
+    "url": "/https:/youtu.be/igs5RjxnYJ4",
+    "views": 2
+  },
+  {
+    "url": "/index.php/euh-lagilite-finalement-cest-pas-un-peu-une-secte-2",
+    "views": 2
+  },
+  {
+    "url": "/tag/delivery",
+    "views": 2
+  },
+  {
+    "url": "/index.php/les-bases-de-linternationalisation",
+    "views": 2
+  },
+  {
+    "url": "/index.php/eviter-le-principe-de-peter-ou-levolution-du-dev-vers-le-dev",
+    "views": 2
+  },
+  {
+    "url": "/index.php/micro-services-la-composition-de-page-avec-zuul-et-sitemesh",
+    "views": 2
+  },
+  {
+    "url": "/index.php/microservice-la-decouverte-automatique-de-services",
+    "views": 2
+  },
+  {
+    "url": "/2023/02/null",
+    "views": 2
+  },
+  {
+    "url": "/blog/feed",
+    "views": 2
+  },
+  {
+    "url": "/index.php/on-devrait-toujours-travailler-comme-ca-bis",
+    "views": 2
+  },
+  {
+    "url": "/2013/01/25/dis-tonton-pourquoi-tu-tousses",
+    "views": 2
+  },
+  {
+    "url": "/2011/05/28/les-technos-de-demain-selon-whats-next-paris",
+    "views": 2
+  },
+  {
+    "url": "/2022/09/work-with-constraints",
+    "views": 2
+  },
+  {
+    "url": "/index.php/creer-un-soft-on-fait-comment-nemrod-15",
+    "views": 2
+  },
+  {
+    "url": "/05/26/github-copilot",
+    "views": 2
+  },
+  {
+    "url": "/en/2023/02/null",
+    "views": 2
+  },
+  {
+    "url": "/index.php/dis-tonton-pourquoi-tu-tousses",
+    "views": 2
+  },
+  {
+    "url": "/tag/cours",
+    "views": 2
+  },
+  {
+    "url": "/2010/09/16/retours-dexperiences-agile-et-lean",
+    "views": 2
+  },
+  {
+    "url": "/2011/06/23/wsn-paris-2011-flex-la-revanche",
+    "views": 2
+  },
+  {
+    "url": "/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud",
+    "views": 2
+  },
+  {
+    "url": "/2011/01/11/transitions-agiles-ou-en-sommes-nous-2",
+    "views": 2
+  },
+  {
+    "url": "/2009/12/29/jouons",
+    "views": 2
+  },
+  {
+    "url": "/2012/04/22/devoxx-france-2012-jour-13",
+    "views": 2
+  },
+  {
+    "url": "/2014/03/20/mandrill-et-lutung-timeoff-xeme-journee",
+    "views": 2
+  },
+  {
+    "url": "/2012/03/10/la-quete-du-graal-avec-un-cure-dent",
+    "views": 2
+  },
+  {
+    "url": "/20ez",
+    "views": 1
+  },
+  {
+    "url": "/2",
+    "views": 1
+  },
+  {
+    "url": "/en/2023/02/www.malt.com",
+    "views": 1
+  },
+  {
+    "url": "/2010/10/28/lagilite-est-elle-reserve-aux-projets-java",
+    "views": 1
+  },
+  {
+    "url": "/index.php/zuul",
+    "views": 1
+  },
+  {
+    "url": "/20ez/12",
+    "views": 1
+  },
+  {
+    "url": "/index.php",
+    "views": 1
+  },
+  {
+    "url": "/le-teletravail-chez-malt",
+    "views": 1
+  },
+  {
+    "url": "/index.php/fabric-moi-un-cluster",
+    "views": 1
+  },
+  {
+    "url": "/index.php/bonnes-pratique-de-codage-en-c-2",
+    "views": 1
+  },
+  {
+    "url": "/page/2",
+    "views": 1
+  },
+  {
+    "url": "/index.php/fabric-vagrant",
+    "views": 1
+  },
+  {
+    "url": "/feed",
+    "views": 1
+  },
+  {
+    "url": "/index.php/calcul-de-la-velocite",
+    "views": 1
+  },
+  {
+    "url": "/index.php/feature-branching-vs-feature-flipping",
+    "views": 1
+  },
+  {
+    "url": "/atom.xml",
+    "views": 1
+  },
+  {
+    "url": "/fr/2023/02/staffeng.com",
+    "views": 1
+  },
+  {
+    "url": "/2023/03/amener-ingenieurs-dans-la-salle",
+    "views": 1
+  },
+  {
+    "url": "/blog/rss",
+    "views": 1
+  },
+  {
+    "url": "/shaare/eUDdXQ",
+    "views": 1
+  },
+  {
+    "url": "/2023/01/null",
+    "views": 1
+  },
+  {
+    "url": "/fr/2023/03/being-in-the-room",
+    "views": 1
+  },
+  {
+    "url": "/index.php/panorama-nosql",
+    "views": 1
+  },
+  {
+    "url": "/2023/03/amener-ingenieurs-dans-salle",
+    "views": 1
+  },
+  {
+    "url": "/blog/rssfeed",
+    "views": 1
+  },
+  {
+    "url": "/shaare/uyKMvA",
+    "views": 1
+  },
+  {
+    "url": "/index.php/fr/technique/java/52-substance-swing",
+    "views": 1
+  },
+  {
+    "url": "/index.php/partir-de-paris-1-an-apres",
+    "views": 1
+  },
+  {
+    "url": "/05/19/malt-engineering-under-the-hood-gridsome",
+    "views": 1
+  },
+  {
+    "url": "/HeroSection",
+    "views": 1
+  },
+  {
+    "url": "/2022/11",
+    "views": 1
+  },
+  {
+    "url": "/index.php/recruter-futurs-pairs-autour-dun-verre",
+    "views": 1
+  },
+  {
+    "url": "/https:/www.youtube.com/watch",
+    "views": 1
+  },
+  {
+    "url": "/index.php/siffler-en-teletravaillant",
+    "views": 1
+  },
+  {
+    "url": "/2011/10/04/faire-du-soft-sans-budget-nemrod-35",
+    "views": 1
+  },
+  {
+    "url": "/2010/07/07/prenez-garde-au-referentiel",
+    "views": 1
+  },
+  {
+    "url": "/2011/11/30/juste-un-cafe-ca-ira-merci",
+    "views": 1
+  },
+  {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-34",
+    "views": 1
+  },
+  {
+    "url": "/2011/10/06/nemrod-et-play-framework-love-story-nemrod-55",
+    "views": 1
+  },
+  {
+    "url": "/2012/04/23/devoxx-france-2012-jour-33",
+    "views": 1
+  }
+]
