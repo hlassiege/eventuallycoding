@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sat, 11 Mar 2023 13:30:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 07:35:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[L'Impact individuel dans une équipe engineering]]></title>
+            <link>https://eventuallycoding.com/2023/03/individual-impact</link>
+            <guid>https://eventuallycoding.com/2023/03/individual-impact</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Et si on définissait ensemble cette notion d'impact individual dans une équipe engineering.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Individual impact in an engineering team]]></title>
+            <link>https://eventuallycoding.com/en/2023/03/individual-impact</link>
+            <guid>https://eventuallycoding.com/en/2023/03/individual-impact</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Let's define together this notion of individual impact in an engineering team.]]></description>
+        </item>
         <item>
             <title><![CDATA[Choisissez vos batailles]]></title>
             <link>https://eventuallycoding.com/2023/03/choisissez-vos-batailles</link>
