@@ -4,10 +4,16 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 15 Mar 2023 07:35:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 07:47:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Stats]]></title>
+            <link>https://eventuallycoding.com/analytics/stats</link>
+            <guid>https://eventuallycoding.com/analytics/stats</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
         <item>
             <title><![CDATA[L'Impact individuel dans une équipe engineering]]></title>
             <link>https://eventuallycoding.com/2023/03/individual-impact</link>
