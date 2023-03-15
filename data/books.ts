@@ -17,6 +17,7 @@ const tocEn = [
     },
     {
         title: "Individual Impact",
+        link: "https://eventuallycoding.com/en/2023/03/individual-impact",
         subsections: [
             {
                 title: "It's not just a matter of technique",
@@ -141,6 +142,7 @@ const tocFr = [
     },
     {
         title: "L'impact individuel",
+        link: "https://eventuallycoding.com/2023/03/individual-impact",
         subsections: [
             {
                 title: "Ce n'est pas juste une question de technique",
