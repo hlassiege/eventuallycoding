@@ -358,6 +358,6 @@ What are the archetypes that characterize you the most?
 * [Staff Engineer role at small companies](https://blog.separateconcerns.com/2023-02-03-staff-engineer-inch.html)
 
 ::tip
-This blog post is part of the book [Impactful Software Engineering](/2023/02/impactful-software-engineering).
+This blog post is part of the book [Impactful Software Engineering](/en/2023/02/impactful-software-engineering).
 Feel free to read the other chapters.
 ::

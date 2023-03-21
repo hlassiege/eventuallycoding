@@ -102,6 +102,6 @@ So my biases are the following:
 Finally, second warning, there is a difference between the opinions I can express here, the direction I want to take, and the reality of my daily life which can be more contrasted. Malt has dysfunctions, like everywhere else. My opinions are sometimes addressed to myself and give me a direction to go.
 
 ::tip
-This blog post is part of the book [Impactful Software Engineering](/2023/02/impactful-software-engineering).
+This blog post is part of the book [Impactful Software Engineering](/en/2023/02/impactful-software-engineering).
 Feel free to read the other chapters.
 ::

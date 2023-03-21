@@ -168,6 +168,6 @@ Do you feel that you always face a lot of resistance to your decisions? Would yo
 * [Disagree and commit](https://en.wikipedia.org/wiki/Disagree_and_commit)
 
 ::tip
-This blog post is part of the book [Impactful Software Engineering](/2023/02/impactful-software-engineering).
+This blog post is part of the book [Impactful Software Engineering](/en/2023/02/impactful-software-engineering).
 Feel free to read the other chapters.
 ::

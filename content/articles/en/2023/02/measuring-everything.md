@@ -287,6 +287,6 @@ Are your engineering metrics known outside your team?
 [Your version control system contains invaluable insights for your engineering teams I](https://blog.malt.engineering/your-version-control-system-contains-invaluable-insights-for-your-engineering-teams-part-i-c90b237fe7b4) 
 
 ::tip
-This blog post is part of the book [Impactful Software Engineering](/2023/02/impactful-software-engineering).
+This blog post is part of the book [Impactful Software Engineering](/en/2023/02/impactful-software-engineering).
 Feel free to read the other chapters.
 ::
