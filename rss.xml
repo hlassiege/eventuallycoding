@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 15 Mar 2023 07:47:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Mar 2023 08:02:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Accepter l'ennui]]></title>
+            <link>https://eventuallycoding.com/2023/03/accept-boredom</link>
+            <guid>https://eventuallycoding.com/2023/03/accept-boredom</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[J'ai appris au fil des années à apprécier ce temps libre forcé, et à développer la conviction qu'il est même nécessaire pour continuer à créer de l'impact.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Accepting boredom]]></title>
+            <link>https://eventuallycoding.com/en/2023/03/accept-boredom</link>
+            <guid>https://eventuallycoding.com/en/2023/03/accept-boredom</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have learned over the years to appreciate this forced time off, and to develop the belief that it is even necessary to continue to make an impact.]]></description>
         </item>
         <item>
             <title><![CDATA[L'Impact individuel dans une équipe engineering]]></title>
