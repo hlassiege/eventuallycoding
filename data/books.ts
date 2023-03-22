@@ -32,7 +32,8 @@ const tocEn = [
                 link: "https://eventuallycoding.com/en/2023/03/choose-your-battles",
             },
             {
-                title: "Create free time",
+                title: "Accepting boredom",
+                link: "https://eventuallycoding.com/en/2023/03/accept-boredom",
             },
             {
                 title: "Communication & Tech Marketing",
@@ -157,7 +158,8 @@ const tocFr = [
                 link: "https://eventuallycoding.com/2023/03/choisissez-vos-batailles",
             },
             {
-                title: "Se créer du temps libre",
+                title: "Accepter l'ennui",
+                link: "https://eventuallycoding.com/2023/03/accept-boredom",
             },
             {
                 title: "Communication & Tech Marketing",

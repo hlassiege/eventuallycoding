@@ -32,7 +32,7 @@ J'aime beaucoup la citation suivante :
 > Being busy is a form of laziness  
 > Tim Ferris
 
-Remplir son emploi du temps, nous évite d'avoir à réfléchir. Et c'est effectivement de la paresse car c'est l'un de nos rôles les plus importants. Sans réflexion et recul, on finit par limiter son impact.
+Remplir son emploi du temps nous évite d'avoir à réfléchir. Or, c'est l'un de nos rôles les plus importants. Sans réflexion et recul, on finit par limiter son impact.
 
 ::image
 ![Personnes qui ne veulent pas prendre le temps d'améliorer leur outil de travail](/images/reinvent-wheel.png)
@@ -53,24 +53,22 @@ Mais dans la pratique, à un moment, la courbe peut aussi ressembler à ça :
 ![Un impact qui diminue au bout d'un moment](/images/impact-time2.jpg)
 ::
 
+Eh oui, maintenant les améliorations sont en production, il y a du support à réaliser. On se retrouve à être beaucoup sollicité pour comprendre comment ça marche, former les nouveaux arrivants etc… **On manque de temps**.
 
-Eh oui, maintenant les améliorations sont en production, il y a du support à réaliser. On se retrouve à être beaucoup sollicité pour comprendre comment ça marche, former les nouveaux arrivants etc…
+Cette phase est difficile. Certains s'en accommodent et trouvent un certain confort à être devenu “l'expert(e)” de leur produit. L'emploi du temps se remplit tout seul, le cerveau est constamment sollicité.
 
-Cette phase est difficile. Certains s'en accommodent et trouvent un certain confort à être devenu “l'expert(e)” de leur produit. L'emploi du temps se remplit tout seul, le cerveau est constamment sollicité et effectivement on endosse un rôle utile.
-
-Mais dans les faits, l'impact peut diminuer. C'est le fameux moment dans une entreprise où on a l'impression de ne plus apprendre ou de ne plus autant apporter. On a la sensation de rester bloqué sur des impacts passés.
-Pour d'autres, la charge de travail nécessaire pour être “l'expert(e)” du produit peut entraîner une débauche d'énergie, jusqu'au Burnout.
+Mais dans les faits, l'impact diminue. C'est le fameux moment dans une entreprise où on a l'impression de ne plus apprendre ou de ne plus autant apporter. On a la sensation de rester bloqué sur des impacts passés.
+Pire, la charge de travail nécessaire pour être “l'expert(e)” du produit devient de plus en plus forte. Vous avez remarqué ? Les meetings s'accumulent, mais ne diminuent jamais en nombre ? Et cette débauche d'énergie peut mener au Burnout.
 
 Pour quelques-uns, la conclusion sera d'aller voir ce qui se passe ailleurs pour tenter de reproduire l'impact des débuts, tout en revenant sur un rythme soutenable.
 
 Déprimant ?
 
-Il existe une alternative quand on finit par accepter de poser les crayons. Notre contribution et notre impact peuvent fonctionner en dents de scie. J'irai même plus loin, **apporter de l'impact nécessite des temps morts**.
+Il existe une alternative quand on finit par accepter de poser les crayons. Notre contribution et notre impact peuvent fonctionner en dents de scie. **Créer de l'impact nécessite des temps morts**.
 
 ::image
 ![Un impact en dents de scie](/images/impact-time3.jpg)
 ::
-
 
 ## Réactivité versus proactivité
 C'est très bien d'être réactif, c'est une grande qualité d'être capable de résoudre un problème lorsqu'il arrive.

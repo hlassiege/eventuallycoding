@@ -32,7 +32,7 @@ I really like the following quote:
 > Being busy is a form of laziness  
 > Tim Ferris
 
-Filling our time, we don't have to think. And that is indeed laziness because it is one of our most important roles. Without reflection and hindsight, we end up limiting our impact.
+With a full agenda, we don't have to think. But this is one of our most important roles. Without reflection and hindsight, we end up limiting our impact.
 
 ::image
 ![People who do not want to take the time to improve their work tools](/images/reinvent-wheel.png)
@@ -52,18 +52,19 @@ But in practice, at some point, the curve can also look like this:
 ![An impact that decreases after a while](/images/impact-time2.jpg)
 ::
 
-Yes, now the improvements are in production, there is support to be done. We find ourselves being asked a lot to understand how it works, to train newcomers etc...
+Yes, now the improvements are in production, there is support to be done. We find ourselves being asked a lot to understand how it works, to train the newcomers etc... **We lack time**.
 
-This phase is difficult. Some people get used to it and find a certain comfort in having become the "expert" of their product. The agenda fills up by itself, the brain is constantly solicited and indeed we assume a useful role.
+This phase is difficult. Some people get used to it and find a certain comfort in having become the "expert" of their product. The schedule fills up by itself, the brain is constantly solicited.
 
-But in reality, the impact can decrease. This is the famous moment in a company when you feel like you're not learning or contributing as much. You have the feeling that you are stuck on past impacts.
-For others, the workload necessary to be the "expert" of the product can lead to a huge amount of energy, up to Burnout.
+But in reality, the impact decreases. This is the famous moment in a company when you feel like you're not learning or contributing as much. You feel like you're stuck on past impacts.
 
-For some, the conclusion will be to go and see what is happening elsewhere to try to reproduce the impact of the beginnings, while returning to a sustainable rhythm.
+Worse, the workload required to be the "expert" of the product becomes more and more important. Have you noticed? The meetings pile up, but never decrease in number? And this overload of energy can lead to burnout.
+
+For some, the conclusion will be to go and see what is happening elsewhere to try to reproduce the impact of the beginnings, while returning to a sustainable pace.
 
 Depressing?
 
-There is an alternative when we finally agree to put down the pencils. Our contribution and impact can work in fits and starts. I'll go even further, **making an impact requires downtime**.
+There is an alternative when we finally agree to put down the pencils. Our contribution and impact work in fits and starts. **Creating impact requires downtime**.
 
 ::image
 ![A sawtooth impact](/images/impact-time3.jpg)
