@@ -36,12 +36,13 @@ const tocEn = [
                 link: "https://eventuallycoding.com/en/2023/03/accept-boredom",
             },
             {
-                title: "Communication & Tech Marketing",
+                title: "Tech Marketing",
             },
         ],
     },
     {
         title: "Engineering Leadership",
+        link: "https://eventuallycoding.com/en/2023/05/engineering-leadership",
         subsections: [
             {
                 title: "Soft versus hard leadership",
@@ -162,12 +163,13 @@ const tocFr = [
                 link: "https://eventuallycoding.com/2023/03/accept-boredom",
             },
             {
-                title: "Communication & Tech Marketing",
+                title: "Tech Marketing",
             },
         ],
     },
     {
         title: "Engineering Leadership",
+        link: "https://eventuallycoding.com/2023/05/engineering-leadership",
         subsections: [
             {
                 title: "Soft versus hard leadership",
