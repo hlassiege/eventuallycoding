@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 22 Mar 2023 08:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 May 2023 06:51:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Engineering Leadership]]></title>
+            <link>https://eventuallycoding.com/2023/05/engineering-leadership</link>
+            <guid>https://eventuallycoding.com/2023/05/engineering-leadership</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Le développement informatique est l’une des activités les plus collaboratives qui soit. Développer sa communication est crucial, d’autant plus pour répondre à un enjeu majeur : comment démultiplier son impact]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Engineering Leadership]]></title>
+            <link>https://eventuallycoding.com/en/2023/05/engineering-leadership</link>
+            <guid>https://eventuallycoding.com/en/2023/05/engineering-leadership</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[IT development is one of the most collaborative activities. Developing its communication is crucial, especially to meet a major challenge: how to multiply its impact]]></description>
         </item>
         <item>
             <title><![CDATA[Accepter l'ennui]]></title>
