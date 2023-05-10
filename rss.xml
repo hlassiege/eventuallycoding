@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 10 May 2023 19:47:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 May 2023 20:38:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tech Marketing]]></title>
+            <link>https://eventuallycoding.com/2023/05/tech-marketing</link>
+            <guid>https://eventuallycoding.com/2023/05/tech-marketing</guid>
+            <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Découvrons comment le tech marketing peut être un levier fort pour créer de l’impact dans une organisation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tech Marketing]]></title>
+            <link>https://eventuallycoding.com/en/2023/05/tech-marketing</link>
+            <guid>https://eventuallycoding.com/en/2023/05/tech-marketing</guid>
+            <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Let's discover how tech marketing can be a strong lever to create impact in an organization]]></description>
         </item>
         <item>
             <title><![CDATA[Engineering Leadership]]></title>
