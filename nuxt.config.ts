@@ -9,11 +9,7 @@ export default defineNuxtConfig({
             },
             script: [
                 {
-                    src: "https://digianalytics.fr/js/script.js",
-                    "data-host": "https://digianalytics.fr",
-                    "data-dnt": "false",
-                    id: "ZwSg9rf6GA",
-                    async: true,
+                    src: "https://digianalytics.fr/pixel/73jqBv5FmFIZiWt2",
                     defer: true,
                     type: "text/javascript",
                 },
