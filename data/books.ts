@@ -37,6 +37,7 @@ const tocEn = [
             },
             {
                 title: "Tech Marketing",
+                link: "https://eventuallycoding.com/en/2023/05/tech-marketing",
             },
         ],
     },
@@ -164,6 +165,7 @@ const tocFr = [
             },
             {
                 title: "Tech Marketing",
+                link: "https://eventuallycoding.com/2023/05/tech-marketing",
             },
         ],
     },
