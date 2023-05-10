@@ -75,7 +75,7 @@ Je ne sais pas si “faire de la politique” a la même connotation négative d
 
 Alors effectivement, ne faites pas de la politique.
 
-Mais l’objectif ici, c’est de d'utiliser l’effet de levier d’un groupe pour accomplir plus grand que ce qu’on réaliserait tout seul.
+Mais l'objectif ici, c'est d'utiliser l'effet de levier d'un groupe pour accomplir plus grand que ce qu'on réaliserait tout seul.
 
 
 > Tout seul on va plus vite, ensemble, on va plus loin  
