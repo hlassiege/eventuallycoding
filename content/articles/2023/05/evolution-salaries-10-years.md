@@ -422,3 +422,7 @@ J'ai pas trop creusé sur ce site. C'est uniquement déclaratif donc sujet à ca
 
 C'est une base très généraliste, elle s'appuie sur des données officielles issues des entreprises qui ont recours à des salariés sous visa H1B.  
 L'avantage de cette base, c'est qu'étant très généraliste, on y voit notamment une médiane bien plus basse. On peut observer des salaires vers les 70k, ce qui permet de comprendre que les salaires de 200k sont loin d'être la norme. Ca permet de relativiser.
+
+
+Remerciements à toutes les personnes de Tech.rocks qui m'ont fourni des sources complémentaires.  
+Remerciement à Nicolas Helleringer pour sa relecture. 
