@@ -394,10 +394,10 @@ Aux US par contre, c’est une vrai énigme, les niveaux de salaires sont devenu
 Donc d’un côté, on peut parier sur une grosse correction sur les salaires aux US (déjà [8% depuis un an](https://www.levels.fyi/2022/)), d’un autre côté si la tech est en crise, la technologie, elle, reste omniprésente dans l’économie et le marché devrait rester en tension. Je ne vais donc pas trop m’avancer.
 
 Et il y a l’incertitude amenée par les IA… et là, si ça va vite, ça peut faire mal.
-C’est pas moi qui le dit, des analystes financiers ont déjà prévu des baisses pour plusieurs entreprises, [dont Fiverr](https://seekingalpha.com/article/4595082-fiverr-challenging-times-for-its-business-model), une plateforme de freelance focalisé sur de simples tâches bon marché, parce que justement, les tâches simples sont les premières à pouvoir se faire réaliser par des IA.
+Ce n'est pas moi qui le dit, des analystes financiers ont déjà prévu des baisses pour plusieurs entreprises, [dont Fiverr](https://seekingalpha.com/article/4595082-fiverr-challenging-times-for-its-business-model), une plateforme de freelance focalisé sur de simples tâches bon marché, parce que justement, les tâches simples sont les premières à pouvoir se faire réaliser par des IA.
 
 Ce sera tout pour ce premier billet.
-Dans le prochain je creuserais un peu plus la comparaison entre revenus US et Français en prenant en compte le niveau de vie pour essayer de comparer ce qui est comparable. Parce que finalement, ça veut dire quoi de gagner 200k$ en Californie ?
+Dans le prochain, je creuserais un peu plus la comparaison entre revenus US et Français en prenant en compte le niveau de vie pour essayer de comparer ce qui est comparable. Parce que finalement, ça veut dire quoi de gagner 200k$ en Californie ?
 
 
 
@@ -407,7 +407,7 @@ Autres sources notables, non citées dans le texte :
 
 * [Calcul de rémunérations et distribution de stocks par Index Ventures](https://www.indexventures.com/optionplan/#expected_funding_rounds_pre_exit=series-b-and-c&employee_country=france&mode=seed)
 
-Le site est très riche en informations. Il confirme globalement mes sources sur les US. Je le trouve moins pertinent sur la France car il donne une fourchette globale Européenne et clairement la France est en dessous.
+Le site est très riche en informations. Il confirme globalement mes sources sur les US. Je le trouve moins pertinent sur la France, car il donne une fourchette globale Européenne et clairement la France est en dessous.
 
 
 * [Compensation at tech companies - Pragmatic engineer](https://newsletter.pragmaticengineer.com/p/compensation-at-tech-companies)
@@ -416,13 +416,13 @@ Il y a un focus uniquement sur les entreprises tech et côtés en bourse, donc f
 
 * [salaires.dev](https://salaires.dev/)
 
-J'ai pas trop creusé sur ce site. C'est uniquement déclaratif donc sujet à caution. Malgré tout on y trouve des salaires de Big Tech en France donc ça peut être intéressant.
+Je n'ai pas trop creusé sur ce site. C'est uniquement déclaratif donc sujet à caution. Malgré tout on y trouve des salaires de Big Tech en France donc ça peut être intéressant.
 
 * [H1B Salary database 2023](https://h1bdata.info/index.php?em=&job=software+engineer&city=san+francisco&year=2022)
 
 C'est une base très généraliste, elle s'appuie sur des données officielles issues des entreprises qui ont recours à des salariés sous visa H1B.  
-L'avantage de cette base, c'est qu'étant très généraliste, on y voit notamment une médiane bien plus basse. On peut observer des salaires vers les 70k, ce qui permet de comprendre que les salaires de 200k sont loin d'être la norme. Ca permet de relativiser.
+L'avantage de cette base, c'est qu'étant très généraliste, on y voit notamment une médiane bien plus basse. On peut observer des salaires vers les 70k, ce qui permet de comprendre que les salaires de 200k sont loin d'être la norme. Ça permet de relativiser.
 
 
 Remerciements à toutes les personnes de Tech.rocks qui m'ont fourni des sources complémentaires.  
-Remerciement à Nicolas Helleringer pour sa relecture. 
+Remerciements à Nicolas Helleringer pour sa relecture. 
