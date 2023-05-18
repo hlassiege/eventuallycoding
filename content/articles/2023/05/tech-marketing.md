@@ -48,7 +48,7 @@ C’est un exercice très difficile de faire vieillir un produit, bien plus que 
 Les contraintes sont de plus en plus fortes avec la croissance, sur la sécurité, la robustesse, l’efficience.  
 Dire qu’une application est disponible ne veut plus rien dire. Est-ce que le paiement fonctionne ? Est-ce que le moteur de recommandation fonctionne ?  
 
-Pour faire face à tout cela, pour faire un produit toujours plus abouti, il faut des équipes larges mais cela vient avec un coup en termes de communication et de coordination.
+Pour faire face à tout cela, pour faire un produit toujours plus abouti, il faut des équipes larges, mais cela vient avec un coût en termes de communication et de coordination.
 
 > Pourquoi c’est si long de construire cette “petite” fonctionnalité ?   
 > Pourquoi a-t-on besoin d’autant de personnes sur l’équipe X, la sécurité, l’ops etc… ?  

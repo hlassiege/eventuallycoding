@@ -59,21 +59,22 @@ And of course in the books section, you can also read the one on this blog: [Imp
 
 ### Scaling Organization
 
-| Title                                                                                                                                 | Theme(s)                          |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)                                                  | Product                           |
-| [Awesome CTO](https://github.com/kuchin/awesome-cto)                                                                                  | Resources from Dima Kuchin        |
-| [C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                     | Engineering manager               |
-| [Writing Documentation](https://documentation.divio.com/)                                                                             | Documentation                     |
-| [Engineering Ladders](http://www.engineeringladders.com/)                                                                             | Tech leaders & Career Path        |
-| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac) | Prioritization                    |
-| [Give Away Your Legos](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups)                | Scaling organization              |
-| [Managing complex organizational change](https://leaddev.com/process/managing-complex-organizational-change)                          | Change Management                 |
-| [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                   | Product and constraints           |
-| [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                        | Osciller entre management et tech |
-| [Scaling Yourself](https://www.youtube.com/watch?v=FS1mnISoG7U)                                                                       | Scaling individually              |
-| [The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                          | Scaling                           |
-| [What Is Seniority in Engineering](https://medium.com/b-t-o/what-is-seniority-of-software-engineers-dd5d299fbdf1)                     | Seniority pillars for ICs         |
+| Title                                                                                                                                  | Theme(s)                              |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [Alignment at Scale - Henrik Kniberg](https://www.infoq.com/fr/presentations/lkfr-henrik-kniberg-keynote/)                             | Alignment                             |
+| [Agile Product Manifesto](https://d-pereira.com/the-agile-product-manifesto-is-born)                                                   | Product                               |
+| [Awesome CTO](https://github.com/kuchin/awesome-cto)                                                                                   | Resources from Dima Kuchin            |
+| [C'est moi le chef ! (Nicolas Helleringer)](https://www.youtube.com/watch?v=vWARXoZrx10)                                               | Engineering manager                   |
+| [Writing Documentation](https://documentation.divio.com/)                                                                              | Documentation                         |
+| [Engineering Ladders](http://www.engineeringladders.com/)                                                                              | Tech leaders & Career Path            |
+| [Even over statements](https://medium.com/the-ready/even-overs-the-prioritization-tool-that-brings-your-strategy-to-life-e4f28f2949ac) | Prioritization                        |
+| [Give Away Your Legos](https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups)                 | Scaling organization                  |
+| [Managing complex organizational change](https://leaddev.com/process/managing-complex-organizational-change)                           | Change Management                     |
+| [Tension: why product development requires balancing conflicting goals](https://www.jpattonassociates.com/tension/)                    | Product and constraints               |
+| [The Engineer Manager Pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)                                         | Switching between management and tech |
+| [Scaling Yourself](https://www.youtube.com/watch?v=FS1mnISoG7U)                                                                        | Scaling individually                  |
+| [The 3 Things That Keep Companies Growing](https://hbr.org/2016/06/the-3-things-that-keep-companies-growing)                           | Scaling                               |
+| [What Is Seniority in Engineering](https://medium.com/b-t-o/what-is-seniority-of-software-engineers-dd5d299fbdf1)                      | Seniority pillars for ICs             |
 
 ### Tech
 
