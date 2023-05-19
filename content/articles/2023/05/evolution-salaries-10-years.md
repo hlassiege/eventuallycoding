@@ -8,7 +8,6 @@ tags:
 - "tech"
 cover: "evolution-salaires.jpg"
 
-
 language: "fr"
 ---
 
@@ -19,7 +18,12 @@ Désormais, pour de nombreuses Big Tech (les entreprises US dominantes de la tec
 
 Ce site vous permet également de saisir vos revenus et d’avoir une très grande base de données mondiale qui se construit par ses utilisateurs.
 
-On va en profiter pour voir comment ont évolué ces salaires sur les 10 dernières années en France et aux US. Et dans un second billet à venir j’en profiterais pour aller un peu plus sur la comparaison des revenus et des niveaux de vie.
+On va en profiter pour voir comment ont évolué ces salaires sur les 10 dernières années en France et aux US. 
+
+::warning
+L'objectif ici n'est pas de comparer les salaires entre les deux pays, mais de voir comment ils ont évolué.   
+Dans un second billet, on ira un peu plus loin pour comparer les salaires, mais cette fois en parlant de niveaux de vie et de pouvoir d’achat. Et vous serez peut-être surpris du résultat.
+::
 
 Mais d’abord, on va poser quelques bases.
 
