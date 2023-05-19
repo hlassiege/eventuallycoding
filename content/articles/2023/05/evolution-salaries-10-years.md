@@ -1,7 +1,7 @@
 ---
 id: "22"
 title: "Evolution des salaires depuis 10 ans en France et aux US"
-description: "Découvrons comment le tech marketing peut être un levier fort pour créer de l’impact dans une organisation"
+description: "Voyons ensemble l'évolution des salaires sur 10 ans, en France et aux US."
 date: "2023-05-18"
 tags:
 - "salaires"
