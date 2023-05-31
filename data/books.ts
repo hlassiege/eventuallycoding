@@ -49,13 +49,11 @@ const tocEn = [
                 title: "Soft versus hard leadership",
             },
             {
-                title: "Empowered teams",
+                title: "Alignment, autonomy and context",
+                link: "https://eventuallycoding.com/en/2023/05/alignment-autonomy-context",
             },
             {
                 title: "Create a technical vision",
-            },
-            {
-                title: "Alignement with context",
             },
             {
                 title: "Building 10x teams",
@@ -177,13 +175,11 @@ const tocFr = [
                 title: "Soft versus hard leadership",
             },
             {
-                title: "Empowered teams",
+                title: "Alignement, autonomie et contexte",
+                link: "https://eventuallycoding.com/2023/05/alignment-autonomy-context",
             },
             {
                 title: "Créer une vision technique",
-            },
-            {
-                title: "Leading with context",
             },
             {
                 title: "Construire des équipes 10x",
