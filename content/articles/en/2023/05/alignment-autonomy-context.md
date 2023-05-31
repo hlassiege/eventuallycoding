@@ -1,7 +1,7 @@
 ---
 id: "23"
 title: "Alignment, Autonomy and context"
-description: "Quel est le rôle des techs leaders pour assurer autonomie et alignement et créer de l'impact ?"
+description: "What is the role of tech leaders in ensuring autonomy and alignment and creating impact?"
 date: "2023-05-31"
 tags:
 - "empowered"
