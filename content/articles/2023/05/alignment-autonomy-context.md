@@ -255,7 +255,7 @@ Si votre objectif est de mettre en place plus d’autonomie dans les équipes pr
 
 Ces 3 sujets créent des interblocages.
 Un(e) bon PM et/ou un(e) bon Tech Leader sera réticent à venir dans une organisation où il/elle sentira un manque d'autonomie
-Le management aura du mal à donner sa confiance à une équipe équipe qu'il ne trouve pas assez orienté business
+Le management aura du mal à donner sa confiance à une équipe qu'il ne trouve pas assez orienté business
 Le top management qui ne donne pas sa confiance continuera à exiger une très grande prédictibilité des développements via des roadmaps détaillées.
 
 
