@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Mon, 12 Jun 2023 08:11:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Jul 2023 07:01:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Combattre la complexité]]></title>
+            <link>https://eventuallycoding.com/2023/07/fighting-complexity</link>
+            <guid>https://eventuallycoding.com/2023/07/fighting-complexity</guid>
+            <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S’il est un facteur qui influe fortement et négativement l’impact à l’échelle, c’est la complexité, et en tant que product leaders, nous avons une responsabilité sur cette complexité, que ce soit sur le produit construit ou l’organisation en place.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fighting complexity]]></title>
+            <link>https://eventuallycoding.com/en/2023/07/fighting-complexity</link>
+            <guid>https://eventuallycoding.com/en/2023/07/fighting-complexity</guid>
+            <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[If there's one factor that strongly and negatively influences impact at scale, it's complexity, and as product leaders, we have a responsibility for this complexity, whether it's the product we build or the organization in place.]]></description>
         </item>
         <item>
             <title><![CDATA[Comparaison des salaires US et FR (2/2)]]></title>
