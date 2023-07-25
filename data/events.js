@@ -1,5 +1,21 @@
 const events = [
     {
+        event: "Future of work - les pros ont la parole - ep 6",
+        title: "Digi Atlas x Malt",
+        location: "Online",
+        language: "FR",
+        date: "29/06/2023",
+        link: "https://www.youtube.com/watch?v=ym4uwO1XPCA",
+    },
+    {
+        event: "Tekkit",
+        title: "Le marché de la tech dans la région Lyonnaise",
+        location: "Lyon",
+        language: "FR",
+        date: "21/06/2023",
+        link: "https://www.youtube.com/watch?v=Gd43FDcSvFc",
+    },
+    {
         event: "Lava JUG ",
         title: "Creating impact as a senior developer",
         location: "Clermont Ferrand",
