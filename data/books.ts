@@ -78,9 +78,11 @@ const tocEn = [
             },
             {
                 title: "The benefits of constraints",
+                link: "https://eventuallycoding.com/en/2022/09/working-with-constraints",
             },
             {
                 title: "Fighting complexity",
+                link: "https://eventuallycoding.com/en/2023/07/fighting-complexity",
             },
             {
                 title: "Estimation and planning in efficient teams",
@@ -208,6 +210,7 @@ const tocFr = [
             },
             {
                 title: "Combattre la complexité",
+                link: "https://eventuallycoding.com/2023/07/fighting-complexity",
             },
             {
                 title: "Estimation et planification dans les équipes efficaces",
