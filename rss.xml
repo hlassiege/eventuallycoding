@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Tue, 25 Jul 2023 07:01:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Aug 2023 19:15:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -243,7 +243,14 @@
             <link>https://eventuallycoding.com/2022/09/travailler-avec-contraintes</link>
             <guid>https://eventuallycoding.com/2022/09/travailler-avec-contraintes</guid>
             <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Pour ce billet, j'ai envie d'aborder une leçon, parmi beaucoup d'autres, que j'ai tiré de LT lorsque j'y étais : l'importance des contraintes]]></description>
+            <description><![CDATA[L'importance des contraintes, ou comment stimuler la créativité et l'innovation en posant des limites]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Working with constraints]]></title>
+            <link>https://eventuallycoding.com/en/2022/09/working-with-constraints</link>
+            <guid>https://eventuallycoding.com/en/2022/09/working-with-constraints</guid>
+            <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The importance of constraints, or how to stimulate creativity and innovation by setting limits]]></description>
         </item>
         <item>
             <title><![CDATA[Le variable sur les métiers tech, bonne ou mauvaise idée ?]]></title>
