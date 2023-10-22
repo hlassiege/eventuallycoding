@@ -86,6 +86,7 @@ const tocEn = [
             },
             {
                 title: "Estimation and planning in efficient teams",
+                link: "https://eventuallycoding.com/en/2023/10/planning-efficient-teams",
             },
             {
                 title: "Team engineering maturity model",
@@ -214,6 +215,7 @@ const tocFr = [
             },
             {
                 title: "Estimation et planification dans les équipes efficaces",
+                link: "https://eventuallycoding.com/2023/10/planning-efficient-teams",
             },
             {
                 title: "Modèle de maturité des équipes engineering",
