@@ -8,7 +8,7 @@ tags:
 - "impact"
 - "product"
 - "engineering"
-cover: "equilibre.jpg"
+cover: "planning.jpg"
 
 book: "impactfulSoftwareEngineering"
 
