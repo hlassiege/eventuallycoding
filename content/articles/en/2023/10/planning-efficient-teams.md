@@ -1,6 +1,6 @@
 ---
 id: "26"
-title: "Planning in efficient teams"
+title: "Planning within impactful teams"
 description: "How planning is managed in effective teams. How the way we plan changes our ability to create impact."
 date: "2023-10-22"
 tags:

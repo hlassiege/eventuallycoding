@@ -1,6 +1,6 @@
 ---
 id: "26"
-title: "Planning in efficient teams"
+title: "Planning et impact"
 description: "Comment gère-t-on la planification dans les équipes efficaces. Comment notre manière de planifier modifie notre capacité à créer de l'impact."
 date: "2023-10-22"
 tags:

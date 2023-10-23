@@ -85,7 +85,7 @@ const tocEn = [
                 link: "https://eventuallycoding.com/en/2023/07/fighting-complexity",
             },
             {
-                title: "Estimation and planning in efficient teams",
+                title: "Estimation and planning within impactful teams",
                 link: "https://eventuallycoding.com/en/2023/10/planning-efficient-teams",
             },
             {
@@ -214,7 +214,7 @@ const tocFr = [
                 link: "https://eventuallycoding.com/2023/07/fighting-complexity",
             },
             {
-                title: "Estimation et planification dans les équipes efficaces",
+                title: "Estimation et planification dans les équipes à impact",
                 link: "https://eventuallycoding.com/2023/10/planning-efficient-teams",
             },
             {
