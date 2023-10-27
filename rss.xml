@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 27 Oct 2023 07:15:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Oct 2023 07:21:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -15,14 +15,14 @@
             <pubDate>Invalid Date</pubDate>
         </item>
         <item>
-            <title><![CDATA[CTO en Scale Up]]></title>
+            <title><![CDATA[De CTO à Fellow Engineer en Scale Up]]></title>
             <link>https://eventuallycoding.com/2023/10/cto-scaleup</link>
             <guid>https://eventuallycoding.com/2023/10/cto-scaleup</guid>
             <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[CTO, de startup à Scale Up, retour d'expériences sur ces dernières années]]></description>
         </item>
         <item>
-            <title><![CDATA[CTO in Scale Up]]></title>
+            <title><![CDATA[From CTO to Fellow Engineer in Scale Up]]></title>
             <link>https://eventuallycoding.com/en/2023/10/cto-scaleup</link>
             <guid>https://eventuallycoding.com/en/2023/10/cto-scaleup</guid>
             <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
