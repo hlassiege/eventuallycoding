@@ -6,7 +6,7 @@ date: "2023-10-25"
 tags:
 - "cto"
 - "scaleup"
-cover: "planning.jpg"
+cover: "scaleup.jpg"
 
 language: "fr"
 alternates:
