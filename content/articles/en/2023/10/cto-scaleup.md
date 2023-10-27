@@ -1,6 +1,6 @@
 ---
 id: "27"
-title: "CTO in Scale Up"
+title: "From CTO to Fellow Engineer in Scale Up"
 description: "CTO, from startup to Scale Up, a look back over the last few years"
 date: "2023-10-25"
 tags:
