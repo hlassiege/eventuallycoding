@@ -12,11 +12,11 @@
                                     alt="me"
                                     class="shadow-xl md:h-50 md:w-50 h-40 w-40 rounded-full hover:shadow-amber-700 hover:-translate-y-1 hover:shadow-2xl transition-all mr-10"
                                 />
-                                <div class="text-left">
+                                <div class="text-left text-white">
                                     <p
                                         class="name rounded-xl font-bold p-2 tracking-wider"
                                     >
-                                        <span class="text-2xl">Hi, I'm</span>
+                                        <span class="text-2xl">Hi, I'm </span>
                                         <span class="font-extrabold text-2xl">{{
                                             siteMetaInfo.author
                                         }}</span>
@@ -177,7 +177,7 @@ useHead({
     width: 100%;
 }
 .name {
-    background: rgb(125 227 196 / 16%);
-    color: #53cfd4;
+    background: rgb(119 24 24 / 16%);
+    color: #c27070;
 }
 </style>

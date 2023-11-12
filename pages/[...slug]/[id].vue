@@ -77,7 +77,7 @@ onMounted(() => {
 const postLink = computed(() => {
     return (
         siteMetadata.value.siteUrl +
-        article.value?._path.replace("/articles/", "")
+        article.value?._path?.replace("/articles/", "")
     );
 });
 
@@ -159,13 +159,17 @@ useHead({
             rel: "canonical",
             href:
                 "https://eventuallycoding.com" +
-                article.value?._path.replace("/articles", ""),
+                article.value?._path?.replace("/articles", ""),
         },
         ...alternates,
     ],
 });
 </script>
 <style>
+.prose h2 a {
+    text-decoration: none;
+}
+
 .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;

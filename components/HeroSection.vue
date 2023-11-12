@@ -1,22 +1,9 @@
 <template>
-    <section class="flex items-center justify-center h-128 bg-transparent">
-        <canvas id="c" class="-z-10 absolute w-full h-128 block"></canvas>
-
-        <div class="clip-ellipse absolute top-124 rotate-180"></div>
-
+    <section class="hero-banner">
+        <img src="lofi.svg" class="hero-banner-img" />
         <slot name="content"> </slot>
     </section>
 </template>
-<script>
-import heroThree from "@/sources/hero-three";
-
-export default {
-    name: "HeroSection",
-    mounted() {
-        heroThree();
-    },
-};
-</script>
 <style>
 .nuxt-content h2 {
     font-weight: bold;
@@ -32,10 +19,25 @@ export default {
     margin-bottom: 20px;
 }
 
-.clip-ellipse {
-    clip-path: ellipse(60% 100% at 50% 0%);
-    @apply bg-white;
-    height: 100px;
+.hero-banner {
+    height: 50vh;
     width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-banner-img {
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 </style>

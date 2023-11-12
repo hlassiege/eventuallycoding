@@ -18,7 +18,7 @@
                                     >Writing</span
                                 >
                             </p>
-                            <div class="mb-6 text-gray-300 w-full mx-auto">
+                            <div class="mb-6 text-white w-full mx-auto">
                                 <p
                                     class="mt-8 mb-4 md:text-xl text-base font-mark"
                                 >

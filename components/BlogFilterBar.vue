@@ -34,7 +34,9 @@
             </a>
 
             <div>
-                <h3 class="text-lg font-medium text-gray-700">Top Tags :</h3>
+                <h3 class="text-lg font-medium text-gray-700">
+                    Recommended topics :
+                </h3>
             </div>
             <div class="w-full">
                 <div class="flex flex-wrap -mx-2">
