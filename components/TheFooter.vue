@@ -9,7 +9,7 @@
                     class="text-sm text-gray-500 transition hover:text-gray-600"
                 >
                     <img
-                        alt="RSS"
+                        alt="Icon for RSS feed"
                         class="transition-transform hover:scale-110 w-8 h-8"
                         src="~assets/icon/rss.svg"
                     />
@@ -22,7 +22,7 @@
                     :href="siteMetadata.mastodon"
                     ><span class="sr-only">Mastodon</span>
                     <img
-                        alt="Mastodon"
+                        alt="Icon for Mastodon"
                         class="transition-transform hover:scale-110 w-8 h-8"
                         src="~assets/icon/mastodon.svg"
                     />
@@ -35,7 +35,7 @@
                     :href="siteMetadata.github"
                     ><span class="sr-only">github</span>
                     <img
-                        alt="github"
+                        alt="Icon for Github"
                         class="transition-transform hover:scale-110 w-8 h-8"
                         src="~assets/icon/github_new.svg"
                     /> </a
@@ -47,7 +47,7 @@
                     :href="siteMetadata.linkedin"
                     ><span class="sr-only">Linkedin</span>
                     <img
-                        alt="Linkedin"
+                        alt="Icon for Linkedin"
                         class="transition-transform hover:scale-110 w-8 h-8"
                         src="~assets/icon/linkeding.svg"
                     />
@@ -60,7 +60,7 @@
                     class="text-sm text-gray-500 transition hover:text-gray-600"
                 >
                     <img
-                        alt="Twitter"
+                        alt="Icon for Twitter"
                         class="transition-transform hover:scale-110 w-8 h-8"
                         src="~assets/icon/twitter.svg"
                     />

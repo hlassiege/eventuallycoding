@@ -24,14 +24,14 @@
             />
         </NuxtLink>
         <div class="p-3">
-            <div class="text-xs text-slate-400 left-2">
+            <div class="text-xs text-slate-500 left-2">
                 {{ formatDate(postDate) }}
             </div>
-            <h5 class="text-lg font-bold">
+            <h3 class="text-lg font-bold">
                 <NuxtLink class="overflow-hidden" :to="postLink">
                     {{ postTitle }}
                 </NuxtLink>
-            </h5>
+            </h3>
 
             <p class="mt-2 text-[12px] my-3 flex flex-wrap -m-1">
                 <a
@@ -39,7 +39,7 @@
                     :key="tag"
                     :href="'/blog?tag=' + tag"
                     :aria-label="`More about ${tag}`"
-                    class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium"
+                    class="m-1 leading-loose text-slate-500 border border-current lowercase px-2 rounded font-medium"
                     @click.prevent="$emit('changeCurrentTag', tag)"
                     >#{{ tag }}</a
                 >
