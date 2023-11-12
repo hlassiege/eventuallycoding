@@ -7,7 +7,7 @@
             <NuxtImg
                 v-if="img"
                 class="object-cover w-full h-52"
-                :src="'/images/' + img"
+                :src="'/images' + img"
                 loading="lazy"
                 format="webp"
                 alt="Blog post cover"

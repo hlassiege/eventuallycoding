@@ -97,17 +97,17 @@ Cette présentation orienté sciences humaines fait partie de ces présentations
 
 [Nicolas De Loof](http://blog.loof.fr/) Orange Business Services
 
-Cette fois le sujet parle de transition aux méthodes agiles. Avec beaucoup d'humour Nicolas de Loof recense les bonnes et mauvaises pratiques et surtout les mauvaises à éviter pour tenter d'introduire des pratiques agiles dans un contexte vraiment pas adapté. Ici dans le cas d'une approche discrète Nicolas insiste sur une démarche pragmatique et centré sur les pratiques pouvant répondre à des problèmes concrets. Son conseil est simple, observez ce qui ne va pas et proposez des solutions issue des pratiques agiles mais sans tenter d'entrer en clash avec ce qui existe déjà et en étant discret sur l'agilité, il sera bien assez tôt lorsque l'entreprise sera assez mure pour cela.
+Cette fois le sujet parle de transition aux méthodes agiles. Avec beaucoup d'humour Nicolas de Loof recense les bonnes et mauvaises pratiques et surtout les mauvaises à éviter pour tenter d'introduire des pratiques agiles dans un contexte vraiment pas adapté. Ici dans le cas d'une approche discrète Nicolas insiste sur une démarche pragmatique et centré sur les pratiques pouvant répondre à des problèmes concrets. Son conseil est simple, observez ce qui ne va pas et proposez des solutions issues des pratiques agiles, mais sans tenter d'entrer en clash avec ce qui existe déjà et en étant discret sur l'agilité, il sera bien assez tôt lorsque l'entreprise sera assez mure pour cela.
 
 J'ai beaucoup aimé les exemples de choses à ne pas faire et qui pour certains m'étaient assez familiers ^^
 
-Tiens justement, j'avais justement discuté de ce sujet il y a pas longtemps [dans un précédent billet](index.php/fr/agile/72-transition-agile).
+Tiens justement, j'avais justement discuté de ce sujet il n'y a pas longtemps [dans un précédent billet](/2010/10/19/reussir-une-transition-agile-pas-si-simple).
 
 ## [Transformation Agile à grande echelle](http://www.agiletour.org/fr/node/586)
 
 [JC Grosjean](http://www.qualitystreet.fr/) et Gilles Mantel, Valtech
 
-Toujours sur le sujet des transitions agiles, cette fois c'est du lourd, du très lourd. Un gros industriel du pneumatique (Dunlop ?) entame une transition agile avec l'aide de Valtech. La transition s'est effectué à travers 3 projets pilotes avec pour objectif de dégager un standard agile généralisable pour l'ensemble des projets. Les projets en place ont donc reçu des dérogations afin de pouvoir créer leur propre référentiel de pratiques. Valtech nous parle de quelques difficultés majeures qu'ils ont rencontré :
+Toujours sur le sujet des transitions agiles, cette fois c'est du lourd, du très lourd. Un gros industriel du pneumatique (Dunlop ?) entame une transition agile avec l'aide de Valtech. La transition s'est effectué à travers 3 projets pilotes avec pour objectif de dégager un standard agile généralisable pour l'ensemble des projets. Les projets en place ont donc reçu des dérogations afin de pouvoir créer leur propre référentiel de pratiques. Valtech nous parle de quelques difficultés majeures qu'ils ont rencontrées :
 
 - les équipes non colocalisés pour lesquelles il a fallu casser la distance grâce notamment à la visio
 - l'harmonisation des pratiques des différents coachs qui sont intervenus sur les projets
@@ -120,7 +120,7 @@ La présentation est malheureusement très courte (30 min) et très souvent inte
 
 Bénédictes Taillebois, Astria - Frédéric Friess, Octo
 
-Cette fois changement de contexte et de taille d'entreprise. Astria est un organisme de collecte du 1% logement qui se heurte aujourd'hui à des objectifs difficiles puisque le nombre de collecteurs 1% doit passer de 125 entreprises à 25 d'ici la fin de l'année. Si Astria a déjà une bonne culture agile avec notamment une très grosse partie de ces tests qui sont automatiques et un cycle de livraison assez court, c'est un autre challenge qui les occupe aujourd'hui dans un secteur loin des SI traditionnels. Les deux présentateurs évoquent la frontière qui sépare le monde réél auxquels ils ont été confrontés et la vision, leurs objectifs. C'est en stimulant le leadership, l'engagement et la collaboration qu'ils fondent leurs méthodes de travail. Un petit bémol sur la forme, même si le sujet était très intéressant j'avoue ne pas être fan des présentations à deux intervenants ou chacun a ses phrases sur chaque diapo, ça perd un peu de dynamisme.
+Cette fois changement de contexte et de taille d'entreprise. Astria est un organisme de collecte du 1% logement qui se heurte aujourd'hui à des objectifs difficiles puisque le nombre de collecteurs 1% doit passer de 125 entreprises à 25 d'ici à la fin de l'année. Si Astria a déjà une bonne culture agile avec notamment une très grosse partie de ces tests qui sont automatiques et un cycle de livraison assez court, c'est un autre challenge qui les occupe aujourd'hui dans un secteur loin des SI traditionnels. Les deux présentateurs évoquent la frontière qui sépare le monde réél auxquels ils ont été confrontés et la vision, leurs objectifs. C'est en stimulant le leadership, l'engagement et la collaboration qu'ils fondent leurs méthodes de travail. Un petit bémol sur la forme, même si le sujet était très intéressant j'avoue ne pas être fan des présentations à deux intervenants ou chacun a ses phrases sur chaque diapo, ça perd un peu de dynamisme.
 
  
 
@@ -135,7 +135,7 @@ Sur cette présentation je suis revenu sur l'un des thèmes que j'avais vu le ma
 - le manque de recul du product owner,
 - et le mode de contractualisation de l’Agile, en cas d’externalisation.
 
-Bon mais cette fois je ne vais pas trop en dévoiler car vous pouvez retrouver la présentation sur le blog de Neoxia :
+Bon mais cette fois je ne vais pas trop en dévoiler, car vous pouvez retrouver la présentation sur le blog de Neoxia :
 
 - http://blog.neoxia.com/l-agile-est-il-insoutenable/
 
@@ -149,7 +149,7 @@ Et en complément je vous conseille de lire le billet de David Brocart sur le m�
 
 Nathalie Phung, Sogéti
 
-Dernière présentation de la journée, j'avoue avoir commencé à ressentir la fatigue. Et j'ai du prendre moins de notes aussi, heureusement Nathalie m'a envoyé son support de présentation car le sujet m'intéressait beaucoup. Il s'agissait d'un retour d'expérience sur la collecte de besoins avec plusieurs contributeurs. Dans ce projet une équipe de POA (comprenez Product Owner Assistant) avait pour responsabilité de travailler sur la définition des user stories sous la direction d'un Product Owner. Nathalie nous a donc décrit comment cette équipe de PO s'est organisé en mode Scrum avec l'outil Mingle pour gérer un workflow autour du "murissement des user stories". Présentation très intéressante qui me servira peut-être à l'avenir.
+Dernière présentation de la journée, j'avoue avoir commencé à ressentir la fatigue. Et j'ai du prendre moins de notes aussi, heureusement Nathalie m'a envoyé son support de présentation, car le sujet m'intéressait beaucoup. Il s'agissait d'un retour d'expérience sur la collecte de besoins avec plusieurs contributeurs. Dans ce projet une équipe de POA (comprenez Product Owner Assistant) avait pour responsabilité de travailler sur la définition des user stories sous la direction d'un Product Owner. Nathalie nous a donc décrit comment cette équipe de PO s'est organisé en mode Scrum avec l'outil Mingle pour gérer un workflow autour du "murissement des user stories". Présentation très intéressante qui me servira peut-être à l'avenir.
 
 # That's all folks !
 

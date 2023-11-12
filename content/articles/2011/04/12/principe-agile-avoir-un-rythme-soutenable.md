@@ -25,7 +25,7 @@ Eh bien il s'agit d'un des 12 principes agiles :
 
 - Les processus agiles promeuvent un rythme soutenable
 
-Autrement dit, tout les acteurs d'un projet doivent être capable de tenir le rythme indéfiniment. Se mettre régulièrement dans le rouge entraine toujours des conséquences. D'ailleurs tiens, c'était aussi le message de Philippe Houssin et Ralph Hyppolyte à l'[Agile Tour 2010](http://hakanai.free.fr/index.php/agile-tour-2010-2/) : un bon travailleur, comme un bon sportif, a besoin de période de repos entre les efforts pour rester performant.
+Autrement dit, tout les acteurs d'un projet doivent être capable de tenir le rythme indéfiniment. Se mettre régulièrement dans le rouge entraine toujours des conséquences. D'ailleurs tiens, c'était aussi le message de Philippe Houssin et Ralph Hyppolyte à l'Agile Tour 2010 : un bon travailleur, comme un bon sportif, a besoin de période de repos entre les efforts pour rester performant.
 
 C'est d'ailleurs un piège classique pour certains décideurs qui ont souhaité passer à l'Agile mais qui en ont "oublié" ces principes fondamentaux.
 
