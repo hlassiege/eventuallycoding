@@ -4,7 +4,10 @@
             <BlogSectionHeader :current-lang="currentLang" />
         </keep-alive>
         <div class="flex flex-col items-start sm:flex-row pt-12">
-            <BlogFilterBar :current-tag="currentTag" />
+            <BlogFilterBar
+                :current-tag="currentTag"
+                :current-lang="currentLang"
+            />
             <div>
                 <BlogContentLanguageSwitcher
                     lang-switch="FR"

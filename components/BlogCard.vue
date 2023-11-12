@@ -37,7 +37,7 @@
                 <a
                     v-for="tag in tags"
                     :key="tag"
-                    :href="'/blog?tag=' + tag"
+                    :href="currentLang + '/blog?tag=' + tag"
                     :aria-label="`More about ${tag}`"
                     class="m-1 leading-loose text-slate-500 border border-current lowercase px-2 rounded font-medium"
                     @click.prevent="$emit('changeCurrentTag', tag)"

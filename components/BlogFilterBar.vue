@@ -43,7 +43,7 @@
                     <a
                         v-for="tag in allTags"
                         :key="tag"
-                        :href="'/blog?tag=' + tag"
+                        :href="'blog?tag=' + tag"
                     >
                         <div class="px-1 mt-2">
                             <button
@@ -66,6 +66,10 @@
 <script setup lang="ts">
 defineProps({
     currentTag: {
+        type: String,
+        default: "",
+    },
+    currentLang: {
         type: String,
         default: "",
     },
