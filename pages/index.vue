@@ -36,22 +36,25 @@
                         class="mt-20 w-5/6 lg:w-3/4 md:w-4/5 mx-auto lg:px-4 px-0"
                     >
                         <div
-                            class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20"
+                            class="font-montserrat font-medium text-4xl mb-10 text-slate-800 mt-20 flex justify-between items-center"
                         >
                             <h2>
                                 Last blog posts
                                 <small>({{ currentLang }})</small>
                             </h2>
+                            <div class="text-sm">
+                                <span class="ml-3 text-gray-500"
+                                    >Switch to
+
+                                    <NuxtLink
+                                        class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
+                                        to="/fr"
+                                        :external="true"
+                                        >French</NuxtLink
+                                    >
+                                </span>
+                            </div>
                         </div>
-                        <small class="ml-3 text-gray-500"
-                            >Switch to blog posts in
-                        </small>
-                        <NuxtLink
-                            class="underline decoration-red-400 decoration-4 underline-offset-8 text-sm text-gray-500"
-                            to="/fr"
-                            :external="true"
-                            >FR</NuxtLink
-                        >
 
                         <div
                             class="pt-4 grid lg:grid-cols-3 gap-x-8 md:grid-cols-2 sm:grid-cols-1 items-stretch m-3"
