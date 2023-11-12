@@ -37,7 +37,7 @@
                 <a
                     v-for="tag in tags"
                     :key="tag"
-                    :href="currentLang + '/blog?tag=' + tag"
+                    :href="prefixLinkToTag + 'blog?tag=' + tag"
                     :aria-label="`More about ${tag}`"
                     class="m-1 leading-loose text-slate-500 border border-current lowercase px-2 rounded font-medium"
                     @click.prevent="$emit('changeCurrentTag', tag)"
@@ -60,6 +60,7 @@ const props = defineProps({
     date: {
         type: String,
         required: false,
+        default: "",
     },
     path: {
         type: String,
@@ -68,6 +69,7 @@ const props = defineProps({
     img: {
         type: String,
         required: false,
+        default: "",
     },
     lang: {
         type: String,
@@ -77,10 +79,12 @@ const props = defineProps({
     tags: {
         type: Array,
         required: false,
+        default: () => [],
     },
     currentTag: {
         type: String,
         required: false,
+        default: "",
     },
     currentLang: {
         type: String,
@@ -100,6 +104,12 @@ function formatDate(date: string) {
         day: "numeric",
     });
 }
+
+const prefixLinkToTag = computed(() => {
+    if (!props.currentTag) return "";
+    if (props.currentLang === "en") return `/blog?tag=${props.currentTag}`;
+    return `/${props.currentLang}/blog?tag=${props.currentTag}`;
+});
 
 const isDisplayed = computed(() => {
     const tagsIncludeCurrentTag =
