@@ -8,6 +8,8 @@
                 v-if="img"
                 class="object-cover w-full h-52"
                 :src="'/images' + img"
+                width="418"
+                height="208"
                 loading="lazy"
                 format="webp"
                 alt="Blog post cover"
