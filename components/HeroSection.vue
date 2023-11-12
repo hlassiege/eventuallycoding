@@ -1,6 +1,6 @@
 <template>
     <section class="hero-banner">
-        <img src="lofi.svg" class="hero-banner-img" />
+        <NuxtImg src="lofi.svg" class="hero-banner-img" alt="Blog Banner" />
         <slot name="content"> </slot>
     </section>
 </template>

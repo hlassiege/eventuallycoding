@@ -73,6 +73,7 @@
                                 <NuxtLink
                                     class="relative inline-block group focus:outline-none focus:ring"
                                     to="/blog"
+                                    aria-label="Read more blog posts"
                                 >
                                     <span
                                         class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"
@@ -81,7 +82,7 @@
                                     <span
                                         class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75"
                                     >
-                                        Read more
+                                        Read more blog posts
                                     </span>
                                 </NuxtLink>
                             </div>
@@ -91,6 +92,7 @@
                             <NuxtLink
                                 class="relative inline-block group focus:outline-none focus:ring"
                                 to="/blog"
+                                aria-label="Read more blog posts"
                             >
                                 <span
                                     class="absolute inset-0 transition-transform translate-x-1.5 translate-y-1.5 bg-pink-300 group-hover:translate-y-0 group-hover:translate-x-0"
@@ -99,7 +101,7 @@
                                 <span
                                     class="relative inline-block px-8 py-3 text-sm font-bold tracking-widest text-black uppercase border-2 border-current group-active:text-opacity-75"
                                 >
-                                    Read more
+                                    Read more blog posts
                                 </span>
                             </NuxtLink>
                         </div>

@@ -4,19 +4,21 @@
         class="mb-4 bg-white border border-gray-200 min-h-[400px] border-b-2 border-b-slate-400 hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1"
     >
         <NuxtLink class="overflow-hidden" :to="postLink">
-            <img
+            <NuxtImg
                 v-if="img"
                 class="object-cover w-full h-52"
                 :src="'/images/' + img"
                 loading="lazy"
-                alt=""
+                format="webp"
+                alt="Blog post cover"
             />
-            <img
+            <NuxtImg
                 v-else
                 class="object-contain w-full h-52"
                 src="/images/post-anonymous.jpg"
                 loading="lazy"
-                alt=""
+                format="webp"
+                alt="Blog post cover"
             />
         </NuxtLink>
         <div class="p-3">
@@ -34,6 +36,7 @@
                     v-for="tag in tags"
                     :key="tag"
                     :href="'/blog?tag=' + tag"
+                    :aria-label="`More about ${tag}`"
                     class="m-1 leading-loose text-slate-400 border border-current lowercase px-2 rounded font-medium"
                     @click.prevent="$emit('changeCurrentTag', tag)"
                     >#{{ tag }}</a
