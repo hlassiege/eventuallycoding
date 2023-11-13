@@ -19,6 +19,9 @@ export default defineNuxtConfig({
 
     css: ["@/assets/css/main.css", "@/assets/scss/main.scss"],
     modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxt/image"],
+    image: {
+        format: ["webp"],
+    },
     content: {
         markdown: {
             remarkPlugins: ["remark-reading-time"],
