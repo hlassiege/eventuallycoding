@@ -3,45 +3,21 @@
         <keep-alive>
             <HeroSection>
                 <template #content>
-                    <img
-                        :src="'/images/covers/' + article.cover"
-                        :alt="article.title"
-                        class="absolute top-96 w-96 -translate-y-32"
-                    />
+                    <div class="flex justify-center items-center">
+                        <NuxtImg
+                            :src="'/images/covers/' + article.cover"
+                            :alt="article.title"
+                            width="200"
+                        />
+                    </div>
                 </template>
             </HeroSection>
         </keep-alive>
 
-        <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
-            <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
+        <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
+            <h1 class="text-4xl text-gray-600 font-extrabold text-center mt-4">
                 {{ article.title }}
             </h1>
-            <div
-                class="flex items-center font-medium mt-6 sm:mx-3 justify-center"
-            >
-                <img
-                    :src="siteMetadata.author_image"
-                    loading="lazy"
-                    alt=""
-                    class="mr-3 w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800"
-                />
-                <div>
-                    <div class="text-slate-900 dark:text-slate-200">
-                        {{ siteMetadata.author }}
-                    </div>
-                    <a
-                        target="_blank"
-                        :href="siteMetadata.twitter + siteMetadata.twitter_user"
-                        class="text-sky-500 hover:text-sky-600 dark:text-sky-400"
-                    >
-                        @{{ siteMetadata.twitter_user }}
-                    </a>
-                </div>
-            </div>
-            <img
-                class="mx-auto w-4/5 my-10 rounded-md drop-shadow-sm"
-                :src="article.image"
-            />
 
             <ContentRenderer
                 class="prose min-w-full p-10 mx-auto"

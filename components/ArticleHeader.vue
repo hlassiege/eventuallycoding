@@ -3,7 +3,7 @@
         <h1 class="text-4xl text-gray-700 font-extrabold text-center mb-3">
             {{ article.title }}
         </h1>
-        <p class="text-slate-400 text-center mb-1">
+        <p class="text-slate-500 text-center mb-1">
             <span v-if="article.alternates">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
 
         <div class="grid grid-cols-3 text-center sm:w-full md:w-1/2 mx-auto">
             <div>
-                <p class="text-center font-bold my-4 text-slate-400 text-xs">
+                <p class="text-center font-bold my-4 text-slate-500 text-xs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6 inline-block"
@@ -46,7 +46,7 @@
                 </p>
             </div>
             <div>
-                <p class="text-center font-bold my-4 text-slate-400 text-xs">
+                <p class="text-center font-bold my-4 text-slate-500 text-xs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6 inline-block"
@@ -65,20 +65,20 @@
                 </p>
             </div>
             <div class="flex items-center font-medium sm:mx-3 justify-center">
-                <img
+                <NuxtImg
                     :src="siteMetadata.author_image"
                     loading="lazy"
                     alt=""
                     class="mr-3 w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800"
                 />
                 <div>
-                    <div class="font-bold text-slate-400 text-xs">
+                    <div class="font-bold text-slate-500 text-xs">
                         {{ siteMetadata.author }}
                     </div>
                     <a
                         target="_blank"
                         :href="siteMetadata.twitter + siteMetadata.twitter_user"
-                        class="font-bold text-sky-400 text-xs hover:text-sky-600"
+                        class="font-bold text-sky-500 text-xs hover:text-sky-600"
                     >
                         @{{ siteMetadata.twitter_user }}
                     </a>

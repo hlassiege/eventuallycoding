@@ -3,7 +3,7 @@
         <keep-alive>
             <HeroSection>
                 <template #content>
-                    <img
+                    <NuxtImg
                         :src="siteMetaInfo.author_image"
                         loading="lazy"
                         alt="me"
@@ -33,7 +33,7 @@
                     href="https://www.buymeacoffee.com/hlassiege"
                     target="_blank"
                     class="hover:-backdrop-hue-rotate-30 hover:-translate-y-1 transition-all"
-                    ><img
+                    ><NuxtImg
                         src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
                         alt="Buy Me A Coffee"
                         style="

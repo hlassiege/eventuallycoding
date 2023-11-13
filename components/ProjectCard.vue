@@ -16,7 +16,7 @@
                                 rel="noopener noreferrer"
                                 :href="projectHref"
                                 ><span class="sr-only"></span
-                                ><img
+                                ><NuxtImg
                                     class="w-6 h-6"
                                     src="~assets/icon/external.svg"
                             /></a>
@@ -28,7 +28,7 @@
                                 rel="noopener noreferrer"
                                 :href="projectGithub"
                                 ><span class="sr-only">github</span
-                                ><img
+                                ><NuxtImg
                                     class="w-6 h-6"
                                     src="~assets/icon/github_new.svg"
                             /></a>

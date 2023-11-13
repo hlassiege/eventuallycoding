@@ -6,7 +6,7 @@
                     <div class="flex flex-col items-center justify-center">
                         <div class="p-3 text-white rounded">
                             <div class="flex items-center">
-                                <img
+                                <NuxtImg
                                     :src="siteMetaInfo.author_image"
                                     loading="lazy"
                                     alt="me"

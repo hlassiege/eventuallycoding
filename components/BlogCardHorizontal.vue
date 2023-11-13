@@ -3,7 +3,7 @@
         class="card-lateral mb-4 bg-white border border-gray-200 border-b-2 border-b-slate-400 hover:drop-shadow-xl hover:border-gray-300 transition-all hover:-translate-y-1 flex flex-row"
     >
         <NuxtLink class="w-1/4" :to="postLink">
-            <img
+            <NuxtImg
                 class="object-cover w-56 h-56"
                 :src="'/images/' + img"
                 :alt="postTitle"

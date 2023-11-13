@@ -40,7 +40,7 @@
                             <span v-html="event.description"></span>
                         </p>
                         <div class="flex flex-row flex-wrap">
-                            <img
+                            <NuxtImg
                                 v-for="image in event.images"
                                 :key="image.src"
                                 class="mr-[8px]"

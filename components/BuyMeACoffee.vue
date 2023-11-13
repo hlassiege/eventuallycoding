@@ -5,7 +5,7 @@
         <p class="mb-2">Did you like this blog post?</p>
         <p>
             <a href="https://www.buymeacoffee.com/hlassiege" target="_blank"
-                ><img
+                ><NuxtImg
                     src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
                     alt="Buy Me A Coffee"
                     style="height: 60px !important; width: 217px !important"

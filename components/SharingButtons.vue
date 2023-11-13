@@ -76,7 +76,7 @@
             </div>
             <div class="">
                 <a href="https://www.buymeacoffee.com/hlassiege" target="_blank"
-                    ><img
+                    ><NuxtImg
                         src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
                         alt="Buy Me A Coffee"
                         style="
