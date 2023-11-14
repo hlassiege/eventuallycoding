@@ -9,7 +9,7 @@ cover: "tree.jpg"
 
 language: "fr"
 alternates:
-    - en: "https://eventuallycoding.com/en/2023/11/oppportunity-solution-tree"
+    - en: "https://eventuallycoding.com/en/2023/11/opportunity-solution-tree"
 ---
 
 
