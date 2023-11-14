@@ -9,7 +9,7 @@ cover: "tree.jpg"
 
 language: "en"
 alternates:
-    - fr: "https://eventuallycoding.com/2023/11/oppportunity-solution-tree"
+    - fr: "https://eventuallycoding.com/2023/11/opportunity-solution-tree"
 ---
 
 This post will be shorter than usual, as I wanted to share a tool I use regularly to structure my ideas.
