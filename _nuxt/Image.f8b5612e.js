@@ -1,0 +1,1 @@
+import{_ as s,o as t,c,k as o}from"./entry.0b66b11a.js";const r={},n={class:"flex justify-center"};function a(e,_){return t(),c("div",n,[o(e.$slots,"default")])}const l=s(r,[["render",a]]);export{l as default};
