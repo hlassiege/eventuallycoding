@@ -8,7 +8,6 @@ categories:
 tags: 
   - "csharp"
   - "testunitaire"
-img: "linkext7.gif"
 cover: "cover3.jpg"
 ---
 

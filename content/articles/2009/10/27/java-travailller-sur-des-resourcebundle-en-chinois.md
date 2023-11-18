@@ -13,7 +13,6 @@ tags:
   - "encodage"
   - "java"
   - "utf8"
-img: "overview.png"
 cover: "cover2.jpg"
 ---
 

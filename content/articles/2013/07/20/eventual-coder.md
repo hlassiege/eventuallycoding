@@ -5,7 +5,6 @@ description: "Ca y est, je crois que je suis enfin devenu un Eventual Coder. Vou
 date: "2013-07-20"
 categories: 
   - "waza"
-img: ""
 cover: "cover1.jpg"
 ---
 

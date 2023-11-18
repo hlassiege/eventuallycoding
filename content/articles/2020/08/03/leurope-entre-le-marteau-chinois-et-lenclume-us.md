@@ -13,8 +13,7 @@ tags:
   - "startup"
   - "tech"
   - "ecosysteme"
-img: "marteau-enclume-1024x850.jpg"
-cover: "cover1.jpg"
+cover: "marteau-enclume-1024x850.jpg"
 ---
 
 ![](/images/marteau-enclume-1024x850.jpg)

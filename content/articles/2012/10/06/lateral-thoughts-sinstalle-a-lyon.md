@@ -5,8 +5,7 @@ description: "[![](/images/logo.png \"logo\")](http://eventuallycoding.com/wp-co
 date: "2012-10-06"
 categories: 
   - "waza"
-img: "logo.png"
-cover: "cover8.jpg"
+cover: "logo.png"
 ---
 
 [![](/images/logo.png "logo")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon !

@@ -9,7 +9,6 @@ tags:
   - "blog"
   - "joomla"
   - "wordpress"
-img: ""
 cover: "cover4.jpg"
 ---
 

@@ -8,7 +8,6 @@ categories:
 tags: 
   - "freelance"
   - "product"
-img: ""
 cover: "cover1.jpg"
 ---
 

@@ -9,8 +9,7 @@ tags:
   - "devops"
   - "fabric"
   - "vagrant"
-img: "c143b-vagrant.png"
-cover: "cover2.jpg"
+cover: "c143b-vagrant.png"
 ---
 
 ![vagrant](/images/c143b-vagrant.png)Petit jeu, est-ce que vous vous retrouvez dans les différentes situations ci-dessous :

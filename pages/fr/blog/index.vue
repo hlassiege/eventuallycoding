@@ -23,7 +23,7 @@
                         :current-lang="currentLang"
                         :current-tag="currentTag"
                         :title="article.title"
-                        :img="'/covers/' + article.cover"
+                        :img="'/' + article.cover"
                         :description="article.description"
                         :lang="article.language"
                         :date="article.date"

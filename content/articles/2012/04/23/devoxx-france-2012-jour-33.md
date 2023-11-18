@@ -7,8 +7,7 @@ categories:
   - "waza"
 tags: 
   - "devoxx"
-img: "logo-devoxx-france-seul.png"
-cover: "cover7.jpg"
+cover: "logo-devoxx-france-seul.png"
 ---
 
 [![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.png) Voici le 3ème et dernier jour qui commence. Pour ne rien cacher, après 2 journées déjà bien chargées et la soirée Meet and Greet de la veille, cette journée dense qui s'est malgré tout fini à 19h fut difficile à encaisser. Mais bon, que voulez-vous, quand on aime on ne compte pas.

@@ -7,7 +7,6 @@ categories:
   - "waza"
 tags: 
   - "agile"
-img: ""
 cover: "cover3.jpg"
 ---
 

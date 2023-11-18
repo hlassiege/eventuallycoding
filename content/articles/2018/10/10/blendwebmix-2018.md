@@ -7,7 +7,6 @@ categories:
   - "waza"
 tags:
   - "conferences"
-img: ""
 cover: "cover3.jpg"
 ---
 

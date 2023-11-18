@@ -9,7 +9,6 @@ tags:
   - "freelance"
   - "malt"
   - "lateralthoughts"
-img: ""
 cover: "cover5.jpg"
 ---
 

@@ -5,7 +5,6 @@ description: "Vous connaissez les informaticiens pyromanes ? Ces personnes qui d
 date: "2012-05-21"
 categories: 
   - "waza"
-img: "fire.jpg"
 cover: "fire.jpg"
 ---
 

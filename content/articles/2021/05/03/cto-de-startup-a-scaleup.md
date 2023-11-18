@@ -9,8 +9,7 @@ tags:
   - "cto"
   - "scale"
   - "startup"
-img: "Illustration_sans_titre-10-1.jpg"
-cover: "cover3.jpg"
+cover: "cto-startup-scaleup.jpg"
 ---
 
 Il y a un moment que je pensais faire un billet sur le rôle d'un CTO dans une startup. Cependant je me disais toujours que ce n’était pas intéressant, qu’il faudrait en parler quand la boîte serait bien plus grande, quand nous serions une licorne etc...

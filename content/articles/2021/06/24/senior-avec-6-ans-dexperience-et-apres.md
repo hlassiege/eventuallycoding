@@ -11,8 +11,7 @@ tags:
   - "discovery"
   - "engineering"
   - "senior"
-img: "Dual_ladder-1024x1024.jpg"
-cover: "cover8.jpg"
+cover: "Dual_ladder-1024x1024.jpg"
 ---
 
 

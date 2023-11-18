@@ -8,7 +8,6 @@ categories:
 tags: 
   - "performance"
   - "play"
-img: ""
 cover: "cover1.jpg"
 ---
 

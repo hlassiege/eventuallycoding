@@ -8,8 +8,7 @@ categories:
 tags: 
   - "freelance"
   - "salaires"
-img: "cc020-freelancers.jpg"
-cover: "cover8.jpg"
+cover: "cc020-freelancers.jpg"
 ---
 
 ::disclaimer

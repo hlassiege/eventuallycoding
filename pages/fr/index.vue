@@ -63,7 +63,7 @@
                                 v-for="article in articles"
                                 :key="article.title"
                                 :title="article.title"
-                                :img="'/covers/' + article.cover"
+                                :img="'/' + article.cover"
                                 :description="article.description"
                                 :current-lang="currentLang"
                                 :lang="article.language"

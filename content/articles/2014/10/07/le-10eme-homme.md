@@ -7,7 +7,6 @@ categories:
   - "waza"
 tags: 
   - "lateralthinking"
-img: ""
 cover: "cover2.jpg"
 ---
 

@@ -5,8 +5,7 @@ description: "Et si on parlait du développement pragmatique ? "
 date: "2012-10-08"
 categories: 
   - "waza"
-img: "vera_c10.jpg"
-cover: "cover4.jpg"
+cover: "vera_c10.jpg"
 ---
 
 ![](/images/vera_c10.jpg "vera_c10")

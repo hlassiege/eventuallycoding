@@ -11,8 +11,7 @@ tags:
   - "coderwatch"
   - "product"
   - "side-project"
-img: "pasted-image-0.png"
-cover: "cover7.jpg"
+cover: "coderwatch-logo.png"
 
 alternates:
     - en: "https://eventuallycoding.com/en/2022/04/08/this-is-the-story-of-a-side-project"

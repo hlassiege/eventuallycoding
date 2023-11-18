@@ -7,7 +7,6 @@ Et vous je ne sais pas, ma..."
 date: "2014-06-03"
 categories: 
   - "waza"
-img: ""
 cover: "cover5.jpg"
 ---
 

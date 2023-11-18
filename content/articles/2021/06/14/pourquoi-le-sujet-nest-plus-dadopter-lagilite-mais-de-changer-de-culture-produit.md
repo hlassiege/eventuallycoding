@@ -15,8 +15,7 @@ tags:
   - "okr"
   - "product-discovery"
   - "scrum"
-img: "coach-agile-transformation-1024x1024.jpg"
-cover: "cover5.jpg"
+cover: "coach-agile-transformation-1024x1024.jpg"
 ---
 
 **tldr;**

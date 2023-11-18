@@ -12,8 +12,7 @@ tags:
   - "tech"
   - "ecosysteme"
   - "RGPD"
-img: "Ligne_maginot-1024x838.jpg"
-cover: "cover2.jpg"
+cover: "Ligne_maginot-1024x838.jpg"
 ---
 
 ![](/images/Ligne_maginot-1024x838.jpg)

@@ -10,8 +10,7 @@ tags:
   - "conception"
   - "design"
   - "dessin"
-img: "Dobby0001-4-1024x391.jpg"
-cover: "cover2.jpg"
+cover: "Dobby0001-4-1024x391.jpg"
 ---
 
 J'ai pas mal tourné autour du pot pour faire ce billet qui s'éloigne, un peu, de ce que je fais habituellement.  

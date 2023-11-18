@@ -13,8 +13,7 @@ tags:
   - "microservices"
   - "spring-cloud"
   - "zuul"
-img: "0f9d8-microservice.jpg"
-cover: "cover6.jpg"
+cover: "0f9d8-microservice.jpg"
 ---
 
 Le dernier billet de ce blog entamait une mini-série sur les microservices qui espère traiter des sujets suivants :

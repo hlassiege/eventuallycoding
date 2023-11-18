@@ -7,7 +7,6 @@ categories:
   - "waza"
 tags:
   - "freelance"
-img: ""
 cover: "cover8.jpg"
 ---
 

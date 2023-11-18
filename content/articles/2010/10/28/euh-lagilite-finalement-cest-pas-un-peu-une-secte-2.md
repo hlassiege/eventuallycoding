@@ -7,8 +7,7 @@ categories:
   - "waza"
 tags: 
   - "agile"
-img: "bible.png"
-cover: "cover2.jpg"
+cover: "bible.png"
 ---
 
 [![](/images/bible.png "Bible")](http://eventuallycoding.com/wp-content/uploads/2010/10/bible.png) Provocateur comme titre ? Pourtant, après une rapide petite recherche Google je constate que je ne suis pas le seul à le penser.

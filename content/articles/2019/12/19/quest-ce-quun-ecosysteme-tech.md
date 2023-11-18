@@ -10,8 +10,7 @@ categories:
 tags: 
   - "ecosysteme"
   - "tech"
-img: "project_mangrove_day_shutterstock1.jpg"
-cover: "cover5.jpg"
+cover: "project_mangrove_day_shutterstock1.jpg"
 ---
 
 ![](/images/project_mangrove_day_shutterstock1.jpg)

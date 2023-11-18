@@ -7,8 +7,7 @@ categories:
   - "waza"
 tags: 
   - "lateralthinking"
-img: "glasses.gif"
-cover: "cover6.jpg"
+cover: "glasses.gif"
 ---
 
 Cette expression vous évoque quelque chose ? Un petit indice, elle est souvent associée à une autre expression : “Penser en dehors de la boîte” (Thinking outside the box). Avec cet indice vous ne devriez plus être très loin. C’est un mode de résolution de problème basé sur une approche non conventionnelle. Il s’agit avant tout de se débarrasser des contraintes traditionnelles, approcher un problème par de multiples angles y compris les plus étonnants.

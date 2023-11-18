@@ -7,7 +7,6 @@ Rédacteur sur http://www.developpez...."
 date: "2007-07-07"
 categories: 
   - "waza"
-img: ""
 cover: "cover5.jpg"
 ---
 

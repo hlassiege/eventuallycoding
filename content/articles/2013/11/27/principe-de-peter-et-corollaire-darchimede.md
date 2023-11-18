@@ -3,8 +3,7 @@ id: "993"
 title: "Principe de Peter et corollaire d'Archimède"
 description: "Vous connaissiez peut-être déjà le principe de Peter ? Je vous propose de découvrir le corollaire d'Archimède"
 date: "2013-11-27"
-img: "21bc9-plongee1.jpg"
-cover: "cover2.jpg"
+cover: "21bc9-plongee1.jpg"
 tags:
   - "humour"
 ---

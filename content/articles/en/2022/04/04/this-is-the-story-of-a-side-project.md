@@ -10,7 +10,7 @@ categories:
 tags: 
   - "product"
 img: "pasted-image-0.png"
-cover: "cover5.jpg"
+cover: "coderwatch-logo.png"
 
 language: "en"
 alternates:

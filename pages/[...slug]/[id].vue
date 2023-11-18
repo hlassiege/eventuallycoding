@@ -2,7 +2,7 @@
     <div>
         <div class="flex justify-center mt-24">
             <NuxtImg
-                :src="'/images/covers/' + article.cover"
+                :src="'/images/' + article.cover"
                 :alt="article.title"
                 class="object-cover w-96"
             />
@@ -139,7 +139,7 @@ useHead({
             name: "og:image",
             content:
                 "https://eventuallycoding.com" +
-                "/images/covers/" +
+                "/images/" +
                 article.value?.cover,
         },
         { name: "og:image:alt", content: article.value?.title },
@@ -148,7 +148,7 @@ useHead({
             name: "twitter:image",
             content:
                 "https://eventuallycoding.com" +
-                "/images/covers/" +
+                "/images/" +
                 article.value?.cover,
         },
         { name: "twitter:card", content: "summary" },

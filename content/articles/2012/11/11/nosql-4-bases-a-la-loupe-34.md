@@ -10,8 +10,7 @@ tags:
   - "jest"
   - "lucene"
   - "solr"
-img: "nosql-logo.gif"
-cover: "cover7.jpg"
+cover: "nosql-logo.gif"
 ---
 
 [![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks) ? Pour le coup j'ai eu l'occasion de réaliser une expérience un peu moins ambitieuse, seulement 4 bases de données. Et si je n'ai pas été aussi loin que le bouquin précédent je vous propose quand même un retour d'expérience sur :

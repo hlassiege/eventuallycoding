@@ -7,8 +7,7 @@ categories:
   - "waza"
 tags: 
   - "lateralthinking"
-img: "9229b-intrigue.gif"
-cover: "cover7.jpg"
+cover: "9229b-intrigue.gif"
 ---
 
 "_Travailler autrement_", c’est pas la première fois que vous entendez ce slogan n’est-ce pas ?

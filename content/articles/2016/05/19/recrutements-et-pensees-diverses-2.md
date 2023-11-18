@@ -9,8 +9,7 @@ categories:
   - "waza"
 tags: 
   - "recrutement"
-img: "957c4-image02-1.png"
-cover: "cover7.jpg"
+cover: "957c4-image02-1.png"
 ---
 
 [![image02](/images/957c4-image02-1.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/957c4-image02-1.png)

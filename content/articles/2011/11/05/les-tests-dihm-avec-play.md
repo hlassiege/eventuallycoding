@@ -10,8 +10,7 @@ categories:
 tags: 
   - "play"
   - "selenium"
-img: "test.png"
-cover: "cover5.jpg"
+cover: "test.png"
 ---
 
 [![](/images/test.png "test")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)

@@ -13,8 +13,7 @@ tags:
   - "frontend"
   - "product"
   - "vuejs"
-img: "pasted-image-0.png"
-cover: "cover6.jpg"
+cover: "earth-320.jpg"
 
 language: "en"
 alternates:

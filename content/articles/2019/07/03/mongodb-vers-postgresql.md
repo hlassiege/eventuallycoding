@@ -11,8 +11,7 @@ tags:
   - "data"
   - "mongodb"
   - "postgresql"
-img: "af912-mongo.jpg"
-cover: "cover2.jpg"
+cover: "af912-mongo.jpg"
 ---
 
 ![](/images/af912-mongo.jpg)

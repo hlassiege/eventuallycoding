@@ -9,8 +9,7 @@ categories:
   - "waza"
 tags: 
   - "pragmatic-programmer"
-img: "equilibre.jpg"
-cover: "cover2.jpg"
+cover: "equilibre.jpg"
 ---
 
 Entendu il y a peu de temps dans une discussion entre deux collègues :

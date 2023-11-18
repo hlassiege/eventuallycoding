@@ -14,8 +14,7 @@ tags:
   - "engineering"
   - "okr"
   - "performance"
-img: "Illustration_sans_titre-1024x716.jpg"
-cover: "cover6.jpg"
+cover: "performance-eng-team.jpg"
 ---
 
 Et si on parlait de mesure de la performance d’une équipe engineering ? 

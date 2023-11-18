@@ -9,7 +9,6 @@ tags:
   - "java"
   - "poi"
   - "utf8"
-img: "exportbadchinese.png"
 cover: "cover8.jpg"
 ---
 

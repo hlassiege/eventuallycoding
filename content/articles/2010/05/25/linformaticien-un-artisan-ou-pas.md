@@ -8,7 +8,6 @@ categories:
 tags: 
   - "agile"
   - "lean"
-img: ""
 cover: "cover3.jpg"
 ---
 

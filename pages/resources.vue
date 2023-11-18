@@ -5,7 +5,7 @@
                 <template #content>
                     <div class="flex justify-center items-center">
                         <NuxtImg
-                            :src="'/images/covers/' + article.cover"
+                            :src="'/images/' + article.cover"
                             :alt="article.title"
                             width="200"
                         />
@@ -63,7 +63,7 @@ useHead({
             name: "og:image",
             content:
                 "https://eventuallycoding.com" +
-                "/images/covers/" +
+                "/images/" +
                 article.value?.cover,
         },
         { name: "og:image:alt", content: article.value?.title },
@@ -72,7 +72,7 @@ useHead({
             name: "twitter:image",
             content:
                 "https://eventuallycoding.com" +
-                "/images/covers/" +
+                "/images/" +
                 article.value?.cover,
         },
         { name: "twitter:card", content: "summary" },

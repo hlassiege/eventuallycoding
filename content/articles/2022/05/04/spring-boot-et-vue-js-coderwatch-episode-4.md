@@ -12,8 +12,7 @@ tags:
   - "spring-boot"
   - "startup"
   - "vuejs"
-img: "pasted-image-0.png"
-cover: "cover7.jpg"
+cover: "coderwatch-logo.png"
 ---
 
 Voici le 4ème billet de cette série et pour ce billet nous allons parler de développement Backend avec une application Vue.js en Frontend. 

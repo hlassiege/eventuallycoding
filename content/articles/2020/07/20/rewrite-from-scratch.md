@@ -1,9 +1,7 @@
 ---
 id: "1546"
 title: "Rewrite from scratch ?"
-description: "![](/images/rewrite-goodness-matrix1.png)
-
-Je souhaite partager aujourd'hui un retour d'expérience issu de multiples entretiens d'embauche que j'ai pu..."
+description: "Je souhaite partager aujourd'hui un retour d'expérience issu de multiples entretiens d'embauche que j'ai pu faire passer."
 date: "2020-07-20"
 categories: 
   - "waza"
@@ -11,8 +9,7 @@ tags:
   - "architecture"
   - "recrutement"
   - "rewrite"
-img: "rewrite-goodness-matrix1.png"
-cover: "cover6.jpg"
+cover: "rewrite-goodness-matrix1.png"
 ---
 
 ![](/images/rewrite-goodness-matrix1.png)

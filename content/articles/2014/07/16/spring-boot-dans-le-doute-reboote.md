@@ -10,8 +10,7 @@ tags:
   - "monitoring"
   - "spring"
   - "spring-boot"
-img: "28307-spring-boot-logo.png"
-cover: "cover1.jpg"
+cover: "28307-spring-boot-logo.png"
 ---
 
 [![spring-boot-logo](/images/28307-spring-boot-logo.png)](http://eventuallycoding.com/wp-content/uploads/2014/07/28307-spring-boot-logo.png)Le dernier billet date de plus d’un mois, ça commence à faire. Et pour cause, beaucoup de travail à été réalisé sur Hopwork ne laissant que peu de place pour écrire.

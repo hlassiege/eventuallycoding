@@ -10,8 +10,7 @@ tags:
   - "devops"
   - "fabric"
   - "timeoff"
-img: "5570d-ansible.png"
-cover: "cover4.jpg"
+cover: "5570d-ansible.png"
 ---
 
 [![ansible](/images/5570d-ansible.png)](http://eventuallycoding.com/wp-content/uploads/2014/03/5570d-ansible.png)Nous y voici ! Le timeoff Lateral-Thoughts a démarré dans une super propriété a [Garrigues Sainte-Eulalie](https://www.airbnb.fr/rooms/911475?s=zcbV). Pour résumé, [le timeoff](http://www.eventuallycoding.com/index.php/on-devrait-toujours-travailler-comme-ca-bis/) c’est une semaine de code retreat avec l’ensemble de l’équipe dans un coin sympa pour veiller, coder, livrer des choses qui nous branchent.

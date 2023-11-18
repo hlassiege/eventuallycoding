@@ -8,9 +8,9 @@ tags:
 date: "2023-11-18"
 cover: "dashboard-car.jpg"
 
-language: "fr"
+language: "en"
 alternates:
-    - en: "https://eventuallycoding.com/en/2023/11/idp"
+    - fr: "https://eventuallycoding.com/2023/11/idp"
 ---
 ## Internal Developer Platform
 

@@ -9,8 +9,7 @@ tags:
   - "mail"
   - "mandrill"
   - "smtp"
-img: "7f64c-mandrill_template.png"
-cover: "cover1.jpg"
+cover: "7f64c-mandrill_template.png"
 ---
 
 _Nous sommes le 4ème jour du timeoff. Ou le 6ème, j’ai arrêté de compter. Désormais je grave des bâtons sur mon clavier pour garder le compte. Jours et nuits se succèdent indistinctement sous lumière artificielle. Nous ne sommes plus que cinq, Jean-Baptiste et Jonathan ont déjà succombé à une bactérie locale. Vincent n’a plus toute sa tête, il répête en boucle “ruby, ruby, j’aurais ta peau”._

@@ -9,8 +9,7 @@ tags:
   - "humeur"
   - "prism"
   - "professionnalisme"
-img: "1dab7-1984-poster.jpg"
-cover: "cover1.jpg"
+cover: "1dab7-1984-poster.jpg"
 ---
 
 La déontologie dans l’informatique, sujet complexe n’est ce pas ?

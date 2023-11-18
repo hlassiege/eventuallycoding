@@ -1,26 +1,23 @@
 ---
 id: "1552"
 title: "Produit versus Side Project"
-description: "![](/images/Refaire_facebook_en_best_effort.jpg)
-
-Après maintenant quelques années sur Malt, j'aimerais revenir sur un sujet qui revient souvent sur l..."
+description: "Après maintenant quelques années sur Malt, j'aimerais revenir sur un sujet qui revient souvent sur l..."
 date: "2020-07-27"
 categories: 
   - "waza"
 tags: 
   - "product"
-img: "Refaire_facebook_en_best_effort.jpg"
-cover: "cover7.jpg"
+cover: "Refaire_facebook_en_best_effort.jpg"
 ---
 
 ![](/images/Refaire_facebook_en_best_effort.jpg)
 
 Après maintenant quelques années sur Malt, j'aimerais revenir sur un sujet qui revient souvent sur la différence entre side project et produit.  
 En 2010, j'avais lancé un side project, Localizeyourapps, et j'ai voulu en faire un produit.  
-Tout ne s'est pas passé comme prévu mais pour être franc, avec le recul, c'était plutôt prévisible.  
+Tout ne s'est pas passé comme prévu, mais pour être franc, avec le recul, c'était plutôt prévisible.  
 En 2013, je tentais d'en faire un retour d'expérience et je présentais "[Epic Fail](https://humantalks.com/talks/256-epic-fail)" lors d'un Human Talk.  
 En fin de compte, c'était trop tôt. Et je reste sur ma faim quant à cette présentation que je trouve très partielle et peu aboutie.  
-Je propose donc de revenir dessus mais en insistant sur un angle en particulier, la différence entre side project et produit.
+Je propose donc de revenir dessus, mais en insistant sur un angle en particulier, la différence entre side project et produit.
 
 Retour en 2010, Localizeyourapps était une application en SAAS permettant de localiser son application. Vous pouviez y déverser vos fichiers de ressources et les traduire en ligne. Il y avait peu d'applications similaires à l'époque.  
 Aujourd'hui, ce serait l'équivalent d'un Phraseapp, Crowdin ou Transifex, mais avec quelques années d'avance ;)

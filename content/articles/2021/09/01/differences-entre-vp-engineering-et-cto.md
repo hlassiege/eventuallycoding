@@ -9,8 +9,7 @@ tags:
   - "cto"
   - "startup"
   - "vp"
-img: "Illustration_sans_titre-20-1024x393.jpg"
-cover: "cover4.jpg"
+cover: "vp-cto.jpg"
 ---
 
 Si le rôle de VP Engineering est relativement courant dans les entreprises anglo-saxonnes, cette dénomination est assez jeune en France et peut-être que vous n'en avez pas encore côtoyé. 

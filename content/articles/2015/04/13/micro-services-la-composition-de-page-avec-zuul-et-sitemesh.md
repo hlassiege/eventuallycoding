@@ -11,8 +11,7 @@ tags:
   - "sitemesh"
   - "spring-boot"
   - "zuul"
-img: "07933-03bc.gif"
-cover: "cover2.jpg"
+cover: "07933-03bc.gif"
 ---
 
 [![03BC](/images/07933-03bc.gif)](http://eventuallycoding.com/wp-content/uploads/2015/04/07933-03bc.gif) Le dernier billet de ce blog entamait une mini-série sur les microservices et j'espère bien susciter des commentaires afin d'améliorer le travail réalisé jusqu'ici. Voici une liste non exhaustive des différents sujets que j'aimerais traiter :

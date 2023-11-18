@@ -10,8 +10,7 @@ categories:
 tags: 
   - "coderwatch"
   - "product"
-img: "pasted-image-0-5.png"
-cover: "cover6.jpg"
+cover: "coderwatch-2.png"
 
 alternates:
     - en: "https://eventuallycoding.com/en/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate"

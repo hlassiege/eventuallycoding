@@ -10,8 +10,7 @@ categories:
 tags: 
   - "remote"
   - "teletravail"
-img: "holo2.jpg"
-cover: "cover6.jpg"
+cover: "holo2.jpg"
 ---
 
 Parlons télétravail pour ce billet !

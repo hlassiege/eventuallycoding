@@ -10,8 +10,7 @@ categories:
   - "waza"
 tags: 
   - "nocode"
-img: "Strip-Les-specs-cest-du-code-650-final.jpg"
-cover: "cover3.jpg"
+cover: "Strip-Les-specs-cest-du-code-650-final.jpg"
 ---
 
 Ok le titre est un peu putaclick :)  

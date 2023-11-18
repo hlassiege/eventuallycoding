@@ -11,8 +11,7 @@ tags:
   - "backend"
   - "feature-flipping"
   - "ff4j"
-img: "qXMqcos.png"
-cover: "cover4.jpg"
+cover: "qXMqcos.png"
 ---
 
 ![](/images/qXMqcos.png)

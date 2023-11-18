@@ -10,7 +10,6 @@ categories:
 tags: 
   - "agile"
   - "scrum"
-img: ""
 cover: "cover5.jpg"
 ---
 

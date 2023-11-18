@@ -13,8 +13,7 @@ tags:
   - "frontend"
   - "product"
   - "vuejs"
-img: "pasted-image-0.png"
-cover: "cover4.jpg"
+cover: "earth-320.jpg"
 
 alternates:
     - en: "https://eventuallycoding.com/en/2022/04/08/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3"

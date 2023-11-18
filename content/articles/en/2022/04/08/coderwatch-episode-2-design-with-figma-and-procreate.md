@@ -9,8 +9,7 @@ categories:
 tags: 
   - "coderwatch"
   - "product"
-img: "pasted-image-0-5.png"
-cover: "cover8.jpg"
+cover: "coderwatch-2.png"
 
 language: "en"
 alternates:

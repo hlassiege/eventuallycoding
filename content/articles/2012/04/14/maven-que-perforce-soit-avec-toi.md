@@ -11,8 +11,7 @@ tags:
   - "maven"
   - "nexus"
   - "perforce"
-img: "ps-kztpdvdc-170x170-751.jpg"
-cover: "cover3.jpg"
+cover: "ps-kztpdvdc-170x170-751.jpg"
 ---
 
 ![](/images/ps-kztpdvdc-170x170-751.jpg "ps.kztpdvdc.170x170-75")

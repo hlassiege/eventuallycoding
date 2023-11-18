@@ -9,8 +9,7 @@ categories:
 tags: 
   - "antora"
   - "doc"
-img: "image-2.png"
-cover: "cover2.jpg"
+cover: "image-2.png"
 ---
 
 Et si on parlait documentation ?  

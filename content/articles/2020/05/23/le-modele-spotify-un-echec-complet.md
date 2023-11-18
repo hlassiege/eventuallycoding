@@ -9,7 +9,6 @@ categories:
 tags: 
   - "agile"
   - "startup"
-img: ""
 cover: "cover1.jpg"
 ---
 

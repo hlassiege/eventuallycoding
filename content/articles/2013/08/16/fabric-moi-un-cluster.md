@@ -9,8 +9,7 @@ tags:
   - "devops"
   - "fabric"
   - "python"
-img: "b9590-python.jpeg"
-cover: "cover2.jpg"
+cover: "b9590-python.jpeg"
 ---
 
 ![python](/images/b9590-python.jpeg)Je vous propose dans ce billet de prendre en main [Fabric](http://docs.fabfile.org/en/1.7/), un outil que j’ai utilisé récemment et qui vous permettra de scripter des déploiements sur plusieurs machines assez simplement.

@@ -10,8 +10,7 @@ tags:
   - "malt"
   - "product"
   - "tarifs"
-img: "2b4a8-barometre.png"
-cover: "cover8.jpg"
+cover: "2b4a8-barometre.png"
 ---
 
 Il y a peu nous avons sorti un [baromètre sur l'emploi freelance](https://www.hopwork.com/stats/barometer/2014 "Barometre 2014") constaté sur [Hopwork](https://www.hopwork.com/ "Hopwork") et je souhaitais revenir dessus puisque j'ai vu des questions à droite à gauche sur Twitter, sur des forums etc... Tout d'abord avant de commencer, il existe beaucoup de freelances différents. Beaucoup ont la fâcheuse tendance de penser que leur façon de pratiquer le freelancing correspond à la "règle". C'est très facile de croire cela, on travaille avec des freelances dans les mêmes conditions que soi, on fréquente des user groups avec des populations qui nous ressemblent etc... En démarrant Hopwork j'ai moi-même beaucoup appris sur les métiers freelances car j'avais tendance à tout juger à partir de ce que je connaissais déjà : la mission longue en Java chez le client en régie.

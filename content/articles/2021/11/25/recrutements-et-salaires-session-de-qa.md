@@ -8,7 +8,6 @@ categories:
 tags: 
   - "salaires"
   - "startup"
-img: ""
 cover: "cover7.jpg"
 ---
 

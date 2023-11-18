@@ -7,8 +7,7 @@ categories:
   - "waza"
 tags: 
   - "devoxx"
-img: "logo-devoxx-france-seul.png"
-cover: "cover2.jpg"
+cover: "logo-devoxx-france-seul.png"
 ---
 
 [![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.png)Eh bien ça y est, on est dimanche, j'ai fini de récupérer de ces 3 jours de conférences et je vais faire un petit résumé de ce que j'ai pu y voir. Tout d'abord, ayant eu la chance de voir l'évènement grandir en coulisses, ce fut une super bonne surprise de voir autant de monde. Ok on avait l'info depuis quelques semaines déjà, la conférence était pleine alors que l'on attendait la moitié de gens en décembre. Ca remet les choses en perspective de voir arriver cette foule de geeks sur trois jours. Enfin je vous laisse imaginer cette perspective vu des vestiaires ^^ Au moins je pourrais dire que j'ai du vous voir tous passer si jamais vous avez déposé quelque chose ;) Donc 1200 personnes en dehors de l'aspect comptable, ça veut dire quoi ? Eh bien ca souligne l'importance de la communauté de développeurs en France et c'est une bonne nouvelle. Jusqu'ici nous nous savions déjà via les user groups que cette communauté était bien vivante mais restait malgré tout assez confidentielle. La conférence What's Next l'année dernière avait été un bel évènement (je n'ai malheureusement pas les chiffres sur le nombre d'inscrit) mais cette fois on est passé à l'étape au dessus et surtout, avec 75% de talks francophones, elle met en évidence une très belle communauté de speakers, du novice prometteur à la rock star confirmé qui parle la langue de Molière.

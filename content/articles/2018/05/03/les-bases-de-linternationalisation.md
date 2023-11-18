@@ -11,8 +11,7 @@ tags:
   - "culture"
   - "internationalisation"
   - "localisation"
-img: "c13cf-image12.png"
-cover: "cover8.jpg"
+cover: "c13cf-image12.png"
 ---
 
 Mode dépoussiérage activé, aujourd’hui j’ai envie de réactiver une série de billets que je n’avais jamais publié autour de l’internationalisation.

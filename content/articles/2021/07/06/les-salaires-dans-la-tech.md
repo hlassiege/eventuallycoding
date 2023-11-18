@@ -10,7 +10,6 @@ categories:
 tags: 
   - "salaires"
   - "tech"
-img: "Money-1024x791.jpg"
 cover: "money-drawing.jpg"
 ---
 

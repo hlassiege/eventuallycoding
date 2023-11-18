@@ -11,8 +11,7 @@ tags:
   - "freelance"
   - "nemrod"
   - "play"
-img: "logo-web.png"
-cover: "cover4.jpg"
+cover: "logo-web.png"
 ---
 
 [![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)

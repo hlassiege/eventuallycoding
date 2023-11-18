@@ -9,8 +9,7 @@ tags:
   - "analytique"
   - "mongodb"
   - "postgresql"
-img: "aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg"
-cover: "cover4.jpg"
+cover: "aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg"
 ---
 
 [![47f0a20a1f9df18484d7972fa41472b8[1]](/images/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/03/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg) **TLDR;** on a développé un connecteur permettant de déverser votre base mongo vers Posgresql [disponible sur Github](https://github.com/Hopwork/mongo-connector-postgresql).  

@@ -5,8 +5,7 @@ description: "Début d’année oblige, c’est l’heure des résolutions mais 
 date: "2014-01-18"
 categories: 
   - "waza"
-img: "3bd6f-lyon.jpg"
-cover: "cover2.jpg"
+cover: "3bd6f-lyon.jpg"
 ---
 
 ![lyon](/images/3bd6f-lyon.jpg)Début d’année oblige, c’est l’heure des résolutions mais aussi des bilans.

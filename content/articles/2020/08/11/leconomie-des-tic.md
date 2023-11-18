@@ -11,8 +11,7 @@ tags:
   - "startup"
   - "tech"
   - "ecosysteme"
-img: "Startup_nation-1024x1024.jpg"
-cover: "cover2.jpg"
+cover: "Startup_nation-1024x1024.jpg"
 ---
 
 ![](/images/Startup_nation-1024x1024.jpg)

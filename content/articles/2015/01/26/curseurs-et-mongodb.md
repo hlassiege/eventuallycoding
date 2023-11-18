@@ -8,8 +8,7 @@ categories:
 tags: 
   - "jongo"
   - "mongodb"
-img: "43c58-slideterminology.jpg"
-cover: "cover1.jpg"
+cover: "43c58-slideterminology.jpg"
 ---
 
 A chaque fois que je donne la formation Mongo je reste étonné lors de ce slide (qui fait le parallèle entre les termes utilisé en relationnel et avec Mongo) ;

@@ -5,8 +5,7 @@ description: "[![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp
 date: "2014-01-24"
 tags: 
   - "mongodb"
-img: "af912-mongo.jpg"
-cover: "cover7.jpg"
+cover: "af912-mongo.jpg"
 ---
 
 [![mongo](/images/af912-mongo.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/af912-mongo.jpg)Vous connaissez peut-être [Liquibase](http://www.liquibase.org/), [DBMaintain](http://www.dbmaintain.org/overview.html) ou [Flyway](http://flywaydb.org/) ? Si ce n'est pas le cas, je vous conseille d'y jeter un œil.

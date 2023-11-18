@@ -12,8 +12,7 @@ tags:
   - "logs"
   - "mongodb"
   - "mysql"
-img: "22faa-mongodb.png"
-cover: "cover2.jpg"
+cover: "22faa-mongodb.png"
 ---
 
 Il y a un an je m’étais aventuré à tester plusieurs bases Nosql, l’objectif étant pour moi d’apprivoiser les moteurs, de comprendre leurs usages et de voir si nous pouvions en faire bon usage sur [HopWork](http://www.hopwork.com/).
