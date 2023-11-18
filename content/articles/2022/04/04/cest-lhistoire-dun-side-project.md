@@ -39,7 +39,7 @@ Tout d’abord, si vous voulez le tester, il est disponible en ligne sur [www.co
 
 Le pitch principal : **apprendre des langages et frameworks informatiques en jouant**. Je vous propose de passer des quizz, de gagner des points, et progressivement de monter dans le classement face aux autres joueurs tout en améliorant vos connaissances.
 
-[![](/images/pasted-image-0.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0.png)
+![](/images/pasted-image-0.png)
 
 ## Un side project pour rester à jour
 
@@ -85,7 +85,7 @@ Par exemple, une personne de l’équipe a codé un bot slack pour noter la pré
 
 Et c’est ainsi qu’est né, **Coderwatch**.
 
-[![](/images/image.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/image.png)
+![](/images/image.png)
 
 ## Coderwatch
 
@@ -120,7 +120,7 @@ La proposition de valeurs que je vois de façon assez immédiate est la suivante
 - Se mettre en avant (prouver ses compétences)
 - et côté entreprise, dans une optique de monétisation, recruter des devs parmi la communauté
 
-[![](/images/image-1-1024x418.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/image-1.png)
+![](/images/image-1-1024x418.png)
 
 Quand on fait une appli web, l’un des réflexes systématiques c’est de faire un benchmark pour étudier l’existant. 
 
@@ -211,7 +211,7 @@ C’est fini pour aujourd’hui dans ce premier billet de la série. Je vous ai 
 
 Pour rappel, vous pouvez le tester sur [www.coderwatch.io](http://www.coderwatch.io) . 
 
-[![](/images/image-2.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/image-2.png)
+![](/images/image-2.png)
 
 Dans les prochains billets je parlerais de design, d’intégration front end, de développement backend et de comment je déploie tout cela sur Clever Cloud. 
 

@@ -36,7 +36,7 @@ Les billets de cette série :
 
 Dans le billet précédent je décrivais comment s’était déroulé l’intégration de la maquette de Coderwatch. Mais jusqu’à présent, le site n’était qu’une coquille vide et il fallait encore créer toute la logique métier de Coderwatch. 
 
-[![](/images/pasted-image-0.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0.png)
+![](/images/pasted-image-0.png)
 
 ## Quelle technologie pour le backend ?
 
@@ -156,7 +156,7 @@ Parlons un peu chiffres et Discovery. 
 
 Le lancement officiel remonte à 4 semaines. Le nombre de joueurs est de 40, ça représente +21% depuis le dernier billet de blog mais ça reste encore modeste. 
 
-[![](/images/pasted-image-0-9-1024x505.png)](https://eventuallycoding.com/wp-content/uploads/2022/05/pasted-image-0-9.png)
+![](/images/pasted-image-0-9-1024x505.png)
 
 Le nombre de quizz joués est de 46 (+18%). 
 

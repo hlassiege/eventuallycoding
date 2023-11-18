@@ -1,7 +1,7 @@
 ---
 id: "411"
 title: "Comment valoriser une idée ? (Nemrod 2/5)"
-description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) C’est bien beau d’avoir une idée mais il y..."
+description: "C’est bien beau d’avoir une idée mais il y..."
 date: "2011-10-03"
 categories: 
   - "waza"
@@ -11,7 +11,7 @@ tags:
 cover: "logo-web.png"
 ---
 
-[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) C’est bien beau d’avoir une idée mais il y a un fossé avant de la réaliser. Combien de fois avez-vous déjà démarré un projet puis laissé tomber devant l’ampleur de la tâche, le manque de temps etc... ?
+![](/images/logo-web.png "logo-web") C’est bien beau d’avoir une idée mais il y a un fossé avant de la réaliser. Combien de fois avez-vous déjà démarré un projet puis laissé tomber devant l’ampleur de la tâche, le manque de temps etc... ?
 
 Le secret c’est d’avoir des idées simple. Ça parait bête comme ça mais c’est déjà un grand pas pour avancer.
 

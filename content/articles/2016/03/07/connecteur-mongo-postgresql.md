@@ -12,7 +12,7 @@ tags:
 cover: "aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg"
 ---
 
-[![47f0a20a1f9df18484d7972fa41472b8[1]](/images/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg)](http://eventuallycoding.com/wp-content/uploads/2016/03/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg) **TLDR;** on a développé un connecteur permettant de déverser votre base mongo vers Posgresql [disponible sur Github](https://github.com/Hopwork/mongo-connector-postgresql).  
+![47f0a20a1f9df18484d7972fa41472b8[1]](/images/aa1fc-47f0a20a1f9df18484d7972fa41472b81.jpg) **TLDR;** on a développé un connecteur permettant de déverser votre base mongo vers Posgresql [disponible sur Github](https://github.com/Hopwork/mongo-connector-postgresql).  
   
 Depuis plusieurs années déjà on vous ressasse sans arrêt que vos données forment une grosse partie du capital d'une société. Et c'est encore plus vrai pour une startup web. C'est même assez fréquent qu'une startup soit aujourd'hui capable de lever de l'argent par les données qu'elle possède sans être rentable intrinséquement. Bien sûr beaucoup de vendeurs de solutions tentent par la même occasion de vous vendre des bases de données capable de supporter de gros volumes, des solutions de reporting etc... Mais on ne peut ignorer le point, à l'heure du numérique savoir exploiter ces données est crucial :
 

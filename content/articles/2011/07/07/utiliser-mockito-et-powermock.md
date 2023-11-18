@@ -1,7 +1,7 @@
 ---
 id: "380"
 title: "Utiliser Mockito et PowerMock"
-description: "[![](/images/mockito.jpg \"mockito\")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http:..."
+description: "Vous connaissez peut-être déjà [Mockito]"
 date: "2011-07-07"
 categories: 
   - "waza"
@@ -13,7 +13,7 @@ tags:
 cover: "mockito.jpg"
 ---
 
-[![](/images/mockito.jpg "mockito")](http://eventuallycoding.com/wp-content/uploads/2011/07/mockito.jpg)Vous connaissez peut-être déjà [Mockito](http://mockito.org/) ? En fait vous connaissez même surement pour ceux qui ont eu la chance d'être présent à la [première soirée Marmite des JDuchess](http://jduchess.org/duchess-france/blog/marmite-soiree-crumble-pour-la-premiere-edition/).
+![](/images/mockito.jpg "mockito")Vous connaissez peut-être déjà [Mockito](http://mockito.org/) ? En fait vous connaissez même surement pour ceux qui ont eu la chance d'être présent à la [première soirée Marmite des JDuchess](http://jduchess.org/duchess-france/blog/marmite-soiree-crumble-pour-la-premiere-edition/).
 
 Et pourquoi j'en parle ? Bon, pas seulement parce que leur logo est un mojito géant et que j'adore cette boisson (\*), mais tout simplement pour présenter quelques astuces d'utilisation avec PowerMock.
 

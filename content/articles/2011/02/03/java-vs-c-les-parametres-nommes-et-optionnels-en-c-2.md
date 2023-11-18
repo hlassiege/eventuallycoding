@@ -1,7 +1,7 @@
 ---
 id: "147"
 title: "Java Vs C# : Les paramètres nommés et optionnels en C#"
-description: "[![](/images/javac1.png \"javac\")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique..."
+description: "**Warning, warning,** ceci n'est pas une rubrique..."
 date: "2011-02-03"
 categories: 
   - "waza"
@@ -11,7 +11,7 @@ tags:
 cover: "javac1.png"
 ---
 
-[![](/images/javac1.png "javac")](http://eventuallycoding.com/wp-content/uploads/2011/05/javac1.png) **Warning, warning,** ceci n'est pas une rubrique à troll !!
+![](/images/javac1.png "javac") **Warning, warning,** ceci n'est pas une rubrique à troll !!
 
 Bien qu'étant plutot spécialiste Java, je me suis mis récemment au C#. Loin des débats qui n'en finissent plus pour savoir lequel des deux p... le plus loin, je tenais à faire une petite rubrique pour lister "les trucs qui tuent" qui existent dans chaque langage et que tout bon développeur aime connaitre.
 

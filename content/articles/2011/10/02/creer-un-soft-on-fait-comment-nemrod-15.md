@@ -1,9 +1,7 @@
 ---
 id: "408"
 title: "Créer un soft, on fait comment ? (Nemrod 1/5)"
-description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)
-
-Voila, [Localizeyourapps](http://www.loca..."
+description: "Voila, Localizeyourapps est sorti,"
 date: "2011-10-02"
 categories: 
   - "waza"
@@ -14,7 +12,7 @@ tags:
 cover: "logo-web.png"
 ---
 
-[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png)
+![](/images/logo-web.png "logo-web")
 
 Voila, [Localizeyourapps](http://www.localizeyourapps.com) est sorti, enfin pour être exact il est sorti depuis 2 semaines mais je n’avais pas encore eu le temps d’en parler ici.
 

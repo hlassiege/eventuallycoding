@@ -44,7 +44,7 @@ Before coding, the ideal is to do several tests on a design. It's probably some
 - we can very easily show a “finished” product and collect critical opinions
 - it's super satisfying to have a model finished at the end of a first iteration rather than ugly pages with ¼ of the features we have in mind (the wireframe can be much more complete)
 
-[![](/images/pasted-image-0-5.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0-5.png?ssl%3D1)
+![](/images/pasted-image-0-5.png)
 
 Example here with two different versions of Home.
 
@@ -72,7 +72,7 @@ In short, I was able to start from themes purchased on themeforest, create refer
 
 In the end, it represents about twenty pages of which here is a small overview: 
 
-[![](/images/pasted-image-0-10-1024x572.png)](https://eventuallycoding.com/wp-content/uploads/2022/05/pasted-image-0-10.png)
+![](/images/pasted-image-0-10-1024x572.png)
 
 ## Illustrations: Procreate
 
@@ -84,7 +84,7 @@ However I was not very comfortable with vector drawing while I felt rather confi
 
 So I used Procreate for all the illustrations of the site, the logo, the badges found in Coderwatch. 
 
-[![](/images/pasted-image-0-11-1024x583.png)](https://eventuallycoding.com/wp-content/uploads/2022/05/pasted-image-0-11.png)
+![](/images/pasted-image-0-11-1024x583.png)
 
 On the other hand, these are images, not svgs and we totally lose the expected advantage over a vector drawing which must support several image sizes without degrading the quality. The size of the images above is much too large (around 400kb per image). 
 

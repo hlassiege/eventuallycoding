@@ -42,7 +42,7 @@ Posts in this series:
 
 In the previous post I created a model with Figma and now we have to roll up our sleeves to integrate it into HTML/CSS. 
 
-[![](/images/pasted-image-0.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0.png?ssl%3D1)
+![](/images/pasted-image-0.png)
 
 ## HTML/CSS integration, with or without a framework?
 
@@ -133,7 +133,7 @@ If we forget the tooling, it was really fun to work on this part, to build pages
 
 The official launch was 2 weeks ago. The player count is 33 and I saw an increase that day with the first article in this series. However, the rate of new users is quite low (and 99% are in France).
 
-[![](/images/pasted-image-0-8.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0-8.png?ssl%3D1)
+![](/images/pasted-image-0-8.png)
 
 The number of quizzes played is 39, which implies that several players have played only once without returning. 
 

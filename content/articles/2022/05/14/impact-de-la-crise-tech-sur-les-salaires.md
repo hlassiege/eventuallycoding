@@ -22,7 +22,7 @@ Mais peut-être que, vous ne voyez pas forcément les conséquences que cela pou
 
 Je vous propose un scénario autour de ce sujet.
 
-[![](/images/coffee-keyboard-1024x681.jpeg)](https://eventuallycoding.com/wp-content/uploads/2022/05/coffee-keyboard.jpeg)
+![](/images/coffee-keyboard-1024x681.jpeg)
 
 ## Bilan de la crise actuelle
 
@@ -138,4 +138,4 @@ Je vais cependant pondérer ce scénario par plusieurs éléments :
 
 Et si ça se trouve on est juste dans un creux de correction classique et temporaire du marché et tout reviendra à la normale dans 3 mois. 
 
-[![](/images/crisis.png)](https://eventuallycoding.com/wp-content/uploads/2022/05/crisis.png)
+![](/images/crisis.png)

@@ -10,7 +10,7 @@ tags:
 cover: "bible.png"
 ---
 
-[![](/images/bible.png "Bible")](http://eventuallycoding.com/wp-content/uploads/2010/10/bible.png) Provocateur comme titre ? Pourtant, après une rapide petite recherche Google je constate que je ne suis pas le seul à le penser.
+![](/images/bible.png "Bible") Provocateur comme titre ? Pourtant, après une rapide petite recherche Google je constate que je ne suis pas le seul à le penser.
 
 En 2009, sur le blog [Valtech](http://blog.valtech.fr/wordpress/2009/01/23/retour-sur-agile-open-france-2009/), Thierry Girodet plaisante sur le parralèle entre Agilité et secte et sur le blog d'une certaine [Aline](http://techaline.wordpress.com/2008/10/13/pour-etre-en-forme-soyez-agiles/), suite à l'Agile Tour 2008 de Grenoble petite citation :
 

@@ -42,7 +42,7 @@ Les billets de cette série :
 
 Dans le billet précédent j’ai créé une maquette avec Figma et désormais il faut se retrousser les manches pour l’intégrer en HTML/CSS. 
 
-[![](/images/pasted-image-0.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0.png)
+![](/images/pasted-image-0.png)
 
 ## Intégration HTML/CSS, avec ou sans framework ?
 
@@ -133,7 +133,7 @@ Si on oublie les outils de build, c’était vraiment plaisant de bosser sur cet
 
 Le lancement officiel remonte à 2 semaines. Le nombre de joueurs est de 33 et a connu une augmentation ce jour-là avec le premier article de cette série. Cependant le rythme de nouveaux utilisateurs est assez faible.
 
-[![](/images/pasted-image-0-8-1024x508.png)](https://eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0-8.png)
+![](/images/pasted-image-0-8-1024x508.png)
 
 Le nombre de quizz joués est de 39, ce qui implique que plusieurs joueurs n’ont joué qu’une seule fois sans revenir. 
 

@@ -15,7 +15,7 @@ cover: "cc020-freelancers.jpg"
 Ce billet date de **2014**. Une mise a jour a été faite ici : https://eventuallycoding.com/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries/
 ::
 
-[![freelancers](/images/cc020-freelancers.jpg)](http://eventuallycoding.com/wp-content/uploads/2014/01/cc020-freelancers.jpg)
+![freelancers](/images/cc020-freelancers.jpg)
 
 Suite au changement de 2013 portant sur l'augmentation très importante de la fiscalité sur les dividendes en EURL beaucoup se sont posés la question du choix du statut lorsqu'on évolue en Freelance.
 

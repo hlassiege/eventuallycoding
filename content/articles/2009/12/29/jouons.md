@@ -1,7 +1,7 @@
 ---
 id: "140"
 title: "Jouons !"
-description: "[![](/images/play.png \"play\")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur ..."
+description: "la mode revient aux Frameworks lights, les frameworks haute productivité"
 date: "2009-12-29"
 categories: 
   - "waza"
@@ -10,7 +10,7 @@ tags:
 cover: "play.png"
 ---
 
-[![](/images/play.png "play")](http://eventuallycoding.com/wp-content/uploads/2011/04/play.png) Récemment, entre le [livre blanc d'Aurélien Maury sur les Frameworks web haute productivité](http://xebia.developpez.com/articles/java/web/ "livre blanc") ou [les critiques de Rod Johnson à propos de J2EE](http://www.infoq.com/presentations/Lessons-Learned-from-Java-EE), la mode revient aux Frameworks lights. Je dis bien "_revient_", car ça fait déjà quelque temps que le développement web rapide existe et fait recette.
+![](/images/play.png "play") Récemment, entre le [livre blanc d'Aurélien Maury sur les Frameworks web haute productivité](http://xebia.developpez.com/articles/java/web/ "livre blanc") ou [les critiques de Rod Johnson à propos de J2EE](http://www.infoq.com/presentations/Lessons-Learned-from-Java-EE), la mode revient aux Frameworks lights. Je dis bien "_revient_", car ça fait déjà quelque temps que le développement web rapide existe et fait recette.
 
 Quand à moi je suis attardé un petit peu sur Play!, le petit nouveau qui change tout.
 
