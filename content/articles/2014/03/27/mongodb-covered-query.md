@@ -59,7 +59,9 @@ La seconde recherche (les avis) n’est pas couverte par l’index, vous avez du
 
 Mettons cela en pratique sur Mongo. Partons des profiles suivants :
 
- 
+
+```javascript
+
 
 db.profile.find().pretty()
 {
@@ -138,9 +140,9 @@ db.profile.find().pretty()
               "dev mobile"
       \]
 }
-
+```
 Réalisons un premier explain avec une recherche par lastName :
-
+```javascript
 \> db.profile.find({lastName : "Lassiege"}).explain()
 {
         "cursor" : "BasicCursor",
@@ -160,13 +162,13 @@ Réalisons un premier explain avec une recherche par lastName :
         },
         "server" : "HUGO"
 }
-
+```
  
 
 Nous avons affaire à un full scan. Nous allons donc ajouter un index :
 
 db.profile.ensureIndex({lastName : 1})
-
+```javascript
 > db.profile.find({lastName : "Lassiege"}).explain()
 {
         "cursor" : "BtreeCursor lastName\_1",
@@ -191,7 +193,7 @@ db.profile.ensureIndex({lastName : 1})
         },
         "server" : "HUGO"
 }
-
+```
 Désormais nous passons par l’index.
 
 Cependant, nous allons nous intéresser à cette partie de l’explain :
@@ -203,12 +205,12 @@ Cependant, nous allons nous intéresser à cette partie de l’explain :
 Si on souhaitait utiliser une covered query, il faudrait que les informations à afficher soient uniquement dans l’index. Pour cela nous pouvons utiliser une projection et inclure uniquement les champs souhaités.
 
 Une projection c’est un peu l’équivalent d’un SELECT champ1, champ2 en SQL.  Avec MongoDB on donne en second argument du find un objet qui décrit les champs à inclure/exclure du résultat :
-
+```
 \> db.profile.find({lastName : "Lassiege"}, {lastName:1, \_id:0})
 { "lastName" : "Lassiege" }
-
+```
 Avec un explain :
-
+```
 \> db.profile.find({lastName : "Lassiege"}, {lastName:1, \_id:0}).explain()
 {
         "cursor" : "BtreeCursor lastName\_1",
@@ -233,13 +235,13 @@ Avec un explain :
         },
         "server" : "HUGO"
 }
-
+```
 Cette fois nous avons indexOnly:true. Nous n’avons pas été interroger la collection.
 
 Oui, bon, sauf qu’on affiche ce qu’on recherchait. Pas très utile...
 
 Imaginons que nous souhaitions afficher uniquement firstName et lastName, alors il serait possible pour notre cas d’usage d’ajouter le firstName dans l’index via un index composé. Ce qui nous permettrait par la suite d’afficher lastName et firstName sans jamais repasser par la collection. Essayons :
-
+```
 db.profile.ensureIndex({lastName : 1, firstName : 1})
 
 > db.profile.find({lastName : "Lassiege"}, {lastName:1, firstName:1, \_id:0}).explain()
@@ -266,7 +268,7 @@ db.profile.ensureIndex({lastName : 1, firstName : 1})
         },
         "server" : "HUGO"
 }
-
+```
  
 
 indexOnly : false  ?!?
@@ -274,7 +276,7 @@ indexOnly : false  ?!?
 Naivement on aurait pu s’attendre à utiliser uniquement l’index. Cependant dans ce cas présent, la requête a utilisé le premier index que nous avions défini plus haut : lastName\_1. Et cet index ne contient pas le champ firstName.
 
 Si nous voulons arriver à nos fins, nous allons devoir forcer le passage par le nouvel index via un hint :
-
+```
 \> db.profile.find({lastName : "Lassiege"}, {lastName:1, firstName:1, \_id:0}).hint({"lastName":1,"firstName":1}).explain()
 {
         "cursor" : "BtreeCursor lastName\_1\_firstName\_1",
@@ -309,24 +311,24 @@ Si nous voulons arriver à nos fins, nous allons devoir forcer le passage par le
         },
         "server" : "HUGO"
 }
-
+```
  Et cette fois, nous avons bien "indexOnly" : true.
 
 Reessayons cette fois-ci avec les skills.
 
 On ajoute un index composé :
-
+```
 \> db.profile.ensureIndex({lastName:1, skills:1})
-
+```
 On réalise une requête avec projection sur lastName et skills en forcant l’utilisation de notre nouvel index :
-
+```
 \> db.profile.find({lastName : "Lassiege"}, {lastName:1, skills: 1, \_id:0}).hint({lastName:1, skills:1})
 { "lastName" : "Lassiege", "skills" : \[  "python",  "java",  "mongodb" \] }
-
+```
  
 
 On regarde l’explain :
-
+```
 \> db.profile.find({lastName : "Lassiege"}, {lastName:1, skills: 1, \_id:0}).hint({lastName:1, skills:1}).explain()
 {
         "cursor" : "BtreeCursor lastName\_1\_skills\_1",
@@ -361,7 +363,7 @@ On regarde l’explain :
         },
         "server" : "HUGO"
 }
-
+```
  
 
 Et le résultat nous montre qu’un index sur un tableau ne permet pas d’utiliser une covered query.

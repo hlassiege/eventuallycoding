@@ -1,7 +1,7 @@
 ---
 id: "170"
 title: "Euh, l'agilité finalement c'est pas un peu une secte ?"
-description: "[![](/images/bible.png \"Bible\")](http://eventuallycoding.com/wp-content/uploads/2010/10/bible.png) Provocateur comme titre ? Pourtant, après une rapid..."
+description: "Provocateur comme titre ? Pourtant, après une rapide petite recherche Google je constate que je ne suis pas le seul à le penser."
 date: "2010-10-28"
 categories: 
   - "waza"

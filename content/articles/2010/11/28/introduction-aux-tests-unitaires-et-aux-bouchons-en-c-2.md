@@ -8,7 +8,7 @@ categories:
 tags: 
   - "csharp"
   - "testunitaire"
-cover: "cover5.jpg"
+cover: "javac1.png"
 ---
 
 Par définition (Cf. [Wikipédia](http://fr.wikipedia.org/wiki/Test_unitaire) ) un test unitaire est un procédé permettant de s'assurer du fonctionnement correct d'une partie déterminée d'un logiciel ou d'une portion d'un programme (appelée « unité » ou « module »).

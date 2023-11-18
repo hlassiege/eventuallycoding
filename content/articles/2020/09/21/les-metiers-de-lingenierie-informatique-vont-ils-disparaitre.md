@@ -21,7 +21,7 @@ J'ai lu récemment plusieurs très bons articles sur ce thème
 et celui que j'ai sans doute préféré : [l'alignement de l'esprit importe plus que celui du code](https://www.emaxilde.net/posts/2020/08/01/l-alignement-de-l-esprit-importe-plus-que-celui-du-code.html)
 
 Or c'est un sujet qui me parle car je suis arrivé sur le marché au même moment que l'approche [MDA](https://fr.wikipedia.org/wiki/Model_driven_architecture) (2001)  
-Cette approche faisait le buzz à ce moment là, enfin pour autant que ce soit possible sans réseaux sociaux, blogs etc…  
+Cette approche faisait le buzz à ce moment-là, enfin pour autant que ce soit possible sans réseaux sociaux, blogs etc…  
 Pour simplifier, cette méthode avait pour objectif de modéliser entièrement des applications à base de schémas UML, schémas qui permettent ensuite de générer le code de l'application.  
 Sur le papier, c'était convaincant pour un jeune diplômé et j'avais été tenté de regarder en détail à l'époque.  
 Mais les outils donnés et leurs limitations n'ont jamais permis à cette approche de décoller.
