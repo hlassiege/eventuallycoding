@@ -44,14 +44,16 @@
                 :post-link="postLink"
             />
 
-            <div id="hyvor-talk-view"></div>
+            <hyvor-talk-comments
+                website-id="7045"
+                :page-id="article.id"
+            ></hyvor-talk-comments>
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import siteMetaInfo from "../../data/siteMetaData";
 import { useFormatDateToIso } from "~/composables/useFormatDate";
-import { useHyvor } from "~/composables/useHyvor";
 import { useYoutubeTwitterEnhancer } from "~/composables/useYoutubeTwitterEnhancer";
 import { useExtractSlugFromParams } from "~/composables/useExtractSlugFromParams";
 import SharingButtons from "~/components/SharingButtons.vue";
@@ -70,7 +72,6 @@ const { data: article } = await useAsyncData(pathMatch, async () => {
 });
 
 onMounted(() => {
-    useHyvor(article.value?.id);
     useYoutubeTwitterEnhancer("nuxtContent");
 });
 
@@ -96,6 +97,16 @@ alternates.push({
     rel: "alternate",
     href: postLink.value,
     hreflang: article.value?.language || "fr",
+});
+
+useHead({
+    script: [
+        {
+            async: true,
+            src: "https://talk.hyvor.com/embed/embed.js",
+            type: "module",
+        },
+    ],
 });
 
 useHead({
