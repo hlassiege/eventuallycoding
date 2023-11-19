@@ -62,7 +62,7 @@ Oui, peut-être que c’est pas réaliste mais on assume. Mais j’en place une 
 
 > Ils ne savaient pas que c'était impossible, alors ils l'ont fait. - _Mark Twain_
 
-Coïncidence, j’avais déjà repris cette citation dans un article précédent sur le [Lateral-Thinking](http://hakanai.free.fr/index.php/lateral-thinking/). Si vous ne l’avez pas lu, il faut, car ça vous permettra peut-être de comprendre une partie de l’esprit qui peut se cacher derrière ces boîtes.
+Coïncidence, j’avais déjà repris cette citation dans un article précédent sur le [Lateral-Thinking](/2013/03/18/lateral-thinking). Si vous ne l’avez pas lu, il faut, car ça vous permettra peut-être de comprendre une partie de l’esprit qui peut se cacher derrière ces boîtes.
 
 Passons aux questions qui nous ont été posés maintenant.
 
@@ -186,9 +186,9 @@ Déjà, avant de répondre en détail, je vais citer quelques boites qui ont su 
 
 Ça c’était uniquement pour démontrer que c’est possible, point.[](http://www.gore.com/en_xx/aboutus/culture/)
 
-Et vous pourrez retrouver une liste de sociétés sur un billet que j’avais déjà écrit il y 5 mois : [les sociétés coopératives](http://hakanai.free.fr/index.php/les-societes-cooperatives/)
+Et vous pourrez retrouver une liste de sociétés sur un billet que j’avais déjà écrit il y 5 mois : [les sociétés coopératives](/2012/12/07/les-societes-cooperatives)
 
-Maintenant, entrons dans le vif du sujet. Parmi les 3 boites présentes, 2 ont une réponse très simple à la question de la croissance :[](http://hakanai.free.fr/index.php/les-societes-cooperatives/)
+Maintenant, entrons dans le vif du sujet. Parmi les 3 boites présentes, 2 ont une réponse très simple à la question de la croissance :
 
 > Inutile de grossir.
 

@@ -19,7 +19,7 @@ cover: "nosql-logo.gif"
 - Elastic Search
 - MongoDb
 
-Ce billet fait partie d'une série de plusieurs billets dont le premier est [ici](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/ "Nosql, 4 bases à la loupe 1/4"). Et le sujet de celui-ci est MongoDb et Redis.
+Ce billet fait partie d'une série de plusieurs billets dont le premier est [ici](/2012/11/11/nosql-4-bases-a-la-loupe-14 "Nosql, 4 bases à la loupe 1/4"). Et le sujet de celui-ci est MongoDb et Redis.
 
 ### [Redis](http://redis.io/)
 
@@ -183,7 +183,7 @@ Billet suivant nous verrons que les choses n’étant jamais simples on ne n’e
 
 Pour voir chaque billet :
 
-- [L'intro](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/ "Nosql, 4 bases à la loupe 1/4")
-- [Redis et Mongo](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-24/ "Nosql, 4 bases à la loupe 2/4")
-- [ElasticSearch et Solr](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-34/ "Nosql, 4 bases à la loupe 3/4")
-- [Le récap](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-44/)
+- [L'intro](/2012/11/11/nosql-4-bases-a-la-loupe-14 "Nosql, 4 bases à la loupe 1/4")
+- [Redis et Mongo](/2012/11/11/nosql-4-bases-a-la-loupe-24 "Nosql, 4 bases à la loupe 2/4")
+- [ElasticSearch et Solr](/2012/11/11//nosql-4-bases-a-la-loupe-34 "Nosql, 4 bases à la loupe 3/4")
+- [Le récap](/2012/11/11//nosql-4-bases-a-la-loupe-44)

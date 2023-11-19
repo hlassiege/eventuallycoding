@@ -47,4 +47,4 @@ Du coup l’idée a germé petit à petit de réaliser le mien.
 
 Voilà, les bases sont posées, la suite dans les prochains billets.
 
-(\*) d'ailleurs je viens de remarquer que cette époque correspond à la création de ce blog et que [mes deux premiers billets](http://hakanai.free.fr/index.php/tag/utf8/) portent sur le sujet. La boucle est bouclée.
+(\*) d'ailleurs je viens de remarquer que cette époque correspond à la création de ce blog et que mes deux premiers billets de blog portent sur le sujet. La boucle est bouclée.

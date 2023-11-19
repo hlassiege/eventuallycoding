@@ -52,7 +52,7 @@ Je n'ai pas pu assister à la première de l'après midi puisque j'étais de ser
 
 ## La programmation concurrente
 
-J'ai suivi ensuite une présentation d'Alex Snaps sur la programmation concurrente. Le thème était un peu piégeux car il n'est pas évident en une heure d'aborder la programmation concurrente. J'avais la chance d'avoir déjà vu ce sujet via [un super bouquin de Brian Goetz](http://hakanai.free.fr/index.php/jai-lu-pour-vous-programmation-concurrente-en-java/) mais j'ai constaté que certains n'ont pas bien saisi le pourquoi du comment lors de chaque séance de mini benchmark effectué lors de la session. Par exemple je ne suis pas sur que l'explication sur les mauvaises perfs de l'AtomicLong lors du premier test a été bien comprise. Dommage, l'approche par le code était intéressante.
+J'ai suivi ensuite une présentation d'Alex Snaps sur la programmation concurrente. Le thème était un peu piégeux car il n'est pas évident en une heure d'aborder la programmation concurrente. J'avais la chance d'avoir déjà vu ce sujet via un super bouquin de Brian Goetz (la programmation concurrente en Java) mais j'ai constaté que certains n'ont pas bien saisi le pourquoi du comment lors de chaque séance de mini benchmark effectué lors de la session. Par exemple je ne suis pas sur que l'explication sur les mauvaises perfs de l'AtomicLong lors du premier test a été bien comprise. Dommage, l'approche par le code était intéressante.
 
 Pour moi la journée de conférence s'est terminée après celle-ci puisque j'ai aidé à différents endroits sur la fin de journée et notamment à l'organisation de la soirée Meet and Greet. Tant pis, je reverrais sur Parleys.
 

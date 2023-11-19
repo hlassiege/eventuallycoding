@@ -70,7 +70,7 @@ Et je ne parle même pas des boîtes qui pensent prendre 10 stagiaires en Inde e
 
 **Mais pourquoi plusieurs ? Pourquoi pas un expert complété par des stagiaires ?** Parce qu’une personne toute seule, sans émulation, sans quelqu’un pour la challenger, ça finit souvent (toujours ?) par prendre de mauvaises décisions.
 
-Prendre un seul gars “expert” c’est aussi prendre le risque de créer [un pompier pyromane](http://hakanai.free.fr/index.php/etes-vous-pompier-pyromane/), un type qui va se créer des challenges pour continuer à se motiver, un type qui va créer des problèmes pour se poser en sauveur lorsqu’il faudra les résoudre. Pas forcément un mauvais gars au départ, mais un gars qui va vite chercher à vous empiler des chaises dans tous les sens pour démontrer son savoir faire.
+Prendre un seul gars “expert” c’est aussi prendre le risque de créer [un pompier pyromane](/2012/05/21/etes-vous-pompier-pyromane), un type qui va se créer des challenges pour continuer à se motiver, un type qui va créer des problèmes pour se poser en sauveur lorsqu’il faudra les résoudre. Pas forcément un mauvais gars au départ, mais un gars qui va vite chercher à vous empiler des chaises dans tous les sens pour démontrer son savoir faire.
 
 ![](/images/cirque_national_chine_2.jpg "cirque_national_chine_2")
 

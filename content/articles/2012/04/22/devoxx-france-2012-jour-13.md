@@ -53,7 +53,7 @@ Sur cette présentation, si je devais en ressortir 3 choses en particulier ce se
 
  
 
-- la remise en cause de l'autorité établie quand c'est nécessaire. Il a rappelé le [théorème du singe](http://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_du_singe) que j'avais d'ailleurs [déjà abordé sur ce blog](http://hakanai.free.fr/index.php/attention-aux-habitudes/). Combien de fois vous a t-on dit _"ce n'est pas possible"_ et lorsque vous avez demandé pourquoi, on vous a juste dit _"Parce que"_...
+- la remise en cause de l'autorité établie quand c'est nécessaire. Il a rappelé le [théorème du singe](http://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_du_singe). Combien de fois vous a t-on dit _"ce n'est pas possible"_ et lorsque vous avez demandé pourquoi, on vous a juste dit _"Parce que"_...
 
 et enfin le dernier qui rejoint le thème principal de la conférence tel que l'ai interprété : "fier d'être développeur"
 

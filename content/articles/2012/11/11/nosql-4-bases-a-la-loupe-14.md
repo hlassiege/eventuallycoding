@@ -143,7 +143,7 @@ Maintenant que nous avons un point de comparaison, passons à la suite.
 
 Pour voir chaque billet :
 
-- [L'intro](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/ "Nosql, 4 bases à la loupe 1/4")
-- [Redis et Mongo](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-24/ "Nosql, 4 bases à la loupe 2/4")
-- [ElasticSearch et Solr](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-34/ "Nosql, 4 bases à la loupe 3/4")
-- [Le récap](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-44/)
+- [L'intro](/2012/11/11/nosql-4-bases-a-la-loupe-14 "Nosql, 4 bases à la loupe 1/4")
+- [Redis et Mongo](/2012/11/11/nosql-4-bases-a-la-loupe-24 "Nosql, 4 bases à la loupe 2/4")
+- [ElasticSearch et Solr](/2012/11/11//nosql-4-bases-a-la-loupe-34 "Nosql, 4 bases à la loupe 3/4")
+- [Le récap](/2012/11/11//nosql-4-bases-a-la-loupe-44)
