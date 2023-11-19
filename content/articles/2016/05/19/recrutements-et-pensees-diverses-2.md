@@ -159,13 +159,13 @@ Fausse bonne idée.
 
 Bon, ça passe le temps hein. C’est déjà ça.
 
-[![image10](/images/caaf9-image10.png)](http://eventuallycoding.com/wp-content/uploads/2016/05/caaf9-image10.png)
+![image10](/images/caaf9-image10.png)
 
 A l’inverse de celui qui n’a pas préparé, celui qui parle trop. J’ai déjà été en entretien (en tant que candidat) avec une personne qui dirigeait l’entretien et faisait les questions et les réponses. En fait de questions c’était surtout des assertions et des demandes d’approbation. Aucun échange, le monologue parfait. Et l’apothéose à la fin : “Parfait, je sens qu’on va s’entendre. Parlons de votre disponibilité”.
 
 Ben, comment te dire, dans 157 ans et 3 jours je devrais trouver un créneau.
 
-[![M7jCTQs[1]](/images/3041b-m7jctqs1.gif)](http://eventuallycoding.com/wp-content/uploads/2016/05/3041b-m7jctqs1.gif)
+![M7jCTQs[1]](/images/3041b-m7jctqs1.gif)
 
  
 

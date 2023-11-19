@@ -53,7 +53,7 @@ C'est exact. Et pourtant le salaire médian aux US est de $107k (90k€) (2)
 
 ## Des career path plus matures
 
-Je l'évoquais [dans un précédent billet](https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres/), la séniorité ne s'arrête pas après 6 ans d'expérience. Le premier biais que l'on peut évoquer c'est que les salaires les plus élevés concernent en réalité les personnes ayant atteint un certain niveau d'expérience. Or les career path sont plus matures qu'avant et ne s'arrêtent plus à "senior". On parle désormais de staff engineer, principal engineer, distinguished et fellow et ça c'est une des principales différences par rapport à il y a 10 ans. Il existait bien sûr des experts mais c'était plus exceptionnel. Aujourd'hui on a gagné en maturité sur le sujet. On sait mieux définir l'impact attendu à chaque niveau et les étapes à franchir.
+Je l'évoquais [dans un précédent billet](https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres), la séniorité ne s'arrête pas après 6 ans d'expérience. Le premier biais que l'on peut évoquer c'est que les salaires les plus élevés concernent en réalité les personnes ayant atteint un certain niveau d'expérience. Or les career path sont plus matures qu'avant et ne s'arrêtent plus à "senior". On parle désormais de staff engineer, principal engineer, distinguished et fellow et ça c'est une des principales différences par rapport à il y a 10 ans. Il existait bien sûr des experts mais c'était plus exceptionnel. Aujourd'hui on a gagné en maturité sur le sujet. On sait mieux définir l'impact attendu à chaque niveau et les étapes à franchir.
 
 ## Un marché segmenté
 

@@ -64,7 +64,7 @@ Voyons ce que cela donne chez nous.
 
 Pour poser une première définition dans le contexte de Malt. L’engineering manager chez nous est un rôle de management, à l’opposé des rôles de leadership et de contributeurs individuels. 
 
-Dans [un ancien billet](https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres/) j’avais pris le temps de parler de la branche “leadership”. 
+Dans [un ancien billet](https://eventuallycoding.com/2021/06/24/senior-avec-6-ans-dexperience-et-apres) j’avais pris le temps de parler de la branche “leadership”. 
 
 Reprenons ce schéma que j’avais utilisé : 
 

@@ -52,7 +52,7 @@ En tant que fondateur, le rôle évolue dans le temps avec le “confort” (**1
 
 ![](/images/Illustration_sans_titre-19-1024x706.jpg)
 
-Récemment j'ai écrit un billet sur [l'évolution du rôle de CTO de startup à scaleup](https://eventuallycoding.com/2021/05/03/cto-de-startup-a-scaleup/). Je racontais notamment que ce rôle de CTO dans les premières étapes comprend le fait d'être le premier développeur, le garant de la vision technologique et celui qui va créer l'équipe produit pour son passage à l'échelle.
+Récemment j'ai écrit un billet sur [l'évolution du rôle de CTO de startup à scaleup](https://eventuallycoding.com/2021/05/03/cto-de-startup-a-scaleup). Je racontais notamment que ce rôle de CTO dans les premières étapes comprend le fait d'être le premier développeur, le garant de la vision technologique et celui qui va créer l'équipe produit pour son passage à l'échelle.
 
 Par la suite, on apprend à se virer soi-même pour trouver les personnes qui vont nous remplacer sur telle ou telle partie du job. 
 
