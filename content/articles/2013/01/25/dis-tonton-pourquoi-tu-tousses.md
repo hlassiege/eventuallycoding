@@ -22,7 +22,7 @@ Avant de poursuivre ce billet, répondez honnêtement à cette question dans vot
 
 Avant de répondre, voici l’image que ça m’inspire :
 
-[![](/images/equilibre.jpg "equilibre")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/equilibre/)
+![](/images/equilibre.jpg "equilibre")
 
 Regardez bien l’image ci-dessus. Le type a empilé à droite une chaise sur une autre chaise, puis il a recommencé l’expérience à gauche. Ensuite il est monté en équilibre sur les deux dernières pour quelques minutes.
 
@@ -32,7 +32,7 @@ Vous pourriez me dire, “oui mais l’informatique c’est pas ça, c’est du 
 
 Mais avez-vous mis toutes les chances de votre côté pour que ça ressemble à ça ?
 
-[![](/images/maison2.jpg "maison")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/maison-3/)
+![](/images/maison2.jpg "maison")
 
 Soyons clairs, si vraiment vous voulez que ça ressemble à ça, il y a des règles et je vous en propose juste une dans ce billet :
 
@@ -46,7 +46,7 @@ Vous trouveriez ça incroyable d’envisager la construction d’un immeuble ave
 
 Quand je parle d’expertise, laissez-moi repréciser ma pensée. Expert c’est un bien grand mot, bien souvent galvaudé. En informatique, on est senior à 5 ans d’expérience, expert à 6, toutes technos confondues.
 
-[![](/images/omg_wtf_cat.jpg "omg_wtf_cat")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/omg_wtf_cat/)
+![](/images/omg_wtf_cat.jpg "omg_wtf_cat")
 
 L’expertise ne s’acquiert pas automatiquement sur tous les domaines en même temps.
 
@@ -66,13 +66,13 @@ Sinon, vous finirez par faire le poirier en démo devant vos clients et un jour 
 
 Et je ne parle même pas des boîtes qui pensent prendre 10 stagiaires en Inde en pensant que ça fera l’affaire parce que coder des if et des else c’est facile.
 
-[![](/images/g0znu1.gif "G0zNU[1]")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/g0znu1/)
+![](/images/g0znu1.gif "G0zNU[1]")
 
 **Mais pourquoi plusieurs ? Pourquoi pas un expert complété par des stagiaires ?** Parce qu’une personne toute seule, sans émulation, sans quelqu’un pour la challenger, ça finit souvent (toujours ?) par prendre de mauvaises décisions.
 
 Prendre un seul gars “expert” c’est aussi prendre le risque de créer [un pompier pyromane](http://hakanai.free.fr/index.php/etes-vous-pompier-pyromane/), un type qui va se créer des challenges pour continuer à se motiver, un type qui va créer des problèmes pour se poser en sauveur lorsqu’il faudra les résoudre. Pas forcément un mauvais gars au départ, mais un gars qui va vite chercher à vous empiler des chaises dans tous les sens pour démontrer son savoir faire.
 
-[![](/images/cirque_national_chine_2.jpg "cirque_national_chine_2")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/cirque_national_chine_2/)
+![](/images/cirque_national_chine_2.jpg "cirque_national_chine_2")
 
 Il est compliqué de rester simple quand on vous a embauché pour être l’expert du groupe.
 
@@ -88,7 +88,7 @@ En théorie, ça marche.
 
 Sauf que... BPM, ESB, REST, HATEOAS, SAAS, si ce sont autant de buzz words facile à caler sur un schéma d’architecture, voici ce qu’on risque :
 
-[![](/images/velo-moto.jpg "velo-moto")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/velo-moto/)
+![](/images/velo-moto.jpg "velo-moto")
 
 Un vélo qu’on a tenté de maquiller en Kawasaki.
 
@@ -109,7 +109,7 @@ Quand il utilise une nouvelle techno, il cherche d’abord à la maîtriser avan
 
 Pour reprendre mon parallèle du cirque, ce n’est pas donné à tout le monde d’innover comme peut l’avoir fait le cirque du soleil (LE cirque qui a réinventé le cirque). Mais si vous avez des ambitions, alors donnez-vous les moyens de les réaliser et réunissez l’équipe qui va bien.
 
-[![](/images/cirque-du-soleil-10.jpg "cirque-du-soleil-10")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/cirque-du-soleil-10/)
+![](/images/cirque-du-soleil-10.jpg "cirque-du-soleil-10")
 
 Un bon développeur peut aussi parfois se retrouver sur une application qui a besoin de plus de certitude, de choix éprouvés, quitte à être déjà obsolète quand elle sera terminée. Il doit parfois composer avec des budgets très serrés, des dates rapprochées, une absence d’ambitions. En parallèle du point précédent, autant on ne construit pas une appli sur des modes, autant quand on choisit des technos plus établies on s’assure aussi qu’on a un besoin.
 
@@ -117,7 +117,7 @@ Prendre un outil qui cumule les acronymes marketing sur son site web (BPM, BPEL,
 
 C’est juste pour la prez du vendredi sur powerpoint ?
 
-[![](/images/mobetpastaga.png "mobetpastaga")](http://hakanai.free.fr/index.php/dis-tonton-pourquoi-tu-tousses/mobetpastaga/)
+![](/images/mobetpastaga.png "mobetpastaga")
 
 Produire de la valeur doit être la préoccupation principale de l’équipe de développement. Pas produire de la complexité, du code ou de la documentation. On ne produit pas de valeur parce qu’on a choisi une technologie. On produit de la valeur quand on répond à un besoin d’un utilisateur. Et qui plus est au moment où il en a besoin, pas 6 mois plus tard. L’utilisateur final se fout royalement que vous respectiez la norme JBI ou que vous prévoyiez de répondre à un autre de ces besoins qu’il aura forcément dans 6 mois “parce que c’est évident que ça va arriver”.
 

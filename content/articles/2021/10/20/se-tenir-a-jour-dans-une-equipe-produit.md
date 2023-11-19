@@ -36,7 +36,7 @@ Pour moi la réponse est plutôt évidente, mais apparemment c’est pas le cas 
 
 Je pourrais d’abord donner une citation célèbre (même si  je ne retrouve pas qui en est l’auteur)
 
-[![](/images/Illustration_sans_titre-36-1024x371.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/10/Illustration_sans_titre-36.jpg)
+![](/images/Illustration_sans_titre-36-1024x371.jpg)
 
 “Q: _What if we train them and they leave? R: What if we don’t and they stay?”_
 
@@ -64,7 +64,7 @@ Par exemple, on a fait venir Philippe Charrière pour parler de Clever Cloud, S�
 
 Malheureusement la dynamique en 2019 était bonne mais vite interrompue par le COVID en 2020. On va reprendre ce format prochainement.
 
-[![](/images/Illustration_sans_titre-37-1024x911.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/10/Illustration_sans_titre-37.jpg)
+![](/images/Illustration_sans_titre-37-1024x911.jpg)
 
 ## Les Malt tech days 
 
@@ -86,7 +86,7 @@ Certaines présentations ont été rejouées par la suite dans des conférences,
 
 Et pour la petite anecdote, on songe à ouvrir le format davantage en externe, donc stay tuned.
 
-[![](/images/Illustration_sans_titre-38-1024x724.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/10/Illustration_sans_titre-38.jpg)
+![](/images/Illustration_sans_titre-38-1024x724.jpg)
 
 ## Les conférences 
 

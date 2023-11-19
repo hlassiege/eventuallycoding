@@ -80,7 +80,7 @@ En schématisant, à partir des axes de lecture définis plus haut, cela nous do
 
 En contributeur individuel : 
 
-[![](/images/Illustration_sans_titre-56-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-56.jpg)
+![](/images/Illustration_sans_titre-56-1024x842.jpg)
 
 Le contributeur individuel senior :
 
@@ -91,7 +91,7 @@ Le contributeur individuel senior :
 
 En Staff engineer et plus (branche leadership)
 
-[![](/images/Illustration_sans_titre-52-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-52.jpg)
+![](/images/Illustration_sans_titre-52-1024x842.jpg)
 
 A partir de ce niveau, on est toujours sur des contributeurs individuels, mais on attend le cran du dessus :
 
@@ -102,7 +102,7 @@ A partir de ce niveau, on est toujours sur des contributeurs individuels, mais o
 
 En Engineering Manager :
 
-[![](/images/Illustration_sans_titre-51-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-51.jpg)
+![](/images/Illustration_sans_titre-51-1024x842.jpg)
 
 L’Engineering Manager :
 
@@ -132,11 +132,11 @@ Les missions premières du Scrum Master sont :
 
 Si on s’arrête à la définition, le Scrum Master est ce que Marty Cagan appelle un “process people”. Et je vais [vous laisser lire ce qu’il en dit sur son blog](https://svpg.com/process-people/).
 
-[![](/images/Illustration_sans_titre-58-1024x551.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-58.jpg)
+![](/images/Illustration_sans_titre-58-1024x551.jpg)
 
 Si on résume cela sur les 4 axes vus précédemment :
 
-[![](/images/Illustration_sans_titre-57-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-57.jpg)
+![](/images/Illustration_sans_titre-57-1024x842.jpg)
 
 Le sujet est avant tout de s’assurer de l’efficacité collective de l’équipe (tout en restant dans le cadre de la méthode Scrum). L’aspect humain est présent mais la méthode Scrum ne définit aucune responsabilité de suivi individuel, gestion de la formation, recrutement etc… 
 
@@ -169,7 +169,7 @@ Le CDP est la personne responsable de l’avancement, du planning, de l'exécuti
 
 Selon nos axes vus avant cela se représenterait comme suit :
 
-[![](/images/Illustration_sans_titre-53-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-53.jpg)
+![](/images/Illustration_sans_titre-53-1024x842.jpg)
 
 On notera donc un focus particulier sur l’efficacité collective en vue de tenir les plannings. Je place l’axe business sur “moyen” car dans ce type d’organisation on se concentre surtout sur le résultat (la sortie de tel ou tel projet), pas l’impact final. Mais je chipote. 
 
@@ -215,7 +215,7 @@ En 2017 l’équipe engineering faisait environ 10 personnes, je m’occupais co
 
 C’est pourquoi nous avions également des “leads” qui prenaient ce rôle de mentors et coachs. Ces leads pourraient être représentés comme suit dans leurs rôles de tous les jours :
 
-[![](/images/Illustration_sans_titre-54-1024x842.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-54.jpg)
+![](/images/Illustration_sans_titre-54-1024x842.jpg)
 
 La situation a pu perdurer jusqu'en 2019 mais avec plusieurs limitations :
 
@@ -255,7 +255,7 @@ Bref, lors du recrutement il faut être très vigilant sur l’adéquation entre
 
 Chez Malt nous avons un chemin de progression qui est assez proche du standard :
 
-[![](/images/Illustration_sans_titre-50-502x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2022/01/Illustration_sans_titre-50.jpg)
+![](/images/Illustration_sans_titre-50-502x1024.jpg)
 
 A chaque niveau il y a deux éléments qui vont influer sur la progression :
 

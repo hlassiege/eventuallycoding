@@ -13,7 +13,7 @@ cover: "43c58-slideterminology.jpg"
 
 A chaque fois que je donne la formation Mongo je reste étonné lors de ce slide (qui fait le parallèle entre les termes utilisé en relationnel et avec Mongo) ;
 
-[![](/images/43c58-slideterminology.jpg)](http://eventuallycoding.com/wp-content/uploads/2015/01/43c58-slideterminology.jpg)
+![](/images/43c58-slideterminology.jpg)
 
 Si chaque participants comprend tout de suite la correspondances des termes entre le monde relationnel et Mongodb pour toutes les lignes, je sens une sorte de "blanc" sur la dernière :
 

@@ -22,7 +22,7 @@ En tout début de carrière ces sujets sont passionnants (ou pas), en tout cas v
 
 Je vous dévoile un peu la fin du film, au fil du temps, refaire les mêmes débats dans chaque nouvelle équipe vous lasse(ra) un peu. C'est pour cela que bosser sur un produit, qui plus est le sien, pendant plusieurs années est vraiment agréable. Ces sujets ont été taclés et désormais que la tuyauterie est faite on s'occupe de construire des fonctionnalités, chose finalement bien plus agréable. Cela ne veut pas dire qu'on y retouche plus mais le degré de maturité est assez fort pour que chaque changement ne soit pas une révolution mais une amélioration. Toutes les personnes qui enchaînent des projets de durée variant entre 6 mois et 2 ans avec des équipes dont le turnover implique un renouvellement complet tous les 18 mois savent de quoi je parle.
 
-[![](/images/65220-60709_backdrop_scale_1280xauto1.jpg)](http://eventuallycoding.com/wp-content/uploads/2017/09/65220-60709_backdrop_scale_1280xauto1.jpg) Bref, je tenais donc à partager l'expérience Hopwork sur notre stratégie de branches et où nous en sommes aujourd'hui.
+![](/images/65220-60709_backdrop_scale_1280xauto1.jpg) Bref, je tenais donc à partager l'expérience Hopwork sur notre stratégie de branches et où nous en sommes aujourd'hui.
 
 Je vais spoiler dès le début cependant avant de rentrer dans le vif du sujet. Pour notre stratégie de branches, on a choisi la méthode la plus simple : le nobranching.
 
@@ -30,13 +30,13 @@ Remarquez c'est un peu une ligne de conduite personnelle depuis quelques années
 
 Bon mais en pratique cela veut dire quoi ? Non parce qu'à ce stade de ce billet, il y a peut être des gens qui ne savent même pas de quelle branche je parle.
 
-[![](/images/9cd1d-branch.png)](http://eventuallycoding.com/wp-content/uploads/2017/09/9cd1d-branch.png)
+![](/images/9cd1d-branch.png)
 
-Déjà revenons aux fondamentaux, qu'est ce qu'une branche et pourquoi en faisons nous ? Quand je parle de branche, je parle de branche de code, c'est à dire une version de votre application construire à partir d'un instant T et qui diverge du code principal. Mettons que le code soit versionné sur git, on dit du code de votre application qui est mis en production et mis à jour tous les jours par l'équipe de développement qu'il est sur une branche de développement appelé master. Cette branche on peut la voir comme une succession de modifications, appelées commits pour les néophytes même si je doute que des néophytes lisent cet article, qui nous amène d'une version A à une version B.[![](/images/1dcb8-history-abc-11.png)](https://eventuallycoding.com/wp-content/uploads/2019/10/1dcb8-history-abc-11.png)
+Déjà revenons aux fondamentaux, qu'est ce qu'une branche et pourquoi en faisons nous ? Quand je parle de branche, je parle de branche de code, c'est à dire une version de votre application construire à partir d'un instant T et qui diverge du code principal. Mettons que le code soit versionné sur git, on dit du code de votre application qui est mis en production et mis à jour tous les jours par l'équipe de développement qu'il est sur une branche de développement appelé master. Cette branche on peut la voir comme une succession de modifications, appelées commits pour les néophytes même si je doute que des néophytes lisent cet article, qui nous amène d'une version A à une version B.![](/images/1dcb8-history-abc-11.png)
 
 Et parfois ce développement n'est pas si linéaire que cela, on va créer des ramifications (d'ou le nom de branche) à partir d'un instant T. Ces branches vont donc diverger du code principal puis être refusionné plus tard.
 
-[![](/images/b8992-sans-titre.jpg)](http://eventuallycoding.com/wp-content/uploads/2017/09/b8992-sans-titre.jpg)
+![](/images/b8992-sans-titre.jpg)
 
 Pourquoi fait-on cela ? Eh bien il arrive que l'on souhaite isoler le développement d'une fonctionnalité un peu longue dans une branche le temps qu'elle soit prête. On peut aussi souhaiter travailler en isolation des autres développeurs le temps de finir un travail sur plusieurs jours (hyper mauvaise idée en général).
 
@@ -106,7 +106,7 @@ Outre le confort de dev, un retour arrière suite à une mise en prod où une fo
 
 Pour l'anecdote en trainant sur un slack tech une fois j'avais assisté à une conversation où je n'ai pas souhaité participer et qui démontait cette pratique. Alors évidemment je ne doute pas que cette stratégie ne fera pas l'unanimité et ce billet n'a pas vocation à vous convaincre. Cette stratégie marche pour nous, c'est tout ce que je peux en dire. Et il y a sans doute des équipes pour qui le Feature Branching marche très bien.
 
-[![](/images/f5805-featurebranch.jpg)](http://eventuallycoding.com/wp-content/uploads/2017/09/f5805-featurebranch.jpg)
+![](/images/f5805-featurebranch.jpg)
 
  
 

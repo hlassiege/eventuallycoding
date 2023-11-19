@@ -34,7 +34,7 @@ Bref, je vous propose un petit panorama sur le sujet avec en pointillé la philo
 
 ## Quelles métriques ?
 
-[![](/images/Illustration_sans_titre-1024x716.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/10/Illustration_sans_titre.jpg)
+![](/images/Illustration_sans_titre-1024x716.jpg)
 
 Le moins que l’on puisse dire, c’est que sur le sujet, il y a pléthore d’approches. Récemment je dirais que l’on retrouve les tendances suivantes :
 
@@ -83,7 +83,7 @@ Bon mais entre les OKR qui permettent l’alignement avec le business, les métr
 
 ## Pourquoi mesurer la performance ? 
 
-[![](/images/Illustration_sans_titre-1-1024x706.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/10/Illustration_sans_titre-1.jpg)
+![](/images/Illustration_sans_titre-1-1024x706.jpg)
 
 Juste au-dessus, je mentionnais des métriques et leurs objectifs associés. 
 
@@ -181,11 +181,11 @@ Quelques exemples  :
 
 - On contrôle le découpage fonctionnel de nos modules en mesurant l’activité par équipe sur ces modules (un module doit en principe avoir une seule couleur, donc il reste des modules à travailler)
 
-[![](/images/pasted-image-0-2-1024x392.png)](https://eventuallycoding.com/wp-content/uploads/2021/10/pasted-image-0-2.png)
+![](/images/pasted-image-0-2-1024x392.png)
 
 - On a travaillé sur des remaniements de code visant à réduire l’édition de certains modules “legacy”. On surveille désormais que ce remaniement a fonctionné en mesurant le ratio d’édition du legacy par semaine
 
-[![](/images/pasted-image-0-3.png)](https://eventuallycoding.com/wp-content/uploads/2021/10/pasted-image-0-3.png)
+![](/images/pasted-image-0-3.png)
 
 - nous testons la stabilité des modules communs en mesurant l’activité (nb commits)
 - la mesure du temps de revue d’une PR
@@ -199,7 +199,7 @@ Dans les analyses un peu fun fact, voici :
 
 - mon propre graphe d’activité depuis la création de Malt :
 
-[![](/images/pasted-image-0-4.png)](https://eventuallycoding.com/wp-content/uploads/2021/10/pasted-image-0-4.png)
+![](/images/pasted-image-0-4.png)
 
 (eh oui, je code de moins en moins)
 

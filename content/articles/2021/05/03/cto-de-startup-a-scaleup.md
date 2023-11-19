@@ -38,7 +38,7 @@ Reprenons depuis le début.
 
 ## CTO, chef de soi-même, dans une équipe de 1 (2013-2014)
 
-[![](/images/Illustration_sans_titre-10-1.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/05/Illustration_sans_titre-10-1.jpg)
+![](/images/Illustration_sans_titre-10-1.jpg)
 
 ### Il faut vraiment un CTO pour démarrer une startup ?
 
@@ -150,7 +150,7 @@ Ce seuil de 10 commence à changer le fonctionnement d’une équipe. Les intera
 
 La loi de Brooks illustre parfaitement cette complexité croissante dans les interactions d’un groupe passé un certain seuil :
 
-[![](/images/pasted-image-0.png)](https://eventuallycoding.com/wp-content/uploads/2021/05/pasted-image-0.png)
+![](/images/pasted-image-0.png)
 
 C’est à ce moment là que j’étais ravi de l’équipe déjà en place, sur laquelle j’ai pu m’appuyer. Le fait d’avoir recruté beaucoup de seniors a limité le besoin en management humain. Certains leaders ont naturellement émergé et l’équipe a pu continuer à fonctionner sans management lourd pendant encore un moment. 
 
@@ -176,7 +176,7 @@ Si le développement pur a diminué, il est resté important et clé sur les ori
 
 Pour illustrer avec des chiffres, voici un graphe représentant mon activité Github sur la période 2012 jusqu'à aujourd’hui et qui illustre bien la baisse d’activité sur 2017-2018 (et le pic de 2015) :
 
-[![](/images/pasted-image-0-1.png)](https://eventuallycoding.com/wp-content/uploads/2021/05/pasted-image-0-1.png)
+![](/images/pasted-image-0-1.png)
 
 ### Une ambiguïté permanente
 

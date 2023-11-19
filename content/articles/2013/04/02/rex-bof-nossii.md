@@ -1,7 +1,7 @@
 ---
 id: "770"
 title: "REX BOF NoSSII"
-description: "[![](/images/rework.png \"rework\")](http://hakanai.free.fr/index.php/rex-bof-nossii/rework/)Bon, avec un titre pareil je dois déjà avoir perdu 80% des ..."
+description: "![](/images/rework.png \"rework\")Bon, avec un titre pareil je dois déjà avoir perdu 80% des ..."
 date: "2013-04-02"
 categories: 
   - "waza"
@@ -11,7 +11,7 @@ tags:
 cover: "rework.png"
 ---
 
-[![](/images/rework.png "rework")](http://hakanai.free.fr/index.php/rex-bof-nossii/rework/)Bon, avec un titre pareil je dois déjà avoir perdu 80% des lecteurs :)
+![](/images/rework.png "rework")Bon, avec un titre pareil je dois déjà avoir perdu 80% des lecteurs :)
 
 Jeudi  28  mars au soir lors de [Devoxx France](http://www.devoxx.com/display/FR13/Accueil) nous avons participé à un BOF (une table ronde) sur le thème des NoSSII.
 
@@ -167,7 +167,7 @@ Sur l’effet de levier, j’ai adoré le parallèle bien geek de [@lefreelance]
 
 > En attendant si vous doutez de l’utilité d’unir vos forces autour d’une même cause, regardez ces braves gens dans la photo ci-dessous, ça leur a plutôt bien réussi.
 > 
-> [![](/images/justiceleague-1024x569.jpg "JUSTICELEAGUE-1024x569")](http://hakanai.free.fr/index.php/rex-bof-nossii/justiceleague-1024x569/)
+> ![](/images/justiceleague-1024x569.jpg "JUSTICELEAGUE-1024x569")
 
  
 

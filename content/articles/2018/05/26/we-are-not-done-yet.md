@@ -1,7 +1,7 @@
 ---
 id: "1357"
 title: "We are not done yet"
-description: "[![](/images/475f8-keep-calm-it-s-not-done-yet1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/475f8-keep-calm-it-s-not-done-yet1.png)
+description: "![](/images/475f8-keep-calm-it-s-not-done-yet1.png)
 
 ..."
 date: "2018-05-26"

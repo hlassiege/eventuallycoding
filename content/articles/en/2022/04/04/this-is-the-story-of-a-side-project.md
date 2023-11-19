@@ -44,7 +44,7 @@ First, if you want to test it out, it's available online at [www.coderwatch.io]
 
 The main pitch: **learning computer languages ​​and frameworks while playing** . You can take quizzes, earn points, and gradually climb the rankings against other players while improving your knowledge.
 
-[![](/images/pasted-image-0.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/pasted-image-0.png?ssl%3D1)
+![](/images/pasted-image-0.png)
 
 ## A side project to stay up to date
 
@@ -90,7 +90,7 @@ For example, someone on the team coded a slack bot to note everyone's presence t
 
 And so **Coderwatch** was born .
 
-[![](/images/image.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/image.png?ssl%3D1)
+![](/images/image.png)
 
 ## coderwatch
 
@@ -125,7 +125,7 @@ The value proposition that I see quite immediately is:
 - Show off (prove your skills)
 - and on the business side, with a view to monetization, recruit devs from the community
 
-[![](/images/image-1.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/image-1.png?ssl%3D1)
+![](/images/image-1.png)
 
 When you make a web app, one of the main reflexes is to make a benchmark to study what already exists. 
 
@@ -216,7 +216,7 @@ That's it for today in this first post of the series. I revealed to you all the
 
 As a reminder, you can test it on [www.coderwatch.io](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=http://www.coderwatch.io) . 
 
-[![](/images/image-2.png)](https://translate.google.com/website?sl=fr&tl=en&hl=fr&client=webapp&u=https://i0.wp.com/eventuallycoding.com/wp-content/uploads/2022/04/image-2.png?ssl%3D1)
+![](/images/image-2.png)
 
 In the next posts I will talk about design, front end integration, backend development and how I deploy it all on Clever Cloud. 
 

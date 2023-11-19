@@ -28,7 +28,7 @@ pour ma part je suis le début d'un embryon d'amateur en dessin, je raconterais 
 
 Bref, partons dans un premier temps de ces dessins :
 
-[![](/images/Dobby0001-4-1024x391.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Dobby0001-4.jpg)
+![](/images/Dobby0001-4-1024x391.jpg)
 
 Fan Arts sur Dobby (Harry Potter), Catwoman (Batman), Rayla (prince des Dragons), Cyclope (Xmen)
 
@@ -59,7 +59,7 @@ Pour ce qui est des produits en eux mêmes, on va retrouver de très nombreux co
 En dessin il y a une pratique qui doit être presque journalière, il s'agit des études/study. On identifie un sujet qu'on veut travailler en particulier, ca peut être un objet (une épée par exemple) ou une partie du corps humain (les mains….). On cherche des références et on noircit des feuilles.  
 Avec une pratique très régulière, on finit forcément par s'améliorer. Encore une fois le dessin c'est une question de pratique.
 
-[![](/images/Anatomy_study.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Anatomy_study.jpg)
+![](/images/Anatomy_study.jpg)
 
 Etudes sur des mains, pieds, jambes, armes blanches
 
@@ -73,7 +73,7 @@ Passons à l'illustration d'un personnage étape par étape.
 L'une des premières étapes pour camper un personnage c'est d'identifier la dynamique du corps, les points d'équilibres et de tensions. C'est ce qu'on appelle une ligne d'action, c'est à dire le mouvement du personnage.  
 Déjà à cette étape on peut essayer d'amplifier ce mouvement en déformant cette ligne.
 
-[![](/images/ligne-action.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/ligne-action.jpg)
+![](/images/ligne-action.jpg)
 
 ligne d'action sur le personnage de Dazzler (Marvel Comics)
 
@@ -89,7 +89,7 @@ Une fois qu'on a la ligne d'action, on peut tracer un premier personnage très s
 Cette étape faite on peut ensuite décomposer le corps humain en figures géométriques simples.  
 Ici on va commencer à faire intervenir quelques notions, de perspective si le corps est observé sur des angles exotiques, d'anatomie pour bien proportionner les différentes parties et on va devoir déformer certaines figures géométriques en fonction de la ligne d'action.
 
-[![](/images/pose1.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/pose1.jpg)
+![](/images/pose1.jpg)
 
 Etude d'après une photo
 
@@ -106,7 +106,7 @@ Il existe des illustrateurs qui avec la pratique sautent les premières étapes.
 Reprenons. A partir de là, on va pouvoir tracer un croquis (sketch, esquisse) sur la structure existante. Sur un support traditionnel on va utiliser un crayon de papier par exemple.  
 Ce sketch n'a pas pour vocation d'être ultra détaillée mais il apporte une couche de détail sur les figures géométriques existantes. Il permet de rajouter les vêtements (l'étape précédente n'en comporte pas), objets, cheveux, éléments de visage, positions des mains etc…
 
-[![](/images/Illustration_sans_titre-34.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-34.jpg)
+![](/images/Illustration_sans_titre-34.jpg)
 
 Différents sketchs réalisés à partir de photos. J'aurais pu aller plus loin sur les visages et les mains
 
@@ -143,7 +143,7 @@ Ensuite on peut prendre une couleur plus foncé (je passe sur la méthode pour l
 
 (Je simplifie grandement cette partie car je trouve que c'est l'une des plus larges en termes de techniques possibles)
 
-[![](/images/seya_1-1024x255.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/seya_1.jpg)
+![](/images/seya_1-1024x255.jpg)
 
 Illustration des étapes de mises en couleurs sur Seiya de la série Saint Seiya et d'ailleurs cette fois en utilisant des valeurs
 
@@ -156,7 +156,7 @@ J'aurais du le mentionner dès le début mais notre personnage va s'intégrer da
 Dans la composition il y a également l'environnement qui va influer sur les lumières, le dynamisme, la mise en valeur.  
 Je vous invite à regarder [ce billet](http://designspartan.com/tutoriels/8-conseils-de-compositions-pour-vos-prochaines-illustrations/) qui parle des techniques de composition avec des exemples d'illustration.
 
-[![](/images/C180001.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/C180001.jpg)
+![](/images/C180001.jpg)
 
 C-18 de la série Dragon Ball, avec l'encrage initial puis le dessin repris sur tablette avec un background. Ca illustre justement que c'est pas du tout mon point fort cette dernière étape :)
 

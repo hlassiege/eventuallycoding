@@ -1,7 +1,7 @@
 ---
 id: "680"
 title: "Nosql, 4 bases à la loupe 4/4"
-description: "[![](/images/nosql-logo.gif \"nosql-logo\")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d..."
+description: "![](/images/nosql-logo.gif \"nosql-logo\")Vous vous rappelez du bouquin [7 d..."
 date: "2012-11-11"
 categories: 
   - "waza"
@@ -13,7 +13,7 @@ tags:
 cover: "nosql-logo.gif"
 ---
 
-[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks) ? Pour le coup j'ai eu l'occasion de réaliser une expérience un peu moins ambitieuse, seulement 4 bases de données. Et si je n'ai pas été aussi loin que le bouquin précédent je vous propose quand même un retour d'expérience sur :
+![](/images/nosql-logo.gif "nosql-logo")Vous vous rappelez du bouquin [7 databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks) ? Pour le coup j'ai eu l'occasion de réaliser une expérience un peu moins ambitieuse, seulement 4 bases de données. Et si je n'ai pas été aussi loin que le bouquin précédent je vous propose quand même un retour d'expérience sur :
 
 - Redis
 - Solr
@@ -26,7 +26,7 @@ Je vous propose un tableau récapitulatif des perfs collectées ici.
 
 Encore une fois on compare des bases qui n’ont pas le même objectif et c’était aussi pour moi l’occasion de me familiariser avec donc à prendre avec des pincettes.
 
-[![](/images/recap.png "recap")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-44/recap/)
+![](/images/recap.png "recap")
 
 Note : j'ai supprimé le temps du count de Mysql pour garder une échelle lisible sur le graphe
 
@@ -48,7 +48,7 @@ Par acquis de conscience j’ai donc voulu refaire le test sur une plus grosse v
 
  
 
-[![](/images/jongo.mysql_-300x179.png "jongo.mysql")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-44/jongo-mysql/)
+![](/images/jongo.mysql_-300x179.png "jongo.mysql")
 
 La ok, on commence bien à voir les divergences. C'est surtout intéressant de constater la bonne tenue de Mongo malgré le changement de volumétrie. Enfin la je me rassure comme je peux car nous sommes encore loin des 900 000 records pour le modèle que nous cherchons à créer. L’avenir nous dira si c’était un bon choix. Quoi qu’il en soit, ne serait-ce que pour la facilité d’admin sur Heroku et la simplicité en dev je ne suis pas déçu de nos choix. Mongodb/Elastic Search nous apporte toute satisfaction. Quand au projet en lui-même, j'espère que l'on pourra ouvrir les portes en béta avant la fin d'année ;)
 

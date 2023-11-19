@@ -1,9 +1,7 @@
 ---
 id: "466"
 title: "Les tests d'IHM avec Play!"
-description: "[![](/images/test.png \"test\")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)
-
-Vous avez une appli Play ? Vous avez déjà bien utilis..."
+description: "Vous avez une appli Play ? Vous avez déjà bien utilis..."
 date: "2011-11-05"
 categories: 
   - "waza"
@@ -13,7 +11,7 @@ tags:
 cover: "test.png"
 ---
 
-[![](/images/test.png "test")](http://eventuallycoding.com/wp-content/uploads/2011/11/test.png)
+![](/images/test.png "test")
 
 Vous avez une appli Play ? Vous avez déjà bien utilisé les UnitTest mais votre couverture de code reste faiblarde ?  
 C’est sur que malgré tout vos efforts pour que la couche controlleur soit la plus fine possible il reste quand même pas mal de code et on ne peut pas faire l’impasse dessus. Et on évitera aussi de rappeler que votre merveilleux plugin cobertura ne mesure pas la couverture de code HTML+JS testé...  

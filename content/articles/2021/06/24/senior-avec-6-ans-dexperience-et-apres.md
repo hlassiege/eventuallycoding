@@ -49,7 +49,7 @@ En 2017 chez Malt on introduisait donc ce concept de dual ladder et de career pa
 
 La version actualisée 2021 de ce career path ressemble à cela :
 
-[![](/images/Dual_ladder-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/Dual_ladder.jpg)
+![](/images/Dual_ladder-1024x1024.jpg)
 
 Dans cette version 2021, vous noterez une branche “leadership”. C’est toujours une évolution de la branche IC mais nous avons souhaité mettre en avant le fait que les engineering leaders créent leurs succès avec les autres.
 
@@ -114,7 +114,7 @@ On attend donc des personnes à ces niveaux d’être capable de
 
 Le métier à partir de Staff engineer évolue, et la part passée à ne plus développer en solo augmente. On attend d'un(e) Staff Engineer (et plus), une excellence technique, une vision technologique mais aussi une capacité à faire grandir des équipes entières. Si je caricature, je dirais qu'on développe, mais on développe aussi de plus en plus de l'humain et des groupes d'humains. Et c'est ça aussi être hands-on.
 
-[![](/images/Coding_the_company-1024x401.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/Coding_the_company.jpg)
+![](/images/Coding_the_company-1024x401.jpg)
 
 Si les parallèles sont nombreux entre par exemple le Senior Engineering Manager et le Staff Engineer, les différences sont nombreuses également :
 
@@ -183,7 +183,7 @@ L'équipe de dev, représentée par son/sa Lead Engineer, doit travailler sur le
 
 Son rôle est donc clé dans l'articulation entre discovery et delivery.
 
-[![](/images/discovery-delivery-1.png)](https://eventuallycoding.com/wp-content/uploads/2021/06/discovery-delivery-1.png)
+![](/images/discovery-delivery-1.png)
 
 L'engineering manager de son côté travaille pour aider le/la Lead engineer, fluidifier la communication avec d'autres équipes, organiser les cérémonies nécessaires (rétro par exemple), aider à la mise en place de métriques d'équipe, se coordonner avec le VP Engineering pour le staffing des squads de sa tribe.
 
@@ -204,7 +204,7 @@ Pour rappeler brièvement en quoi consiste la Discovery, il s'agit d'un ensemble
 - déterminer l'ensemble des problèmes à résoudre, l'objectif étant "Design the right thing"
 - déterminer l'ensemble des solutions afin de "Design things right"
 
-[![](/images/Double_diamond-1024x604.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/Double_diamond.jpg)
+![](/images/Double_diamond-1024x604.jpg)
 
 L'équipe de dev va être mise à contribution pour sa connaissance du produit existant, mais aussi la compréhension des besoins clients.
 

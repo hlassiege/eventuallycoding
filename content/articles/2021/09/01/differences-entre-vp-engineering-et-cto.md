@@ -26,7 +26,7 @@ En faisant cela, cela permettra de répondre à quelques questions que je me sui
 
 En espérant que mon expérience dans une startup de 0 à 250 employés puisse servir à d'autres.
 
-[![](/images/Illustration_sans_titre-20-1024x393.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/09/Illustration_sans_titre-20.jpg)
+![](/images/Illustration_sans_titre-20-1024x393.jpg)
 
 **Avertissement** 
 
@@ -50,7 +50,7 @@ En tant que fondateur, le rôle évolue dans le temps avec le “confort” (**1
 
 # A partir de quelle taille d'équipe faudrait-il un VP Engineering ?
 
-[![](/images/Illustration_sans_titre-19-1024x706.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/09/Illustration_sans_titre-19.jpg)
+![](/images/Illustration_sans_titre-19-1024x706.jpg)
 
 Récemment j'ai écrit un billet sur [l'évolution du rôle de CTO de startup à scaleup](https://eventuallycoding.com/2021/05/03/cto-de-startup-a-scaleup/). Je racontais notamment que ce rôle de CTO dans les premières étapes comprend le fait d'être le premier développeur, le garant de la vision technologique et celui qui va créer l'équipe produit pour son passage à l'échelle.
 
@@ -78,7 +78,7 @@ Même si on part de l'hypothèse que la personne soit compétente et motivée pa
 
 Or, quand la boite grandit, **chacun de ces rôles prend plus de temps** (**2**) donc il faut faire des choix, ou bien tout faire moins bien, ce qui est un choix aussi ^^
 
-[![](/images/Illustration_sans_titre-18-1024x533.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/09/Illustration_sans_titre-18.jpg)
+![](/images/Illustration_sans_titre-18-1024x533.jpg)
 
 Et donc, à partir de quand cela devient nécessaire ? 
 
@@ -144,7 +144,7 @@ Il est tout à fait possible au contraire de délaisser la partie vision technol
 
 Mais je triche un peu dans ma réponse, si vous avez suivi, effectivement le CTO fondateur a le choix de ne pas recruter de VP, mais dans ce cas il va prendre ce rôle (avec ou sans changement de titre, ce n’est pas le point important).
 
-[![](/images/Illustration_sans_titre-17-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/09/Illustration_sans_titre-17.jpg)
+![](/images/Illustration_sans_titre-17-1024x1024.jpg)
 
 Avec la croissance, le rôle se divise mais ne devient pas plus petit
 

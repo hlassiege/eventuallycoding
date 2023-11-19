@@ -1,14 +1,14 @@
 ---
 id: "592"
 title: "Lateral-Thoughts s'installe à Lyon !"
-description: "[![](/images/logo.png \"logo\")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'i..."
+description: ""
 date: "2012-10-06"
 categories: 
   - "waza"
 cover: "logo.png"
 ---
 
-[![](/images/logo.png "logo")](http://eventuallycoding.com/wp-content/uploads/2012/10/logo.png)[Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon !
+![](/images/logo.png "logo")[Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon !
 
 Comment ? Qu'ouis-je ? Qu'entends-je ? [Lateral-Thoughts](http://www.lateral-thoughts.com) s'installe à Lyon ? Mais non cher lecteur ceci n'est pas un dysfonctionnement de votre ordinateur et nous ne sommes pas dans la 4ème dimension.
 

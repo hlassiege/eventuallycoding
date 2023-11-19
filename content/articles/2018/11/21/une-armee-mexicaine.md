@@ -1,7 +1,7 @@
 ---
 id: "1391"
 title: "Une armée mexicaine ?"
-description: "[![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la s..."
+description: "![](/images/e0779-image1.png)Petit flashback, on est début 2017, c’est la s..."
 date: "2018-11-21"
 categories: 
   - "waza"
@@ -10,7 +10,7 @@ tags:
 cover: "e0779-image1.png"
 ---
 
-[![](/images/e0779-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e0779-image1.png)Petit flashback, on est début 2017, c’est la soirée MiXiT à l’hôtel de ville. Ambiance relax entre petits fours et discussions sur les confs de la journée. 
+![](/images/e0779-image1.png)Petit flashback, on est début 2017, c’est la soirée MiXiT à l’hôtel de ville. Ambiance relax entre petits fours et discussions sur les confs de la journée. 
 
 Au détour d’une conversation j’en viens à détailler notre équipe produit et j’ai une petite question un peu provoc en retour. “Vous êtes tout ça pour faire un site web ?”
 
@@ -84,7 +84,7 @@ Revenons sur l’exemple de la marketplace faite en quelques jours. Certains y v
 
 Sous-entendu, “le reste du boulot nécessaire pour satisfaire nos utilisateurs à 100% prendra 5 fois plus de temps mais c’est largement jouable”.
 
-[![](/images/7e48f-image2.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/7e48f-image2.png)
+![](/images/7e48f-image2.png)
 
 Quoi de plus faux ?
 
@@ -125,7 +125,7 @@ Et les détails vous ne les anticiperez pas tous.
 
 Voyez la construction de votre application, épine dorsale de votre entreprise, comme une sculpture ou du dessin. Au début vous ne faites que dégrossir les contours, vous créez les formes. Ensuite seulement vous attaquez les détails dont certains que vous découvrirez à l'inspiration en réalisant votre oeuvre.
 
-\[caption id="attachment\_1398" align="aligncenter" width="756"\][![](/images/dbe5d-maxresdefault.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/11/dbe5d-maxresdefault.jpg) Superbe illustration par ZHC que le temps est crucial pour faire les choses bien (https://www.youtube.com/watch?v=v6mHKcdwpwY)\[/caption\]
+\[caption id="attachment\_1398" align="aligncenter" width="756"\]![](/images/dbe5d-maxresdefault.jpg) Superbe illustration par ZHC que le temps est crucial pour faire les choses bien (https://www.youtube.com/watch?v=v6mHKcdwpwY)\[/caption\]
 
  
 
@@ -171,7 +171,7 @@ Bref, vous l’aurez compris, très très rare sont les vrais “fullstack”. E
 
 Une définition que je préfère est-celle de [profil en T](https://en.wikipedia.org/wiki/T-shaped_skills) (ou T-shaped skills) dans le sens où elle résume mieux la réalité, il s’agit d’une personne ayant une spécialité (le pilier du T) et un ensemble de connaissances généralistes lui permettant de travailler en dehors de sa zone de spécialisation (la barre du T). Et vous trouverez des T de différentes formes, un pilier plus court et une barre plus large ou inversement un pilier très long mais une barre plus courte.
 
-[![](/images/b2059-image4.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/b2059-image4.png)
+![](/images/b2059-image4.png)
 
 Mais pourquoi parler de ça ?
 
@@ -189,7 +189,7 @@ C’est à ce prix là que votre équipe sera capable d’adresser des sujets de
 
 Si on apprend une chose assez tôt c’est bien cela, évitez de réinventer la roue.
 
-[![](/images/6b528-image3.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/6b528-image3.png)
+![](/images/6b528-image3.png)
 
  
 
@@ -203,7 +203,7 @@ MAIS, à un moment dans la vie d’une boîte, l’adage “ne pas réinventer l
 
 Parfois, on réinvente la roue et c’est pas plus mal.
 
-[![](/images/e6bb4-image5.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/e6bb4-image5.png)
+![](/images/e6bb4-image5.png)
 
 (J’ai repris les images du site de Hteumeuleu et vous retrouverez globalement cette réflexion autour de la réinvention de la roue sur [un très bon billet de blog](https://www.hteumeuleu.fr/reinventer-la-roue/)).
 
@@ -223,7 +223,7 @@ A quel moment, les petites choses qu’il manque aux produits que vous utilisez 
 
 Je remet cette image de xkcd parce qu’elle est aussi d’actualité pour ce sujet.
 
-[![](/images/7e48f-image2.png)](http://eventuallycoding.com/wp-content/uploads/2018/11/7e48f-image2.png)
+![](/images/7e48f-image2.png)
 
 Peut-être qu’à un moment la fonctionnalité en plus elle devient tellement cruciale que vous allez la créer cette équipe de recherche pour y passer du temps !
 

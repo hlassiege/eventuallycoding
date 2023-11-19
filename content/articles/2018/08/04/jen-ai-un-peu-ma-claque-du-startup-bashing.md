@@ -1,7 +1,7 @@
 ---
 id: "1379"
 title: "J'en ai un peu ma claque du startup bashing"
-description: "[![](/images/969f4-n8u6k1.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/969f4-n8u6k1.jpg)Mais vous allez me dire, \"non mais c'est quoi ..."
+description: "![](/images/969f4-n8u6k1.jpg)Mais vous allez me dire, \"non mais c'est quoi ..."
 date: "2018-08-04"
 categories: 
   - "waza"
@@ -11,7 +11,7 @@ tags:
 cover: "969f4-n8u6k1.jpg"
 ---
 
-[![](/images/969f4-n8u6k1.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/969f4-n8u6k1.jpg)Mais vous allez me dire, "non mais c'est quoi ce titre de billet ! Pourquoi t'écris ca ? C'est pas ton genre !" Bon, alors déjà je fais ce que je veux et oui cette fois j'ai envie de parler un peu de Paul et Mickey (\*)
+![](/images/969f4-n8u6k1.jpg)Mais vous allez me dire, "non mais c'est quoi ce titre de billet ! Pourquoi t'écris ca ? C'est pas ton genre !" Bon, alors déjà je fais ce que je veux et oui cette fois j'ai envie de parler un peu de Paul et Mickey (\*)
 
 Et bon sang oui, en ce moment j'en ai marre du "startup bashing" et j'assume, c'est biaisé comme avis car je bosse dans une "startup".
 
@@ -33,11 +33,11 @@ Ok c'est bien gentil mais on en parle quand du startup bashing ? Oui j'ai diverg
 
 Vous voulez vous faire plaisir, [faites une recherche de #startupnation sur Twitter](https://twitter.com/search?q=%23startupnation&src=typd) :
 
-[![](/images/b939e-startups.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/b939e-startups.jpg)
+![](/images/b939e-startups.jpg)
 
 La foutue grande majorité de ces tweets sont clairement négatifs. Et il y en a beaucoup. On a l'impression que tout les soucis en entreprise c'est nouveau avec les startups. La précarité, c'est les startups, le sexisme, c'est les startups, le burnout, c'est les startups et j'en passe. Qu'il y ait des gens qui n'ont pas envie de bosser en grandes boites, en petites boites, dans un secteur en particulier etc... C'est de tout temps. Mais qu'est ce qu'on fait les startups pour ce type de tweet ?
 
-[![](/images/a484d-startup2.jpg)](http://eventuallycoding.com/wp-content/uploads/2018/08/a484d-startup2.jpg) Pour rappel les startups c'est tout autant la petite boite francaise Oscadi, 12 personnes, dans le domaine du médical et qui propose un kit pour faire des échographies en situation de mobilité que Uber, énorme boite US et dont je ne vous ferais pas l'insulte de vous expliquer leur boulot.
+![](/images/a484d-startup2.jpg) Pour rappel les startups c'est tout autant la petite boite francaise Oscadi, 12 personnes, dans le domaine du médical et qui propose un kit pour faire des échographies en situation de mobilité que Uber, énorme boite US et dont je ne vous ferais pas l'insulte de vous expliquer leur boulot.
 
 Un type en scooter se prend une prune, il fait partie de la #startupnation Les heures supplémentaires pour les profs c'est #startupnation Le gel de l'indice des fonctionnaires, encore la #startupnation
 
@@ -71,7 +71,7 @@ A côté de ça, les startups ou ex startups c'est aussi votre moteur de recherc
 
 > "La disruption par le brainstorming boosté par le happiness officer, on en a gros"
 
-[![](/images/8a523-gif-kaamelott-le-top-20-91.gif)](http://eventuallycoding.com/wp-content/uploads/2018/08/8a523-gif-kaamelott-le-top-20-91.gif)
+![](/images/8a523-gif-kaamelott-le-top-20-91.gif)
 
 La je vais pas vous contredire et ça me fatigue aussi. Les nouveaux métiers qui n'en sont pas, les nouveaux concepts qui n'en sont pas. Ok c'est pénible. C'est comme tout, il y a des modes. Après c'est assez général, les Chief Digital officer fleurissent dans les grands groupes traditionnels. Ils organisent des safaris, oui je déconne pas, des safaris, dans les petites boites pour "digitaliser l'esprit de leurs collaborateurs".
 

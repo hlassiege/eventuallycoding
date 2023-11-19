@@ -1,7 +1,7 @@
 ---
 id: "666"
 title: "Nosql, 4 bases à la loupe 2/4"
-description: "[![](/images/nosql-logo.gif \"nosql-logo\")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 d..."
+description: "![](/images/nosql-logo.gif \"nosql-logo\")Vous vous rappelez du bouquin [7 d..."
 date: "2012-11-11"
 categories: 
   - "waza"
@@ -12,7 +12,7 @@ tags:
 cover: "nosql-logo.gif"
 ---
 
-[![](/images/nosql-logo.gif "nosql-logo")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-14/nosql-logo/)Vous vous rappelez du bouquin [7 databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks) ? Pour le coup j'ai eu l'occasion de réaliser une expérience un peu moins ambitieuse, seulement 4 bases de données. Et si je n'ai pas été aussi loin que le bouquin précédent je vous propose quand même un retour d'expérience sur :
+![](/images/nosql-logo.gif "nosql-logo")Vous vous rappelez du bouquin [7 databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks) ? Pour le coup j'ai eu l'occasion de réaliser une expérience un peu moins ambitieuse, seulement 4 bases de données. Et si je n'ai pas été aussi loin que le bouquin précédent je vous propose quand même un retour d'expérience sur :
 
 - Redis
 - Solr
@@ -163,7 +163,7 @@ Du coup, si c’est une base de données et qu’on y trouve toutes les fonction
 
 La première fois que JB m’a parlé d’utiliser Lucene + Mongo ou Redis j’avoue ne pas avoir bien compris le but. Pourquoi deux modes de stockage ? Même après la présentation faite au JUG par Xebia [http://www.parisjug.org/xwiki/bin/view/Meeting/20120703](http://www.parisjug.org/xwiki/bin/view/Meeting/20120703) je n’avais pas encore le recul nécessaire. Et oui, il a fallu que je pratique car je fais partie des personnes qui comprennent vite quand on leur explique longtemps ^^
 
-[![](/images/mongo.lucene-300x91.png "mongo.lucene")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-24/mongo-lucene/)
+![](/images/mongo.lucene-300x91.png "mongo.lucene")
 
 Effectivement ma première idée lorsque j’ai testé Lucene c’était de l’utiliser comme stockage primaire. Sans entrer dans les détails Lucene fait bien la différence entre le **stockage** d’une donnée, qui permet donc d’utiliser Lucene comme un entrepôt de données, et **l’indexation** d’une donnée qui la rend disponible pour la recherche. Dans notre cas, il suffisait de stocker la donner en plus de l’indexer.
 
@@ -175,7 +175,7 @@ Lucene est optimisé pour les recherches, moins pour manipuler de la donnée et 
 
 La pratique courante donc c’est de profiter des capacités de recherche de Lucene et de l’efficacité de Mongo pour le stockage. On stocke uniquement les ID de nos entités sous Lucene et on indexe toutes les propriétés nécessaires à la recherche. Le stockage s’effectue donc sous Mongo. Les recherches permettent de récupérer des ID qui permettront par la suite d’aller chercher nos enregistrements dans Mongo.
 
-[![](/images/mongo.lucene2-300x294.png "mongo.lucene2")](http://hakanai.free.fr/index.php/nosql-4-bases-a-la-loupe-24/mongo-lucene2/)
+![](/images/mongo.lucene2-300x294.png "mongo.lucene2")
 
 Cool, en tout cas une chose était sure, le projet se ferait avec Lucene.
 

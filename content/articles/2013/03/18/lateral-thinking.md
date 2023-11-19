@@ -22,15 +22,15 @@ Tout d’abord un petit test, voyons vos capacités à innover pour répondre à
 
 Si je vous demandais en ne touchant qu’un seul verre d’alterner les verres pleins et les verres vides sur cette rangée ?
 
-[![](/images/glasses.gif "glasses")](http://hakanai.free.fr/index.php/lateral-thinking/glasses/)
+![](/images/glasses.gif "glasses")
 
 En adoptant une étape standard, vous ne réfléchiriez qu’en terme de permutations de verre et le problème vous paraitrait insoluble. Mais si vous preniez le second verre pour en verser le contenu dans le 5ème avant de le reposer à sa place d’origine ?
 
 Un autre test ?
 
-Essayez de joindre les 9 points de ce carré en utilisant seulement 4 traits sans lever la main et sans repasser sur le même trait : [![](/images/ninedots.gif "ninedots")](http://hakanai.free.fr/index.php/lateral-thinking/ninedots/) La réponse consiste à sortir des limites de la boîte délimité par les points :
+Essayez de joindre les 9 points de ce carré en utilisant seulement 4 traits sans lever la main et sans repasser sur le même trait : ![](/images/ninedots.gif "ninedots") La réponse consiste à sortir des limites de la boîte délimité par les points :
 
-[![](/images/ninedotslines.gif "ninedotslines")](http://hakanai.free.fr/index.php/lateral-thinking/ninedotslines/)
+![](/images/ninedotslines.gif "ninedotslines")
 
 Et c’est de cette énigme que vient l’expression  : **Thinking outside the box**, “Penser en dehors de la boîte”.
 
@@ -48,7 +48,7 @@ En informatique nous avons souvent des problèmes à résoudre. Prenons en un au
 
 J’arrive sur un projet, il existe une intégration continue qui joue des tests d’intégration, un bon milliers, durant plus d’une heure, parfois 5, et échouant aléatoirement..
 
-[![](/images/yz9z6q8.gif "YZ9Z6Q8")](http://hakanai.free.fr/index.php/lateral-thinking/yz9z6q8/)
+![](/images/yz9z6q8.gif "YZ9Z6Q8")
 
 Oui, c’est triste...
 
@@ -65,7 +65,7 @@ Revoyons cela sur une autre approche et autorisons nous une piste abbérante :
 
 et si on supprimait les tests ?
 
-[![](/images/catcrazy.jpg "catcrazy")](http://hakanai.free.fr/index.php/lateral-thinking/catcrazy/)
+![](/images/catcrazy.jpg "catcrazy")
 
 De cette hypothèse de départ étrange, on peut être amené à se poser des questions :
 
@@ -116,12 +116,12 @@ Voilà, vous en savez un peu plus sur le Lateral Thinking. Et ce mode de pensée
 
 Et ce n'est pas pour rien que nous sommes inspirés de l'énigme des 9 points pour le logo de [Lateral Thoughts](http://www.lateral-thoughts/) :
 
-[![](/images/logoapp.png "logoapp")](http://hakanai.free.fr/index.php/lateral-thinking/logoapp/)
+![](/images/logoapp.png "logoapp")
 
 Pour la petite histoire, le logo a été récemment revisité par [Laurent Chesneau](http://www.lolograph.com/), un bon designer. Et pour mémoire l’ancien c’était celui-ci :
 
-[![](/images/logoappold.png "logoappold")](http://hakanai.free.fr/index.php/lateral-thinking/logoappold/)
+![](/images/logoappold.png "logoappold")
 
 Et pour rester dans l’inattendu, le décalage, Laurent Chesneau nous a proposé un second logo que l’on va utiliser en bonus de temps en temps basé sur cette notion de mouvement, de déplacement latéral. C’est notamment notre nouvelle icône sur Twitter !
 
-[![](/images/redcrabe2.jpg "redcrabe")](http://hakanai.free.fr/index.php/lateral-thinking/redcrabe-3/)
+![](/images/redcrabe2.jpg "redcrabe")

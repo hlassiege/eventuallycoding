@@ -1,7 +1,7 @@
 ---
 id: "413"
 title: "Faire du soft sans budget ? (Nemrod 3/5)"
-description: "[![](/images/logo-web.png \"logo-web\")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) Ok, vous pensez que pour démarrer il vous ..."
+description: "Ok, vous pensez que pour démarrer il vous ..."
 date: "2011-10-04"
 categories: 
   - "waza"
@@ -13,7 +13,7 @@ tags:
 cover: "logo-web.png"
 ---
 
-[![](/images/logo-web.png "logo-web")](http://eventuallycoding.com/wp-content/uploads/2011/10/logo-web.png) Ok, vous pensez que pour démarrer il vous faut de l’argent, des business angel, gagner au loto ? Et non, c’est là que c’est beau en informatique, on peut bosser de chez soi avec un minimum d’outil.
+![](/images/logo-web.png "logo-web") Ok, vous pensez que pour démarrer il vous faut de l’argent, des business angel, gagner au loto ? Et non, c’est là que c’est beau en informatique, on peut bosser de chez soi avec un minimum d’outil.
 
 Pour Nemrod l’investissement est relativement minimal :
 

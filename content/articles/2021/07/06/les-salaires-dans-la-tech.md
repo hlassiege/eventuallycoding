@@ -61,7 +61,7 @@ Ces écarts de salaire sont aussi liés à la segmentation du marché et à un e
 
 Sauf que, c'est de ce groupe d'entreprise qu'on parle le plus, produisant un effet loupe qui déforme la vision du marché.
 
-[![](/images/Illustration_sans_titre-16-1024x664.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/07/Illustration_sans_titre-16.jpg)
+![](/images/Illustration_sans_titre-16-1024x664.jpg)
 
 Alors on le sait, il faut se méfier des bulles de filtre. On peut vivre dans un écosystème, qu’il soit géographique, social, sectoriel ou autre et être entouré de personnes dans une situation assez similaire. Malgré tout, il est facile de se faire avoir et d’autant plus si cela paraît séduisant. 
 

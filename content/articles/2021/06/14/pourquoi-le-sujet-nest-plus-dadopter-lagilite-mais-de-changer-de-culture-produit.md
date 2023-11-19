@@ -34,7 +34,7 @@ Il faut aller plus loin désormais, l’Agile est censé avoir été compris (et
 
 ## L'agile est mort
 
-[![](/images/coach-agile-transformation-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/coach-agile-transformation.jpg)
+![](/images/coach-agile-transformation-1024x1024.jpg)
 
 _les cabinets de conseil devant la hype qui change_
 
@@ -52,7 +52,7 @@ Mais, autant le discours de ces dernières années sur l'agilité m'a fatigué, 
 
 ## L'agilité ne se réduit pas à son formalisme
 
-[![](/images/product-by-scrum-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/product-by-scrum.jpg)
+![](/images/product-by-scrum-1024x1024.jpg)
 
 Dans le fameux questionnaire dont je parlais ci-dessus, j'ai noté que les questions portaient principalement sur le formalisme :
 
@@ -82,7 +82,7 @@ Je sature également des serious game, ou des conférences qui ne font qu'effleu
 
 ## Repêchons ce qui peut l’être
 
-[![](/images/peche-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/peche.jpg)
+![](/images/peche-1024x1024.jpg)
 
 Je suis loin de tout jeter. De nombreuses méthodes agiles donnent des outils à adopter et adapter pour sa propre organisation et certaines méthodes sont très efficaces.
 
@@ -160,7 +160,7 @@ Les OKRs se concentrent sur le résultat. Une feature n'est qu'une étape et le 
 
 **outcome vs output.**
 
-[![](/images/OKR-1024x662.jpg)](https://eventuallycoding.com/wp-content/uploads/2021/06/OKR.jpg)
+![](/images/OKR-1024x662.jpg)
 
 ## Stop aux Product Owner, passez aux Product Manager
 
@@ -194,13 +194,13 @@ Et enfin, renvoyez votre processus de roadmap...
 
 Je vais reprendre un schéma de Marty Cagan qui résume bien le sujet. Il faut passer de ca :
 
-[![](/images/product-failure.png)](https://eventuallycoding.com/wp-content/uploads/2021/06/product-failure.png)
+![](/images/product-failure.png)
 
 Cf conférence [https://www.mindtheproduct.com/video-the-root-causes-of-product-failure-by-marty-cagan/](https://www.mindtheproduct.com/video-the-root-causes-of-product-failure-by-marty-cagan/)
 
  à ca :
 
-[![](/images/discovery-delivery.png)](https://eventuallycoding.com/wp-content/uploads/2021/06/discovery-delivery.png)
+![](/images/discovery-delivery.png)
 
 du même Marty Cagan : [https://www.mindtheproduct.com/product-is-hard-by-marty-cagan/](https://www.mindtheproduct.com/product-is-hard-by-marty-cagan/) 
 

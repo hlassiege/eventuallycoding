@@ -1,7 +1,7 @@
 ---
 id: "1403"
 title: "Eviter le principe de Peter, ou, l’évolution du dev vers le dev"
-description: "[![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)
+description: "![](/images/070c8-peters_principle.svg_.png)
 
 Dans ce billet..."
 date: "2019-04-01"
@@ -12,7 +12,7 @@ tags:
 cover: "svg_.png"
 ---
 
-[![](/images/070c8-peters_principle.svg_.png)](http://eventuallycoding.com/wp-content/uploads/2019/04/070c8-peters_principle.svg_.png)
+![](/images/070c8-peters_principle.svg_.png)
 
 Dans ce billet j'aimerais partager nos réflexions chez Malt autour de l’évolution de carrière. 
 

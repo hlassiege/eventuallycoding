@@ -1,7 +1,7 @@
 ---
 id: "524"
 title: "Devoxx France 2012 jour 2/3"
-description: "[![](/images/logo-devoxx-france-seul.png \"Logo-Devoxx-France-seul\")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn..."
+description: ""
 date: "2012-04-22"
 categories: 
   - "waza"
@@ -26,7 +26,7 @@ Bon sinon on me souffle dans l'oreillette que même si j'ai raté la keynote des
 - 36 JUG et UG ;
 - 1250 participants (contre 450 initialement prévus).
 
-[![](/images/pezziardi.png "pezziardi")](http://eventuallycoding.com/wp-content/uploads/2012/04/pezziardi.png)Ensuite est venu le tour de la keynote de Pierre Pezziardi, pour moi la meilleure keynote de cette édition tant elle a su nous faire aller au delà de notre métier de développeur. Forcément, le type n'est pas qu'un geek, c'est aussi un boss et l'un des auteurs de [l'informatique conviviale](http://informatique-conviviale.eyrolles.com/) que j'avais déjà lu et que j'avais trouvé très juste. Je vous le conseille vivement par ailleurs d'autant qu'on peut le lire en ligne. Je vais tenter de résumer en quelques lignes l'essence de cette note d'ouverture mais je pourrais difficilement reproduire avec autant de justesse la vision qu'il a su exprimer. Je vous invite fortement à revoir la keynote quand elle sera disponible sur Parleys tant sa vision était forte.
+![](/images/pezziardi.png "pezziardi")Ensuite est venu le tour de la keynote de Pierre Pezziardi, pour moi la meilleure keynote de cette édition tant elle a su nous faire aller au delà de notre métier de développeur. Forcément, le type n'est pas qu'un geek, c'est aussi un boss et l'un des auteurs de [l'informatique conviviale](http://informatique-conviviale.eyrolles.com/) que j'avais déjà lu et que j'avais trouvé très juste. Je vous le conseille vivement par ailleurs d'autant qu'on peut le lire en ligne. Je vais tenter de résumer en quelques lignes l'essence de cette note d'ouverture mais je pourrais difficilement reproduire avec autant de justesse la vision qu'il a su exprimer. Je vous invite fortement à revoir la keynote quand elle sera disponible sur Parleys tant sa vision était forte.
 
 Pour en faire ressortir quelques thèmes, l'objet était de se poser la question si en tant que développeur nous étions bien fier de notre métier. Et pour être fier de notre métier il est nécessaire d'en comprendre la valeur réelle au niveau le plus haut. Il a abordé un grand nombre de thèmes, l'ouverture aux autres, la compréhension du métier de chacun, la recherche de valeur globale et non des optimums locaux, le manifeste pour [l'egoless programming](http://www.codinghorror.com/blog/2006/05/the-ten-commandments-of-egoless-programming.html) et j'en passe. Si nous parvenons à dépasser nos lignes, se mettre à la place des autres en arrêtant de nous vautrer dans notre chère complexité, alors oui nous pourrons être fier d'être développeur pour la valeur que nous aurons pu faire émerger et qui aura su profiter au plus grand nombre. Dommage, je ne trouve pas la citation de Ivan Illich qui avait été donné, je l'aurais bien cité à nouveau pour conclure sur cette keynote.
 
@@ -62,7 +62,7 @@ Et justement j'en profites pour glisser quelques mots sur la soirée Meet And Gr
 
 Cool, j'ai profité de la soirée pour gagner un super t-shirt angry nerds. C'était pas bien compliqué, il suffisait de twitter pour Atlassian lors de la soirée et on récoltait un t-shirt et une bière australienne. On peut dire que c'était un bon deal ^^
 
-[![](/images/angrynerds_splashscreen2.png "AngryNerds_SplashScreen2")](http://eventuallycoding.com/wp-content/uploads/2012/04/angrynerds_splashscreen2.png)
+![](/images/angrynerds_splashscreen2.png "AngryNerds_SplashScreen2")
 
 Je note d'ailleurs que ce t-shirt est le seul truc que j'ai gagné sur tous jeux auxquels j'ai participé pendant Devoxx France. Argh... Ca me fait justement faire la transition histoire de remercier tous les sponsors qui ont animé leurs stands chacun à leur façon :
 

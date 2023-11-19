@@ -62,7 +62,7 @@ Commençons donc par la partie “simple”, les bonnes pratiques de développem
 
 ### **L’encodage**
 
-[![](/images/c13cf-image12.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/c13cf-image12.png)
+![](/images/c13cf-image12.png)
 
  
 
@@ -237,7 +237,7 @@ Ce mécanisme permet d’organiser les ressources hiérarchiquement et de recher
 
 Dans l’exemple suivant, l’application a déterminé que l’utilisateur parle Français Canadien. Elle recherche donc d’abord la traduction en Français Canadien, puis en Français si elle n’existe pas, puis enfin dans la langue par défaut si la traduction n’a toujours pas été trouvée.
 
-[![](/images/24890-image8.png)](https://eventuallycoding.com/wp-content/uploads/2019/10/24890-image8.png)
+![](/images/24890-image8.png)
 
 #### **L’utilisation des codes ISO**
 
@@ -325,13 +325,13 @@ Pour un nombre, l’utilisation de virgules ou de points comme séparateur des m
 
 Quelques exemples pour les nombres tiré de la doc Oracle :
 
-[![](/images/ab60f-image7.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/ab60f-image7.png)
+![](/images/ab60f-image7.png)
 
 Idem pour l’affichage des montants, on trouvera selon les pays les devises avant ou après le nombre :
 
  
 
-[![](/images/66439-image4.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/66439-image4.png)
+![](/images/66439-image4.png)
 
 Bref, le foutoir.
 
@@ -407,7 +407,7 @@ Bref, je ne vais pas entrer dans le détail mais le conseil relativement très g
 
 Les images ont parfois besoin d’être internationalisé car elles contiennent du texte ou ont des références culturelles qu’il faut pouvoir adapter à un autre pays.
 
-[![](/images/b1a43-image11.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/b1a43-image11.png)
+![](/images/b1a43-image11.png)
 
 Malheureusement l’internationalisation d’une image est moins standardisée. Seul C# propose un mécanisme à travers les fichiers resx qui peuvent aussi contenir des images.
 
@@ -461,13 +461,13 @@ Exemple :
 
 Ici, [splitweet](http://fr.splitweet.com/) _(note 2018 : site qui n’existe plus aujourd’hui)_ propose une mise en page centrée avec taille fixe en largeur. La police initiale est déjà assez grande et ne change pas en passant au Japonais par contre le div du dessous s'agrandit sans casser le reste de la mise en page.
 
-[![](/images/af8a5-image13.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/af8a5-image13.png)
+![](/images/af8a5-image13.png)
 
 Même choix chez [Atlassian](http://www.atlassian.com), la police initiale est assez grande pour ne pas avoir besoin de la changer. La mise en page n’est pas cassée malgré le fait que les paragraphes sont plus petits sur la version Japonaise.
 
-[![](/images/fd2b8-image3.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/fd2b8-image3.png)
+![](/images/fd2b8-image3.png)
 
-[![](/images/865ef-image2.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/865ef-image2.png)
+![](/images/865ef-image2.png)
 
 ### **l’affichage LTR (left to right) et RTL (right to left)**
 
@@ -501,9 +501,9 @@ Exemple :
 
 Facebook gère bien le passage à l’Arabe. Tous les positionnements sont inversés, y compris la barre d’action.
 
-[![](/images/83dc8-image1.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/83dc8-image1.png)
+![](/images/83dc8-image1.png)
 
-[![](/images/d00b3-image9.png)](http://eventuallycoding.com/wp-content/uploads/2018/05/d00b3-image9.png)
+![](/images/d00b3-image9.png)
 
 ### **Pour aller plus loin**
 

@@ -1,7 +1,7 @@
 ---
 id: "515"
 title: "Devoxx France 2012 jour 1/3"
-description: "[![](/images/logo-devoxx-france-seul.png \"Logo-Devoxx-France-seul\")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.pn..."
+description: ""
 date: "2012-04-22"
 categories: 
   - "waza"
@@ -10,7 +10,7 @@ tags:
 cover: "logo-devoxx-france-seul.png"
 ---
 
-[![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")](http://eventuallycoding.com/wp-content/uploads/2012/04/logo-devoxx-france-seul.png)Eh bien ça y est, on est dimanche, j'ai fini de récupérer de ces 3 jours de conférences et je vais faire un petit résumé de ce que j'ai pu y voir. Tout d'abord, ayant eu la chance de voir l'évènement grandir en coulisses, ce fut une super bonne surprise de voir autant de monde. Ok on avait l'info depuis quelques semaines déjà, la conférence était pleine alors que l'on attendait la moitié de gens en décembre. Ca remet les choses en perspective de voir arriver cette foule de geeks sur trois jours. Enfin je vous laisse imaginer cette perspective vu des vestiaires ^^ Au moins je pourrais dire que j'ai du vous voir tous passer si jamais vous avez déposé quelque chose ;) Donc 1200 personnes en dehors de l'aspect comptable, ça veut dire quoi ? Eh bien ca souligne l'importance de la communauté de développeurs en France et c'est une bonne nouvelle. Jusqu'ici nous nous savions déjà via les user groups que cette communauté était bien vivante mais restait malgré tout assez confidentielle. La conférence What's Next l'année dernière avait été un bel évènement (je n'ai malheureusement pas les chiffres sur le nombre d'inscrit) mais cette fois on est passé à l'étape au dessus et surtout, avec 75% de talks francophones, elle met en évidence une très belle communauté de speakers, du novice prometteur à la rock star confirmé qui parle la langue de Molière.
+![](/images/logo-devoxx-france-seul.png "Logo-Devoxx-France-seul")]Eh bien ça y est, on est dimanche, j'ai fini de récupérer de ces 3 jours de conférences et je vais faire un petit résumé de ce que j'ai pu y voir. Tout d'abord, ayant eu la chance de voir l'évènement grandir en coulisses, ce fut une super bonne surprise de voir autant de monde. Ok on avait l'info depuis quelques semaines déjà, la conférence était pleine alors que l'on attendait la moitié de gens en décembre. Ca remet les choses en perspective de voir arriver cette foule de geeks sur trois jours. Enfin je vous laisse imaginer cette perspective vu des vestiaires ^^ Au moins je pourrais dire que j'ai du vous voir tous passer si jamais vous avez déposé quelque chose ;) Donc 1200 personnes en dehors de l'aspect comptable, ça veut dire quoi ? Eh bien ca souligne l'importance de la communauté de développeurs en France et c'est une bonne nouvelle. Jusqu'ici nous nous savions déjà via les user groups que cette communauté était bien vivante mais restait malgré tout assez confidentielle. La conférence What's Next l'année dernière avait été un bel évènement (je n'ai malheureusement pas les chiffres sur le nombre d'inscrit) mais cette fois on est passé à l'étape au dessus et surtout, avec 75% de talks francophones, elle met en évidence une très belle communauté de speakers, du novice prometteur à la rock star confirmé qui parle la langue de Molière.
 
 Première université à laquelle j'ai pu assister mercredi : Les 5 mercenaires du Devops. Devops c'est un thème qui me tient à coeur. Pour résumer en quelques mots :
 
@@ -33,7 +33,7 @@ Il a présenté des principes généraux sur les mécaniques permettant d'être 
 
 Il rappelait aussi quelques principes, couper les notifications emails ou messagerie instantanée, utiliser un casque, apprendre les raccourcis claviers de son IDE, cou. Bon ok, il précise qu'il faut éviter d'en arriver là :
 
-[![](/images/focus.png "focus")](http://eventuallycoding.com/wp-content/uploads/2012/04/focus.png)
+![](/images/focus.png "focus")
 
 Il a ensuite listé quelques bons principes de programmation. Des principes plein de bon sens c'est vrai, mais comme une personne avait dit (je ne retrouve plus l'auteur) :
 
@@ -49,7 +49,7 @@ Sur cette présentation, si je devais en ressortir 3 choses en particulier ce se
 
 - le principe [yagni](http://fr.wikipedia.org/wiki/YAGNI "YAGNI"). Punaise celui là il faudrait vraiment l'enseigner partout et à tout le monde tellement j'en ai marre de coder des trucs qui serviront jamais à rien. J'ai adoré l'image suivante :
 
-[![](/images/yagni-300x255.png "yagni")](http://hakanai.free.fr/wp-content/uploads/2012/04/yagni.png)
+![](/images/yagni-300x255.png "yagni")
 
  
 
@@ -59,7 +59,7 @@ et enfin le dernier qui rejoint le thème principal de la conférence tel que l'
 
 Vous voyez l'image suivante ? Eh bien dites vous que vous évoluez dans le même environnement et qu'une autre personne sans vos compétences ne pourrait rien faire sans déclencher de catastrophes. Dites vous aussi que ce qui fait votre valeur c'est votre capacité à diagnostiquer et agir rapidement dans un environnement complexe.
 
-[![](/images/plomberie.png "plomberie")](http://eventuallycoding.com/wp-content/uploads/2012/04/plomberie.png)
+![](/images/plomberie.png "plomberie")
 
  
 

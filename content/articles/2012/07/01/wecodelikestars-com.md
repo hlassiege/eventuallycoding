@@ -1,7 +1,7 @@
 ---
 id: "588"
 title: "wecodelikestars.com"
-description: "[![](/images/Illustration_sans_titre-29-1024x1024.jpg)](https://eventuallycoding.com/wp-content/uploads/2020/12/Illustration_sans_titre-29.jpg)
+description: "![](/images/Illustration_sans_titre-29-1024x1024.jpg)
 
 _Le t..."
 date: "2012-07-01"
@@ -23,7 +23,7 @@ Le premier mois les développeurs de "**wecodelikestars.com**", une petite start
 
 La décision fut portée à la sphère de planification stratégique pour le mois suivant, avec une réforme dont les répercussions se feraient ressentir à tous les niveaux de la délégation. Finalement, 5 mois plus tard lors du départ d'un nouveau challenge, l'équipe wecodelikestars.com reprenait une fulgurante avance en introduisant des concepts de gamification dans sa première appli mobile. Cette fois-là, l'équipe de la DSI pu a peine produire le premier écran de la maquette évoqué sur le powerpoint du précédent challenge...
 
-  [![](/images/Illustration_sans_titre-27-300x300.jpg)](https://eventuallycoding.com/wp-content/uploads/2012/07/Illustration_sans_titre-27.jpg) La nouvelle analyse du Comité de Consultation rendait les constatations suivantes :
+  ![](/images/Illustration_sans_titre-27-300x300.jpg) La nouvelle analyse du Comité de Consultation rendait les constatations suivantes :
 
 1. L'équipe de wecodelikestars.com était formée de 5 développeurs(euses)...
 2. L'équipe de la DSI, suite aux réformes décidées par le Comité de Consultation et approuvés par la haute sphère de planification, comprenait :
@@ -34,7 +34,7 @@ La décision fut portée à la sphère de planification stratégique pour le moi
 
 La conclusion du Comité fut unanime et lapidaire : « Ce développeur est un bon à rien ».
 
-[![](/images/Illustration_sans_titre-28-300x170.jpg)](https://eventuallycoding.com/wp-content/uploads/2012/07/Illustration_sans_titre-28.jpg)
+![](/images/Illustration_sans_titre-28-300x170.jpg)
 
 Au challenge suivant se présentait une nouvelle opportunité pour l'équipe de la DSI. En effet, le Département du Haut Management de la DSI, en collaboration avec le Département de Recherche sur les Ressources Humaines de cette même société avaient mis au point une stratégie novatrice qui améliorerait sans aucun doute possible le rendement et la productivité, grâce à l'introduction de substantielles modifications dans la structure. C'était là la clef de voûte du succès, l'aboutissement ultime d'une méthodologie qui ferait pâlir d'envie même les meilleurs managers au monde...
 
@@ -56,4 +56,4 @@ Le résultat fut catastrophique. L'équipe de wecodelikestars.com arrivait cett
 Après plusieurs jours d'épuisantes réunions et autant de séances de brainstorming, le Comité décidait de punir le développeur en lui supprimant ses primes sur objectifs tout en annotant son dossier pour lui éviter toute promotion à l'intérieur de la DSI dont la Grandeur et Réputation risquait de se voir ternie par une telle incompétence. Lors de la réunion de clôture, le Comité statuait :  
 « Pour le prochain challenge, nous engagerons un(e) nouveau développeur(se), mais par le biais d'un contrat d'Outsourcing, de manière à éviter toute friction syndicale et d'esquiver tout contrat de travail et charges sociales qui en découlent, éléments qui, sans aucun doute, ont jusque-là dégradé l'efficacité et la productivité de nos ressources ».
 
-[![](/images/Illustration_sans_titre-26-300x170.jpg)](https://eventuallycoding.com/wp-content/uploads/2012/07/Illustration_sans_titre-26.jpg)
+![](/images/Illustration_sans_titre-26-300x170.jpg)
