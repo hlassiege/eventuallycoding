@@ -9,7 +9,7 @@ categories:
   - "waza"
 tags: 
   - "principe-peter"
-cover: "svg_.png"
+cover: "070c8-peters_principle.svg_.png"
 ---
 
 ![](/images/070c8-peters_principle.svg_.png)
