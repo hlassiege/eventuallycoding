@@ -9,8 +9,10 @@ export default defineNuxtConfig({
             },
             script: [
                 {
-                    src: "https://digianalytics.fr/pixel/73jqBv5FmFIZiWt2",
+                    src: "https://api.pirsch.io/pirsch.js",
+                    id: "pirschjs",
                     defer: true,
+                    "data-code": "h0iQydru2I8bInEwhCLefaxGV5SryP06",
                     type: "text/javascript",
                 },
             ],
