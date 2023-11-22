@@ -1,0 +1,1 @@
+import{_ as n}from"./nuxt-img.70f335ff.js";import{_ as t,o as s,c,b as r,k as _}from"./entry.a3672631.js";const a={},l={class:"hero-banner"};function i(e,m){const o=n;return s(),c("section",l,[r(o,{src:"lofi.svg",class:"hero-banner-img",alt:"Blog Banner"}),_(e.$slots,"content")])}const d=t(a,[["render",i]]);export{d as H};
