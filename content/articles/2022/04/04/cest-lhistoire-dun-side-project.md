@@ -14,7 +14,7 @@ tags:
 cover: "coderwatch-logo.png"
 
 alternates:
-    - en: "https://eventuallycoding.com/en/2022/04/08/this-is-the-story-of-a-side-project"
+    - en: "https://eventuallycoding.com/en/2022/04/04/this-is-the-story-of-a-side-project"
 ---
 
 Très récemment, pris d’une envie de retour aux sources, je me suis lancé dans quelques sides projects. Et pour le dernier en date, je me suis imposé quelques défis que j’ai envie de raconter ici.

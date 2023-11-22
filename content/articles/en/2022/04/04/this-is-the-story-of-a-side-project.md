@@ -14,7 +14,7 @@ cover: "coderwatch-logo.png"
 
 language: "en"
 alternates:
-    - fr: "https://eventuallycoding.com/2022/04/08/cest-lhistoire-dun-side-project"
+    - fr: "https://eventuallycoding.com/2022/04/04/cest-lhistoire-dun-side-project"
 ---
 
 Very recently, I needed to go back to basics, I made a few side projects. And for the latest, I set myself some challenges that I want to tell here.
