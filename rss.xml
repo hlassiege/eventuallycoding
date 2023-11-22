@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Tue, 21 Nov 2023 20:38:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Nov 2023 07:54:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT à la rescousse]]></title>
+            <link>https://eventuallycoding.com/2023/11/chatgpt-to-the-rescue</link>
+            <guid>https://eventuallycoding.com/2023/11/chatgpt-to-the-rescue</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vous n'utilisez pas encore copilot ou chatGPT en tant que développeur(euse) ? Eh bien, laissez-moi vous montrer un exemple de pourquoi vous devriez.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT to the rescue]]></title>
+            <link>https://eventuallycoding.com/en/2023/11/chatgpt-to-the-rescue</link>
+            <guid>https://eventuallycoding.com/en/2023/11/chatgpt-to-the-rescue</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Not yet using copilot or chatGPT as a developer? Well, let me show you an example of why you should.]]></description>
         </item>
         <item>
             <title><![CDATA[Pourquoi utiliser un Internal Developer Portal]]></title>
