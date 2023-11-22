@@ -68,7 +68,7 @@ To get the final result, it took between **1 and 2 hours**, interspersed with nu
 
 (My ego says 3 times more, but I'm convinced it's wrong).
 
-But why 1 hour and not just 30 seconds for him to write his answer?
+But why 1 hour and not just 30 seconds for it to write his answer?
 
 In fact, it's not ChatGPT that's long, it's the person handling it who has to structure his request and take it to the right place.
 
@@ -88,7 +88,7 @@ A few things to know about ChatGPT
 
 - depending on how you ask the question, he'll drive you up the wall. He won't take a critical look at your approach.
 
-Let's take a few examples. I asked him:
+Let's take a few examples. I asked:
 
 > I write documents on Google docs. Do I have a way to read this doc from a python program?
 
@@ -116,7 +116,7 @@ print(document['body']['content'])
 
 He also told me that I had to create a service account on Google and activate the API. As I didn't know much about it, we had a few more exchanges so that he could explain it all to me.
 
-I'll pass on to you the few Python environment problems, which he also helped me to resolve, I finally got the file and asked him :
+I'll pass on to you the few Python environment problems, which he also helped me to resolve, I finally got the file and asked:
 
 > I've got access to my document, how do I convert the contents of the doc into Markdown?
 
@@ -170,7 +170,7 @@ He also told me
 
 > The images will be extracted into a folder named after the Markdown file name without its extension, followed by \_media. For example, if your Markdown file is called output.md, the folder containing the images will be output_media.
 
-But that's wrong. And he didn't seem to know the right answer, or I didn't ask him the right way. This time I had to go to the pypandoc doc to correct it and add a parameter to have my images in an output directory:
+But that's wrong. And he didn't seem to know the right answer, or I didn't ask the right way. This time I had to go to the pypandoc doc to correct it and add a parameter to have my images in an output directory:
 
 ```python
 output = pypandoc.convert_file(input_file, 'markdown', outputfile=output_file, extra_args=['--extract-media', '.'])
@@ -181,9 +181,9 @@ output = pypandoc.convert_file(input_file, 'markdown', outputfile=output_file, e
 
 I'll skip some of the following steps, which went very smoothly, copying the markdown file to the right place according to today's date, adding the yaml front matter headers.
 
-It went well, but I asked him the questions one by one, hence the final time. It seems to me that this is the most effective way of making progress with him: be very precise in your requests, so break down your instructions into small blocks.
+It went well, but I asked the questions one by one, hence the final time. It seems to me that this is the most effective way of making progress with it: be very precise in your requests, so break down your instructions into small blocks.
 
-I then asked him to use Deepl to translate the document into English.
+I then asked to use Deepl to translate the document into English.
 
 I note that he proposed a very simple and effective solution
 
@@ -232,7 +232,6 @@ For example:
 > Write me a python script that browses all my markdown articles contained in a content directory and its sub-directories.
 > Make me a list of the images used in these articles
 > Compare this list with the images contained in another directory called "images".
-
 > Output:
 >- give me the list of images used in each article
 >- Give me the list of unused images
@@ -249,7 +248,7 @@ You can find all the code produced [on Github](https://github.com/hlassiege/even
 
 I wasn't sure about the solution, I even steered it towards the wrong approach at first. I changed the specifications several times as I was evolving them while testing the result.
 
-As a developer, I know that he has saved me an incredible amount of time. He replaces me when I'm coding, with perfect knowledge of the APIs. This doesn't mean I don't have to think about my development process, test and refine my instructions, and tell him where the limits are. Which is normal, since he's not a mind reader and always needs an operator to guide him. And the operator's experience will influence the result obtained.
+As a developer, I know that he has saved me an incredible amount of time. He replaces me when I'm coding, with perfect knowledge of the APIs. This doesn't mean I don't have to think about my development process, test and refine my instructions, and tell it where the limits are. Which is normal, since he's not a mind reader and always needs an operator to guide it. And the operator's experience will influence the result obtained.
 But this opens the way to people with less development expertise, but still with the same working method.
 
 And no, it's not "less good".
