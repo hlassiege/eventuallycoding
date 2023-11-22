@@ -17,7 +17,7 @@ cover: "earth-320.jpg"
 
 language: "en"
 alternates:
-    - fr: "https://eventuallycoding.com/2022/04/08/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3"
+    - fr: "https://eventuallycoding.com/2022/04/14/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3"
 ---
 
 Let's talk about web integration, HTML, CSS and Frontend dev. 

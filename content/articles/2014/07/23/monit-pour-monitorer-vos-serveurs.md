@@ -95,7 +95,7 @@ check process nginx with pidfile /var/run/nginx.pid
 
 Les premières lignes servent à indiquer comment arrêter ou démarrer le programme. Les suivantes à définir des seuils d’alertes. Par exemple si le process prend plus de 80% de CPU sur 3 cycles, alors on envoie une alerte.
 
-Pour un process Java construit avec SpringBoot, aucun souci, [le fichier pid est bien créé au démarrage](http://www.eventuallycoding.com/index.php/spring-boot-dans-le-doute-reboote/).
+Pour un process Java construit avec SpringBoot, aucun souci, [le fichier pid est bien créé au démarrage](/2014/07/16/spring-boot-dans-le-doute-reboote).
 
 Quand ce n’est pas le cas, vous pouvez aussi demander à Monit de rechercher un pattern dans les process existants :
 
@@ -120,7 +120,7 @@ check host elasticsearch\_cluster\_health with address 0.0.0.0
    with timeout 60 seconds
  then alert
 
-Imaginez que toutes les urls de vie [dont nous avons parlé avec Spring Boot dans le précédent billet](http://www.eventuallycoding.com/index.php/spring-boot-dans-le-doute-reboote/) sont ainsi directement exploitables via Monit !
+Imaginez que toutes les urls de vie [dont nous avons parlé avec Spring Boot dans le précédent billet](/2014/07/16/spring-boot-dans-le-doute-reboote) sont ainsi directement exploitables via Monit !
 
 Et vous pouvez aussi surveiller les permissions d’un fichier, la présence d’un fichier, son contenu, le fait qu’il ait été altéré, le cpu, la température machine etc…
 
