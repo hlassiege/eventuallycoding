@@ -1,11 +1,11 @@
 repo_name: hlassiege/eventuallycoding
-report_id: 0c28c2db5ceedd2fa5b41c5047483784
+report_id: ecc47c526bf79209fe6f17099146ab97
 repo_type: Public
-timestamp: '2023-11-11T12:37:21+00:00'
+timestamp: '2023-12-14T10:25:05+00:00'
 requested_by: hlassiege
 provider: github
 branch: master
-detected_tools_count: 23
+detected_tools_count: 22
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -45,19 +45,55 @@ tools:
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
   detection_source: package.json
-  last_updated_by: Hugo Lassiège
-  last_updated_on: 2022-11-08 21:23:36.000000000 Z
+  last_updated_by: hlassiege
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source: package.json
+  last_updated_by: hlassiege
+  last_updated_on: 2022-05-09 11:24:01.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: hlassiege
+  last_updated_on: 2022-05-09 11:24:01.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source: package.json
+  last_updated_by: hlassiege
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: Vue.js
   description: A progressive framework for building user interfaces
   website_url: http://vuejs.org/
-  version: 3.2.47
+  version: 3.3.8
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
   last_updated_on: 2022-05-09 11:24:01.000000000 Z
@@ -103,7 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
   last_updated_on: 2023-02-19 19:53:19.000000000 Z
@@ -118,19 +154,6 @@ tools:
   detection_source: package.json
   last_updated_by: hlassiege
   last_updated_on: 2022-05-09 11:24:01.000000000 Z
-- name: three.js
-  description: A JavaScript 3D library
-  website_url: https://threejs.org/
-  version: 0.140.2
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Game Development
-  image_url: https://img.stackshare.io/service/5883/preview.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: hlassiege
-  last_updated_on: 2022-05-09 21:39:03.000000000 Z
 - name: "@typescript-eslint/eslint-plugin"
   description: TypeScript plugin for ESLint
   package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
@@ -141,10 +164,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-03-15 06:33:37.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: "@typescript-eslint/parser"
   description: An ESLint custom parser which leverages TypeScript ESTree
   package_url: https://www.npmjs.com/@typescript-eslint/parser
@@ -155,10 +178,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-03-15 06:33:37.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: csv-parse
   description: CSV parsing implementing the Node.js `stream.Transform` API
   package_url: https://www.npmjs.com/csv-parse
@@ -169,10 +192,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-03-15 06:33:37.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: eslint-config-prettier
   description: Turns off all rules that are unnecessary or might conflict with Prettier
   package_url: https://www.npmjs.com/eslint-config-prettier
@@ -183,10 +206,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-02-19 19:53:19.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: eslint-plugin-import
   description: Import with sanity
   package_url: https://www.npmjs.com/eslint-plugin-import
@@ -197,10 +220,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-02-19 19:53:19.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: eslint-plugin-prettier
   description: Runs prettier as an eslint rule
   package_url: https://www.npmjs.com/eslint-plugin-prettier
@@ -211,10 +234,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-02-19 19:53:19.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: eslint-plugin-vue
   description: Official ESLint plugin for Vue.js
   package_url: https://www.npmjs.com/eslint-plugin-vue
@@ -225,84 +248,35 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-02-19 19:53:19.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
 - name: nuxt
   description: A minimalistic framework for server-rendered Vue.js applications
   package_url: https://www.npmjs.com/nuxt
-  version: 3.2.2
+  version: 3.8.1
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-02-19 19:53:19.000000000 Z
-- name: postcss
-  description: Tool for transforming styles with JS plugins
-  package_url: https://www.npmjs.com/postcss
-  version: 8.4.21
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: Hugo Lassiège
-  last_updated_on: 2022-11-08 21:23:36.000000000 Z
-  vulnerabilities:
-  - name: PostCSS line return parsing error
-    cve_id: CVE-2023-44270
-    cve_url: https://github.com/advisories/GHSA-7fh5-64p2-3v2j
-    detected_date: Oct 4
-    severity: moderate
-    first_patched: 8.4.31
-- name: sass
-  description: A pure JavaScript implementation of Sass
-  package_url: https://www.npmjs.com/sass
-  version: 1.56.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: Hugo Lassiège
-  last_updated_on: 2022-11-08 21:23:36.000000000 Z
+  last_updated_on: 2023-11-12 13:09:50.000000000 Z
 - name: tailwindcss
   description: A utility-first CSS framework for rapidly building custom user interfaces
   package_url: https://www.npmjs.com/tailwindcss
-  version: 3.2.4
+  version: 3.3.5
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hlassiege/eventuallycoding/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: hlassiege
-  last_updated_on: 2023-01-22 17:49:00.000000000 Z
-- name: three
-  description: JavaScript 3D library
-  package_url: https://www.npmjs.com/three
-  version: 0.140.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: hlassiege
-  last_updated_on: 2022-05-09 21:39:03.000000000 Z
+  last_updated_on: 2023-11-12 12:50:32.000000000 Z
