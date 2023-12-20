@@ -1,35 +1,35 @@
 [
   {
     "url": "/2021/07/06/les-salaires-dans-la-tech",
-    "views": 16391
-  },
-  {
-    "url": "/2021/09/01/differences-entre-vp-engineering-et-cto",
-    "views": 6571
+    "views": 16432
   },
   {
     "url": "/",
-    "views": 5891
+    "views": 9365
+  },
+  {
+    "url": "/2021/09/01/differences-entre-vp-engineering-et-cto",
+    "views": 6714
   },
   {
     "url": "/2019/07/03/mongodb-vers-postgresql",
-    "views": 5282
+    "views": 5329
   },
   {
     "url": "/2014/10/07/le-10eme-homme",
-    "views": 4275
+    "views": 4330
   },
   {
     "url": "/2021/06/24/senior-avec-6-ans-dexperience-et-apres",
-    "views": 3436
-  },
-  {
-    "url": "",
-    "views": 3356
+    "views": 3486
   },
   {
     "url": "/2014/01/24/calculer-ses-revenus-entre-eurl-sasu-et-salariat",
-    "views": 2898
+    "views": 2954
+  },
+  {
+    "url": "/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries",
+    "views": 2912
   },
   {
     "url": "/2022/05/14/impact-de-la-crise-tech-sur-les-salaires",
@@ -37,131 +37,127 @@
   },
   {
     "url": "/2013/09/28/mongodb-utiliser-les-proprietes-de-vos-objectid-dans-vos-mapreduce",
-    "views": 2809
-  },
-  {
-    "url": "/2022/01/11/outil-de-calcul-de-revenus-pour-freelance-et-salaries",
-    "views": 2755
+    "views": 2845
   },
   {
     "url": "/2019/12/19/quest-ce-quun-ecosysteme-tech",
-    "views": 2536
+    "views": 2595
   },
   {
     "url": "/2021/06/14/pourquoi-le-sujet-nest-plus-dadopter-lagilite-mais-de-changer-de-culture-produit",
-    "views": 2423
+    "views": 2424
   },
   {
     "url": "/2010/05/11/calcul-de-la-velocite",
-    "views": 2321
+    "views": 2369
   },
   {
     "url": "/2022/01/31/que-fait-un-engineering-manager",
-    "views": 2154
+    "views": 2293
   },
   {
     "url": "/2021/05/03/cto-de-startup-a-scaleup",
-    "views": 2008
+    "views": 2022
   },
   {
     "url": "/2015/04/09/zuul",
-    "views": 2006
+    "views": 2012
   },
   {
     "url": "/blog",
-    "views": 1897
-  },
-  {
-    "url": "/2020/05/23/le-modele-spotify-un-echec-complet",
-    "views": 1656
+    "views": 1951
   },
   {
     "url": "/2023/02/measuring-everything",
-    "views": 1461
+    "views": 1789
   },
   {
-    "url": "/2011/07/07/utiliser-mockito-et-powermock",
-    "views": 1413
+    "url": "/2020/05/23/le-modele-spotify-un-echec-complet",
+    "views": 1665
   },
   {
     "url": "/2022/05/26/github-copilot",
-    "views": 1407
+    "views": 1430
+  },
+  {
+    "url": "/2011/07/07/utiliser-mockito-et-powermock",
+    "views": 1424
   },
   {
     "url": "/2021/10/07/faut-il-mesurer-la-performance-dune-equipe-engineering",
-    "views": 1126
+    "views": 1134
+  },
+  {
+    "url": "/2023/01/questions-startup",
+    "views": 1133
   },
   {
     "url": "/2014/03/06/recherche-textuelle-avec-mongodb",
-    "views": 1105
+    "views": 1133
   },
   {
     "url": "/2022/04/30/faut-il-etre-passionne-pour-reussir-dans-le-dev",
     "views": 1069
   },
   {
-    "url": "/2023/01/questions-startup",
-    "views": 1067
-  },
-  {
     "url": "/2010/11/28/introduction-aux-tests-unitaires-et-aux-bouchons-en-c-2",
-    "views": 1056
+    "views": 1068
   },
   {
     "url": "/2023/01/faut-il-reecrire-de-zero",
-    "views": 965
+    "views": 969
   },
   {
     "url": "/2010/11/28/bonnes-pratique-de-codage-en-c-2",
-    "views": 933
+    "views": 939
   },
   {
     "url": "/2022/12/on-va-tous-perdre-nos-jobs",
-    "views": 923
-  },
-  {
-    "url": "/2018/05/03/les-bases-de-linternationalisation",
-    "views": 763
+    "views": 926
   },
   {
     "url": "/about",
-    "views": 759
+    "views": 774
+  },
+  {
+    "url": "/2018/05/03/les-bases-de-linternationalisation",
+    "views": 769
   },
   {
     "url": "/2020/04/19/une-documentation-qui-vit",
-    "views": 747
+    "views": 749
   },
   {
     "url": "/2019/04/01/eviter-le-principe-de-peter-ou-levolution-du-dev-vers-le-dev",
-    "views": 724
+    "views": 733
   },
   {
     "url": "/2023/02/not-only-about-technique",
-    "views": 707
+    "views": 720
+  },
+  {
+    "url": "/2022/11/scrum-is-dead",
+    "views": 672
   },
   {
     "url": "/2022/11/twitter-thoughts",
     "views": 670
   },
   {
-    "url": "/2022/11/scrum-is-dead",
-    "views": 670
-  },
-  {
     "url": "/2015/05/05/microservice-la-decouverte-automatique-de-services",
-    "views": 639
+    "views": 642
   },
   {
     "url": "/2017/09/29/feature-branching-vs-feature-flipping",
-    "views": 623
+    "views": 636
   },
   {
     "url": "/2014/12/03/spring-boot-et-ansible-sont-sur-un-bateau",
-    "views": 617
+    "views": 620
   },
   {
     "url": "/2021/10/20/se-tenir-a-jour-dans-une-equipe-produit",
-    "views": 586
+    "views": 588
   },
   {
     "url": "/2020/07/20/rewrite-from-scratch",
@@ -169,11 +165,11 @@
   },
   {
     "url": "/2012/12/07/les-societes-cooperatives",
-    "views": 552
+    "views": 556
   },
   {
     "url": "/2013/11/05/comparaison-de-moteurs-de-base-de-donnees-pour-du-stockage-de-logs",
-    "views": 534
+    "views": 538
   },
   {
     "url": "/2022/04/04/cest-lhistoire-dun-side-project",
@@ -181,15 +177,15 @@
   },
   {
     "url": "/resources",
-    "views": 481
+    "views": 496
   },
   {
     "url": "/2022/05/04/spring-boot-et-vue-js-coderwatch-episode-4",
-    "views": 470
+    "views": 490
   },
   {
     "url": "/2011/09/20/18-mois-de-freelance-alors-quel-bilan",
-    "views": 450
+    "views": 457
   },
   {
     "url": "/2020/07/27/produit-versus-side-project",
@@ -197,27 +193,23 @@
   },
   {
     "url": "/2022/08/variable-salaries",
-    "views": 404
+    "views": 416
   },
   {
     "url": "/2020/09/21/les-metiers-de-lingenierie-informatique-vont-ils-disparaitre",
-    "views": 394
+    "views": 400
   },
   {
     "url": "/2019/05/28/le-teletravail-chez-malt",
-    "views": 367
+    "views": 371
   },
   {
     "url": "/2012/05/21/etes-vous-pompier-pyromane",
-    "views": 365
-  },
-  {
-    "url": "/en/2023/02/measuring-everything",
-    "views": 317
+    "views": 366
   },
   {
     "url": "/2011/04/12/principe-agile-avoir-un-rythme-soutenable",
-    "views": 314
+    "views": 321
   },
   {
     "url": "/2022/09/travailler-avec-contraintes",
@@ -225,23 +217,27 @@
   },
   {
     "url": "/2022/04/14/integration-et-dev-web-avec-bulma-vue-js-etc-coderwatch-episode-3",
-    "views": 303
+    "views": 305
   },
   {
     "url": "/2020/12/07/les-paralleles-entre-le-dessin-et-le-developpement",
-    "views": 299
+    "views": 300
   },
   {
-    "url": "/2023/01/migration-to-nuxt",
-    "views": 225
+    "url": "/2023/02/launching-impactful-software-engineering",
+    "views": 290
   },
   {
     "url": "/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3",
-    "views": 218
+    "views": 227
+  },
+  {
+    "url": "/2023/01/migration-to-nuxt",
+    "views": 226
   },
   {
     "url": "/2010/10/28/euh-lagilite-finalement-cest-pas-un-peu-une-secte-2",
-    "views": 214
+    "views": 218
   },
   {
     "url": "/2020/08/11/leconomie-des-tic",
@@ -256,16 +252,112 @@
     "views": 201
   },
   {
+    "url": "/2023/02/impactful-software-engineering",
+    "views": 200
+  },
+  {
+    "url": "/2023/11/chatgpt-to-the-rescue",
+    "views": 196
+  },
+  {
+    "url": "/2023/07/fighting-complexity",
+    "views": 54
+  },
+  {
+    "url": "/2023/10/planning-efficient-teams",
+    "views": 45
+  },
+  {
+    "url": "/2023/11/opportunity-solution-tree",
+    "views": 38
+  },
+  {
+    "url": "/2023/05/evolution-salaries-10-years",
+    "views": 32
+  },
+  {
+    "url": "/2023/10/cto-scaleup",
+    "views": 23
+  },
+  {
+    "url": "/2023/03/individual-impact",
+    "views": 16
+  },
+  {
+    "url": "/2023/05/alignment-autonomy-context",
+    "views": 11
+  },
+  {
+    "url": "/2023/05/engineering-leadership",
+    "views": 11
+  },
+  {
+    "url": "/2023/03/accept-boredom",
+    "views": 4
+  },
+  {
+    "url": "/2009/12/29/jouons",
+    "views": 2
+  },
+  {
+    "url": "/2012/04/22/devoxx-france-2012-jour-13",
+    "views": 2
+  },
+  {
+    "url": "/2014/03/20/mandrill-et-lutung-timeoff-xeme-journee",
+    "views": 2
+  },
+  {
+    "url": "/2012/03/10/la-quete-du-graal-avec-un-cure-dent",
+    "views": 2
+  },
+  {
+    "url": "/2011/10/04/faire-du-soft-sans-budget-nemrod-35",
+    "views": 1
+  },
+  {
+    "url": "/2010/07/07/prenez-garde-au-referentiel",
+    "views": 1
+  },
+  {
+    "url": "/2011/11/30/juste-un-cafe-ca-ira-merci",
+    "views": 1
+  },
+  {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-34",
+    "views": 1
+  },
+  {
+    "url": "/2011/10/06/nemrod-et-play-framework-love-story-nemrod-55",
+    "views": 1
+  },
+  {
+    "url": "/2012/04/23/devoxx-france-2012-jour-33",
+    "views": 1
+  },
+  {
+    "url": "/Path",
+    "views": null
+  },
+  {
+    "url": "/2023/06/comparaison-salaires-france-us",
+    "views": 440
+  },
+  {
+    "url": "/2023/11/idp",
+    "views": 194
+  },
+  {
     "url": "/2020/08/03/leurope-entre-le-marteau-chinois-et-lenclume-us",
     "views": 191
   },
   {
-    "url": "/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate",
+    "url": "/2023/03/amenez-ingenieurs-dans-la-salle",
     "views": 185
   },
   {
-    "url": "/2023/03/amenez-ingenieurs-dans-la-salle",
-    "views": 184
+    "url": "/2022/04/08/coderwatch-episode-2-design-avec-figma-et-procreate",
+    "views": 185
   },
   {
     "url": "/2016/03/07/connecteur-mongo-postgresql",
@@ -280,12 +372,8 @@
     "views": 177
   },
   {
-    "url": "/en/2023/02/launching-impactful-software-engineering",
-    "views": 173
-  },
-  {
     "url": "/2015/01/26/curseurs-et-mongodb",
-    "views": 171
+    "views": 174
   },
   {
     "url": "/2011/10/03/comment-valoriser-une-idee-nemrod-25",
@@ -293,7 +381,7 @@
   },
   {
     "url": "/2013/03/18/lateral-thinking",
-    "views": 159
+    "views": 166
   },
   {
     "url": "/2020/08/07/bataille-autour-des-donnees-et-du-cloud",
@@ -305,11 +393,11 @@
   },
   {
     "url": "/2015/04/13/micro-services-la-composition-de-page-avec-zuul-et-sitemesh",
-    "views": 148
+    "views": 152
   },
   {
     "url": "/2013/11/27/principe-de-peter-et-corollaire-darchimede",
-    "views": 147
+    "views": 151
   },
   {
     "url": "/2013/08/12/travailler-autrement",
@@ -325,71 +413,71 @@
   },
   {
     "url": "/2015/01/19/tarif-des-developpeurs-freelances",
-    "views": 116
-  },
-  {
-    "url": "/2023/02/impactful-software-engineering",
-    "views": 113
-  },
-  {
-    "url": "/2023/02/launching-impactful-software-engineering",
-    "views": 112
+    "views": 117
   },
   {
     "url": "/2018/08/04/jen-ai-un-peu-ma-claque-du-startup-bashing",
-    "views": 108
-  },
-  {
-    "url": "/2013/09/09/serment-dhypocrite",
-    "views": 105
+    "views": 110
   },
   {
     "url": "/2014/05/09/paas-or-not-paas-that-is-the-question",
-    "views": 102
+    "views": 107
+  },
+  {
+    "url": "/2013/09/09/serment-dhypocrite",
+    "views": 106
   },
   {
     "url": "/2015/12/22/vers-linfini-et-au-dela",
     "views": 102
   },
   {
+    "url": "/2023/03/being-in-the-room",
+    "views": 98
+  },
+  {
+    "url": "/2014/07/23/monit-pour-monitorer-vos-serveurs",
+    "views": 98
+  },
+  {
+    "url": "/2014/01/24/maintenir-vos-donnees-avec-mongeez",
+    "views": 98
+  },
+  {
     "url": "/2010/01/28/lets-swing",
     "views": 97
   },
   {
-    "url": "/2014/07/23/monit-pour-monitorer-vos-serveurs",
-    "views": 97
-  },
-  {
-    "url": "/en/2023/03/being-in-the-room",
-    "views": 96
-  },
-  {
-    "url": "/2014/01/24/maintenir-vos-donnees-avec-mongeez",
-    "views": 96
+    "url": "/2023/03/choisissez-vos-batailles",
+    "views": 95
   },
   {
     "url": "/2016/06/16/recruter-futurs-pairs-autour-dun-verre",
     "views": 89
   },
   {
-    "url": "/2023/03/choisissez-vos-batailles",
-    "views": 88
-  },
-  {
-    "url": "/en/2023/03/choose-your-battles",
-    "views": 83
+    "url": "/2023/03/choose-your-battles",
+    "views": 86
   },
   {
     "url": "/2009/10/28/creer-des-fichiers-excel-avec-des-caracteres-chinois-en-java",
     "views": 82
   },
   {
-    "url": "/en/2023/02/impactful-software-engineering",
-    "views": 76
+    "url": "/speaking",
+    "views": 74
   },
   {
     "url": "/2014/09/30/freelance-salarie-les-chiffres",
+    "views": 72
+  },
+  {
+    "url": "/2022/04/04/this-is-the-story-of-a-side-project",
     "views": 71
+  },
+  {
+    "url": "/08/variable-salaries",
+    "views": 67
   },
   {
     "url": "/2018/05/26/we-are-not-done-yet",
@@ -400,24 +488,16 @@
     "views": 66
   },
   {
-    "url": "/2022/04/04/this-is-the-story-of-a-side-project",
-    "views": 65
-  },
-  {
     "url": "/2013/08/21/fabric-vagrant",
     "views": 63
   },
   {
-    "url": "/speaking",
-    "views": 59
-  },
-  {
     "url": "/2022/04/08/coderwatch-episode-2-design-with-figma-and-procreate",
-    "views": 57
+    "views": 61
   },
   {
     "url": "/2010/10/19/reussir-une-transition-agile-pas-si-simple",
-    "views": 57
+    "views": 58
   },
   {
     "url": "/2013/07/20/eventual-coder",
@@ -425,7 +505,7 @@
   },
   {
     "url": "/2013/08/16/fabric-moi-un-cluster",
-    "views": 47
+    "views": 48
   },
   {
     "url": "/2012/07/01/wecodelikestars-com",
@@ -436,16 +516,16 @@
     "views": 43
   },
   {
-    "url": "/08/variable-salaries",
-    "views": 40
-  },
-  {
     "url": "/2016/03/14/les-levees-de-fond-en-startup",
     "views": 40
   },
   {
+    "url": "/fr",
+    "views": 39
+  },
+  {
     "url": "/2016/05/19/recrutements-et-pensees-diverses-2",
-    "views": 37
+    "views": 38
   },
   {
     "url": "/2011/03/23/java-vs-c-la-gestion-des-exceptions",
@@ -456,8 +536,8 @@
     "views": 33
   },
   {
-    "url": "//2022/08/variable-salaries",
-    "views": 27
+    "url": "/index.php/calculer-ses-revenus-entre-eurl-sasu-et-salariat",
+    "views": 28
   },
   {
     "url": "/2016/07/08/embaucher-en-startup",
@@ -472,10 +552,6 @@
     "views": 25
   },
   {
-    "url": "/en/2023/01/questions-startup",
-    "views": 24
-  },
-  {
     "url": "/2014/03/17/ansible-timeoff-lt-1ere-journee",
     "views": 24
   },
@@ -484,16 +560,12 @@
     "views": 23
   },
   {
-    "url": "/index.php/calculer-ses-revenus-entre-eurl-sasu-et-salariat",
+    "url": "/index.php/mongodb-vers-postgresql",
     "views": 22
   },
   {
     "url": "/2010/05/25/linformaticien-un-artisan-ou-pas",
     "views": 22
-  },
-  {
-    "url": "/index.php/mongodb-vers-postgresql",
-    "views": 21
   },
   {
     "url": "/2010/03/16/jai-lu-pour-vous-scrum-le-guide-pratique-de-la-methode-agile-la-plus-populaire",
@@ -504,16 +576,12 @@
     "views": 19
   },
   {
-    "url": "/2014/06/03/tu-fais-quoi-dans-la-vie",
+    "url": "/2012/10/08/pragmatic-programmer",
     "views": 17
   },
   {
-    "url": "/fr",
-    "views": 16
-  },
-  {
-    "url": "/2012/10/08/pragmatic-programmer",
-    "views": 16
+    "url": "/2014/06/03/tu-fais-quoi-dans-la-vie",
+    "views": 17
   },
   {
     "url": "/2013/12/08/on-devrait-toujours-travailler-comme-ca-bis",
@@ -544,7 +612,11 @@
     "views": 14
   },
   {
-    "url": "/en/2023/02/not-only-about-technique",
+    "url": "/2023/02/staffeng.com",
+    "views": 13
+  },
+  {
+    "url": "/fr/blog",
     "views": 12
   },
   {
@@ -556,16 +628,8 @@
     "views": 12
   },
   {
-    "url": "/fr/blog",
-    "views": 11
-  },
-  {
     "url": "/2013/01/26/dis-tonton-pourquoi-tu-tousses",
     "views": 11
-  },
-  {
-    "url": "/en/2023/02/staffeng.com",
-    "views": 10
   },
   {
     "url": "/index.php/feed",
@@ -588,6 +652,10 @@
     "views": 9
   },
   {
+    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-24",
+    "views": 9
+  },
+  {
     "url": "/2018/10/10/blendwebmix-2018",
     "views": 9
   },
@@ -604,27 +672,19 @@
     "views": 8
   },
   {
-    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-24",
+    "url": "/2010/08/16/jai-lu-pour-vous-programmation-concurrente-en-java",
     "views": 8
   },
   {
-    "url": "/2010/08/16/jai-lu-pour-vous-programmation-concurrente-en-java",
-    "views": 8
+    "url": "/index.php/le-10eme-homme",
+    "views": 7
   },
   {
     "url": "/2014/03/27/mongodb-covered-query",
     "views": 7
   },
   {
-    "url": "/en/2022/04/04/this-is-the-story-of-a-side-project",
-    "views": 6
-  },
-  {
     "url": "/index.php/lateral-thinking",
-    "views": 6
-  },
-  {
-    "url": "/index.php/le-10eme-homme",
     "views": 6
   },
   {
@@ -640,7 +700,7 @@
     "views": 6
   },
   {
-    "url": "/en/2023/02/being-in-the-room",
+    "url": "/2023/02/being-in-the-room",
     "views": 5
   },
   {
@@ -684,10 +744,6 @@
     "views": 4
   },
   {
-    "url": "/en/2022/04/14/integration-and-web-development-with-bulma-vue-js-etc-coderwatch-episode-3",
-    "views": 4
-  },
-  {
     "url": "/2012/11/11/nosql-4-bases-a-la-loupe-44",
     "views": 4
   },
@@ -696,7 +752,7 @@
     "views": 4
   },
   {
-    "url": "/2011/02/03/java-vs-c-les-parametres-nommes-et-optionnels-en-c-2",
+    "url": "/2023/02/null",
     "views": 4
   },
   {
@@ -708,16 +764,16 @@
     "views": 4
   },
   {
+    "url": "/2011/02/03/java-vs-c-les-parametres-nommes-et-optionnels-en-c-2",
+    "views": 4
+  },
+  {
     "url": "/2011/07/23/maven-anneau-de-sauron-ou-couteau-suisse",
     "views": 4
   },
   {
     "url": "/2011/03/29/eviter-les-conflits-de-nom-dans-les-interfaces-en-c",
     "views": 4
-  },
-  {
-    "url": "/2023/02/staffeng.com",
-    "views": 3
   },
   {
     "url": "/index.php/le-teletravail-chez-malt",
@@ -728,11 +784,11 @@
     "views": 3
   },
   {
-    "url": "/2011/03/18/java-vs-c-les-property-en-c",
+    "url": "/2012/01/05/devoxx-france-quicky-not-dirty",
     "views": 3
   },
   {
-    "url": "/2012/01/05/devoxx-france-quicky-not-dirty",
+    "url": "/2011/03/18/java-vs-c-les-property-en-c",
     "views": 3
   },
   {
@@ -772,10 +828,6 @@
     "views": 2
   },
   {
-    "url": "/2023/02/null",
-    "views": 2
-  },
-  {
     "url": "/blog/feed",
     "views": 2
   },
@@ -804,15 +856,11 @@
     "views": 2
   },
   {
-    "url": "/en/2023/02/null",
-    "views": 2
-  },
-  {
     "url": "/index.php/dis-tonton-pourquoi-tu-tousses",
     "views": 2
   },
   {
-    "url": "/tag/cours",
+    "url": "/2023/02/www.malt.com",
     "views": 2
   },
   {
@@ -824,6 +872,10 @@
     "views": 2
   },
   {
+    "url": "/tag/cours",
+    "views": 2
+  },
+  {
     "url": "/2011/06/20/orion-ou-comment-passer-son-ide-dans-le-cloud",
     "views": 2
   },
@@ -832,31 +884,11 @@
     "views": 2
   },
   {
-    "url": "/2009/12/29/jouons",
-    "views": 2
-  },
-  {
-    "url": "/2012/04/22/devoxx-france-2012-jour-13",
-    "views": 2
-  },
-  {
-    "url": "/2014/03/20/mandrill-et-lutung-timeoff-xeme-journee",
-    "views": 2
-  },
-  {
-    "url": "/2012/03/10/la-quete-du-graal-avec-un-cure-dent",
-    "views": 2
-  },
-  {
     "url": "/20ez",
     "views": 1
   },
   {
     "url": "/2",
-    "views": 1
-  },
-  {
-    "url": "/en/2023/02/www.malt.com",
     "views": 1
   },
   {
@@ -984,27 +1016,27 @@
     "views": 1
   },
   {
-    "url": "/2011/10/04/faire-du-soft-sans-budget-nemrod-35",
+    "url": "/2022/09/working-with-constraints",
     "views": 1
   },
   {
-    "url": "/2010/07/07/prenez-garde-au-referentiel",
+    "url": "/fr/2023/05/engineering-leadership",
     "views": 1
   },
   {
-    "url": "/2011/11/30/juste-un-cafe-ca-ira-merci",
+    "url": "/fr/2023/11/chatgpt-to-the-rescue",
     "views": 1
   },
   {
-    "url": "/2012/11/11/nosql-4-bases-a-la-loupe-34",
+    "url": "/index.php/comparaison-de-moteurs-de-base-de-donnees-pour-du-stockage-de-logs",
     "views": 1
   },
   {
-    "url": "/2011/10/06/nemrod-et-play-framework-love-story-nemrod-55",
+    "url": "/index.php/exploiter-les-donnees-dhopwork-avec-neo4j-timeoff-2nd-journee",
     "views": 1
   },
   {
-    "url": "/2012/04/23/devoxx-france-2012-jour-33",
+    "url": "/index.php/lets-swing",
     "views": 1
   }
 ]
