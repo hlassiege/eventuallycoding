@@ -15,6 +15,19 @@
                     />
                 </a>
                 <a
+                    aria-label="Open Youtube profile"
+                    class="text-sm text-gray-500 transition hover:text-gray-600"
+                    target="_blank"
+                    rel="me"
+                    :href="siteMetadata.youtube"
+                    ><span class="sr-only">Mastodon</span>
+                    <img
+                        alt="Icon for Youtube"
+                        class="transition-transform hover:scale-110 w-8 h-8"
+                        src="~assets/icon/youtube.svg"
+                    />
+                </a>
+                <a
                     aria-label="Open Mastodon profile"
                     class="text-sm text-gray-500 transition hover:text-gray-600"
                     target="_blank"

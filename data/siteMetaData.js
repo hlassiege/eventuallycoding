@@ -11,6 +11,7 @@ const siteMetadata = {
     theme: "system", // system, dark or light
     siteUrl: "https://eventuallycoding.com/",
     mastodon: "https://piaille.fr/@hugolassiege",
+    youtube: "https://youtube.com/@eventuallycoding",
     github: "https://github.com/hlassiege",
     githubUser: "hlassiege",
     githubContentUrlInRepo:
