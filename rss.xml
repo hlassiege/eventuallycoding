@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Wed, 20 Dec 2023 14:56:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 08:15:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bilan 2023]]></title>
+            <link>https://eventuallycoding.com/2023/12/2023-review</link>
+            <guid>https://eventuallycoding.com/2023/12/2023-review</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Voyons quelques chiffres ensemble sur ce qui s'est passé sur eventuallycoding en 2023]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2023 review]]></title>
+            <link>https://eventuallycoding.com/en/2023/12/2023-review</link>
+            <guid>https://eventuallycoding.com/en/2023/12/2023-review</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Let's look at some figures together on what happened on eventuallycoding in 2023]]></description>
         </item>
         <item>
             <title><![CDATA[Youtube ? Challenge accepted]]></title>
