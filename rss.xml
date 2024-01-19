@@ -4,15 +4,29 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Thu, 21 Dec 2023 08:15:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 07:51:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>All rights reserved 2023, Eventually coding</copyright>
+        <copyright>All rights reserved 2024, Eventually coding</copyright>
         <item>
             <title><![CDATA[Stats]]></title>
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Il n'y a pas de compromis]]></title>
+            <link>https://eventuallycoding.com/2024/01/no-compromise</link>
+            <guid>https://eventuallycoding.com/2024/01/no-compromise</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pourquoi votre bagage et vos méthodes ne marchent pas toujours en entreprise. C'est quoi le culture fit ?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[There is no compromise]]></title>
+            <link>https://eventuallycoding.com/en/2024/01/no-compromise</link>
+            <guid>https://eventuallycoding.com/en/2024/01/no-compromise</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Why your experience and methods don't always work in all companies. What is culture fit?]]></description>
         </item>
         <item>
             <title><![CDATA[Bilan 2023]]></title>
