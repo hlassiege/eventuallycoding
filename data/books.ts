@@ -118,6 +118,7 @@ const tocEn = [
             },
             {
                 title: "Tech Lead Vs/And Engineering Manager",
+                link: "https://eventuallycoding.com/en/2024/01/tech-lead-engineering-manager",
             },
             {
                 title: "What does an engineering manager do?",
@@ -244,6 +245,7 @@ const tocFr = [
             },
             {
                 title: "Tech Lead Vs/et Engineering Manager",
+                link: "https://eventuallycoding.com/2024/01/tech-lead-engineering-manager",
             },
             {
                 title: "Que fait un engineering Manager?",
