@@ -6,6 +6,8 @@ tags: []
 date: "2024-01-24"
 cover: "/tech-lead-engineering-manager/starlord-gamora.jpg"
 
+book: "impactfulSoftwareEngineering"
+
 language: "en"
 alternates:
     - fr: "/2024/01/tech-lead-engineering-manager"
@@ -161,3 +163,8 @@ But above all, if you're not involved in a discussion, but your engineering mana
 - [the division of labor between tech lead and EM on engineeringladders.com](https://www.engineeringladders.com/TechLead-EngineeringManager.html)
 
 - [engineering/manager pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/) from Charity Majors
+
+::tip
+This blog post is part of the book [Impactful Software Engineering](/en/2023/02/impactful-software-engineering).
+Feel free to read the other chapters.
+::
