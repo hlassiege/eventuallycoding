@@ -4,7 +4,7 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Fri, 19 Jan 2024 07:51:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 08:19:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2024, Eventually coding</copyright>
@@ -13,6 +13,20 @@
             <link>https://eventuallycoding.com/analytics/stats</link>
             <guid>https://eventuallycoding.com/analytics/stats</guid>
             <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tech Lead Vs or with Engineering Manager]]></title>
+            <link>https://eventuallycoding.com/2024/01/tech-lead-engineering-manager</link>
+            <guid>https://eventuallycoding.com/2024/01/tech-lead-engineering-manager</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Comment créer un duo Tech Lead/Engineering Manager qui fasse office de catalyseur de changement ?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tech Lead Vs or with Engineering Manager]]></title>
+            <link>https://eventuallycoding.com/en/2024/01/tech-lead-engineering-manager</link>
+            <guid>https://eventuallycoding.com/en/2024/01/tech-lead-engineering-manager</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to create a Tech Lead/Engineering Manager duo that acts as a catalyst for change]]></description>
         </item>
         <item>
             <title><![CDATA[Il n'y a pas de compromis]]></title>
