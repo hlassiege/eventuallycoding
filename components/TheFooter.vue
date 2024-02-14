@@ -20,7 +20,7 @@
                     target="_blank"
                     rel="me"
                     :href="siteMetadata.youtube"
-                    ><span class="sr-only">Mastodon</span>
+                    ><span class="sr-only">Youtube</span>
                     <img
                         alt="Icon for Youtube"
                         class="transition-transform hover:scale-110 w-8 h-8"
