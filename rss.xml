@@ -4,16 +4,10 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Thu, 25 Jan 2024 08:19:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Feb 2024 13:03:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2024, Eventually coding</copyright>
-        <item>
-            <title><![CDATA[Stats]]></title>
-            <link>https://eventuallycoding.com/analytics/stats</link>
-            <guid>https://eventuallycoding.com/analytics/stats</guid>
-            <pubDate>Invalid Date</pubDate>
-        </item>
         <item>
             <title><![CDATA[Tech Lead Vs or with Engineering Manager]]></title>
             <link>https://eventuallycoding.com/2024/01/tech-lead-engineering-manager</link>
