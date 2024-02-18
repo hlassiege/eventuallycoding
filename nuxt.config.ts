@@ -19,6 +19,16 @@ export default defineNuxtConfig({
         },
     },
 
+    runtimeConfig: {
+        public: {
+            newsletter: {
+                enabled: true,
+                form_action:
+                    "https://assets.mailerlite.com/jsonp/824357/forms/113155364217685975/subscribe",
+            },
+        },
+    },
+
     css: ["@/assets/css/main.css", "@/assets/scss/main.scss"],
     modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxt/image"],
     image: {
@@ -33,6 +43,11 @@ export default defineNuxtConfig({
     nitro: {
         prerender: {
             routes: ["/sitemap.xml", "/rss.xml"],
+        },
+    },
+    vue: {
+        compilerOptions: {
+            isCustomElement: (tag) => ["hyvor-talk-comments"].includes(tag),
         },
     },
 });
