@@ -4,10 +4,24 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Sun, 18 Feb 2024 15:09:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Feb 2024 17:38:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2024, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Lancement de Bloggr]]></title>
+            <link>https://eventuallycoding.com/2024/02/launch-bloggr</link>
+            <guid>https://eventuallycoding.com/2024/02/launch-bloggr</guid>
+            <pubDate>Mon, 19 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un template de blog personnel pour Blog pour démarrer rapidement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Launching Bloggr]]></title>
+            <link>https://eventuallycoding.com/en/2024/02/launch-bloggr</link>
+            <guid>https://eventuallycoding.com/en/2024/02/launch-bloggr</guid>
+            <pubDate>Mon, 19 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A personal blog template for Bloggr to get started quickly]]></description>
+        </item>
         <item>
             <title><![CDATA[Profiter de son flux RSS pour créer une newsletter]]></title>
             <link>https://eventuallycoding.com/2024/02/add-newsletter-static-website</link>
