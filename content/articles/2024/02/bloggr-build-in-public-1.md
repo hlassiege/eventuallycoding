@@ -7,8 +7,6 @@ date: "2024-02-28"
 cover: "/bloggr-build-in-public-1/thumbnail.jpg"
 
 language: "fr"
-alternates:
-    - en: "/en/2024/02/bloggr-build-in-public-1"
 
 ---
 
