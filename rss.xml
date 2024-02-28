@@ -4,10 +4,17 @@
         <title>Eventually coding</title>
         <link>https://eventuallycoding.com</link>
         <description>Speaking about the stuff I do, product, efficiency, tech stack and more.</description>
-        <lastBuildDate>Mon, 19 Feb 2024 17:38:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Feb 2024 18:03:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2024, Eventually coding</copyright>
+        <item>
+            <title><![CDATA[Comment j'ai atteint 100 vues par jour en une semaine - Build in public #1]]></title>
+            <link>https://eventuallycoding.com/2024/02/bloggr-build-in-public-1</link>
+            <guid>https://eventuallycoding.com/2024/02/bloggr-build-in-public-1</guid>
+            <pubDate>Wed, 28 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Comment j'ai atteint 100 vues par jour en une semaine au lancement de Bloggr]]></description>
+        </item>
         <item>
             <title><![CDATA[Lancement de Bloggr]]></title>
             <link>https://eventuallycoding.com/2024/02/launch-bloggr</link>
