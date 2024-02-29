@@ -2,7 +2,7 @@ repo_name: hlassiege/eventuallycoding
 report_id: 0c28c2db5ceedd2fa5b41c5047483784
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:51:29+00:00'
+timestamp: '2024-02-29T18:38:13+00:00'
 requested_by: hlassiege
 provider: github
 branch: master
@@ -141,7 +141,7 @@ tools:
   last_updated_by: hlassiege
   last_updated_on: 2022-05-09 21:20:48.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.4
   license: MIT
